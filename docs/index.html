@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIF - PIB Press Release Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #f0f4f8;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+            color: white;
+            padding: 1.25rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .header h1 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .header h1 .badge {
+            background: #f59e0b;
+            color: #1e3a5f;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        .header-meta {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 0.85rem;
+        }
+
+        .refresh-btn {
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.3);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }
+
+        .refresh-btn:hover {
+            background: rgba(255,255,255,0.25);
+        }
+
+        /* Filter Bar */
+        .filter-bar {
+            background: white;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            position: sticky;
+            top: 70px;
+            z-index: 90;
+        }
+
+        .filter-bar-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .filter-row {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+
+        .filter-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .filter-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #64748b;
+            text-transform: uppercase;
+            margin-right: 0.5rem;
+            min-width: 70px;
+        }
+
+        .filter-btn {
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 2px solid #e2e8f0;
+            background: white;
+            color: #475569;
+        }
+
+        .filter-btn:hover {
+            border-color: #cbd5e1;
+            background: #f8fafc;
+        }
+
+        .filter-btn.active {
+            color: white;
+            border-color: transparent;
+        }
+
+        .filter-btn .count {
+            background: rgba(255,255,255,0.3);
+            padding: 0.1rem 0.4rem;
+            border-radius: 10px;
+            font-size: 0.7rem;
+            margin-left: 0.3rem;
+        }
+
+        .filter-btn:not(.active) .count {
+            background: #e2e8f0;
+            color: #64748b;
+        }
+
+        /* Region Dropdown */
+        .region-select {
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            border: 2px solid #e2e8f0;
+            background: white;
+            color: #475569;
+            cursor: pointer;
+            min-width: 160px;
+        }
+
+        /* Stats */
+        .stats-row {
+            display: flex;
+            gap: 1.5rem;
+            margin-left: auto;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+
+        .stat {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        .stat-num {
+            font-weight: 700;
+            color: #1e3a5f;
+            font-size: 1rem;
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem 3rem;
+        }
+
+        /* Cards */
+        .cards-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+            transition: all 0.2s;
+            border-left: 4px solid #e2e8f0;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateY(-1px);
+        }
+
+        .card-body {
+            padding: 1.25rem;
+        }
+
+        .card-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+
+        .card-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .card-title a:hover {
+            color: #2563eb;
+        }
+
+        .card-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .tag {
+            padding: 0.25rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        .tag-vertical {
+            color: white;
+        }
+
+        .tag-region {
+            background: #f1f5f9;
+            color: #475569;
+        }
+
+        .tag-time {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .card-summary {
+            font-size: 0.875rem;
+            color: #64748b;
+            margin-bottom: 1rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .card-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 0.5rem 0.9rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            transition: all 0.2s;
+            border: none;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background: #2563eb;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #1d4ed8;
+        }
+
+        .btn-secondary {
+            background: #f1f5f9;
+            color: #475569;
+        }
+
+        .btn-secondary:hover {
+            background: #e2e8f0;
+        }
+
+        .btn-copy.copied {
+            background: #22c55e;
+            color: white;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: #64748b;
+            background: white;
+            border-radius: 12px;
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 4rem;
+            color: #64748b;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #e2e8f0;
+            border-top-color: #2563eb;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: #1e293b;
+            color: white;
+            padding: 0.75rem 1.25rem;
+            border-radius: 8px;
+            font-size: 0.875rem;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header {
+                padding: 1rem;
+            }
+            
+            .header h1 {
+                font-size: 1.1rem;
+            }
+            
+            .filter-bar {
+                padding: 1rem;
+                top: 60px;
+            }
+            
+            .filter-row {
+                gap: 0.4rem;
+            }
+            
+            .filter-btn {
+                padding: 0.4rem 0.75rem;
+                font-size: 0.75rem;
+            }
+            
+            .stats-row {
+                display: none;
+            }
+            
+            .main-content {
+                padding: 1rem;
+            }
+            
+            .card-actions {
+                flex-direction: column;
+            }
+            
+            .btn {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <h1>
+                🏛️ PIB Press Releases
+                <span class="badge">PIF Tracker</span>
+            </h1>
+            <div class="header-meta">
+                <span id="lastUpdated">Loading...</span>
+                <button class="refresh-btn" onclick="loadData()">🔄 Refresh</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+        <div class="filter-bar-inner">
+            <div class="filter-row">
+                <span class="filter-label">Vertical:</span>
+                <button class="filter-btn active" data-vertical="all" onclick="filterVertical('all')" style="background:#475569;color:white;">
+                    All <span class="count" id="countAll">0</span>
+                </button>
+                <button class="filter-btn" data-vertical="EooDB" onclick="filterVertical('EooDB')">
+                    EooDB <span class="count" id="countEooDB">0</span>
+                </button>
+                <button class="filter-btn" data-vertical="CoDED" onclick="filterVertical('CoDED')">
+                    CoDED <span class="count" id="countCoDED">0</span>
+                </button>
+                <button class="filter-btn" data-vertical="iLEAP" onclick="filterVertical('iLEAP')">
+                    iLEAP <span class="count" id="countiLEAP">0</span>
+                </button>
+                <button class="filter-btn" data-vertical="Political_Economy" onclick="filterVertical('Political_Economy')">
+                    Pol. Economy <span class="count" id="countPolitical_Economy">0</span>
+                </button>
+                <button class="filter-btn" data-vertical="Jobs_Livelihood" onclick="filterVertical('Jobs_Livelihood')">
+                    Jobs <span class="count" id="countJobs_Livelihood">0</span>
+                </button>
+                <button class="filter-btn" data-vertical="Sustainability" onclick="filterVertical('Sustainability')">
+                    Sustainability <span class="count" id="countSustainability">0</span>
+                </button>
+            </div>
+            <div class="filter-row">
+                <span class="filter-label">Region:</span>
+                <select class="region-select" id="regionSelect" onchange="filterRegion(this.value)">
+                    <option value="all">All Regions</option>
+                </select>
+                
+                <div class="stats-row">
+                    <div class="stat">
+                        <span class="stat-num" id="statTotal">0</span> total
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num" id="statShowing">0</span> showing
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="cards-list" id="cardsList">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Loading press releases...</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Toast -->
+    <div class="toast" id="toast"></div>
+
+    <script>
+        let data = null;
+        let selectedVertical = 'all';
+        let selectedRegion = 'all';
+
+        const VERTICAL_COLORS = {
+            "EooDB": "#E8620A",
+            "CoDED": "#2471A3",
+            "iLEAP": "#C0392B",
+            "Political_Economy": "#117A65",
+            "Jobs_Livelihood": "#7D3C98",
+            "Sustainability": "#1E8449",
+            "Other": "#64748b"
+        };
+
+        // Load data
+        async function loadData() {
+            try {
+                const response = await fetch('pib.json?' + Date.now());
+                data = await response.json();
+                
+                document.getElementById('lastUpdated').textContent = data.last_updated_ist;
+                
+                populateRegions();
+                updateCounts();
+                renderCards();
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('cardsList').innerHTML = `
+                    <div class="empty-state">
+                        <p>⚠️ Error loading data. Please refresh.</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Populate region dropdown
+        function populateRegions() {
+            const select = document.getElementById('regionSelect');
+            const regionCounts = {};
+            
+            data.articles.forEach(art => {
+                regionCounts[art.region] = (regionCounts[art.region] || 0) + 1;
+            });
+            
+            // Sort by count
+            const sorted = Object.entries(regionCounts).sort((a, b) => b[1] - a[1]);
+            
+            select.innerHTML = '<option value="all">All Regions (' + data.articles.length + ')</option>';
+            sorted.forEach(([region, count]) => {
+                select.innerHTML += `<option value="${region}">${region} (${count})</option>`;
+            });
+        }
+
+        // Update counts
+        function updateCounts() {
+            const counts = { all: data.articles.length };
+            
+            Object.keys(VERTICAL_COLORS).forEach(v => {
+                counts[v] = 0;
+            });
+            
+            data.articles.forEach(art => {
+                art.verticals.forEach(v => {
+                    counts[v] = (counts[v] || 0) + 1;
+                });
+            });
+            
+            document.getElementById('countAll').textContent = counts.all;
+            document.getElementById('countEooDB').textContent = counts.EooDB || 0;
+            document.getElementById('countCoDED').textContent = counts.CoDED || 0;
+            document.getElementById('countiLEAP').textContent = counts.iLEAP || 0;
+            document.getElementById('countPolitical_Economy').textContent = counts.Political_Economy || 0;
+            document.getElementById('countJobs_Livelihood').textContent = counts.Jobs_Livelihood || 0;
+            document.getElementById('countSustainability').textContent = counts.Sustainability || 0;
+            
+            document.getElementById('statTotal').textContent = data.articles.length;
+        }
+
+        // Filter by vertical
+        function filterVertical(vertical) {
+            selectedVertical = vertical;
+            
+            // Update button states
+            document.querySelectorAll('.filter-btn[data-vertical]').forEach(btn => {
+                const v = btn.dataset.vertical;
+                if (v === vertical) {
+                    btn.classList.add('active');
+                    const color = v === 'all' ? '#475569' : VERTICAL_COLORS[v];
+                    btn.style.background = color;
+                    btn.style.color = 'white';
+                    btn.style.borderColor = 'transparent';
+                } else {
+                    btn.classList.remove('active');
+                    btn.style.background = 'white';
+                    btn.style.color = '#475569';
+                    btn.style.borderColor = '#e2e8f0';
+                }
+            });
+            
+            renderCards();
+        }
+
+        // Filter by region
+        function filterRegion(region) {
+            selectedRegion = region;
+            renderCards();
+        }
+
+        // Get filtered articles
+        function getFiltered() {
+            return data.articles.filter(art => {
+                const matchV = selectedVertical === 'all' || art.verticals.includes(selectedVertical);
+                const matchR = selectedRegion === 'all' || art.region === selectedRegion;
+                return matchV && matchR;
+            });
+        }
+
+        // Render cards
+        function renderCards() {
+            const container = document.getElementById('cardsList');
+            const filtered = getFiltered();
+            
+            document.getElementById('statShowing').textContent = filtered.length;
+            
+            if (filtered.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <h3>📭 No press releases found</h3>
+                        <p style="margin-top:0.5rem;">Try changing filters or check back later.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            container.innerHTML = filtered.map(art => {
+                const pv = art.primary_vertical;
+                const color = VERTICAL_COLORS[pv] || VERTICAL_COLORS.Other;
+                const label = data.verticals[pv]?.label || pv;
+                
+                return `
+                    <div class="card" style="border-left-color: ${color};">
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                <a href="${art.url}" target="_blank">${art.title}</a>
+                            </h3>
+                            <div class="card-meta">
+                                <span class="tag tag-vertical" style="background:${color};">${label}</span>
+                                <span class="tag tag-region">📍 ${art.region}</span>
+                                <span class="tag tag-time">🕐 ${art.relative_time}</span>
+                            </div>
+                            ${art.summary ? `<p class="card-summary">${art.summary}</p>` : ''}
+                            <div class="card-actions">
+                                <a href="${art.url}" target="_blank" class="btn btn-primary">📖 Read Full</a>
+                                <button class="btn btn-secondary" onclick="printPage('${art.url}')">📥 Print/PDF</button>
+                                <button class="btn btn-secondary btn-copy" onclick="copyLink('${art.url}', this)">🔗 Copy Link</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Print page
+        function printPage(url) {
+            window.open(url, '_blank');
+            showToast('Opening page - use Ctrl+P to print/save as PDF');
+        }
+
+        // Copy link
+        function copyLink(url, btn) {
+            navigator.clipboard.writeText(url).then(() => {
+                btn.classList.add('copied');
+                btn.innerHTML = '✓ Copied!';
+                showToast('Link copied!');
+                setTimeout(() => {
+                    btn.classList.remove('copied');
+                    btn.innerHTML = '🔗 Copy Link';
+                }, 2000);
+            });
+        }
+
+        // Toast
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            toast.textContent = msg;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 3000);
+        }
+
+        // Init
+        loadData();
+    </script>
+</body>
+</html>
