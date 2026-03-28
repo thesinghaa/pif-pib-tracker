@@ -1,0 +1,37 @@
+name: PIB Scraper
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Run PIB scraper
+        run: python scraper/pib_scraper.py
+
+      - name: Commit updated pib.json
+        run: |
+          git config --local user.email "pib-bot@github-actions"
+          git config --local user.name "PIB Bot"
+          git add docs/pib.json
+          git diff --staged --quiet || \
+            git commit -m "Update PIB data - $(TZ='Asia/Kolkata' date +'%d %b %Y, %I:%M %p IST')"
+          git push
