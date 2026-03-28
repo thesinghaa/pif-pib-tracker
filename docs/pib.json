@@ -1,15 +1,62 @@
 {
-  "last_updated": "2026-03-28T10:00:00Z",
-  "last_updated_ist": "28 Mar 2026, 03:30 PM IST",
+  "last_updated": "2026-03-28T16:15:51Z",
+  "last_updated_ist": "28 Mar 2026, 09:45 PM IST",
   "total": 0,
   "verticals": {
-    "EooDB": {"label": "Ease of Doing Business", "color": "#E8620A"},
-    "CoDED": {"label": "Data & Economic Decision-making", "color": "#2471A3"},
-    "iLEAP": {"label": "Lead Elimination & Public Health", "color": "#C0392B"},
-    "Political_Economy": {"label": "Political Economy & Governance", "color": "#117A65"},
-    "Jobs_Livelihood": {"label": "Jobs & Livelihoods", "color": "#7D3C98"},
-    "Sustainability": {"label": "Sustainability & Climate", "color": "#1E8449"}
+    "EooDB": {
+      "label": "Ease of Doing Business",
+      "color": "#E8620A"
+    },
+    "CoDED": {
+      "label": "Data & Economic Decision-making",
+      "color": "#2471A3"
+    },
+    "iLEAP": {
+      "label": "Lead Elimination & Public Health",
+      "color": "#C0392B"
+    },
+    "Political_Economy": {
+      "label": "Political Economy & Governance",
+      "color": "#117A65"
+    },
+    "Jobs_Livelihood": {
+      "label": "Jobs & Livelihoods",
+      "color": "#7D3C98"
+    },
+    "Sustainability": {
+      "label": "Sustainability & Climate",
+      "color": "#1E8449"
+    }
   },
-  "regions": {},
+  "regions": {
+    "3": "Delhi",
+    "1": "Mumbai",
+    "5": "Hyderabad",
+    "6": "Chennai",
+    "17": "Chandigarh",
+    "19": "Kolkata",
+    "20": "Bengaluru",
+    "21": "Bhubaneswar",
+    "22": "Ahmedabad",
+    "23": "Guwahati",
+    "24": "Thiruvananthapuram",
+    "30": "Imphal",
+    "31": "Mizoram",
+    "32": "Agartala",
+    "33": "Gangtok",
+    "34": "Kohima",
+    "35": "Shillong",
+    "36": "Itanagar",
+    "37": "Lucknow",
+    "38": "Bhopal",
+    "39": "Jaipur",
+    "40": "Patna",
+    "41": "Ranchi",
+    "42": "Shimla",
+    "43": "Raipur",
+    "44": "Jammu & Kashmir",
+    "45": "Vijayawada",
+    "46": "Dehradun"
+  },
   "articles": []
 }
