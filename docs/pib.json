@@ -1,0 +1,15 @@
+{
+  "last_updated": "2026-03-28T10:00:00Z",
+  "last_updated_ist": "28 Mar 2026, 03:30 PM IST",
+  "total": 0,
+  "verticals": {
+    "EooDB": {"label": "Ease of Doing Business", "color": "#E8620A"},
+    "CoDED": {"label": "Data & Economic Decision-making", "color": "#2471A3"},
+    "iLEAP": {"label": "Lead Elimination & Public Health", "color": "#C0392B"},
+    "Political_Economy": {"label": "Political Economy & Governance", "color": "#117A65"},
+    "Jobs_Livelihood": {"label": "Jobs & Livelihoods", "color": "#7D3C98"},
+    "Sustainability": {"label": "Sustainability & Climate", "color": "#1E8449"}
+  },
+  "regions": {},
+  "articles": []
+}
