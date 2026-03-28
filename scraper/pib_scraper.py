@@ -2,6 +2,7 @@
 """
 PIF - PIB Press Release Scraper (Production Version)
 Scrapes all 28 PIB regional offices with comprehensive keyword matching.
+Tailored for Pahle India Foundation's 4 verticals based on their actual research focus.
 """
 
 import requests
@@ -13,324 +14,447 @@ import os
 import re
 import time
 
-# ------------------------------------------------------------------------------
-# NEGATIVE KEYWORDS - Articles containing these are dropped
-# ------------------------------------------------------------------------------
+# ==============================================================================
+# NEGATIVE KEYWORDS - Articles containing these are dropped (noise filtering)
+# ==============================================================================
 NEGATIVE_KEYWORDS = [
     # Crime & Courts
     "murder", "rape", "assault", "robbery", "theft", "kidnap", "arrested",
     "police custody", "fir filed", "accused", "chargesheet", "bail",
     "convicted", "sentenced", "acquitted", "gang war", "mob lynching",
-    "scam accused", "remanded", "missing person",
+    "scam accused", "remanded", "missing person", "dacoity", "extortion",
     # Entertainment & Sports
     "bollywood", "box office", "celebrity", "film review", "movie release",
-    "web series", "reality show", "bigg boss", "ipl", "cricket match",
-    "fifa", "nba", "tennis tournament", "world cup", "olympic medal",
-    # Festivals & Lifestyle
-    "happy diwali", "happy holi", "navratri", "eid mubarak", "christmas",
-    "recipe", "horoscope", "astrology", "zodiac", "fashion week",
-    "weight loss", "diet plan", "skin care", "hair care", "beauty tips",
-    # Accidents & Disasters
+    "web series", "reality show", "bigg boss", "ipl match", "cricket match",
+    "fifa", "nba", "tennis tournament", "world cup final", "olympic medal",
+    "kabaddi league", "hockey league", "badminton tournament",
+    # Festivals & Lifestyle (unless policy)
+    "happy diwali", "happy holi", "navratri celebration", "eid mubarak",
+    "christmas celebration", "recipe", "horoscope", "astrology", "zodiac",
+    "fashion week", "weight loss", "diet plan", "skin care", "beauty tips",
+    # Accidents (unless policy response)
     "road accident", "train accident", "plane crash", "building collapse",
-    "fire accident", "earthquake kills", "flood kills", "landslide",
+    "fire accident", "earthquake kills", "flood kills", "landslide kills",
     # Obituary
-    "passes away", "condolence", "funeral", "prayer meet", "dies at",
-    "death of", "killed in", "bodies found", "last rites",
-    # Stock Market (unless policy related)
-    "share price", "stock surges", "nifty", "sensex", "quarterly result",
-    "q1 result", "q2 result", "q3 result", "q4 result", "profit rises",
-    # Political Noise
+    "passes away", "condolence message", "funeral", "prayer meet", "dies at",
+    "death anniversary", "last rites", "mortal remains",
+    # Political Campaign Noise
     "rally held", "campaign trail", "joins party", "quits party",
-    "election rally", "roadshow",
+    "election rally", "roadshow", "poll campaign",
     # Entertainment Events
-    "trailer launch", "song release", "album", "concert", "award ceremony",
-    "filmfare", "oscars",
-    # Weather (unless policy)
-    "weather update", "temperature today",
+    "trailer launch", "song release", "album launch", "concert", "award ceremony",
+    "filmfare", "oscars", "grammy",
 ]
 
-# ------------------------------------------------------------------------------
-# PIF VERTICALS & COMPREHENSIVE KEYWORDS
-# ------------------------------------------------------------------------------
+# ==============================================================================
+# PIF VERTICALS & COMPREHENSIVE KEYWORDS (500+ total)
+# Based on actual work from pahleindia.org and ileap.org.in
+# ==============================================================================
 VERTICALS = {
-    "EooDB": {
-        "label": "Ease of Doing Business",
+    # ==========================================================================
+    # VERTICAL 1: EoDB - Ease of Doing Business & Export-Led Manufacturing
+    # Source: https://pahleindia.org/eodb/
+    # ==========================================================================
+    "EoDB": {
+        "label": "Ease of Doing Business & Export-Led Manufacturing",
         "color": "#E8620A",
         "keywords": [
-            # Core EODB
+            # Core EoDB Concepts
             "ease of doing business", "eodb", "business reform", "regulatory reform",
-            "compliance burden", "single window", "one nation one license",
-            # MSME & Manufacturing
-            "msme", "micro small medium", "small enterprise", "manufacturing hub",
-            "make in india", "production linked incentive", "pli scheme",
-            "industrial policy", "industrial corridor", "industrial park",
-            "manufacturing sector", "factory", "plant inaugurat",
-            # Trade & Investment
-            "foreign direct investment", "fdi", "foreign investment", "bilateral trade",
-            "export promotion", "import duty", "customs duty", "tariff",
-            "trade policy", "trade agreement", "free trade", "fta", "cepa",
-            "trade deficit", "trade surplus", "export growth", "import substitution",
-            # SEZ & Startup
-            "special economic zone", "sez", "startup india", "startup policy",
-            "entrepreneur", "incubator", "accelerator", "venture capital",
-            # Ease of Compliance
-            "gst council", "tax reform", "direct tax", "indirect tax",
-            "corporate tax", "compliance", "regulation", "deregulation",
-            "license raj", "permit", "clearance", "approval process",
-            # Sectors
-            "semiconductor", "electronics manufacturing", "chip", "fab",
-            "textile industry", "garment export", "leather", "pharma export",
-            "auto industry", "automobile", "ev manufacturing",
-            "defence manufacturing", "aerospace", "shipbuilding",
+            "compliance burden", "compliance cost", "regulatory compliance",
+            "single window clearance", "single window system", "one nation one license",
+            "decriminalization", "decriminalisation", "jan vishwas", "business facilitation",
+            "license raj", "permit raj", "approval process", "clearance process",
+            "business registration", "company registration", "startup registration",
+            
+            # Manufacturing & Industry
+            "manufacturing sector", "manufacturing hub", "manufacturing policy",
+            "industrial policy", "industrial growth", "industrial production",
+            "factory", "plant inauguration", "manufacturing unit", "production unit",
+            "make in india", "production linked incentive", "pli scheme", "pli policy",
+            "industrial corridor", "industrial park", "industrial estate", "industrial zone",
+            "national industrial corridor", "delhi mumbai industrial corridor", "dmic",
+            "manufacturing competitiveness", "manufacturing exports", "export led growth",
+            
+            # Trade & Exports
+            "export promotion", "export growth", "export policy", "export incentive",
+            "import duty", "customs duty", "tariff", "tariff reduction", "tariff policy",
+            "trade policy", "foreign trade policy", "trade agreement", "trade deal",
+            "free trade agreement", "fta", "cepa", "ceca", "bilateral trade",
+            "trade deficit", "trade surplus", "trade balance", "current account deficit",
+            "global value chain", "gvc", "supply chain", "value chain",
+            "wto", "world trade", "international trade", "merchandise exports",
+            
+            # FDI & Investment
+            "foreign direct investment", "fdi", "fdi inflow", "fdi policy",
+            "foreign investment", "overseas investment", "investment promotion",
+            "investor summit", "investor meet", "investment climate",
+            "ease of investment", "investment facilitation", "fdi reform",
+            
+            # MSME & Startups
+            "msme", "micro small medium enterprise", "small enterprise", "small industry",
+            "msme policy", "msme growth", "msme support", "msme loan", "msme credit",
+            "startup india", "startup policy", "startup ecosystem", "startup hub",
+            "entrepreneur", "entrepreneurship", "incubator", "accelerator",
+            "venture capital", "angel investor", "seed funding",
+            
+            # SEZ & Clusters
+            "special economic zone", "sez", "sez policy", "export processing zone",
+            "industrial cluster", "manufacturing cluster", "textile cluster",
+            
+            # Sectors (as per PIF projects)
+            "semiconductor", "chip manufacturing", "fab", "electronics manufacturing",
+            "textile industry", "textile export", "garment export", "apparel",
+            "leather industry", "footwear", "pharma export", "pharmaceutical",
+            "auto industry", "automobile sector", "ev manufacturing", "vehicle",
+            "defence manufacturing", "defence production", "aerospace", "shipbuilding",
+            "food processing", "food processing industry", "food park", "mega food park",
+            "gems jewellery", "gold industry", "gold policy", "bullion",
+            "telecom sector", "telecom policy", "telecom reform", "spectrum",
+            "power sector", "power reform", "electricity reform", "discoms",
+            "capital market", "securities market", "sebi", "stock exchange",
+            "e commerce", "digital commerce", "online retail", "marketplace",
+            "online gaming", "gaming sector", "gaming policy", "gaming regulation",
+            "direct selling", "mlm", "direct sales",
+            "ai policy", "artificial intelligence", "compute capacity", "data center",
+            
             # Infrastructure for Business
-            "logistics", "supply chain", "warehouse", "cold chain",
-            "port", "airport", "freight corridor", "sagarmala", "bharatmala",
-            "pm gati shakti", "national infrastructure pipeline",
-            # Investment & MoU
-            "mou signed", "investment promotion", "investor summit",
-            "business summit", "industry meet", "cii", "ficci", "assocham",
-            # Government
+            "logistics", "logistics cost", "logistics policy", "pm gati shakti",
+            "national logistics policy", "multimodal logistics", "logistics park",
+            "port", "port development", "sagarmala", "port modernization",
+            "airport", "air cargo", "aviation", "civil aviation",
+            "freight corridor", "dedicated freight corridor", "bharatmala",
+            "warehouse", "warehousing", "cold chain", "cold storage",
+            "national infrastructure pipeline", "nip", "infrastructure investment",
+            
+            # Regulatory Bodies & Government
             "ministry of commerce", "ministry of industry", "dpiit", "dgft",
-            "cabinet approves", "union minister", "niti aayog",
-            # Competition
-            "competition commission", "cci", "anti-trust", "merger approval",
-            # Insolvency
-            "insolvency", "ibc", "nclt", "bankruptcy", "resolution plan",
-            # Atmanirbhar
-            "atmanirbhar bharat", "self reliant", "vocal for local",
-            "viksit bharat", "developed india",
+            "commerce ministry", "commerce minister", "industry minister",
+            "commerce secretary", "industry secretary",
+            "cabinet approves", "cabinet approval", "cabinet decision",
+            "union minister", "central government", "government notification",
+            "niti aayog", "economic advisory", "policy commission",
+            "mou signed", "agreement signed", "pact signed", "deal signed",
+            
+            # Competition & Insolvency
+            "competition commission", "cci", "anti trust", "merger approval",
+            "insolvency", "ibc", "nclt", "bankruptcy", "resolution plan", "nclat",
+            
+            # Tax & GST Reform
+            "gst council", "gst reform", "gst rate", "tax reform", "direct tax",
+            "corporate tax", "tax simplification", "tax compliance",
+            
+            # Atmanirbhar & Vision
+            "atmanirbhar bharat", "self reliant india", "vocal for local",
+            "viksit bharat", "developed india", "india 2047", "vision 2047",
+            
+            # State-level EoDB
+            "state eodb", "state ranking", "brap", "business reform action plan",
+            "state reform", "state policy", "chief minister", "state government",
+            
+            # Critical Minerals (from recent PIF work)
+            "critical mineral", "rare earth", "lithium", "cobalt", "nickel",
+            "mineral policy", "mmdr", "mining reform", "mineral exploration",
         ]
     },
+    
+    # ==========================================================================
+    # VERTICAL 2: CoDED - Center of Data for Economic Decision-making
+    # Source: https://pahleindia.org/coded/
+    # ==========================================================================
     "CoDED": {
-        "label": "Data & Economic Decision-making",
+        "label": "Center of Data for Economic Decision-making",
         "color": "#2471A3",
         "keywords": [
-            # Statistics & Data
-            "economic data", "statistics", "statistical", "data governance",
-            "national statistical office", "nso", "mospi", "cso",
-            "census", "population census", "economic census",
-            # GDP & Growth
-            "gdp", "gross domestic product", "gsdp", "state gdp",
-            "economic growth", "growth rate", "growth estimate",
-            "economic survey", "annual survey", "quarterly estimate",
+            # Core Statistics & Data
+            "economic data", "statistical data", "statistics", "statistical system",
+            "data governance", "data policy", "data infrastructure", "data quality",
+            "official statistics", "government data", "administrative data",
+            
+            # GDP & National Accounts
+            "gdp", "gross domestic product", "gdp growth", "gdp estimate",
+            "gsdp", "state gdp", "state domestic product", "gross state domestic product",
+            "gddp", "district domestic product", "district gdp", "district economy",
+            "gva", "gross value added", "national accounts", "state accounts",
+            "economic growth", "growth rate", "growth estimate", "advance estimate",
+            "quarterly estimate", "annual estimate", "provisional estimate",
+            
+            # Key Surveys & Data Sources
+            "economic survey", "budget", "union budget", "state budget",
+            "census", "population census", "economic census", "agriculture census",
+            "national sample survey", "nss", "nsso", "sample survey",
+            "annual survey of industries", "asi", "factory sector",
+            "annual survey of unincorporated enterprises", "asuse",
+            "unincorporated sector", "informal sector data",
+            "labour force survey", "lfs", "plfs", "periodic labour force survey",
+            "employment survey", "unemployment survey", "labour statistics",
+            "household consumption expenditure survey", "hces", "consumption survey",
+            "consumer expenditure", "household expenditure",
+            
+            # Statistical Organizations
+            "nso", "national statistical office", "mospi", "ministry of statistics",
+            "cso", "central statistical office", "nsso survey",
+            "directorate of economics and statistics", "des", "state des",
+            "registrar general", "rgi", "demographic data",
+            
             # Economic Indicators
-            "economic indicator", "national accounts", "gva",
-            "gross value added", "index of industrial production", "iip",
-            "inflation", "cpi", "wpi", "consumer price", "wholesale price",
-            "fiscal deficit", "revenue deficit", "current account",
-            # Surveys
-            "national sample survey", "nsso", "plfs", "labour force survey",
-            "household survey", "consumption survey", "employment survey",
-            # Data Infrastructure
-            "data infrastructure", "data center", "data exchange",
-            "data marketplace", "open data", "data policy",
-            "digital public infrastructure", "dpi",
-            # Economic Planning
-            "economic planning", "five year plan", "annual plan",
-            "planning commission", "economic advisory",
-            # Monetary
-            "rbi", "reserve bank", "monetary policy", "repo rate",
-            "interest rate", "credit growth", "banking sector",
-            # Research
-            "economic research", "policy research", "think tank",
+            "economic indicator", "macro indicator", "leading indicator",
+            "index of industrial production", "iip", "industrial growth",
+            "inflation", "cpi", "consumer price index", "wpi", "wholesale price",
+            "retail inflation", "food inflation", "core inflation",
+            "fiscal deficit", "revenue deficit", "primary deficit",
+            "current account", "balance of payment", "forex reserve",
+            
+            # High-Frequency & Alternative Data (CoDED specialty)
+            "high frequency data", "high frequency indicator", "real time data",
+            "nowcasting", "nowcast", "economic nowcast", "gdp nowcast",
+            "night time lights", "nightlight data", "satellite data",
+            "electricity consumption", "power consumption", "electricity data",
+            "gst collection", "gst revenue", "tax collection data",
+            "digital payment", "upi transaction", "digital transaction",
+            "mobility data", "google mobility", "traffic data",
+            "e way bill", "freight data", "cargo data",
+            
+            # District-Level Development (CoDED focus)
+            "district development", "district planning", "district economy",
+            "district collector", "district administration", "dm office",
+            "bottom up planning", "decentralized planning", "local planning",
+            "district blueprint", "district growth", "district dashboard",
+            "block level", "tehsil level", "taluka level", "sub district",
+            
+            # Data Systems & Infrastructure
+            "data center", "data exchange", "data marketplace", "open data",
+            "digital public infrastructure", "dpi", "data sharing",
+            "statistical capacity", "statistical modernization",
+            "data analytics", "economic analytics", "policy analytics",
+            
+            # Economic Planning & Research
+            "economic planning", "development planning", "perspective plan",
+            "five year plan", "annual plan", "state plan", "district plan",
+            "economic research", "policy research", "economic analysis",
+            "economic advisory council", "eac pm", "economic think tank",
+            
+            # Monetary & Financial Data
+            "rbi", "reserve bank", "monetary policy", "mpc", "repo rate",
+            "interest rate", "credit growth", "bank credit", "banking data",
+            "financial inclusion", "financial data", "banking sector",
+            
+            # State-specific (CoDED MoUs)
+            "assam economy", "madhya pradesh economy", "maharashtra economy",
+            "state economy", "regional economy", "state planning",
+            
+            # Inclusive Growth & Welfare
+            "inclusive growth", "bottom 10 percent", "poverty data",
+            "welfare targeting", "social sector data", "development data",
+            "inequality", "gini coefficient", "consumption inequality",
         ]
     },
+    
+    # ==========================================================================
+    # VERTICAL 3: iLEAP - India Lead Elimination Action Partnership
+    # Source: https://ileap.org.in/ and research portal
+    # ==========================================================================
     "iLEAP": {
         "label": "Lead Elimination & Public Health",
         "color": "#C0392B",
         "keywords": [
-            # Lead Specific
-            "lead poisoning", "lead contamination", "blood lead level",
-            "heavy metal", "lead paint", "lead exposure", "lead free",
-            "lead pollution", "lead toxicity", "neurotoxin",
+            # Lead Poisoning Core
+            "lead poisoning", "lead toxicity", "lead exposure", "lead contamination",
+            "blood lead level", "bll", "elevated blood lead", "lead in blood",
+            "lead pollution", "environmental lead", "lead hazard",
+            "lead free", "lead elimination", "lead mitigation", "lead prevention",
+            
+            # Heavy Metals & Toxicity
+            "heavy metal", "heavy metal poisoning", "toxic metal", "metal toxicity",
+            "mercury", "cadmium", "arsenic", "chromium", "toxic substance",
+            "neurotoxin", "neurotoxicity", "neurodevelopmental",
+            
+            # Lead Sources (from iLEAP website)
+            "lead paint", "paint contamination", "lead in paint",
+            "lead acid battery", "battery recycling", "ulab", "used lead acid battery",
+            "informal recycling", "battery waste", "e waste", "electronic waste",
+            "lead in spices", "spice adulteration", "turmeric adulteration",
+            "adulterated food", "food adulteration", "food contamination",
+            "lead in cosmetics", "cosmetic contamination", "surma", "kohl", "sindoor",
+            "ceramic", "ceramic glaze", "pottery", "cookware", "utensil",
+            "traditional medicine", "ayurvedic medicine", "herbal medicine",
+            "lead solder", "plumbing", "lead pipe", "water contamination",
+            "lead mining", "lead smelting", "lead ore", "mining area",
+            
+            # Health Impacts
+            "cognitive impairment", "cognitive development", "iq reduction",
+            "intelligence quotient", "learning disability", "developmental delay",
+            "attention deficit", "behavioral problem", "neurological damage",
+            "brain development", "child development", "early childhood development",
+            "anemia", "anaemia", "hemoglobin", "blood disorder",
+            "kidney damage", "renal damage", "cardiovascular", "hypertension",
+            
+            # Vulnerable Populations
+            "children health", "child health", "paediatric", "pediatric",
+            "pregnant women", "maternal health", "prenatal exposure", "fetal exposure",
+            "umbilical cord blood", "placental transfer", "breast milk",
+            "infant health", "newborn", "neonatal", "toddler",
+            "school children", "school going children", "student health",
+            "occupational exposure", "worker exposure", "industrial worker",
+            
             # Public Health Infrastructure
-            "public health", "health ministry", "ministry of health",
-            "health minister", "health policy", "health mission",
-            "national health mission", "nhm", "health infrastructure",
-            "hospital", "medical college", "aiims", "phc", "health center",
-            # Health Schemes
-            "ayushman bharat", "pmjay", "jan arogya", "health insurance",
-            "universal health coverage", "health card",
-            # Vaccination & Immunization
-            "vaccination", "vaccine", "immunization", "immunisation",
-            "polio", "covid vaccine", "routine immunization",
-            # Maternal & Child Health
-            "maternal health", "child health", "infant mortality", "imr",
-            "maternal mortality", "mmr", "antenatal", "postnatal",
-            "nutrition", "malnutrition", "poshan abhiyaan", "poshan",
-            "midday meal", "anganwadi", "icds", "stunting", "wasting",
+            "public health", "public health policy", "health ministry",
+            "ministry of health", "health minister", "health secretary",
+            "national health mission", "nhm", "health program", "health scheme",
+            "ayushman bharat", "pmjay", "health insurance", "health coverage",
+            "health infrastructure", "hospital", "phc", "primary health center",
+            "community health", "district hospital", "medical college",
+            
+            # Research & Testing
+            "blood test", "screening", "health screening", "lead screening",
+            "biomarker", "health assessment", "health survey", "epidemiological",
+            "icmr", "medical research", "health research", "clinical study",
+            "niti aayog health", "csir neeri", "environmental research",
+            
+            # International Standards
+            "who", "world health organization", "who standard", "who guideline",
+            "unicef", "pure earth", "international standard",
+            "cdc", "reference value", "threshold", "safe level",
+            
+            # Environmental Health
+            "environmental health", "environment pollution", "soil contamination",
+            "water quality", "air quality", "pollution control",
+            "environmental monitoring", "contamination assessment",
+            
+            # Policy & Regulation
+            "lead regulation", "lead standard", "bis standard", "food safety",
+            "fssai", "drug control", "cosmetic regulation", "paint regulation",
+            "hazardous waste", "waste management", "pollution control board",
+            "cpcb", "spcb", "environmental clearance",
+            
+            # Nutrition & Health Linkage
+            "nutrition", "malnutrition", "micronutrient", "iron deficiency",
+            "zinc deficiency", "calcium", "nutritional status",
+            "poshan", "poshan abhiyaan", "mid day meal", "anganwadi", "icds",
+            
             # Disease Control
-            "disease", "epidemic", "pandemic", "outbreak",
-            "tuberculosis", "tb", "malaria", "dengue", "cancer",
-            "diabetes", "hypertension", "cardiovascular",
-            "non communicable disease", "ncd", "communicable disease",
-            # Pharma & Medicine
-            "pharmaceutical", "drug", "medicine", "generic medicine",
-            "jan aushadhi", "drug pricing", "pharma policy",
-            # Mental Health
-            "mental health", "depression", "anxiety", "psychiatr",
-            "suicide prevention", "mental wellness",
-            # Research
-            "icmr", "medical research", "clinical trial", "health research",
-            # Sanitation & Hygiene
-            "sanitation", "swachh bharat", "toilet", "open defecation",
-            "clean india", "hygiene",
-            # Pollution & Health
-            "air pollution health", "pm2.5", "air quality", "pollution health",
-            # Reproductive Health
-            "reproductive health", "family planning", "contraceptive",
-            # Tobacco & Alcohol
-            "tobacco control", "smoking", "alcohol policy", "substance abuse",
+            "disease control", "disease prevention", "health awareness",
+            "health education", "health campaign", "awareness program",
+            
+            # State Roundtables (iLEAP events)
+            "rajasthan health", "madhya pradesh health", "odisha health",
+            "chhattisgarh health", "andhra pradesh health", "telangana health",
+            "north east health", "guwahati health", "state health",
         ]
     },
-    "Political_Economy": {
-        "label": "Political Economy & Governance",
-        "color": "#117A65",
-        "keywords": [
-            # Governance
-            "governance", "good governance", "e-governance", "digital governance",
-            "administrative reform", "bureaucratic reform", "civil service",
-            "public administration", "government efficiency",
-            # Policy & Reform
-            "policy reform", "policy implementation", "policy framework",
-            "institutional reform", "structural reform",
-            # Centre-State
-            "federalism", "cooperative federalism", "centre state",
-            "inter-state council", "zonal council", "state government",
-            "chief minister", "governor",
-            # Parliament & Legislature
-            "parliament", "lok sabha", "rajya sabha", "legislative",
-            "bill passed", "act enacted", "ordinance", "legislation",
-            # Executive
-            "prime minister", "cabinet", "cabinet minister", "union minister",
-            "cabinet committee", "cabinet approval", "pmo",
-            "niti aayog", "planning",
-            # Judiciary
-            "supreme court", "high court", "judicial reform", "judiciary",
-            "justice", "court ruling", "legal reform",
-            # Election & Democracy
-            "election commission", "electoral reform", "voting",
-            "delimitation", "representation",
-            # Foreign Policy
-            "foreign policy", "foreign minister", "mea", "ministry of external affairs",
-            "diplomacy", "diplomatic", "bilateral", "multilateral",
-            "g20", "brics", "sco", "quad", "asean", "saarc",
-            "india us", "india china", "india pakistan", "india russia",
-            "indo pacific", "strategic partnership",
-            # Defence & Security
-            "defence", "defense", "military", "armed forces", "army", "navy", "air force",
-            "national security", "border", "strategic", "geopolitical",
-            # Public Sector
-            "psu", "public sector", "disinvestment", "privatization",
-            "cpse", "navratna", "maharatna",
-            # Urban Governance
-            "urban governance", "municipal", "smart city", "urban planning",
-            "urban development", "city administration",
-            # Data Protection
-            "data protection", "privacy", "dpdp", "digital personal data",
-            # Decentralization
-            "panchayat", "panchayati raj", "local governance", "gram sabha",
-            "decentralization", "devolution",
-        ]
-    },
-    "Jobs_Livelihood": {
-        "label": "Jobs & Livelihoods",
+    
+    # ==========================================================================
+    # VERTICAL 4: ELS - Employment & Livelihood Systems
+    # Source: https://pahleindia.org/els/
+    # ==========================================================================
+    "ELS": {
+        "label": "Employment & Livelihood Systems",
         "color": "#7D3C98",
         "keywords": [
-            # Employment
-            "employment", "unemployment", "job creation", "job", "jobs",
-            "employment generation", "hiring", "recruitment",
-            "rozgar", "rozgar mela", "job fair", "placement",
-            # Labour
-            "labour", "labor", "worker", "workforce", "labour market",
-            "labour reform", "labour code", "minimum wage", "wage",
-            "trade union", "industrial relations",
-            # Skills
-            "skill india", "skill development", "skilling", "reskilling",
-            "upskilling", "vocational training", "vocational education",
-            "iti", "industrial training", "pmkvy", "apprentice",
-            "national skill", "skill center",
-            # Women in Work
-            "women employment", "female workforce", "women in work",
-            "female labour force", "flfp", "women worker",
-            "maternity benefit", "creche", "gender pay", "equal pay",
-            "women entrepreneur", "mahila", "self help group", "shg",
-            # Rural Employment
-            "rural employment", "nrega", "mgnrega", "mgnregs",
-            "rural livelihood", "nrlm", "rural job", "farm employment",
-            # Informal Sector
-            "informal sector", "informal worker", "gig economy", "gig worker",
-            "platform worker", "unorganised sector", "street vendor",
-            # Entrepreneurship
-            "entrepreneur", "entrepreneurship", "startup", "self employment",
-            "mudra loan", "mudra", "stand up india", "small business",
-            "micro enterprise",
+            # Employment Core
+            "employment", "employment generation", "job creation", "jobs",
+            "unemployment", "unemployment rate", "jobless", "job market",
+            "labour market", "labor market", "workforce", "manpower",
+            "employment policy", "employment scheme", "rozgar", "rojgar",
+            "job fair", "rozgar mela", "placement", "recruitment",
+            
+            # Labour & Workers
+            "labour", "labor", "worker", "labourer", "working class",
+            "labour reform", "labor reform", "labour code", "labor code",
+            "minimum wage", "wage", "salary", "remuneration", "income",
+            "labour welfare", "worker welfare", "labour rights",
+            "trade union", "industrial relations", "collective bargaining",
+            "contract labour", "migrant worker", "migrant labour",
+            
+            # Skills & Training
+            "skill development", "skill india", "skilling", "skill training",
+            "reskilling", "upskilling", "skill gap", "skill mismatch",
+            "vocational training", "vocational education", "vet",
+            "industrial training", "iti", "industrial training institute",
+            "pmkvy", "pradhan mantri kaushal vikas yojana", "skill center",
+            "apprentice", "apprenticeship", "on job training",
+            "national skill", "skill university", "skill council",
+            
+            # Women & Work
+            "women employment", "female employment", "women workforce",
+            "female labour force", "flfp", "female labour force participation",
+            "women worker", "working women", "gender employment",
+            "women entrepreneur", "female entrepreneur", "mahila udyami",
+            "maternity benefit", "maternity leave", "creche", "childcare",
+            "gender pay gap", "equal pay", "gender equality work",
+            "self help group", "shg", "mahila mandal", "women collective",
+            
+            # Rural & Agriculture Employment
+            "rural employment", "rural jobs", "farm employment", "agriculture employment",
+            "nrega", "mgnrega", "mgnregs", "mahatma gandhi rural employment",
+            "rural livelihood", "nrlm", "national rural livelihood mission",
+            "rural development", "rural economy", "village economy",
+            "non farm employment", "non farm livelihood", "rural diversification",
+            "panchayat", "gram panchayat", "gram sabha", "local governance",
+            
+            # Informal & Gig Economy
+            "informal sector", "informal employment", "unorganised sector",
+            "informal worker", "unorganised worker", "daily wage",
+            "gig economy", "gig worker", "platform worker", "freelance",
+            "street vendor", "hawker", "small trader",
+            
+            # MSME & Entrepreneurship
+            "msme employment", "small business", "micro enterprise",
+            "mudra loan", "mudra", "pmmy", "stand up india",
+            "entrepreneurship", "self employment", "own account worker",
+            "business ownership", "enterprise", "udyam",
+            
+            # SHG & Collectives
+            "self help group", "shg federation", "shg bank linkage",
+            "livelihood collective", "producer company", "fpo",
+            "farmer producer organization", "cooperative", "cooperative society",
+            
+            # Traditional Livelihoods (PIF focus)
+            "handloom", "handicraft", "artisan", "craftsman", "weaver",
+            "traditional craft", "traditional livelihood", "heritage craft",
+            "khadi", "village industry", "cottage industry",
+            "tribal livelihood", "tribal entrepreneur", "tribal women",
+            
             # Youth Employment
-            "youth employment", "youth job", "campus placement",
-            "internship", "fresher",
+            "youth employment", "youth job", "young workforce",
+            "campus placement", "internship", "fresher", "first job",
+            "youth unemployment", "educated unemployed", "graduate employment",
+            
             # Social Security
             "social security", "pension", "epfo", "pf", "provident fund",
-            "esic", "gratuity", "labour welfare",
-            # Livelihood Programs
-            "livelihood", "livelihood program", "income generation",
-            "poverty alleviation", "bpl",
-            # Education for Jobs
-            "higher education", "technical education", "engineering college",
-            "iit", "nit", "iiit", "education policy", "nep",
-        ]
-    },
-    "Sustainability": {
-        "label": "Sustainability & Climate",
-        "color": "#1E8449",
-        "keywords": [
-            # Climate Change
-            "climate change", "climate action", "climate policy",
-            "global warming", "greenhouse gas", "carbon emission",
-            "carbon neutral", "net zero", "decarbonization", "cop",
-            "paris agreement", "ndc", "nationally determined contribution",
-            # Renewable Energy
-            "renewable energy", "solar energy", "solar power", "solar plant",
-            "wind energy", "wind power", "hydro power", "hydroelectric",
-            "green energy", "clean energy", "green hydrogen",
-            "pm kusum", "rooftop solar", "solar park",
-            # Environment
-            "environment", "environmental", "ecology", "ecosystem",
-            "biodiversity", "wildlife", "forest", "afforestation",
-            "deforestation", "conservation", "national park", "sanctuary",
-            "ministry of environment", "moefcc", "green tribunal", "ngt",
-            # Pollution Control
-            "pollution", "air pollution", "water pollution", "noise pollution",
-            "pollution control", "emission standard", "bs6",
-            "air quality", "aqi", "smog",
-            # Waste Management
-            "waste management", "solid waste", "plastic waste", "e-waste",
-            "waste to energy", "recycling", "circular economy",
-            "single use plastic", "swachh bharat",
-            # Water
-            "water conservation", "water management", "groundwater",
-            "water scarcity", "water harvesting", "watershed",
-            "jal jeevan", "jal shakti", "namami gange", "river cleaning",
-            "river rejuvenation", "dam", "irrigation",
-            # Sustainable Agriculture
-            "sustainable agriculture", "organic farming", "natural farming",
-            "zero budget", "agroecology", "crop diversification",
-            "soil health", "fertilizer", "pesticide",
-            # Electric Vehicles
-            "electric vehicle", "ev", "ev policy", "ev charging",
-            "battery", "lithium", "fame scheme",
-            # Energy Transition
-            "energy transition", "energy security", "energy efficiency",
-            "energy conservation", "led", "ujala",
-            # Green Finance
-            "green finance", "green bond", "sustainable finance",
-            "climate finance", "esg",
-            # Nuclear
-            "nuclear energy", "nuclear power", "atomic energy",
+            "esic", "esi", "gratuity", "labour welfare fund",
+            "insurance", "life insurance", "health insurance worker",
+            "atal pension", "pm shram yogi", "e shram",
+            
+            # Education & Employability
+            "higher education", "technical education", "professional education",
+            "engineering college", "iit", "nit", "iiit", "polytechnic",
+            "education policy", "nep", "national education policy",
+            "employability", "industry academia", "placement cell",
+            
+            # Governance & Policy (ELS covers this)
+            "governance", "good governance", "e governance", "digital governance",
+            "administrative reform", "bureaucratic reform", "civil service",
+            "public administration", "government efficiency", "public service",
+            "electoral system", "electoral reform", "election commission",
+            "federal governance", "centre state relation", "cooperative federalism",
+            "csr", "corporate social responsibility", "csr spending", "csr policy",
+            "science technology policy", "dst", "science advisor",
+            
+            # Sustainability & Green Jobs (ELS includes this)
+            "sustainability", "sustainable livelihood", "green jobs", "green employment",
+            "organic farming", "natural farming", "regenerative agriculture",
+            "soil health", "sustainable agriculture", "climate smart agriculture",
+            "circular economy", "waste to wealth", "bio economy",
+            "climate adaptation", "climate resilience", "sustainable development",
+            "renewable energy jobs", "solar jobs", "green skill",
         ]
     }
 }
 
+# ==============================================================================
 # All 28 PIB Regional Offices
+# ==============================================================================
 PIB_REGIONS = {
     "3": "Delhi", "1": "Mumbai", "5": "Hyderabad", "6": "Chennai",
     "17": "Chandigarh", "19": "Kolkata", "20": "Bengaluru", "21": "Bhubaneswar",
@@ -347,13 +471,18 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
+
 def make_id(title):
+    """Generate unique ID from title"""
     return hashlib.md5(title.encode()).hexdigest()[:12]
 
+
 def clean_text(raw):
+    """Clean and normalize text"""
     if not raw:
         return ""
     return re.sub(r"\s+", " ", raw).strip()
+
 
 def has_negative_keywords(text):
     """Check if text contains any negative keywords"""
@@ -363,24 +492,36 @@ def has_negative_keywords(text):
             return True
     return False
 
+
 def match_verticals(title, summary=""):
-    """Match text against vertical keywords"""
+    """Match text against vertical keywords - returns list of matching verticals"""
     text = f"{title} {summary}".lower()
     
     # First check negative keywords
     if has_negative_keywords(text):
-        return ["Filtered"]
+        return ["Filtered"], 0
     
     matched = []
+    scores = {}
+    
     for vid, vdata in VERTICALS.items():
+        keyword_matches = 0
         for kw in vdata["keywords"]:
             if kw.lower() in text:
-                matched.append(vid)
-                break
+                keyword_matches += 1
+        if keyword_matches > 0:
+            matched.append(vid)
+            scores[vid] = keyword_matches
     
-    return matched if matched else ["Other"]
+    # Sort by score (most matches first)
+    matched.sort(key=lambda x: scores.get(x, 0), reverse=True)
+    
+    total_score = sum(scores.values())
+    return matched if matched else ["Other"], total_score
+
 
 def get_relative_time(dt):
+    """Get human-readable relative time"""
     now = datetime.datetime.utcnow()
     diff = now - dt
     hours = diff.total_seconds() / 3600
@@ -390,6 +531,7 @@ def get_relative_time(dt):
         return f"{int(hours)} hr ago"
     else:
         return f"{int(hours/24)} days ago"
+
 
 def scrape_region(reg_id, region_name):
     """Scrape a single PIB regional page"""
@@ -401,20 +543,20 @@ def scrape_region(reg_id, region_name):
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
         
-        # Find all press release links - multiple selectors
+        # Find all press release links - multiple selectors for robustness
         links_found = []
         
-        # Method 1: Look for content list
+        # Method 1: Content area
         content_area = soup.find("div", class_="content-area")
         if content_area:
             links_found.extend(content_area.find_all("a", href=True))
         
-        # Method 2: Look for release list items
+        # Method 2: Release list
         release_items = soup.find_all("ul", class_="releases-list") or soup.find_all("div", class_="releases")
         for item in release_items:
             links_found.extend(item.find_all("a", href=True))
         
-        # Method 3: General link search
+        # Method 3: General link search (fallback)
         if not links_found:
             links_found = soup.find_all("a", href=True)
         
@@ -455,14 +597,19 @@ def scrape_region(reg_id, region_name):
     
     return articles
 
+
 def scrape_pib():
-    print("[PIB] Starting PIB Press Release Scraper...")
+    """Main scraper function"""
+    print("=" * 60)
+    print("[PIB] PIF Press Release Scraper - Production Version")
+    print("=" * 60)
     print(f"[PIB] Scraping {len(PIB_REGIONS)} regional offices...\n")
     
     all_articles = []
     seen_ids = set()
     now = datetime.datetime.utcnow()
     filtered_count = 0
+    other_count = 0
     
     for reg_id, region_name in PIB_REGIONS.items():
         articles = scrape_region(reg_id, region_name)
@@ -473,12 +620,16 @@ def scrape_pib():
                 continue
             seen_ids.add(art_id)
             
-            verticals = match_verticals(art["title"])
+            verticals, score = match_verticals(art["title"])
             
             # Skip filtered articles (negative keywords)
             if "Filtered" in verticals:
                 filtered_count += 1
                 continue
+            
+            # Count "Other" (unmatched)
+            if "Other" in verticals:
+                other_count += 1
             
             all_articles.append({
                 "id": art_id,
@@ -491,15 +642,23 @@ def scrape_pib():
                 "relative_time": "Today",
                 "verticals": verticals,
                 "primary_vertical": verticals[0] if verticals else "Other",
+                "relevance_score": score,
             })
         
         # Small delay to be polite to server
-        time.sleep(0.5)
+        time.sleep(0.3)
     
-    print(f"\n[PIB] Summary:")
+    # Sort by relevance score (highest first), then by region
+    all_articles.sort(key=lambda x: (-x.get("relevance_score", 0), x["region"]))
+    
+    print(f"\n{'=' * 60}")
+    print(f"[PIB] SCRAPING COMPLETE")
+    print(f"{'=' * 60}")
     print(f"   Total articles found: {len(all_articles) + filtered_count}")
-    print(f"   Filtered out (negative): {filtered_count}")
-    print(f"   Final articles: {len(all_articles)}")
+    print(f"   Filtered out (noise): {filtered_count}")
+    print(f"   Unmatched (Other):    {other_count}")
+    print(f"   Final relevant:       {len(all_articles) - other_count}")
+    print(f"   Total output:         {len(all_articles)}")
     
     # Count by vertical
     vertical_counts = {}
@@ -507,10 +666,21 @@ def scrape_pib():
         for v in art["verticals"]:
             vertical_counts[v] = vertical_counts.get(v, 0) + 1
     
-    print(f"\n[PIB] By Vertical:")
+    print(f"\n[PIB] Articles by Vertical:")
     for v, count in sorted(vertical_counts.items(), key=lambda x: -x[1]):
-        print(f"   {v}: {count}")
+        label = VERTICALS.get(v, {}).get("label", v)
+        print(f"   {v}: {count} ({label})")
     
+    # Region stats
+    region_counts = {}
+    for art in all_articles:
+        region_counts[art["region"]] = region_counts.get(art["region"], 0) + 1
+    
+    print(f"\n[PIB] Top 10 Regions:")
+    for region, count in sorted(region_counts.items(), key=lambda x: -x[1])[:10]:
+        print(f"   {region}: {count}")
+    
+    # Build output
     output = {
         "last_updated": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "last_updated_ist": (now + datetime.timedelta(hours=5, minutes=30)).strftime("%d %b %Y, %I:%M %p IST"),
@@ -520,6 +690,7 @@ def scrape_pib():
         "articles": all_articles,
     }
     
+    # Save to file
     out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs", "pib.json")
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     
@@ -527,6 +698,8 @@ def scrape_pib():
         json.dump(output, f, ensure_ascii=False, indent=2)
     
     print(f"\n[PIB] Saved {len(all_articles)} articles to docs/pib.json")
+    print("=" * 60)
+
 
 if __name__ == "__main__":
     scrape_pib()
