@@ -71,12 +71,15 @@ NEGATIVE_KEYWORDS = [
     "trailer launch", "song release", "album launch", "concert", "award ceremony",
     "filmfare", "oscars", "grammy",
 
-    # === Routine/Administrative (v2 — PIB-specific) ===
+    # === Routine/Administrative (v2 — PIB-specific, tightened) ===
+    # "greeting", "wishes", "festival", "celebration" removed — too broad
+    # "festival" matches "festival bonus for workers" (ELS!)
+    # "celebration" matches "Celebration of 10 years of Make in India" (EoDB!)
     "condolence", "obituary", "birth anniversary",
-    "greeting", "wishes", "festival", "celebration",
     "republic day parade", "independence day celebration",
-    "diwali", "holi", "eid", "christmas", "pongal", "onam",
     "new year message", "mann ki baat",
+    "diwali greetings", "holi greetings", "eid greetings",
+    "christmas greetings", "pongal greetings", "onam greetings",
 
     # === Appointments/Transfers (v2 — PIB-specific compound phrases only) ===
     # WARNING: never use single words like "promotion", "transfer", "appointment"
@@ -94,10 +97,11 @@ NEGATIVE_KEYWORDS = [
     "yoga day", "yoga event", "fit india",
 
     # === Foreign Visits/Protocol (v2) ===
+    # "mou signing", "agreement signing" removed — India-India MoUs are policy-relevant
+    # Only filter clearly ceremonial foreign protocol noise
     "state visit", "official visit", "bilateral visit",
     "summit meeting", "g20 presidency", "g7",
     "foreign minister visit", "head of state visit",
-    "mou signing", "agreement signing",
     "bilateral relations", "diplomatic relations",
     "ambassador presents credentials",
     "foreign delegation", "parliamentary delegation",
@@ -116,20 +120,27 @@ NEGATIVE_KEYWORDS = [
     "defence production", "defence procurement",
     "indigenisation defence",
 
-    # === Awards/Felicitation (v2) ===
-    "medal ceremony", "felicitation",
-    "honour", "recognition", "prize distribution",
+    # === Awards/Felicitation (v2 — specific phrases only) ===
+    # "honour", "recognition", "prize distribution" removed — too broad
+    # "recognition" matches "recognition of prior learning" (ELS keyword!)
+    # "honour" matches "Cabinet honours MSMEs with credit scheme"
+    "medal ceremony", "felicitation ceremony",
+    "national award ceremony", "padma award",
 
-    # === Ceremonial/Political noise (v2) ===
+    # === Ceremonial/Political noise (v2 — tightened) ===
+    # "celebration", "festival" removed — too broad
+    # "celebration" matches "Celebration of 10 years of Make in India"
+    # "festival" matches "festival bonus for workers"
+    # "mou signing", "agreement signing" removed — India-India MoUs are policy-relevant
     "lok sabha speaker", "rajya sabha chairman",
-    "farewell", "retirement function",
-    "book launch", "book release ceremony",
+    "farewell function", "retirement function",
+    "book launch ceremony", "book release ceremony",
     "stamp release", "coin release", "commemorative stamp",
     "convocation ceremony", "degree ceremony",
-    "national convention", "national conference inauguration",
-    "international day", "world day", "global day",
-    "international women's day", "world water day",
-    "world environment day", "world health day",
+    "national conference inauguration",
+    "international day celebration", "world day celebration",
+    "international women's day event", "world water day event",
+    "world environment day event", "world health day event",
     "world tuberculosis day", "world aids day",
 
     # === Generic health events (v2 — prevents iLEAP false positives) ===
@@ -174,8 +185,8 @@ NEGATIVE_KEYWORDS = [
 VERTICAL_MIN_SCORES = {
     "iLEAP": 2,   # Prevents single generic health term hits
     "CoDED": 2,   # Prevents "methodology" or "data" alone from qualifying
-    "EoDB":  2,   # Prevents single inauguration/logistics hits
-    "ELS":   2,   # Prevents single governance/awards hits
+    "EoDB":  1,   # Keywords are specific enough; Tier 1 covers ambiguous singles
+    "ELS":   1,   # Keywords are specific enough; Tier 1 covers ambiguous singles
 }
 
 # ==============================================================================
