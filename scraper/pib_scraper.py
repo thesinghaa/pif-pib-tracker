@@ -16,6 +16,9 @@ Scoring logic
 - Releases that pass the negative keyword check but score below
   threshold on all verticals are kept (not discarded) — they appear
   only in "All", never in a vertical tab.
+- Only releases published within the last 48 hours are ingested
+  from each fresh scrape run.  Older releases already in pib.json
+  are preserved via the rolling merge window.
 
 Output  : docs/pib.json  (committed by GitHub Actions)
 """
@@ -25,7 +28,7 @@ import json
 import logging
 import os
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import requests
 from bs4 import BeautifulSoup
@@ -46,10 +49,11 @@ log = logging.getLogger(__name__)
 OUTPUT_PATH = os.path.join(
     os.path.dirname(__file__), "..", "docs", "pib.json"
 )
-REQUEST_TIMEOUT   = 15          # seconds per HTTP request
-REQUEST_DELAY     = 0.4         # polite delay between region fetches
-MAX_RELEASES_KEPT = 500         # rolling window stored in pib.json
-SNIPPET_LENGTH    = 220         # characters
+REQUEST_TIMEOUT    = 15         # seconds per HTTP request
+REQUEST_DELAY      = 0.4        # polite delay between region fetches
+MAX_RELEASES_KEPT  = 500        # rolling window stored in pib.json
+SNIPPET_LENGTH     = 220        # characters
+FRESH_WINDOW_HOURS = 48         # only ingest releases newer than this
 
 PIB_BASE = "https://www.pib.gov.in"
 PIB_LIST = PIB_BASE + "/Allrel.aspx?reg={reg}&lang=1"
@@ -695,6 +699,27 @@ def make_id(url: str) -> str:
     return hashlib.md5(url.encode()).hexdigest()
 
 
+def is_within_window(date_str: str, hours: int = FRESH_WINDOW_HOURS) -> bool:
+    """
+    Return True if date_str (YYYY-MM-DD) falls within the last `hours` hours.
+
+    Because PIB only provides a date (no time), we treat the release as
+    published at midnight UTC on that date — meaning a release dated
+    'today' is always included, and releases older than the window are
+    skipped.  This gives a safe, inclusive interpretation.
+    """
+    try:
+        release_date = datetime.strptime(date_str, "%Y-%m-%d").replace(
+            tzinfo=timezone.utc
+        )
+    except ValueError:
+        # If date couldn't be parsed we defaulted to today — keep it.
+        return True
+
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
+    return release_date >= cutoff
+
+
 # ─────────────────────────────────────────────
 # Main scrape loop
 # ─────────────────────────────────────────────
@@ -723,6 +748,11 @@ def scrape_all_regions(session: requests.Session) -> list[dict]:
             seen_ids.add(uid)
 
             title = rel["title"]
+
+            # ── Step 0: 48-hour freshness gate ──────────────────────
+            if not is_within_window(rel["date"]):
+                log.debug("  [SKIP-OLD] %s  (%s)", title[:70], rel["date"])
+                continue
 
             # ── Step 1: negative filter (title only — fast) ──
             if is_negative(title):
@@ -851,7 +881,8 @@ def write_output(releases: list[dict], path: str) -> None:
 def main() -> None:
     log.info("═" * 60)
     log.info("PIF PIB Scraper v2 — starting")
-    log.info("Regions: %d  |  Output: %s", len(PIB_REGIONS), OUTPUT_PATH)
+    log.info("Regions: %d  |  Window: last %dh  |  Output: %s",
+             len(PIB_REGIONS), FRESH_WINDOW_HOURS, OUTPUT_PATH)
     log.info("═" * 60)
 
     session = get_session()
