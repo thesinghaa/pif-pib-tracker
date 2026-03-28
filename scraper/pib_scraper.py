@@ -14,6 +14,14 @@ v2.1 changes:
 - Broad-but-useful terms restored to all verticals (thresholds now protect them)
   e.g. iLEAP: "nutrition", "hospital", "anganwadi"; EoDB: "logistics", "make in india"
        ELS: "governance", "sustainability", "pension"; CoDED: "statistics", "census"
+
+v2.2 changes:
+- Two-tier keyword system introduced to prevent future "Other" misclassifications
+  Tier 1 (HIGH_CONFIDENCE_KEYWORDS): single match is enough to qualify — terms that
+  are unambiguous by themselves (e.g. "union budget" → CoDED, "lead poisoning" → iLEAP,
+  "mgnrega" → ELS, "ease of doing business" → EoDB)
+  Tier 2 (VERTICALS keywords): broad contextual terms still require min score = 2
+- match_verticals() checks Tier 1 first, then falls through to threshold logic
 """
 
 import requests
@@ -164,6 +172,111 @@ VERTICAL_MIN_SCORES = {
     "CoDED": 2,   # Prevents "methodology" or "data" alone from qualifying
     "EoDB":  2,   # Prevents single inauguration/logistics hits
     "ELS":   2,   # Prevents single governance/awards hits
+}
+
+# ==============================================================================
+# TIER 1 — HIGH-CONFIDENCE KEYWORDS (v2.2)
+# A single match on any of these is enough to tag a release to that vertical.
+# These terms are unambiguous — they can only mean one thing in a PIB context.
+# Rule: if in doubt, do NOT add here. Add to VERTICALS (Tier 2) instead.
+# ==============================================================================
+HIGH_CONFIDENCE_KEYWORDS = {
+    "EoDB": [
+        # Institutional / programme names that are EoDB by definition
+        "ease of doing business", "eodb",
+        "business reform action plan", "brap",
+        "national single window system", "nsws",
+        "dpiit", "department for promotion of industry",
+        "invest india",
+        "jan vishwas",
+        # Specific reform instruments
+        "ibc reform", "insolvency and bankruptcy code",
+        "nclt", "nclat",
+        "faceless assessment",
+        "vivad se vishwas",
+        "production linked incentive scheme", "pli scheme",
+        "sez reform", "special economic zone reform",
+        "udyam registration",
+        "shram suvidha",
+        "world bank doing business",
+        "doing business ranking",
+        "treds platform",
+        "cgtmse",
+    ],
+
+    "CoDED": [
+        # Budget & surveys — always economic decision-making
+        "union budget", "state budget",
+        "economic survey",
+        # Statistical institutions/surveys — unambiguous
+        "mospi", "national statistical office",
+        "national sample survey", "nsso",
+        "periodic labour force survey", "plfs",
+        "household consumption expenditure survey", "hces",
+        "annual survey of industries",
+        "census commissioner",
+        "registrar general of india",
+        # Data systems
+        "ndap", "national data analytics platform",
+        "data.gov.in",
+        # Reports with fixed names
+        "gdp estimate", "gdp revision", "advance estimate",
+        "base year revision",
+        "statistical yearbook",
+        "sdg india index",
+        "rbi monetary policy report",
+        "rbi bulletin",
+    ],
+
+    "iLEAP": [
+        # Lead — any single mention is always relevant
+        "lead poisoning", "lead exposure", "lead contamination",
+        "blood lead level", "bll",
+        "lead paint", "lead in paint",
+        "lead acid battery", "ulab",
+        "lead smelting", "lead pollution", "lead toxicity",
+        "lead elimination", "lead phase out", "lead abatement",
+        "lead remediation", "lead screening", "lead testing",
+        "lead in petrol", "leaded petrol",
+        "fssai lead", "food lead contamination",
+        "lead regulation", "lead ban", "lead limit",
+        "is 16088",
+        # Heavy metals — specific enough
+        "heavy metal contamination", "heavy metal poisoning",
+        "mercury contamination", "cadmium contamination",
+        "arsenic contamination",
+        # Programmes — by name
+        "pure earth", "ipen", "unep lead",
+        "lead paint alliance",
+        "national lead elimination",
+        "global lead network",
+    ],
+
+    "ELS": [
+        # Flagship employment schemes — unambiguous
+        "mgnrega", "mgnregs", "mahatma gandhi nrega",
+        "pmkvy", "pradhan mantri kaushal vikas yojana",
+        "pm shram yogi mandhan",
+        "e-shram", "e shram portal",
+        "national rural livelihood mission", "nrlm",
+        "deen dayal upadhyaya grameen kaushalya yojana", "ddu-gky",
+        "pm svnidhi",
+        "one nation one ration card", "onorc",
+        "pmegp",
+        "stand up india scheme",
+        # Labour statistics — named reports
+        "plfs report", "periodic labour force survey report",
+        "labour bureau survey",
+        # Labour codes — by name
+        "industrial relations code",
+        "wage code",
+        "social security code",
+        "occupational safety health code", "osh code",
+        # Portals / registries
+        "shram suvidha portal",
+        "e shram",
+        "udyam",
+    ],
 }
 
 # ==============================================================================
@@ -671,13 +784,23 @@ def has_negative_keywords(text):
 
 def match_verticals(title, summary=""):
     """
-    Match text against vertical keywords.
-    v2: Applies per-vertical minimum score thresholds before tagging.
-    Returns: (list of matching vertical IDs, total score)
+    Two-tier keyword matching (v2.2):
+
+    Tier 1 — HIGH_CONFIDENCE_KEYWORDS:
+        A single match auto-qualifies the vertical regardless of min score.
+        Terms here are unambiguous in a PIB context (e.g. "union budget",
+        "lead poisoning", "mgnrega"). Tier 1 score adds to total score.
+
+    Tier 2 — VERTICALS keywords:
+        Broad contextual terms. Only qualify if score >= VERTICAL_MIN_SCORES.
+        This prevents single generic hits (e.g. "governance", "logistics")
+        from tagging a release incorrectly.
+
+    Returns: (list of matching vertical IDs sorted by score desc, total score)
     """
     text = f"{title} {summary}".lower()
 
-    # First check negative keywords
+    # Drop articles matching negative keywords
     if has_negative_keywords(text):
         return ["Filtered"], 0
 
@@ -685,12 +808,26 @@ def match_verticals(title, summary=""):
     scores = {}
 
     for vid, vdata in VERTICALS.items():
-        score = sum(1 for kw in vdata["keywords"] if kw.lower() in text)
-        if score >= VERTICAL_MIN_SCORES[vid]:
-            matched.append(vid)
-            scores[vid] = score
+        # --- Tier 1: high-confidence check ---
+        hc_score = sum(
+            1 for kw in HIGH_CONFIDENCE_KEYWORDS.get(vid, [])
+            if kw.lower() in text
+        )
 
-    # Sort by score (most matches first)
+        # --- Tier 2: contextual keyword check ---
+        ctx_score = sum(
+            1 for kw in vdata["keywords"]
+            if kw.lower() in text
+        )
+
+        total = hc_score + ctx_score
+
+        # Qualify if: any Tier 1 hit (guaranteed) OR Tier 2 meets threshold
+        if hc_score > 0 or ctx_score >= VERTICAL_MIN_SCORES[vid]:
+            matched.append(vid)
+            scores[vid] = total
+
+    # Sort by total score descending (highest relevance first)
     matched.sort(key=lambda x: scores.get(x, 0), reverse=True)
 
     total_score = sum(scores.values())
