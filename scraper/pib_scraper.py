@@ -78,9 +78,13 @@ NEGATIVE_KEYWORDS = [
     "diwali", "holi", "eid", "christmas", "pongal", "onam",
     "new year message", "mann ki baat",
 
-    # === Appointments/Transfers (v2) ===
-    "appointment", "posting", "transfer", "promotion",
-    "retirement", "superannuation", "joining",
+    # === Appointments/Transfers (v2 — PIB-specific compound phrases only) ===
+    # WARNING: never use single words like "promotion", "transfer", "appointment"
+    # here — they substring-match "export promotion", "technology transfer" etc.
+    "promoted to the rank", "transferred as", "appointed as secretary",
+    "appointed as joint secretary", "appointed as additional secretary",
+    "transfer and posting", "transfer order issued",
+    "retirement function", "superannuation",
     "swearing in", "oath ceremony",
 
     # === Ceremonies/Events (v2) ===
