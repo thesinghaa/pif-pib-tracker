@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-28T16:26:16Z",
-  "last_updated_ist": "28 Mar 2026, 09:56 PM IST",
-  "total": 0,
+  "last_updated": "2026-03-28T16:45:18Z",
+  "last_updated_ist": "28 Mar 2026, 10:15 PM IST",
+  "total": 40,
   "verticals": {
     "EooDB": {
       "label": "Ease of Doing Business",
@@ -58,5 +58,581 @@
     "45": "Vijayawada",
     "46": "Dehradun"
   },
-  "articles": []
+  "articles": [
+    {
+      "id": "b9ef399f82f3",
+      "title": "Vice President Addresses 15th Annual Convocation of IIM Ranchi; Urges Students to Lead with Integrity, Social Responsibility and National Commitment",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246507",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Other"
+      ],
+      "primary_vertical": "Other"
+    },
+    {
+      "id": "feeac48da77c",
+      "title": "Prime Minister speaks with Crown Prince and PM of Saudi Arabia, HRH Prince Mohammed bin Salman",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246580",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy"
+    },
+    {
+      "id": "b3476340e2b7",
+      "title": "Prime Minister Shri Narendra Modi shares glimpses of his address at the inauguration of Phase I of Noida International Airport",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246535",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "EooDB",
+        "Political_Economy"
+      ],
+      "primary_vertical": "EooDB"
+    },
+    {
+      "id": "b63ebf266ab7",
+      "title": "English rendering of PM’s address during inauguration of Phase I of Noida International Airport in Uttar Pradesh",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246425",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "EooDB"
+      ],
+      "primary_vertical": "EooDB"
+    },
+    {
+      "id": "09ccfc102422",
+      "title": "Prime Minister Shri Narendra Modi inaugurates Phase I of Noida International Airport, developed with an investment of around ₹11,200 crore",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246413",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "EooDB",
+        "Political_Economy",
+        "Sustainability"
+      ],
+      "primary_vertical": "EooDB"
+    },
+    {
+      "id": "6bb8ea92fb93",
+      "title": "Undergraduate, Master’s, and PhD classes continue in offline mode as per the regular academic schedule: ICAR-IARI",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246409",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Other"
+      ],
+      "primary_vertical": "Other"
+    },
+    {
+      "id": "e159684ee1db",
+      "title": "Consensus-based decision-making is the bedrock of WTO’s legitimacy: Commerce and Industries Minister, Shri. Piyush Goyal in WTO MC-14",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246391",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Jobs_Livelihood"
+      ],
+      "primary_vertical": "Jobs_Livelihood"
+    },
+    {
+      "id": "63cb92ab1b77",
+      "title": "Centre for Development of Telematics (C-DOT) Signs MoU with Delhi Police to Strengthen Smart Policing Capabilities",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246442",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Jobs_Livelihood",
+        "Sustainability"
+      ],
+      "primary_vertical": "Jobs_Livelihood"
+    },
+    {
+      "id": "02fb99d4abf2",
+      "title": "Raksha Mantri chairs first IGoM meeting to review West Asia situation & its impact on India",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246579",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability"
+    },
+    {
+      "id": "612f623eb3fa",
+      "title": "Union minister Jyotiraditya M. Scindia addresses the Northeast cultural festival of Hindu College, Hails Northeast as India’s growth engine",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246504",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "EooDB",
+        "Political_Economy"
+      ],
+      "primary_vertical": "EooDB"
+    },
+    {
+      "id": "3a3bbbe390a0",
+      "title": "MoEFCC, WWF-India Organise Awareness Campaign to Mark 20 Years of Earth Hour",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246516",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability"
+    },
+    {
+      "id": "43551e9b3a2f",
+      "title": "Trans-state Conservation Effort leads to successful hatching of Great Indian Bustard chick in Gujarat after a decade",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246400",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability"
+    },
+    {
+      "id": "6c548581ea4a",
+      "title": "CBIC organises outreach programme on Duty Deferment Scheme for Eligible Manufacturer Importers in New Delhi",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246393",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "EooDB"
+      ],
+      "primary_vertical": "EooDB"
+    },
+    {
+      "id": "9c8106a545a9",
+      "title": "Roundtable on Expansion of PNG Services and Maintaining Essential Services in Urban areas",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246452",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Other"
+      ],
+      "primary_vertical": "Other"
+    },
+    {
+      "id": "80f1c2af17ae",
+      "title": "Department of Justice to organize National Consultation under Tele-Law Initiative on 29th March at Vigyan Bhawan, New Delhi",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246380",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Political_Economy",
+        "Jobs_Livelihood"
+      ],
+      "primary_vertical": "Political_Economy"
+    },
+    {
+      "id": "79ed45ac69be",
+      "title": "Modi Government enabled mainstreaming of Jammu & Kashmir youth, which has in turn raised their level of self-confidence and aspiration: Dr Jitendra Singh",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246453",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability"
+    },
+    {
+      "id": "f21ce6204797",
+      "title": "Updates on Key Sectors in View of Developments in West Asia",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246464",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability"
+    },
+    {
+      "id": "6d6a3f6a03f0",
+      "title": "To Make Train Journey Comfortable & Safe During Rush Hours, Besides Holding Areas, 76 Stations Across India are Being Equipped with All Latest Amenities",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246448",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Jobs_Livelihood"
+      ],
+      "primary_vertical": "Jobs_Livelihood"
+    },
+    {
+      "id": "27a3a56dafd2",
+      "title": "Advertisements Objectionable in the Eyes of Law like Alcoholic Drinks, Tobacco & Smoking are Prohibited For Display in Railways: Shri Ashwini Vaishnaw",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246447",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP"
+    },
+    {
+      "id": "435e1d05df0b",
+      "title": "NHAI Awards Contract for Four Laning of Gudebellur to Mahabubnagar Section of NH-167 in Telangana",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246440",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Other"
+      ],
+      "primary_vertical": "Other"
+    },
+    {
+      "id": "548afdc61ec4",
+      "title": "NHAI Awards Contract for Construction of Flyovers and Underpasses at Jaipur Bypass Junction on NH-48",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246429",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Other"
+      ],
+      "primary_vertical": "Other"
+    },
+    {
+      "id": "3d23cb4c2419",
+      "title": "First Meeting of BRIC-Research Advisory Board (BRIC-RAB)",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246514",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Other"
+      ],
+      "primary_vertical": "Other"
+    },
+    {
+      "id": "868e7a732b2d",
+      "title": "GOI Opens Nominations for Rashtriya Vigyan Puraskar 2026 to Honour Excellence in Science, Technology, and Innovation",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246455",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Other"
+      ],
+      "primary_vertical": "Other"
+    },
+    {
+      "id": "49ec59efed3c",
+      "title": "DEVELOPMENT OF GREEN PORTS AND MARITIME INFRASTRUCTURE",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246390",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "EooDB",
+        "Jobs_Livelihood",
+        "Sustainability"
+      ],
+      "primary_vertical": "EooDB"
+    },
+    {
+      "id": "3ed35c5bd83b",
+      "title": "Bharat Tribes Fest 2026 Extended Till April 5 Following Overwhelming Public Response",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246537",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Other"
+      ],
+      "primary_vertical": "Other"
+    },
+    {
+      "id": "7f4458dfa510",
+      "title": "Union Minister Dr. Mansukh Mandaviya Addresses Viksit Bharat Yuva Samvaad at RK University, Rajkot",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246476",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "EooDB",
+        "Political_Economy"
+      ],
+      "primary_vertical": "EooDB"
+    },
+    {
+      "id": "ba12e7c47a48",
+      "title": "Gut Microbiota and Probiotic Science Foundation organises 16th India Probiotic Symposium in New Delhi",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246381",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Other"
+      ],
+      "primary_vertical": "Other"
+    },
+    {
+      "id": "513ca1603042",
+      "title": "Union Budget 2026–27: Strengthening SEZs for Global Competitiveness & Growth",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246386",
+      "region": "Delhi",
+      "region_id": "3",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "EooDB",
+        "Jobs_Livelihood",
+        "Sustainability"
+      ],
+      "primary_vertical": "EooDB"
+    },
+    {
+      "id": "7fd12f854267",
+      "title": "Regional Conference on Natural Farming Held in Nagpur; Progressive Farmers Felicitated",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246540",
+      "region": "Mumbai",
+      "region_id": "1",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability"
+    },
+    {
+      "id": "a8b9116b15fc",
+      "title": "FCI offers Rice for Bulk Sale under OMSS (D) through Dedicated Movement in Maharashtra",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246407",
+      "region": "Mumbai",
+      "region_id": "1",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Other"
+      ],
+      "primary_vertical": "Other"
+    },
+    {
+      "id": "65e27cd717e2",
+      "title": "“Purple Fair 2026” Organised in Akola to Promote Empowerment of Divyangjan",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246543",
+      "region": "Mumbai",
+      "region_id": "1",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Other"
+      ],
+      "primary_vertical": "Other"
+    },
+    {
+      "id": "cb9192f6e3ec",
+      "title": "Union Minister G. Kishan Reddy Assures Uninterrupted Supply of Petroleum Products and LPG; Urges Public to Avoid Panic Buying",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246506",
+      "region": "Hyderabad",
+      "region_id": "5",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "EooDB",
+        "Political_Economy"
+      ],
+      "primary_vertical": "EooDB"
+    },
+    {
+      "id": "ee89d6850dda",
+      "title": "BIS Organised Laboratory Conclave on Assaying and Hallmarking of Precious Metals",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246563",
+      "region": "Chennai",
+      "region_id": "6",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Jobs_Livelihood"
+      ],
+      "primary_vertical": "Jobs_Livelihood"
+    },
+    {
+      "id": "e13ff1c660c2",
+      "title": "BIS Chennai organises Jeweller Awareness Programme on Hallmarking in Thiruvallur",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246446",
+      "region": "Chennai",
+      "region_id": "6",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Other"
+      ],
+      "primary_vertical": "Other"
+    },
+    {
+      "id": "b4dea457dfc4",
+      "title": "A New Direction in Green Energy, Modernization and Water Security: Multi-Dimensional Initiatives of Bhakra Beas Management Board",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246475",
+      "region": "Chandigarh",
+      "region_id": "17",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Jobs_Livelihood",
+        "Sustainability"
+      ],
+      "primary_vertical": "Jobs_Livelihood"
+    },
+    {
+      "id": "adf04b7f1142",
+      "title": "NHRC Special Monitor Prof. Kanhaiya Tripathi Visits RIE Bhubaneswar, Appreciates Inclusive and Rights-Based Initiatives",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246457",
+      "region": "Bhubaneswar",
+      "region_id": "21",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "Jobs_Livelihood"
+      ],
+      "primary_vertical": "Jobs_Livelihood"
+    },
+    {
+      "id": "4ed916ae98e9",
+      "title": "AIIMS Bhubaneswar and NAMS to Organise Regional CME on Organ Transplantation and Artificial Intelligence in Healthcare",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246458",
+      "region": "Bhubaneswar",
+      "region_id": "21",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP"
+    },
+    {
+      "id": "40baa7daddb1",
+      "title": "RBI Holds High-Level Review Meeting on Low Credit-Deposit (CD) Ratio in Dang District",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246578",
+      "region": "Ahmedabad",
+      "region_id": "22",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "CoDED",
+        "Sustainability"
+      ],
+      "primary_vertical": "CoDED"
+    },
+    {
+      "id": "d6379ebdbea0",
+      "title": "Rapid Survey on Functional Cooperative Societies by Government of India, NSO",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246467",
+      "region": "Ahmedabad",
+      "region_id": "22",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED"
+    },
+    {
+      "id": "f6cf4cd7030e",
+      "title": "Directorate of Revenue Intelligence busts Red Sanders Smuggling Attempt at Cochin Port",
+      "summary": "",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246534",
+      "region": "Thiruvananthapuram",
+      "region_id": "24",
+      "date": "2026-03-28T16:45:18",
+      "relative_time": "Today",
+      "verticals": [
+        "EooDB",
+        "Sustainability"
+      ],
+      "primary_vertical": "EooDB"
+    }
+  ]
 }
