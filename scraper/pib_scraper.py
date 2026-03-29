@@ -1,32 +1,24 @@
+#!/usr/bin/env python3
 """
-PIF PIB Tracker — Scraper v2
-============================
+PIF PIB Tracker — Scraper v3 (RSS-based)
+=========================================
 Client  : Pahle India Foundation (PIF)
-Purpose : Scrape all 28 PIB regional offices, filter press releases
+Purpose : Scrape all 28 PIB regional RSS feeds, filter press releases
           across 4 research verticals using weighted keyword scoring.
 
-Scoring logic
--------------
-- Every keyword match in (title + snippet) adds points.
-- Title matches are worth 2x (more signal than body text).
-- Each vertical has a minimum score threshold that must be met
-  before the release is tagged to that vertical.
-- Releases that meet NO vertical threshold are still saved under
-  verticals=[] and surface in the "All" section of the dashboard.
-- Releases that pass the negative keyword check but score below
-  threshold on all verticals are kept (not discarded) — they appear
-  only in "All", never in a vertical tab.
-- Only releases published within the last 48 hours are ingested
-  from each fresh scrape run.  Older releases already in pib.json
-  are preserved via the rolling merge window.
+Why RSS instead of HTML scraping:
+- PIB's Allrel.aspx pages return 403 Forbidden from cloud/datacenter IPs
+- PIB's RSS feeds (RssMain.aspx) work reliably from anywhere
+- RSS is cleaner, faster, and more stable
 
 Output  : docs/pib.json  (committed by GitHub Actions)
 """
 
-import hashlib
+import feedparser
 import json
 import logging
 import os
+import hashlib
 import time
 from datetime import datetime, timedelta, timezone
 
@@ -49,64 +41,59 @@ log = logging.getLogger(__name__)
 OUTPUT_PATH = os.path.join(
     os.path.dirname(__file__), "..", "docs", "pib.json"
 )
-REQUEST_TIMEOUT    = 15         # seconds per HTTP request
-REQUEST_DELAY      = 0.4        # polite delay between region fetches
+REQUEST_DELAY      = 0.5        # polite delay between feeds
 MAX_RELEASES_KEPT  = 500        # rolling window stored in pib.json
-SNIPPET_LENGTH     = 220        # characters
-FRESH_WINDOW_HOURS = 24         # only ingest releases newer than this
-
-PIB_BASE = "https://www.pib.gov.in"
-PIB_LIST = PIB_BASE + "/Allrel.aspx?reg={reg}&lang=1"
-PIB_PAGE = PIB_BASE + "/PressReleasePage.aspx?PRID={prid}"
+SNIPPET_LENGTH     = 300        # characters of summary to keep
+FRESH_WINDOW_HOURS = 24         # only keep releases from last 24 hours
 
 HEADERS = {
     "User-Agent": (
-        "Mozilla/5.0 (compatible; PIF-PIB-Tracker/2.0; "
-        "+https://github.com/thesinghaa/pif-pib-tracker)"
-    )
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/120.0.0.0 Safari/537.36"
+    ),
+    "Accept-Language": "en-US,en;q=0.9",
 }
 
 # ─────────────────────────────────────────────
-# Regions
+# PIB RSS Feed URLs — Lang=2 is English
 # ─────────────────────────────────────────────
-PIB_REGIONS = {
-    "3":  "Delhi",
-    "1":  "Mumbai",
-    "5":  "Hyderabad",
-    "6":  "Chennai",
-    "17": "Chandigarh",
-    "19": "Kolkata",
-    "20": "Bengaluru",
-    "21": "Bhubaneswar",
-    "22": "Ahmedabad",
-    "23": "Guwahati",
-    "24": "Thiruvananthapuram",
-    "30": "Imphal",
-    "31": "Mizoram",
-    "32": "Agartala",
-    "33": "Gangtok",
-    "34": "Kohima",
-    "35": "Shillong",
-    "36": "Itanagar",
-    "37": "Lucknow",
-    "38": "Bhopal",
-    "39": "Jaipur",
-    "40": "Patna",
-    "41": "Ranchi",
-    "42": "Shimla",
-    "43": "Raipur",
-    "44": "Jammu & Kashmir",
-    "45": "Vijayawada",
-    "46": "Dehradun",
+PIB_RSS_FEEDS = {
+    "3":  ("Delhi",              "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=3"),
+    "1":  ("Mumbai",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=1"),
+    "5":  ("Hyderabad",          "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=5"),
+    "6":  ("Chennai",            "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=6"),
+    "17": ("Chandigarh",         "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=17"),
+    "19": ("Kolkata",            "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=19"),
+    "20": ("Bengaluru",          "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=20"),
+    "21": ("Bhubaneswar",        "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=21"),
+    "22": ("Ahmedabad",          "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=22"),
+    "23": ("Guwahati",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=23"),
+    "24": ("Thiruvananthapuram", "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=24"),
+    "30": ("Imphal",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=30"),
+    "31": ("Mizoram",            "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=31"),
+    "32": ("Agartala",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=32"),
+    "33": ("Gangtok",            "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=33"),
+    "34": ("Kohima",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=34"),
+    "35": ("Shillong",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=35"),
+    "36": ("Itanagar",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=36"),
+    "37": ("Lucknow",            "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=37"),
+    "38": ("Bhopal",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=38"),
+    "39": ("Jaipur",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=39"),
+    "40": ("Patna",              "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=40"),
+    "41": ("Ranchi",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=41"),
+    "42": ("Shimla",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=42"),
+    "43": ("Raipur",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=43"),
+    "44": ("Jammu & Kashmir",    "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=44"),
+    "45": ("Vijayawada",         "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=45"),
+    "46": ("Dehradun",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=2&Regid=46"),
 }
 
 # ─────────────────────────────────────────────
 # ██  KEYWORD LISTS  ██
 # ─────────────────────────────────────────────
 
-# ── EoDB ─────────────────────────────────────
 EODB_KEYWORDS = [
-    # Core
     "ease of doing business", "eodb", "business reform", "regulatory reform",
     "single window clearance", "single window system",
     "business facilitation", "investor facilitation",
@@ -115,13 +102,9 @@ EODB_KEYWORDS = [
     "license reform", "permit reform",
     "business registration", "company registration", "startup registration",
     "msme registration", "udyam registration", "gst registration",
-
-    # Digital/Portal
     "national single window", "nsws", "invest india",
     "faceless assessment", "digital approval", "paperless approval",
     "e-governance reform", "contactless approval",
-
-    # Specific reforms
     "industrial licensing reform", "environmental clearance reform",
     "building permit reform", "construction permit simplification",
     "fire noc reform", "labour compliance simplification",
@@ -129,20 +112,14 @@ EODB_KEYWORDS = [
     "contract enforcement reform", "commercial courts",
     "insolvency resolution", "ibc reform", "bankruptcy code reform",
     "nclt reform", "debt recovery tribunal",
-
-    # Investment climate
     "fdi policy reform", "foreign direct investment policy",
     "investment climate reform", "business climate index",
     "investor confidence index", "doing business ranking",
     "world bank ease of doing business", "global competitiveness index",
-
-    # State reforms
     "brap", "business reform action plan",
     "state business ranking", "district business ranking",
     "dpiit reform", "reform implementation dpiit",
     "state investment promotion",
-
-    # Sector-specific
     "manufacturing policy reform", "industrial policy reform",
     "industrial corridor development",
     "special economic zone reform", "sez policy",
@@ -150,34 +127,23 @@ EODB_KEYWORDS = [
     "pli scheme reform", "production linked incentive policy",
     "make in india policy", "make in india reform",
     "startup policy reform", "startup ecosystem reform",
-
-    # Logistics (tightened)
     "logistics policy", "logistics ease",
     "pm gati shakti network", "pm gati shakti masterplan",
     "logistics efficiency", "logistics cost reduction",
     "multimodal logistics", "logistics infrastructure reform",
     "national logistics policy",
-
-    # Credit & Finance
     "credit access msme", "psb loans reform",
     "mudra scheme", "stand up india scheme",
     "credit guarantee scheme", "cgtmse",
-    "invoice financing", "treds platform",
-    "msme credit flow",
-
-    # Labour reforms
+    "invoice financing", "treds platform", "msme credit flow",
     "labour code reform", "industrial relations code",
     "wage code implementation", "social security code",
     "osh code", "fixed term employment reform",
     "labour inspection reform", "shram suvidha portal",
     "labour law consolidation",
-
-    # Land & Infrastructure
     "land acquisition reform", "land bank policy",
     "plug and play infrastructure", "industrial infrastructure reform",
     "land records digitization",
-
-    # Taxation
     "gst simplification", "tax reform compliance",
     "faceless appeal income tax", "vivad se vishwas scheme",
     "direct tax reform", "tax compliance simplification",
@@ -185,46 +151,34 @@ EODB_KEYWORDS = [
     "gst rate rationalization",
 ]
 
-# ── CoDED ─────────────────────────────────────
 CODED_KEYWORDS = [
-    # Core
     "economic data", "statistical data", "official statistics",
     "data governance", "data policy", "data infrastructure",
     "national data", "government data", "public data",
     "data ecosystem", "data architecture",
-
-    # Institutions
     "national statistical office", "nso", "mospi",
     "ministry of statistics", "central statistics office", "cso",
     "nsso", "national sample survey", "registrar general",
     "economic census", "annual survey of industries",
     "national statistical commission",
-
-    # Census (tightened)
     "population census", "census data", "census commissioner",
     "census enumeration", "census 2021", "census 2026",
     "digital census", "house listing census",
-
-    # Indicators & Surveys
     "gdp data", "gdp growth estimate", "gdp revision",
     "gross domestic product data", "gdp base year",
     "inflation data", "cpi data", "consumer price index data",
-    "wpi data", "wholesale price index data", "iip data",
-    "index of industrial production",
+    "wpi data", "wholesale price index data",
+    "iip data", "index of industrial production",
     "periodic labour force survey", "plfs report",
     "consumption expenditure survey", "hces",
     "national accounts statistics", "supply use table",
     "advance estimate gdp", "first advance estimate",
     "second advance estimate",
-
-    # Data quality (tightened)
     "data quality assessment", "data accuracy improvement",
     "statistical methodology", "survey methodology",
     "base year revision", "data revision gdp",
     "sampling methodology", "survey design statistics",
     "price statistics", "volume index",
-
-    # Digital data governance (tightened — no plain "ai" or "big data")
     "data analytics platform government",
     "ai governance framework", "ai policy regulation",
     "data exchange protocol", "data sharing framework",
@@ -233,21 +187,15 @@ CODED_KEYWORDS = [
     "pdp bill", "digital personal data protection",
     "dpdp act", "data principal", "data fiduciary",
     "national data governance", "data governance framework",
-
-    # Administrative data
     "gst data analysis", "tax data statistics",
     "e-way bill statistics", "gstn data",
     "mca21", "company data registry", "epfo statistics",
     "administrative data use", "administrative data linkage",
-
-    # Reports & Publications
     "economic survey india", "rbi annual report",
     "rbi monetary policy report", "rbi bulletin statistics",
     "statistical yearbook india", "india statistics compendium",
     "sdg india index", "state statistics bureau",
     "niti aayog data report", "india data handbook",
-
-    # Data systems & Platforms
     "ndap", "national data analytics platform",
     "data catalogue government", "data.gov.in",
     "unified data platform", "india data portal",
@@ -255,9 +203,7 @@ CODED_KEYWORDS = [
     "data sharing agreement government",
 ]
 
-# ── iLEAP ─────────────────────────────────────
 ILEAP_KEYWORDS = [
-    # Lead-specific — highly targeted, keep all
     "lead poisoning", "lead exposure", "lead contamination",
     "blood lead level", "bll", "lead paint", "lead in paint",
     "lead battery", "lead acid battery", "battery recycling lead",
@@ -270,8 +216,6 @@ ILEAP_KEYWORDS = [
     "fssai lead", "food lead contamination",
     "lead in spices", "lead in paint ban",
     "lead safe", "lead hazard",
-
-    # Heavy metals (specific)
     "heavy metal contamination", "heavy metal pollution",
     "heavy metal toxicity", "heavy metal exposure",
     "mercury contamination", "mercury pollution", "mercury poisoning",
@@ -280,21 +224,14 @@ ILEAP_KEYWORDS = [
     "chromium contamination", "chromium poisoning",
     "metal contamination", "metal poisoning",
     "toxic metal", "neurotoxic metal",
-
-    # Regulations & Standards (tightened)
-    "is 16088",                        # BIS standard specific to lead paint
-    "lead limit regulation", "lead regulation",
+    "is 16088", "lead limit regulation", "lead regulation",
     "lead ban", "lead phase out policy",
     "hazardous substance regulation",
     "rohs compliance", "restriction of hazardous substances",
-
-    # Neurotoxicity (paired — not standalone)
     "neurotoxic exposure", "neurotoxicity children",
     "cognitive impairment children", "iq loss children",
     "developmental neurotoxicity", "child neurotoxin",
     "prenatal lead", "fetal lead exposure",
-
-    # Environment (tightened — only metal/toxin-specific)
     "pollution control board lead", "cpcb lead", "spcb lead",
     "industrial effluent heavy metal", "hazardous waste metal",
     "e-waste lead", "e-waste heavy metal",
@@ -303,14 +240,10 @@ ILEAP_KEYWORDS = [
     "particulate matter heavy metal", "air toxic metal",
     "pm2.5 lead", "dust lead exposure",
     "toxic waste dump", "contaminated site cleanup",
-
-    # Occupational health (tightened)
     "occupational lead exposure", "occupational heavy metal",
     "lead worker health", "smelter worker health",
     "battery worker health", "paint worker lead exposure",
     "occupational toxic exposure",
-
-    # Global programs & bodies
     "national lead elimination", "global lead network",
     "pure earth", "ipen lead", "unep lead",
     "lead paint alliance", "who lead guideline",
@@ -318,25 +251,20 @@ ILEAP_KEYWORDS = [
     "lead elimination program",
 ]
 
-# ── ELS ───────────────────────────────────────
 ELS_KEYWORDS = [
-    # Core employment
     "employment generation", "job creation",
     "unemployment rate", "unemployment data",
     "labour market reform", "workforce development",
     "employment scheme", "employment program",
     "employment exchange", "job portal government",
     "net employment", "new jobs created",
-
-    # Wage & conditions
     "minimum wage revision", "minimum wage notification",
     "wage board", "wage revision",
     "equal remuneration act", "wage compliance",
     "wage theft", "wage arrears",
     "floor wage", "national floor wage",
-
-    # Skill development (tightened)
-    "skill development scheme", "skill training program government",
+    "skill development scheme",
+    "skill training program government",
     "vocational training scheme", "skill india mission",
     "pmkvy", "pradhan mantri kaushal vikas yojana",
     "iti training", "iti upgradation",
@@ -345,96 +273,69 @@ ELS_KEYWORDS = [
     "recognition of prior learning",
     "nsdc", "sector skill council", "skill certification",
     "jan shikshan sansthan",
-
-    # Employment Schemes
     "mahatma gandhi nrega", "mgnregs", "mnrega",
     "pm employment guarantee", "urban employment scheme",
     "deen dayal upadhyaya", "ddu-gky", "rsetis",
     "pmegp", "pm rojgar", "pm internship scheme",
     "national career service",
-
-    # Informal economy
     "informal sector workers", "informal economy policy",
     "street vendors scheme", "pm svnidhi",
     "unorganized workers", "e-shram registration",
     "e-shram portal", "unorganised sector scheme",
-
-    # Labour welfare (tightened — no plain "pension")
     "labour welfare scheme", "worker welfare fund",
     "construction worker welfare", "building worker cess",
     "esi scheme", "esic benefit", "epfo scheme",
     "employee provident fund", "social security worker",
     "labour pension scheme", "unorganized sector pension",
     "pm shram yogi mandhan", "atal pension yojana labour",
-
-    # Women employment (tightened)
     "women employment scheme", "women workforce participation",
     "female labour force participation", "working women hostel",
     "maternity benefit scheme", "women entrepreneur scheme",
     "self help group livelihood", "shg employment",
     "pradhan mantri mahila shakti", "women self employment",
-
-    # Migration & Gig
     "migrant worker welfare", "migrant labour policy",
     "gig worker rights", "platform worker policy",
     "interstate migrant worker", "labour migration policy",
     "one nation one ration", "onorc",
     "gig economy regulation", "platform economy policy",
-
-    # Labour statistics
     "plfs report", "periodic labour force survey",
     "employment unemployment survey", "labour bureau survey",
     "employment statistics", "labour statistics india",
     "labour force participation rate", "lfpr data",
     "worker population ratio", "formal employment data",
     "quarterly employment survey",
-
-    # Industry-specific
     "textile employment", "construction workers welfare",
     "domestic workers rights", "domestic workers code",
     "plantation labour welfare", "mining workers welfare",
     "beedi workers welfare", "contract labour regulation",
-
-    # Youth employment
     "youth employment scheme", "youth unemployment data",
     "first time job seeker", "campus placement scheme",
     "internship scheme government", "apprenticeship act",
     "national career centre",
 ]
 
-# ── Negative keywords ─────────────────────────
 NEGATIVE_KEYWORDS = [
-    # Routine/Administrative
     "condolence", "obituary", "death anniversary", "birth anniversary",
     "greetings on", "wishes on", "festival greetings",
     "republic day parade", "independence day celebration",
     "diwali", "holi", "eid", "christmas", "pongal", "onam",
     "new year message", "mann ki baat",
-
-    # Appointments/Transfers
     "takes charge", "assumes charge",
     "retirement function", "superannuation",
     "swearing in ceremony", "oath taking ceremony",
-
-    # Ceremonies
     "foundation stone laying", "lays foundation stone",
     "flag hoisting ceremony",
     "cultural program", "cultural event", "cultural festival",
     "sports meet", "sports day", "marathon", "cyclothon",
     "yoga day event", "fit india movement",
-
-    # Foreign visits/Diplomacy
     "state visit", "bilateral visit",
     "foreign minister visit", "head of state visit",
     "mou signing ceremony", "agreement signing ceremony",
-    "bilateral relations", "diplomatic ties",
     "ambassador presents credentials",
     "foreign delegation visits", "parliamentary delegation visits",
     "cultural exchange program", "people to people contact",
     "diaspora event", "pravasi bharatiya divas",
     "india caucus", "friendship group",
-
-    # Defence/Security
     "military exercise", "naval exercise", "air exercise",
     "passing out parade", "commissioning ceremony",
     "defence expo", "aero india", "defexpo",
@@ -443,57 +344,25 @@ NEGATIVE_KEYWORDS = [
     "bsf raising day", "crpf raising day",
     "cisf raising day", "coast guard day",
     "navy day", "air force day", "army day",
-    "defence procurement policy", "defence indigenisation",
-
-    # Awards/Felicitation
     "award ceremony", "prize distribution", "felicitation ceremony",
     "padma awards", "national awards ceremony",
-    "excellence award", "best performance award",
-
-    # Ceremonial/Political noise
     "farewell function", "book launch event",
     "commemorative stamp release", "coin release ceremony",
     "convocation ceremony", "degree distribution",
-    "national conference inauguration", "national convention inauguration",
     "international day celebration", "world day celebration",
-    "international women's day event", "world water day event",
-    "world environment day event", "world health day event",
-    "world tuberculosis day", "world aids day",
-
-    # Generic health events (iLEAP fix)
     "hospital inauguration", "medical college inauguration",
-    "dispensary inauguration", "health camp",
-    "blood donation camp", "eye check-up camp",
-    "pulse polio campaign", "immunization drive",
-    "vaccination camp", "covid vaccination drive",
-    "cancer awareness drive", "diabetes awareness",
-    "heart disease awareness", "mental health awareness day",
-    "tb awareness drive", "malaria awareness",
-    "ayush day", "yoga for health",
-
-    # Infrastructure inaugurations (EoDB fix)
+    "health camp", "blood donation camp",
+    "pulse polio campaign", "vaccination camp",
     "highway inauguration", "road inauguration",
     "bridge inauguration", "tunnel inauguration",
     "airport inauguration", "port inauguration",
     "railway line inauguration", "metro inauguration",
     "dam inauguration", "power plant inauguration",
     "expressway inauguration",
-
-    # Elections
-    "election", "election schedule", "election notification",
+    "election schedule", "election notification",
     "model code of conduct", "voter turnout",
     "polling station", "ballot paper",
     "election results", "by-election notification",
-    "voter registration drive",
-
-    # AI/Tech events (CoDED fix)
-    "ai summit", "ai expo", "ai impact summit",
-    "tech summit", "digital india week",
-    "startup india festival", "hackathon event",
-    "innovation challenge", "technology exhibition",
-    "india ai expo",
-
-    # General noise
     "pib fact check", "fake news alert",
     "all india radio", "doordarshan programme",
 ]
@@ -502,47 +371,38 @@ NEGATIVE_KEYWORDS = [
 # Build lookup structures
 # ─────────────────────────────────────────────
 KEYWORD_MAP = {
-    "EoDB":  EODB_KEYWORDS,
-    "CoDED": CODED_KEYWORDS,
-    "iLEAP": ILEAP_KEYWORDS,
-    "ELS":   ELS_KEYWORDS,
+    "EoDB":  sorted(EODB_KEYWORDS,  key=len, reverse=True),
+    "CoDED": sorted(CODED_KEYWORDS, key=len, reverse=True),
+    "iLEAP": sorted(ILEAP_KEYWORDS, key=len, reverse=True),
+    "ELS":   sorted(ELS_KEYWORDS,   key=len, reverse=True),
 }
 
-# Pre-sort keywords longest-first so longer phrases match before substrings
-for _v in KEYWORD_MAP:
-    KEYWORD_MAP[_v] = sorted(KEYWORD_MAP[_v], key=len, reverse=True)
-
-NEGATIVE_SET = set(NEGATIVE_KEYWORDS)
+NEGATIVE_SET = set(kw.lower() for kw in NEGATIVE_KEYWORDS)
 
 
 # ─────────────────────────────────────────────
-# Scoring helpers
+# Helpers
 # ─────────────────────────────────────────────
+
+def make_id(url: str) -> str:
+    return hashlib.md5(url.encode()).hexdigest()
+
+
+def clean_html(raw: str) -> str:
+    if not raw:
+        return ""
+    text = BeautifulSoup(raw, "html.parser").get_text(separator=" ")
+    import re
+    return re.sub(r"\s+", " ", text).strip()[:SNIPPET_LENGTH]
+
 
 def is_negative(title: str) -> bool:
-    """Return True if the title matches any negative keyword."""
     t = title.lower()
     return any(neg in t for neg in NEGATIVE_SET)
 
 
-def matched_keywords_debug(title: str, snippet: str) -> dict[str, list]:
-    """Return which keywords fired per vertical (for debugging)."""
-    title_low   = title.lower()
-    snippet_low = snippet.lower()
-    result = {}
-    for vertical, keywords in KEYWORD_MAP.items():
-        hits = [kw for kw in keywords if kw in title_low or kw in snippet_low]
-        if hits:
-            result[vertical] = hits
-    return result
-
-
 def score_release(title: str, snippet: str) -> dict:
-    """
-    Score a release against all verticals.
-    Title matches worth 2x, snippet matches worth 1x.
-    Returns dict of {vertical: score} for verticals with score > 0.
-    """
+    """Score against all verticals. Title hits = 2pts, snippet hits = 1pt."""
     title_low   = title.lower()
     snippet_low = snippet.lower()
     scores = {}
@@ -558,256 +418,116 @@ def score_release(title: str, snippet: str) -> dict:
     return scores
 
 
-# ─────────────────────────────────────────────
-# HTTP helpers
-# ─────────────────────────────────────────────
-
-def get_session() -> requests.Session:
-    s = requests.Session()
-    s.headers.update(HEADERS)
-    return s
-
-
-def safe_get(session: requests.Session, url: str) -> requests.Response | None:
-    try:
-        r = session.get(url, timeout=REQUEST_TIMEOUT)
-        r.raise_for_status()
-        return r
-    except requests.RequestException as exc:
-        log.warning("GET failed: %s  — %s", url, exc)
-        return None
-
-
-# ─────────────────────────────────────────────
-# PIB parsing
-# ─────────────────────────────────────────────
-
-def parse_release_list(html: str, region_name: str) -> list[dict]:
-    """
-    Parse the Allrel.aspx listing page.
-    Returns list of {title, url, date, region} dicts.
-    """
-    soup = BeautifulSoup(html, "lxml")
-    releases = []
-
-    # PIB Allrel.aspx uses <ul class="ReleaseListing"> or similar;
-    # fall back to scanning all <li> tags containing <a> with PRID links.
-    for a_tag in soup.select("a[href*='PressReleasePage'], a[href*='PressReleseDetail']"):
-        title = a_tag.get_text(strip=True)
-        if not title or len(title) < 10:
-            continue
-
-        href = a_tag.get("href", "")
-        if not href.startswith("http"):
-            href = PIB_BASE + href
-
-        # Try to grab sibling date text (usually in a <span> nearby)
-        date_str = ""
-        parent = a_tag.find_parent(["li", "div", "tr"])
-        if parent:
-            spans = parent.find_all("span")
-            for sp in spans:
-                txt = sp.get_text(strip=True)
-                if txt and any(m in txt for m in [
-                    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-                    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
-                ]):
-                    date_str = txt
-                    break
-
-        releases.append({
-            "title":  title,
-            "url":    href,
-            "date":   parse_date(date_str),
-            "region": region_name,
-        })
-
-    return releases
-
-
-def parse_date(raw: str) -> str:
-    """
-    Attempt to normalise various PIB date strings to YYYY-MM-DD.
-    Returns today's date string if parsing fails.
-    """
-    raw = raw.strip()
-    formats = [
-        "%d %B %Y",   # 28 March 2026
-        "%d %b %Y",   # 28 Mar 2026
-        "%B %d, %Y",  # March 28, 2026
-        "%d/%m/%Y",   # 28/03/2026
-        "%Y-%m-%d",   # already ISO
-    ]
-    for fmt in formats:
-        try:
-            return datetime.strptime(raw, fmt).strftime("%Y-%m-%d")
-        except ValueError:
-            continue
+def parse_rss_date(entry) -> str:
+    """Extract date from RSS entry, return YYYY-MM-DD string."""
+    for attr in ("published_parsed", "updated_parsed"):
+        val = getattr(entry, attr, None)
+        if val:
+            try:
+                dt = datetime(*val[:6], tzinfo=timezone.utc)
+                return dt.strftime("%Y-%m-%d")
+            except Exception:
+                pass
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
 
-def fetch_snippet(session: requests.Session, url: str) -> str:
-    """
-    Fetch the press release page and return the first SNIPPET_LENGTH
-    characters of body text.  Returns empty string on failure.
-    """
-    resp = safe_get(session, url)
-    if not resp:
-        return ""
-    soup = BeautifulSoup(resp.text, "lxml")
-
-    # PIB detail pages have content in <div id="content"> or similar
-    content_div = (
-        soup.find("div", {"id": "content"})
-        or soup.find("div", class_=lambda c: c and "release" in c.lower())
-        or soup.find("div", class_=lambda c: c and "content" in c.lower())
-    )
-    if content_div:
-        text = content_div.get_text(" ", strip=True)
-    else:
-        # Fallback: grab all paragraph text
-        paragraphs = soup.find_all("p")
-        text = " ".join(p.get_text(" ", strip=True) for p in paragraphs)
-
-    # Clean up whitespace
-    text = " ".join(text.split())
-    return text[:SNIPPET_LENGTH]
-
-
-def make_id(url: str) -> str:
-    """MD5 hash of the URL as a stable unique ID."""
-    return hashlib.md5(url.encode()).hexdigest()
-
-
-def to_ist(dt: datetime) -> str:
-    """Convert a UTC datetime to a human-readable IST string. No pytz needed."""
-    ist = dt + timedelta(hours=5, minutes=30)
-    return ist.strftime("%-d %b %Y, %-I:%M %p IST")
+def is_within_window(date_str: str) -> bool:
+    try:
+        release = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        cutoff  = datetime.now(timezone.utc) - timedelta(hours=FRESH_WINDOW_HOURS)
+        return release >= cutoff
+    except ValueError:
+        return True
 
 
 def relative_time(date_str: str) -> str:
-    """
-    Return a human-friendly relative label from a YYYY-MM-DD date.
-    e.g. 'Today', 'Yesterday', '2 days ago'
-    """
     try:
         release = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+        delta   = (datetime.now(timezone.utc) - release).days
+        if delta == 0:   return "Today"
+        if delta == 1:   return "Yesterday"
+        if delta < 7:    return f"{delta} days ago"
+        return release.strftime("%-d %b %Y")
     except ValueError:
         return "Recently"
 
-    delta = (datetime.now(timezone.utc) - release).days
-    if delta == 0:
-        return "Today"
-    elif delta == 1:
-        return "Yesterday"
-    elif delta < 7:
-        return f"{delta} days ago"
-    else:
-        return release.strftime("%-d %b %Y")
-
 
 def primary_vertical(scores: dict) -> str:
-    """
-    Pick the single highest-scoring vertical.
-    Returns 'Other' when no vertical threshold was met (All-only releases).
-    """
     if not scores:
         return "Other"
     return max(scores, key=scores.get)
 
 
-def is_within_window(date_str: str, hours: int = FRESH_WINDOW_HOURS) -> bool:
-    """
-    Return True if date_str (YYYY-MM-DD) falls within the last `hours` hours.
-
-    Because PIB only provides a date (no time), we treat the release as
-    published at midnight UTC on that date — meaning a release dated
-    'today' is always included, and releases older than the window are
-    skipped.  This gives a safe, inclusive interpretation.
-    """
-    try:
-        release_date = datetime.strptime(date_str, "%Y-%m-%d").replace(
-            tzinfo=timezone.utc
-        )
-    except ValueError:
-        # If date couldn't be parsed we defaulted to today — keep it.
-        return True
-
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
-    return release_date >= cutoff
+def to_ist(dt: datetime) -> str:
+    ist = dt + timedelta(hours=5, minutes=30)
+    return ist.strftime("%-d %b %Y, %-I:%M %p IST")
 
 
 # ─────────────────────────────────────────────
-# Main scrape loop
+# Main RSS scrape loop
 # ─────────────────────────────────────────────
 
-def scrape_all_regions(session: requests.Session) -> list[dict]:
+def scrape_all_regions() -> list:
     all_releases = []
-    seen_ids: set[str] = set()
+    seen_ids: set = set()
 
-    for reg_id, region_name in PIB_REGIONS.items():
-        url = PIB_LIST.format(reg=reg_id)
-        log.info("Scraping %-22s  (%s)", region_name, url)
+    for reg_id, (region_name, feed_url) in PIB_RSS_FEEDS.items():
+        log.info("Scraping %-22s  %s", region_name, feed_url)
 
-        resp = safe_get(session, url)
-        if not resp:
-            log.warning("Skipping %s — fetch failed", region_name)
-            time.sleep(REQUEST_DELAY)
-            continue
+        try:
+            feed = feedparser.parse(feed_url, request_headers=HEADERS)
+            entries = feed.entries
+            log.info("  → %d entries found", len(entries))
 
-        raw_releases = parse_release_list(resp.text, region_name)
-        log.info("  → found %d links", len(raw_releases))
+            for entry in entries[:50]:
+                title   = clean_html(entry.get("title", ""))
+                url     = entry.get("link", "").strip()
+                snippet = clean_html(entry.get("summary", entry.get("description", "")))
 
-        for rel in raw_releases:
-            uid = make_id(rel["url"])
-            if uid in seen_ids:
-                continue                    # deduplicate across regions
-            seen_ids.add(uid)
+                if not title or not url:
+                    continue
 
-            title = rel["title"]
+                uid = make_id(url)
+                if uid in seen_ids:
+                    continue
+                seen_ids.add(uid)
 
-            # ── Step 0: 48-hour freshness gate ──────────────────────
-            if not is_within_window(rel["date"]):
-                log.debug("  [SKIP-OLD] %s  (%s)", title[:70], rel["date"])
-                continue
+                # Date check — last 24hrs only
+                date_str = parse_rss_date(entry)
+                if not is_within_window(date_str):
+                    log.debug("  [SKIP-OLD] %s (%s)", title[:60], date_str)
+                    continue
 
-            # ── Step 1: negative filter (title only — fast) ──
-            is_neg = is_negative(title)
+                # Score against verticals
+                scores      = score_release(title, snippet)
+                total_score = sum(scores.values())
+                section     = "vertical" if scores else "other"
 
-            # ── Step 2: fetch snippet for richer matching ──
-            snippet = fetch_snippet(session, rel["url"])
-            time.sleep(REQUEST_DELAY)
+                release = {
+                    "id":               uid,
+                    "title":            title,
+                    "url":              url,
+                    "date":             date_str,
+                    "relative_time":    relative_time(date_str),
+                    "region":           region_name,
+                    "verticals":        sorted(scores.keys()),
+                    "section":          section,
+                    "primary_vertical": primary_vertical(scores),
+                    "relevance_score":  total_score,
+                    "snippet":          snippet,
+                    "vertical_scores":  scores,
+                }
 
-            # ── Step 3: score against all verticals ──
-            scores = score_release(title, snippet)
+                all_releases.append(release)
 
-            # Total relevance score = sum of all vertical scores
-            total_score = sum(scores.values())
+                if scores:
+                    log.info("  [MATCH] %s | %s score=%d",
+                             title[:60], list(scores.keys()), total_score)
+                else:
+                    log.info("  [OTHER] %s", title[:60])
 
-            release = {
-                "id":               uid,
-                "title":            title,
-                "url":              rel["url"],
-                "date":             rel["date"],
-                "relative_time":    relative_time(rel["date"]),   # "Today" / "Yesterday" / "2 days ago"
-                "region":           rel["region"],
-                "verticals":        sorted(scores.keys()),         # [] = "All" only
-                "section":          "vertical" if scores else "other",
-                "primary_vertical": primary_vertical(scores),      # highest-scoring vertical
-                "relevance_score":  total_score,
-                "snippet":          snippet,
-                "vertical_scores":  scores,
-            }
-
-            all_releases.append(release)
-
-            if scores:
-                log.info(
-                    "  [MATCH] %s | verticals=%s score=%d",
-                    title[:70], list(scores.keys()), total_score,
-                )
-            else:
-                log.debug("  [ALL]   %s", title[:70])
+        except Exception as exc:
+            log.warning("Feed error [%s]: %s", region_name, exc)
 
         time.sleep(REQUEST_DELAY)
 
@@ -818,33 +538,26 @@ def scrape_all_regions(session: requests.Session) -> list[dict]:
 # Merge with existing pib.json
 # ─────────────────────────────────────────────
 
-def load_existing(path: str) -> list[dict]:
+def load_existing(path: str) -> list:
     if not os.path.exists(path):
         return []
     try:
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
-        # Support both old key ("releases") and new key ("articles")
         return data.get("articles", data.get("releases", []))
     except (json.JSONDecodeError, KeyError):
         log.warning("Could not load existing pib.json — starting fresh")
         return []
 
 
-def merge_releases(existing: list[dict], fresh: list[dict]) -> list[dict]:
-    """
-    Merge fresh scrape into existing, deduplicate by id,
-    sort newest-first, keep MAX_RELEASES_KEPT.
-    """
-    by_id: dict[str, dict] = {r["id"]: r for r in existing}
+def merge_releases(existing: list, fresh: list) -> list:
+    by_id = {r["id"]: r for r in existing}
     added = 0
     for r in fresh:
         if r["id"] not in by_id:
             by_id[r["id"]] = r
             added += 1
-
     log.info("Merged: %d new releases added (total pool: %d)", added, len(by_id))
-
     merged = sorted(by_id.values(), key=lambda r: r.get("date", ""), reverse=True)
     return merged[:MAX_RELEASES_KEPT]
 
@@ -853,12 +566,12 @@ def merge_releases(existing: list[dict], fresh: list[dict]) -> list[dict]:
 # Write output
 # ─────────────────────────────────────────────
 
-def write_output(releases: list[dict], path: str) -> None:
+def write_output(releases: list, path: str) -> None:
     os.makedirs(os.path.dirname(path), exist_ok=True)
 
-    vertical_counts: dict[str, int] = {v: 0 for v in KEYWORD_MAP}
-    all_only = 0
-    regions_seen: set[str] = set()
+    vertical_counts = {v: 0 for v in KEYWORD_MAP}
+    other_count     = 0
+    regions_seen    = set()
 
     for r in releases:
         regions_seen.add(r["region"])
@@ -866,43 +579,38 @@ def write_output(releases: list[dict], path: str) -> None:
             for v in r["verticals"]:
                 vertical_counts[v] = vertical_counts.get(v, 0) + 1
         else:
-            all_only += 1
+            other_count += 1
 
     now_utc = datetime.now(timezone.utc)
 
     output = {
-        # ── Fields index.html reads directly ──────────────────────────
         "last_updated":     now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "last_updated_ist": to_ist(now_utc),          # "29 Mar 2026, 10:15 AM IST"
-        "total":            len(releases),             # data.total
-        "articles":         releases,                  # data.articles[]
-
-        # ── Extra metadata (useful for debugging / future features) ───
-        "all_only_count":   all_only,
+        "last_updated_ist": to_ist(now_utc),
+        "total":            len(releases),
+        "articles":         releases,
+        "other_count":      other_count,
         "vertical_counts":  vertical_counts,
         "regions_scraped":  len(regions_seen),
-
-        # ── Vertical & region metadata (mirrors your hand-crafted json) ─
         "verticals": {
-            "EoDB":  {"label": "Ease of Doing Business & Export-Led Manufacturing", "color": "#E8620A"},
-            "CoDED": {"label": "Center of Data for Economic Decision-making",       "color": "#2471A3"},
-            "iLEAP": {"label": "Lead Elimination & Public Health",                  "color": "#C0392B"},
-            "ELS":   {"label": "Employment & Livelihood Systems",                   "color": "#7D3C98"},
+            "EoDB":  {"label": "Ease of Doing Business & Manufacturing", "color": "#E8620A"},
+            "CoDED": {"label": "Data for Economic Decision-making",       "color": "#2471A3"},
+            "iLEAP": {"label": "Lead Elimination & Public Health",        "color": "#C0392B"},
+            "ELS":   {"label": "Employment & Livelihood Systems",         "color": "#7D3C98"},
         },
-        "regions": PIB_REGIONS,
+        "regions": {reg_id: name for reg_id, (name, _) in PIB_RSS_FEEDS.items()},
     }
 
     with open(path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     log.info(
-        "Written %d articles → %s  (EoDB=%d CoDED=%d iLEAP=%d ELS=%d AllOnly=%d)",
+        "Written %d articles → %s  (EoDB=%d CoDED=%d iLEAP=%d ELS=%d Other=%d)",
         len(releases), path,
         vertical_counts.get("EoDB",  0),
         vertical_counts.get("CoDED", 0),
         vertical_counts.get("iLEAP", 0),
         vertical_counts.get("ELS",   0),
-        all_only,
+        other_count,
     )
 
 
@@ -912,24 +620,18 @@ def write_output(releases: list[dict], path: str) -> None:
 
 def main() -> None:
     log.info("═" * 60)
-    log.info("PIF PIB Scraper v2 — starting")
+    log.info("PIF PIB Scraper v3 (RSS) — starting")
     log.info("Regions: %d  |  Window: last %dh  |  Output: %s",
-             len(PIB_REGIONS), FRESH_WINDOW_HOURS, OUTPUT_PATH)
+             len(PIB_RSS_FEEDS), FRESH_WINDOW_HOURS, OUTPUT_PATH)
     log.info("═" * 60)
 
-    session = get_session()
+    fresh    = scrape_all_regions()
+    log.info("Scrape complete — %d releases found", len(fresh))
 
-    # 1. Scrape all regions
-    fresh = scrape_all_regions(session)
-    log.info("Scrape complete — %d releases before merge", len(fresh))
-
-    # 2. Merge with existing data
     existing = load_existing(OUTPUT_PATH)
     merged   = merge_releases(existing, fresh)
 
-    # 3. Write to docs/pib.json
     write_output(merged, OUTPUT_PATH)
-
     log.info("Done. ✓")
 
 
