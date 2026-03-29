@@ -537,6 +537,27 @@ def matched_keywords_debug(title: str, snippet: str) -> dict[str, list]:
     return result
 
 
+def score_release(title: str, snippet: str) -> dict:
+    """
+    Score a release against all verticals.
+    Title matches worth 2x, snippet matches worth 1x.
+    Returns dict of {vertical: score} for verticals with score > 0.
+    """
+    title_low   = title.lower()
+    snippet_low = snippet.lower()
+    scores = {}
+    for vertical, keywords in KEYWORD_MAP.items():
+        score = 0
+        for kw in keywords:
+            if kw in title_low:
+                score += 2
+            elif kw in snippet_low:
+                score += 1
+        if score > 0:
+            scores[vertical] = score
+    return scores
+
+
 # ─────────────────────────────────────────────
 # HTTP helpers
 # ─────────────────────────────────────────────
@@ -751,9 +772,7 @@ def scrape_all_regions(session: requests.Session) -> list[dict]:
                 continue
 
             # ── Step 1: negative filter (title only — fast) ──
-            if is_negative(title):
-                log.debug("  [SKIP-NEG] %s", title[:80])
-                continue
+            is_neg = is_negative(title)
 
             # ── Step 2: fetch snippet for richer matching ──
             snippet = fetch_snippet(session, rel["url"])
@@ -773,6 +792,7 @@ def scrape_all_regions(session: requests.Session) -> list[dict]:
                 "relative_time":    relative_time(rel["date"]),   # "Today" / "Yesterday" / "2 days ago"
                 "region":           rel["region"],
                 "verticals":        sorted(scores.keys()),         # [] = "All" only
+                "section":          "vertical" if scores else "other",
                 "primary_vertical": primary_vertical(scores),      # highest-scoring vertical
                 "relevance_score":  total_score,
                 "snippet":          snippet,
