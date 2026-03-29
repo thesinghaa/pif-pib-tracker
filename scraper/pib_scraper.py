@@ -370,12 +370,6 @@ def clean_text(raw: str) -> str:
     text = BeautifulSoup(raw, "html.parser").get_text(separator=" ")
     return re.sub(r"\s+", " ", text).strip()[:SNIPPET_LENGTH]
 
-
-def is_negative(title: str) -> bool:
-    t = title.lower()
-    return any(neg in t for neg in NEGATIVE_SET)
-
-
 def score_release(title: str, snippet: str) -> dict:
     """
     Score against all verticals.
