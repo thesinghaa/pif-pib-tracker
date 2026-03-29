@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-29T15:32:47Z",
-  "last_updated_ist": "29 Mar 2026, 09:02 PM IST",
-  "total": 389,
+  "last_updated": "2026-03-29T16:27:05Z",
+  "last_updated_ist": "29 Mar 2026, 09:57 PM IST",
+  "total": 393,
   "articles": [
     {
       "id": "b49ac9a39362c291561e382540f526a3",
@@ -5973,9 +5973,69 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "86750079f97f1f23bed474f0ab24fd9b",
+      "title": "Union Minister of Commerce and Industry Shri Piyush Goyal holds bilateral meeting with EU Trade Commissioner Mr Maros Sefcovic on the sidelines of WTO MC-14 in Yaounde, Cameroon",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246705",
+      "date": "2026-03-29",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "1bd1510d4b60fa362952f6ac0f5131b6",
+      "title": "Union Minister of Commerce and Industry Shri Piyush Goyal holds bilateral meeting with Canada’s Minister of International Trade Mr Maninder Sidhu on sidelines of WTO MC-14 in Yaounde, Cameroon",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246704",
+      "date": "2026-03-29",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "4300b45afd6be8af15516000cdc9dcd5",
+      "title": "Union Minister of Commerce and Industry holds bilateral meeting with UK Secretary of State for Business and Trade Mr Peter J Kyle on the sidelines of WTO MC-14 in Yaounde, Cameroon",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246697",
+      "date": "2026-03-29",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c66f1b24a06aa761f39b4df8ea962b46",
+      "title": "Union Minister of Commerce and Industry Shri Piyush Goyal holds bilateral meeting with New Zealand Trade Minister Mr. Todd Michael McClay on sidelines of WTO MC-14",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246696",
+      "date": "2026-03-29",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
     }
   ],
-  "other_count": 350,
+  "other_count": 354,
   "vertical_counts": {
     "EooDB": 12,
     "CoDED": 2,
