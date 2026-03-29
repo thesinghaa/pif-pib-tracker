@@ -9,327 +9,122 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --pif-navy: #1B365D;
-            --pif-navy-dark: #132744;
-            --pif-navy-light: #2C5282;
-            --pif-gold: #D4A853;
-            --pif-gold-light: #E8C679;
-            --eodb: #E8620A;
-            --coded: #2471A3;
-            --ileap: #C53030;
-            --els: #805AD5;
-            --white: #FFFFFF;
-            --gray-50: #F8FAFC;
-            --gray-100: #F1F5F9;
-            --gray-200: #E2E8F0;
-            --gray-300: #CBD5E1;
-            --gray-400: #94A3B8;
-            --gray-500: #64748B;
-            --gray-600: #475569;
-            --gray-700: #334155;
-            --gray-800: #1E293B;
-            --gray-900: #0F172A;
+            --pif-navy:#1B365D; --pif-navy-dark:#132744; --pif-navy-light:#2C5282;
+            --pif-gold:#D4A853; --pif-gold-light:#E8C679;
+            --eodb:#E8620A; --coded:#2471A3; --ileap:#C53030; --els:#805AD5;
+            --white:#FFFFFF; --gray-50:#F8FAFC; --gray-100:#F1F5F9;
+            --gray-200:#E2E8F0; --gray-300:#CBD5E1; --gray-400:#94A3B8;
+            --gray-500:#64748B; --gray-600:#475569; --gray-700:#334155;
+            --gray-800:#1E293B; --gray-900:#0F172A;
         }
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Outfit',sans-serif;background:var(--gray-50);color:var(--gray-800);line-height:1.6}
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        /* HEADER */
+        .header{background:linear-gradient(135deg,var(--pif-navy) 0%,var(--pif-navy-dark) 100%);position:relative;overflow:hidden}
+        .header::before{content:"";position:absolute;top:-50%;right:-20%;width:600px;height:600px;background:radial-gradient(circle,rgba(212,168,83,.1) 0%,transparent 70%);pointer-events:none}
+        .header::after{content:"";position:absolute;bottom:-30%;left:-10%;width:400px;height:400px;background:radial-gradient(circle,rgba(255,255,255,.05) 0%,transparent 70%);pointer-events:none}
+        .header-container{max-width:1400px;margin:0 auto;position:relative;z-index:1}
+        .header-top{display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;border-bottom:1px solid rgba(255,255,255,.08)}
+        .logo{display:flex;align-items:center;gap:.75rem}
+        .logo img{height:40px;filter:brightness(0) invert(1)}
+        .logo-divider{width:1px;height:28px;background:rgba(255,255,255,.3)}
+        .logo-text{color:var(--white);font-size:.8rem;font-weight:500;opacity:.9}
+        .nav-links{display:flex;gap:2rem}
+        .nav-links a{color:rgba(255,255,255,.75);text-decoration:none;font-size:.85rem;font-weight:500;transition:all .2s;position:relative}
+        .nav-links a:hover{color:var(--white)}
+        .nav-links a::after{content:"";position:absolute;bottom:-4px;left:0;width:0;height:2px;background:var(--pif-gold);transition:width .2s}
+        .nav-links a:hover::after{width:100%}
+        .header-main{padding:3rem 2rem}
+        .header-content{display:grid;grid-template-columns:1fr auto;gap:3rem;align-items:end}
+        .header-title h1{font-family:'Playfair Display',serif;font-size:2.75rem;font-weight:600;color:var(--white);letter-spacing:-1px;line-height:1.2}
+        .header-title h1 span{color:var(--pif-gold)}
+        .header-subtitle{color:rgba(255,255,255,.7);font-size:1rem;margin-top:.75rem}
+        .header-stats{display:flex;gap:1px;background:rgba(255,255,255,.1);border-radius:16px;overflow:hidden}
+        .stat-card{background:rgba(255,255,255,.05);padding:1.25rem 2rem;text-align:center;backdrop-filter:blur(10px);min-width:110px}
+        .stat-card:first-child{border-radius:16px 0 0 16px}
+        .stat-card:last-child{border-radius:0 16px 16px 0}
+        .stat-value{font-size:2rem;font-weight:700;color:var(--white);line-height:1}
+        .stat-label{font-size:.7rem;color:rgba(255,255,255,.6);text-transform:uppercase;letter-spacing:1px;margin-top:.5rem}
+        .header-actions{display:flex;align-items:center;gap:1.5rem;margin-top:2rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.1)}
+        .status-badge{display:flex;align-items:center;gap:.5rem;color:rgba(255,255,255,.8);font-size:.85rem}
+        .status-dot{width:8px;height:8px;background:#10B981;border-radius:50%;animation:pulse 2s infinite}
+        @keyframes pulse{0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(16,185,129,.4)}50%{opacity:.8;box-shadow:0 0 0 8px rgba(16,185,129,0)}}
+        .btn-refresh{display:flex;align-items:center;gap:.5rem;background:var(--pif-gold);color:var(--pif-navy-dark);border:none;padding:.75rem 1.5rem;border-radius:10px;font-size:.85rem;font-weight:600;cursor:pointer;transition:all .25s;font-family:inherit}
+        .btn-refresh:hover{background:var(--pif-gold-light);transform:translateY(-2px);box-shadow:0 8px 20px rgba(212,168,83,.3)}
+        .btn-refresh svg{width:16px;height:16px}
 
-        body {
-            font-family: 'Outfit', sans-serif;
-            background: var(--gray-50);
-            color: var(--gray-800);
-            line-height: 1.6;
-        }
+        /* FILTER BAR */
+        .filter-bar{background:var(--white);border-bottom:1px solid var(--gray-200);position:sticky;top:0;z-index:100;box-shadow:0 4px 20px rgba(0,0,0,.05)}
+        .filter-container{max-width:1400px;margin:0 auto;padding:1rem 2rem;display:flex;align-items:center;gap:2.5rem;flex-wrap:wrap}
+        .filter-group{display:flex;align-items:center;gap:1rem}
+        .filter-label{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--gray-400)}
+        .vertical-pills{display:flex;gap:.5rem}
+        .v-pill{position:relative;padding:.65rem 1.25rem;border-radius:50px;font-size:.8rem;font-weight:600;cursor:pointer;transition:all .25s;border:2px solid var(--gray-200);background:var(--white);color:var(--gray-600);font-family:inherit;display:flex;align-items:center;gap:.6rem}
+        .v-pill:hover{border-color:var(--gray-300);background:var(--gray-50)}
+        .v-pill.active{border-color:currentColor;background:currentColor}
+        .v-pill.active span{color:var(--white)}
+        .v-pill .indicator{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+        .v-pill .badge{background:var(--gray-100);color:var(--gray-500);padding:.15rem .6rem;border-radius:50px;font-size:.7rem;font-weight:700;transition:all .25s}
+        .v-pill.active .badge{background:rgba(255,255,255,.25);color:var(--white)}
+        .region-select{padding:.65rem 2.5rem .65rem 1rem;border:2px solid var(--gray-200);border-radius:50px;font-size:.85rem;font-weight:500;background:var(--white);color:var(--gray-700);cursor:pointer;font-family:inherit;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2364748B' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 1rem center;min-width:220px;transition:all .2s}
+        .region-select:focus{outline:none;border-color:var(--pif-navy-light)}
+        .results-info{margin-left:auto;font-size:.9rem;color:var(--gray-500)}
+        .results-info strong{color:var(--gray-800);font-weight:600}
 
-        /* ── HEADER ── */
-        .header {
-            background: linear-gradient(135deg, var(--pif-navy) 0%, var(--pif-navy-dark) 100%);
-            position: relative;
-            overflow: hidden;
-        }
-        .header::before {
-            content: "";
-            position: absolute;
-            top: -50%; right: -20%;
-            width: 600px; height: 600px;
-            background: radial-gradient(circle, rgba(212,168,83,0.1) 0%, transparent 70%);
-            pointer-events: none;
-        }
-        .header::after {
-            content: "";
-            position: absolute;
-            bottom: -30%; left: -10%;
-            width: 400px; height: 400px;
-            background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
-            pointer-events: none;
-        }
-        .header-container { max-width: 1400px; margin: 0 auto; position: relative; z-index: 1; }
-        .header-top {
-            display: flex; justify-content: space-between; align-items: center;
-            padding: 1rem 2rem;
-            border-bottom: 1px solid rgba(255,255,255,0.08);
-        }
-        .logo { display: flex; align-items: center; gap: 0.75rem; }
-        .logo img { height: 40px; filter: brightness(0) invert(1); }
-        .logo-divider { width: 1px; height: 28px; background: rgba(255,255,255,0.3); }
-        .logo-text { color: var(--white); font-size: 0.8rem; font-weight: 500; opacity: 0.9; }
-        .nav-links { display: flex; gap: 2rem; }
-        .nav-links a {
-            color: rgba(255,255,255,0.75); text-decoration: none;
-            font-size: 0.85rem; font-weight: 500; transition: all 0.2s; position: relative;
-        }
-        .nav-links a:hover { color: var(--white); }
-        .nav-links a::after {
-            content: ""; position: absolute; bottom: -4px; left: 0;
-            width: 0; height: 2px; background: var(--pif-gold); transition: width 0.2s;
-        }
-        .nav-links a:hover::after { width: 100%; }
-        .header-main { padding: 3rem 2rem; }
-        .header-content { display: grid; grid-template-columns: 1fr auto; gap: 3rem; align-items: end; }
-        .header-title h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.75rem; font-weight: 600; color: var(--white);
-            letter-spacing: -1px; line-height: 1.2;
-        }
-        .header-title h1 span { color: var(--pif-gold); }
-        .header-subtitle { color: rgba(255,255,255,0.7); font-size: 1rem; margin-top: 0.75rem; }
-        .header-stats {
-            display: flex; gap: 1px;
-            background: rgba(255,255,255,0.1); border-radius: 16px; overflow: hidden;
-        }
-        .stat-card {
-            background: rgba(255,255,255,0.05); padding: 1.25rem 2rem;
-            text-align: center; backdrop-filter: blur(10px); min-width: 110px;
-        }
-        .stat-card:first-child { border-radius: 16px 0 0 16px; }
-        .stat-card:last-child  { border-radius: 0 16px 16px 0; }
-        .stat-value { font-size: 2rem; font-weight: 700; color: var(--white); line-height: 1; }
-        .stat-label {
-            font-size: 0.7rem; color: rgba(255,255,255,0.6);
-            text-transform: uppercase; letter-spacing: 1px; margin-top: 0.5rem;
-        }
-        .header-actions {
-            display: flex; align-items: center; gap: 1.5rem;
-            margin-top: 2rem; padding-top: 1.5rem;
-            border-top: 1px solid rgba(255,255,255,0.1);
-        }
-        .status-badge { display: flex; align-items: center; gap: 0.5rem; color: rgba(255,255,255,0.8); font-size: 0.85rem; }
-        .status-dot {
-            width: 8px; height: 8px; background: #10B981;
-            border-radius: 50%; animation: pulse 2s infinite;
-        }
-        @keyframes pulse {
-            0%,100% { opacity:1; box-shadow: 0 0 0 0 rgba(16,185,129,0.4); }
-            50%      { opacity:.8; box-shadow: 0 0 0 8px rgba(16,185,129,0); }
-        }
-        .btn-refresh {
-            display: flex; align-items: center; gap: 0.5rem;
-            background: var(--pif-gold); color: var(--pif-navy-dark);
-            border: none; padding: 0.75rem 1.5rem; border-radius: 10px;
-            font-size: 0.85rem; font-weight: 600; cursor: pointer;
-            transition: all 0.25s; font-family: inherit;
-        }
-        .btn-refresh:hover {
-            background: var(--pif-gold-light); transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(212,168,83,0.3);
-        }
-        .btn-refresh svg { width: 16px; height: 16px; }
+        /* MAIN */
+        .main{max-width:1400px;margin:0 auto;padding:2.5rem 2rem}
+        .cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(400px,1fr));gap:1.5rem}
 
-        /* ── FILTER BAR ── */
-        .filter-bar {
-            background: var(--white); border-bottom: 1px solid var(--gray-200);
-            position: sticky; top: 0; z-index: 100;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-        }
-        .filter-container {
-            max-width: 1400px; margin: 0 auto; padding: 1rem 2rem;
-            display: flex; align-items: center; gap: 2.5rem; flex-wrap: wrap;
-        }
-        .filter-group { display: flex; align-items: center; gap: 1rem; }
-        .filter-label { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--gray-400); }
-        .vertical-pills { display: flex; gap: 0.5rem; }
-        .v-pill {
-            position: relative; padding: 0.65rem 1.25rem; border-radius: 50px;
-            font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: all 0.25s;
-            border: 2px solid var(--gray-200); background: var(--white);
-            color: var(--gray-600); font-family: inherit;
-            display: flex; align-items: center; gap: 0.6rem;
-        }
-        .v-pill:hover { border-color: var(--gray-300); background: var(--gray-50); }
-        .v-pill.active { border-color: currentColor; background: currentColor; }
-        .v-pill.active span { color: var(--white); }
-        .v-pill .indicator { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
-        .v-pill .badge {
-            background: var(--gray-100); color: var(--gray-500);
-            padding: 0.15rem 0.6rem; border-radius: 50px; font-size: 0.7rem; font-weight: 700;
-            transition: all 0.25s;
-        }
-        .v-pill.active .badge { background: rgba(255,255,255,0.25); color: var(--white); }
-        .region-select {
-            padding: 0.65rem 2.5rem 0.65rem 1rem;
-            border: 2px solid var(--gray-200); border-radius: 50px;
-            font-size: 0.85rem; font-weight: 500; background: var(--white);
-            color: var(--gray-700); cursor: pointer; font-family: inherit;
-            appearance: none;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2364748B' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-            background-repeat: no-repeat; background-position: right 1rem center;
-            min-width: 220px; transition: all 0.2s;
-        }
-        .region-select:focus { outline: none; border-color: var(--pif-navy-light); }
-        .results-info { margin-left: auto; font-size: 0.9rem; color: var(--gray-500); }
-        .results-info strong { color: var(--gray-800); font-weight: 600; }
-
-        /* ── MAIN ── */
-        .main { max-width: 1400px; margin: 0 auto; padding: 2.5rem 2rem; }
-        .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 1.5rem; }
-
-        /* ── CARDS ── */
-        .card {
-            background: var(--white); border-radius: 20px; overflow: hidden;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-            transition: all 0.35s cubic-bezier(0.4,0,0.2,1);
-            border: 1px solid var(--gray-100);
-            display: flex; flex-direction: column;
-        }
-        .card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(27,54,93,0.12); }
-        .card-accent {
-            height: 5px;
-            background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-color-light, var(--accent-color)) 100%);
-        }
-        .card-top {
-            padding: 1.25rem 1.5rem;
-            display: flex; justify-content: space-between; align-items: center;
-            border-bottom: 1px solid var(--gray-100);
-        }
-        .card-vertical-tag {
-            display: inline-flex; align-items: center; gap: 0.4rem;
-            padding: 0.4rem 1rem; border-radius: 50px;
-            font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
-            letter-spacing: 0.5px; color: var(--white);
-        }
-
-        /* "Other" vertical tag — shown for All-only releases */
-        .card-vertical-tag.other {
-            background: var(--gray-400) !important;
-        }
-
-        .card-tags { display: flex; gap: 0.5rem; }
-        .card-tag { padding: 0.35rem 0.85rem; border-radius: 8px; font-size: 0.75rem; font-weight: 500; }
-        .card-tag.region { background: var(--gray-100); color: var(--gray-600); }
-        .card-tag.time { background: #FEF3C7; color: #92400E; }
-        .card-body { padding: 1.5rem; flex: 1; display: flex; flex-direction: column; gap: 0.75rem; }
-        .card-title {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.1rem; font-weight: 600; color: var(--gray-800);
-            line-height: 1.5;
-        }
-        .card-title a { color: inherit; text-decoration: none; transition: color 0.2s; }
-        .card-title a:hover { color: var(--pif-navy-light); }
-
-        /* Snippet text */
-        .card-snippet {
-            font-size: 0.82rem; color: var(--gray-500);
-            line-height: 1.6; flex: 1;
-            display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-
-        /* Multi-vertical pills row */
-        .card-verticals { display: flex; flex-wrap: wrap; gap: 0.4rem; }
-        .cv-pill {
-            font-size: 0.68rem; font-weight: 600; padding: 0.2rem 0.65rem;
-            border-radius: 50px; color: var(--white); letter-spacing: 0.3px;
-        }
-
-        .card-actions {
-            display: flex; gap: 0.75rem;
-            padding-top: 1.25rem; border-top: 1px solid var(--gray-100);
-        }
-        .btn {
-            flex: 1; padding: 0.7rem 1rem; border-radius: 10px;
-            font-size: 0.8rem; font-weight: 600; cursor: pointer;
-            display: flex; align-items: center; justify-content: center; gap: 0.5rem;
-            transition: all 0.2s; border: none; text-decoration: none; font-family: inherit;
-        }
-        .btn svg { width: 15px; height: 15px; }
-        .btn-primary { background: var(--pif-navy); color: var(--white); }
-        .btn-primary:hover { background: var(--pif-navy-light); transform: translateY(-2px); }
-        .btn-ghost { background: var(--gray-100); color: var(--gray-700); }
-        .btn-ghost:hover { background: var(--gray-200); }
-        .btn-copy.copied { background: #10B981; color: var(--white); }
-
-        /* ── EMPTY / LOADING / ERROR ── */
-        .empty-state {
-            grid-column: 1/-1; text-align: center;
-            padding: 5rem 2rem; background: var(--white);
-            border-radius: 20px; border: 2px dashed var(--gray-200);
-        }
-        .empty-state h3 { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--gray-700); margin-bottom: 0.5rem; }
-        .empty-state p { color: var(--gray-500); }
-        .loading { grid-column: 1/-1; text-align: center; padding: 5rem; }
-        .spinner {
-            width: 50px; height: 50px;
-            border: 4px solid var(--gray-200); border-top-color: var(--pif-navy);
-            border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto 1.5rem;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-        .loading p { color: var(--gray-500); }
-
-        /* ── TOAST ── */
-        .toast {
-            position: fixed; bottom: 2rem; right: 2rem;
-            background: var(--gray-800); color: var(--white);
-            padding: 1rem 1.5rem; border-radius: 12px;
-            font-size: 0.9rem; font-weight: 500;
-            opacity: 0; transform: translateY(20px);
-            transition: all 0.3s ease; z-index: 1000;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-        }
-        .toast.show { opacity: 1; transform: translateY(0); }
-
-        /* ── FOOTER ── */
-        .footer { background: var(--pif-navy); color: var(--white); padding: 2.5rem 2rem; margin-top: 4rem; }
-        .footer-container {
-            max-width: 1400px; margin: 0 auto;
-            display: flex; justify-content: space-between; align-items: center;
-            flex-wrap: wrap; gap: 2rem;
-        }
-        .footer-brand { display: flex; align-items: center; gap: 1rem; }
-        .footer-brand img { height: 36px; filter: brightness(0) invert(1); }
-        .footer-brand p { font-size: 0.85rem; opacity: 0.7; }
-        .footer-links { display: flex; gap: 2.5rem; }
-        .footer-links a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
-        .footer-links a:hover { color: var(--white); }
-
-        /* ── RESPONSIVE ── */
-        @media (max-width: 1024px) {
-            .cards-grid { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
-            .header-stats { display: none; }
-        }
-        @media (max-width: 768px) {
-            .header-top { flex-direction: column; gap: 1rem; }
-            .nav-links { display: none; }
-            .header-main { padding: 2rem 1.5rem; }
-            .header-title h1 { font-size: 1.75rem; }
-            .header-content { grid-template-columns: 1fr; }
-            .filter-container { padding: 1rem; gap: 1rem; }
-            .filter-group { width: 100%; flex-wrap: wrap; }
-            .vertical-pills { width: 100%; overflow-x: auto; padding-bottom: 0.5rem; -webkit-overflow-scrolling: touch; }
-            .region-select { width: 100%; }
-            .results-info { display: none; }
-            .main { padding: 1.5rem 1rem; }
-            .cards-grid { grid-template-columns: 1fr; }
-            .card-actions { flex-direction: column; }
-            .footer-container { flex-direction: column; text-align: center; }
-        }
-        ::-webkit-scrollbar { width: 10px; height: 10px; }
-        ::-webkit-scrollbar-track { background: var(--gray-100); }
-        ::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 5px; }
-        ::-webkit-scrollbar-thumb:hover { background: var(--gray-400); }
+        /* CARDS */
+        .card{background:var(--white);border-radius:20px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.05);transition:all .35s cubic-bezier(.4,0,.2,1);border:1px solid var(--gray-100);display:flex;flex-direction:column}
+        .card:hover{transform:translateY(-6px);box-shadow:0 20px 40px rgba(27,54,93,.12)}
+        .card-accent{height:5px;background:linear-gradient(90deg,var(--accent-color) 0%,var(--accent-color-light,var(--accent-color)) 100%)}
+        .card-top{padding:1.25rem 1.5rem;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--gray-100)}
+        .card-vertical-tag{display:inline-flex;align-items:center;gap:.4rem;padding:.4rem 1rem;border-radius:50px;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--white)}
+        .card-tags{display:flex;gap:.5rem}
+        .card-tag{padding:.35rem .85rem;border-radius:8px;font-size:.75rem;font-weight:500}
+        .card-tag.region{background:var(--gray-100);color:var(--gray-600)}
+        .card-tag.time{background:#FEF3C7;color:#92400E}
+        .card-body{padding:1.5rem;flex:1;display:flex;flex-direction:column;gap:.75rem}
+        .card-title{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:600;color:var(--gray-800);line-height:1.5}
+        .card-title a{color:inherit;text-decoration:none;transition:color .2s}
+        .card-title a:hover{color:var(--pif-navy-light)}
+        .card-snippet{font-size:.82rem;color:var(--gray-500);line-height:1.6;flex:1;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+        .card-verticals{display:flex;flex-wrap:wrap;gap:.4rem}
+        .cv-pill{font-size:.68rem;font-weight:600;padding:.2rem .65rem;border-radius:50px;color:var(--white);letter-spacing:.3px}
+        .card-actions{display:flex;gap:.75rem;padding-top:1.25rem;border-top:1px solid var(--gray-100)}
+        .btn{flex:1;padding:.7rem 1rem;border-radius:10px;font-size:.8rem;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:.5rem;transition:all .2s;border:none;text-decoration:none;font-family:inherit}
+        .btn svg{width:15px;height:15px}
+        .btn-primary{background:var(--pif-navy);color:var(--white)}
+        .btn-primary:hover{background:var(--pif-navy-light);transform:translateY(-2px)}
+        .btn-ghost{background:var(--gray-100);color:var(--gray-700)}
+        .btn-ghost:hover{background:var(--gray-200)}
+        .btn-copy.copied{background:#10B981;color:var(--white)}
+        .empty-state{grid-column:1/-1;text-align:center;padding:5rem 2rem;background:var(--white);border-radius:20px;border:2px dashed var(--gray-200)}
+        .empty-state h3{font-family:'Playfair Display',serif;font-size:1.5rem;color:var(--gray-700);margin-bottom:.5rem}
+        .empty-state p{color:var(--gray-500)}
+        .loading{grid-column:1/-1;text-align:center;padding:5rem}
+        .spinner{width:50px;height:50px;border:4px solid var(--gray-200);border-top-color:var(--pif-navy);border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 1.5rem}
+        @keyframes spin{to{transform:rotate(360deg)}}
+        .loading p{color:var(--gray-500)}
+        .toast{position:fixed;bottom:2rem;right:2rem;background:var(--gray-800);color:var(--white);padding:1rem 1.5rem;border-radius:12px;font-size:.9rem;font-weight:500;opacity:0;transform:translateY(20px);transition:all .3s ease;z-index:1000;box-shadow:0 10px 30px rgba(0,0,0,.2)}
+        .toast.show{opacity:1;transform:translateY(0)}
+        .footer{background:var(--pif-navy);color:var(--white);padding:2.5rem 2rem;margin-top:4rem}
+        .footer-container{max-width:1400px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:2rem}
+        .footer-brand{display:flex;align-items:center;gap:1rem}
+        .footer-brand img{height:36px;filter:brightness(0) invert(1)}
+        .footer-brand p{font-size:.85rem;opacity:.7}
+        .footer-links{display:flex;gap:2.5rem}
+        .footer-links a{color:rgba(255,255,255,.7);text-decoration:none;font-size:.85rem;transition:color .2s}
+        .footer-links a:hover{color:var(--white)}
+        @media(max-width:1024px){.cards-grid{grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}.header-stats{display:none}}
+        @media(max-width:768px){.header-top{flex-direction:column;gap:1rem}.nav-links{display:none}.header-main{padding:2rem 1.5rem}.header-title h1{font-size:1.75rem}.header-content{grid-template-columns:1fr}.filter-container{padding:1rem;gap:1rem}.filter-group{width:100%;flex-wrap:wrap}.vertical-pills{width:100%;overflow-x:auto;padding-bottom:.5rem}.region-select{width:100%}.results-info{display:none}.main{padding:1.5rem 1rem}.cards-grid{grid-template-columns:1fr}.card-actions{flex-direction:column}.footer-container{flex-direction:column;text-align:center}}
+        ::-webkit-scrollbar{width:10px;height:10px}::-webkit-scrollbar-track{background:var(--gray-100)}::-webkit-scrollbar-thumb{background:var(--gray-300);border-radius:5px}::-webkit-scrollbar-thumb:hover{background:var(--gray-400)}
     </style>
 </head>
 <body>
 
-<!-- ── HEADER ── -->
 <header class="header">
     <div class="header-container">
         <div class="header-top">
@@ -353,18 +148,9 @@
                     <p class="header-subtitle">Putting India First to Make India First</p>
                 </div>
                 <div class="header-stats">
-                    <div class="stat-card">
-                        <div class="stat-value" id="statTotal">—</div>
-                        <div class="stat-label">Releases</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-value" id="statRegions">28</div>
-                        <div class="stat-label">Regions</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-value">4</div>
-                        <div class="stat-label">Verticals</div>
-                    </div>
+                    <div class="stat-card"><div class="stat-value" id="statTotal">—</div><div class="stat-label">Releases</div></div>
+                    <div class="stat-card"><div class="stat-value" id="statRegions">28</div><div class="stat-label">Regions</div></div>
+                    <div class="stat-card"><div class="stat-value">4</div><div class="stat-label">Verticals</div></div>
                 </div>
             </div>
             <div class="header-actions">
@@ -374,47 +160,38 @@
                 </div>
                 <button class="btn-refresh" onclick="loadData()">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
-                        <path d="M3 3v5h5"/>
-                        <path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/>
-                        <path d="M16 21h5v-5"/>
-                    </svg>
-                    Refresh
+                        <path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/>
+                        <path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/><path d="M16 21h5v-5"/>
+                    </svg>Refresh
                 </button>
             </div>
         </div>
     </div>
 </header>
 
-<!-- ── FILTER BAR ── -->
 <section class="filter-bar">
     <div class="filter-container">
         <div class="filter-group">
             <span class="filter-label">Vertical</span>
             <div class="vertical-pills">
-                <button class="v-pill active" data-vertical="all" onclick="filterVertical('all')" style="--pill-color: var(--pif-navy);">
-                    <span class="label">All</span>
-                    <span class="badge" id="countAll">0</span>
+                <button class="v-pill active" data-vertical="all" onclick="filterVertical('all')">
+                    <span class="label">All</span><span class="badge" id="countAll">0</span>
                 </button>
-                <button class="v-pill" data-vertical="EoDB" onclick="filterVertical('EoDB')" style="--pill-color: var(--eodb); color: var(--eodb);">
-                    <span class="indicator" style="background: var(--eodb);"></span>
-                    <span class="label">EoDB</span>
-                    <span class="badge" id="countEoDB">0</span>
+                <button class="v-pill" data-vertical="EoDB" onclick="filterVertical('EoDB')" style="color:var(--eodb)">
+                    <span class="indicator" style="background:var(--eodb)"></span>
+                    <span class="label">EoDB</span><span class="badge" id="countEoDB">0</span>
                 </button>
-                <button class="v-pill" data-vertical="CoDED" onclick="filterVertical('CoDED')" style="--pill-color: var(--coded); color: var(--coded);">
-                    <span class="indicator" style="background: var(--coded);"></span>
-                    <span class="label">CoDED</span>
-                    <span class="badge" id="countCoDED">0</span>
+                <button class="v-pill" data-vertical="CoDED" onclick="filterVertical('CoDED')" style="color:var(--coded)">
+                    <span class="indicator" style="background:var(--coded)"></span>
+                    <span class="label">CoDED</span><span class="badge" id="countCoDED">0</span>
                 </button>
-                <button class="v-pill" data-vertical="iLEAP" onclick="filterVertical('iLEAP')" style="--pill-color: var(--ileap); color: var(--ileap);">
-                    <span class="indicator" style="background: var(--ileap);"></span>
-                    <span class="label">iLEAP</span>
-                    <span class="badge" id="countiLEAP">0</span>
+                <button class="v-pill" data-vertical="iLEAP" onclick="filterVertical('iLEAP')" style="color:var(--ileap)">
+                    <span class="indicator" style="background:var(--ileap)"></span>
+                    <span class="label">iLEAP</span><span class="badge" id="countiLEAP">0</span>
                 </button>
-                <button class="v-pill" data-vertical="ELS" onclick="filterVertical('ELS')" style="--pill-color: var(--els); color: var(--els);">
-                    <span class="indicator" style="background: var(--els);"></span>
-                    <span class="label">ELS</span>
-                    <span class="badge" id="countELS">0</span>
+                <button class="v-pill" data-vertical="ELS" onclick="filterVertical('ELS')" style="color:var(--els)">
+                    <span class="indicator" style="background:var(--els)"></span>
+                    <span class="label">ELS</span><span class="badge" id="countELS">0</span>
                 </button>
             </div>
         </div>
@@ -428,17 +205,12 @@
     </div>
 </section>
 
-<!-- ── MAIN ── -->
 <main class="main">
     <div class="cards-grid" id="cardsGrid">
-        <div class="loading">
-            <div class="spinner"></div>
-            <p>Loading press releases…</p>
-        </div>
+        <div class="loading"><div class="spinner"></div><p>Loading press releases…</p></div>
     </div>
 </main>
 
-<!-- ── FOOTER ── -->
 <footer class="footer">
     <div class="footer-container">
         <div class="footer-brand">
@@ -453,104 +225,243 @@
         </div>
     </div>
 </footer>
-
 <div class="toast" id="toast"></div>
 
 <script>
-/* ─────────────────────────────────────────────
-   State
-───────────────────────────────────────────── */
-let data             = null;
-let selectedVertical = 'all';
-let selectedRegion   = 'all';
-
-/* Vertical colour map — matches scraper exactly */
-const VERTICAL_COLORS = {
-    "EoDB":  { bg: "#E8620A", light: "#F59E0B" },
-    "CoDED": { bg: "#2471A3", light: "#3B82F6" },
-    "iLEAP": { bg: "#C53030", light: "#EF4444" },
-    "ELS":   { bg: "#805AD5", light: "#A78BFA" },
-    "Other": { bg: "#64748B", light: "#94A3B8" }
+/* ── State ── */
+let data = null, selectedVertical = 'all', selectedRegion = 'all';
+const COLORS = {
+    EoDB: {bg:'#E8620A',light:'#F59E0B'}, CoDED:{bg:'#2471A3',light:'#3B82F6'},
+    iLEAP:{bg:'#C53030',light:'#EF4444'}, ELS:{bg:'#805AD5',light:'#A78BFA'},
+    Other:{bg:'#64748B',light:'#94A3B8'}
 };
 
-/* ─────────────────────────────────────────────
-   Load data
-───────────────────────────────────────────── */
-async function loadData() {
-    document.getElementById('cardsGrid').innerHTML = `
-        <div class="loading"><div class="spinner"></div><p>Loading press releases…</p></div>`;
+/* ════════════════════════════════════════════════════════════
+   KEYWORDS — taken exactly from pib_scraper.py
+   Any single match in title OR description = tagged to vertical.
+   No scoring thresholds.
+════════════════════════════════════════════════════════════ */
+const KW = {
+EoDB:[
+    "ease of doing business","eodb","business reform","regulatory reform",
+    "single window clearance","single window system","business facilitation","investor facilitation",
+    "compliance burden","compliance reduction","decriminalization","decriminalisation",
+    "license reform","permit reform","business registration","company registration",
+    "startup registration","msme registration","udyam registration","gst registration",
+    "national single window","nsws","invest india","faceless assessment",
+    "digital approval","paperless approval","e-governance reform","contactless approval",
+    "industrial licensing reform","environmental clearance reform","building permit reform",
+    "construction permit simplification","fire noc reform","labour compliance simplification",
+    "factory license reform","trade license reform","contract enforcement reform",
+    "commercial courts","insolvency resolution","ibc reform","bankruptcy code reform",
+    "nclt reform","debt recovery tribunal","fdi policy reform",
+    "foreign direct investment policy","investment climate reform","business climate index",
+    "investor confidence index","doing business ranking","world bank ease of doing business",
+    "global competitiveness index","brap","business reform action plan",
+    "state business ranking","district business ranking","dpiit reform",
+    "reform implementation dpiit","state investment promotion",
+    "manufacturing policy reform","industrial policy reform","industrial corridor development",
+    "special economic zone reform","sez policy","industrial park development","nimz",
+    "pli scheme reform","production linked incentive policy","make in india policy",
+    "make in india reform","startup policy reform","startup ecosystem reform",
+    "logistics policy","logistics ease","pm gati shakti network","pm gati shakti masterplan",
+    "logistics efficiency","logistics cost reduction","multimodal logistics",
+    "logistics infrastructure reform","national logistics policy",
+    "credit access msme","psb loans reform","mudra scheme","stand up india scheme",
+    "credit guarantee scheme","cgtmse","invoice financing","treds platform","msme credit flow",
+    "labour code reform","industrial relations code","wage code implementation",
+    "social security code","osh code","fixed term employment reform",
+    "labour inspection reform","shram suvidha portal","labour law consolidation",
+    "land acquisition reform","land bank policy","plug and play infrastructure",
+    "industrial infrastructure reform","land records digitization",
+    "gst simplification","tax reform compliance","faceless appeal income tax",
+    "vivad se vishwas scheme","direct tax reform","tax compliance simplification",
+    "gst council reform","gst rate rationalisation","gst rate rationalization"
+],
+CoDED:[
+    "economic data","statistical data","official statistics",
+    "data governance","data policy","data infrastructure","national data",
+    "government data","public data","data ecosystem","data architecture",
+    "national statistical office","nso","mospi","ministry of statistics",
+    "central statistics office","cso","nsso","national sample survey",
+    "registrar general","economic census","annual survey of industries",
+    "national statistical commission","population census","census data",
+    "census commissioner","census enumeration","census 2021","census 2026",
+    "digital census","house listing census","gdp data","gdp growth estimate",
+    "gdp revision","gross domestic product data","gdp base year","inflation data",
+    "cpi data","consumer price index data","wpi data","wholesale price index data",
+    "iip data","index of industrial production","periodic labour force survey",
+    "plfs report","consumption expenditure survey","hces","national accounts statistics",
+    "supply use table","advance estimate gdp","first advance estimate","second advance estimate",
+    "data quality assessment","data accuracy improvement","statistical methodology",
+    "survey methodology","base year revision","data revision gdp","sampling methodology",
+    "survey design statistics","price statistics","volume index",
+    "data analytics platform government","ai governance framework","ai policy regulation",
+    "data exchange protocol","data sharing framework","open data policy",
+    "open government data","data protection law","data privacy regulation",
+    "pdp bill","digital personal data protection","dpdp act","data principal",
+    "data fiduciary","national data governance","data governance framework",
+    "gst data analysis","tax data statistics","e-way bill statistics","gstn data",
+    "mca21","company data registry","epfo statistics","administrative data use",
+    "administrative data linkage","economic survey india","rbi annual report",
+    "rbi monetary policy report","rbi bulletin statistics","statistical yearbook india",
+    "india statistics compendium","sdg india index","state statistics bureau",
+    "niti aayog data report","india data handbook","ndap",
+    "national data analytics platform","data catalogue government","data.gov.in",
+    "unified data platform","india data portal","data linkage government",
+    "integrated data platform","data sharing agreement government"
+],
+iLEAP:[
+    "lead poisoning","lead exposure","lead contamination","blood lead level","bll",
+    "lead paint","lead in paint","lead battery","lead acid battery","battery recycling lead",
+    "lead smelting","lead pollution","lead toxicity","lead free paint","lead elimination",
+    "lead phase out","childhood lead","lead testing","lead screening","lead abatement",
+    "lead remediation","lead monitoring","lead in fuel","lead in petrol","leaded petrol",
+    "lead paint standard","toy safety lead","cosmetic lead","fssai lead",
+    "food lead contamination","lead in spices","lead in paint ban","lead safe","lead hazard",
+    "heavy metal contamination","heavy metal pollution","heavy metal toxicity","heavy metal exposure",
+    "mercury contamination","mercury pollution","mercury poisoning","cadmium contamination",
+    "cadmium poisoning","arsenic contamination","arsenic poisoning","chromium contamination",
+    "chromium poisoning","metal contamination","metal poisoning","toxic metal","neurotoxic metal",
+    "is 16088","lead limit regulation","lead regulation","lead ban","lead phase out policy",
+    "hazardous substance regulation","rohs compliance","restriction of hazardous substances",
+    "neurotoxic exposure","neurotoxicity children","cognitive impairment children",
+    "iq loss children","developmental neurotoxicity","child neurotoxin",
+    "prenatal lead","fetal lead exposure","pollution control board lead","cpcb lead","spcb lead",
+    "industrial effluent heavy metal","hazardous waste metal","e-waste lead","e-waste heavy metal",
+    "soil lead contamination","groundwater arsenic","groundwater lead","water lead contamination",
+    "particulate matter heavy metal","air toxic metal","pm2.5 lead","dust lead exposure",
+    "toxic waste dump","contaminated site cleanup","occupational lead exposure",
+    "occupational heavy metal","lead worker health","smelter worker health",
+    "battery worker health","paint worker lead exposure","occupational toxic exposure",
+    "national lead elimination","global lead network","pure earth","ipen lead","unep lead",
+    "lead paint alliance","who lead guideline","unicef lead","global burden lead",
+    "lead elimination program"
+],
+ELS:[
+    "employment generation","job creation","unemployment rate","unemployment data",
+    "labour market reform","workforce development","employment scheme","employment program",
+    "employment exchange","job portal government","net employment","new jobs created",
+    "minimum wage revision","minimum wage notification","wage board","wage revision",
+    "equal remuneration act","wage compliance","wage theft","wage arrears",
+    "floor wage","national floor wage","skill development scheme",
+    "skill training program government","vocational training scheme","skill india mission",
+    "pmkvy","pradhan mantri kaushal vikas yojana","iti training","iti upgradation",
+    "polytechnic scheme","national skills qualifications framework",
+    "apprenticeship scheme","national apprenticeship promotion",
+    "recognition of prior learning","nsdc","sector skill council","skill certification",
+    "jan shikshan sansthan","mahatma gandhi nrega","mgnregs","mnrega",
+    "pm employment guarantee","urban employment scheme","deen dayal upadhyaya",
+    "ddu-gky","rsetis","pmegp","pm rojgar","pm internship scheme","national career service",
+    "informal sector workers","informal economy policy","street vendors scheme","pm svnidhi",
+    "unorganized workers","e-shram registration","e-shram portal","unorganised sector scheme",
+    "labour welfare scheme","worker welfare fund","construction worker welfare",
+    "building worker cess","esi scheme","esic benefit","epfo scheme",
+    "employee provident fund","social security worker","labour pension scheme",
+    "unorganized sector pension","pm shram yogi mandhan","atal pension yojana labour",
+    "women employment scheme","women workforce participation",
+    "female labour force participation","working women hostel","maternity benefit scheme",
+    "women entrepreneur scheme","self help group livelihood","shg employment",
+    "pradhan mantri mahila shakti","women self employment","migrant worker welfare",
+    "migrant labour policy","gig worker rights","platform worker policy",
+    "interstate migrant worker","labour migration policy","one nation one ration","onorc",
+    "gig economy regulation","platform economy policy","plfs report",
+    "periodic labour force survey","employment unemployment survey","labour bureau survey",
+    "employment statistics","labour statistics india","labour force participation rate",
+    "lfpr data","worker population ratio","formal employment data","quarterly employment survey",
+    "textile employment","construction workers welfare","domestic workers rights",
+    "domestic workers code","plantation labour welfare","mining workers welfare",
+    "beedi workers welfare","contract labour regulation","youth employment scheme",
+    "youth unemployment data","first time job seeker","campus placement scheme",
+    "internship scheme government","apprenticeship act","national career centre"
+]
+};
 
-    try {
-        const res = await fetch('pib.json?' + Date.now());
-        if (!res.ok) throw new Error('HTTP ' + res.status);
-        data = await res.json();
+/* Sort longest-first so longer phrases match before their substrings */
+Object.keys(KW).forEach(v => KW[v].sort((a,b) => b.length - a.length));
 
-        /* ── Normalise field names so both old and new scraper output work ── */
-        // total: scraper v2 = "total", old scraper = "total_releases"
-        data.total = data.total ?? data.total_releases ?? 0;
+/* ════════════════════════════════════════════════════════════
+   NEGATIVE KEYWORDS — taken exactly from pib_scraper.py
+════════════════════════════════════════════════════════════ */
+const NEG = [
+    "condolence","obituary","death anniversary","birth anniversary",
+    "greetings on","wishes on","festival greetings",
+    "republic day parade","independence day celebration",
+    "diwali","holi","eid","christmas","pongal","onam",
+    "new year message","mann ki baat",
+    "takes charge","assumes charge","retirement function","superannuation",
+    "swearing in ceremony","oath taking ceremony",
+    "foundation stone laying","lays foundation stone","flag hoisting ceremony",
+    "cultural program","cultural event","cultural festival",
+    "sports meet","sports day","marathon","cyclothon",
+    "yoga day event","fit india movement",
+    "state visit","bilateral visit","foreign minister visit","head of state visit",
+    "mou signing ceremony","agreement signing ceremony",
+    "bilateral relations","diplomatic ties","ambassador presents credentials",
+    "foreign delegation visits","parliamentary delegation visits",
+    "cultural exchange program","people to people contact",
+    "diaspora event","pravasi bharatiya divas","india caucus","friendship group",
+    "military exercise","naval exercise","air exercise","passing out parade",
+    "commissioning ceremony","defence expo","aero india","defexpo",
+    "gallantry award","vir chakra","param vir chakra",
+    "sainik school","rashtriya military school",
+    "bsf raising day","crpf raising day","cisf raising day","coast guard day",
+    "navy day","air force day","army day","defence procurement policy","defence indigenisation",
+    "award ceremony","prize distribution","felicitation ceremony",
+    "padma awards","national awards ceremony","excellence award","best performance award",
+    "farewell function","book launch event","commemorative stamp release","coin release ceremony",
+    "convocation ceremony","degree distribution",
+    "national conference inauguration","national convention inauguration",
+    "international day celebration","world day celebration",
+    "international women's day event","world water day event",
+    "world environment day event","world health day event",
+    "world tuberculosis day","world aids day",
+    "hospital inauguration","medical college inauguration","dispensary inauguration",
+    "health camp","blood donation camp","eye check-up camp",
+    "pulse polio campaign","immunization drive","vaccination camp",
+    "covid vaccination drive","cancer awareness drive","diabetes awareness",
+    "heart disease awareness","mental health awareness day",
+    "tb awareness drive","malaria awareness","ayush day","yoga for health",
+    "highway inauguration","road inauguration","bridge inauguration",
+    "tunnel inauguration","airport inauguration","port inauguration",
+    "railway line inauguration","metro inauguration","dam inauguration",
+    "power plant inauguration","expressway inauguration",
+    "election schedule","election notification","model code of conduct",
+    "voter turnout","polling station","ballot paper",
+    "election results","by-election notification","voter registration drive",
+    "ai summit","ai expo","ai impact summit","tech summit","digital india week",
+    "startup india festival","hackathon event","innovation challenge",
+    "technology exhibition","india ai expo",
+    "pib fact check","fake news alert","all india radio","doordarshan programme"
+];
 
-        // articles: scraper v2 = "articles", old scraper = "releases"
-        data.articles = data.articles ?? data.releases ?? [];
-
-        // last_updated_ist: scraper v2 generates this; fallback to UTC string
-        data.last_updated_ist = data.last_updated_ist
-            ?? (data.last_updated ? 'Updated ' + data.last_updated : 'Recently updated');
-
-        /* ── Ensure every article has primary_vertical & relative_time ── */
-        data.articles.forEach(art => {
-            // primary_vertical: scraper v2 sets it; fallback = first vertical or "Other"
-            if (!art.primary_vertical) {
-                art.primary_vertical = (art.verticals && art.verticals.length)
-                    ? art.verticals[0] : 'Other';
-            }
-            // relative_time: scraper v2 sets it; fallback from date string
-            if (!art.relative_time) {
-                art.relative_time = relativeLabel(art.date);
-            }
-            // verticals must be an array
-            if (!art.verticals) art.verticals = [];
-        });
-
-        /* ── Update UI ── */
-        document.getElementById('lastUpdated').textContent = data.last_updated_ist;
-        document.getElementById('statTotal').textContent   = data.total;
-
-        populateRegions();
-        updateCounts();
-        renderCards();
-
-        // If scraper returned 0 articles, fall back to live RSS
-        if (data.articles.length === 0) {
-            console.info('pib.json is empty — falling back to live RSS feeds');
-            loadFromRSS();
-        }
-
-    } catch (err) {
-        console.warn('pib.json unavailable — falling back to live RSS feeds:', err);
-        loadFromRSS();
-    }
+/* ════════════════════════════════════════════════════════════
+   MATCHING — any single keyword hit = tagged, no thresholds
+════════════════════════════════════════════════════════════ */
+function isNegative(title) {
+    const t = title.toLowerCase();
+    return NEG.some(n => t.includes(n));
 }
 
-/* ─────────────────────────────────────────────
-   RSS FALLBACK
-   Fetches PIB RSS feeds directly in the browser
-   via a CORS proxy, parses them, scores articles
-   with the same keyword logic, and renders cards.
+function getVerticals(title, desc) {
+    const txt = (title + ' ' + (desc||'')).toLowerCase();
+    return Object.keys(KW).filter(v => KW[v].some(kw => txt.includes(kw)));
+}
 
-   Flow:
-   1. Try all 28 region RSS feeds in parallel
-   2. Parse each <item> — title, link, pubDate, description
-   3. Filter to last 48 hours
-   4. Score against keyword lists (same weights as scraper)
-   5. Deduplicate by URL
-   6. Render using the exact same renderCards() pipeline
-───────────────────────────────────────────── */
+function primaryVertical(verticals) {
+    if (!verticals || !verticals.length) return 'Other';
+    for (const v of ['iLEAP','EoDB','CoDED','ELS']) {
+        if (verticals.includes(v)) return v;
+    }
+    return verticals[0];
+}
 
-// CORS proxy — rss2json converts RSS to JSON and handles CORS for us
+/* ════════════════════════════════════════════════════════════
+   CONFIG
+════════════════════════════════════════════════════════════ */
+const WINDOW_HRS = 48;
 const RSS2JSON   = 'https://api.rss2json.com/v1/api.json?rss_url=';
 const PIB_RSS    = 'https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=';
-const WINDOW_HRS = 48;
-
 const PIB_REGIONS = {
     "3":"Delhi","1":"Mumbai","5":"Hyderabad","6":"Chennai",
     "17":"Chandigarh","19":"Kolkata","20":"Bengaluru","21":"Bhubaneswar",
@@ -561,208 +472,40 @@ const PIB_REGIONS = {
     "43":"Raipur","44":"Jammu & Kashmir","45":"Vijayawada","46":"Dehradun"
 };
 
-/* ── Compact keyword lists for client-side scoring ──
-   Same logic as scraper: title hit = 2pts, body hit = 1pt
-   Minimum thresholds: EoDB=2, CoDED=3, iLEAP=3, ELS=2          */
-const KW = {
-    EoDB: [
-        "ease of doing business","eodb","business reform","regulatory reform",
-        "single window clearance","single window system","business facilitation",
-        "investor facilitation","compliance burden","compliance reduction",
-        "decriminalization","decriminalisation","license reform","permit reform",
-        "business registration","company registration","msme registration",
-        "udyam registration","national single window","nsws","invest india",
-        "faceless assessment","digital approval","paperless approval",
-        "industrial licensing reform","environmental clearance reform",
-        "building permit reform","construction permit simplification",
-        "fire noc reform","factory license reform","trade license reform",
-        "contract enforcement reform","commercial courts","insolvency resolution",
-        "ibc reform","bankruptcy code reform","nclt reform",
-        "fdi policy reform","investment climate reform","doing business ranking",
-        "world bank ease of doing business","brap","business reform action plan",
-        "dpiit reform","industrial corridor development","sez policy",
-        "pli scheme reform","production linked incentive policy",
-        "make in india policy","make in india reform",
-        "logistics policy","pm gati shakti network","logistics efficiency",
-        "multimodal logistics","national logistics policy",
-        "credit access msme","mudra scheme","stand up india scheme",
-        "credit guarantee scheme","cgtmse","invoice financing","treds platform",
-        "labour code reform","industrial relations code","wage code implementation",
-        "shram suvidha portal","land acquisition reform","land bank policy",
-        "gst simplification","tax reform compliance","faceless appeal income tax",
-        "vivad se vishwas scheme","direct tax reform","gst council reform",
-        "gst rate rationalisation","gst rate rationalization"
-    ],
-    CoDED: [
-        "economic data","statistical data","official statistics",
-        "data governance","data policy","data infrastructure",
-        "national statistical office","nso","mospi",
-        "ministry of statistics","central statistics office","cso",
-        "nsso","national sample survey","economic census",
-        "annual survey of industries","population census","census data",
-        "census commissioner","census enumeration","census 2021","census 2026",
-        "gdp data","gdp growth estimate","gdp revision",
-        "gross domestic product data","gdp base year",
-        "inflation data","cpi data","consumer price index data",
-        "wpi data","wholesale price index data","iip data",
-        "index of industrial production","periodic labour force survey",
-        "plfs report","consumption expenditure survey","hces",
-        "national accounts statistics","supply use table",
-        "data quality assessment","statistical methodology","survey methodology",
-        "base year revision","data revision gdp","sampling methodology",
-        "data analytics platform government","ai governance framework",
-        "ai policy regulation","data exchange protocol","data sharing framework",
-        "open data policy","open government data","data protection law",
-        "pdp bill","digital personal data protection","dpdp act",
-        "data principal","data fiduciary","national data governance",
-        "gst data analysis","tax data statistics","e-way bill statistics",
-        "gstn data","mca21","epfo statistics","administrative data use",
-        "economic survey india","rbi monetary policy report",
-        "rbi bulletin statistics","statistical yearbook india",
-        "sdg india index","ndap","national data analytics platform",
-        "data catalogue government","data.gov.in","unified data platform"
-    ],
-    iLEAP: [
-        "lead poisoning","lead exposure","lead contamination",
-        "blood lead level","bll","lead paint","lead in paint",
-        "lead battery","lead acid battery","battery recycling lead",
-        "lead smelting","lead pollution","lead toxicity",
-        "lead free paint","lead elimination","lead phase out",
-        "childhood lead","lead testing","lead screening",
-        "lead abatement","lead remediation","lead monitoring",
-        "lead in fuel","lead in petrol","leaded petrol",
-        "lead paint standard","toy safety lead","cosmetic lead",
-        "fssai lead","food lead contamination","lead in spices",
-        "lead safe","lead hazard","heavy metal contamination",
-        "heavy metal pollution","heavy metal toxicity","heavy metal exposure",
-        "mercury contamination","mercury pollution","mercury poisoning",
-        "cadmium contamination","arsenic contamination","chromium contamination",
-        "metal contamination","metal poisoning","toxic metal","neurotoxic metal",
-        "is 16088","lead limit regulation","lead regulation","lead ban",
-        "rohs compliance","restriction of hazardous substances",
-        "neurotoxic exposure","neurotoxicity children",
-        "cognitive impairment children","iq loss children",
-        "developmental neurotoxicity","child neurotoxin",
-        "pollution control board lead","cpcb lead","spcb lead",
-        "industrial effluent heavy metal","hazardous waste metal",
-        "e-waste lead","e-waste heavy metal","soil lead contamination",
-        "groundwater arsenic","groundwater lead","water lead contamination",
-        "occupational lead exposure","occupational heavy metal",
-        "lead worker health","smelter worker health","battery worker health",
-        "national lead elimination","pure earth","ipen lead","unep lead",
-        "lead paint alliance","who lead guideline","unicef lead"
-    ],
-    ELS: [
-        "employment generation","job creation","unemployment rate",
-        "unemployment data","labour market reform","workforce development",
-        "employment scheme","employment program","employment exchange",
-        "minimum wage revision","minimum wage notification","wage board",
-        "wage revision","equal remuneration act","wage compliance",
-        "skill development scheme","skill training program government",
-        "vocational training scheme","skill india mission",
-        "pmkvy","pradhan mantri kaushal vikas yojana",
-        "iti training","iti upgradation","polytechnic scheme",
-        "apprenticeship scheme","national apprenticeship promotion",
-        "nsdc","sector skill council","skill certification",
-        "mahatma gandhi nrega","mgnregs","mnrega",
-        "pm employment guarantee","urban employment scheme",
-        "deen dayal upadhyaya","ddu-gky","rsetis","pmegp","pm rojgar",
-        "informal sector workers","informal economy policy",
-        "street vendors scheme","pm svnidhi","unorganized workers",
-        "e-shram registration","e-shram portal",
-        "labour welfare scheme","worker welfare fund",
-        "construction worker welfare","esi scheme","esic benefit",
-        "epfo scheme","employee provident fund","social security worker",
-        "labour pension scheme","pm shram yogi mandhan",
-        "women employment scheme","women workforce participation",
-        "female labour force participation","maternity benefit scheme",
-        "self help group livelihood","shg employment",
-        "migrant worker welfare","migrant labour policy",
-        "gig worker rights","platform worker policy",
-        "interstate migrant worker","one nation one ration","onorc",
-        "plfs report","periodic labour force survey",
-        "employment unemployment survey","labour bureau survey",
-        "employment statistics","labour statistics india",
-        "labour force participation rate","lfpr data",
-        "quarterly employment survey","textile employment",
-        "construction workers welfare","domestic workers rights",
-        "plantation labour welfare","mining workers welfare","beedi workers"
-    ]
-};
-
-const KW_MIN = { EoDB: 2, CoDED: 3, iLEAP: 3, ELS: 2 };
-
-// Sort keywords longest-first so longer phrases match before substrings
-Object.keys(KW).forEach(v => KW[v].sort((a,b) => b.length - a.length));
-
-const NEGATIVE_KW = [
-    "condolence","obituary","death anniversary","birth anniversary",
-    "greetings on","wishes on","festival greetings",
-    "republic day parade","independence day celebration",
-    "diwali","holi","eid","christmas","pongal","onam","new year message",
-    "mann ki baat","takes charge","assumes charge","retirement function",
-    "swearing in ceremony","oath taking ceremony",
-    "foundation stone laying","lays foundation stone","flag hoisting",
-    "cultural program","cultural event","sports meet","sports day",
-    "marathon","yoga day event","fit india","state visit","bilateral visit",
-    "foreign minister visit","head of state visit",
-    "mou signing ceremony","agreement signing ceremony",
-    "bilateral relations","diplomatic ties","foreign delegation visits",
-    "cultural exchange program","diaspora event","pravasi bharatiya divas",
-    "military exercise","naval exercise","air exercise","passing out parade",
-    "commissioning ceremony","defence expo","aero india","defexpo",
-    "gallantry award","vir chakra","param vir chakra","sainik school",
-    "bsf raising day","crpf raising day","cisf raising day",
-    "navy day","air force day","army day","defence procurement policy",
-    "award ceremony","prize distribution","felicitation ceremony",
-    "padma awards","farewell function","book launch event",
-    "convocation ceremony","international day celebration",
-    "world day celebration","international women's day event",
-    "world water day event","world environment day event",
-    "hospital inauguration","medical college inauguration","health camp",
-    "blood donation camp","pulse polio campaign","immunization drive",
-    "vaccination camp","cancer awareness drive","diabetes awareness",
-    "highway inauguration","road inauguration","bridge inauguration",
-    "tunnel inauguration","airport inauguration","railway line inauguration",
-    "metro inauguration","dam inauguration","power plant inauguration",
-    "election schedule","model code of conduct","voter turnout",
-    "election results","by-election notification",
-    "ai summit","ai expo","ai impact summit","tech summit",
-    "hackathon event","innovation challenge","technology exhibition",
-    "pib fact check","fake news alert","all india radio"
-];
-
-function scoreArticle(title, desc) {
-    const t = title.toLowerCase();
-    const d = (desc || '').toLowerCase();
-    const scores = {};
-
-    for (const [vertical, keywords] of Object.entries(KW)) {
-        let score = 0;
-        for (const kw of keywords) {
-            if (t.includes(kw)) score += 2;
-            else if (d.includes(kw)) score += 1;
-        }
-        if (score >= KW_MIN[vertical]) scores[vertical] = score;
-    }
-    return scores;
-}
-
-function isNegative(title) {
-    const t = title.toLowerCase();
-    return NEGATIVE_KW.some(n => t.includes(n));
-}
-
-function primaryVertical(scores) {
-    if (!scores || !Object.keys(scores).length) return 'Other';
-    return Object.entries(scores).sort((a,b) => b[1]-a[1])[0][0];
-}
-
-function withinWindow(pubDateStr) {
+/* ════════════════════════════════════════════════════════════
+   LOAD — tries pib.json first, falls back to live RSS
+════════════════════════════════════════════════════════════ */
+async function loadData() {
+    document.getElementById('cardsGrid').innerHTML =
+        `<div class="loading"><div class="spinner"></div><p>Loading press releases…</p></div>`;
     try {
-        const d = new Date(pubDateStr);
-        return (Date.now() - d.getTime()) <= WINDOW_HRS * 3600 * 1000;
-    } catch { return true; }
+        const res  = await fetch('pib.json?' + Date.now());
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const json = await res.json();
+        json.total            = json.total    ?? json.total_releases ?? 0;
+        json.articles         = json.articles ?? json.releases       ?? [];
+        json.last_updated_ist = json.last_updated_ist
+            ?? (json.last_updated ? 'Updated ' + json.last_updated : 'Recently updated');
+        json.articles.forEach(a => {
+            if (!a.verticals)        a.verticals        = getVerticals(a.title, a.snippet||'');
+            if (!a.primary_vertical) a.primary_vertical = primaryVertical(a.verticals);
+            if (!a.relative_time)    a.relative_time    = relativeLabel(a.date);
+        });
+        if (json.articles.length === 0) { return loadFromRSS(); }
+        data = json;
+        renderAll();
+    } catch(e) {
+        console.warn('pib.json unavailable, switching to RSS:', e);
+        loadFromRSS();
+    }
+}
+
+/* ════════════════════════════════════════════════════════════
+   RSS FALLBACK
+════════════════════════════════════════════════════════════ */
+function withinWindow(d) {
+    try { return (Date.now() - new Date(d).getTime()) <= WINDOW_HRS * 3600000; }
+    catch { return true; }
 }
 
 async function fetchRegionRSS(regId, regionName) {
@@ -771,266 +514,180 @@ async function fetchRegionRSS(regId, regionName) {
         const res  = await fetch(url);
         const json = await res.json();
         if (json.status !== 'ok' || !json.items) return [];
-
         return json.items
-            .filter(item => withinWindow(item.pubDate))
-            .map(item => {
-                const title   = (item.title   || '').trim();
-                const url     = (item.link    || '').trim();
-                const snippet = (item.description || '').replace(/<[^>]+>/g,'').trim().slice(0,220);
-                const pubDate = item.pubDate || '';
-                const dateStr = pubDate ? new Date(pubDate).toISOString().slice(0,10) : '';
-
-                return { title, url, snippet, pubDate, date: dateStr, region: regionName };
-            });
-    } catch (e) {
-        console.warn(`RSS fetch failed for ${regionName}:`, e);
+            .filter(i => withinWindow(i.pubDate))
+            .map(i => ({
+                title:   (i.title||'').trim(),
+                url:     (i.link ||'').trim(),
+                snippet: (i.description||'').replace(/<[^>]+>/g,'').trim().slice(0,220),
+                date:    i.pubDate ? new Date(i.pubDate).toISOString().slice(0,10) : '',
+                region:  regionName
+            }));
+    } catch(e) {
+        console.warn('RSS failed:', regionName, e.message);
         return [];
     }
 }
 
 async function loadFromRSS() {
-    document.getElementById('cardsGrid').innerHTML = `
-        <div class="loading">
-            <div class="spinner"></div>
-            <p>Fetching live PIB feeds from all 28 regions…</p>
-        </div>`;
-    document.getElementById('lastUpdated').textContent = 'Live RSS — last 48 hrs';
+    document.getElementById('cardsGrid').innerHTML =
+        `<div class="loading"><div class="spinner"></div><p>Fetching live PIB feeds from all 28 regions…</p></div>`;
+    document.getElementById('lastUpdated').textContent = 'Connecting to live RSS…';
 
-    // Fetch all regions in parallel
-    const promises = Object.entries(PIB_REGIONS).map(([id, name]) =>
-        fetchRegionRSS(id, name)
+    const results = await Promise.allSettled(
+        Object.entries(PIB_REGIONS).map(([id,name]) => fetchRegionRSS(id, name))
     );
-    const results = await Promise.allSettled(promises);
 
-    // Flatten, deduplicate by URL, filter & score
-    const seen    = new Set();
-    const articles = [];
-
+    const seen = new Set(), articles = [];
     for (const r of results) {
         if (r.status !== 'fulfilled') continue;
         for (const item of r.value) {
-            if (!item.url || seen.has(item.url)) continue;
-            if (!item.title || item.title.length < 10) continue;
+            if (!item.url || seen.has(item.url) || !item.title || item.title.length < 8) continue;
             if (isNegative(item.title)) continue;
-
             seen.add(item.url);
-
-            const scores  = scoreArticle(item.title, item.snippet);
-            const total   = Object.values(scores).reduce((a,b)=>a+b, 0);
-            const pv      = primaryVertical(scores);
-
+            const verts = getVerticals(item.title, item.snippet);
             articles.push({
-                id:               btoa(item.url).slice(0,12),
+                id:               btoa(encodeURIComponent(item.url)).slice(0,16),
                 title:            item.title,
                 url:              item.url,
                 date:             item.date,
                 relative_time:    relativeLabel(item.date),
                 region:           item.region,
-                verticals:        Object.keys(scores).sort(),
-                primary_vertical: pv,
-                relevance_score:  total,
-                vertical_scores:  scores,
+                verticals:        verts,
+                primary_vertical: primaryVertical(verts),
                 snippet:          item.snippet,
-                source:           'rss'   // mark as live RSS so UI can indicate it
+                source:           'rss'
             });
         }
     }
 
-    // Sort newest first
     articles.sort((a,b) => (b.date||'').localeCompare(a.date||''));
+    const now = new Date().toLocaleString('en-IN',{
+        day:'numeric',month:'short',year:'numeric',
+        hour:'numeric',minute:'2-digit',hour12:true,timeZone:'Asia/Kolkata'
+    });
+    data = { total:articles.length, articles, last_updated_ist:'Live RSS · '+now+' IST', source:'rss' };
 
-    // Inject into data object and render — same pipeline as scraper data
-    data = {
-        total:            articles.length,
-        articles:         articles,
-        last_updated_ist: 'Live RSS · ' + new Date().toLocaleString('en-IN',
-            { day:'numeric', month:'short', year:'numeric',
-              hour:'numeric', minute:'2-digit', hour12:true, timeZone:'Asia/Kolkata' })
-            + ' IST',
-        source: 'rss'
-    };
-
-    document.getElementById('lastUpdated').textContent = data.last_updated_ist;
-    document.getElementById('statTotal').textContent   = data.total;
-
-    if (articles.length === 0) {
-        document.getElementById('cardsGrid').innerHTML = `
-            <div class="empty-state">
-                <h3>No relevant press releases in last 48 hours</h3>
-                <p>PIB may not have published matching releases yet today. Check back later.</p>
-            </div>`;
+    if (!articles.length) {
+        document.getElementById('lastUpdated').textContent = data.last_updated_ist;
+        document.getElementById('statTotal').textContent   = 0;
+        document.getElementById('cardsGrid').innerHTML =
+            `<div class="empty-state"><h3>No relevant releases in last 48 hours</h3><p>Check back later or try refreshing.</p></div>`;
         return;
     }
+    renderAll();
+}
 
+/* ════════════════════════════════════════════════════════════
+   RENDER
+════════════════════════════════════════════════════════════ */
+function renderAll() {
+    document.getElementById('lastUpdated').textContent = data.last_updated_ist;
+    document.getElementById('statTotal').textContent   = data.total;
     populateRegions();
     updateCounts();
     renderCards();
 }
 
-/* ─────────────────────────────────────────────
-   Relative time fallback (JS side)
-   Used only when article.relative_time is missing
-───────────────────────────────────────────── */
 function relativeLabel(dateStr) {
     if (!dateStr) return 'Recently';
     try {
-        const d     = new Date(dateStr + 'T00:00:00Z');
-        const delta = Math.floor((Date.now() - d.getTime()) / 86400000);
+        const delta = Math.floor((Date.now() - new Date(dateStr+'T00:00:00Z').getTime()) / 86400000);
         if (delta === 0) return 'Today';
         if (delta === 1) return 'Yesterday';
-        if (delta < 7)  return delta + ' days ago';
-        return d.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
+        if (delta  <  7) return delta + ' days ago';
+        return new Date(dateStr).toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'});
     } catch { return 'Recently'; }
 }
 
-/* ─────────────────────────────────────────────
-   Region dropdown
-───────────────────────────────────────────── */
 function populateRegions() {
-    const select = document.getElementById('regionSelect');
-    const counts = {};
-
-    data.articles.forEach(a => {
-        counts[a.region] = (counts[a.region] || 0) + 1;
-    });
-
-    const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
-
-    select.innerHTML = `<option value="all">All Regions (${data.total})</option>`;
-    sorted.forEach(([region, count]) => {
-        select.innerHTML += `<option value="${region}">${region} (${count})</option>`;
-    });
-
-    document.getElementById('statRegions').textContent = Object.keys(counts).length || 28;
+    const sel = document.getElementById('regionSelect');
+    const cnt = {};
+    data.articles.forEach(a => { cnt[a.region] = (cnt[a.region]||0)+1; });
+    const sorted = Object.entries(cnt).sort((a,b) => b[1]-a[1]);
+    sel.innerHTML = `<option value="all">All Regions (${data.total})</option>`;
+    sorted.forEach(([r,c]) => { sel.innerHTML += `<option value="${r}">${r} (${c})</option>`; });
+    document.getElementById('statRegions').textContent = Object.keys(cnt).length || 28;
 }
 
-/* ─────────────────────────────────────────────
-   Vertical counts in filter pills
-───────────────────────────────────────────── */
 function updateCounts() {
-    const counts = { all: data.total, EoDB: 0, CoDED: 0, iLEAP: 0, ELS: 0 };
-
-    data.articles.forEach(a => {
-        (a.verticals || []).forEach(v => {
-            if (counts.hasOwnProperty(v)) counts[v]++;
-        });
-    });
-
-    document.getElementById('countAll').textContent   = counts.all;
-    document.getElementById('countEoDB').textContent  = counts.EoDB;
-    document.getElementById('countCoDED').textContent = counts.CoDED;
-    document.getElementById('countiLEAP').textContent = counts.iLEAP;
-    document.getElementById('countELS').textContent   = counts.ELS;
+    const c = {all:data.total,EoDB:0,CoDED:0,iLEAP:0,ELS:0};
+    data.articles.forEach(a => (a.verticals||[]).forEach(v => { if (v in c) c[v]++; }));
+    document.getElementById('countAll').textContent   = c.all;
+    document.getElementById('countEoDB').textContent  = c.EoDB;
+    document.getElementById('countCoDED').textContent = c.CoDED;
+    document.getElementById('countiLEAP').textContent = c.iLEAP;
+    document.getElementById('countELS').textContent   = c.ELS;
 }
 
-/* ─────────────────────────────────────────────
-   Filtering
-───────────────────────────────────────────── */
-function filterVertical(vertical) {
-    selectedVertical = vertical;
-    document.querySelectorAll('.v-pill').forEach(pill => {
-        pill.classList.toggle('active', pill.dataset.vertical === vertical);
-    });
+function filterVertical(v) {
+    selectedVertical = v;
+    document.querySelectorAll('.v-pill').forEach(p => p.classList.toggle('active', p.dataset.vertical === v));
     renderCards();
 }
-
-function filterRegion(region) {
-    selectedRegion = region;
-    renderCards();
-}
+function filterRegion(r) { selectedRegion = r; renderCards(); }
 
 function getFiltered() {
     return data.articles.filter(a => {
-        const matchV = selectedVertical === 'all' || (a.verticals || []).includes(selectedVertical);
-        const matchR = selectedRegion === 'all' || a.region === selectedRegion;
+        const matchV = selectedVertical === 'all' || (a.verticals||[]).includes(selectedVertical);
+        const matchR = selectedRegion   === 'all' || a.region === selectedRegion;
         return matchV && matchR;
     });
 }
 
-/* ─────────────────────────────────────────────
-   Render cards
-───────────────────────────────────────────── */
 function renderCards() {
     const container = document.getElementById('cardsGrid');
     const filtered  = getFiltered();
-
     document.getElementById('statShowing').textContent = filtered.length;
 
-    if (filtered.length === 0) {
-        container.innerHTML = `
-            <div class="empty-state">
-                <h3>No press releases found</h3>
-                <p>Try adjusting your filters or check back later.</p>
-            </div>`;
+    if (!filtered.length) {
+        container.innerHTML = `<div class="empty-state"><h3>No press releases found</h3><p>Try adjusting your filters or check back later.</p></div>`;
         return;
     }
 
     container.innerHTML = filtered.map(art => {
-        const pv     = art.primary_vertical || 'Other';
-        const colors = VERTICAL_COLORS[pv] || VERTICAL_COLORS.Other;
-        const isOther = pv === 'Other';
-
-        /* Extra vertical pills for multi-vertical releases */
-        const extraPills = (art.verticals || [])
-            .filter(v => v !== pv)
-            .map(v => {
-                const c = VERTICAL_COLORS[v] || VERTICAL_COLORS.Other;
-                return `<span class="cv-pill" style="background:${c.bg}">${v}</span>`;
-            }).join('');
-
-        /* Snippet — truncated by CSS, fallback to empty */
-        const snippet = art.snippet
-            ? `<p class="card-snippet">${escHtml(art.snippet)}</p>`
-            : '';
-
-        /* Multi-vertical row — only show if more than one vertical */
-        const verticalRow = extraPills
-            ? `<div class="card-verticals">
-                   <span class="cv-pill" style="background:${colors.bg}">${pv}</span>
-                   ${extraPills}
-               </div>`
-            : '';
-
+        const pv  = art.primary_vertical || 'Other';
+        const col = COLORS[pv] || COLORS.Other;
+        const extras = (art.verticals||[]).filter(v => v !== pv)
+            .map(v => `<span class="cv-pill" style="background:${(COLORS[v]||COLORS.Other).bg}">${v}</span>`).join('');
+        const snippet     = art.snippet
+            ? `<p class="card-snippet">${escHtml(art.snippet)}</p>` : '';
+        const verticalRow = extras
+            ? `<div class="card-verticals"><span class="cv-pill" style="background:${col.bg}">${pv}</span>${extras}</div>` : '';
         return `
-        <article class="card" style="--accent-color:${colors.bg}; --accent-color-light:${colors.light};">
+        <article class="card" style="--accent-color:${col.bg};--accent-color-light:${col.light}">
             <div class="card-accent"></div>
             <div class="card-top">
-                <span class="card-vertical-tag ${isOther ? 'other' : ''}" style="background:${colors.bg};">${pv}</span>
+                <span class="card-vertical-tag" style="background:${col.bg}">${pv}</span>
                 <div class="card-tags">
                     <span class="card-tag region">${escHtml(art.region)}</span>
-                    <span class="card-tag time">${escHtml(art.relative_time || '')}</span>
+                    <span class="card-tag time">${escHtml(art.relative_time||'')}</span>
                 </div>
             </div>
             <div class="card-body">
                 <h2 class="card-title">
                     <a href="${escAttr(art.url)}" target="_blank" rel="noopener">${escHtml(art.title)}</a>
                 </h2>
-                ${snippet}
-                ${verticalRow}
+                ${snippet}${verticalRow}
                 <div class="card-actions">
                     <a href="${escAttr(art.url)}" target="_blank" rel="noopener" class="btn btn-primary">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-                            <polyline points="15 3 21 3 21 9"/>
-                            <line x1="10" y1="14" x2="21" y2="3"/>
-                        </svg>
-                        Read
+                            <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>Read
                     </a>
                     <button class="btn btn-ghost" onclick="printPage('${escAttr(art.url)}')">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <polyline points="6 9 6 2 18 2 18 9"/>
                             <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
                             <rect x="6" y="14" width="12" height="8"/>
-                        </svg>
-                        Print
+                        </svg>Print
                     </button>
-                    <button class="btn btn-ghost btn-copy" onclick="copyLink('${escAttr(art.url)}', this)">
+                    <button class="btn btn-ghost btn-copy" onclick="copyLink('${escAttr(art.url)}',this)">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
                             <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
-                        </svg>
-                        Copy
+                        </svg>Copy
                     </button>
                 </div>
             </div>
@@ -1038,50 +695,23 @@ function renderCards() {
     }).join('');
 }
 
-/* ─────────────────────────────────────────────
-   Utilities
-───────────────────────────────────────────── */
-function escHtml(str) {
-    return String(str)
-        .replace(/&/g,'&amp;').replace(/</g,'&lt;')
-        .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
-function escAttr(str) {
-    return String(str).replace(/"/g,'&quot;').replace(/'/g,'&#39;');
-}
-
-function printPage(url) {
-    window.open(url, '_blank');
-    showToast('Opening page — use Ctrl+P to print');
-}
-
-function copyLink(url, btn) {
-    navigator.clipboard.writeText(url).then(() => {
+/* ── Utilities ── */
+function escHtml(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+function escAttr(s){return String(s).replace(/"/g,'&quot;').replace(/'/g,'&#39;')}
+function printPage(url){window.open(url,'_blank');showToast('Opening page — use Ctrl+P to print')}
+function copyLink(url,btn){
+    navigator.clipboard.writeText(url).then(()=>{
         btn.classList.add('copied');
-        btn.innerHTML = `
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polyline points="20 6 9 17 4 12"/>
-            </svg>Copied!`;
+        btn.innerHTML=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Copied!`;
         showToast('Link copied to clipboard');
-        setTimeout(() => {
+        setTimeout(()=>{
             btn.classList.remove('copied');
-            btn.innerHTML = `
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
-                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
-                </svg>Copy`;
-        }, 2000);
+            btn.innerHTML=`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>Copy`;
+        },2000);
     });
 }
+function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3000)}
 
-function showToast(msg) {
-    const t = document.getElementById('toast');
-    t.textContent = msg;
-    t.classList.add('show');
-    setTimeout(() => t.classList.remove('show'), 3000);
-}
-
-/* ── Init ── */
 loadData();
 </script>
 </body>
