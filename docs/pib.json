@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-29T14:31:11Z",
-  "last_updated_ist": "29 Mar 2026, 8:01 PM IST",
+  "last_updated": "2026-03-29T14:45:24Z",
+  "last_updated_ist": "29 Mar 2026, 08:15 PM IST",
   "total": 20,
   "articles": [
     {
@@ -286,28 +286,44 @@
   ],
   "other_count": 20,
   "vertical_counts": {
-    "EoDB": 0,
+    "EooDB": 0,
     "CoDED": 0,
     "iLEAP": 0,
-    "ELS": 0
+    "Political_Economy": 0,
+    "Jobs_Livelihood": 0,
+    "Sustainability": 0
   },
   "regions_scraped": 1,
   "verticals": {
-    "EoDB": {
+    "EooDB": {
       "label": "Ease of Doing Business & Manufacturing",
-      "color": "#E8620A"
+      "color": "#E8620A",
+      "emoji": "🏭"
     },
     "CoDED": {
       "label": "Data for Economic Decision-making",
-      "color": "#2471A3"
+      "color": "#2471A3",
+      "emoji": "📊"
     },
     "iLEAP": {
-      "label": "Lead Elimination & Public Health",
-      "color": "#C0392B"
+      "label": "i-LEAP: Lead Elimination & Public Health",
+      "color": "#C0392B",
+      "emoji": "🩺"
     },
-    "ELS": {
-      "label": "Employment & Livelihood Systems",
-      "color": "#7D3C98"
+    "Political_Economy": {
+      "label": "Political Economy & Governance",
+      "color": "#117A65",
+      "emoji": "🏛️"
+    },
+    "Jobs_Livelihood": {
+      "label": "Jobs, Livelihoods & Women in Work",
+      "color": "#7D3C98",
+      "emoji": "💼"
+    },
+    "Sustainability": {
+      "label": "Sustainability, Climate & Environment",
+      "color": "#1E8449",
+      "emoji": "🌱"
     }
   },
   "regions": {
