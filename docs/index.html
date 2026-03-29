@@ -463,9 +463,6 @@ function primaryVertical(verticals) {
 /* ════════════════════════════════════════════════════════════
    CONFIG
 ════════════════════════════════════════════════════════════ */
-const WINDOW_HRS = 24;
-const RSS2JSON   = 'https://api.rss2json.com/v1/api.json?rss_url=';
-const PIB_RSS    = 'https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=';
 const PIB_REGIONS = {
     "3":"Delhi","1":"Mumbai","5":"Hyderabad","6":"Chennai",
     "17":"Chandigarh","19":"Kolkata","20":"Bengaluru","21":"Bhubaneswar",
@@ -495,92 +492,19 @@ async function loadData() {
             if (!a.primary_vertical) a.primary_vertical = primaryVertical(a.verticals);
             if (!a.relative_time)    a.relative_time    = relativeLabel(a.date);
         });
-        if (json.articles.length === 0) { return loadFromRSS(); }
+        if (json.articles.length === 0) {
+            document.getElementById('cardsGrid').innerHTML =
+                `<div class="empty-state"><h3>No press releases today</h3><p>Check back after the scraper runs.</p></div>`;
+            return;
+        }
         data = json;
         renderAll();
     } catch(e) {
-        console.warn('pib.json unavailable, switching to RSS:', e);
-        loadFromRSS();
-    }
-}
-
-/* ════════════════════════════════════════════════════════════
-   RSS FALLBACK
-════════════════════════════════════════════════════════════ */
-function withinWindow(d) {
-    try { return (Date.now() - new Date(d).getTime()) <= WINDOW_HRS * 3600000; }
-    catch { return true; }
-}
-
-async function fetchRegionRSS(regId, regionName) {
-    const url = RSS2JSON + encodeURIComponent(PIB_RSS + regId) + '&count=50';
-    try {
-        const res  = await fetch(url);
-        const json = await res.json();
-        if (json.status !== 'ok' || !json.items) return [];
-        return json.items
-            .filter(i => withinWindow(i.pubDate))
-            .map(i => ({
-                title:   (i.title||'').trim(),
-                url:     (i.link ||'').trim(),
-                snippet: (i.description||'').replace(/<[^>]+>/g,'').trim().slice(0,220),
-                date:    i.pubDate ? new Date(i.pubDate).toISOString().slice(0,10) : '',
-                region:  regionName
-            }));
-    } catch(e) {
-        console.warn('RSS failed:', regionName, e.message);
-        return [];
-    }
-}
-
-async function loadFromRSS() {
-    document.getElementById('cardsGrid').innerHTML =
-        `<div class="loading"><div class="spinner"></div><p>Fetching live PIB feeds from all 28 regions…</p></div>`;
-    document.getElementById('lastUpdated').textContent = 'Connecting to live RSS…';
-
-    const results = await Promise.allSettled(
-        Object.entries(PIB_REGIONS).map(([id,name]) => fetchRegionRSS(id, name))
-    );
-
-    const seen = new Set(), articles = [];
-    for (const r of results) {
-        if (r.status !== 'fulfilled') continue;
-        for (const item of r.value) {
-            if (!item.url || seen.has(item.url) || !item.title || item.title.length < 8) continue;
-            seen.add(item.url);
-            const verts = getVerticals(item.title, item.snippet);
-            articles.push({
-                id:               btoa(encodeURIComponent(item.url)).slice(0,16),
-                title:            item.title,
-                url:              item.url,
-                date:             item.date,
-                relative_time:    relativeLabel(item.date),
-                region:           item.region,
-                verticals:        verts,
-                primary_vertical: primaryVertical(verts),
-                snippet:          item.snippet,
-                source:           'rss'
-            });
-        }
-    }
-
-    articles.sort((a,b) => (b.date||'').localeCompare(a.date||''));
-    const now = new Date().toLocaleString('en-IN',{
-        day:'numeric',month:'short',year:'numeric',
-        hour:'numeric',minute:'2-digit',hour12:true,timeZone:'Asia/Kolkata'
-    });
-    data = { total:articles.length, articles, last_updated_ist:'Live RSS · '+now+' IST', source:'rss' };
-
-    if (!articles.length) {
-        document.getElementById('lastUpdated').textContent = data.last_updated_ist;
-        document.getElementById('statTotal').textContent   = 0;
+        console.warn('pib.json unavailable:', e);
         document.getElementById('cardsGrid').innerHTML =
-            `<div class="empty-state"><h3>No relevant releases in last 48 hours</h3><p>Check back later or try refreshing.</p></div>`;
-        return;
+            `<div class="empty-state"><h3>Could not load press releases</h3><p>Check back after 9:30 AM IST.</p></div>`;
     }
-    renderAll();
 }
-
 /* ════════════════════════════════════════════════════════════
    RENDER
 ════════════════════════════════════════════════════════════ */
