@@ -53,7 +53,7 @@ REQUEST_TIMEOUT    = 15         # seconds per HTTP request
 REQUEST_DELAY      = 0.4        # polite delay between region fetches
 MAX_RELEASES_KEPT  = 500        # rolling window stored in pib.json
 SNIPPET_LENGTH     = 220        # characters
-FRESH_WINDOW_HOURS = 48         # only ingest releases newer than this
+FRESH_WINDOW_HOURS = 24         # only ingest releases newer than this
 
 PIB_BASE = "https://www.pib.gov.in"
 PIB_LIST = PIB_BASE + "/Allrel.aspx?reg={reg}&lang=1"
@@ -98,18 +98,6 @@ PIB_REGIONS = {
     "44": "Jammu & Kashmir",
     "45": "Vijayawada",
     "46": "Dehradun",
-}
-
-# ─────────────────────────────────────────────
-# Minimum score thresholds per vertical
-# iLEAP / CoDED need 2+ to prevent single-word false positives.
-# Title hits count double so a strong title alone can qualify.
-# ─────────────────────────────────────────────
-VERTICAL_MIN_SCORES = {
-    "EoDB":  2,   # raised from 1 — avoids single "ibc" or "brap" hits
-    "CoDED": 3,   # needs 3 weighted points (e.g. 2 title + 1 body, or 3 body)
-    "iLEAP": 3,   # lead releases always hit multiple specific terms
-    "ELS":   2,   # raised from 1 — needs at least 2 weighted points
 }
 
 # ─────────────────────────────────────────────
@@ -492,7 +480,7 @@ NEGATIVE_KEYWORDS = [
     "expressway inauguration",
 
     # Elections
-    "election schedule", "election notification",
+    "election", "election schedule", "election notification",
     "model code of conduct", "voter turnout",
     "polling station", "ballot paper",
     "election results", "by-election notification",
@@ -535,35 +523,6 @@ def is_negative(title: str) -> bool:
     """Return True if the title matches any negative keyword."""
     t = title.lower()
     return any(neg in t for neg in NEGATIVE_SET)
-
-
-def score_release(title: str, snippet: str) -> dict[str, int]:
-    """
-    Return a dict of {vertical: weighted_score} for verticals that
-    meet their minimum threshold.
-
-    Scoring weights:
-      - Title match  → 2 points  (high signal)
-      - Snippet match → 1 point  (supporting evidence)
-
-    A keyword is counted at most once per field to avoid inflation
-    from repeated mentions.
-    """
-    title_low   = title.lower()
-    snippet_low = snippet.lower()
-    matched = {}
-
-    for vertical, keywords in KEYWORD_MAP.items():
-        score = 0
-        for kw in keywords:
-            if kw in title_low:
-                score += 2
-            elif kw in snippet_low:
-                score += 1
-        if score >= VERTICAL_MIN_SCORES[vertical]:
-            matched[vertical] = score
-
-    return matched
 
 
 def matched_keywords_debug(title: str, snippet: str) -> dict[str, list]:
