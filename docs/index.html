@@ -547,7 +547,6 @@ async function loadFromRSS() {
         if (r.status !== 'fulfilled') continue;
         for (const item of r.value) {
             if (!item.url || seen.has(item.url) || !item.title || item.title.length < 8) continue;
-            if (isNegative(item.title)) continue;
             seen.add(item.url);
             const verts = getVerticals(item.title, item.snippet);
             articles.push({
