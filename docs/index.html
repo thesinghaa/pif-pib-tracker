@@ -193,6 +193,10 @@
                     <span class="indicator" style="background:var(--els)"></span>
                     <span class="label">ELS</span><span class="badge" id="countELS">0</span>
                 </button>
+                <button class="v-pill" data-vertical="other" onclick="filterVertical('other')" style="color:#64748B">
+                    <span class="indicator" style="background:#64748B"></span>
+                    <span class="label">Other Releases</span><span class="badge" id="countOther">0</span>
+                </button>
             </div>
         </div>
         <div class="filter-group">
@@ -611,13 +615,17 @@ function populateRegions() {
 }
 
 function updateCounts() {
-    const c = {all:data.total,EoDB:0,CoDED:0,iLEAP:0,ELS:0};
-    data.articles.forEach(a => (a.verticals||[]).forEach(v => { if (v in c) c[v]++; }));
+    const c = {all:data.total,EoDB:0,CoDED:0,iLEAP:0,ELS:0,other:0};
+    data.articles.forEach(a => {
+        (a.verticals||[]).forEach(v => { if (v in c) c[v]++; });
+        if (!a.verticals || a.verticals.length === 0) c.other++;
+    });
     document.getElementById('countAll').textContent   = c.all;
     document.getElementById('countEoDB').textContent  = c.EoDB;
     document.getElementById('countCoDED').textContent = c.CoDED;
     document.getElementById('countiLEAP').textContent = c.iLEAP;
     document.getElementById('countELS').textContent   = c.ELS;
+    document.getElementById('countOther').textContent = c.other;
 }
 
 function filterVertical(v) {
@@ -629,12 +637,15 @@ function filterRegion(r) { selectedRegion = r; renderCards(); }
 
 function getFiltered() {
     return data.articles.filter(a => {
-        const matchV = selectedVertical === 'all' || (a.verticals||[]).includes(selectedVertical);
-        const matchR = selectedRegion   === 'all' || a.region === selectedRegion;
+        const matchV = selectedVertical === 'all'
+            ? true
+            : selectedVertical === 'other'
+            ? (!a.verticals || a.verticals.length === 0)
+            : (a.verticals||[]).includes(selectedVertical);
+        const matchR = selectedRegion === 'all' || a.region === selectedRegion;
         return matchV && matchR;
     });
 }
-
 function renderCards() {
     const container = document.getElementById('cardsGrid');
     const filtered  = getFiltered();
