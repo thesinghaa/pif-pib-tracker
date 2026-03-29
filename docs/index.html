@@ -120,6 +120,21 @@
         .footer-links a:hover{color:var(--white)}
         @media(max-width:1024px){.cards-grid{grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}.header-stats{display:none}}
         @media(max-width:768px){.header-top{flex-direction:column;gap:1rem}.nav-links{display:none}.header-main{padding:2rem 1.5rem}.header-title h1{font-size:1.75rem}.header-content{grid-template-columns:1fr}.filter-container{padding:1rem;gap:1rem}.filter-group{width:100%;flex-wrap:wrap}.vertical-pills{width:100%;overflow-x:auto;padding-bottom:.5rem}.region-select{width:100%}.results-info{display:none}.main{padding:1.5rem 1rem}.cards-grid{grid-template-columns:1fr}.card-actions{flex-direction:column}.footer-container{flex-direction:column;text-align:center}}
+        /* ── SEARCH ── */
+        .search-wrap{position:relative;flex:1;min-width:260px}
+        .search-wrap svg{position:absolute;left:.85rem;top:50%;transform:translateY(-50%);color:rgba(255,255,255,.5);pointer-events:none;width:15px;height:15px}
+        #searchInput{width:100%;background:rgba(255,255,255,.12);border:1.5px solid rgba(255,255,255,.2);border-radius:50px;padding:.65rem 3.5rem .65rem 2.5rem;font-family:'Outfit',sans-serif;font-size:.85rem;color:var(--white);outline:none;backdrop-filter:blur(8px);transition:all .2s}
+        #searchInput:focus{background:rgba(255,255,255,.18);border-color:var(--pif-gold);box-shadow:0 0 0 3px rgba(212,168,83,.2)}
+        #searchInput::placeholder{color:rgba(255,255,255,.45)}
+        .search-count{position:absolute;right:.85rem;top:50%;transform:translateY(-50%);font-size:.65rem;color:var(--pif-gold);font-weight:600;letter-spacing:.04em;pointer-events:none}
+        .suggestions-box{position:absolute;top:calc(100% + 8px);left:0;right:0;background:var(--pif-navy-dark);border:1px solid rgba(255,255,255,.12);border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.35);z-index:999;display:none;max-height:320px;overflow-y:auto}
+        .suggestions-box.open{display:block}
+        .suggestion-item{padding:.7rem 1rem;font-size:.82rem;color:rgba(255,255,255,.8);cursor:pointer;border-bottom:1px solid rgba(255,255,255,.06);display:flex;align-items:flex-start;gap:.6rem;transition:background .1s;line-height:1.4}
+        .suggestion-item:last-child{border-bottom:none}
+        .suggestion-item:hover{background:rgba(255,255,255,.08)}
+        .suggestion-item mark{background:var(--pif-gold);color:var(--pif-navy-dark);border-radius:2px;padding:0 2px;font-weight:700}
+        .sug-region{font-size:.6rem;color:rgba(255,255,255,.35);white-space:nowrap;margin-left:auto;padding-left:.5rem;flex-shrink:0;margin-top:.15rem}
+        .highlight mark{background:#FFF176;color:var(--gray-900);border-radius:2px;padding:0 1px;font-weight:600}
         ::-webkit-scrollbar{width:10px;height:10px}::-webkit-scrollbar-track{background:var(--gray-100)}::-webkit-scrollbar-thumb{background:var(--gray-300);border-radius:5px}::-webkit-scrollbar-thumb:hover{background:var(--gray-400)}
     </style>
 </head>
@@ -158,6 +173,19 @@
                     <span class="status-dot"></span>
                     <span id="lastUpdated">Loading…</span>
                 </div>
+
+                <!-- Search bar -->
+                <div class="search-wrap">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                    </svg>
+                    <input id="searchInput" type="text"
+                           placeholder="Search press releases…"
+                           autocomplete="off" />
+                    <span class="search-count" id="searchCount"></span>
+                    <div class="suggestions-box" id="suggestionsBox"></div>
+                </div>
+
                 <button class="btn-refresh" onclick="loadData()">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/>
@@ -514,6 +542,7 @@ function renderAll() {
     populateRegions();
     updateCounts();
     renderCards();
+    initSearch();
 }
 
 function relativeLabel(dateStr) {
@@ -646,6 +675,133 @@ function copyLink(url,btn){
 }
 function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3000)}
 
+/* ── SEARCH ── */
+function hl(text, q) {
+    if (!q) return escHtml(text);
+    const rx = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+    return escHtml(text).replace(rx, '<mark>$1</mark>');
+}
+
+function initSearch() {
+    const input   = document.getElementById('searchInput');
+    const box     = document.getElementById('suggestionsBox');
+    const counter = document.getElementById('searchCount');
+    if (!input) return;
+
+    input.addEventListener('input', () => {
+        const q = input.value.trim();
+
+        // Update cards with highlights
+        renderCardsWithSearch(q);
+
+        // Update result count
+        if (q.length >= 1) {
+            const n = (data?.articles||[]).filter(a =>
+                a.title.toLowerCase().includes(q.toLowerCase()) ||
+                (a.snippet||'').toLowerCase().includes(q.toLowerCase())
+            ).length;
+            counter.textContent = n ? n + ' found' : 'no results';
+        } else {
+            counter.textContent = '';
+        }
+
+        // Suggestions dropdown
+        if (q.length < 2) { box.classList.remove('open'); box.innerHTML=''; return; }
+        const matches = (data?.articles||[])
+            .filter(a => a.title.toLowerCase().includes(q.toLowerCase()))
+            .slice(0, 7);
+        if (!matches.length) { box.classList.remove('open'); return; }
+        box.innerHTML = matches.map(a => `
+            <div class="suggestion-item" onclick="window.open('${escAttr(a.url)}','_blank')">
+                <span style="flex:1">${hl(a.title.slice(0,90), q)}</span>
+                <span class="sug-region">${escHtml(a.region)}</span>
+            </div>`).join('');
+        box.classList.add('open');
+    });
+
+    input.addEventListener('keydown', e => {
+        if (e.key === 'Escape') { box.classList.remove('open'); input.blur(); }
+    });
+
+    document.addEventListener('click', e => {
+        if (!input.contains(e.target) && !box.contains(e.target)) {
+            box.classList.remove('open');
+        }
+    });
+}
+
+function renderCardsWithSearch(q) {
+    const container = document.getElementById('cardsGrid');
+    const filtered  = getFiltered();
+    document.getElementById('statShowing').textContent = filtered.length;
+
+    if (!filtered.length) {
+        container.innerHTML = `<div class="empty-state"><h3>No press releases found</h3><p>Try adjusting your filters.</p></div>`;
+        return;
+    }
+
+    // Filter by search query
+    const shown = q
+        ? filtered.filter(a =>
+            a.title.toLowerCase().includes(q.toLowerCase()) ||
+            (a.snippet||'').toLowerCase().includes(q.toLowerCase()))
+        : filtered;
+
+    document.getElementById('statShowing').textContent = shown.length;
+
+    if (!shown.length) {
+        container.innerHTML = `<div class="empty-state"><h3>No results for "${escHtml(q)}"</h3><p>Try a different keyword.</p></div>`;
+        return;
+    }
+
+    container.innerHTML = shown.map(art => {
+        const pv  = art.primary_vertical || 'Other';
+        const col = COLORS[pv] || COLORS.Other;
+        const extras = (art.verticals||[]).filter(v => v !== pv)
+            .map(v => `<span class="cv-pill" style="background:${(COLORS[v]||COLORS.Other).bg}">${v}</span>`).join('');
+        const titleHtml   = q ? `<span class="highlight">${hl(art.title, q)}</span>` : escHtml(art.title);
+        const snippetHtml = art.snippet
+            ? `<p class="card-snippet">${q ? `<span class="highlight">${hl(art.snippet, q)}</span>` : escHtml(art.snippet)}</p>` : '';
+        const verticalRow = extras
+            ? `<div class="card-verticals"><span class="cv-pill" style="background:${col.bg}">${pv}</span>${extras}</div>` : '';
+        return `
+        <article class="card" style="--accent-color:${col.bg};--accent-color-light:${col.light}">
+            <div class="card-accent"></div>
+            <div class="card-top">
+                <span class="card-vertical-tag" style="background:${col.bg}">${pv}</span>
+                <div class="card-tags">
+                    <span class="card-tag region">${escHtml(art.region)}</span>
+                    <span class="card-tag time">${escHtml(art.relative_time||'')}</span>
+                </div>
+            </div>
+            <div class="card-body">
+                <h2 class="card-title"><a href="${escAttr(art.url)}" target="_blank" rel="noopener">${titleHtml}</a></h2>
+                ${snippetHtml}${verticalRow}
+                <div class="card-actions">
+                    <a href="${escAttr(art.url)}" target="_blank" rel="noopener" class="btn btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>Read
+                    </a>
+                    <button class="btn btn-ghost" onclick="printPage('${escAttr(art.url)}')">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 6 2 18 2 18 9"/>
+                            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/>
+                            <rect x="6" y="14" width="12" height="8"/>
+                        </svg>Print
+                    </button>
+                    <button class="btn btn-ghost btn-copy" onclick="copyLink('${escAttr(art.url)}',this)">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                        </svg>Copy
+                    </button>
+                </div>
+            </div>
+        </article>`;
+    }).join('');
+}    
 loadData();
 </script>
 </body>
