@@ -1,7 +1,16 @@
 {
-  "last_updated": "2026-03-29T04:45:08Z",
-  "last_updated_ist": "29 Mar 2026, 10:15 AM IST",
+  "last_updated": "2026-03-29T05:02:46Z",
+  "last_updated_ist": "29 Mar 2026, 10:32 AM IST",
   "total": 0,
+  "articles": [],
+  "all_only_count": 0,
+  "vertical_counts": {
+    "EoDB": 0,
+    "CoDED": 0,
+    "iLEAP": 0,
+    "ELS": 0
+  },
+  "regions_scraped": 0,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
@@ -49,6 +58,5 @@
     "44": "Jammu & Kashmir",
     "45": "Vijayawada",
     "46": "Dehradun"
-  },
-  "articles": []
+  }
 }
