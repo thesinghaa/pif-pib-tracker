@@ -519,14 +519,353 @@ async function loadData() {
         updateCounts();
         renderCards();
 
+        // If scraper returned 0 articles, fall back to live RSS
+        if (data.articles.length === 0) {
+            console.info('pib.json is empty — falling back to live RSS feeds');
+            loadFromRSS();
+        }
+
     } catch (err) {
-        console.error('loadData error:', err);
+        console.warn('pib.json unavailable — falling back to live RSS feeds:', err);
+        loadFromRSS();
+    }
+}
+
+/* ─────────────────────────────────────────────
+   RSS FALLBACK
+   Fetches PIB RSS feeds directly in the browser
+   via a CORS proxy, parses them, scores articles
+   with the same keyword logic, and renders cards.
+
+   Flow:
+   1. Try all 28 region RSS feeds in parallel
+   2. Parse each <item> — title, link, pubDate, description
+   3. Filter to last 48 hours
+   4. Score against keyword lists (same weights as scraper)
+   5. Deduplicate by URL
+   6. Render using the exact same renderCards() pipeline
+───────────────────────────────────────────── */
+
+// CORS proxy — rss2json converts RSS to JSON and handles CORS for us
+const RSS2JSON   = 'https://api.rss2json.com/v1/api.json?rss_url=';
+const PIB_RSS    = 'https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=';
+const WINDOW_HRS = 48;
+
+const PIB_REGIONS = {
+    "3":"Delhi","1":"Mumbai","5":"Hyderabad","6":"Chennai",
+    "17":"Chandigarh","19":"Kolkata","20":"Bengaluru","21":"Bhubaneswar",
+    "22":"Ahmedabad","23":"Guwahati","24":"Thiruvananthapuram","30":"Imphal",
+    "31":"Mizoram","32":"Agartala","33":"Gangtok","34":"Kohima",
+    "35":"Shillong","36":"Itanagar","37":"Lucknow","38":"Bhopal",
+    "39":"Jaipur","40":"Patna","41":"Ranchi","42":"Shimla",
+    "43":"Raipur","44":"Jammu & Kashmir","45":"Vijayawada","46":"Dehradun"
+};
+
+/* ── Compact keyword lists for client-side scoring ──
+   Same logic as scraper: title hit = 2pts, body hit = 1pt
+   Minimum thresholds: EoDB=2, CoDED=3, iLEAP=3, ELS=2          */
+const KW = {
+    EoDB: [
+        "ease of doing business","eodb","business reform","regulatory reform",
+        "single window clearance","single window system","business facilitation",
+        "investor facilitation","compliance burden","compliance reduction",
+        "decriminalization","decriminalisation","license reform","permit reform",
+        "business registration","company registration","msme registration",
+        "udyam registration","national single window","nsws","invest india",
+        "faceless assessment","digital approval","paperless approval",
+        "industrial licensing reform","environmental clearance reform",
+        "building permit reform","construction permit simplification",
+        "fire noc reform","factory license reform","trade license reform",
+        "contract enforcement reform","commercial courts","insolvency resolution",
+        "ibc reform","bankruptcy code reform","nclt reform",
+        "fdi policy reform","investment climate reform","doing business ranking",
+        "world bank ease of doing business","brap","business reform action plan",
+        "dpiit reform","industrial corridor development","sez policy",
+        "pli scheme reform","production linked incentive policy",
+        "make in india policy","make in india reform",
+        "logistics policy","pm gati shakti network","logistics efficiency",
+        "multimodal logistics","national logistics policy",
+        "credit access msme","mudra scheme","stand up india scheme",
+        "credit guarantee scheme","cgtmse","invoice financing","treds platform",
+        "labour code reform","industrial relations code","wage code implementation",
+        "shram suvidha portal","land acquisition reform","land bank policy",
+        "gst simplification","tax reform compliance","faceless appeal income tax",
+        "vivad se vishwas scheme","direct tax reform","gst council reform",
+        "gst rate rationalisation","gst rate rationalization"
+    ],
+    CoDED: [
+        "economic data","statistical data","official statistics",
+        "data governance","data policy","data infrastructure",
+        "national statistical office","nso","mospi",
+        "ministry of statistics","central statistics office","cso",
+        "nsso","national sample survey","economic census",
+        "annual survey of industries","population census","census data",
+        "census commissioner","census enumeration","census 2021","census 2026",
+        "gdp data","gdp growth estimate","gdp revision",
+        "gross domestic product data","gdp base year",
+        "inflation data","cpi data","consumer price index data",
+        "wpi data","wholesale price index data","iip data",
+        "index of industrial production","periodic labour force survey",
+        "plfs report","consumption expenditure survey","hces",
+        "national accounts statistics","supply use table",
+        "data quality assessment","statistical methodology","survey methodology",
+        "base year revision","data revision gdp","sampling methodology",
+        "data analytics platform government","ai governance framework",
+        "ai policy regulation","data exchange protocol","data sharing framework",
+        "open data policy","open government data","data protection law",
+        "pdp bill","digital personal data protection","dpdp act",
+        "data principal","data fiduciary","national data governance",
+        "gst data analysis","tax data statistics","e-way bill statistics",
+        "gstn data","mca21","epfo statistics","administrative data use",
+        "economic survey india","rbi monetary policy report",
+        "rbi bulletin statistics","statistical yearbook india",
+        "sdg india index","ndap","national data analytics platform",
+        "data catalogue government","data.gov.in","unified data platform"
+    ],
+    iLEAP: [
+        "lead poisoning","lead exposure","lead contamination",
+        "blood lead level","bll","lead paint","lead in paint",
+        "lead battery","lead acid battery","battery recycling lead",
+        "lead smelting","lead pollution","lead toxicity",
+        "lead free paint","lead elimination","lead phase out",
+        "childhood lead","lead testing","lead screening",
+        "lead abatement","lead remediation","lead monitoring",
+        "lead in fuel","lead in petrol","leaded petrol",
+        "lead paint standard","toy safety lead","cosmetic lead",
+        "fssai lead","food lead contamination","lead in spices",
+        "lead safe","lead hazard","heavy metal contamination",
+        "heavy metal pollution","heavy metal toxicity","heavy metal exposure",
+        "mercury contamination","mercury pollution","mercury poisoning",
+        "cadmium contamination","arsenic contamination","chromium contamination",
+        "metal contamination","metal poisoning","toxic metal","neurotoxic metal",
+        "is 16088","lead limit regulation","lead regulation","lead ban",
+        "rohs compliance","restriction of hazardous substances",
+        "neurotoxic exposure","neurotoxicity children",
+        "cognitive impairment children","iq loss children",
+        "developmental neurotoxicity","child neurotoxin",
+        "pollution control board lead","cpcb lead","spcb lead",
+        "industrial effluent heavy metal","hazardous waste metal",
+        "e-waste lead","e-waste heavy metal","soil lead contamination",
+        "groundwater arsenic","groundwater lead","water lead contamination",
+        "occupational lead exposure","occupational heavy metal",
+        "lead worker health","smelter worker health","battery worker health",
+        "national lead elimination","pure earth","ipen lead","unep lead",
+        "lead paint alliance","who lead guideline","unicef lead"
+    ],
+    ELS: [
+        "employment generation","job creation","unemployment rate",
+        "unemployment data","labour market reform","workforce development",
+        "employment scheme","employment program","employment exchange",
+        "minimum wage revision","minimum wage notification","wage board",
+        "wage revision","equal remuneration act","wage compliance",
+        "skill development scheme","skill training program government",
+        "vocational training scheme","skill india mission",
+        "pmkvy","pradhan mantri kaushal vikas yojana",
+        "iti training","iti upgradation","polytechnic scheme",
+        "apprenticeship scheme","national apprenticeship promotion",
+        "nsdc","sector skill council","skill certification",
+        "mahatma gandhi nrega","mgnregs","mnrega",
+        "pm employment guarantee","urban employment scheme",
+        "deen dayal upadhyaya","ddu-gky","rsetis","pmegp","pm rojgar",
+        "informal sector workers","informal economy policy",
+        "street vendors scheme","pm svnidhi","unorganized workers",
+        "e-shram registration","e-shram portal",
+        "labour welfare scheme","worker welfare fund",
+        "construction worker welfare","esi scheme","esic benefit",
+        "epfo scheme","employee provident fund","social security worker",
+        "labour pension scheme","pm shram yogi mandhan",
+        "women employment scheme","women workforce participation",
+        "female labour force participation","maternity benefit scheme",
+        "self help group livelihood","shg employment",
+        "migrant worker welfare","migrant labour policy",
+        "gig worker rights","platform worker policy",
+        "interstate migrant worker","one nation one ration","onorc",
+        "plfs report","periodic labour force survey",
+        "employment unemployment survey","labour bureau survey",
+        "employment statistics","labour statistics india",
+        "labour force participation rate","lfpr data",
+        "quarterly employment survey","textile employment",
+        "construction workers welfare","domestic workers rights",
+        "plantation labour welfare","mining workers welfare","beedi workers"
+    ]
+};
+
+const KW_MIN = { EoDB: 2, CoDED: 3, iLEAP: 3, ELS: 2 };
+
+// Sort keywords longest-first so longer phrases match before substrings
+Object.keys(KW).forEach(v => KW[v].sort((a,b) => b.length - a.length));
+
+const NEGATIVE_KW = [
+    "condolence","obituary","death anniversary","birth anniversary",
+    "greetings on","wishes on","festival greetings",
+    "republic day parade","independence day celebration",
+    "diwali","holi","eid","christmas","pongal","onam","new year message",
+    "mann ki baat","takes charge","assumes charge","retirement function",
+    "swearing in ceremony","oath taking ceremony",
+    "foundation stone laying","lays foundation stone","flag hoisting",
+    "cultural program","cultural event","sports meet","sports day",
+    "marathon","yoga day event","fit india","state visit","bilateral visit",
+    "foreign minister visit","head of state visit",
+    "mou signing ceremony","agreement signing ceremony",
+    "bilateral relations","diplomatic ties","foreign delegation visits",
+    "cultural exchange program","diaspora event","pravasi bharatiya divas",
+    "military exercise","naval exercise","air exercise","passing out parade",
+    "commissioning ceremony","defence expo","aero india","defexpo",
+    "gallantry award","vir chakra","param vir chakra","sainik school",
+    "bsf raising day","crpf raising day","cisf raising day",
+    "navy day","air force day","army day","defence procurement policy",
+    "award ceremony","prize distribution","felicitation ceremony",
+    "padma awards","farewell function","book launch event",
+    "convocation ceremony","international day celebration",
+    "world day celebration","international women's day event",
+    "world water day event","world environment day event",
+    "hospital inauguration","medical college inauguration","health camp",
+    "blood donation camp","pulse polio campaign","immunization drive",
+    "vaccination camp","cancer awareness drive","diabetes awareness",
+    "highway inauguration","road inauguration","bridge inauguration",
+    "tunnel inauguration","airport inauguration","railway line inauguration",
+    "metro inauguration","dam inauguration","power plant inauguration",
+    "election schedule","model code of conduct","voter turnout",
+    "election results","by-election notification",
+    "ai summit","ai expo","ai impact summit","tech summit",
+    "hackathon event","innovation challenge","technology exhibition",
+    "pib fact check","fake news alert","all india radio"
+];
+
+function scoreArticle(title, desc) {
+    const t = title.toLowerCase();
+    const d = (desc || '').toLowerCase();
+    const scores = {};
+
+    for (const [vertical, keywords] of Object.entries(KW)) {
+        let score = 0;
+        for (const kw of keywords) {
+            if (t.includes(kw)) score += 2;
+            else if (d.includes(kw)) score += 1;
+        }
+        if (score >= KW_MIN[vertical]) scores[vertical] = score;
+    }
+    return scores;
+}
+
+function isNegative(title) {
+    const t = title.toLowerCase();
+    return NEGATIVE_KW.some(n => t.includes(n));
+}
+
+function primaryVertical(scores) {
+    if (!scores || !Object.keys(scores).length) return 'Other';
+    return Object.entries(scores).sort((a,b) => b[1]-a[1])[0][0];
+}
+
+function withinWindow(pubDateStr) {
+    try {
+        const d = new Date(pubDateStr);
+        return (Date.now() - d.getTime()) <= WINDOW_HRS * 3600 * 1000;
+    } catch { return true; }
+}
+
+async function fetchRegionRSS(regId, regionName) {
+    const url = RSS2JSON + encodeURIComponent(PIB_RSS + regId) + '&count=50';
+    try {
+        const res  = await fetch(url);
+        const json = await res.json();
+        if (json.status !== 'ok' || !json.items) return [];
+
+        return json.items
+            .filter(item => withinWindow(item.pubDate))
+            .map(item => {
+                const title   = (item.title   || '').trim();
+                const url     = (item.link    || '').trim();
+                const snippet = (item.description || '').replace(/<[^>]+>/g,'').trim().slice(0,220);
+                const pubDate = item.pubDate || '';
+                const dateStr = pubDate ? new Date(pubDate).toISOString().slice(0,10) : '';
+
+                return { title, url, snippet, pubDate, date: dateStr, region: regionName };
+            });
+    } catch (e) {
+        console.warn(`RSS fetch failed for ${regionName}:`, e);
+        return [];
+    }
+}
+
+async function loadFromRSS() {
+    document.getElementById('cardsGrid').innerHTML = `
+        <div class="loading">
+            <div class="spinner"></div>
+            <p>Fetching live PIB feeds from all 28 regions…</p>
+        </div>`;
+    document.getElementById('lastUpdated').textContent = 'Live RSS — last 48 hrs';
+
+    // Fetch all regions in parallel
+    const promises = Object.entries(PIB_REGIONS).map(([id, name]) =>
+        fetchRegionRSS(id, name)
+    );
+    const results = await Promise.allSettled(promises);
+
+    // Flatten, deduplicate by URL, filter & score
+    const seen    = new Set();
+    const articles = [];
+
+    for (const r of results) {
+        if (r.status !== 'fulfilled') continue;
+        for (const item of r.value) {
+            if (!item.url || seen.has(item.url)) continue;
+            if (!item.title || item.title.length < 10) continue;
+            if (isNegative(item.title)) continue;
+
+            seen.add(item.url);
+
+            const scores  = scoreArticle(item.title, item.snippet);
+            const total   = Object.values(scores).reduce((a,b)=>a+b, 0);
+            const pv      = primaryVertical(scores);
+
+            articles.push({
+                id:               btoa(item.url).slice(0,12),
+                title:            item.title,
+                url:              item.url,
+                date:             item.date,
+                relative_time:    relativeLabel(item.date),
+                region:           item.region,
+                verticals:        Object.keys(scores).sort(),
+                primary_vertical: pv,
+                relevance_score:  total,
+                vertical_scores:  scores,
+                snippet:          item.snippet,
+                source:           'rss'   // mark as live RSS so UI can indicate it
+            });
+        }
+    }
+
+    // Sort newest first
+    articles.sort((a,b) => (b.date||'').localeCompare(a.date||''));
+
+    // Inject into data object and render — same pipeline as scraper data
+    data = {
+        total:            articles.length,
+        articles:         articles,
+        last_updated_ist: 'Live RSS · ' + new Date().toLocaleString('en-IN',
+            { day:'numeric', month:'short', year:'numeric',
+              hour:'numeric', minute:'2-digit', hour12:true, timeZone:'Asia/Kolkata' })
+            + ' IST',
+        source: 'rss'
+    };
+
+    document.getElementById('lastUpdated').textContent = data.last_updated_ist;
+    document.getElementById('statTotal').textContent   = data.total;
+
+    if (articles.length === 0) {
         document.getElementById('cardsGrid').innerHTML = `
             <div class="empty-state">
-                <h3>Unable to load data</h3>
-                <p>Please try refreshing the page. If the problem persists, the scraper may not have run yet.</p>
+                <h3>No relevant press releases in last 48 hours</h3>
+                <p>PIB may not have published matching releases yet today. Check back later.</p>
             </div>`;
+        return;
     }
+
+    populateRegions();
+    updateCounts();
+    renderCards();
 }
 
 /* ─────────────────────────────────────────────
