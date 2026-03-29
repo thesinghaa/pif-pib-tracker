@@ -583,9 +583,14 @@ function updateCounts() {
 function filterVertical(v) {
     selectedVertical = v;
     document.querySelectorAll('.v-pill').forEach(p => p.classList.toggle('active', p.dataset.vertical === v));
-    renderCards();
+    const q = document.getElementById('searchInput')?.value.trim() || '';
+    renderCardsWithSearch(q);
 }
-function filterRegion(r) { selectedRegion = r; renderCards(); }
+function filterRegion(r) {
+    selectedRegion = r;
+    const q = document.getElementById('searchInput')?.value.trim() || '';
+    renderCardsWithSearch(q);
+}
 
 function getFiltered() {
     return data.articles.filter(a => {
