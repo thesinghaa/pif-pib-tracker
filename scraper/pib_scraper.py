@@ -50,42 +50,43 @@ HEADERS = {
         "Chrome/120.0.0.0 Safari/537.36"
     ),
     "Accept-Language": "en-US,en;q=0.9",
+    "Accept": "application/rss+xml, application/xml, text/xml, */*",
 }
+
 
 # ─────────────────────────────────────────────
 # PIB RSS Feed URLs — Lang=1 is English
 # ─────────────────────────────────────────────
 PIB_RSS_FEEDS = {
-    "3":  ("Delhi",              "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=3"),
-    "1":  ("Mumbai",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1&reg=3"),
-    "5":  ("Hyderabad",          "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=5&reg=3"),
-    "6":  ("Chennai",            "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=6&reg=3"),
-    "17": ("Chandigarh",         "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=17&reg=3"),
-    "19": ("Kolkata",            "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=19&reg=3"),
-    "20": ("Bengaluru",          "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=20&reg=3"),
-    "21": ("Bhubaneswar",        "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=21&reg=3"),
-    "22": ("Ahmedabad",          "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=22&reg=3"),
-    "23": ("Guwahati",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=23&reg=3"),
-    "24": ("Thiruvananthapuram", "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=24&reg=3"),
-    "30": ("Imphal",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=30&reg=3"),
-    "31": ("Mizoram",            "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=31&reg=3"),
-    "32": ("Agartala",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=32&reg=3"),
-    "33": ("Gangtok",            "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=33&reg=3"),
-    "34": ("Kohima",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=34&reg=3"),
-    "35": ("Shillong",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=35&reg=3"),
-    "36": ("Itanagar",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=36&reg=3"),
-    "37": ("Lucknow",            "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=37&reg=3"),
-    "38": ("Bhopal",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=38&reg=3"),
-    "39": ("Jaipur",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=39&reg=3"),
-    "40": ("Patna",              "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=40&reg=3"),
-    "41": ("Ranchi",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=41&reg=3"),
-    "42": ("Shimla",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=42&reg=3"),
-    "43": ("Raipur",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=43&reg=3"),
-    "44": ("Jammu & Kashmir",    "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=44&reg=3"),
-    "45": ("Vijayawada",         "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=45&reg=3"),
-    "46": ("Dehradun",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=46&reg=3"),
+    "3":  ("Delhi",              "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3&reg=3&Langid=1"),
+    "1":  ("Mumbai",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1&reg=3&Langid=1"),
+    "5":  ("Hyderabad",          "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=5&reg=3&Langid=1"),
+    "6":  ("Chennai",            "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=6&reg=3&Langid=1"),
+    "17": ("Chandigarh",         "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=17&reg=3&Langid=1"),
+    "19": ("Kolkata",            "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=19&reg=3&Langid=1"),
+    "20": ("Bengaluru",          "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=20&reg=3&Langid=1"),
+    "21": ("Bhubaneswar",        "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=21&reg=3&Langid=1"),
+    "22": ("Ahmedabad",          "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=22&reg=3&Langid=1"),
+    "23": ("Guwahati",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=23&reg=3&Langid=1"),
+    "24": ("Thiruvananthapuram", "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=24&reg=3&Langid=1"),
+    "30": ("Imphal",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=30&reg=3&Langid=1"),
+    "31": ("Mizoram",            "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=31&reg=3&Langid=1"),
+    "32": ("Agartala",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=32&reg=3&Langid=1"),
+    "33": ("Gangtok",            "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=33&reg=3&Langid=1"),
+    "34": ("Kohima",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=34&reg=3&Langid=1"),
+    "35": ("Shillong",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=35&reg=3&Langid=1"),
+    "36": ("Itanagar",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=36&reg=3&Langid=1"),
+    "37": ("Lucknow",            "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=37&reg=3&Langid=1"),
+    "38": ("Bhopal",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=38&reg=3&Langid=1"),
+    "39": ("Jaipur",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=39&reg=3&Langid=1"),
+    "40": ("Patna",              "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=40&reg=3&Langid=1"),
+    "41": ("Ranchi",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=41&reg=3&Langid=1"),
+    "42": ("Shimla",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=42&reg=3&Langid=1"),
+    "43": ("Raipur",             "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=43&reg=3&Langid=1"),
+    "44": ("Jammu & Kashmir",    "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=44&reg=3&Langid=1"),
+    "45": ("Vijayawada",         "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=45&reg=3&Langid=1"),
+    "46": ("Dehradun",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=46&reg=3&Langid=1"),
 }
-
 # ─────────────────────────────────────────────
 # PIF VERTICALS & KEYWORDS
 # ─────────────────────────────────────────────
@@ -507,7 +508,14 @@ def scrape_all_regions() -> list:
 
                 if not title or not url:
                     continue
-
+                                          # Skip non-English titles
+                # English text is ASCII + common punctuation
+                # Hindi/regional text contains Unicode above U+0900
+                non_ascii = sum(1 for c in title if ord(c) > 0x0900)
+                if non_ascii > 3:
+                    log.debug("  [SKIP-LANG] %s", title[:60])
+                    continue
+                          
                 uid = make_id(url)
                 if uid in seen_ids:
                     continue
