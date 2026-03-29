@@ -502,14 +502,11 @@ def scrape_all_regions() -> list:
 
                 if not title or not url:
                     continue
-                                          # Skip non-English titles
-                # English text is ASCII + common punctuation
-                # Hindi/regional text contains Unicode above U+0900
+                # Skip non-English titles
                 non_ascii = sum(1 for c in title if ord(c) > 0x0900)
                 if non_ascii > 3:
-                    log.debug("  [SKIP-LANG] %s", title[:60])
                     continue
-                          
+
                 uid = make_id(url)
                 if uid in seen_ids:
                     continue
@@ -518,11 +515,6 @@ def scrape_all_regions() -> list:
                 # Date check
                 date_str = parse_rss_date(entry)
                 if not is_within_window(date_str):
-                    total_skipped += 1
-                    continue
-
-                # Negative filter
-                if is_negative(title):
                     total_skipped += 1
                     continue
 
