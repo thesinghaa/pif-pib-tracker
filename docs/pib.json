@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-30T16:03:36Z",
-  "last_updated_ist": "30 Mar 2026, 09:33 PM IST",
-  "total": 485,
+  "last_updated": "2026-03-30T17:46:49Z",
+  "last_updated_ist": "30 Mar 2026, 11:16 PM IST",
+  "total": 488,
   "articles": [
     {
       "id": "980aa1203289957b931d669e397d316b",
@@ -1421,6 +1421,51 @@
       "date": "2026-03-30",
       "relative_time": "Today",
       "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "af0a025f4c29b845458c71bca9726522",
+      "title": "Union Home Minister and Minister of Cooperation, Shri Amit Shah, replies to the discussion in the Lok Sabha on the efforts to free the country from Left-Wing Extremism (LWE)",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247134",
+      "date": "2026-03-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f5497f3f5ca1a0d9ddf89b8eb7bf6740",
+      "title": "Prime Minister shares address by Shri Amit Shah in Lok Sabha on India’s decisive fight against Naxalism",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247120",
+      "date": "2026-03-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "b4a4ce56fd58fade1eed1b0316b8c6b5",
+      "title": "Prime Minister speaks with Prime Minister of Netherlands",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247115",
+      "date": "2026-03-30",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -7461,7 +7506,7 @@
       "section": "other"
     }
   ],
-  "other_count": 435,
+  "other_count": 438,
   "vertical_counts": {
     "EooDB": 14,
     "CoDED": 6,
