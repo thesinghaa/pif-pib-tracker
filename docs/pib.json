@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-30T06:27:16Z",
-  "last_updated_ist": "30 Mar 2026, 11:57 AM IST",
-  "total": 401,
+  "last_updated": "2026-03-30T08:20:19Z",
+  "last_updated_ist": "30 Mar 2026, 01:50 PM IST",
+  "total": 408,
   "articles": [
     {
       "id": "980aa1203289957b931d669e397d316b",
@@ -112,6 +112,115 @@
       "id": "6135e807525fde3f1bdb8ab343aaa32a",
       "title": "Uttarakhand Expands Micro-Irrigation Coverage to 35,647 Hectares Under ‘Per Drop, More Crop’ Scheme: Shri Ramnath Thakur",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246781",
+      "date": "2026-03-30",
+      "relative_time": "Today",
+      "region": "Dehradun",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "11820a561e4401ca90e7f8a45b4010c5",
+      "title": "PARLIAMENT QUESTION: Solid Waste Management Rules, 2026 to come into effect from April 1",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246814",
+      "date": "2026-03-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 2,
+      "snippet": "",
+      "full_content": "The Ministry of Environment, Forest and Climate Change, Government of India notified the Solid Waste Management Rules, 2026 on 27th January 2026 in the Official Gazette, superseding the Solid Waste Management Rules, 2016. The rules shall come into effect from April 1, 2026. The revised rules integrate the principles of circular economy and extended producer responsibility, with a specific focus on efficient waste segregation and management.\nThe Solid Waste Management Rules, 2026, mandate four-stream segregation of solid waste at source into wet waste, dry waste, sanitary waste and special care waste and prescribe clear definition of bulk waste generators who have a mandate to fulfil Extended Bulk Waste Generator Responsibility, in order to ensure that the waste generated is collected, transported and processed in an environmentally sound manner. The rules also operationalize the online tracking and monitoring of all stages of solid waste management through Centralised Online Portal including collection, transportation, processing and disposal.\nThe rules prescribe specific roles and responsibilities for urban and rural local bodies, State/ UT Governments and concerned Ministries at Government of India. The rules prescribe an increase in the fuel substitution rate from current 5 % to 15 % over a six year period for industrial units, including cement plants and waste-to-energy plants for use of Refuse Derived Fuel (RDF). In order to facilitate faster allocation of land for solid waste processing and disposal facilities, graded criteria for development has been prescribed in the rules. Further, the solid waste processing and disposal facilities have been mandated for online submission of reports. Waste processing facilities have also been subjected to audit under the rules.\nThe rules also mandate development and implementation of a time bound action plan for remediation of legacy waste and further strengthening of restrictions on landfilling of solid waste. Special provisions for solid waste management in hilly areas and islands have also been included. Provision for levy of environmental compensation based on the ‘Polluter Pays’ principle has been provided. The rules prescribe the constitution of Central and State-level Committees for their effective implementation. The Central Pollution Control Board has constituted the Central Implementation Committee for effective implementation of the rules.\nThis information was provided by UNION MINISTER OF STATE FOR ENVIRONMENT, FOREST AND CLIMATE CHANGE, SHRI KIRTI VARDHAN SINGH, in a written reply to a question in Lok Sabha today.\nVM/GS/SK (Lok Sabha US Q5893)",
+      "vertical_scores": {
+        "Sustainability": 2
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "e8325602db33a5e8c702e8a3e24f63ba",
+      "title": "EXCAVATION AND CONSERVATION ACTIVITIES IN NALANDA",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246806",
+      "date": "2026-03-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "519934d4ba7c59cea79bf4b326f45225",
+      "title": "PRESERVATION OF MINORITY HERITAGE AND PILGRIMAGE SITES",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246805",
+      "date": "2026-03-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f37d2c17018517c615261c02d5d5d296",
+      "title": "INITIATIVES FOR STRENGTHENING CULTURAL AND CIVILIZATIONAL TIES WITH COUNTRIES",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246804",
+      "date": "2026-03-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "726d09ee1e00bf40ccb8ff1ac9549ee0",
+      "title": "INFRASTRUCTURE AND STRUCTURAL DETERIORATION AT ASIATIC SOCIETY",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246802",
+      "date": "2026-03-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "cbbdbfd65e74aabcdfc75aa05efc6558",
+      "title": "ALLOCATION OF FUNDS FOR INDIAN MUSEUM",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246801",
+      "date": "2026-03-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "4c4421082d28f3eb0b053f53344d5895",
+      "title": "PM Modi Effective Diplomacy Shields India's Oil Supplies- Union Minister Shri Jitan Ram Manjhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246793",
       "date": "2026-03-30",
       "relative_time": "Today",
       "region": "Dehradun",
@@ -6155,14 +6264,14 @@
       "section": "other"
     }
   ],
-  "other_count": 362,
+  "other_count": 368,
   "vertical_counts": {
     "EooDB": 12,
     "CoDED": 2,
     "iLEAP": 1,
     "Political_Economy": 22,
     "Jobs_Livelihood": 1,
-    "Sustainability": 1
+    "Sustainability": 2
   },
   "regions_scraped": 26,
   "verticals": {
