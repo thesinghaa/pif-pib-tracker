@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-31T06:13:19Z",
-  "last_updated_ist": "31 Mar 2026, 11:43 AM IST",
-  "total": 499,
+  "last_updated": "2026-03-31T07:01:46Z",
+  "last_updated_ist": "31 Mar 2026, 12:31 PM IST",
+  "total": 500,
   "articles": [
     {
       "id": "cf4b96959a9cacb791109a6195950d83",
@@ -161,6 +161,21 @@
       "id": "c3d05e0365e84cbf1d49d6a019836901",
       "title": "Digital Push Deepens in Rural India: eGramSwaraj Records Over ₹3 Lakh Crores in Online Payments; SabhaSaar Expands to 23 Languages",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247156",
+      "date": "2026-03-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "afd8c36433d95f0df40fe36513328cef",
+      "title": "Centre Disburses Over ₹2,461 Crores as XV Finance Commission Grants to Eight States",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247186",
       "date": "2026-03-31",
       "relative_time": "Today",
       "region": "Delhi",
@@ -7675,7 +7690,7 @@
       "section": "other"
     }
   ],
-  "other_count": 448,
+  "other_count": 449,
   "vertical_counts": {
     "EooDB": 14,
     "CoDED": 6,
