@@ -1,8 +1,87 @@
 {
-  "last_updated": "2026-03-31T01:26:08Z",
-  "last_updated_ist": "31 Mar 2026, 06:56 AM IST",
-  "total": 488,
+  "last_updated": "2026-03-31T04:31:24Z",
+  "last_updated_ist": "31 Mar 2026, 10:01 AM IST",
+  "total": 493,
   "articles": [
+    {
+      "id": "cf4b96959a9cacb791109a6195950d83",
+      "title": "Centre Releases Over Rs. 1,500 Crore as XV FC Grants to Strengthen Rural Local Governance in 6 States",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247146",
+      "date": "2026-03-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "db113dcd93aa27204521ddfeb3ac25b0",
+      "title": "FOURTH SURVEY VESSEL (LARGE) ‘SANSHODHAK’ DELIVERED TO INDIAN NAVY AT GRSE KOLKATA",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247145",
+      "date": "2026-03-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "3ce75d7dae7bc2b67f4518a6195d900b",
+      "title": "NESTS to Celebrate 8th Foundation Day on April 1, Showcasing Achievements of EMRS",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247144",
+      "date": "2026-03-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "cf81abc9e6d45ae172900d707c276dc3",
+      "title": "INDIGENOUS STEALTH FRIGATE ‘DUNAGIRI’ DELIVERED TO INDIAN NAVY – A MAJOR BOOST TO AATMANIRBHARTA IN WARSHIP BUILDING",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247142",
+      "date": "2026-03-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c978bceee26a22089ece76be62e469e4",
+      "title": "India emerges as Global Leader in issuing Compliance Certificates under Nagoya Protocol",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247141",
+      "date": "2026-03-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 1,
+      "snippet": "",
+      "full_content": "India has emerged as the global leader in issuing Internationally Recognized Certificates of Compliance (IRCCs) under the Nagoya Protocol on Access and Benefit-sharing (ABS), accounting for over 56 per cent of all certificates issued worldwide. According to the latest data on the ABS Clearing-House, India has issued 3,561 IRCCs out of a global total of 6,311, placing it far ahead of all other countries in implementing the protocol.\nOut of 142 countries registered on the ABS Clearing-House, a global platform that promotes transparency and accountability, only 34 have issued IRCCs so far. India is followed by France with 964 certificates, Spain (320), Argentina (257), Panama (156) and Kenya (144). This reaffirms India’s strong commitment to fair and transparent use of biological resources and or associated knowledge.\nUnder the Nagoya Protocol, countries granting access to genetic resources and associated traditional knowledge are required to issue IRCCs. These certificates serve as official evidence that Prior Informed Consent has been obtained and that Mutually Agreed Terms have been established between users and providers of resources. The details are then uploaded to the ABS Clearing-House.\nIRCCs play a crucial role in tracking how genetic resources are used, from research and innovation to eventual commercial applications, ensuring that benefits are shared fairly with the provider country.\nIndia’s leading position reflects the effective implementation of its ABS framework under the Biological Diversity Act, 2002, implemented through the National Biodiversity Authority at the central level, State Biodiversity Boards/ Union territory Biodiversity Councils at the state level and Biodiversity Management Committees at the local level. Streamlined procedures and strong institutional mechanisms have enabled efficient processing of applications and ensured compliance with international obligations.\nThis achievement highlights India’s proactive role in global biodiversity governance and its continued efforts to promote the fair and equitable sharing of benefits arising from the use of biological resources. It also aligns with international goals on biodiversity conservation and sustainable use, strengthening India’s position as a key player in implementing global environmental agreements.",
+      "vertical_scores": {
+        "Political_Economy": 1
+      },
+      "section": "vertical"
+    },
     {
       "id": "980aa1203289957b931d669e397d316b",
       "title": "Prime Minister shares Sanskrit Subhashitam, says life of Shyamji Krishna Varma inspires courage",
@@ -7506,12 +7585,12 @@
       "section": "other"
     }
   ],
-  "other_count": 438,
+  "other_count": 442,
   "vertical_counts": {
     "EooDB": 14,
     "CoDED": 6,
     "iLEAP": 1,
-    "Political_Economy": 26,
+    "Political_Economy": 27,
     "Jobs_Livelihood": 2,
     "Sustainability": 2
   },
