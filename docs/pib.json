@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-31T04:31:24Z",
-  "last_updated_ist": "31 Mar 2026, 10:01 AM IST",
-  "total": 493,
+  "last_updated": "2026-03-31T06:13:19Z",
+  "last_updated_ist": "31 Mar 2026, 11:43 AM IST",
+  "total": 499,
   "articles": [
     {
       "id": "cf4b96959a9cacb791109a6195950d83",
@@ -81,6 +81,96 @@
         "Political_Economy": 1
       },
       "section": "vertical"
+    },
+    {
+      "id": "45aa78b9ebd773a9fbd3c71509ebb4e8",
+      "title": "PMAY-G: Advancing Housing for All in Rural India",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247176",
+      "date": "2026-03-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "9d052ac360cef83d18ba29f5922e05f9",
+      "title": "Prime Minister condoles the demise of former Suriname President",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247168",
+      "date": "2026-03-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "076937325ff802e8fdfe8ca12ac31d78",
+      "title": "Prime Minister pays tribute to Srimad Sudhindra Tirtha Swamiji",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247167",
+      "date": "2026-03-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "fcedfeecdf3a2ae160e4756dc471c568",
+      "title": "Prime Minister shares Sanskrit Subhashitam, says there is wonderful inspiration in the messages of Lord Mahavira",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247166",
+      "date": "2026-03-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e1a66bdc5ac82cab40fab7839c2cf275",
+      "title": "Prime Minister extends greetings on Bhagwan MahavirJanma Kalyanak",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247165",
+      "date": "2026-03-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c3d05e0365e84cbf1d49d6a019836901",
+      "title": "Digital Push Deepens in Rural India: eGramSwaraj Records Over ₹3 Lakh Crores in Online Payments; SabhaSaar Expands to 23 Languages",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247156",
+      "date": "2026-03-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "980aa1203289957b931d669e397d316b",
@@ -7585,7 +7675,7 @@
       "section": "other"
     }
   ],
-  "other_count": 442,
+  "other_count": 448,
   "vertical_counts": {
     "EooDB": 14,
     "CoDED": 6,
