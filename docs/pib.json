@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-04-01T01:32:19Z",
-  "last_updated_ist": "01 Apr 2026, 07:02 AM IST",
+  "last_updated": "2026-04-01T04:43:00Z",
+  "last_updated_ist": "01 Apr 2026, 10:13 AM IST",
   "total": 500,
   "articles": [
+    {
+      "id": "afed742f46bb8bafb3b8c812d09cd959",
+      "title": "Regulatory reforms under Biological Diversity (Amendment) Act, 2023 lead to surge in IPR filings",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247439",
+      "date": "2026-04-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EooDB"
+      ],
+      "primary_vertical": "EooDB",
+      "relevance_score": 2,
+      "snippet": "",
+      "full_content": "A significant increase in Intellectual Property Rights (IPR) applications linked to India’s biological resources has been recorded by the National Biodiversity Authority (NBA), reflecting the growing convergence of biodiversity, research, innovation and industrial development. This upward trend is a direct outcome of the Biological Diversity (Amendment) Act, 2023, which has strengthened and clarified the regulatory framework governing access to biological resources and associated traditional knowledge.\nUnder the amended provisions, applicants covered under Section 7 of the Act are required to obtain a Certificate of Registration (CoR) from the NBA prior to seeking IPR, including patents, based on biological resources originating in India. This mandate has enhanced compliance, transparency and accountability within the IPR ecosystem, while ensuring that the utilisation of biological resources is aligned with national legislation and the principles of conservation and fair and equitable benefit sharing.\nThe amended framework has also streamlined procedures and introduced clearly defined approval pathways, resulting in a decisive shift towards a registration-based system. During the period from April 2024 to March 2025, around 857 IPR applications were received and 792 CoRs were issued for applications found to be in order. In the subsequent period, from April 2025 to March 2026, the office received 1,077 IPR applications and issued 885 CoRs, demonstrating an upward trend in filings and continued efforts towards the timely disposal of IPR-related NBA applications.\nThese applications were received across a wide spectrum of sectors, including biotechnology, pharmaceuticals, chemicals, food sciences, biochemistry, agrochemicals, polymer technology, microbiology, biomedical engineering, textiles and other science-based industries. This reflects the broad-based adoption and growing relevance of the streamlined regulatory mechanism across knowledge-driven sectors.\nBy mandating prior registration for IPR linked to biological resources and simplifying approval mechanisms, the Biological Diversity (Amendment) Act, 2023 is fostering a responsible innovation ecosystem – one that balances scientific advancement with conservation priorities and ensures fair and equitable benefit sharing with stakeholders. It has facilitated ease of doing research and business, while ensuring that individuals and entities accessing biological resources are brought within a robust and transparent regulatory ambit.",
+      "vertical_scores": {
+        "EooDB": 2
+      },
+      "section": "vertical"
+    },
     {
       "id": "cf4b96959a9cacb791109a6195950d83",
       "title": "Centre Releases Over Rs. 1,500 Crore as XV FC Grants to Strengthen Rural Local Governance in 6 States",
@@ -7661,26 +7680,11 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "1f759a1c4703221ce7ff6a23ae73c2bf",
-      "title": "Modi Government Accelerating Clean Energy Transition with Focus on Indigenous Capacities and Indigenous Technologies: Dr. Jitendra Singh",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246178",
-      "date": "2026-03-29",
-      "relative_time": "Today",
-      "region": "Bhopal",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 452,
+  "other_count": 451,
   "vertical_counts": {
-    "EooDB": 11,
+    "EooDB": 12,
     "CoDED": 6,
     "iLEAP": 1,
     "Political_Economy": 27,
