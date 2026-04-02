@@ -1,12 +1,27 @@
 {
-  "last_updated": "2026-04-02T01:22:47Z",
-  "last_updated_ist": "02 Apr 2026, 06:52 AM IST",
+  "last_updated": "2026-04-02T04:24:18Z",
+  "last_updated_ist": "02 Apr 2026, 09:54 AM IST",
   "total": 500,
   "articles": [
     {
       "id": "e08861ffc642b9b147b7b201b1e0442d",
       "title": "NESTS Commemorates 8th Foundation Day",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2248092",
+      "date": "2026-04-02",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "03376206745d6d95d5f4139388b20ec9",
+      "title": "In a targeted relief, Government grants full customs duty exemption on critical petrochemical products in view of ongoing conflict in West Asia",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2248110",
       "date": "2026-04-02",
       "relative_time": "Today",
       "region": "Delhi",
@@ -7667,35 +7682,14 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "9af8249e3e4d39a1eb932238a04e3e8e",
-      "title": "Artificial Intelligence integrated into eSankhyiki portal and AI enabled chatbot hosted on Ministry of Statistics and Programme Implementation revamped website to improve data discovery and to improve user interaction",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246850",
-      "date": "2026-03-30",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [
-        "CoDED",
-        "Political_Economy"
-      ],
-      "primary_vertical": "CoDED",
-      "relevance_score": 3,
-      "snippet": "",
-      "full_content": "The Ministry of Statistics and Programme Implementation (MoSPI) has undertaken several technological initiatives in recent years to modernise the National Sample Survey (NSS). Primary data collection in NSS surveys is carried out through digital platforms using Computer Assisted Personal Interview (CAPI) and web-based applications with in-built validation mechanisms to ensure data consistency at the stage of collection. These systems facilitate real-time submission and validation of survey data and have helped reduce the time required for processing and dissemination of survey results. The digital platforms provide bilingual (Hindi/English) interfaces for ease of data collection. In some surveys such as Forward-Looking Survey on Private Corporate Sector CAPEX Investment Intentions (CAPEX), the Annual Survey of Industries (ASI) and the Annual Survey of Unincorporated Sector Enterprises (ASUSE), chatbot-based features have also been introduced in the CAPI/web portal to assist respondents and field officials in resolving queries during data collection. The collected data are further examined by supervisory officers at different levels and the survey process is monitored through digital systems.\nUnder the earlier paper-based data collection system, filled-in schedules had to be physically transported and subsequently digitised before processing, which added to the overall processing time. The adoption of digital data collection platforms enables near real-time submission and validation of survey data, thereby streamlining data processing and analysis. As a result, the time lag in release of Annual Reports of NSS surveys has been reduced from around eight months earlier to about three months after completion of fieldwork. In addition to this, the monthly and quarterly reports of NSS surveys, wherever applicable, are released within 15 days and 40 days, respectively, from the end of the corresponding survey period.\nMoSPI publishes an Advance Release Calendar (ARC) on its official website indicating the tentative schedule for release of major statistical reports and publications, including those based on surveys conducted under the National Sample Survey. The ARC provides advance information to users regarding the likely dates of release of various reports.\nMoSPI is leveraging Artificial Intelligence (AI) to enhance accessibility, searchability, and usability of reports, datasets, and publications released by MoSPI to the stakeholders. AI is being integrated into eSankhyiki portal and AI enabled chatbot has been hosted on MoSPI revamped website to improve data discovery and to improve user interaction. However, no specific timeline has been fixed for full implementation of AI-enabled tools.\nThis information was given by the Minister of State (Independent Charge) of the Ministry of Statistics and Programme Implementation, Minister of State (Independent Charge) of the Ministry of Planning and Minister of State in the Ministry of Culture Rao Inderjit Singh",
-      "vertical_scores": {
-        "CoDED": 2,
-        "Political_Economy": 1
-      },
-      "section": "vertical"
     }
   ],
-  "other_count": 454,
+  "other_count": 455,
   "vertical_counts": {
     "EooDB": 12,
-    "CoDED": 6,
+    "CoDED": 5,
     "iLEAP": 1,
-    "Political_Economy": 24,
+    "Political_Economy": 23,
     "Jobs_Livelihood": 2,
     "Sustainability": 2
   },
