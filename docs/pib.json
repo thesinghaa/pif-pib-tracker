@@ -1,8 +1,61 @@
 {
-  "last_updated": "2026-04-02T23:28:35Z",
-  "last_updated_ist": "03 Apr 2026, 04:58 AM IST",
+  "last_updated": "2026-04-03T01:25:14Z",
+  "last_updated_ist": "03 Apr 2026, 06:55 AM IST",
   "total": 500,
   "articles": [
+    {
+      "id": "ae5adfbec8363b68ca322bbfd001a37e",
+      "title": "C-DAC Key to India’s Technology Leadership in Critical Domains: Shri S. Krishnan, Secretary, MeitY",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2241213",
+      "date": "2026-04-03",
+      "relative_time": "Today",
+      "region": "Hyderabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "1667654e8e34447612e449cc48971e66",
+      "title": "National Vaccination Day: HPV Vaccine is Safe and Can Prevent Nearly 90% of Cervical Cancer, Says Dr. Chandini",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2240844",
+      "date": "2026-04-03",
+      "relative_time": "Today",
+      "region": "Hyderabad",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 4,
+      "snippet": "",
+      "full_content": "PIB Hyderabad Organises ‘VARTA’ Awareness Programme to Educate Girls on HPV Vaccination\nThe Press Information Bureau (PIB), Hyderabad, organised a ‘VARTA’ awareness programme on the occasion of National Vaccination Day to educate girls about the importance of the Human Papillomavirus (HPV) vaccine in preventing cervical cancer.\nThe session was held at the Government School in Musheerabad, focusing on encouraging girls aged 14–15 years to get vaccinated. The programme was conducted as part of the ongoing national HPV vaccination campaign, launched on February 28 for a duration of 90 days, aimed at protecting adolescent girls from cervical cancer. A dramatised presentation was also organised to create awareness about the HPV vaccine.\nHighlighting the importance of vaccination in preventing cervical cancer, Additional Director General (ADG) of PIB, Smt. Shruthi Patil, said that the Prime Minister has launched the HPV vaccination campaign to ensure that every 14-year-old girl receives the vaccine free of cost as a preventive measure against cervical cancer, with the goal of building a healthier India. She urged students to get vaccinated and encouraged them to spread awareness about the vaccine among their parents, friends, and peer groups.\nAddressing common misconceptions about the HPV vaccine, Dr. Chandini, Senior Medical Officer, Central Health Services, said, “There are misconceptions that the HPV vaccine affects pregnancy or menstrual cycles in women. However, these claims are not true. The HPV vaccine is safe and can prevent nearly 90 percent of cervical cancer, which is the second most common cancer among women in India. The vaccine can also help prevent oral and anal cancers.”\nTeachers and girl students from the Government School in Musheerabad, along with staff members from PIB and the Central Bureau of Communication (CBC), attended the awareness programme.",
+      "vertical_scores": {
+        "iLEAP": 4
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "062e563946ed928a1d7238849c31657d",
+      "title": "Hon’ble Prime Minister Shri Narendra Modi Releases 22nd Instalment of PM KISAN Samman Nidhi; Madras Fertilizers Limited Facilitates Live Screenings Across Telangana",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2240040",
+      "date": "2026-04-03",
+      "relative_time": "Today",
+      "region": "Hyderabad",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 1,
+      "snippet": "",
+      "full_content": "Hon’ble PM transfers ₹18,640 crore to 9.32 crore farmers\n- Total amount disbursed under PM KISAN surpasses ₹4.09 lakh crore\n- Live screenings held at 10 locations in Telangana\nHon’ble Prime Minister Shri Narendra Modi today transferred the 22nd instalment of the PM KISAN SAMMAN NIDHI. A total of more than ₹18,640 crore was disbursed directly into the bank accounts of over 9.32 crore farmers across the nation.\nWith this latest instalment, the total amount transferred directly to farmers under this scheme has surpassed ₹4.09 lakh crore, reinforcing the government's commitment to the financial security of the farming community.\nLocalized Awareness and Screenings\nTo ensure the farming community in Telangana remained informed and connected to this national event, Madras Fertilizers Limited (MFL), under the direction of the Manager Marketing (Telangana State), organized live-streaming sessions across 10 key locations in the region.\nThe primary event at Rythu Vedika, Miryalaguda, was attended by key officials from the Department of Agriculture, Telangana State, including:\nShri Dheeravath Saida Naik, Mandal Agriculture Officer & Incharge Assistant Director of Agriculture\nMd Shafi, Agriculture Extension Officer (AEO)\nKM Afrin, M Ramesh, D. Jyothi, S. Gopi, and K. Ramesh (AEOs)\nShri Mudireddy Narsireddy, Former Councillor\nLocal farmers, including Shri Jonnalagadda Mohan Reddy, Shri Vijay, and Shri Kappala Shankar, participated in the event, expressing their appreciation for the direct financial support provided by the PM KISAN scheme.\nActive Screening Locations in Telangana:\nMiryalaguda: Sri Srinivasa Seeds and Pesticide | Vishwamitra Agro Chemicals | Rythu Vedika | Sri Sai Maheshwara Fert\nChinthapally: Veeramanikanda Fertilizers\nKondrapole: Rythumithra Fertilizers and Seed | Rythu Kendra\nDhamarchella: Rhythrumithra Seeds\nHalya: Shri Gayatri Fertilizers\nBhongir: Ranga Chandrasekar\nThe national event was broadcast live from the Jyoti-Bishnu International Cultural Center in Guwahati, Assam, where the Prime Minister addressed the nation on the future of sustainable and technology-driven agriculture.",
+      "vertical_scores": {
+        "Political_Economy": 1
+      },
+      "section": "vertical"
+    },
     {
       "id": "e08861ffc642b9b147b7b201b1e0442d",
       "title": "NESTS Commemorates 8th Foundation Day",
@@ -7605,59 +7658,14 @@
         "EooDB": 2
       },
       "section": "vertical"
-    },
-    {
-      "id": "c00d43c0ea40e432245e4e96c3679f20",
-      "title": "India’s HIV Fight Goes District by District: Suraksha Sankalp Karyashala held in Vijayawada",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2241808",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Hyderabad",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "84272c49bfc69d7cb8fe28ccd11241b8",
-      "title": "PIB Hyderabad Hosts ‘VARTALAP’ Workshop on Gender Issues, AI in Journalism at Sangareddy",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2241347",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Hyderabad",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "45db42598dfcb5439aaea4d3366d80ce",
-      "title": "Department of Posts Launches Three New Postal Services with Guaranteed 24-Hour, 48-Hour Delivery in Six Metro Cities, including Hyderabad",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2241220",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Hyderabad",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 463,
+  "other_count": 461,
   "vertical_counts": {
     "EooDB": 11,
     "CoDED": 5,
-    "iLEAP": 0,
-    "Political_Economy": 18,
+    "iLEAP": 1,
+    "Political_Economy": 19,
     "Jobs_Livelihood": 2,
     "Sustainability": 1
   },
