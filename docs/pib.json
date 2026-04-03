@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-03T09:46:58Z",
-  "last_updated_ist": "03 Apr 2026, 03:16 PM IST",
+  "last_updated": "2026-04-03T10:38:07Z",
+  "last_updated_ist": "03 Apr 2026, 04:08 PM IST",
   "total": 500,
   "articles": [
     {
@@ -337,6 +337,55 @@
       "date": "2026-04-03",
       "relative_time": "Today",
       "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "76336df46083b180fe9322426c0a9c40",
+      "title": "Indian Navy’s latest stealth frigate ‘INS Taragiri’ commissioned in Visakhapatnam",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2248799",
+      "date": "2026-04-03",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "29f2505ee076e55b7a864dd8e4214a34",
+      "title": "Swachhata Pakhwada, 2026 organised by Department of Legal Affairs with enthusiastic participation from officers and staff, reinforcing the spirit of collective responsibility towards maintaining cleanliness in workplaces and beyond",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2248797",
+      "date": "2026-04-03",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 1,
+      "snippet": "",
+      "full_content": "As part of the ongoing Swachhata Pakhwada 2026 , the Department of Legal Affairs, Ministry of Law & Justice, organized a series of activities to promote cleanliness, hygiene, and public awareness among officers and staff.\nThe observance commenced with a Mass Swachhata Pledge and rendition of the Swachhata Bharat Anthem at the Conference Room in Shastri Bhawan, reaffirming the commitment of participants towards the vision of a clean and healthy India. Dr. Rajiv Mani, Secretary, Department of Legal Affairs, administered the pledge to officers and staff members of the Department on 02.04.2026.\nA Signature Campaign was conducted at office premises and thereby encouraging employees and visitors to actively support the Swachhata initiative and driving the quintessential message of Swachh Bharat Abhiyan .\nTo foster greater engagement and awareness, a Selfie Booth was set up at the same locations, enabling participants to share their support for cleanliness drives through creative expressions.\nAdditionally, a Rangoli Activity was also organized showcasing artistic representations of cleanliness and environmental consciousness.\nThese activities witnessed enthusiastic participation from officers and staff, reinforcing the spirit of collective responsibility towards maintaining cleanliness in workplaces and beyond.\nThe Department of Legal Affairs remains committed to furthering the objectives of Swachh Bharat Abhiyan through sustained awareness and active participation.",
+      "vertical_scores": {
+        "Political_Economy": 1
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "4e3065ccbb95e5597302b5b73c66ec17",
+      "title": "North Gujarat Region headed by Postmaster General Krishna Kumar Yadav earned National Recognition in ‘General Insurance Super Dhurandhar’ Campaign by India Post Payments Bank",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2248798",
+      "date": "2026-04-03",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -7613,59 +7662,14 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "fd9d81d815a6d6a9186f98ffd48156ca",
-      "title": "Government Notifies Extension of RoSCTL Scheme for Apparel and Made-ups Exports",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247851",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "156754ae17ca00f34e39a4bfa49e8b31",
-      "title": "Allocation of Urea to cooperative societies through KRIBHCO and IFFCO",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247849",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "454679ff9f383ee0522c5a55b5e92b92",
-      "title": "MoU BETWEEN SAHAKAR TAXI AND DELHI POLICE",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247844",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 461,
+  "other_count": 460,
   "vertical_counts": {
     "EooDB": 11,
     "CoDED": 5,
     "iLEAP": 1,
-    "Political_Economy": 19,
+    "Political_Economy": 20,
     "Jobs_Livelihood": 2,
     "Sustainability": 1
   },
