@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-03T06:09:22Z",
-  "last_updated_ist": "03 Apr 2026, 11:39 AM IST",
+  "last_updated": "2026-04-03T07:59:17Z",
+  "last_updated_ist": "03 Apr 2026, 01:29 PM IST",
   "total": 500,
   "articles": [
     {
@@ -284,6 +284,21 @@
         "EooDB": 2
       },
       "section": "vertical"
+    },
+    {
+      "id": "70464cf00d441b4df65c63287d8c19d3",
+      "title": "General Elections and bye-elections 2026: Paid Holiday on Polling Day",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2248749",
+      "date": "2026-04-03",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "e08861ffc642b9b147b7b201b1e0442d",
@@ -7633,21 +7648,6 @@
       "id": "0b6219a716720fd922b47cd064dae506",
       "title": "Progress under the ‘Sahkar Se Samriddhi’ initiative in Bihar",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247832",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "d69bdaa63de791138ae0faaa122a7cdf",
-      "title": "LAUNCH AND OPERATIONAL FRAMEWORK OF BHARAT TAXI",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247824",
       "date": "2026-04-01",
       "relative_time": "Today",
       "region": "Delhi",
