@@ -1,8 +1,23 @@
 {
-  "last_updated": "2026-04-04T04:10:49Z",
-  "last_updated_ist": "04 Apr 2026, 09:40 AM IST",
+  "last_updated": "2026-04-04T05:53:04Z",
+  "last_updated_ist": "04 Apr 2026, 11:23 AM IST",
   "total": 500,
   "articles": [
+    {
+      "id": "eb6c872e9e2665a7fe4b76df1324d9b1",
+      "title": "Yuva Sangam",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2248923",
+      "date": "2026-04-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "ae5adfbec8363b68ca322bbfd001a37e",
       "title": "C-DAC Key to India’s Technology Leadership in Critical Domains: Shri S. Krishnan, Secretary, MeitY",
@@ -7643,21 +7658,6 @@
         "Jobs_Livelihood": 1
       },
       "section": "vertical"
-    },
-    {
-      "id": "9151878b192e49d1da083717509d6838",
-      "title": "MOU WITH PRIVATE COMPANIES",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247757",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
   "other_count": 461,
