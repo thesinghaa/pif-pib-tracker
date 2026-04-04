@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-04T16:26:38Z",
-  "last_updated_ist": "04 Apr 2026, 09:56 PM IST",
+  "last_updated": "2026-04-04T17:24:37Z",
+  "last_updated_ist": "04 Apr 2026, 10:54 PM IST",
   "total": 500,
   "articles": [
     {
@@ -997,6 +997,36 @@
       "date": "2026-04-04",
       "relative_time": "Today",
       "region": "Shillong",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "9c98996a5d15608fce1e63396a17a9e2",
+      "title": "Ministry of Social Justice & Empowerment posts highest-ever expenditure in FY 2025-26",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249066",
+      "date": "2026-04-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "47debb13e36e1fb705dcf6062eda728d",
+      "title": "Shri Shaktikanta Das Visits World Skill Center, Reviews Advanced Training Infrastructure",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249060",
+      "date": "2026-04-04",
+      "relative_time": "Today",
+      "region": "Bhubaneswar",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -7612,46 +7642,12 @@
         "CoDED": 2
       },
       "section": "vertical"
-    },
-    {
-      "id": "d81b55762027cdf1c3f70665ade3b623",
-      "title": "Ministry of Statistics and Programme Implementation develops India SDG Dashboard in partnership with United Nations Resident Coordinator Office which serves as a centralized data platform for monitoring SDG indicators",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247698",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [
-        "CoDED"
-      ],
-      "primary_vertical": "CoDED",
-      "relevance_score": 2,
-      "snippet": "",
-      "full_content": "The Ministry of Statistics and Programme Implementation (MoSPI), Government of India, regularly releases publications on social and environmental indicators. The details of these publications released over the last five years are given in Annexure .\nMoSPI maintains a centralized digital mechanism for public access to its statistical publications. All aforesaid reports and publications are made available on the official MoSPI website ( www.mospi.gov.in ), where they can be accessed by researchers, policymakers and the general public.\nFurther, MoSPI has developed, the India SDG Dashboard, in partnership with the United Nations Resident Coordinator Office (UNRCO), which serves as a centralized data platform for monitoring SDG indicators aligned with the National Indicator Framework.\nThese publications provide variety of social and environment statistics at one place and serve as vital source for policymakers and stakeholders. The statistics are primarily based on secondary data sourced from various Ministries and Departments. It acts as an evidence-based guide for strategic planning and policymaking. It is widely utilized by researchers and analysts for conducting research study in these sectors.\nFurther, MoSPI has constituted various Expert Group Committees on Environment Statistics, Gender Statistics and ad hoc publications, comprising representatives from Ministries, Departments and research organisations, to periodically review these publications and enhance their coverage, quality and relevance through continuous consultations.\nMoSPI has taken several steps to improve dissemination, accessibility and public awareness of its statistical reports among researchers, policymakers and the general public. To facilitate ease of data dissemination and management, the e-Sankhyiki portal has been launched, offering time-series data on key macroeconomic indicators. The Advance Release Calendar (ARC) of statistical products is also made available on the Ministry’s website ( www.mospi.gov.in ) to ensure timely and transparent dissemination of information. In addition, MoSPI conducts regular dialogues and consultations with data users and stakeholders to incorporate their feedback and to enhance their understanding and effective use of the published data.\nName of publications/ Reports released\n• EnviStats India: Environment Statistics\n• EnviStats India: Environment Accounts\n• Sustainable Development Goals (SDG)- National Indicator Framework (NIF) Progress Report\n• SDG- National Indicator Framework\n• Data Snapshot on SDG-NIF\n• Women and Men in India\n• Elderly in India\n• EnviStats India: Environment Statistics\n• EnviStats India: Environment Accounts\n• Sustainable Development Goals (SDG)- National Indicator Framework (NIF) Progress Report\n• SDG- National Indicator Framework\n• Data Snapshot on SDG-NIF\n• Women and Men in India\n• EnviStats India: Environment Statistics\n• EnviStats India: Environment Accounts\n• Sustainable Development Goals (SDG)- National Indicator",
-      "vertical_scores": {
-        "CoDED": 2
-      },
-      "section": "vertical"
-    },
-    {
-      "id": "7bcc36303e546596ace470bf66b402c5",
-      "title": "Connectivity and Development in the North East Region",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247696",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 464,
+  "other_count": 465,
   "vertical_counts": {
     "EooDB": 9,
-    "CoDED": 5,
+    "CoDED": 4,
     "iLEAP": 1,
     "Political_Economy": 19,
     "Jobs_Livelihood": 1,
