@@ -1,12 +1,27 @@
 {
-  "last_updated": "2026-04-04T05:53:04Z",
-  "last_updated_ist": "04 Apr 2026, 11:23 AM IST",
+  "last_updated": "2026-04-04T06:51:11Z",
+  "last_updated_ist": "04 Apr 2026, 12:21 PM IST",
   "total": 500,
   "articles": [
     {
       "id": "eb6c872e9e2665a7fe4b76df1324d9b1",
       "title": "Yuva Sangam",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2248923",
+      "date": "2026-04-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e365d5fbe56fbd0e36ccb59cb91e7981",
+      "title": "Jan Vishwas (Amendment of Provisions) Bill, 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2248925",
       "date": "2026-04-04",
       "relative_time": "Today",
       "region": "Delhi",
@@ -7639,34 +7654,15 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "2e7e605b80467defc914802d654ca16a",
-      "title": "NSQF-ALIGNED QUALIFICATIONS",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247756",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [
-        "Jobs_Livelihood"
-      ],
-      "primary_vertical": "Jobs_Livelihood",
-      "relevance_score": 1,
-      "snippet": "",
-      "full_content": "Under the Government of India’s Skill India Mission (SIM), the Ministry of Skill Development and Entrepreneurship (MSDE) delivers skill, re-skill and up-skill training through an extensive network of skill development centres/institutes under various schemes, viz. Pradhan Mantri Kaushal Vikas Yojana (PMKVY), Jan Shikshan Sansthan (JSS), National Apprenticeship Promotion Scheme (NAPS) and Craftsman Training Scheme (CTS) through Industrial Training Institutes (ITIs), to all the sections of the society across the country. The SIM aims at enabling youth of India to get future-ready, equipped with industry-relevant skills.\nA total of eight (08) National Skill Qualification Framework (NSQF) aligned qualifications have been developed in the Orange Economy domain for digital content creation in emerging areas such as AI-enabled design and generative AI, following the notification of the National Programme on Artificial Intelligence (NPAI) Skilling Framework. These qualifications have been designed as short-duration, credit-linked micro-credentials to support industry-relevant skilling and facilitate progression within the NSQF ecosystem.\nNational Occupational Standard (NOS)/Micro-Credential (MC) defines measurable workplace competencies, knowledge and skills delivered through focused, flexible learning units for upskilling, reskilling, cross-sectoral skilling and meeting specific industry needs, starting from 7.5 hours duration.\nAlso, appropriate provisions under the National Credit Framework (NCrF) have been made such that credits accumulated by the candidates undergoing skilling in NOS / MC are stored in the Academic Bank of Credit (ABC), and the same may be utilized for pursuing higher-level educational or skill courses.\nThe NCrF enables creditisation, accumulation, transfer and recognition of learning across school education, higher education, vocational education and training. The NCrF was notified by the University Grants Commission (UGC) in April 2023 and subsequently adopted and notified by the National Council for Vocational Education and Training (NCVET) on 12th May 2023 for implementation within the vocational education and skilling ecosystem.\nFurther, the Skill India Digital Hub (SIDH) has improved access to skilling opportunities by providing a unified digital interface for course discovery, enrolment, assessment and certification. Through integration with multiple Central Ministries, State Governments and national digital systems, the platform enables seamless, secure and verified access to skill development programmes across regions and languages. Transparency and credibility in assessment and certification have been strengthened through the issuance of digitally verifiable credentials and secure digital records. The platform has witnessed increasing adoption by candidates and training providers, thereby supporting large-scale delivery of skilling, certification and job-matching services in an efficient, transparent and accountable manner,",
-      "vertical_scores": {
-        "Jobs_Livelihood": 1
-      },
-      "section": "vertical"
     }
   ],
-  "other_count": 461,
+  "other_count": 462,
   "vertical_counts": {
     "EooDB": 11,
     "CoDED": 5,
     "iLEAP": 1,
     "Political_Economy": 19,
-    "Jobs_Livelihood": 2,
+    "Jobs_Livelihood": 1,
     "Sustainability": 1
   },
   "regions_scraped": 26,
