@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-04T08:33:02Z",
-  "last_updated_ist": "04 Apr 2026, 02:03 PM IST",
+  "last_updated": "2026-04-04T09:30:46Z",
+  "last_updated_ist": "04 Apr 2026, 03:00 PM IST",
   "total": 500,
   "articles": [
     {
@@ -85,6 +85,21 @@
       "date": "2026-04-04",
       "relative_time": "Today",
       "region": "Bhubaneswar",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "138fe940b0869e277107ea781f672aee",
+      "title": "Dr. Jitendra Singh inaugurates BioNEST at \"Central Food Technology & Research Institute\" (CFTRI) Mysuru, Focus on Food Startups",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2248931",
+      "date": "2026-04-04",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -7629,21 +7644,6 @@
       "id": "3e0a94466d84054f5d0c070393de4ff9",
       "title": "Impactful AI solutions being promoted and developed under IndiaAI Mission to address major societal challenges, including in healthcare",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247769",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "13270319776b82b6d5fc8ded15af1b1d",
-      "title": "SAFETY AND WELFARE OF SANITATION WORKERS",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247765",
       "date": "2026-04-01",
       "relative_time": "Today",
       "region": "Delhi",
