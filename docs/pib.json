@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-05T12:38:12Z",
-  "last_updated_ist": "05 Apr 2026, 06:08 PM IST",
+  "last_updated": "2026-04-05T13:49:00Z",
+  "last_updated_ist": "05 Apr 2026, 07:19 PM IST",
   "total": 500,
   "articles": [
     {
@@ -494,6 +494,55 @@
       "date": "2026-04-05",
       "relative_time": "Today",
       "region": "Gangtok",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "4819cd2bc75636b7f4c77488215280d9",
+      "title": "Bharat Tribes Fest 2026 Concludes with Grand Closing Ceremony; Top Tribal Artisans and Sellers Felicitated",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249178",
+      "date": "2026-04-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 1,
+      "snippet": "",
+      "full_content": "Over 1.50 Lakh Footfall and Record Sales Highlight Rising Demand for Tribal Products and Empowerment\nBharat Tribes Fest 2026, a flagship initiative of the Ministry of Tribal Affairs organised in association with TRIFED, concluded today with a grand closing ceremony at Sunder Nursery, New Delhi, marking the culmination of a 19-day celebration of tribal culture, craftsmanship, and enterprise.\nThe closing ceremony witnessed the felicitation of top-performing tribal artisans and sellers across ten categories—Pottery, Cane & Bamboo, Jewellery, Cuisines, Gifts & Assortments, Metal, Naturals, Paintings, Textiles, and Van Dhan Vikas Kendras (VDVKs). The awards were presented by Shri M. Rajamurugan, IPS, Managing Director, TRIFED, and Shri Anant Prakash Pandey, Joint Secretary, Ministry of Tribal Affairs, in the presence of dignitaries and stakeholders.\nThe festival served as a comprehensive platform for tribal artisans, self-help groups, Van Dhan Vikas Kendras, and entrepreneurs from across the country, facilitating direct market access and promoting sustainable livelihoods.\nKey highlights of the festival included:\n· Over 200 stalls showcasing tribal handicrafts, handlooms, and natural products\n· Participation of more than 300 tribal artisans and craftspersons\n· Representation from over 75 Van Dhan Vikas Kendras\n· 17 live craft demonstrations\n· 30+ tribal food stalls with participation of over 120 tribal chefs\nVisitors experienced a vibrant display of tribal art, textiles, jewellery, forest-based products, and authentic cuisines. Major attractions included the RISA Pavilion promoting contemporary tribal design, the BTF Bazaar enabling market linkages, and an expansive tribal food court.\nA key highlight of the festival was the launch of the RISA brand on March 18, 2026, marking a significant step towards positioning tribal craftsmanship in contemporary and global markets. The initiative, launched by Union Minister for Tribal Affairs Shri Jual Oram and Minister of State for Women & Child Development Smt. Savitri Thakur, reflects the Government’s commitment to promoting tribal enterprise through design innovation, sustainability, and enhanced market access.\nThe festival also hosted the Bharat Tribes Business Conclave, CSR Conclave, and Van Dhan Conclave, which brought together policymakers, industry leaders, corporates, and community stakeholders to deliberate on issues such as market access, branding, innovation, and sustainable livelihoods.\nThe event witnessed an overwhelming public response, attracting over 1.50 lakh visitors and generating multi-crore sales, reflecting the growing appreciation and demand for tribal products.\nSpeaking on the occasion, Shri Anant Prakash Pandey stated that “Bharat Tribes Fest serves as an important platform for integrating tribal products with mainstream markets while preserving rich cultural heritage.”\nShri M. Rajamurugan noted that “the success of the festival reflects the growing strength of tribal enterprise, providin",
+      "vertical_scores": {
+        "Political_Economy": 1
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "20c349d3dc9ac3be3fe9c76d12e036b2",
+      "title": "Rich tributes were paid to Babu Jagjivan Ram on his 119th birth anniversary",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249173",
+      "date": "2026-04-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "6ce0941e3311034ea5b514d840356734",
+      "title": "INDIAN NAVAL SHIP TRIKAND CALLS AT DAR-ES-SALAAM, TANZANIA",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249175",
+      "date": "2026-04-05",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -7593,59 +7642,14 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "211f91866c93299830c7a1032c81bfda",
-      "title": "PRESIDENT OF INDIA GRACES 119TH BIRTHDAY CELEBRATIONS AND GURUVANDANA MAHOTSAVA OF DR SREE SREE SIVAKUMARA MAHASWAMIJI",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247585",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "c81b408294bb9d62c1827dd2299a9eaf",
-      "title": "Vice President releases book ‘Tides of Time: Bharat’s History through Murals in Parliament’ authored by MP Smt. Sudha Murty",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247574",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "15a3ff0eca95fa13e4a9419d50fab7dc",
-      "title": "Ministry of Women and Child Development is nodal Ministry for administration of Juvenile Justice Act, 2015",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247568",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 466,
+  "other_count": 465,
   "vertical_counts": {
     "EooDB": 9,
     "CoDED": 3,
     "iLEAP": 1,
-    "Political_Economy": 19,
+    "Political_Economy": 20,
     "Jobs_Livelihood": 1,
     "Sustainability": 1
   },
