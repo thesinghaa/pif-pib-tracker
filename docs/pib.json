@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-05T14:30:03Z",
-  "last_updated_ist": "05 Apr 2026, 08:00 PM IST",
+  "last_updated": "2026-04-05T15:25:23Z",
+  "last_updated_ist": "05 Apr 2026, 08:55 PM IST",
   "total": 500,
   "articles": [
     {
@@ -543,6 +543,21 @@
       "date": "2026-04-05",
       "relative_time": "Today",
       "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "b326dbde3896007f4e08b229f7ea9826",
+      "title": "Indian Oil Corporation Limited Enhances Auto LPG Supplies Amid Increased Demand in Karnataka",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249185",
+      "date": "2026-04-05",
+      "relative_time": "Today",
+      "region": "Bengaluru",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -7617,21 +7632,6 @@
       "id": "0f40ac8a6b7071d55f3b3f31d96370d6",
       "title": "UNIVERSAL EMRS COVERAGE",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247593",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "9ba4dafe72a3f95b83633e2634293905",
-      "title": "EQUITABLE ACCESS TO EMRS IN TRIBAL-DOMINATED AREAS",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247592",
       "date": "2026-04-01",
       "relative_time": "Today",
       "region": "Delhi",
