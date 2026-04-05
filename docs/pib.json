@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-05T10:26:10Z",
-  "last_updated_ist": "05 Apr 2026, 03:56 PM IST",
+  "last_updated": "2026-04-05T11:23:59Z",
+  "last_updated_ist": "05 Apr 2026, 04:53 PM IST",
   "total": 500,
   "articles": [
     {
@@ -411,6 +411,36 @@
         "EooDB": 2
       },
       "section": "vertical"
+    },
+    {
+      "id": "e69569062bba8724d0ef233f9aa766fd",
+      "title": "Electronics Components Manufacturing Scheme",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2222634",
+      "date": "2026-04-05",
+      "relative_time": "Today",
+      "region": "Lucknow",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "0ed13800e3d1b3aa07563ba3cff1ae03",
+      "title": "Silk Expo 2026 & Pandit Deendayal Upadhyay Resham Ratna Puraskar Samaroh Inaugurated in Lucknow",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2222622",
+      "date": "2026-04-05",
+      "relative_time": "Today",
+      "region": "Lucknow",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "eb6c872e9e2665a7fe4b76df1324d9b1",
@@ -7598,36 +7628,6 @@
       "id": "47026387658f11718e03e75232c299b0",
       "title": "Sexual Harassment Electronic Box (SHe-Box) Portal — a digital governance initiative for effective implementation of Sexual Harassment of Women at Workplace Act, 2013",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247562",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "ebbd0bef98d90bd668623c062eddcae5",
-      "title": "Near real time data collection for Anganwadi Services facilitated through ‘Poshan Tracker’ digital application",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247561",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "a5c27dbf961c663fccb8df72ddcae6b3",
-      "title": "Chhattisgarh Model Sets a New Direction for Women Empowerment: Raksha Khadse",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247552",
       "date": "2026-04-01",
       "relative_time": "Today",
       "region": "Delhi",
