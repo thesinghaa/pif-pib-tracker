@@ -1,8 +1,38 @@
 {
-  "last_updated": "2026-04-05T01:28:47Z",
-  "last_updated_ist": "05 Apr 2026, 06:58 AM IST",
+  "last_updated": "2026-04-05T04:31:43Z",
+  "last_updated_ist": "05 Apr 2026, 10:01 AM IST",
   "total": 500,
   "articles": [
+    {
+      "id": "bb449606a64674f95ebe0ebba5dad7b9",
+      "title": "Prime Minister pays tribute to Babu Jagjivan Ram on his Birth Anniversary",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249078",
+      "date": "2026-04-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "39eacbc11fcd41ed65dcb10a3ff1e76d",
+      "title": "Prime Minister extends Easter Greetings",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249077",
+      "date": "2026-04-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "eb6c872e9e2665a7fe4b76df1324d9b1",
       "title": "Yuva Sangam",
@@ -7608,46 +7638,12 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "64869f30fb759281d07a50457bf4cc02",
-      "title": "Scientists decode genetic basis of seed-lessness in grapes",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247707",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "19d818514fcb9cc72aa7cae9f8c03eec",
-      "title": "Digitalisation and technological upgradation relates to data collection, processing, analysis and dissemination undertaken for improvement of Official Statistical System by Ministry of Statistics and Programme Implementation",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247700",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [
-        "CoDED"
-      ],
-      "primary_vertical": "CoDED",
-      "relevance_score": 2,
-      "snippet": "",
-      "full_content": "Digitalisation and technological upgradation consisting of various modules related to data collection, processing, analysis and dissemination have been undertaken for improvement of the Official Statistical System by the Ministry. Further, Data Innovation Lab component under Capacity Developm ent Scheme has been launched for incorporating emerging technologies including Artiﬁcial Intelligence (AI) and Machine Learning (ML) in Official statistical systems. Six use cases of AI & ML have been deployed. Through these intiatives, the access to Official statistics has been made seamless for the stakeholders. The data dissemination, in machine readable format through API, has reduced the timeline between publication and access of data.\nSecurity by design principles have been incorporated at the development stage. All the guidelines issued by National Informatics Centre (NIC) and Indian Computer Emergency Response Team (CERT-In) on cyber security are being implemented. Moreover, MoSPI has onboarded an agency for ensuring compliance with the cyber security guidelines by different users. Ministry has also appointed Chief Information Security Officer (CISO) for the purpose. All the applications are deployed after security audit and Secure Sockets Layer (SSL) certification.\nTechnological reforms are continuous in nature and are made part of annual action plan on need basis. The expected outcomes of these reforms would be improvements in data collection, validation, processing and dissemination.\nThis information was given by the Minister of State (Independent Charge) of the Ministry of Statistics and Programme Implementation, Minister of State (Independent Charge) of the Ministry of Planning and Minister of State in the Ministry of Culture Rao Inderjit Singh in the Lok Sabha today.",
-      "vertical_scores": {
-        "CoDED": 2
-      },
-      "section": "vertical"
     }
   ],
-  "other_count": 465,
+  "other_count": 466,
   "vertical_counts": {
     "EooDB": 9,
-    "CoDED": 4,
+    "CoDED": 3,
     "iLEAP": 1,
     "Political_Economy": 19,
     "Jobs_Livelihood": 1,
