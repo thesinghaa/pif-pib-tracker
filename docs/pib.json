@@ -1,8 +1,23 @@
 {
-  "last_updated": "2026-04-06T04:39:07Z",
-  "last_updated_ist": "06 Apr 2026, 10:09 AM IST",
+  "last_updated": "2026-04-06T06:27:46Z",
+  "last_updated_ist": "06 Apr 2026, 11:57 AM IST",
   "total": 500,
   "articles": [
+    {
+      "id": "5a2f194856cfe8fad3c1e5205f4631bc",
+      "title": "Domestic LPG sales remain Normal in Arunachal Pradesh like rest of the Country",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249216",
+      "date": "2026-04-06",
+      "relative_time": "Today",
+      "region": "Itanagar",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "bb449606a64674f95ebe0ebba5dad7b9",
       "title": "Prime Minister pays tribute to Babu Jagjivan Ram on his Birth Anniversary",
@@ -7617,21 +7632,6 @@
       "id": "78eead817a7181b07761e70d8e4e303a",
       "title": "ASSESSMENT OF REQUIREMENT FOR ADDITIONAL EMRS",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247594",
-      "date": "2026-04-01",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "0f40ac8a6b7071d55f3b3f31d96370d6",
-      "title": "UNIVERSAL EMRS COVERAGE",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247593",
       "date": "2026-04-01",
       "relative_time": "Today",
       "region": "Delhi",
