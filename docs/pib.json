@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-09T21:41:22Z",
-  "last_updated_ist": "10 Apr 2026, 03:11 AM IST",
+  "last_updated": "2026-04-09T22:35:07Z",
+  "last_updated_ist": "10 Apr 2026, 04:05 AM IST",
   "total": 500,
   "articles": [
     {
@@ -2019,6 +2019,36 @@
         "CoDED": 1
       },
       "section": "vertical"
+    },
+    {
+      "id": "150e837b8eadcfd7dbbf69d41dbf42d8",
+      "title": "EXCAVATION AND CONSERVATION ACTIVITIES IN NALANDA",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246846",
+      "date": "2026-04-09",
+      "relative_time": "Today",
+      "region": "Patna",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "1246562373210b503891b580d6419980",
+      "title": "Bhilai Steel Plant Achieves Historic Milestone, Surpasses 6 Million Tonnes of Hot Metal Production",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247001",
+      "date": "2026-04-09",
+      "relative_time": "Today",
+      "region": "Raipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "5d45fd4933d2c0f36f50ef02a4c5e505",
@@ -7641,36 +7671,6 @@
       "date": "2026-04-06",
       "relative_time": "Today",
       "region": "Lucknow",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "eea0b79bd7e5e7ad7e42392fcf35df01",
-      "title": "IIT Jodhpur Develops Next-Generation Bio-Bricks and Agro-Plastic Blocks",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2248032",
-      "date": "2026-04-06",
-      "relative_time": "Today",
-      "region": "Jaipur",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "e5c72da4c899f9a52476d0e52ed91893",
-      "title": "DOORDARSHAN SERVICES IN BHAGALPUR",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247957",
-      "date": "2026-04-06",
-      "relative_time": "Today",
-      "region": "Patna",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
