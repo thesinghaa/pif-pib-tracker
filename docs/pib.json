@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-09T20:56:34Z",
-  "last_updated_ist": "10 Apr 2026, 02:26 AM IST",
+  "last_updated": "2026-04-09T21:41:22Z",
+  "last_updated_ist": "10 Apr 2026, 03:11 AM IST",
   "total": 500,
   "articles": [
     {
@@ -1985,6 +1985,40 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "83b59c6d28a95afb2e128cc94b72e33f",
+      "title": "Indigenous Knowledge Key to Tackling Climate Change, Says Chhattisgarh Tribal Affairs Minister at Global Conference",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246991",
+      "date": "2026-04-09",
+      "relative_time": "Today",
+      "region": "Raipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "b903d0c24cb96b0d07e809799347b355",
+      "title": "NSO Launches Nationwide Survey on Functional Cooperatives; Training Camp Held in Raipur",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246988",
+      "date": "2026-04-09",
+      "relative_time": "Today",
+      "region": "Raipur",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 1,
+      "snippet": "",
+      "full_content": "In a significant step towards bridging critical data gaps in the cooperative sector, the National Statistics Office (NSO) has initiated preparations for the nationwide *Rapid Survey of Functional Cooperatives (RSFC), scheduled to commence from April 1, 2026.\nThe cooperative sector remains a key pillar of India’s economy, contributing substantially to agricultural production, rural development, employment generation and social empowerment. However, the absence of comprehensive and reliable data on output value and employment has long constrained policy planning. The upcoming survey aims to address these gaps by systematically assessing the economic and employment contributions of functional cooperatives across the country.\nThe survey will be conducted by the *National Sample Survey (NSS) under the NSO, drawing its sampling framework from the National Cooperatives Database maintained by the Ministry of Cooperation. It will cover a six-month period and consider two reference financial years 2020–21 and 2023–24 to capture comparative operational and economic characteristics of cooperatives, along with employment details.\nTo ensure effective implementation, the Regional Office of the NSO’s Field Operations Division in Raipur organized a one-day Regional Training Camp on Monday. The programme was inaugurated by Mr. Altaf Hussain Haji, Deputy Director General, NSO, who underscored the importance of coordinated efforts between state cooperative authorities and NSO field officials for the success of the survey.\nHighlighting the survey’s significance, Mr. Haji emphasized the need for seamless collaboration with the offices of the State Registrar of Cooperative Societies and District Registrars, who will play a vital role in identifying functional cooperatives and facilitating field operations. He also called upon NSO officials to strengthen institutional linkages with state authorities during the survey process.\nMs. Agarwal Sachita Rakesh, Deputy Director and Head of Office, NSO Raipur, welcomed participants and elaborated on the objectives of the training camp. She noted that the survey would cover primary cooperative societies across 30 sectors, focusing on capturing detailed operational and employment-related data.\nSenior officials from the cooperative department, including representatives from Korba and Raipur districts, participated in the training programme and assured full cooperation in executing the survey.\nThe session concluded with a vote of thanks delivered by Mr. Niranjan Kumar Patel, Senior Statistical Officer, NSO Raipur.\nThe RSFC is expected to provide crucial insights into the functioning and economic impact of cooperatives, thereby strengthening evidence-based policymaking in the sector.",
+      "vertical_scores": {
+        "CoDED": 1
+      },
+      "section": "vertical"
     },
     {
       "id": "5d45fd4933d2c0f36f50ef02a4c5e505",
@@ -7644,42 +7678,12 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "150e837b8eadcfd7dbbf69d41dbf42d8",
-      "title": "EXCAVATION AND CONSERVATION ACTIVITIES IN NALANDA",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246846",
-      "date": "2026-04-06",
-      "relative_time": "Today",
-      "region": "Patna",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "1246562373210b503891b580d6419980",
-      "title": "Bhilai Steel Plant Achieves Historic Milestone, Surpasses 6 Million Tonnes of Hot Metal Production",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2247001",
-      "date": "2026-04-06",
-      "relative_time": "Today",
-      "region": "Raipur",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 457,
+  "other_count": 456,
   "vertical_counts": {
     "EooDB": 8,
-    "CoDED": 3,
+    "CoDED": 4,
     "iLEAP": 2,
     "Political_Economy": 27,
     "Jobs_Livelihood": 2,
