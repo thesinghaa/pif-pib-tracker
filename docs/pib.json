@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-10T17:43:53Z",
-  "last_updated_ist": "10 Apr 2026, 11:13 PM IST",
+  "last_updated": "2026-04-10T18:42:22Z",
+  "last_updated_ist": "11 Apr 2026, 12:12 AM IST",
   "total": 500,
   "articles": [
     {
@@ -2332,6 +2332,21 @@
       "date": "2026-04-10",
       "relative_time": "Today",
       "region": "Ranchi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "847bea99a951bc40b42fb3e29e2ec0b2",
+      "title": "Doon Book Festival To Turn Dehradun Into A Literary Hub With 300+ Book Stalls From April 4 To 12",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2248518",
+      "date": "2026-04-10",
+      "relative_time": "Today",
+      "region": "Dehradun",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -7681,21 +7696,6 @@
       "id": "bf6d2ed4531c94c38369c1a7dd5466cf",
       "title": "Bhilai Steel Plant Conducts Large Group Interaction on LOTO and Energy Isolation Practices",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2245711",
-      "date": "2026-04-07",
-      "relative_time": "Today",
-      "region": "Raipur",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "3a50d329ff79a48606564db377e9887d",
-      "title": "I have unfinished business at Asian Games,” says Tokyo Olympics silver medallist Mirabai Chanu at KITG opening",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2245654",
       "date": "2026-04-07",
       "relative_time": "Today",
       "region": "Raipur",
