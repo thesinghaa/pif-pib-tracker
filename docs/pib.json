@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-11T17:26:27Z",
-  "last_updated_ist": "11 Apr 2026, 10:56 PM IST",
+  "last_updated": "2026-04-11T18:32:45Z",
+  "last_updated_ist": "12 Apr 2026, 12:02 AM IST",
   "total": 500,
   "articles": [
     {
@@ -1013,6 +1013,21 @@
       "id": "97398212326af6a073993b8498dcb998",
       "title": "Government of India Launches Nationwide Two-Year Commemoration of the 200th Birth Anniversary of Mahatma Jyotiba Phule from 11th April 2026 to 11th April 2028",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251208",
+      "date": "2026-04-11",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e5453b86d87b656220c2ac28679da96b",
+      "title": "Prime Minister condoles loss of lives in a mishap in Katihar, Bihar",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251213",
       "date": "2026-04-11",
       "relative_time": "Today",
       "region": "Delhi",
@@ -7668,21 +7683,6 @@
       "date": "2026-04-07",
       "relative_time": "Today",
       "region": "Chennai",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "553dd4d1b6beb8493a62107454f71d22",
-      "title": "NHRC, India organised a meeting of the Core Group on Right to Food and Nutrition on the theme 'Tackling Food Adulteration in India: Understanding the Scale, Challenges and Reforms'",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249651",
-      "date": "2026-04-07",
-      "relative_time": "Today",
-      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
