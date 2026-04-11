@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-11T04:15:37Z",
-  "last_updated_ist": "11 Apr 2026, 09:45 AM IST",
+  "last_updated": "2026-04-11T05:56:48Z",
+  "last_updated_ist": "11 Apr 2026, 11:26 AM IST",
   "total": 500,
   "articles": [
     {
@@ -55,6 +55,51 @@
       "date": "2026-04-11",
       "relative_time": "Today",
       "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "eb63aba8960a3c0a6d127d04d170bc06",
+      "title": "CARI Bengaluru Becomes First CCRAS Institute to Achieve ISO 15189:2022 Accreditation in Biochemistry & Haematology",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251075",
+      "date": "2026-04-11",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "350740e53050acdf8d8c565f0bc4e2b2",
+      "title": "Sagarmala: Transforming India’s Maritime Landscape",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251071",
+      "date": "2026-04-11",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "6b61ea8e0ab0722be21ac1051c98a881",
+      "title": "Record sales and production propel SAIL’s strongest-ever performance in FY 2025-26",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2248520",
+      "date": "2026-04-11",
+      "relative_time": "Today",
+      "region": "Raipur",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -7657,63 +7702,14 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "36009d63ceea8d394159b26fcad22bee",
-      "title": "Airport Customs Commissionerate, Chennai Destroys Smuggled Contraband Worth Rs. 4.1 Crores at Gummidipoondi",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249770",
-      "date": "2026-04-07",
-      "relative_time": "Today",
-      "region": "Chennai",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "20a392391522906fa08f9a5ed1766861",
-      "title": "Nationwide Digital Life Certificate Campaign 3.0",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2074808",
-      "date": "2026-04-07",
-      "relative_time": "Today",
-      "region": "Ranchi",
-      "verticals": [
-        "Political_Economy"
-      ],
-      "primary_vertical": "Political_Economy",
-      "relevance_score": 1,
-      "snippet": "",
-      "full_content": "Jamshedpur: Like every year, the Department of Pension & Pensioners' Welfare (DoPPW) has launched the Nationwide Digital Life Certificate (DLC) Campaign 3.0 this year also from 1st to 30th November 2024. The campaign spans 800 cities/districts across India, embodying a “Whole of Government” approach by bringing multiple stakeholders together.\nTo enhance the “Ease of Living” for Central Government pensioners, DLC submission using Face Authentication was introduced in 2021. This technology allows pensioners to submit life certificates using any Android smartphone thereby reducing the need for external biometric devices and making the process more accessible and affordable.\nThe 2022 campaign generated over 1.41 crore DLCs, with 42 lakh submissions from Central Government pensioners. The 2023 campaign, conducted at 100 locations, resulted in over 1.47 crore DLCs, with 45 lakh from Central Government pensioners.\nThis year’s campaign has been organized in collaboration with Banks, India Post Payments Bank, Pensioners' Associations, UIDAI, MeitY, Ministry of Defence, Ministry of Railways and DoT, aims to ensure that pensioners, especially super seniors and incapacitated individuals, can easily submit their life certificates. Camps have been set up nationwide and officials equipped with smartphones have assisted pensioners in branches of Banks and Post offices. Special provisions were made to include home visits for bed-ridden pensioners.\nThe campaign has been promoted through social media and on-site banners, and progress are being closely monitored to ensure maximum participation.\nIn this connection, camps were held at Jamshedpur, Jharkhand today at different locations by Central Bank of India at Jamshedpur main branch and by India Post Payments Bank at Bistupur PO, CBI Sonari and CBI Jugsalai branch. Shri Vishal Kumar, Under Secretary from DoPPW visited various locations today on 19.11.2024 and generated DLCs for the pensioners and educated them about the process. The Pensioners’ Welfare Associations also participated in the campaign. Wide publicity was given to these camps and all efforts were put in place to make the Camps a grand success.",
-      "vertical_scores": {
-        "Political_Economy": 1
-      },
-      "section": "vertical"
-    },
-    {
-      "id": "cd55c56b2ac7c968509abcf55b5c71b8",
-      "title": "AIIMS Raipur, Sri Sathya Sai Health and Education Trust Ink MoU to Boost Academic Collaboration in Healthcare",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2248525",
-      "date": "2026-04-07",
-      "relative_time": "Today",
-      "region": "Raipur",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 449,
+  "other_count": 450,
   "vertical_counts": {
     "EooDB": 9,
     "CoDED": 5,
     "iLEAP": 2,
-    "Political_Economy": 32,
+    "Political_Economy": 31,
     "Jobs_Livelihood": 2,
     "Sustainability": 1
   },
