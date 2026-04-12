@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-12T21:27:09Z",
-  "last_updated_ist": "13 Apr 2026, 02:57 AM IST",
+  "last_updated": "2026-04-12T22:26:30Z",
+  "last_updated_ist": "13 Apr 2026, 03:56 AM IST",
   "total": 500,
   "articles": [
     {
@@ -1325,6 +1325,21 @@
       "id": "28d42ad6a8f2a545de0013161a3c4eab",
       "title": "Press Clarification / Rebuttal",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2250182",
+      "date": "2026-04-12",
+      "relative_time": "Today",
+      "region": "Raipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "a88457033956e662ce3aeeaee5a87e37",
+      "title": "Bhilai Steel Plant Hands Over CSR Assets to Ghughsidih Panchayat, Reinforces Rural Development Push",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2250195",
       "date": "2026-04-12",
       "relative_time": "Today",
       "region": "Raipur",
@@ -7668,21 +7683,6 @@
       "date": "2026-04-08",
       "relative_time": "Today",
       "region": "Mumbai",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "4bfcb7260f535e60fc9313dafda867a7",
-      "title": "AIIMS Jodhpur Becomes Only Hospital in Rajasthan and Second AIIMS in the Country to Offer Advanced Surgery for Rare Laughing Epilepsy",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2248177",
-      "date": "2026-04-08",
-      "relative_time": "Today",
-      "region": "Jaipur",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
