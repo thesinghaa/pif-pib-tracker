@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-12T08:00:18Z",
-  "last_updated_ist": "12 Apr 2026, 01:30 PM IST",
+  "last_updated": "2026-04-12T08:46:46Z",
+  "last_updated_ist": "12 Apr 2026, 02:16 PM IST",
   "total": 500,
   "articles": [
     {
@@ -81,6 +81,36 @@
         "Political_Economy": 1
       },
       "section": "vertical"
+    },
+    {
+      "id": "cd8f97248b6606ba6d3ab3c3bd5d982d",
+      "title": "INS TRIKAND CONCLUDES PORT CALL AT MOMBASA, KENYA",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251251",
+      "date": "2026-04-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "0663e4042a38252bf04423f23b35954c",
+      "title": "Bhopal Cycles Toward Fitness: SAI CRC and MY Bharat Host Weekly “Sundays on Cycle”",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251249",
+      "date": "2026-04-12",
+      "relative_time": "Today",
+      "region": "Bhopal",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "982a1fd591af71ebb91955b3567c27e1",
@@ -7660,52 +7690,18 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "0026113739f92bddae32eb00efc8fa72",
-      "title": "EPFO’s DR EO/AO Batch 2025 Commences NLU Phase of Induction Training at GNLU, Gandhinagar",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249575",
-      "date": "2026-04-07",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "f01a69a890b666f449de76eaa358f6f2",
-      "title": "Prime Minister shares an article highlighting the vision for women-led governance",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249573",
-      "date": "2026-04-07",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [
-        "Political_Economy"
-      ],
-      "primary_vertical": "Political_Economy",
-      "relevance_score": 1,
-      "snippet": "",
-      "full_content": "Prime Minister Shri Narendra Modi today shared an article authored by the Union Minister for Women and Child Development, Smt. Annpurna Devi, which outlines the roadmap for greater women-led governance in India.\nThe Prime Minister wrote on X:\n\"Representation must translate into real influence. The government has always prioritised Nari Shakti in every form, hence, with the Nari Shakti Vandan Adhiniyam laying the foundation, India is moving towards greater women-led governance. This is also a key pillar of a Viksit Bharat!\nUnion Minister Smt. @Annapurna4BJP’s article outlines the roadmap ahead. Give it a read.\"\nRepresentation must translate into real influence. The government has always prioritised Nari Shakti in every form, hence, with the Nari Shakti Vandan Adhiniyam laying the foundation, India is moving towards greater women-led governance. This is also a key pillar of a Viksit… https://t.co/B7VX8WlW8G",
-      "vertical_scores": {
-        "Political_Economy": 1
-      },
-      "section": "vertical"
     }
   ],
-  "other_count": 452,
+  "other_count": 453,
   "vertical_counts": {
     "EooDB": 6,
     "CoDED": 5,
     "iLEAP": 2,
-    "Political_Economy": 32,
+    "Political_Economy": 31,
     "Jobs_Livelihood": 2,
     "Sustainability": 1
   },
-  "regions_scraped": 24,
+  "regions_scraped": 25,
   "verticals": {
     "EooDB": {
       "label": "Ease of Doing Business & Manufacturing",
