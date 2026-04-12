@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-12T06:21:57Z",
-  "last_updated_ist": "12 Apr 2026, 11:51 AM IST",
+  "last_updated": "2026-04-12T08:00:18Z",
+  "last_updated_ist": "12 Apr 2026, 01:30 PM IST",
   "total": 500,
   "articles": [
     {
@@ -47,6 +47,40 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "e44c02f589eb370192423eae8ecbfd3b",
+      "title": "Vice President inaugurates conference on transformation of tribal lives through science and technology in New Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251242",
+      "date": "2026-04-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e209dbab178e419901003f57154b3d8c",
+      "title": "Dr. Mansukh Mandaviya Leads 69th Fit India Sundays on Cycle; Calls for Mass Participation in Fit India Movement to Build a Developed Nation",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251241",
+      "date": "2026-04-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 1,
+      "snippet": "",
+      "full_content": "Union Sports Minister cycles alongside 1000 participants as Sundays on Cycle reaches 28 Lakh people since December 2024 start Commonwealth Games medalist boxer Pinki Jangra hails India hosting 2030 Games\nNew Delhi, April 12: Emphasising the critical role of fitness in nation-building, Union Minister of Youth Affairs & Sports, Dr. Mansukh Mandaviya today urged citizens to join the Fit India movement and adopt active lifestyles to realise the vision of a developed India, while leading the 69th edition of Fit India Sundays on Cycle at Jawaharlal Nehru Stadium.\nDr. Mandaviya said \"Sunday on Cycle, has become a nationwide movement. Inspired by Prime Minister Modi, the youth of the country has become more aware about fitness. Prime Minister Modi has given the message of Fit India. This is not just a message, but a necessity for Viksit Bharat.”\nOutlining the importance of fitness, Dr. Mandaviya said that if India is to become a developed nation, the fitness of its citizens, especially the youth, is the bedrock.\n“A healthy citizen builds a healthy society, and a healthy society makes a nation developed. I urge every citizen, particularly the youth of this country, to join the Sunday on Cycle movement and spread the message of Fit India,” he added.\nThe Hon’ble Minister also underscored the integration of sustainability with fitness through the Fit India App, which allows citizens to earn carbon credits by cycling.\nThis initiative is aimed at promoting eco-friendly mobility while rewarding healthy lifestyles. The accrued carbon credit can be redeemed for purchasing products and soon the leader board of cycling will also be materially incentivised.\nWith high-decibel music, synchronized Zumba routines, yoga mats spread across activity zones, and cycles lined up in anticipation, the venue transformed into a lively fitness arena early in the morning.\nThere were yoga demonstrations, tug of war events, rope-skipping activities, recreational game zones, photo booths and various interactive fitness engagements. Participants from across age groups — celebrities, students, professionals, athletes and families — gathered in large numbers.\nCommonwealth Games 2014 bronze medalist boxer Pinki Jangra was also felicitated alongside fitness influencers Dinesh Shetty, a muay thai martial artist and winner of India’s Ultimate Warrior, and Sonia Sisodia, a social activist.\nA ‘nukkad natak’ was also organised by the Raahgiri Foundation on the theme of “State Youth Leaders”, who were the special partners for this edition of the Fit India Sundays on Cycle. This activity added a socially engaging dimension, blending fitness with awareness and community messaging.\nThe State Youth Leaders were also part of the My Bharat initiative of Government of India; My Bharat being the permanent partner of Fit India, taking the movement forward through contribution of young volunteers.\nA special yoga consultation booth, supported by Ministry of AYUSH under its Yoga 365 initiative, saw particip",
+      "vertical_scores": {
+        "Political_Economy": 1
+      },
+      "section": "vertical"
     },
     {
       "id": "982a1fd591af71ebb91955b3567c27e1",
@@ -7660,44 +7694,14 @@
         "Political_Economy": 1
       },
       "section": "vertical"
-    },
-    {
-      "id": "787d55724d9e3bc6c2a67b2e7824a1a0",
-      "title": "Union Home Minister and Minister of Cooperation, Shri Amit Shah, commends Saraswat Cooperative Bank and Amul for crossing ₹1 lakh crore annual turnover in 2025–26",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249564",
-      "date": "2026-04-07",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "3604c55a8a9c75285343798e3051fadf",
-      "title": "Prime Minister congratulates Mr. To Lam on his election as the President of the Socialist Republic of Vietnam",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249563",
-      "date": "2026-04-07",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 453,
+  "other_count": 452,
   "vertical_counts": {
     "EooDB": 6,
     "CoDED": 5,
     "iLEAP": 2,
-    "Political_Economy": 31,
+    "Political_Economy": 32,
     "Jobs_Livelihood": 2,
     "Sustainability": 1
   },
