@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-12T10:33:03Z",
-  "last_updated_ist": "12 Apr 2026, 04:03 PM IST",
+  "last_updated": "2026-04-12T11:30:13Z",
+  "last_updated_ist": "12 Apr 2026, 05:00 PM IST",
   "total": 500,
   "articles": [
     {
@@ -186,6 +186,55 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "ab3e774f8b32130476bc484d2b1f6ff0",
+      "title": "Updates on Key Sectors in View of Developments in West Asia",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251291",
+      "date": "2026-04-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "a021ed4a4d797fe97859d990c781d995",
+      "title": "PM to address ‘Nari Shakti Vandan Sammelan’ on 13th April",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251287",
+      "date": "2026-04-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "7e05e950ae754da77720ad09b3585018",
+      "title": "Ministry of Mines Organises Roadshow on Critical Mineral Blocks and Exploration Licence Blocks in Hyderabad",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251292",
+      "date": "2026-04-12",
+      "relative_time": "Today",
+      "region": "Hyderabad",
+      "verticals": [
+        "EooDB"
+      ],
+      "primary_vertical": "EooDB",
+      "relevance_score": 2,
+      "snippet": "",
+      "full_content": "The Ministry of Mines, Government of India, is organising a roadshow on the 7th Tranche of Auction of Critical and Strategic Mineral Blocks and the 2nd Tranche of Exploration Licence (EL) Blocks on 13th April 2026 at Hyderabad International Convention Centre (HICC), Gachibowli, Hyderabad.\nThe roadshow is being graced by the Union Minister for Coal and Mines, Shri G. Kishan Reddy, along with senior officials of the Ministry of Mines, representatives from State Governments, industry stakeholders, and prospective bidders.\nThe 7th tranche comprises 19 critical and strategic mineral blocks, including minerals such as tungsten, lithium, tin and rock phosphate, which are vital for sectors like clean energy, advanced technologies and fertilisers. With six tranches already conducted, 46 critical mineral blocks have been successfully auctioned so far, reflecting the Government’s continued efforts to strengthen mineral security and reduce import dependence.\nThe event also highlights the 2nd Tranche of Exploration Licence (EL) Blocks, aimed at enhancing private sector participation in exploration, particularly for deep-seated and critical minerals. The Exploration Licence regime provides a structured framework for reconnaissance and prospecting, thereby strengthening the exploration ecosystem in the country.\nThe roadshow includes detailed presentations on mineral potential, auction framework, policy reforms. An interactive session with stakeholders is also being held to address queries and facilitate wider participation.\nThis initiative is aligned with the Government’s vision of building a robust and self-reliant mineral sector, supporting the clean energy transition, and advancing the goals of Atmanirbhar Bharat.",
+      "vertical_scores": {
+        "EooDB": 2
+      },
+      "section": "vertical"
     },
     {
       "id": "982a1fd591af71ebb91955b3567c27e1",
@@ -7645,56 +7694,11 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "9f5dba185a76e2104778cda13b20517e",
-      "title": "Union Budget 2026–27: Strengthening India’s Textile Value Chain",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2222927",
-      "date": "2026-04-08",
-      "relative_time": "Today",
-      "region": "Kohima",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "4d419318fede21d194ffcb4bdef0b2d8",
-      "title": "Prime Minister Highlights the Power of Laughter for Health and Happiness sharing a Sanskrit Subhashitam",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2222926",
-      "date": "2026-04-08",
-      "relative_time": "Today",
-      "region": "Kohima",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "c59d510cd436347e4e571659fa4b60b7",
-      "title": "Inter-Media Publicity Coordination Committee IMPCC Meeting organised by PIB Shillong to enhance media coordination among government departments",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2246115",
-      "date": "2026-04-08",
-      "relative_time": "Today",
-      "region": "Shillong",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 453,
+  "other_count": 452,
   "vertical_counts": {
-    "EooDB": 6,
+    "EooDB": 7,
     "CoDED": 5,
     "iLEAP": 2,
     "Political_Economy": 31,
