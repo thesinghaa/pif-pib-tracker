@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-12T18:36:50Z",
-  "last_updated_ist": "13 Apr 2026, 12:06 AM IST",
+  "last_updated": "2026-04-12T19:35:43Z",
+  "last_updated_ist": "13 Apr 2026, 01:05 AM IST",
   "total": 500,
   "articles": [
     {
@@ -1283,6 +1283,21 @@
       "date": "2026-04-12",
       "relative_time": "Today",
       "region": "Agartala",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "8836824c81cff254e46acebd13f77f66",
+      "title": "CBI Arrests GST Superintendent and Inspector in a Bribery Case",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2250242",
+      "date": "2026-04-12",
+      "relative_time": "Today",
+      "region": "Chennai",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -7665,21 +7680,6 @@
       "id": "28d42ad6a8f2a545de0013161a3c4eab",
       "title": "Press Clarification / Rebuttal",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2250182",
-      "date": "2026-04-08",
-      "relative_time": "Today",
-      "region": "Raipur",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "3f5f16805dfae3eb18cf020a39fe833c",
-      "title": "AIIMS Raipur Shines at National Paediatric Emergency Medicine Meet, Wins Top Honours and National Recognition",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2250160",
       "date": "2026-04-08",
       "relative_time": "Today",
       "region": "Raipur",
