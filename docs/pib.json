@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-14T11:54:37Z",
-  "last_updated_ist": "14 Apr 2026, 05:24 PM IST",
+  "last_updated": "2026-04-14T13:05:20Z",
+  "last_updated_ist": "14 Apr 2026, 06:35 PM IST",
   "total": 500,
   "articles": [
     {
@@ -705,6 +705,85 @@
       "date": "2026-04-14",
       "relative_time": "Today",
       "region": "Dehradun",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "aadfeb0ceefe444f38295d39f34c330f",
+      "title": "Vice-President Delivers 2nd Dr. Ambedkar Memorial Lecture at Dr. Ambedkar International Centre, New Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251927",
+      "date": "2026-04-14",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "7679cec363fb8eeab644090ec65d5df2",
+      "title": "National Academy of Agricultural Sciences organizes a Brainstorming session to develop a roadmap for achieving Atmanirbharta in fertilizers",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251923",
+      "date": "2026-04-14",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 1,
+      "snippet": "",
+      "full_content": "Agricultural sector will play a pivotal role in this journey towards Atmanirbhar Bharat by 2047: Dr. M.L. Jat, Secretary DARE Reducing fertilizer import dependence is imperative; strengthening Soil Health Cards, balanced use, and farmer awareness key to sustainable agriculture: Dr. Jat\nThe National Academy of Agricultural Sciences (NAAS) today organized a Brainstorming session (BSS) to develop a roadmap for achieving Atmanirbharta (self-reliance) in fertilizers. Representatives from concerned Government departments, Academia, Fertilizer Industry and Farmers participated in the discussions, and opined unequivocally the necessity of Atmanirbharta in this critical sector.\nAfter the session, Secretary, Department of Agriculture Research and Education under Ministry of Agriculture and Farmers Welfare and DG, Indian Council of Agriculture Research and President, NAAS Dr. M.L. Jat addressed a press conference. In his address, he said that India has set a target of achieving Atmanirbhar Bharat by 2047, and the agricultural sector will play a pivotal role in this journey. While fertilizers were instrumental during the Green Revolution in boosting production, the current challenge lies in declining fertilizer use efficiency and their indiscriminate application.\nDr. Jat further added that with the country consuming nearly 33 million tonnes of fertilizers annually, a significant share of which is imported, reducing import dependency has become imperative. He said addressing this issue requires a comprehensive approach spanning short-term, medium-term, and long-term strategies. He said that the strengthening initiatives like the Soil Health Card scheme, promoting balanced and need-based fertilizer application, and enhancing awareness among farmers are important steps in this direction.\nDr.Jat informed that we must leverage modern technologies such as precision nutrient management, artificial intelligence, and sensor-based systems to optimize fertilizer use. Crop diversification towards pulses and oilseeds, recycling organic waste under the Waste-to-Wealth initiative, and increasing the use of biological sources will further contribute to reducing dependence on chemical fertilizers, he added.\nSpeaking about the brainstorming session, he informed that it was advised by the participants to adopt a multi-pronged strategy with short, medium and long-term R&D goals, and enabling policies to achieve the same. The roadmap should emphasize strengthening fertilizer research for development of smart alternate fertilizers, utilization of unexploited indigenous minerals (glauconite, phosphate rocks, mica, polyhalite…) and industrial by-products, increased use of biologicals, exploiting the potential of soil microbiome, improved composting techniques, crop breeding for enhanced NUE, good agricultural practices (GAP) involving precision nutrient management integrating fertilizers and organics, soil health restoration, crop diversification and residue recycling.\nIt was also ",
+      "vertical_scores": {
+        "Political_Economy": 1
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "c00d43c0ea40e432245e4e96c3679f20",
+      "title": "India’s HIV Fight Goes District by District: Suraksha Sankalp Karyashala held in Vijayawada",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2241808",
+      "date": "2026-04-14",
+      "relative_time": "Today",
+      "region": "Hyderabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "84272c49bfc69d7cb8fe28ccd11241b8",
+      "title": "PIB Hyderabad Hosts ‘VARTALAP’ Workshop on Gender Issues, AI in Journalism at Sangareddy",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2241347",
+      "date": "2026-04-14",
+      "relative_time": "Today",
+      "region": "Hyderabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c395d2abe2db6a33f4f2fca222407ae0",
+      "title": "BSNL Chennai Launches Auction for Exclusive BSNL Vanity Numbers",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251889",
+      "date": "2026-04-14",
+      "relative_time": "Today",
+      "region": "Chennai",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -7615,85 +7694,6 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "47b3b2bfbce904811a9b1ba4508569a7",
-      "title": "53rd Rajya Stariya Bal Vaigyanik Pradarshani 2025–26 Begins in Pune",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2250435",
-      "date": "2026-04-09",
-      "relative_time": "Today",
-      "region": "Mumbai",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "1c4c4f3d98e904659cc6230cfd355d08",
-      "title": "HPCL, BPCL and IOCL Assure Adequate Fuel Availability in Telangana; Public Urged to Avoid Panic Buying",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2245024",
-      "date": "2026-04-09",
-      "relative_time": "Today",
-      "region": "Hyderabad",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "d8407eb5825607f3798ed990ab16e77f",
-      "title": "NACO led deliberations bring focus on priority districts of Telangana under Mission AIDS Suraksha",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2245011",
-      "date": "2026-04-09",
-      "relative_time": "Today",
-      "region": "Hyderabad",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "45db42598dfcb5439aaea4d3366d80ce",
-      "title": "Department of Posts Launches Three New Postal Services with Guaranteed 24-Hour, 48-Hour Delivery in Six Metro Cities, including Hyderabad",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2241220",
-      "date": "2026-04-09",
-      "relative_time": "Today",
-      "region": "Hyderabad",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "7fabb4e7051e58bf3c92388390a3e8d9",
-      "title": "Principal Controller of Communication Accounts, Kolkata, to organise Pensioner Samvaad-cum-Digital Life Certificate Camp at Jadavpur Telephone Exchange",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2250429",
-      "date": "2026-04-09",
-      "relative_time": "Today",
-      "region": "Kolkata",
-      "verticals": [
-        "Political_Economy"
-      ],
-      "primary_vertical": "Political_Economy",
-      "relevance_score": 1,
-      "snippet": "",
-      "full_content": "Kolkata: 9th April 2026\nPrincipal Controller of Communication Accounts, Kolkata, Department of Telecommunications is going to organise Pensioner Samvaad cum Telecom Pensioners Jeevan Pramaan Camp at Jadavpur Telephone Exchange, Howrah on April 16, 2026.\nThe Pensioners/Family Pensioners whose Life Certificates have already expired or going to expire soon have been requested to attend the camp and avail facilities as per their convenience along with relevant documents (PPO Book, Aadhar Card, PAN Card etc.) for the spot verification of Life Certificate. The timing is from 10:00 a.m. onwards.\nFacilities available at Camp :\n· Training for submitting Digital Life Certificate through Jeevan Praman Application.\n· Training for usage of Jeevan Praman Face Authentication Application.\n· Submission of KYP Forms\n· Distribution of Pensioner’s ID Card\nThose pensioners who have already submitted their Life Certificates may not attend the camps.\n*********************",
-      "vertical_scores": {
-        "Political_Economy": 1
-      },
-      "section": "vertical"
     }
   ],
   "other_count": 452,
