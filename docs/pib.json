@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-14T18:00:23Z",
-  "last_updated_ist": "14 Apr 2026, 11:30 PM IST",
+  "last_updated": "2026-04-14T19:15:52Z",
+  "last_updated_ist": "15 Apr 2026, 12:45 AM IST",
   "total": 500,
   "articles": [
     {
@@ -1046,6 +1046,25 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "9ba59b25a9b8d6493840fe992d9b013c",
+      "title": "Pilot Plant for the Manufacture of Nd-Fe-B Rare Earth Permanent Magnets established at ARCI, Hyderabad",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2243076",
+      "date": "2026-04-14",
+      "relative_time": "Today",
+      "region": "Hyderabad",
+      "verticals": [
+        "EooDB"
+      ],
+      "primary_vertical": "EooDB",
+      "relevance_score": 2,
+      "snippet": "",
+      "full_content": "A Pilot Plant for the manufacture of Nd-Fe-B (Neodymium-Iron-Boron) rare earth permanent magnets established at the International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI), Hyderabad, an autonomous institution of the Department of Science and Technology (DST), Government of India.\nThe pilot-plant was inaugurated by Prof. Abhay Karandikar, Secretary, DST, with Dr. R. Vijay, Director, ARCI in the august presence of Prof. Ashutosh Sharma, Former Secretary DST and Chairman, Governing Council, ARCI; Dr. S. K. Jha, Former CMD, MIDHANI, Member-Technical Review Committee; Dr. Shivkumar Kalyanaraman, CEO, Anusandhan National Research Foundation (ANRF), several delegates with major participation from industries, national institutes and other stakeholders.\nThe facility established at ARCI adopts an end-to-end approach, covering the process from strip-cast alloy to finished sintered magnets, enabling the development of a robust and self-reliant manufacturing ecosystem.\nThe pilot plant marks a significant step towards achieving self-reliance in critical materials and strengthening India’s position in the global rare earth value chain. Nd-Fe-B magnets are essential components in electric vehicles, renewable energy systems, electronics, and advanced manufacturing technologies.\nWhile inaugurating the pilot plant Prof. Karandikar highlighted this pilot plant is an important step towards building strategic autonomy in critical materials, particularly in the context of global supply chain vulnerabilities and India’s growing demand in clean energy and advanced manufacturing sectors. “As we work towards Viksit Bharat 2047, addressing resource constraints and strengthening indigenous capabilities in critical technologies will be central to our development strategy. Initiatives like this help reduce dependence while enhancing resilience and competitiveness,” he added.\nProf. Karandikar said that we are building an enabling ecosystem—through institutional frameworks and mission-driven programs—to translate research into scalable innovation and we invite industry, startups and academia to partner in positioning India as a global leader in emerging technologies.\nRare earth magnet supply chains are currently highly concentrated globally, creating vulnerabilities for emerging economies. The establishment of indigenous capabilities across the value chain—from materials to magnet manufacturing—will enhance supply security, cost competitiveness, and technological leadership.\nThe pilot-scale plant will serve as a critical platform for technology validation and process optimization, industry collaboration and demonstration, scaling up indigenous innovations to commercial manufacturing and supporting deep-tech startups and private sector participation.\n“The transition from research to manufacturing is what makes this pilot plant truly significant. Its flexibility will enable continuous innovation, process optimization, and product development,” Prof. ",
+      "vertical_scores": {
+        "EooDB": 2
+      },
+      "section": "vertical"
     },
     {
       "id": "767653262a9061fdc35758d3aa765225",
@@ -7671,26 +7690,11 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "302418d1ddfee797110f294d4854b510",
-      "title": "Prime Minister shares a Sanskrit Subhashitam highlighting the importance of inner wisdom",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2250318",
-      "date": "2026-04-09",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 454,
+  "other_count": 453,
   "vertical_counts": {
-    "EooDB": 7,
+    "EooDB": 8,
     "CoDED": 5,
     "iLEAP": 1,
     "Political_Economy": 28,
