@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-15T15:01:37Z",
-  "last_updated_ist": "15 Apr 2026, 08:31 PM IST",
+  "last_updated": "2026-04-15T16:09:32Z",
+  "last_updated_ist": "15 Apr 2026, 09:39 PM IST",
   "total": 500,
   "articles": [
     {
@@ -1473,6 +1473,55 @@
       "date": "2026-04-15",
       "relative_time": "Today",
       "region": "Dehradun",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e59788563155dc0ab264ea5ce324c97a",
+      "title": "Ministry of Parliamentary Affairs Inaugurates Swachhata Pakhwada, 2026 Promoting the Spirit of Swachh Bharat",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2252367",
+      "date": "2026-04-15",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 2,
+      "snippet": "",
+      "full_content": "The Ministry of Parliamentary Affairs today inaugurated the Swachhata Pakhwada 2026, a day ahead of its scheduled launch due to busy schedule of on-going Parliament session. It is a fortnight-long cleanliness drive aimed at promoting the spirit of Swachh Bharat and fostering a clean and healthy work environment.\nOn this occasion, Shri Nikunja Bihari Dhal, Secretary, Ministry of Parliamentary Affairs, administered the Swachhata Pledge to all officers and officials of the Ministry. While addressing the Officers and staff on this special occasion, he emphasized to take necessary steps regarding efficient waste management and reduction in use of plastics in our daily life to protect the environment and to live a healthy life.\nA comprehensive action plan of the activities to be undertaken during the Swachhata Pakhwada has already been shared among the officers and staff of the Ministry to prepare concrete outcome framework. The Ministry remains committed to the ideals of Swachh Bharat Abhiyan and will continue to promote cleanliness and sustainability through regular initiatives and campaigns.",
+      "vertical_scores": {
+        "Sustainability": 2
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "141f9915dc5cb985ec03975e5f44dca9",
+      "title": "PRESIDENT OF INDIA GRACES THE VALEDICTION CEREMONY OF THE 78TH BATCH OF INDIAN REVENUE SERVICE (INCOME TAX) OFFICER TRAINEES",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2252359",
+      "date": "2026-04-15",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f5aa7ff802bc3c9ef3598a7f89327b09",
+      "title": "District-Level Camp on Depositor Education and Awareness Fund (DEA Fund) to be organized at Kolasib, Khawzawl & Siaha on 16.12.2025",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2204088",
+      "date": "2026-04-15",
+      "relative_time": "Today",
+      "region": "Mizoram",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -7639,61 +7688,16 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "03cbbc249af1807710a8aaa8c2eaefe8",
-      "title": "District Level Awareness Programme on the PM Vishwakarma Scheme held at Lawngtlai, Mizoram",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2219611",
-      "date": "2026-04-10",
-      "relative_time": "Today",
-      "region": "Mizoram",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "d4c8658e5985aac7c9ab42617780e90f",
-      "title": "District Level Awareness Programme on PM Vishwakarma Scheme held at the I&PR Conference Hall, Champhai",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2218145",
-      "date": "2026-04-10",
-      "relative_time": "Today",
-      "region": "Mizoram",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "9ab15ac6a996872622b0d2c5253de449",
-      "title": "District-Level Camp on Depositor Education and Awareness Fund (DEA Fund) to be organized at Lawngtlai on 19.12.2025",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2205274",
-      "date": "2026-04-10",
-      "relative_time": "Today",
-      "region": "Mizoram",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 455,
+  "other_count": 454,
   "vertical_counts": {
     "EooDB": 7,
     "CoDED": 8,
     "iLEAP": 1,
     "Political_Economy": 24,
     "Jobs_Livelihood": 4,
-    "Sustainability": 2
+    "Sustainability": 3
   },
   "regions_scraped": 25,
   "verticals": {
