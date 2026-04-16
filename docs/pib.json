@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-16T19:01:31Z",
-  "last_updated_ist": "17 Apr 2026, 12:31 AM IST",
+  "last_updated": "2026-04-16T20:02:28Z",
+  "last_updated_ist": "17 Apr 2026, 01:32 AM IST",
   "total": 500,
   "articles": [
     {
@@ -1662,6 +1662,25 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "20a392391522906fa08f9a5ed1766861",
+      "title": "Nationwide Digital Life Certificate Campaign 3.0",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2074808",
+      "date": "2026-04-16",
+      "relative_time": "Today",
+      "region": "Ranchi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 1,
+      "snippet": "",
+      "full_content": "Jamshedpur: Like every year, the Department of Pension & Pensioners' Welfare (DoPPW) has launched the Nationwide Digital Life Certificate (DLC) Campaign 3.0 this year also from 1st to 30th November 2024. The campaign spans 800 cities/districts across India, embodying a “Whole of Government” approach by bringing multiple stakeholders together.\nTo enhance the “Ease of Living” for Central Government pensioners, DLC submission using Face Authentication was introduced in 2021. This technology allows pensioners to submit life certificates using any Android smartphone thereby reducing the need for external biometric devices and making the process more accessible and affordable.\nThe 2022 campaign generated over 1.41 crore DLCs, with 42 lakh submissions from Central Government pensioners. The 2023 campaign, conducted at 100 locations, resulted in over 1.47 crore DLCs, with 45 lakh from Central Government pensioners.\nThis year’s campaign has been organized in collaboration with Banks, India Post Payments Bank, Pensioners' Associations, UIDAI, MeitY, Ministry of Defence, Ministry of Railways and DoT, aims to ensure that pensioners, especially super seniors and incapacitated individuals, can easily submit their life certificates. Camps have been set up nationwide and officials equipped with smartphones have assisted pensioners in branches of Banks and Post offices. Special provisions were made to include home visits for bed-ridden pensioners.\nThe campaign has been promoted through social media and on-site banners, and progress are being closely monitored to ensure maximum participation.\nIn this connection, camps were held at Jamshedpur, Jharkhand today at different locations by Central Bank of India at Jamshedpur main branch and by India Post Payments Bank at Bistupur PO, CBI Sonari and CBI Jugsalai branch. Shri Vishal Kumar, Under Secretary from DoPPW visited various locations today on 19.11.2024 and generated DLCs for the pensioners and educated them about the process. The Pensioners’ Welfare Associations also participated in the campaign. Wide publicity was given to these camps and all efforts were put in place to make the Camps a grand success.",
+      "vertical_scores": {
+        "Political_Economy": 1
+      },
+      "section": "vertical"
     },
     {
       "id": "68b1756579cc83ebd6715ac942377476",
@@ -7677,29 +7696,14 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "784a4527a5c62a73866aeab0960987b4",
-      "title": "From Queues to QR Codes: India’s Payment Revolution",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251058",
-      "date": "2026-04-11",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 453,
+  "other_count": 452,
   "vertical_counts": {
     "EooDB": 8,
     "CoDED": 8,
     "iLEAP": 1,
-    "Political_Economy": 24,
+    "Political_Economy": 25,
     "Jobs_Livelihood": 4,
     "Sustainability": 3
   },
