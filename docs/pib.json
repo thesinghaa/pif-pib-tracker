@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-18T18:36:09Z",
-  "last_updated_ist": "19 Apr 2026, 12:06 AM IST",
+  "last_updated": "2026-04-18T19:37:26Z",
+  "last_updated_ist": "19 Apr 2026, 01:07 AM IST",
   "total": 500,
   "articles": [
     {
@@ -1189,6 +1189,51 @@
       "date": "2026-04-18",
       "relative_time": "Today",
       "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "feb1b704af941fb5f6df323c3cdfd642",
+      "title": "Prime Minister condoles the passing of prolific writer, thinker and public intellectual, Shri Balbir Punj",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2253436",
+      "date": "2026-04-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "753ba2e2d74eac65c39de46a2f6a1450",
+      "title": "CBC organizes Special Outreach Programme on Nari Shakti & Viksit Bharat@2047 at Pachhunga University College",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2238407",
+      "date": "2026-04-18",
+      "relative_time": "Today",
+      "region": "Mizoram",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "2a768c24b36dfb47c2ead45adefba446",
+      "title": "A District Level Awareness Programme on the PM Vishwakarma Scheme held at the BDO Conference Hall, Ngopa, Saitual District",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2223091",
+      "date": "2026-04-18",
+      "relative_time": "Today",
+      "region": "Mizoram",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -7651,64 +7696,15 @@
         "EooDB": 2
       },
       "section": "vertical"
-    },
-    {
-      "id": "2c940d90c467c2405a186e6b62a799c2",
-      "title": "PMEGP Workshop by KVIC Reinforces Job Creation in Mizoram",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2232551",
-      "date": "2026-04-15",
-      "relative_time": "Today",
-      "region": "Mizoram",
-      "verticals": [
-        "Jobs_Livelihood"
-      ],
-      "primary_vertical": "Jobs_Livelihood",
-      "relevance_score": 3,
-      "snippet": "",
-      "full_content": "Khadi and Village Industries Commission, State Office Aizawl organised a State Level Workshop under the Prime Minister’s Employment Generation Programme at Aijal Club, Khatla today.Director, KVIC State Office Aizawl, Dr. Vineet Chaturvedi welcomed the participants and introduced the agenda of the workshop. He stated that the programme was organised with a focus on employment generation, adding that PMEGP aims to benefit unemployed youth in both rural and urban areas, with particular emphasis on promoting sustainable livelihoods in rural regions.\nAddressing the gathering, Souvik Deb, AD, RBI, Aizawl, highlighted the importance of credit support under the scheme. He informed that banks have been instructed to provide collateral-free loans up to ₹20 lakh to improve access to institutional finance and encourage entrepreneurship.The RBI official described PMEGP as a flagship programme designed to promote entrepreneurship at the grassroots level and address unemployment, particularly among rural youth. Under the scheme, financial assistance of up to ₹50 lakh is available for manufacturing units and up to ₹20 lakh for service sector enterprises.\nThe workshop also featured discussions on implementation challenges, banking support, and success stories of PMEGP units in the state. Stakeholders emphasised the need for stronger coordination to ensure wider benefits for eligible beneficiaries across Mizoram, particularly in rural areas.",
-      "vertical_scores": {
-        "Jobs_Livelihood": 3
-      },
-      "section": "vertical"
-    },
-    {
-      "id": "dfa66cb3046974a5cf153d1e53b32a92",
-      "title": "NPS Awareness Programme Held in Mizoram to Promote Retirement Planning and Financial Security",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2226774",
-      "date": "2026-04-15",
-      "relative_time": "Today",
-      "region": "Mizoram",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "0ceafcf36c2cdfd5acc6778afb0c00ab",
-      "title": "Bharat Rang Mahotsav 2026 Mizoram edition opens in Aizawl with Shakespeare and local storytelling brilliance",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2223588",
-      "date": "2026-04-15",
-      "relative_time": "Today",
-      "region": "Mizoram",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 451,
+  "other_count": 452,
   "vertical_counts": {
     "EooDB": 8,
     "CoDED": 6,
     "iLEAP": 0,
     "Political_Economy": 30,
-    "Jobs_Livelihood": 3,
+    "Jobs_Livelihood": 2,
     "Sustainability": 3
   },
   "regions_scraped": 28,
