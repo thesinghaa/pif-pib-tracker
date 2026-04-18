@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-18T13:58:30Z",
-  "last_updated_ist": "18 Apr 2026, 07:28 PM IST",
+  "last_updated": "2026-04-18T14:39:10Z",
+  "last_updated_ist": "18 Apr 2026, 08:09 PM IST",
   "total": 500,
   "articles": [
     {
@@ -866,6 +866,85 @@
       "date": "2026-04-18",
       "relative_time": "Today",
       "region": "Shillong",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "089af3a81fea6ce2d203c43d2f4088bb",
+      "title": "CAQM reviews enforcement actions across NCR; 162 inspections conducted",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2253354",
+      "date": "2026-04-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "68ec91130a1f38f8ffd571df9d676976",
+      "title": "'Radio and Artificial intelligence: AI is a tool, Not a Voice'- Akashvani Itaganar celebtrates World Radio Day 2026 highlighting Radio's enduring relevance and human connect",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2227864",
+      "date": "2026-04-18",
+      "relative_time": "Today",
+      "region": "Itanagar",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 1,
+      "snippet": "",
+      "full_content": "Akashvani Itanagar today celebrated World Radio Day 2026 with a thought-provoking programme highlighting the medium’s evolving role amid emerging technologies, its expanding scope in a rapidly changing content consumption landscape, and its continued relevance for future generations.\nThe event was graced by Dr. M. Nawaz Khan, Associate Professor, Department of Mass Communication, Rajiv Gandhi University, Dr. A.K. Mishra, State Liaison Officer, Directorate of Higher Education, Government of Arunachal Pradesh, Shri Utsav Parmar, Joint Director, RNU head, Akashvani Itanagar, Assistant Director, Cluster Head and Akashvani Itanagar Head of Office, Shri Ranjan Karmakar.\nAddressing the gathering as Chief Guest, Dr. Khan underscored the transformative potential of Artificial Intelligence in broadcasting. He said, “Artificial intelligence offers practical support in radio production, from audio enhancement, music generation, signal processing, automation, to improving overall production efficiency. Both paid and free tools are available, and if we wisely select a few effective ones, they can significantly enhance productivity. Artificial intelligence can help radio broadcasting by enhancing production—but it remains a tool, not a replacement for human creativity. The idea that AI will replace Radio Jockeys is a myth; it will never happen. Radio depends on the human voice and emotional connection.”\nGuest of Honour Dr. Mishra reflected on the enduring strength of radio as a medium of communication, information and entertainment.\nHe remarked, “Radio has been a powerful tool, empowering even those who were not literate to gain knowledge and stay informed. Today, it connects people emotionally, provides critical information during disasters, and strengthens democratic dialogue through platforms like Akashvani. In the future, you as stakeholders will continue sharing knowledge, entertaining, and informing communities across Arunachal Pradesh, the nation, and the world.”\nJoint Director and Regional News Unit (RNU) head of Akashvani, Itanagar, Shri Utsav Parmar highlighted the important role radio plays in informing, entertaining and educating the people of Arunachal Pradesh. \"We produce daily news in 11 local dialects apart from news bulletins in Hindi and English. This in itself speaks volumes about the listener sphere of radio.\"\nSpeaking about the relevance of radio even in today's world, Assistant Director, Cluster Head and Akashvani Itanagar Head of Office, Shri Ranjan Karmakar, said, \"Many new technologies came and became irrelevant but radio stood the test of time.\"\nAdding a vibrant local flavour to the celebration, presenters and announcers of Akashvani Itanagar performed multiple songs, showcasing the rich cultural heritage of the region and reinforcing radio’s role in promoting local art and talent.\nWorld Radio Day is observed every year on February 13 to commemorate the establishment of United Nations Radio in 1946. The theme for 2026, “Radio and Artif",
+      "vertical_scores": {
+        "Political_Economy": 1
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "2b135585fb6a71789d2a399594bff435",
+      "title": "CEIR Portal Enables Recovery of Lost and Stolen Mobile Handsets in Arunachal Pradesh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2227415",
+      "date": "2026-04-18",
+      "relative_time": "Today",
+      "region": "Itanagar",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "060024102eac27ea58b14d995eb3f635",
+      "title": "PM addresses Rojgar Mela through video conferencing, distributes more than 61,000 appointment letters to newly appointed recruits",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2218111",
+      "date": "2026-04-18",
+      "relative_time": "Today",
+      "region": "Itanagar",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "769515dbb968a8850dc93be98f979def",
+      "title": "Two-Day Community Radio Awareness Workshop Organised in Itanagar, Arunachal Pradesh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2184582",
+      "date": "2026-04-18",
+      "relative_time": "Today",
+      "region": "Itanagar",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -7625,97 +7704,14 @@
         "Political_Economy": 2
       },
       "section": "vertical"
-    },
-    {
-      "id": "4a2a1620784f4e85ba36211eb1eeef5c",
-      "title": "Prime Minister shares an article on India’s growing strength in the pharma sector",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251811",
-      "date": "2026-04-14",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [
-        "Political_Economy"
-      ],
-      "primary_vertical": "Political_Economy",
-      "relevance_score": 1,
-      "snippet": "",
-      "full_content": "The Prime Minister, Shri Narendra Modi, has shared an article written by Union Minister, Shri Jagat Prakash Nadda.\nThe article highlights that India’s pharma sector is moving from being the “pharmacy of the world” to a hub of innovation. It notes that under the present government, the focus has been on extensive research and development, biologics, biosimilars and cutting-edge therapies, as India prepares to lead the global race in this sector.\nThe Prime Minister’s Office posted on X;\n“From the “pharmacy of the world” to a hub of innovation, India’s pharma sector is moving up the value chain. Under the present government, the focus has been on extensive R&D, biologics, biosimilars and cutting-edge therapies.\nA must-read retrospection by Union Minister Shri @JPNadda on how India is preparing to lead the global race in this sector!\nhttps://www.thehindubusinessline.com/opinion/india-moving-up-the-pharma-value-chain/article70858640.ece ”\nFrom the “pharmacy of the world” to a hub of innovation, India’s pharma sector is moving up the value chain. Under the present government, the focus has been on extensive R&D, biologics, biosimilars and cutting-edge therapies. A must-read retrospection by Union Minister Shri… pic.twitter.com/zITsjGI9oV",
-      "vertical_scores": {
-        "Political_Economy": 1
-      },
-      "section": "vertical"
-    },
-    {
-      "id": "aa90156438e52c8411b85c94044f0a95",
-      "title": "MoRTH notifies amendment to streamline fee for overloaded vehicles on National Highways",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251805",
-      "date": "2026-04-14",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "912fc9fe7b8cbb104b5d4f038154e605",
-      "title": "Prime Minister shares an article on the significance of Puthandu and India’s cultural values",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251802",
-      "date": "2026-04-14",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [
-        "Political_Economy"
-      ],
-      "primary_vertical": "Political_Economy",
-      "relevance_score": 1,
-      "snippet": "",
-      "full_content": "The Prime Minister, Shri Narendra Modi, has shared an article written by Hon’ble Vice President of India, Thiru C. P. Radhakrishnan.\nThe article highlights the richness of Bharat’s diverse festivals and extends greetings to the people of India on Puthandu, underscoring its essence as a festival that brings together tradition, family, spirituality and a disciplined way of life. It also expresses hope that the younger generation will move forward in the ideals of Ek Bharat and contribute to building a Shreshtha Bharat and a Viksit Bharat by 2047.\nThe Prime Minister’s Office posted on X;\n“Highlighting the richness of Bharat’s diverse festivals, @VPIndia Thiru @CPR_VP Ji extends his greetings to the people of India on Puthandu and underscores its essence as a festival that brings together tradition, family, spirituality and a disciplined way of life.\nHe expresses hope that the younger generation will move forward in the ideals of Ek Bharat and contribute to building a Shreshtha Bharat and a Viksit Bharat by 2047.\nhttps://www.hindustantimes.com/opinion/indias-many-new-years-reflect-ancient-knowledge-101776093540420.html ”\nHighlighting the richness of Bharat’s diverse festivals, @VPIndia Thiru @CPR_VP Ji extends his greetings to the people of India on Puthandu and underscores its essence as a festival that brings together tradition, family, spirituality and a disciplined way of life. He expresses… pic.twitter.com/uMht6kvSWv",
-      "vertical_scores": {
-        "Political_Economy": 1
-      },
-      "section": "vertical"
-    },
-    {
-      "id": "a4c6bba655b5e75c5dc8ada857f93204",
-      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah extends greetings on the foundation day of Khalsa Panth and Baisakhi",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251801",
-      "date": "2026-04-14",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "83dae0b5dd240b095958275c076e2e7c",
-      "title": "My Bharat Budget Quest 2026 Concludes in Bengaluru",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251820",
-      "date": "2026-04-14",
-      "relative_time": "Today",
-      "region": "Bengaluru",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 449,
+  "other_count": 450,
   "vertical_counts": {
     "EooDB": 8,
     "CoDED": 6,
     "iLEAP": 1,
-    "Political_Economy": 31,
+    "Political_Economy": 30,
     "Jobs_Livelihood": 3,
     "Sustainability": 3
   },
