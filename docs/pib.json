@@ -1,8 +1,44 @@
 {
-  "last_updated": "2026-04-19T01:48:27Z",
-  "last_updated_ist": "19 Apr 2026, 07:18 AM IST",
+  "last_updated": "2026-04-19T04:46:33Z",
+  "last_updated_ist": "19 Apr 2026, 10:16 AM IST",
   "total": 500,
   "articles": [
+    {
+      "id": "05576d71f1094d494d191138794617fd",
+      "title": "BIS conducts Enforcement raid at Flipkart warehouse: Non-ISI marked deep freezers",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2253438",
+      "date": "2026-04-19",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "eee3e51b837932a3ed472ad9a1124b43",
+      "title": "13,937 Citizens Complete Self-Enumeration; Digital Census 2027 Gains Momentum in Chhattisgarh Dr. Kartikeya Goel, Director of Census Operations, Chhattisgarh, Appeals to Citizens to Complete Self-Enumeration",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2253451",
+      "date": "2026-04-19",
+      "relative_time": "Today",
+      "region": "Raipur",
+      "verticals": [
+        "CoDED",
+        "Political_Economy"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The digital Self-Enumeration process under the proposed Census 2027 in Chhattisgarh is receiving an encouraging response from citizens. According to the latest data received from the Directorate of Census Operations, Chhattisgarh, a total of 13,937 citizens have successfully completed the self-enumeration process so far, while 6,188 individuals have initiated the process but are yet to complete it. In total, 20,125 citizens have registered on the Self-Enumeration portal, reflecting growing awareness and trust in this digital initiative.\nThe campaign, being conducted under the guidance of the Registrar General and Census Commissioner of India, aims to create a reliable and accurate socio-economic database for the coming decade. This data will serve as a crucial foundation not only for policy formulation but also for the effective implementation of various welfare schemes.\nFor the first time, Census 2027 has introduced the option of Self-Enumeration, enabling citizens to enter details of their households independently. This initiative has enhanced transparency, improved data accuracy, and empowered citizens to actively participate in the national exercise.\nThe digital census process has been designed to be simple, secure, and user-friendly. Citizens are required to register on the portal using their mobile number and authenticate via a One-Time Password (OTP). Subsequently, the head of the household can enter details related to housing conditions, sources of drinking water, energy usage, and personal information of family members such as name, age, gender, marital status, education, and occupation.\nUpon completion, a Census Reference Number (CRN) is generated, which must be presented to enumerators during the verification process. This ensures quick and error-free data validation.\nTo ensure the successful implementation of this massive exercise, extensive administrative arrangements have been made across all 33 districts and 19,978 villages of the state. The government has deployed a workforce of 62,500 officials and staff, including 51,300 enumerators and 9,000 supervisors, who are carrying out data collection and verification using digital tools.\nA toll-free helpline number 1855 has also been made operational to assist citizens and address their queries related to the self-enumeration process.\nThe government has emphasized that all personal data collected during the census will remain strictly confidential under the provisions of the Census Act, 1948. The information will be used solely for statistical analysis and development planning and will not be used as evidence for any legal proceedings or taxation purposes.\nIn this context, Dr. Kartikeya Goel, Director of Census Operations, Chhattisgarh, has appealed to the citizens of the state to actively participate in this digital initiative and complete their self-enumeration at the earliest. He stated that the campaign will form the foundation for accurate socio-economic policy planning for the next",
+      "vertical_scores": {
+        "CoDED": 2,
+        "Political_Economy": 1
+      },
+      "section": "vertical"
+    },
     {
       "id": "06d4f719169a12717e54492e0b58db47",
       "title": "Secretary, Minority Affairs, Dr. Srivatsa Krishna flags off first Haj 2026 flight from Delhi",
@@ -7666,44 +7702,14 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "fa7369962f9c4efe8dff0aee8edbf73a",
-      "title": "Raipur will take part in Nationwide Event MY Bharat Budget Quest 2026' Closing: CM Shri Vishnu Deo Sai to Attend",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2250907",
-      "date": "2026-04-15",
-      "relative_time": "Today",
-      "region": "Raipur",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "07c4ea3e3014460e5125ad5f5cbb8c2a",
-      "title": "Doon Book Festival 2026: Grand Launch Of ‘Doon Lit Fest’ On Day 2 Brings Literature And Ideas To The Forefront",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2249353",
-      "date": "2026-04-15",
-      "relative_time": "Today",
-      "region": "Dehradun",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 452,
+  "other_count": 451,
   "vertical_counts": {
     "EooDB": 8,
-    "CoDED": 6,
+    "CoDED": 7,
     "iLEAP": 0,
-    "Political_Economy": 30,
+    "Political_Economy": 31,
     "Jobs_Livelihood": 3,
     "Sustainability": 2
   },
