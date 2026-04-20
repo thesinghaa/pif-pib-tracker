@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-20T18:54:37Z",
-  "last_updated_ist": "21 Apr 2026, 12:24 AM IST",
+  "last_updated": "2026-04-20T19:57:30Z",
+  "last_updated_ist": "21 Apr 2026, 01:27 AM IST",
   "total": 500,
   "articles": [
     {
@@ -2046,6 +2046,21 @@
       "date": "2026-04-20",
       "relative_time": "Today",
       "region": "Dehradun",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "80511dca203f5854378208fd2ca9fc67",
+      "title": "General Election to Legislative Assemblies and bye-elections 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2252626",
+      "date": "2026-04-20",
+      "relative_time": "Today",
+      "region": "Chennai",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -7693,21 +7708,6 @@
         "EooDB": 1
       },
       "section": "vertical"
-    },
-    {
-      "id": "b3257d521eaa9114fe18f8507f3a1ff7",
-      "title": "NO CHANGE OF GUARD CEREMONY ON APRIL 18",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2252625",
-      "date": "2026-04-16",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
   "other_count": 449,
