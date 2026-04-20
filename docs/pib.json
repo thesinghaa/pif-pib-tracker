@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-20T04:54:09Z",
-  "last_updated_ist": "20 Apr 2026, 10:24 AM IST",
+  "last_updated": "2026-04-20T07:13:36Z",
+  "last_updated_ist": "20 Apr 2026, 12:43 PM IST",
   "total": 500,
   "articles": [
     {
@@ -22,6 +22,51 @@
       "id": "adbf0c11e0b3ae1004899dd64904a385",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the importance of agriculture and farmers",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2253609",
+      "date": "2026-04-20",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "a7cbd879ce901677f83086cebae4fd54",
+      "title": "PM to visit Rajasthan on 21st April",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2253676",
+      "date": "2026-04-20",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c66394397090b0b57da1332267301232",
+      "title": "Probationary Officers of the Indian Railways and Assistant Executive Engineers of the Central Engineering Service CALL ON THE PRESIDENT",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2253656",
+      "date": "2026-04-20",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5653b6da4fd87be571ae894ff051ec53",
+      "title": "From Margins to Mainstream",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2253621",
       "date": "2026-04-20",
       "relative_time": "Today",
       "region": "Delhi",
@@ -7647,61 +7692,12 @@
       "full_content": "",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "457917e03ec0ab7229f6c475e597f5b2",
-      "title": "Phase I of Self-Enumeration Based Digital Census Commences in Chhattisgarh from Today, Thursday",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2252267",
-      "date": "2026-04-15",
-      "relative_time": "Today",
-      "region": "Raipur",
-      "verticals": [
-        "CoDED"
-      ],
-      "primary_vertical": "CoDED",
-      "relevance_score": 2,
-      "snippet": "",
-      "full_content": "Facility to self-register data from home via the Self-Enumeration portal; Toll-free helpline 1855 activated Data collection to be conducted through a paperless and fully digital process for the first time Verification by enumerators made easier through Digital Reference Numbers Data privacy guaranteed; information to remain secure for statistical use only Extensive administrative preparations across the state; thousands of personnel deployed Personal data to remain fully protected under stringent legal provisions\nThe State of Chhattisgarh is commencing the first phase of 'Census of India 2027' from today, April 16, 2026. For the first time in the state's history, this campaign will be conducted in a completely paperless and digital format. The objective of this comprehensive statistical process is not only to collect basic demographic information but also to create a reliable data foundation for accurate socio-economic planning for the coming decade.\nUnder the guidance of the Registrar General and Census Commissioner of India, special emphasis has been placed on 'Self-Enumeration' in this phase. Accordingly, citizens can self-register their details by visiting the official portal https://se.census.gov.in/. Along with this, the dedicated toll-free helpline number 1855 has also been activated across the state from April 16 to assist citizens.\nThe self-enumeration process has been designed to be simple, secure, and user-friendly. For registration, an adult member of the family must enter their mobile number and complete a One-Time Password (OTP) based authentication. Following this, details regarding the family and housing—such as place of residence, condition of the house, drinking water, toilets, and energy sources—must be recorded. It is mandatory to fill in individual details for each member, including name, age, gender, marital status, education, occupation, and mother tongue.\nAfter entering all the information, citizens will have the opportunity to review the details before final submission. Upon successful submission, a Digital Reference Number (Census Reference Number - CRN) will be issued, which must be presented at the time of verification by the enumerator in the future. The enumerator will perform quick verification and coordination of the data through this number, ensuring time savings and a reduction in errors.\nIn Chhattisgarh, this first phase will primarily focus on Houselisting and Housing Census. Under this, information related to assets, communication means, and transport facilities will be collected, which will form the basis for the state's standard of living and development indices.\nFor the successful operation of this extensive campaign across 33 districts and 19,978 villages of the state, approximately 62,500 officers and employees have been deployed. This includes 51,300 enumerators and 9,000 supervisors who will visit households to verify the information.\nAll personal information collected during the census will be kept str",
-      "vertical_scores": {
-        "CoDED": 2
-      },
-      "section": "vertical"
-    },
-    {
-      "id": "2b645a093c1c88933573026fbf3f993a",
-      "title": "Inter-Ministerial Briefing on Recent Developments in West Asia",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2252308",
-      "date": "2026-04-15",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "db587230ed431df2dc0ccb2c581684a1",
-      "title": "IOS SAGAR SHIP ARRIVES AT PHUKET, THAILAND",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2252298",
-      "date": "2026-04-15",
-      "relative_time": "Today",
-      "region": "Delhi",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 452,
+  "other_count": 453,
   "vertical_counts": {
     "EooDB": 8,
-    "CoDED": 6,
+    "CoDED": 5,
     "iLEAP": 0,
     "Political_Economy": 31,
     "Jobs_Livelihood": 2,
