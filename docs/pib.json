@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-24T07:43:39Z",
-  "last_updated_ist": "24 Apr 2026, 01:13 PM IST",
-  "total": 172,
+  "last_updated": "2026-04-24T08:05:52Z",
+  "last_updated_ist": "24 Apr 2026, 01:35 PM IST",
+  "total": 173,
   "articles": [
     {
       "id": "15cf622c6ce4f5c06ec3c12290d9c0ce",
@@ -1922,6 +1922,27 @@
       "section": "vertical"
     },
     {
+      "id": "474e9f4e84edd8475a276ba46aded5a6",
+      "title": "Financial Incentives for undertaking mining reforms by States included in the Scheme for Special Assistance to States for Capital Investment FY 2026-27",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255217",
+      "date": "2026-04-24",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EooDB"
+      ],
+      "primary_vertical": "EooDB",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "A Significant Step to Promote Mining Sector Reforms in the country\nFollowing the success of the previous fiscal year, an incentive mechanism on mining sector reforms with ₹5,000 crores outlay has been incorporated in the Scheme for Special Assistance to States for Capital Investment (SASCI) for FY 2026-27. The Operational Guidelines for this scheme component have been issued recently by the Ministry of Mines, which is the nodal Ministry. This is a significant step to encourage mining sector reforms in States.\nThe objective of this SASCI scheme component is to facilitate and expedite mine operationalization, increase mineral production, enhance revenue collection by States from the mining sector, and improve overall governance of the mining sector. The Scheme incentive is to be provided to States and UTs (with legislature) under three reform areas:\n(i). Implementation of Mining Reforms viz. integration of the State with the Unified Mining Portal of the Ministry of Mines for mine operationalization, constitution of a Pre-Auction Committee to actively resolve land scheduling issues, constitution of a State-level Coordination Committee for regular monitoring of operationalization of mines, annual auction calendar for major minerals & adherence to the same to the extent possible, and adoption of technology-based measures to prevent or detect grade misclassification of mineral ore. A State has to undertake all the above five reform actions by 15.12.2026, upon which it will be eligible for incentive money of ₹100 crore.\n(ii). Mine Operationalization: Incentivizing States for successful auctioning of major mineral blocks with pre-embedded clearances (such as forest, environment, land, etc.) in FY 2026-27 upto 31.12.2026 (₹20 crore per block successfully auctioned, with an upper cap of ₹200 crore per State) and operationalization (i.e. commencement of production and dispatch) during FY 2026-27 (up to 31.12.2026) at least 10% of the major mineral blocks successfully auctioned till 31.03.2026 (₹250 crore per State).\n(iii). SMRI-based Reforms: Rewarding the top three States in each of the three categories A, B, and C under the State Mining Readiness Index (SMRI) 2026-27, to be released by the Ministry of Mines (₹100 crore, ₹75 crore and ₹50 crore for securing 1 st , 2 nd and 3 rd position under each category).",
+      "summary": "A Significant Step to Promote Mining Sector Reforms in the country Following the success of the previous fiscal year, an incentive mechanism on mining sector reforms with ₹5,000 crores outlay has been incorporated in the Scheme for Special Assistance to States for Capital Investment (SASCI) for FY 2026-27. The Operational Guidelines for this scheme component have been issued recently by the Ministry of Mines, which is the nodal Ministry. This is a significant step to encourage mining sector reforms in States.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
       "id": "2656aeda99d422da0e29fee1e5d1e45e",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the virtue of Selfless Giving",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254741",
@@ -2906,16 +2927,16 @@
       "section": "other"
     }
   ],
-  "other_count": 327,
+  "other_count": 145,
   "vertical_counts": {
-    "EooDB": 14,
-    "CoDED": 3,
-    "iLEAP": 6,
-    "ELS": 4,
-    "Sustainability": 9,
-    "Political_Economy": 13
+    "EooDB": 5,
+    "CoDED": 1,
+    "iLEAP": 5,
+    "ELS": 1,
+    "Sustainability": 5,
+    "Political_Economy": 11
   },
-  "regions_scraped": 24,
+  "regions_scraped": 23,
   "verticals": {
     "EooDB": {
       "label": "Ease of Doing Business & Manufacturing",
