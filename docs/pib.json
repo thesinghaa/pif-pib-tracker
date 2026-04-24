@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-24T11:10:49Z",
-  "last_updated_ist": "24 Apr 2026, 04:40 PM IST",
-  "total": 176,
+  "last_updated": "2026-04-24T11:32:21Z",
+  "last_updated_ist": "24 Apr 2026, 05:02 PM IST",
+  "total": 177,
   "articles": [
     {
       "id": "15cf622c6ce4f5c06ec3c12290d9c0ce",
@@ -2118,6 +2118,28 @@
       "section": "vertical"
     },
     {
+      "id": "5f830ddc1cf412260eefef36ab8b5282",
+      "title": "Punjab Gears Up for Census 2027 Phase-I; Self-Enumeration to Begin from April 30",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255314",
+      "date": "2026-04-24",
+      "scraped_date": "2026-04-24",
+      "relative_time": "Today",
+      "region": "Chandigarh",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "A joint press conference was held by Dr. Navjot Khosa IAS, Director, Directorate of Census Operations, Punjab & UT Chandigarh, and Sh. Manjit Singh Brar IAS, Administrative Secretary, Department of Local Government, Punjab, to brief the media regarding Census 2027 Phase-I (Houselisting and Housing Census), with special emphasis on the introduction of Self-Enumeration. The Census in India is conducted under the provisions of the Census Act, 1948 and Census Rules, 1990. Census 2027 will be the 16 th Census in India and the 8 th after Independence. The last Census was conducted in 2011, while the 2021 Census was postponed due to the COVID-19 pandemic.\nIt was informed that census data serves as a comprehensive source of socio-economic and demographic information and plays a crucial role in development planning, formulation of welfare schemes, and strengthening public services. Census 2027 will be conducted in two phases. Phase-I, which includes Self-Enumeration from 30 th April 2026 to 14 th May 2026 followed by house-to-house enumeration from 15 th May 2026 to 13 th June 2026 and Phase-II Population Enumeration, is scheduled from 9 th February 2027 to 28 th February 2027. Phase-I will focus on housing conditions, amenities, and assets and will form the basis for Population Enumeration phase.\nDr. Navjot Khosa highlighted that Census 2027 will be conducted in digital mode for the first time using mobile applications along with introduction of Self-Enumeration through the online portal ( https://se.census.gov.in ). People can fill in their details during the specified period and upon submission, will receive a unique Self-Enumeration Reference ID, to be shared with the enumerator during field verification. Real-time monitoring will be carried out through the Census Management and Monitoring System, and web-based mapping has been used for the creation of Houselisting Blocks.\nSh. Manjit Brar, the State Nodal Officer for Census, informed that comprehensive administrative arrangements have been put in place, including the creation of Houselisting Blocks across the State and the appointment of approximately 67,000 enumerators and supervisors (including reserve). He further stated that training of census functionaries has been carried out in a systematic and phased manner. In Punjab, the training of 52 Master Trainers (36 from State and 16 from DCO, Punjab) and 932 Field Trainers has been successfully completed and training of enumerators and supervisors is being conducted from 16 th April to 9 th May 2026 at various venues across the State ensuring preparedness for the smooth and effective conduct of the Census exercise.\nEmphasizing the role of media, it was stated that media acts as a vital pillar of democracy and was requested to play a proactive role in spreading awareness, encouraging public participation, and countering misinformation, particularly regarding digital enumeration and data confidentiality. Residents were urged to actively participate in t",
+      "summary": "Navjot Khosa IAS, Director, Directorate of Census Operations, Punjab & UT Chandigarh, and Sh. Manjit Singh Brar IAS, Administrative Secretary, Department of Local Government, Punjab, to brief the media regarding Census 2027 Phase-I (Houselisting and Housing Census), with special emphasis on the introduction of Self-Enumeration. The Census in India is conducted under the provisions of the Census Act, 1948 and Census Rules, 1990.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "CoDED": 3
+      },
+      "section": "vertical"
+    },
+    {
       "id": "2656aeda99d422da0e29fee1e5d1e45e",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the virtue of Selfless Giving",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254741",
@@ -3169,13 +3191,13 @@
   "other_count": 145,
   "vertical_counts": {
     "EooDB": 5,
-    "CoDED": 2,
+    "CoDED": 3,
     "iLEAP": 5,
     "ELS": 1,
     "Sustainability": 6,
     "Political_Economy": 12
   },
-  "regions_scraped": 23,
+  "regions_scraped": 24,
   "verticals": {
     "EooDB": {
       "label": "Ease of Doing Business & Manufacturing",
