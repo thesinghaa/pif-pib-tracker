@@ -228,6 +228,10 @@ POSTED_ON_RE = re.compile(
 
 def make_id(url: str) -> str:
     return hashlib.md5(url.encode()).hexdigest()
+def get_prid(url: str) -> int:
+    """Extract PRID number from PIB press release URL."""
+    m = re.search(r'PRID=(\d+)', url or '')
+    return int(m.group(1)) if m else 0
 
 
 def clean_text(raw: str) -> str:
@@ -487,6 +491,12 @@ def scrape_all_regions() -> list:
             feed    = feedparser.parse(feed_url, request_headers=HEADERS)
             entries = feed.entries
             log.info("  → %d entries found", len(entries))
+                      # Compute max PRID in this feed. PIB regional feeds sometimes
+            # re-publish old articles with a refreshed pubDate. Anything
+            # more than 15,000 PRIDs below the feed's own max is stale.
+            feed_prids    = [get_prid(e.get("link", "")) for e in entries[:50]]
+            feed_prid_max = max((p for p in feed_prids if p > 0), default=0)
+            PRID_GAP      = 15000
 
             for entry in entries[:50]:
                 title   = clean_text(entry.get("title", ""))
