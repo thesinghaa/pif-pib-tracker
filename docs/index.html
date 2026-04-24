@@ -212,42 +212,39 @@
       50% { opacity:0.5; transform:scale(0.7); }
     }
 
-    /* ticker — SLOWED DOWN significantly */
+    /* ticker */
     .ticker-strip {
-      background:linear-gradient(90deg,
-        rgba(237,105,31,0.08) 0%, rgba(200,72,5,0.06) 100%);
-      border-top: 1px solid rgba(237,105,31,0.12);
-      border-bottom: 1px solid rgba(237,105,31,0.08);
+      background: var(--orange);
       height:34px; display:flex; align-items:center;
       overflow:hidden;
     }
     .ticker-label {
-      font-family:'DM Mono',monospace; font-size:0.68rem;
-      font-weight:500; letter-spacing:0.22em; color:var(--orange);
-      padding:0 18px; border-right:1px solid rgba(237,105,31,0.2);
+      font-family:'DM Mono',monospace; font-size:0.62rem;
+      font-weight:600; letter-spacing:0.22em; color:#fff;
+      background: rgba(0,0,0,0.18);
+      padding:0 18px; height:100%;
+      display:flex; align-items:center;
+      border-right:1px solid rgba(255,255,255,0.2);
       white-space:nowrap; flex-shrink:0; text-transform:uppercase;
     }
-    .ticker-track { flex:1; overflow:hidden; }
+    .ticker-track {
+      flex:1; overflow:hidden;
+      mask-image: linear-gradient(90deg, transparent, #000 3%, #000 97%, transparent);
+    }
     .ticker-content {
       display:inline-flex; gap:0;
-      /* ← slowed from 62s to 180s */
-      animation:ticker-scroll 360s linear infinite;
+      animation:ticker-scroll 500s linear infinite;
       white-space:nowrap;
     }
     .ticker-content:hover { animation-play-state:paused; }
-    .ticker-content span {
-      font-family:'DM Sans',sans-serif; font-size:0.68rem;
-      color:rgba(30,30,30,0.75); padding:0 2rem;
-      font-weight:300;
-    }
     .ticker-content a {
       font-family:'DM Sans',sans-serif; font-size:0.68rem;
-      color:rgba(30,30,30,0.75); padding:0 2rem;
-      font-weight:300; text-decoration:none;
+      color:rgba(255,255,255,0.92); padding:0 2rem;
+      font-weight:400; text-decoration:none;
       transition:color 0.15s;
     }
-    .ticker-content a:hover { color:var(--orange); }
-    .ticker-sep { color:var(--orange) !important; opacity:0.45 !important; font-weight:400 !important; }
+    .ticker-content a:hover { color:#fff; text-decoration:underline; }
+    .ticker-sep { color:rgba(255,255,255,0.4) !important; font-weight:400 !important; }
     @keyframes ticker-scroll {
       from { transform:translateX(0); }
       to   { transform:translateX(-50%); }
@@ -558,11 +555,9 @@
     }
     html.dark .meta-chip strong { color: rgba(255,255,255,0.68); }
     html.dark .ticker-strip {
-      background: linear-gradient(90deg, rgba(237,105,31,0.12) 0%, rgba(200,72,5,0.10) 100%);
-      border-top: 1px solid rgba(237,105,31,0.15);
-      border-bottom: 1px solid rgba(237,105,31,0.10);
+      background: #c04e12;
     }
-    html.dark .ticker-content span { color: rgba(255,255,255,0.72); }
+    html.dark .ticker-content a { color: rgba(255,255,255,0.88); }
     html.dark .filter-ribbon {
       background: linear-gradient(180deg, rgba(9,19,39,0.97) 0%, rgba(11,23,45,0.95) 100%);
       border-bottom: 1px solid rgba(255,255,255,0.08);
