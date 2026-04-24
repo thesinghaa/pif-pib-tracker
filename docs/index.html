@@ -776,11 +776,22 @@ function buildTicker() {
 }
 
 /* ── IST DATE HELPERS ────────────────────────────────────────── */
+function nowIST() {
+  return new Date(Date.now() + (5.5 * 60 * 60 * 1000));
+}
+
+function todayISTStr() {
+  const d = nowIST();
+  return `${d.getUTCFullYear()}-${String(d.getUTCMonth()+1).padStart(2,'0')}-${String(d.getUTCDate()).padStart(2,'0')}`;
+}
+
 function allowedISTDates() {
-  const nowIST = new Date(Date.now() + (5.5 * 60 * 60 * 1000));
-  const dates  = new Set();
+  // Set of the 3 IST calendar dates shown: today, yesterday, day-before.
+  // Labels are always re-computed live from date so they age correctly across midnight.
+  const base  = nowIST();
+  const dates = new Set();
   for (let i = 0; i < 3; i++) {
-    const d   = new Date(nowIST);
+    const d = new Date(base);
     d.setUTCDate(d.getUTCDate() - i);
     const y   = d.getUTCFullYear();
     const m   = String(d.getUTCMonth()+1).padStart(2,'0');
@@ -793,8 +804,13 @@ function allowedISTDates() {
 /* ── FILTER LOGIC ────────────────────────────────────────────── */
 function getFiltered() {
   const allowed = allowedISTDates();
+  const today   = todayISTStr();
   return allArticles.filter(a => {
-    if (!a.date || !allowed.has(a.date)) return false;
+    // Use publication date; fall back to scraped_date (scraper v4+) if missing.
+    // Articles with no resolvable date, or outside the 3-day IST window, are hidden.
+    const articleDate = a.date || a.scraped_date || '';
+    if (!articleDate || !allowed.has(articleDate)) return false;
+    if (articleDate > today) return false; // never show future-dated articles
 
     const pv = a.primary_vertical || '';
     if (activeV === 'other') {
@@ -836,7 +852,8 @@ function render() {
 
   const byDate = {};
   filtered.forEach(a => {
-    const d = a.date;
+    // Use the same resolution logic as getFiltered: date first, scraped_date as fallback
+    const d = a.date || a.scraped_date || '';
     if (!byDate[d]) byDate[d] = [];
     byDate[d].push(a);
   });
@@ -942,22 +959,20 @@ function firstTwo(text) {
 }
 function timeAgo(d) {
   if (!d) return '';
-  const nowIST   = new Date(Date.now()+(5.5*60*60*1000));
-  const todayIST = new Date(nowIST);
-  todayIST.setUTCHours(0,0,0,0);
-  const todayStr = todayIST.toISOString().slice(0,10);
-  const yestStr  = new Date(todayIST.getTime()-86400000).toISOString().slice(0,10);
+  const base     = nowIST();
+  base.setUTCHours(0,0,0,0);
+  const todayStr = base.toISOString().slice(0,10);
+  const yestStr  = new Date(base.getTime()-86400000).toISOString().slice(0,10);
   if (d===todayStr) return 'Today';
   if (d===yestStr)  return 'Yesterday';
   return new Date(d+'T00:00:00Z')
     .toLocaleDateString('en-IN',{day:'numeric',month:'short'});
 }
 function dateGroupLabel(dateStr) {
-  const nowIST   = new Date(Date.now()+(5.5*60*60*1000));
-  const todayIST = new Date(nowIST);
-  todayIST.setUTCHours(0,0,0,0);
-  const todayStr = todayIST.toISOString().slice(0,10);
-  const yestStr  = new Date(todayIST.getTime()-86400000).toISOString().slice(0,10);
+  const base     = nowIST();
+  base.setUTCHours(0,0,0,0);
+  const todayStr = base.toISOString().slice(0,10);
+  const yestStr  = new Date(base.getTime()-86400000).toISOString().slice(0,10);
   const fmt = new Date(dateStr+'T00:00:00Z')
     .toLocaleDateString('en-IN',{day:'numeric',month:'short'});
   if (dateStr===todayStr) return `Today — ${fmt}`;
