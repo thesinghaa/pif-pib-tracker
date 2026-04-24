@@ -491,7 +491,7 @@ def scrape_all_regions() -> list:
             feed    = feedparser.parse(feed_url, request_headers=HEADERS)
             entries = feed.entries
             log.info("  → %d entries found", len(entries))
-                      # Compute max PRID in this feed. PIB regional feeds sometimes
+            # Compute max PRID in this feed. PIB regional feeds sometimes
             # re-publish old articles with a refreshed pubDate. Anything
             # more than 15,000 PRIDs below the feed's own max is stale.
             feed_prids    = [get_prid(e.get("link", "")) for e in entries[:50]]
@@ -516,6 +516,14 @@ def scrape_all_regions() -> list:
                     continue
                 seen_ids.add(uid)
 
+                # ── PRID GAP CHECK ───────────────────────────────────────
+                prid = get_prid(url)
+                if feed_prid_max > 0 and prid > 0 and (feed_prid_max - prid) > PRID_GAP:
+                    log.info("  [SKIP] PRID %d is %d behind feed max %d (stale): %s",
+                             prid, feed_prid_max - prid, feed_prid_max, title[:55])
+                    total_skipped += 1
+                    continue
+                          
                 # ── DATE EXTRACTION ──────────────────────────────────────
                 # Step 1: Get RSS date and reliability flag
                 date_str, rss_reliable = parse_rss_date(entry)
