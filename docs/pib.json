@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-24T09:01:26Z",
-  "last_updated_ist": "24 Apr 2026, 02:31 PM IST",
-  "total": 173,
+  "last_updated": "2026-04-24T11:10:49Z",
+  "last_updated_ist": "24 Apr 2026, 04:40 PM IST",
+  "total": 176,
   "articles": [
     {
       "id": "15cf622c6ce4f5c06ec3c12290d9c0ce",
@@ -16,7 +16,8 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "cb7bea8103b259500c1f7893294254d0",
@@ -33,7 +34,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "09b5a57ba129e651c145b73939097435",
@@ -50,7 +52,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "e056a86f4a8a54220d35fc424786ae9d",
@@ -67,7 +70,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "e4cfd6b45e517812400a5134479907c0",
@@ -84,7 +88,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "9923aaf1b5acc6ae2acb8f45763f6707",
@@ -105,7 +110,8 @@
       "vertical_scores": {
         "iLEAP": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "0e6d6e598cc3d6179286bbaeec4db7dd",
@@ -122,7 +128,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "c1dddd7fd2cdca9955672118adc2d5f4",
@@ -143,7 +150,8 @@
       "vertical_scores": {
         "Political_Economy": 6
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "cd16198c1ab56409908c0701178cb376",
@@ -160,7 +168,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "50b457dec8130f3f3c207d8d93a66b2d",
@@ -177,7 +186,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "1c5d7e4f3063d5e4afaf4bf77f3c09e2",
@@ -198,7 +208,8 @@
       "vertical_scores": {
         "iLEAP": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "7e05e950ae754da77720ad09b3585018",
@@ -215,7 +226,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "efdffdd237948208b97a843470ddf638",
@@ -232,7 +244,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "bcf970bb1567d03ae2ec3de5625ba9e5",
@@ -249,7 +262,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "3b27a6154c7cf9e19083d1a082027a89",
@@ -266,7 +280,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "8c5f356c2665709c800ba508bd3c3b53",
@@ -287,7 +302,8 @@
       "vertical_scores": {
         "ELS": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "6fd793ed07e8581a125395d6ff731fd0",
@@ -308,7 +324,8 @@
       "vertical_scores": {
         "Political_Economy": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "0ee467e16fc7af7ff70f2bb371338689",
@@ -329,7 +346,8 @@
       "vertical_scores": {
         "EooDB": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "b22535897e930126110c4a1982e2e847",
@@ -346,7 +364,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "3af193148e7257317cb59d780b91ee36",
@@ -363,7 +382,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "bab200379d2ca81678b24d6f602fe762",
@@ -380,7 +400,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "af71982c83993ddeca0bdae362d002f2",
@@ -397,7 +418,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "b926cc8399e538b941593bf8e50482a0",
@@ -414,7 +436,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "6683e57f117b3830e5f21fa482e2ad20",
@@ -435,7 +458,8 @@
       "vertical_scores": {
         "Political_Economy": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "e0e7a1ee790f02eb9f0fa602be66d063",
@@ -452,7 +476,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "05576d71f1094d494d191138794617fd",
@@ -469,7 +494,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "8ff609d5fd85dd2006f8c2948e93d40e",
@@ -486,7 +512,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "748be7c1f7dd54858978c5ce744485f1",
@@ -503,7 +530,8 @@
       "summary": "",
       "sentiment": "down",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "b3e057ed98a253ee98e140b05910d15a",
@@ -524,7 +552,8 @@
       "vertical_scores": {
         "Sustainability": 6
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "5235a1f4ee1bf1419a67b4c343f013f4",
@@ -541,7 +570,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "a5928c48f3486cd009ec996edf35f082",
@@ -562,7 +592,8 @@
       "vertical_scores": {
         "Sustainability": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "ecec7001f9101d83fc9a159aac2bd00e",
@@ -579,7 +610,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "79f07c8e890ea3aa99a0f5acf187de86",
@@ -596,7 +628,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "b0ffe0c2df30edbee1b996014066ee0d",
@@ -613,7 +646,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "1ea3c66439b1437271bbb774143258ed",
@@ -630,7 +664,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "c0149109e4715eb7aa444c67940c5c27",
@@ -651,7 +686,8 @@
       "vertical_scores": {
         "iLEAP": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "1a906b0188ba270da1c7cd7031815441",
@@ -668,7 +704,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "6193f459b81e7790c2c1e57016fc645c",
@@ -685,7 +722,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "cba9b3c4f1e261c1cbfba680c4c575a4",
@@ -702,7 +740,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "a46ec102c37842f07c2b2a2fe17fcbb9",
@@ -719,7 +758,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "ca5525a42beff20730c9e16a630062c0",
@@ -736,7 +776,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "dc10400e60398ef1636eb569ec568074",
@@ -753,7 +794,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "cee834828e4e3355695dee96f99305fd",
@@ -770,7 +812,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "9cd9b60a35fbde9e4abf348db3fbcdba",
@@ -787,7 +830,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "0b84d03c46a63cc25cf23134c39049aa",
@@ -804,7 +848,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "b088ad774029f4e48d8248a0dfa9245d",
@@ -821,7 +866,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "8f46af73018326fd49a5601e28559cbd",
@@ -838,7 +884,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "1978ed7181a3c6a68443282d0900459c",
@@ -855,7 +902,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "c8d4903fcdfd94ef343abb1a634c9087",
@@ -872,7 +920,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "92f11b8a8a099986a2b5cb7a5fe894e4",
@@ -893,7 +942,8 @@
       "vertical_scores": {
         "Political_Economy": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "349739a2bb94d5aacfade659b54dbb08",
@@ -910,7 +960,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "b6f6baf71d5aba5bad473d939994b2dd",
@@ -927,7 +978,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "1688f3195ce3acfd2b83c6fa25c95e22",
@@ -944,7 +996,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "33fa6d28ed75a36285d8c6430db5e0a6",
@@ -961,7 +1014,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "55e79e887e9133d88cf5459b5dcfbb8b",
@@ -978,7 +1032,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "c5438be13f49412193d705dbc35f2fb5",
@@ -995,7 +1050,8 @@
       "summary": "",
       "sentiment": "down",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "da7db0c42b0f31f7f9ec7402ea2e4b75",
@@ -1012,7 +1068,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "766f1d2e8cb7dd168268fb220e5f837d",
@@ -1029,7 +1086,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "5ed8514e8e2625ed541535f9b47ba610",
@@ -1046,7 +1104,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "fa224fa1e5c31dc6078046ecc75815fc",
@@ -1063,7 +1122,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "6e737dec5737adcc6eb6c333b5318210",
@@ -1080,7 +1140,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "0bb2503034e11b1f3eb8a730ee0a2d27",
@@ -1097,7 +1158,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "9a516e057fb981aacf7d14a8d5033d62",
@@ -1114,7 +1176,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "1f778b017f259e9f111d093d8a4b6ab1",
@@ -1131,7 +1194,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "b8aca1df495504c908fdda7e4a010ab9",
@@ -1148,7 +1212,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "ba7649f5c39b2911786829f93a002f0c",
@@ -1165,7 +1230,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "be56355242088b3dc1524d16e1d25ae1",
@@ -1182,7 +1248,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "8d728ba125d5dc0ba2c0d6aa8c0978d5",
@@ -1199,7 +1266,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "8fd620bb58e127694b206c49b1efd767",
@@ -1216,7 +1284,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "52c3aae6391e488838a6bb09a4efe2ae",
@@ -1233,7 +1302,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "65137d87404eae450e33bed817ad15ba",
@@ -1250,7 +1320,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "f81afac5daaec76ae9c558a1dfeac421",
@@ -1267,7 +1338,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "66c10ac9c6d5caa71a4d45b7e98141b8",
@@ -1284,7 +1356,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "13f1f05e130db537daa42e1aaa04cd7b",
@@ -1301,7 +1374,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "7544e6c33ae20d46b906159177689b34",
@@ -1318,7 +1392,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "10d399ca3a134ab268c23dfac3155f11",
@@ -1335,7 +1410,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "dcd8b80737e5f9fa4630491f520333fe",
@@ -1352,7 +1428,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "c9f58cf98f536e3346382b18447cc750",
@@ -1369,7 +1446,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "16bfdc61bc9a3018dd73f1c162ad9d74",
@@ -1390,7 +1468,8 @@
       "vertical_scores": {
         "Political_Economy": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "1c77e8b7a346fe23bf2487e385dab78a",
@@ -1407,7 +1486,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "a908f75da46f0e87a27451b167a2de93",
@@ -1424,7 +1504,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "51dbee8dcbfe651a25686b02a78e0f2d",
@@ -1441,7 +1522,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "28db57b4e0dc2176770e54bdb68a3f75",
@@ -1458,7 +1540,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "6cee5becac8493d80340b85d73df3a9b",
@@ -1475,7 +1558,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "4a3d47d60a2fad756418bb193c6ec36d",
@@ -1492,7 +1576,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "44a8ec50b13658f1a5a3ea0820212fa6",
@@ -1509,7 +1594,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "70584fd4c51de7456b51dbbe4a40bf5f",
@@ -1530,7 +1616,8 @@
       "vertical_scores": {
         "Sustainability": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "a52ef66156e6d2ad69cb79a6a297319f",
@@ -1547,7 +1634,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "b6c93337588ac447f7983a7a9e47b643",
@@ -1568,7 +1656,8 @@
       "vertical_scores": {
         "Political_Economy": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "55d375ef8fa60ca811a915affbeb3256",
@@ -1585,7 +1674,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "b500589a49d84365c6f4c8a17a6d8459",
@@ -1602,7 +1692,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "4484b8c16211a39c7ad9e356f6c6d701",
@@ -1619,7 +1710,8 @@
       "summary": "",
       "sentiment": "down",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "202da9a35514e2326449140a2587707c",
@@ -1640,7 +1732,8 @@
       "vertical_scores": {
         "CoDED": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "121da863f67659353ba0b684a99144e0",
@@ -1657,7 +1750,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "0782164a3cac3ab626279f769a6f7ee4",
@@ -1674,7 +1768,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "141256aeaaa09f6e153706584bff18b5",
@@ -1691,7 +1786,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "ccf11a28d9c3b427cb11fe5bac24efc1",
@@ -1708,7 +1804,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "d70b7ff9202a62a487251dbe744c3003",
@@ -1729,7 +1826,8 @@
       "vertical_scores": {
         "iLEAP": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "bdfc878e5d26b60fe8f942e332d2d5a2",
@@ -1750,7 +1848,8 @@
       "vertical_scores": {
         "iLEAP": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "afb8d3f4a9ddb8f2328acef5ee80e929",
@@ -1771,7 +1870,8 @@
       "vertical_scores": {
         "EooDB": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "55c8cdaff7c81f8e0d52ade48085e5df",
@@ -1792,7 +1892,8 @@
       "vertical_scores": {
         "Political_Economy": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "79cbe73b23754e6c79a9b9c6a9192ffa",
@@ -1809,7 +1910,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "9a98b3907ece12dbebe0958d9f30d005",
@@ -1826,7 +1928,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "d8c3c372729204bbd871ccd8ff72c9c3",
@@ -1843,7 +1946,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "7b1a94d28b536c40c1a8727000eca548",
@@ -1860,7 +1964,8 @@
       "summary": "",
       "sentiment": "up",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "bfc818fa5b717167b9bb873ea2d85e77",
@@ -1881,7 +1986,8 @@
       "vertical_scores": {
         "Sustainability": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "318a3f480a7fbdab6be508682ef62b6f",
@@ -1898,7 +2004,8 @@
       "summary": "",
       "sentiment": "neutral",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "8d598ce31ffe9808b773a7090f8a7cd4",
@@ -1919,7 +2026,8 @@
       "vertical_scores": {
         "EooDB": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
     },
     {
       "id": "474e9f4e84edd8475a276ba46aded5a6",
@@ -1940,6 +2048,73 @@
       "vertical_scores": {
         "EooDB": 3
       },
+      "section": "vertical",
+      "scraped_date": "2026-04-24"
+    },
+    {
+      "id": "0151ea287e4e7a2c9b0c75dca6dfbf56",
+      "title": "MoSPI Proposes City-Level Statistical Reports for Million-Plus Cities",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255282",
+      "date": "2026-04-24",
+      "scraped_date": "2026-04-24",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "• Plan for dedicated city-level statistical reports for 47 million-plus cities based on Periodic Labour Force Survey (PLFS) and the Annual Survey of Unincorporated Sector Enterprises (ASUSE).\n• Provides Employment Profile of Million-Plus Cities and City-Level Profile of\n• Unincorporated Sector Enterprises.\n• MoSPI invites comments and suggestions from stakeholders on the proposed framework,indicators, and dissemination strategy for generation of City-Level Statistical Reports for Million-Plus Cities.\nBackground: India is experiencing rapid urbanisation, with cities increasingly driving economic growth, employment generation, and structural transformation. Despite this, official statistics at the city level remain limited, constraining evidence-based urban policy and planning.\nTo address this gap, the National Statistics Office (NSO), under the Ministry of Statistics and Programme Implementation (MoSPI), proposes to develop and disseminate dedicated city-level statistical reports for 47 million-plus cities (as per Population Census 2011). These reports will be based on existing data from the Periodic Labour Force Survey (PLFS) and the Annual Survey of Unincorporated Sector Enterprises (ASUSE), both of which already allow statistically robust estimation at the city level.\nTwo annual thematic reports are proposed. The first will present the Employment Profile of Million- Plus Cities, providing key labour market indicators such as Labour Force Participation Rate, Worker Population Ratio, and Unemployment Rate. The second will present a City-Level Profile of Unincorporated Sector Enterprises, capturing the scale, structure, employment, and economic performance of the urban informal sector.\nThe proposed development of city-level statistical reports marks an important step in aligning India’s statistical system with the realities of a rapidly urbanising economy. By bringing cities into sharper analytical focus, the initiative seeks to bridge critical data gaps and support informed decision-making at all levels of governance.\nThe initiative aims to enhance the availability of granular urban statistics, support city-level policy formulation, contribute to city-level GDP estimation, and improve understanding of urban labour markets and enterprise dynamics. The reports will be disseminated annually in the public domain using user-friendly formats.\nA consultation paper on the proposed framework for generation of city-level estimates based on the existing PLFS and ASUSE data is now uploaded on the MoSPI website for wider consultation of stakeholders. The views of Stakeholders are invited to review and suggest improvements to the proposed framework, indicators, methodology, and dissemination strategy; to refine it based on the feedback.\nSuggestions and comments may be sent to the email ID: nssocpd.coord@mospi.gov.in, tc.dpd@mospi.gov.in and tc.sdrd-mospi[at]gov[dot]in by 15th May, 2026. The consultation paper on City- Level Statistical Reports for Million-Plus",
+      "summary": "India is experiencing rapid urbanisation, with cities increasingly driving economic growth, employment generation, and structural transformation. Despite this, official statistics at the city level remain limited, constraining evidence-based urban policy and planning. To address this gap, the National Statistics Office (NSO), under the Ministry of Statistics and Programme Implementation (MoSPI), proposes to develop and disseminate dedicated city-level statistical reports for 47 million-plus cities (as per Population Census 2011).",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "CoDED": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "59e00bffbbd5a154857ac519ddb6e809",
+      "title": "Visit of Indian delegation for discussions on Bilateral Trade Agreement (BTA) between India-United States (U.S.) from 20th-23rd April 2026 at Washington D.C.",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255255",
+      "date": "2026-04-24",
+      "scraped_date": "2026-04-24",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "India and the United States issued a Joint Statement on 7 th February 2026 agreeing on a framework for an Interim Agreement regarding reciprocal and mutually beneficial trade. The framework reaffirmed the countries’ commitment to the broader India-U.S. Bilateral Trade Agreement negotiations. In pursuance thereof, the Indian side visited Washington D.C. for in person round of meetings with their U.S. counterparts to finalize the details of the Interim Agreement and take forward the negotiations under the broader BTA. Multiple areas such as Market Access, Non-Tariff Measures, Technical Barriers to Trade, Customs and Trade Facilitation, Investment Promotion, Economic Security Alignment and Digital trade were discussed. The meetings were conducted in a constructive and positive spirit with meaningful and forward-looking discussions enabling progress on key matters. Both sides agreed to remain engaged to maintain this momentum as they move forward.\nAbhishek Dayal/ Abhijith Narayanan",
+      "summary": "India and the United States issued a Joint Statement on 7 th February 2026 agreeing on a framework for an Interim Agreement regarding reciprocal and mutually beneficial trade. The framework reaffirmed the countries’ commitment to the broader India-U.S. In pursuance thereof, the Indian side visited Washington D.C.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "172d99d2591a6e2480ab135274426408",
+      "title": "Kodaikanal Solar Observatory to Conduct Walk-in Interviews for Security Guard and Telescope Operator Positions",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255271",
+      "date": "2026-04-24",
+      "scraped_date": "2026-04-24",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Kodaikanal Solar Observatory, Indian Institute of Astrophysics (IIA), is inviting eligible candidates for the engagement of outsourced manpower through authorized agencies. The recruitment drive will be conducted via walk-in interviews held at the Administrative Office in Kodaikanal for two distinct positions.\nA walk-in interview for the post of Security Guard is scheduled to take place on April 27, 2026, starting at 10:00 AM. Candidates applying for this position must have a minimum qualification of 10th pass and must be physically fit. The age limit for this post is not to exceed 40 years, in accordance with the norms applicable to outsourced manpower.\nFurthermore, an interview for the post of Telescope Operator (Highly Skilled) will be held on May 5, 2026, beginning at 10:00 AM at the same venue. Applicants for this specialized role are required to hold a B.Sc. in Physics/Chemistry/Mathematics/Information Technology/Electronics/BCA or an equivalent degree from a recognized University/institute with a minimum of 60% marks. The age limit for this position is capped at 30 years.\nCandidates are advised to report to the Administrative Office, Kodaikanal Solar Observatory, Indian Institute of Astrophysics, Kodaikanal – 624 103, along with their original certificates for mandatory verification. It is further clarified that no TA/DA will be provided for participating in the selection process. For additional details or clarifications, interested individuals may contact the authorities at 9052087403 or via email at ksoiiap06[at]gmail[dot]com.",
+      "summary": "The Kodaikanal Solar Observatory, Indian Institute of Astrophysics (IIA), is inviting eligible candidates for the engagement of outsourced manpower through authorized agencies. The recruitment drive will be conducted via walk-in interviews held at the Administrative Office in Kodaikanal for two distinct positions. A walk-in interview for the post of Security Guard is scheduled to take place on April 27, 2026, starting at 10:00 AM.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
       "section": "vertical"
     },
     {
@@ -1947,7 +2122,7 @@
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the virtue of Selfless Giving",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254741",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -1955,14 +2130,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "9e0ffaab183f75622eaef7d2f341f2f5",
       "title": "IIT Roorkee Facilitates Technology Transfer of Rural Innovations to Promote Sustainable Livelihoods",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254742",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Dehradun",
       "verticals": [],
       "primary_vertical": "",
@@ -1970,14 +2146,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "1e099f6bdb7c1c7c8727e035e66dc091",
       "title": "RM-led IGoM takes stock of West Asia situation & India’s preparedness",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2253373",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Chennai",
       "verticals": [],
       "primary_vertical": "",
@@ -1985,14 +2162,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "9d21837dd601edd4409e28ffd2b6667b",
       "title": "Dak Adalat to be held at Tiruvalla on May 8",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254761",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Thiruvananthapuram",
       "verticals": [],
       "primary_vertical": "",
@@ -2000,14 +2178,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "bda076b16e5a26a6112609c07ef8d2db",
       "title": "Vice President addresses 6th Convocation Ceremony of AIIMS Rishikesh",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254802",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2015,14 +2194,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "60ce6027a12df69c9d886399c904a25f",
       "title": "EMERGENCY LANDING FACILITY (ELF) ACTIVATION AT SULTANPUR ON PURVANCHAL EXPRESSWAY",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254796",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2030,14 +2210,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "ac1dde45c3905ecc74f67129f2bb4310",
       "title": "ENVOYS OF FOUR NATIONS PRESENT CREDENTIALS TO THE PRESIDENT OF INDIA",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254780",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2045,14 +2226,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "aef11f23d9bda592b608fd4332b7e7b4",
       "title": "Government Strengthens MSP Procurement in Chhattisgarh; Launches First-Ever Structured Pulse Procurement in Bihar under Atmanirbhar Mission",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254777",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2060,14 +2242,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "fe88d7743abc84a16c6c17921b58433e",
       "title": "11th Joint Defence Committee meeting between India & Egypt held in Cairo",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254773",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2075,14 +2258,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "5861878e588f67914e054c5d6a887886",
       "title": "Earth Day celebrated at Community College, Pondicherry University",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254779",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Chennai",
       "verticals": [],
       "primary_vertical": "",
@@ -2090,14 +2274,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "cf6d610b70518878203fc5bfb8d8ff0c",
       "title": "Authorities assure adequate LPG and Petroleum Stocks in Mizoram; Public Urged to Avoid Panic Buying and Rumours",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254785",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Mizoram",
       "verticals": [],
       "primary_vertical": "",
@@ -2105,14 +2290,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "f8f06ad953d1c6c1c19d67d31f497ce7",
       "title": "Online Registration for JEE (Advanced) 2026 to Commence from April 23",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254790",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Dehradun",
       "verticals": [],
       "primary_vertical": "",
@@ -2120,14 +2306,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "211592c21c528d5af1be62d5d9307d1a",
       "title": "Co-develop and co-produce with India in niche tech for secured national interests and global stability & resilience: Raksha Mantri to German industry captains in Munich",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254861",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2135,14 +2322,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "f5833612472cfa3d01d093531109d27a",
       "title": "PM condoles loss of lives in a mishap in Mirzapur, Uttar Pradesh",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254826",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2150,14 +2338,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "da5fa1aae619e10d45aedfa169ba6367",
       "title": "Prime Minister shares an article on how modernisation of railway tracks is powering a faster and more dependable network",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254818",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [
         "Political_Economy"
@@ -2169,14 +2358,15 @@
       "vertical_scores": {
         "Political_Economy": 1
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "058fd4265d9b9b2978471664266b32ee",
       "title": "E. P. F. O. - E. S. I. C. Mass Contact Programme",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254854",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Thiruvananthapuram",
       "verticals": [],
       "primary_vertical": "",
@@ -2184,14 +2374,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "a22203ed4329e60314535fe5f620a43e",
       "title": "IIT Jodhpur Scientists Develop Smart Theranostic Platforms, Combining Diagnosis and Treatment for Next-Generation Precision Healthcare",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254836",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Jaipur",
       "verticals": [],
       "primary_vertical": "",
@@ -2199,14 +2390,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "505c05a56350670ff6b3a10b3ddb2e38",
       "title": "Green Economy to Create New Avenues of 'Green Jobs' and 'Green Entrepreneurship', Youth to Play Key Role in India’s Sustainability-Driven Growth: Dr. Jitendra Singh",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254912",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [
         "Sustainability"
@@ -2218,14 +2410,15 @@
       "vertical_scores": {
         "Sustainability": 2
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "56c9a9dc1c776252672b6bbb8e5e94b8",
       "title": "Construction of Dehradun Bypass to Decongest Traffic and Strengthen Connectivity in Full Swing",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254900",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2233,14 +2426,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "07f617aac0311e14e2ff9785e50dd730",
       "title": "Union Minister Shri Jyotiraditya M. Scindia Interacts with Participants of Ashtalakshmi Darshan Youth Exchange Programme",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254870",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [
         "Political_Economy"
@@ -2252,14 +2446,15 @@
       "vertical_scores": {
         "Political_Economy": 1
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "132d056d1ac72d660a10453c8e8f86ec",
       "title": "The Northern Region Agriculture Conference is scheduled to take place on April 24, 2026 in Lucknow, in the presence of Union Agriculture Minister Shri Shivraj Singh Chouhan and Uttar Pradesh Chief Minister Shri Yogi Adityanath",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254867",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2267,14 +2462,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "a5528ca382d3a9babedbba432db559a3",
       "title": "Indian Oil Assures Uninterrupted Availability of Petroleum Products Across the Country",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254902",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Chennai",
       "verticals": [],
       "primary_vertical": "",
@@ -2282,14 +2478,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "7ec51b9fa1c584720d2119254c7d9a06",
       "title": "Updates on Key Sectors in View of Developments in West Asia",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2253310",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Chennai",
       "verticals": [],
       "primary_vertical": "",
@@ -2297,14 +2494,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "c0939e0b964089ae61913f806d908a6a",
       "title": "Indian Oil Assures Uninterrupted Availability of Petroleum Products Across the Country",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254905",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Thiruvananthapuram",
       "verticals": [],
       "primary_vertical": "",
@@ -2312,14 +2510,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "d31f717fc736b7ec09ad9cc1a9c8f8db",
       "title": "Census in Uttarakhand begin on April 10, 2026, with Governor Lieutenant General (Retd.) Gurmeet Singh undertaking the self-enumeration exercise",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2250444",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Dehradun",
       "verticals": [],
       "primary_vertical": "",
@@ -2327,14 +2526,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "fbf95258beef0885f2d6db1ea40f70bc",
       "title": "Inter-Ministerial Briefing on Recent Developments in West Asia",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254940",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2342,14 +2542,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "c227e6287cddcefe1cee4b1b9e612af7",
       "title": "Vice-President Shri C.P. Radhakrishnan Addresses 6th Convocation of AIIMS Rishikesh; Calls for Ethical, Compassionate and Future-Ready Healthcare Workforce",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254929",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2357,14 +2558,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "e05a3a240c1aff325eaa1f9b8aeed862",
       "title": "Union Minister Dr. Mansukh Mandaviya and MoS Smt. Raksha Nikhil Khadse to Lead Chintan Shivir of Youth Affairs and Sports Ministers in Srinagar from 24–26 April 2026",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254915",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2372,14 +2574,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "6bd59cc0205b2b209f3e3bb9e011e1a6",
       "title": "Income Tax Department, Mumbai to Conduct Outreach Programmes on the Income Tax Act, 2025 across the city",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254926",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Mumbai",
       "verticals": [],
       "primary_vertical": "",
@@ -2387,14 +2590,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "1ca29044cb56ca84b552381187911cd6",
       "title": "FIHAB-2026 Workshop-cum-Competition to Inspire Scientific Learning Among Students",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254921",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Mumbai",
       "verticals": [],
       "primary_vertical": "",
@@ -2402,14 +2606,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "4b9da8b464a8e4038ab2e51f024306a9",
       "title": "Fuel Supply in Karnataka Remains Stable Despite West Asian Developments: Assurance from Oil Marketing Companies",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254922",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Bengaluru",
       "verticals": [],
       "primary_vertical": "",
@@ -2417,14 +2622,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "5e9ac647528fe3e19e66d7d85fecf80b",
       "title": "Adequate Availability and Fully Normal Supply of Petroleum Products in Jharkhand",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254939",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Ranchi",
       "verticals": [],
       "primary_vertical": "",
@@ -2432,14 +2638,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "053eed48309db69e032d62e381d5d632",
       "title": "Senior Officials Lead Census Training in Tirupati, Emphasize Public Participation and Self-Enumeration",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254928",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Vijayawada",
       "verticals": [
         "Political_Economy"
@@ -2451,14 +2658,15 @@
       "vertical_scores": {
         "Political_Economy": 1
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "87f1c04ddb35c3eb6e7d59918847f672",
       "title": "Empowering Lives: NAMASTE Scheme Delivers Tangible Change for Sanitation Workers",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255017",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2466,14 +2674,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "c9aa14875df832ab0cfd571588daad86",
       "title": "NSKFDC Extends Concessional Finance of ₹223 Crore in FY 2025–26",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255011",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2481,14 +2690,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "23a29a51dd38fc09f1745ffed643af16",
       "title": "General Elections to Legislative Assemblies and bye-elections 2026",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255010",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2496,14 +2706,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "f0b111b7d5a139650dc1b2bfbee270dd",
       "title": "RRM Highlights Vital Role of Naval Civilians at Naval Civilian Function 2026 in Delhi",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255004",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2511,14 +2722,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "89619b0d014c20c4900f081bda53f878",
       "title": "CAQM carries out inspection drive to assess road dust and cleaning measures in Delhi",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254997",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2526,14 +2738,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "3372d819d1a18ae07feaa390f3cdac84",
       "title": "Lok Sabha Speaker stresses inclusive and value-based education",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254992",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2541,14 +2754,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "aeba6c3aea5bd0cecf4538de92aecef2",
       "title": "CGTMSE Leads Global Dialogue on Credit Guarantees, Reinforces Collateral-Free Credit Ecosystem for MSEs",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254986",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [
         "EooDB"
@@ -2560,14 +2774,15 @@
       "vertical_scores": {
         "EooDB": 3
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "1aa47263c990d8a1c7cb471394ff75ec",
       "title": "NCM Organizes National Seminar on the Contribution of Jain Community to the Indian Economy, Education and Philanthropy",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254976",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2575,14 +2790,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "84706ef393515fc72f4e843fd0fd9223",
       "title": "National Panchayati Raj Day to be celebrated Pan India on 24th April 2026",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254972",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2590,14 +2806,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "3066a533fc63b971197c923ddb6860c9",
       "title": "Union Minister of State for Commerce & Industry Shri Jitin Prasada Concludes Official Visit to the Czech Republic to Strengthen Bilateral Economic Cooperation",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254969",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2605,14 +2822,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "e041b6a677d912829f0c55923d40632b",
       "title": "Prime Minister condoles loss of lives in an accident in Tehri Garhwal, Uttarakhand",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254966",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2620,14 +2838,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "41890b4c10252d0b72f26c00ed52c66a",
       "title": "Railway Minister Ashwini Vaishnaw Reviews Running of Additional Trains during Summer Season",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254964",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2635,14 +2854,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "a265da900206610d6b895e8c5257d509",
       "title": "BSNL Annual Results FY 2025-26 Reviewed",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254958",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2650,14 +2870,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "20fed8ea1b3b222716d21f2b63e24078",
       "title": "NMDC Leadership Meets Dantewada Panchayat Heads, Promises Action on Water, Electricity and Roads",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254955",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2665,14 +2886,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "148883d150d569175ff24c41ce182b36",
       "title": "Bharat Coking Coal Limited Introduces PI Relaxation and Cash Discount Scheme for Power Sector Consumers in Q1 FY 2026-27",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254953",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2680,14 +2902,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "622d31b91523ff95d8923429b47a5a81",
       "title": "Defence Secretary Inaugurates the Robotic Orthopaedic System and Maternity Operation Theatre at Cantonment General Hospital, Delhi",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254952",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2695,14 +2918,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "b9d5bea4698ab518aa40aea07bb7d636",
       "title": "Insurance for All: Expanding Coverage, Strengthening Social Security",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254950",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2710,14 +2934,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "cd833adae4bb5047b207e4bc08bde259",
       "title": "Union Minister Jayant Chaudhary Reviews NEP 2020 Implementation and Education Reforms at SCERT Maharashtra",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254948",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2725,14 +2950,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "8759ad2fe64e6cb230762f1a7ab43d59",
       "title": "School of Skill Education, TISS Hosts Conferment Ceremony in Mumbai",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254979",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Mumbai",
       "verticals": [],
       "primary_vertical": "",
@@ -2740,14 +2966,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "d2b50e69e4fb08354b077e36e4896719",
       "title": "Union Minister Jayant Chaudhary Reviews NEP 2020 Implementation and Education Reforms at SCERT Maharashtra",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254949",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Mumbai",
       "verticals": [],
       "primary_vertical": "",
@@ -2755,14 +2982,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "2ca8cfd6c90d57d0770d5a580a7b7f09",
       "title": "Oil Marketing Companies assure adequate availability of fuel and LPG in Goa",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254945",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Mumbai",
       "verticals": [],
       "primary_vertical": "",
@@ -2770,14 +2998,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "a0d636e2a641bda9e095cfc8ee4185c2",
       "title": "IndianOil assures Uninterrupted Availability of Petroleum Products across Country",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254944",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Kolkata",
       "verticals": [],
       "primary_vertical": "",
@@ -2785,14 +3014,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "7d72708f358c8d95832c6379659b5cbf",
       "title": "Aquaex Northeast 2026 with NFDB support to Boost Fisheries Value Chain in the Region",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254973",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Shillong",
       "verticals": [],
       "primary_vertical": "",
@@ -2800,14 +3030,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "2e0c59015e7aa4b495d7a195461aaca8",
       "title": "AIIMS RAIPUR SURGEONS SUCCESSFULLY REIMPLANT AMPUTATED HAND IN COMPLEX EMERGENCY PROCEDURE",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254954",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Raipur",
       "verticals": [],
       "primary_vertical": "",
@@ -2815,14 +3046,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "fd0c59b592e5dc6b7e71b0d8463fb166",
       "title": "IIT Bhilai Study Links Neutrino Physics with Quantum Entanglement, Opens New Window into Matter–Antimatter Mystery",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254946",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Raipur",
       "verticals": [],
       "primary_vertical": "",
@@ -2830,14 +3062,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "cfcbe089180530d3640f53b76be719cb",
       "title": "Minister Ram Mohan Naidu chairs high-level stakeholder meeting at Delhi Airport",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255045",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2845,14 +3078,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "bf52e9e81a84d9c952b261bea3243da8",
       "title": "Government Brings SAF-Blended Aviation Fuel Under ATF Control Order",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255021",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -2860,14 +3094,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "05ba4b9ebffcafbffaaf3ede592f54f3",
       "title": "Construction of 12 km Greenfield Bypass by NHAI to decongest Dehradun traffic in full swing",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255046",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Dehradun",
       "verticals": [],
       "primary_vertical": "",
@@ -2875,14 +3110,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "02e0751a45ee8a2fdb5fd92a9c0fdb5b",
       "title": "Nitin Seth Highlights Importance Of AI At Doon Lit Fest; Over 1,200 Students Participate At Children’s Pavilion",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2251387",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Dehradun",
       "verticals": [
         "Political_Economy"
@@ -2894,14 +3130,15 @@
       "vertical_scores": {
         "Political_Economy": 1
       },
-      "section": "vertical"
+      "section": "vertical",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "00302f31119f3ed2d4cfadddd493fb7c",
       "title": "Shri Suresh Battini, IRS assumes Charge as Principal Chief Commissioner of Income Tax, Andhra Pradesh & Telangana",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2252249",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Hyderabad",
       "verticals": [],
       "primary_vertical": "",
@@ -2909,14 +3146,15 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     },
     {
       "id": "58ae435ceaaec1327cda8b3ac46dd945",
       "title": "Updates on Key Sectors in View of Developments in West Asia",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2253552",
       "date": "2026-04-23",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Chennai",
       "verticals": [],
       "primary_vertical": "",
@@ -2924,17 +3162,18 @@
       "snippet": "",
       "full_content": "",
       "vertical_scores": {},
-      "section": "other"
+      "section": "other",
+      "scraped_date": "2026-04-23"
     }
   ],
   "other_count": 145,
   "vertical_counts": {
     "EooDB": 5,
-    "CoDED": 1,
+    "CoDED": 2,
     "iLEAP": 5,
     "ELS": 1,
-    "Sustainability": 5,
-    "Political_Economy": 11
+    "Sustainability": 6,
+    "Political_Economy": 12
   },
   "regions_scraped": 23,
   "verticals": {
