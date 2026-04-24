@@ -555,6 +555,11 @@ def scrape_all_regions() -> list:
                     "title":            title,
                     "url":              url,
                     "date":             date_str,
+                    # scraped_date: IST calendar date when this article was
+                    # first fetched. Used by the frontend as a hard upper bound —
+                    # an article can never appear in a bucket newer than the day
+                    # it was scraped, and is dropped after 3 IST days from this date.
+                    "scraped_date":     ist_date_today(),
                     "relative_time":    relative_time(date_str),
                     "region":           region_name,
                     "verticals":        sorted(scores.keys()),
@@ -599,14 +604,25 @@ def load_existing(path: str) -> list:
         return []
 
 def merge_releases(existing: list, fresh: list) -> list:
-    allowed = allowed_ist_dates()
+    allowed   = allowed_ist_dates()
+    today_ist = ist_date_today()
 
+    # ── PRUNE: drop any article whose publication date is outside the 3-day IST window
     before_prune = len(existing)
     existing = [r for r in existing if r.get("date", "") in allowed]
     pruned = before_prune - len(existing)
     if pruned:
         log.info("Pruned %d stale articles from existing pool (IST window: %s)",
                  pruned, sorted(allowed))
+
+    # ── REFRESH: re-stamp relative_time on every surviving article so that
+    #    "Today" correctly becomes "Yesterday" on subsequent scraper runs.
+    #    Also backfill scraped_date for legacy articles that predate this field.
+    for r in existing:
+        r["relative_time"] = relative_time(r.get("date", ""))
+        if "scraped_date" not in r:
+            # Backfill: treat publication date as scraped_date for legacy articles
+            r["scraped_date"] = r.get("date", today_ist)
 
     by_id = {r["id"]: r for r in existing}
     added = 0
@@ -677,7 +693,7 @@ def write_output(releases: list, path: str) -> None:
 
 def main() -> None:
     log.info("=" * 60)
-    log.info("PIF PIB Scraper — starting (v3)")
+    log.info("PIF PIB Scraper — starting (v4)")
     log.info("Regions: %d  |  Window: last %d IST calendar days  |  Output: %s",
              len(PIB_RSS_FEEDS), KEEP_IST_DAYS, OUTPUT_PATH)
     log.info("=" * 60)
