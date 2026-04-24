@@ -26,6 +26,7 @@
       --white-10:    rgba(0,0,0,0.10);
       --white-20:    rgba(0,0,0,0.20);
       --rule:        rgba(0,0,0,0.10);
+      font-size: 16px;
       font-family: 'DM Sans', sans-serif;
       color: #1a1a1a;
     }
@@ -65,11 +66,11 @@
         rgba(245,245,245,0.95) 0%,
         rgba(238,238,238,0.92) 100%);
       border-bottom: 1px solid rgba(0,0,0,0.08);
-      padding: 0 2.5rem;
+      padding: 0 1.5rem;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      height: 38px;
+      height: 36px;
       position: sticky;
       top: 0;
       z-index: 600;
@@ -81,12 +82,12 @@
       align-items: center;
       gap: 0.5rem;
       font-family: 'DM Mono', monospace;
-      font-size: 0.6rem;
+      font-size: 0.72rem;
       letter-spacing: 0.1em;
       color: #555555;
       text-decoration: none;
       text-transform: uppercase;
-      padding: 0.2rem 0.75rem 0.2rem 0.5rem;
+      padding: 0.5rem 1.2rem;
       border: 1px solid rgba(255,255,255,0.08);
       border-radius: 4px;
       background: rgba(255,255,255,0.70);
@@ -114,7 +115,7 @@
     }
     .back-crumb {
       font-family: 'DM Mono', monospace;
-      font-size: 0.56rem;
+      font-size: 0.72rem;
       color: rgba(255,255,255,0.22);
       letter-spacing: 0.06em;
     }
@@ -128,25 +129,25 @@
         rgba(245,245,245,0.98) 0%,
         rgba(238,238,238,0.96) 100%);
       border-bottom:1px solid rgba(0,0,0,0.10);
-      position:sticky; top:38px; z-index:500;
+      position:sticky; top:36px; z-index:500;
       backdrop-filter:blur(24px);
       -webkit-backdrop-filter:blur(24px);
     }
     .masthead-inner {
       display:flex; align-items:center;
       justify-content:space-between;
-      padding:0 2.5rem; height:76px;
+      padding:0 2.5rem; min-height:72px;
     }
 
     /* brand */
     .brand { display:flex; align-items:center; gap:14px; text-decoration:none; }
     .brand-emblem {
-      height: 44px;
+      height: 48px;
       display: flex;
       align-items: center;
     }
     .brand-emblem img {
-      height: 38px;
+      height: 48px;
       width: auto;
       object-fit: contain;
       filter: none;
@@ -161,13 +162,13 @@
     .brand-words { display:flex; flex-direction:column; gap:3px; }
     .brand-title {
       font-family:'Playfair Display',serif;
-      font-size:1.22rem; font-weight:700;
+      font-size:1.4rem; font-weight:700;
       color:#1a1a1a; letter-spacing:-0.02em; line-height:1;
     }
     .brand-title em { font-style:italic; color:var(--orange); }
     .brand-subtitle {
       font-family:'DM Sans',sans-serif;
-      font-size:0.6rem; font-weight:400;
+      font-size:0.72rem; font-weight:400;
       color:var(--slate); letter-spacing:0.01em;
     }
     .brand-subtitle strong { color:rgba(20,20,20,0.52); font-weight:500; }
@@ -175,10 +176,10 @@
     /* meta chips */
     .masthead-right { display:flex; align-items:center; gap:0.65rem; }
     .meta-chip {
-      font-family:'DM Mono',monospace; font-size:0.57rem;
+      font-family:'DM Mono',monospace; font-size:0.72rem;
       color:var(--slate); letter-spacing:0.04em;
       background:rgba(255,255,255,0.70); border:1px solid rgba(0,0,0,0.10);
-      padding:0.28rem 0.65rem; border-radius:5px;
+      padding:0.35rem 0.85rem; border-radius:5px;
     }
     .meta-chip strong { color:rgba(20,20,20,0.68); font-weight:500; }
 
@@ -188,7 +189,7 @@
       align-items: center;
       gap: 0.4rem;
       font-family: 'DM Mono', monospace;
-      font-size: 0.53rem;
+      font-size: 0.68rem;
       font-weight: 500;
       letter-spacing: 0.1em;
       text-transform: uppercase;
@@ -196,7 +197,7 @@
       background: rgba(74,222,128,0.12);
       border: 1px solid rgba(74,222,128,0.22);
       border-radius: 20px;
-      padding: 0.22rem 0.65rem;
+      padding: 0.35rem 0.85rem;
     }
     .live-dot {
       width: 5px;
@@ -217,13 +218,13 @@
         rgba(237,105,31,0.08) 0%, rgba(200,72,5,0.06) 100%);
       border-top: 1px solid rgba(237,105,31,0.12);
       border-bottom: 1px solid rgba(237,105,31,0.08);
-      height:32px; display:flex; align-items:center;
+      height:34px; display:flex; align-items:center;
       overflow:hidden;
     }
     .ticker-label {
-      font-family:'DM Mono',monospace; font-size:0.48rem;
+      font-family:'DM Mono',monospace; font-size:0.68rem;
       font-weight:500; letter-spacing:0.22em; color:var(--orange);
-      padding:0 1.2rem; border-right:1px solid rgba(237,105,31,0.2);
+      padding:0 18px; border-right:1px solid rgba(237,105,31,0.2);
       white-space:nowrap; flex-shrink:0; text-transform:uppercase;
     }
     .ticker-track { flex:1; overflow:hidden; }
@@ -247,7 +248,7 @@
 
     /* ══ VERTICAL FILTER RIBBON ═══════════════════════════════ */
     .filter-ribbon {
-      position:sticky; top:114px; z-index:400;
+      position:sticky; top:146px; z-index:400;
       background:linear-gradient(180deg,
         rgba(242,242,242,0.98) 0%,
         rgba(236,236,236,0.97) 100%);
@@ -258,12 +259,12 @@
     }
     .ribbon-inner {
       display:flex; align-items:center;
-      height:50px; gap:0;
+      height:52px; gap:0;
       overflow-x:auto; -ms-overflow-style:none; scrollbar-width:none;
     }
     .ribbon-inner::-webkit-scrollbar { display:none; }
     .ribbon-label {
-      font-family:'DM Mono',monospace; font-size:0.49rem;
+      font-family:'DM Mono',monospace; font-size:0.72rem;
       color:var(--slate); letter-spacing:0.14em;
       text-transform:uppercase; white-space:nowrap;
       margin-right:1rem; flex-shrink:0; opacity:0.7;
@@ -272,13 +273,13 @@
     /* pill buttons */
     .filter-btn {
       display:inline-flex; align-items:center; gap:0.4rem;
-      padding:0.28rem 0.85rem;
+      padding:0.5rem 1.25rem;
       background:none; border:1px solid transparent; border-radius:20px;
       cursor:pointer; white-space:nowrap; flex-shrink:0;
-      font-family:'DM Mono',monospace; font-size:0.62rem;
+      font-family:'DM Mono',monospace; font-size:0.72rem;
       color:var(--slate);
       transition:all 0.14s ease;
-      margin-right:0.28rem;
+      margin-right:0.5rem;
     }
     .filter-btn:hover {
       color:#1a1a1a;
@@ -303,10 +304,10 @@
     }
 
     .region-select {
-      font-family:'DM Mono',monospace; font-size:0.61rem;
+      font-family:'DM Mono',monospace; font-size:0.72rem;
       color:#555555; background:rgba(255,255,255,0.80);
       border:1px solid rgba(0,0,0,0.12); border-radius:5px;
-      padding:0.24rem 0.55rem; cursor:pointer; outline:none; flex-shrink:0;
+      padding:0.4rem 1rem; cursor:pointer; outline:none; flex-shrink:0;
     }
     .region-select:focus { border-color:rgba(237,105,31,0.45); color:#1a1a1a; }
     .region-select option { background:#f0f0f0; color:#1a1a1a; }
@@ -325,8 +326,8 @@
       transform:translateY(-50%); color:var(--slate); pointer-events:none;
     }
     .search-input {
-      width:100%; padding:0.52rem 0.75rem 0.52rem 2.2rem;
-      font-family:'DM Sans',sans-serif; font-size:0.82rem;
+      width:100%; height:48px; padding:0.75rem 1rem 0.75rem 2.8rem;
+      font-family:'DM Sans',sans-serif; font-size:0.95rem;
       border:1px solid rgba(0,0,0,0.12); background:rgba(255,255,255,0.80);
       color:#1a1a1a; outline:none; border-radius:7px;
       backdrop-filter:blur(8px);
@@ -348,11 +349,11 @@
     .stat:first-child { padding-left:0; }
     .stat-num {
       font-family:'Playfair Display',serif;
-      font-size:1.55rem; font-weight:700;
+      font-size:2.2rem; font-weight:700;
       color:var(--orange); display:block; line-height:1;
     }
     .stat-lbl {
-      font-family:'DM Mono',monospace; font-size:0.48rem;
+      font-family:'DM Mono',monospace; font-size:0.65rem;
       color:var(--slate); letter-spacing:0.12em;
       text-transform:uppercase; margin-top:0.22rem; display:block;
     }
@@ -691,15 +692,15 @@
           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
         />
         <!-- Fallback emblem if SVG fails to load -->
-        <div style="display:none; width:38px; height:38px; border-radius:8px;
+        <div style="display:none; width:48px; height:48px; border-radius:8px;
           background:linear-gradient(135deg,#f0f0f0,#e4e4e4);
           border:1.5px solid rgba(237,105,31,0.4);
           align-items:center; justify-content:center;">
-          <svg viewBox="0 0 36 36" width="22" height="22" fill="none">
-            <circle cx="18" cy="18" r="14" stroke="#ed691f" stroke-width="2" opacity="0.55"/>
-            <text x="18" y="25" text-anchor="middle"
+          <svg viewBox="0 0 48 48" width="48" height="48" fill="none">
+            <circle cx="24" cy="24" r="18" stroke="#ed691f" stroke-width="2" opacity="0.55"/>
+            <text x="24" y="32" text-anchor="middle"
                   font-family="'Playfair Display',Georgia,serif"
-                  font-size="17" font-weight="700" fill="#ed691f">P</text>
+                  font-size="24" font-weight="700" fill="#ed691f">P</text>
           </svg>
         </div>
       </div>
