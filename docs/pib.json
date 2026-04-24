@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-24T07:22:56Z",
-  "last_updated_ist": "24 Apr 2026, 12:52 PM IST",
-  "total": 375,
+  "last_updated": "2026-04-24T07:43:39Z",
+  "last_updated_ist": "24 Apr 2026, 01:13 PM IST",
+  "total": 376,
   "articles": [
     {
       "id": "4a40c7f57da57fc469f4fcab48a802f8",
@@ -4916,6 +4916,27 @@
       "section": "vertical"
     },
     {
+      "id": "8d598ce31ffe9808b773a7090f8a7cd4",
+      "title": "NHRC, India takes suo motu cognizance of the reported death of 18 workers and injuries to six others in an explosion at a private firecracker manufacturing unit in Kattanarpatti area of Virudhunagar district, Tamil Nadu",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255208",
+      "date": "2026-04-24",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EooDB"
+      ],
+      "primary_vertical": "EooDB",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Issues notices to the Chief Secretary, Tamil Nadu and the Superintendent of Police, Virudhunagar, calling for a detailed report on the matter within two weeks The report to include the status of health of the injured persons, investigation of the case and compensation, if any, has been paid to the NoK of the deceased and the injured persons\nThe National Human Rights Commission (NHRC), India has taken suo motu cognizance of a media report that at least 18 workers died and six others were injured in an explosion at a private firecracker manufacturing unit in the Kattanarpatti area of the Virudhunagar district, Tamil Nadu. Reportedly, more than 100 workers including women were present at the factory complex when the incident occurred on 19 th April 2026. The blast was allegedly triggered due to friction during the chemical mixing and manufacturing process. Reportedly, in a recent similar incident in the district, four persons had died.\nThe Commission has observed that the contents of the news report, if true, raise serious issues of human rights violations of the victims. Therefore, it has issued notices to the Chief Secretary, Tamil Nadu and the Superintendent of Police, Virudhunagar, calling for a detailed report on the matter within two weeks. It should include the status of health of the injured persons, investigation of the case and compensation, if any, has been paid to the NoK of the deceased and the injured persons.\nAccording to the media report, carried on 20 th April 2026, the injured workers were shifted to the Virudhunagar Government Medical College Hospital.",
+      "summary": "Issues notices to the Chief Secretary, Tamil Nadu and the Superintendent of Police, Virudhunagar, calling for a detailed report on the matter within two weeks The report to include the status of health of the injured persons, investigation of the case and compensation, if any, has been paid to the NoK of the deceased and the injured persons The National Human Rights Commission (NHRC), India has taken suo motu cognizance of a media report that at least 18 workers died and six others were injured in an explosion at a private firecracker manufacturing unit in the Kattanarpatti area of the Virudhunagar district, Tamil Nadu. Reportedly, more than 100 workers including women were present at the factory complex when the incident occurred on 19 th April 2026. The blast was allegedly triggered due to friction during the chemical mixing and manufacturing process.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
       "id": "2656aeda99d422da0e29fee1e5d1e45e",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the virtue of Selfless Giving",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2254741",
@@ -6379,7 +6400,7 @@
   ],
   "other_count": 327,
   "vertical_counts": {
-    "EooDB": 13,
+    "EooDB": 14,
     "CoDED": 3,
     "iLEAP": 6,
     "ELS": 4,
