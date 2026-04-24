@@ -469,6 +469,7 @@
       transition:opacity 0.14s;
     }
     .card-link:hover { opacity:1; text-decoration:underline; }
+    .mob-back-btn { display: none; }
 
     .sentiment {
       font-family:'DM Mono',monospace; font-size:0.65rem;
@@ -683,12 +684,23 @@
       .brand-subtitle   { display: none; }
       .brand-title      { font-size: 1rem; }
 
-      /* masthead-right: live badge + releases count only */
+      /* masthead-right: show only the ← News back button */
       .masthead-right { gap: 0.4rem; flex-shrink: 0; }
-      /* hide "Updated…" chip (2nd child), keep live-badge and releases count */
+      .live-badge                        { display: none; }
       .masthead-right > div:nth-child(2) { display: none; }
-      .meta-chip { font-size: 0.62rem; padding: 0.25rem 0.55rem; }
-      .live-badge { font-size: 0.6rem; padding: 0.25rem 0.55rem; }
+      .masthead-right > div:nth-child(3) { display: none; }
+      .mob-back-btn {
+        display: inline-block;
+        font-family: 'DM Mono', monospace;
+        font-size: 0.65rem;
+        color: var(--slate);
+        border: 1px solid rgba(0,0,0,0.18);
+        padding: 0.3rem 0.75rem;
+        border-radius: 3px;
+        text-decoration: none;
+        letter-spacing: 0.05em;
+        white-space: nowrap;
+      }
 
       /* ticker: compact — sticky total so far: 50px masthead-inner */
       .ticker-strip { height: 28px; }
@@ -743,6 +755,12 @@
       .date-group-grid .card.featured { grid-column: span 1; }
       .card { padding: 1rem 1.1rem; border-radius: 12px; }
       .card-title { font-size: 0.88rem !important; }
+      .card-summary {
+        -webkit-line-clamp: 3;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
 
       /* search: full width */
       .search-wrap { min-width: 100%; }
@@ -822,6 +840,7 @@
       </div>
       <div class="meta-chip">Updated <strong id="last-updated">—</strong></div>
       <div class="meta-chip"><strong id="total-count">—</strong> releases</div>
+      <a class="mob-back-btn" href="https://pif-news-aggregator-fwn8.vercel.app/" target="_blank" rel="noopener">← News</a>
     </div>
 
   </div>
