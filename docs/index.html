@@ -626,7 +626,9 @@ function allowedISTDates() {
 function getFiltered() {
   const allowed = allowedISTDates();
   return allArticles.filter(a => {
-    if (a.date && !allowed.has(a.date)) return false;
+    // STRICT: must have a date AND it must be within the allowed window
+    if (!a.date || !allowed.has(a.date)) return false;
+
     const pv = a.primary_vertical || '';
     if (activeV === 'other') {
       if (pv && a.section !== 'other') return false;
@@ -665,12 +667,21 @@ function render() {
   empty.style.display = 'none';
   grid.style.display  = 'block';
 
+  // Group by date
   const byDate = {};
   filtered.forEach(a => {
-    const d = a.date || 'unknown';
+    const d = a.date; // always valid after getFiltered()
     if (!byDate[d]) byDate[d] = [];
     byDate[d].push(a);
   });
+
+  // Sort each group by relevance_score desc, then title asc as tiebreak
+  Object.values(byDate).forEach(group => {
+    group.sort((a, b) => (b.relevance_score || 0) - (a.relevance_score || 0)
+                      || (a.title || '').localeCompare(b.title || ''));
+  });
+
+  // Dates newest first
   const sortedDates = Object.keys(byDate).sort().reverse();
 
   let html = '', cardIndex = 0;
@@ -686,7 +697,7 @@ function render() {
       const pv       = a.primary_vertical || 'other';
       const col      = color(pv);
       const lbl      = normalise(pv) === 'other' ? 'Other' : normalise(pv);
-      const when     = timeAgo(a.date) || '';
+      const when     = timeAgo(a.date);
       const region   = (a.region||'').toUpperCase();
       const sentHtml = a.sentiment==='up'   ? ' <span class="sentiment up">↑</span>'
                      : a.sentiment==='down' ? ' <span class="sentiment down">↓</span>'
