@@ -96,46 +96,15 @@ VERTICALS = {
         "color": "#E8620A",
         "emoji": "🏭",
         "keywords": [
-            "ease of doing business", "eodb", "business reform",
-            "regulatory reform", "single window clearance",
-            "business facilitation", "investor facilitation",
-            "compliance burden", "compliance reduction",
-            "decriminalization", "decriminalisation",
-            "license reform", "permit reform",
-            "business registration", "company registration",
-            "msme registration", "udyam registration",
-            "national single window", "nsws", "invest india",
-            "faceless assessment", "digital approval",
-            "industrial licensing", "environmental clearance reform",
-            "building permit reform", "contract enforcement",
-            "commercial courts", "insolvency resolution",
-            "ibc reform", "bankruptcy code", "nclt reform",
-            "fdi policy", "foreign direct investment policy",
-            "investment climate", "doing business ranking",
-            "brap", "business reform action plan",
-            "state business ranking", "dpiit",
-            "industrial policy", "manufacturing policy",
-            "industrial corridor", "special economic zone", "sez",
-            "industrial park", "pli scheme",
-            "production linked incentive",
-            "make in india", "startup policy",
-            "logistics policy", "pm gati shakti",
-            "multimodal logistics", "national logistics policy",
-            "mudra scheme", "stand up india",
-            "credit guarantee", "cgtmse", "msme credit",
-            "labour code", "industrial relations code",
-            "wage code", "labour law", "shram suvidha",
-            "gst simplification", "tax reform",
-            "faceless appeal", "direct tax reform",
-            "gst council", "gst rate rationalisation",
-            "export promotion", "export competitiveness",
-            "import substitution", "trade policy",
-            "free trade agreement", "fta",
-            "anti-dumping", "customs duty reform",
-            "trade facilitation", "rare earth", "lithium",
-            "critical mineral", "semiconductor manufacturing",
-            "electronics manufacturing", "garment export",
-            "textile industry",
+            "msme", "pli", "ease of doing business", "make in india",
+            "fta", "export", "manufacturing", "gst", "investment",
+            "startup", "semiconductor", "logistics", "import duty",
+            "anti-dumping", "wto", "sez", "regulatory reform",
+            "dpiit", "commerce", "production linked incentive",
+            "free trade agreement", "special economic zone",
+            "foreign direct investment", "fdi", "industrial corridor",
+            "trade policy", "customs duty", "business reform",
+            "industrial policy", "msme credit", "udyam",
         ]
     },
     "CoDED": {
@@ -143,42 +112,14 @@ VERTICALS = {
         "color": "#2471A3",
         "emoji": "📊",
         "keywords": [
-            "economic data", "statistical data", "official statistics",
-            "data governance", "data policy", "data infrastructure",
-            "national data", "government data", "public data",
-            "national statistical office", "nso", "mospi",
-            "ministry of statistics", "central statistics office",
-            "nsso", "national sample survey",
-            "economic census", "annual survey of industries",
-            "national statistical commission",
-            "population census", "census data",
-            "census 2021", "census 2026", "digital census",
-            "gdp data", "gdp growth estimate", "gdp revision",
-            "gross domestic product data", "gdp base year",
-            "inflation data", "cpi data", "consumer price index data",
-            "wpi data", "wholesale price index data",
-            "iip data", "index of industrial production",
-            "periodic labour force survey", "plfs report",
-            "consumption expenditure survey", "hces",
-            "national accounts statistics",
-            "advance estimate gdp", "data quality",
-            "statistical methodology", "base year revision",
-            "sampling methodology", "price statistics",
-            "data analytics platform", "ai governance framework",
-            "data exchange", "data sharing framework",
-            "open data policy", "open government data",
-            "data protection law", "data privacy regulation",
-            "pdp bill", "digital personal data protection",
-            "dpdp act", "national data governance",
-            "gst data", "tax data statistics",
-            "e-way bill statistics", "gstn data",
-            "mca21", "epfo statistics",
-            "economic survey india", "rbi annual report",
-            "rbi monetary policy report", "rbi bulletin",
-            "statistical yearbook india", "sdg india index",
-            "ndap", "national data analytics platform",
-            "data catalogue", "data.gov.in",
-            "unified data platform", "india data portal",
+            "gdp", "mospi", "nso", "inflation", "cpi", "wpi", "iip",
+            "plfs", "economic survey", "census", "statistical",
+            "economic data", "economic growth", "national accounts",
+            "base year", "economic indicators", "national statistical",
+            "consumer price index", "wholesale price index",
+            "index of industrial production", "labour force survey",
+            "gross domestic product", "economic census",
+            "data governance", "national data", "data policy",
         ]
     },
     "iLEAP": {
@@ -186,124 +127,30 @@ VERTICALS = {
         "color": "#C0392B",
         "emoji": "🩺",
         "keywords": [
-            "lead poisoning", "lead exposure", "lead contamination",
-            "blood lead level", "bll", "lead paint", "lead in paint",
-            "lead battery", "lead acid battery", "battery recycling lead",
-            "lead smelting", "lead pollution", "lead toxicity",
-            "lead free paint", "lead elimination", "lead phase out",
-            "childhood lead", "lead testing", "lead screening",
-            "lead abatement", "lead remediation",
-            "lead in fuel", "leaded petrol",
-            "lead paint standard", "toy safety lead",
-            "cosmetic lead", "fssai lead",
-            "lead in spices", "lead paint ban", "lead safe",
-            "heavy metal contamination", "heavy metal pollution",
-            "heavy metal toxicity", "mercury contamination",
-            "cadmium contamination", "arsenic contamination",
-            "chromium contamination", "toxic metal",
-            "neurotoxic metal", "hazardous substance regulation",
-            "hpv vaccine", "cervical cancer", "vaccination programme",
-            "public health india", "preterm birth", "maternal health",
-            "garbh-ini", "infant mortality", "child mortality",
-            "nutrition policy", "malnutrition", "anaemia",
-            "universal health coverage", "ayushman bharat",
-            "generic medicine", "drug pricing", "pharmaceutical policy",
-            "air pollution health", "pm2.5",
-            "menstrual leave", "women health policy",
-            "reproductive health", "mental health india",
-            "suicide prevention", "alcohol tobacco policy",
-            "tobacco control", "cotpa",
-            "non communicable disease", "ncd", "diabetes india",
-            "cancer screening", "esic health",
-            "pollution control board", "cpcb",
-            "industrial effluent", "hazardous waste",
-            "e-waste lead", "soil contamination",
-            "groundwater arsenic", "water contamination",
-            "occupational health", "worker health safety",
+            "lead poisoning", "lead paint", "lead exposure",
+            "public health", "ayushman", "maternal health",
+            "malnutrition", "vaccination", "air pollution", "icmr",
+            "health budget", "health policy", "cervical cancer",
+            "poshan", "anaemia", "immunisation", "generic medicine",
+            "jan aushadhi", "tobacco", "mental health",
+            "health scheme", "ministry of health", "healthcare",
+            "child health", "immunization", "health program",
+            "pm2.5", "non communicable disease", "ncd",
         ]
     },
-    "Political_Economy": {
-        "label": "Political Economy & Governance",
-        "color": "#117A65",
-        "emoji": "🏛️",
-        "keywords": [
-            "political economy", "governance reform",
-            "institutional reform", "policy implementation",
-            "state capacity", "public administration",
-            "decentralisation", "decentralization",
-            "federalism india", "cooperative federalism",
-            "centre state relations",
-            "public policy india", "administrative reform",
-            "civil service reform", "electoral reform",
-            "district administration", "state government policy",
-            "urban governance", "municipal reform",
-            "psu reform", "public sector undertaking",
-            "judicial reform", "data protection india", "dpdp act",
-            "digital governance india", "ai regulation india",
-            "india foreign policy", "india diplomacy",
-            "geopolitical risk", "india strategic autonomy",
-            "wto ministerial", "wto india", "multilateral trade",
-            "election commission", "governance index",
-            "transparency india", "anti-corruption",
-            "vigilance commission", "right to information", "rti",
-            "lokpal", "lokayukta",
-            "direct benefit transfer", "dbt",
-            "niti aayog", "cabinet committee",
-        ]
-    },
-    "Jobs_Livelihood": {
+    "ELS": {
         "label": "Jobs, Livelihoods & Women in Work",
         "color": "#7D3C98",
         "emoji": "💼",
         "keywords": [
-            "employment generation", "job creation",
-            "unemployment rate", "unemployment data",
-            "labour market reform", "workforce development",
-            "employment scheme", "employment program",
-            "net employment", "new jobs created",
-            "minimum wage revision", "minimum wage notification",
-            "wage board", "wage revision", "equal remuneration",
-            "floor wage", "national floor wage",
-            "skill development scheme", "skill training program",
-            "vocational training scheme", "skill india mission",
-            "pmkvy", "pradhan mantri kaushal vikas yojana",
-            "iti training", "iti upgradation",
-            "polytechnic scheme", "nsqf",
-            "apprenticeship scheme", "apprenticeship promotion",
-            "recognition of prior learning", "nsdc",
-            "sector skill council", "skill certification",
-            "mahatma gandhi nrega", "mgnregs", "mnrega",
-            "urban employment scheme", "ddu-gky", "rsetis",
-            "pmegp", "pm rojgar", "pm internship scheme",
-            "national career service",
-            "informal sector workers", "informal economy policy",
-            "street vendors scheme", "pm svnidhi",
-            "unorganized workers", "e-shram registration",
-            "labour welfare scheme", "worker welfare fund",
-            "construction worker welfare", "building worker cess",
-            "esi scheme", "esic benefit", "epfo scheme",
-            "employee provident fund", "social security worker",
-            "labour pension scheme", "pm shram yogi mandhan",
-            "women employment scheme", "women workforce participation",
-            "female labour force participation", "working women hostel",
-            "maternity benefit scheme", "women entrepreneur scheme",
-            "self help group livelihood", "shg employment",
-            "pradhan mantri mahila", "women self employment",
-            "migrant worker welfare", "migrant labour policy",
-            "gig worker rights", "platform worker policy",
-            "interstate migrant worker", "labour migration policy",
-            "one nation one ration", "onorc",
-            "gig economy regulation", "platform economy policy",
-            "plfs report", "periodic labour force survey",
-            "employment statistics", "labour statistics india",
-            "labour force participation rate", "lfpr data",
-            "quarterly employment survey",
-            "textile employment", "domestic workers rights",
-            "plantation labour welfare", "contract labour regulation",
-            "youth employment scheme", "youth unemployment data",
-            "internship scheme government", "apprenticeship act",
-            "lakhpati didi", "orunodoi",
-            "women in stem", "gender pay gap india",
+            "employment", "nrega", "mgnregs", "gig workers",
+            "women workforce", "skill development", "pmkvy",
+            "informal sector", "shg", "labour", "minimum wage",
+            "mudra", "rozgar", "unemployment", "vocational",
+            "job creation", "livelihood", "self help group",
+            "skill india", "women employment", "female workforce",
+            "pradhan mantri kaushal", "labour market",
+            "e-shram", "esic", "epfo", "lakhpati didi",
         ]
     },
     "Sustainability": {
@@ -311,45 +158,32 @@ VERTICALS = {
         "color": "#1E8449",
         "emoji": "🌱",
         "keywords": [
-            "regenerative farming", "climate change india",
-            "waste management india", "circular economy india",
-            "sustainable agriculture", "clean energy india",
-            "carbon emission india", "green economy",
-            "environmental policy india", "renewable energy india",
-            "solar energy india", "net zero india",
-            "carbon neutral india", "organic farming india",
-            "agroecology", "climate adaptation india",
-            "air pollution india", "solid waste management",
-            "swachh bharat", "climate policy india", "india ndc",
-            "nationally determined contribution",
-            "green hydrogen india", "plastic waste india",
-            "energy security india", "oil import india",
-            "crude oil india", "lpg shortage india",
-            "cooking gas shortage", "energy transition india",
-            "electric vehicle india", "ev india",
-            "solar rooftop india", "pm surya ghar",
-            "dme fuel india", "ethanol blending india",
-            "nuclear energy india", "shanti act nuclear",
-            "water governance india", "national water vision",
-            "river basin management", "groundwater india",
-            "water scarcity india", "integrated water management",
-            "climate resilient india", "green infrastructure india",
-            "india oil dependence", "petroleum policy india",
-            "helium shortage india", "lng india shortage",
-            "decarbonisation india", "green finance india",
-            "energy geopolitics india", "battery storage india",
-            "electrification india", "green manufacturing india",
-            "pm kusum", "national solar mission",
-            "wind energy india", "biofuel policy india",
-            "forest conservation india", "biodiversity india",
-            "wildlife protection india", "pollution control india",
-            "effluent treatment", "zero liquid discharge",
-            "industrial pollution india", "climate finance india",
-            "green bonds india", "emission trading india",
+            "climate", "renewable energy", "solar", "net zero",
+            "electric vehicle", "green hydrogen", "air pollution",
+            "water", "waste management", "swachh bharat",
+            "energy transition", "carbon", "forest", "biodiversity",
+            "mnre", "environment", "pollution control",
+            "clean energy", "climate change", "energy efficiency",
+            "green energy", "wind energy", "ev charging",
+            "pm surya ghar", "national clean air", "biofuel",
         ]
-    }
+    },
+    "Political_Economy": {
+        "label": "Political Economy & Governance",
+        "color": "#117A65",
+        "emoji": "🏛️",
+        "keywords": [
+            "governance", "policy reform", "parliament", "federalism",
+            "foreign policy", "niti aayog", "disinvestment", "election",
+            "bilateral", "diplomacy", "cabinet", "legislation",
+            "lok sabha", "rajya sabha", "administrative reform",
+            "public administration", "institutional reform",
+            "state capacity", "decentralisation", "psu reform",
+            "cooperative federalism", "centre state",
+        ]
+    },
 }
-# Build keyword map sorted by length (longest first = more specific)
+# Build keyword map sorted by length (longest first = more specific matches win)
 KEYWORD_MAP = {
     vid: sorted(vdata["keywords"], key=len, reverse=True)
     for vid, vdata in VERTICALS.items()
@@ -372,22 +206,33 @@ def clean_text(raw: str) -> str:
 
 def score_release(title: str, snippet: str) -> dict:
     """
-    Score against all verticals.
-    Title hits: 2pts (multi-word) or 1pt (single word)
-    Snippet hits: 1pt (multi-word phrases only)
+    Score a release against all verticals.
+    Title match  = 3 pts (title is authoritative)
+    Snippet match = 1 pt
+    Short abbreviations (≤4 chars, no spaces) use word-boundary matching
+    to avoid false positives (e.g. 'ev' in 'every').
+    Assign primary vertical = highest-scoring.  Score 0 → 'Other'.
     """
     title_low   = title.lower()
     snippet_low = snippet.lower()
-    scores = {}
+    scores: dict = {}
 
     for vertical, keywords in KEYWORD_MAP.items():
         score = 0
         for kw in keywords:
-            word_count = len(kw.split())
-            if kw in title_low:
-                score += 2 if word_count >= 2 else 1
-            elif word_count >= 2 and kw in snippet_low:
+            if len(kw) <= 4 and " " not in kw:
+                pat = r"\b" + re.escape(kw) + r"\b"
+                in_title   = bool(re.search(pat, title_low))
+                in_snippet = bool(re.search(pat, snippet_low))
+            else:
+                in_title   = kw in title_low
+                in_snippet = kw in snippet_low
+
+            if in_title:
+                score += 3
+            elif in_snippet:
                 score += 1
+
         if score > 0:
             scores[vertical] = score
 
