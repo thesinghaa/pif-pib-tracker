@@ -68,6 +68,7 @@
       padding: 0 2.5rem;
       display: flex;
       align-items: center;
+      justify-content: space-between;
       height: 38px;
       position: sticky;
       top: 0;
@@ -503,6 +504,148 @@
       letter-spacing: 0.08em;
       margin-top: 0.5rem;
     }
+
+    /* ══ DARK MODE ════════════════════════════════════════════ */
+    html.dark {
+      --rule: rgba(255,255,255,0.08);
+    }
+    html.dark body {
+      background:
+        radial-gradient(ellipse 80% 55% at 10% 0%,   rgba(29,53,87,0.85)  0%, transparent 60%),
+        radial-gradient(ellipse 55% 50% at 90% 100%,  rgba(17,34,64,0.75)  0%, transparent 60%),
+        radial-gradient(ellipse 40% 40% at 72% 18%,   rgba(237,105,31,0.06)0%, transparent 55%),
+        linear-gradient(160deg, #0a1628 0%, #0d1b2e 45%, #081220 100%);
+      color: #e8edf4;
+    }
+    html.dark .back-bar {
+      background: linear-gradient(90deg, rgba(8,18,38,0.92) 0%, rgba(13,27,46,0.88) 100%);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    html.dark .back-btn {
+      color: #8892a4;
+      background: rgba(255,255,255,0.06);
+      border-color: rgba(255,255,255,0.08);
+    }
+    html.dark .back-btn:hover {
+      color: var(--orange);
+      border-color: rgba(237,105,31,0.35);
+      background: rgba(237,105,31,0.06);
+    }
+    html.dark .back-separator { background: rgba(255,255,255,0.08); }
+    html.dark .back-crumb     { color: rgba(255,255,255,0.22); }
+    html.dark .back-crumb span{ color: rgba(255,255,255,0.38); }
+    html.dark .masthead {
+      background: linear-gradient(180deg, rgba(8,18,38,0.98) 0%, rgba(13,27,46,0.96) 100%);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    html.dark .brand-title    { color: #fff; }
+    html.dark .brand-subtitle { color: #8892a4; }
+    html.dark .brand-subtitle strong { color: rgba(255,255,255,0.52); }
+    html.dark .brand-divider  { background: rgba(255,255,255,0.15); }
+    html.dark .brand-emblem img { filter: brightness(0) invert(1); opacity:0.92; }
+    html.dark .meta-chip {
+      background: rgba(255,255,255,0.06);
+      border-color: rgba(255,255,255,0.08);
+      color: #8892a4;
+    }
+    html.dark .meta-chip strong { color: rgba(255,255,255,0.68); }
+    html.dark .ticker-strip {
+      background: linear-gradient(90deg, rgba(237,105,31,0.12) 0%, rgba(200,72,5,0.10) 100%);
+      border-top: 1px solid rgba(237,105,31,0.15);
+      border-bottom: 1px solid rgba(237,105,31,0.10);
+    }
+    html.dark .ticker-content span { color: rgba(255,255,255,0.72); }
+    html.dark .filter-ribbon {
+      background: linear-gradient(180deg, rgba(9,19,39,0.97) 0%, rgba(11,23,45,0.95) 100%);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    html.dark .filter-btn       { color: #8892a4; }
+    html.dark .filter-btn:hover { color: #e8edf4; background: rgba(255,255,255,0.06); border-color: rgba(255,255,255,0.10); }
+    html.dark .ribbon-label     { color: #8892a4; }
+    html.dark .region-select {
+      color: #aab4c4;
+      background: rgba(255,255,255,0.06);
+      border-color: rgba(255,255,255,0.08);
+    }
+    html.dark .region-select option { background: #0d1b2e; color: #e8edf4; }
+    html.dark .search-input {
+      background: rgba(255,255,255,0.06);
+      border-color: rgba(255,255,255,0.08);
+      color: #e8edf4;
+    }
+    html.dark .search-input::placeholder { color: #8892a4; }
+    html.dark .search-input:focus {
+      border-color: rgba(237,105,31,0.5);
+      background: rgba(255,255,255,0.08);
+    }
+    html.dark .stats-bar {
+      background: rgba(255,255,255,0.06);
+      border-color: rgba(255,255,255,0.08);
+    }
+    html.dark .stat-lbl   { color: #8892a4; }
+    html.dark .stat-div   { background: rgba(255,255,255,0.08); }
+    html.dark .section-header { border-bottom-color: rgba(255,255,255,0.08); }
+    html.dark .section-title  { color: #e8edf4; }
+    html.dark .section-count  { color: #8892a4; }
+    html.dark .date-group-header {
+      color: rgba(255,255,255,0.82);
+      border-bottom-color: rgba(255,255,255,0.08);
+    }
+    html.dark .date-group-count { color: #8892a4; }
+    html.dark .card {
+      background: linear-gradient(135deg, rgba(255,255,255,0.072) 0%, rgba(255,255,255,0.028) 100%);
+      border-color: rgba(255,255,255,0.10);
+      box-shadow: 0 4px 28px rgba(0,0,0,0.38), inset 0 1px 0 rgba(255,255,255,0.06);
+    }
+    html.dark .card::before {
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.14), transparent);
+    }
+    html.dark .card:hover {
+      border-color: rgba(255,255,255,0.15);
+      box-shadow: 0 14px 44px rgba(0,0,0,0.52), inset 0 1px 0 rgba(255,255,255,0.08), 0 0 22px rgba(237,105,31,0.06);
+    }
+    html.dark .card-meta    { color: #8892a4; }
+    html.dark .card-title   { color: rgba(255,255,255,0.88); }
+    html.dark .card-summary { color: rgba(170,180,196,0.78); }
+    html.dark #empty-state, html.dark #loading { color: #8892a4; }
+    html.dark .site-footer  { border-top-color: rgba(255,255,255,0.08); }
+    html.dark .footer-logo img { filter: brightness(0) invert(1); }
+    html.dark .footer-text  { color: #8892a4; }
+
+    /* dark mode toggle button */
+    .theme-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.56rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      background: none;
+      border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 20px;
+      padding: 0.22rem 0.65rem 0.22rem 0.5rem;
+      color: #555;
+      transition: all 0.2s ease;
+      flex-shrink: 0;
+    }
+    .theme-toggle:hover {
+      border-color: rgba(237,105,31,0.35);
+      color: var(--orange);
+      background: rgba(237,105,31,0.06);
+    }
+    .theme-toggle .toggle-icon { font-size: 0.8rem; line-height:1; }
+    html.dark .theme-toggle {
+      border-color: rgba(255,255,255,0.12);
+      color: #8892a4;
+      background: rgba(255,255,255,0.06);
+    }
+    html.dark .theme-toggle:hover {
+      border-color: rgba(237,105,31,0.35);
+      color: var(--orange);
+      background: rgba(237,105,31,0.06);
+    }
   </style>
 </head>
 <body>
@@ -530,6 +673,10 @@
   </a>
   <div class="back-separator"></div>
   <span class="back-crumb">Pahle India Foundation &nbsp;/&nbsp; <span>PIB Tracker</span></span>
+  <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" title="Toggle dark mode">
+    <span class="toggle-icon" id="toggle-icon">🌙</span>
+    <span id="toggle-label">Dark</span>
+  </button>
 </div>
 
 <!-- ══ HEADER ════════════════════════════════════════════════ -->
@@ -990,6 +1137,30 @@ window.addEventListener('scroll', () => {
     document.getElementById('read-progress').style.transform =
       `scaleX(${window.scrollY/total})`;
 });
+
+/* ── THEME TOGGLE ───────────────────────────────────────────── */
+function toggleTheme() {
+  const html  = document.documentElement;
+  const isDark = html.classList.toggle('dark');
+  localStorage.setItem('pif-theme', isDark ? 'dark' : 'light');
+  document.getElementById('toggle-icon').textContent  = isDark ? '☀️' : '🌙';
+  document.getElementById('toggle-label').textContent = isDark ? 'Light' : 'Dark';
+}
+
+// Restore saved preference on load (before paint to avoid flash)
+(function() {
+  const saved = localStorage.getItem('pif-theme');
+  if (saved === 'dark') {
+    document.documentElement.classList.add('dark');
+    // Update button after DOM ready
+    document.addEventListener('DOMContentLoaded', function() {
+      const icon  = document.getElementById('toggle-icon');
+      const label = document.getElementById('toggle-label');
+      if (icon)  icon.textContent  = '☀️';
+      if (label) label.textContent = 'Light';
+    });
+  }
+})();
 
 loadData();
 </script>
