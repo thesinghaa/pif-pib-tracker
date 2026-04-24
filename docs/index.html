@@ -4,8 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PIF's PIB Tracker</title>
-  <!-- dark navy favicon with orange P ring -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%230d1b2e'/><circle cx='50' cy='50' r='34' fill='none' stroke='%23ed691f' stroke-width='6'/><text y='67' x='50' text-anchor='middle' font-size='46' font-family='Georgia,serif' fill='%23ed691f' font-weight='bold'>P</text></svg>">
+
+  <!-- PIF Logo as Favicon -->
+  <link rel="icon" type="image/svg+xml" href="https://pahleindia.org/wp-content/uploads/2025/12/Pahle-India-foundation.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -58,48 +59,120 @@
       box-shadow:0 0 8px rgba(237,105,31,0.5);
     }
 
+    /* ══ BACK BUTTON ══════════════════════════════════════════ */
+    .back-bar {
+      background: linear-gradient(90deg,
+        rgba(8,18,38,0.92) 0%,
+        rgba(13,27,46,0.88) 100%);
+      border-bottom: 1px solid rgba(237,105,31,0.12);
+      padding: 0 2.5rem;
+      display: flex;
+      align-items: center;
+      height: 38px;
+      position: sticky;
+      top: 0;
+      z-index: 600;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+    .back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: var(--slate);
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 0.2rem 0.75rem 0.2rem 0.5rem;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 4px;
+      background: var(--white-06);
+      transition: all 0.18s ease;
+    }
+    .back-btn:hover {
+      color: var(--orange);
+      border-color: rgba(237,105,31,0.35);
+      background: rgba(237,105,31,0.06);
+    }
+    .back-btn svg {
+      width: 11px;
+      height: 11px;
+      flex-shrink: 0;
+      transition: transform 0.18s ease;
+    }
+    .back-btn:hover svg {
+      transform: translateX(-2px);
+    }
+    .back-separator {
+      width: 1px;
+      height: 14px;
+      background: var(--rule);
+      margin: 0 1rem;
+    }
+    .back-crumb {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.56rem;
+      color: rgba(255,255,255,0.22);
+      letter-spacing: 0.06em;
+    }
+    .back-crumb span {
+      color: rgba(255,255,255,0.38);
+    }
+
     /* ══ HEADER ═══════════════════════════════════════════════ */
     .masthead {
       background:linear-gradient(180deg,
         rgba(8,18,38,0.98) 0%,
         rgba(13,27,46,0.96) 100%);
       border-bottom:1px solid var(--rule);
-      position:sticky; top:0; z-index:500;
+      position:sticky; top:38px; z-index:500;
       backdrop-filter:blur(24px);
       -webkit-backdrop-filter:blur(24px);
     }
     .masthead-inner {
       display:flex; align-items:center;
       justify-content:space-between;
-      padding:0 2.5rem; height:82px;
+      padding:0 2.5rem; height:76px;
     }
 
     /* brand */
     .brand { display:flex; align-items:center; gap:14px; text-decoration:none; }
     .brand-emblem {
-      width:44px; height:44px; flex-shrink:0; border-radius:11px;
-      background:linear-gradient(135deg,#1a3358 0%,#0d1b2e 100%);
-      border:1.5px solid rgba(237,105,31,0.4);
-      display:flex; align-items:center; justify-content:center;
-      box-shadow:0 0 18px rgba(237,105,31,0.12);
+      height: 44px;
+      display: flex;
+      align-items: center;
     }
-    .brand-emblem svg { width:24px; height:24px; }
+    .brand-emblem img {
+      height: 38px;
+      width: auto;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+      opacity: 0.92;
+    }
+    .brand-divider {
+      width: 1px;
+      height: 30px;
+      background: rgba(255,255,255,0.15);
+      margin: 0 4px;
+    }
     .brand-words { display:flex; flex-direction:column; gap:3px; }
     .brand-title {
       font-family:'Playfair Display',serif;
-      font-size:1.28rem; font-weight:700;
+      font-size:1.22rem; font-weight:700;
       color:#fff; letter-spacing:-0.02em; line-height:1;
     }
     .brand-title em { font-style:italic; color:var(--orange); }
     .brand-subtitle {
       font-family:'DM Sans',sans-serif;
-      font-size:0.63rem; font-weight:400;
+      font-size:0.6rem; font-weight:400;
       color:var(--slate); letter-spacing:0.01em;
     }
     .brand-subtitle strong { color:rgba(255,255,255,0.52); font-weight:500; }
 
     /* meta chips */
-    .masthead-meta { display:flex; align-items:center; gap:0.65rem; }
+    .masthead-right { display:flex; align-items:center; gap:0.65rem; }
     .meta-chip {
       font-family:'DM Mono',monospace; font-size:0.57rem;
       color:var(--slate); letter-spacing:0.04em;
@@ -108,31 +181,64 @@
     }
     .meta-chip strong { color:rgba(255,255,255,0.68); font-weight:500; }
 
-    /* ticker */
+    /* ── live badge ── */
+    .live-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-family: 'DM Mono', monospace;
+      font-size: 0.53rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #4ade80;
+      background: rgba(74,222,128,0.08);
+      border: 1px solid rgba(74,222,128,0.22);
+      border-radius: 20px;
+      padding: 0.22rem 0.65rem;
+    }
+    .live-dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: #4ade80;
+      animation: pulse-dot 2s ease-in-out infinite;
+      flex-shrink: 0;
+    }
+    @keyframes pulse-dot {
+      0%,100% { opacity:1; transform:scale(1); }
+      50% { opacity:0.5; transform:scale(0.7); }
+    }
+
+    /* ticker — SLOWED DOWN significantly */
     .ticker-strip {
       background:linear-gradient(90deg,
-        rgba(220,88,12,0.94) 0%, rgba(200,72,5,0.94) 100%);
-      height:27px; display:flex; align-items:center;
-      overflow:hidden; border-top:1px solid rgba(255,255,255,0.1);
+        rgba(237,105,31,0.12) 0%, rgba(200,72,5,0.10) 100%);
+      border-top: 1px solid rgba(237,105,31,0.15);
+      border-bottom: 1px solid rgba(237,105,31,0.10);
+      height:32px; display:flex; align-items:center;
+      overflow:hidden;
     }
     .ticker-label {
-      font-family:'DM Mono',monospace; font-size:0.49rem;
-      font-weight:500; letter-spacing:0.2em; color:rgba(255,255,255,0.9);
-      padding:0 1.1rem; border-right:1px solid rgba(255,255,255,0.2);
-      white-space:nowrap; flex-shrink:0;
+      font-family:'DM Mono',monospace; font-size:0.48rem;
+      font-weight:500; letter-spacing:0.22em; color:var(--orange);
+      padding:0 1.2rem; border-right:1px solid rgba(237,105,31,0.2);
+      white-space:nowrap; flex-shrink:0; text-transform:uppercase;
     }
     .ticker-track { flex:1; overflow:hidden; }
     .ticker-content {
       display:inline-flex; gap:0;
-      animation:ticker-scroll 62s linear infinite;
+      /* ← slowed from 62s to 180s */
+      animation:ticker-scroll 180s linear infinite;
       white-space:nowrap;
     }
     .ticker-content:hover { animation-play-state:paused; }
     .ticker-content span {
-      font-family:'DM Mono',monospace; font-size:0.56rem;
-      color:rgba(255,255,255,0.84); padding:0 1.5rem;
+      font-family:'DM Sans',sans-serif; font-size:0.68rem;
+      color:rgba(255,255,255,0.72); padding:0 2rem;
+      font-weight:300;
     }
-    .ticker-sep { opacity:0.35; }
+    .ticker-sep { color:var(--orange) !important; opacity:0.45 !important; font-weight:400 !important; }
     @keyframes ticker-scroll {
       from { transform:translateX(0); }
       to   { transform:translateX(-50%); }
@@ -140,7 +246,7 @@
 
     /* ══ VERTICAL FILTER RIBBON ═══════════════════════════════ */
     .filter-ribbon {
-      position:sticky; top:109px; z-index:400;
+      position:sticky; top:114px; z-index:400;
       background:linear-gradient(180deg,
         rgba(9,19,39,0.97) 0%,
         rgba(11,23,45,0.95) 100%);
@@ -371,6 +477,32 @@
       font-family:'DM Mono',monospace; font-size:0.78rem;
       color:var(--slate);
     }
+
+    /* ── PIF watermark footer ── */
+    .site-footer {
+      padding: 2rem 2.5rem 1.5rem;
+      text-align: center;
+      border-top: 1px solid var(--rule);
+    }
+    .footer-logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      opacity: 0.35;
+      transition: opacity 0.2s;
+    }
+    .footer-logo:hover { opacity: 0.6; }
+    .footer-logo img {
+      height: 22px;
+      filter: brightness(0) invert(1);
+    }
+    .footer-text {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.52rem;
+      color: var(--slate);
+      letter-spacing: 0.08em;
+      margin-top: 0.5rem;
+    }
   </style>
 </head>
 <body>
@@ -388,19 +520,43 @@
 
 <div id="read-progress"></div>
 
+<!-- ══ BACK BAR ══════════════════════════════════════════════ -->
+<div class="back-bar">
+  <a class="back-btn" href="https://pif-news-aggregator-fwn8.vercel.app/#" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="15 18 9 12 15 6"/>
+    </svg>
+    PIF News Intelligence
+  </a>
+  <div class="back-separator"></div>
+  <span class="back-crumb">Pahle India Foundation &nbsp;/&nbsp; <span>PIB Tracker</span></span>
+</div>
+
 <!-- ══ HEADER ════════════════════════════════════════════════ -->
 <header class="masthead">
   <div class="masthead-inner">
 
     <a class="brand" href="#">
       <div class="brand-emblem">
-        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="18" cy="18" r="14" stroke="#ed691f" stroke-width="2" opacity="0.55"/>
-          <text x="18" y="25" text-anchor="middle"
-                font-family="'Playfair Display',Georgia,serif"
-                font-size="17" font-weight="700" fill="#ed691f">P</text>
-        </svg>
+        <img
+          src="https://pahleindia.org/wp-content/uploads/2025/12/Pahle-India-foundation.svg"
+          alt="Pahle India Foundation"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+        <!-- Fallback emblem if SVG fails to load -->
+        <div style="display:none; width:38px; height:38px; border-radius:8px;
+          background:linear-gradient(135deg,#1a3358,#0d1b2e);
+          border:1.5px solid rgba(237,105,31,0.4);
+          align-items:center; justify-content:center;">
+          <svg viewBox="0 0 36 36" width="22" height="22" fill="none">
+            <circle cx="18" cy="18" r="14" stroke="#ed691f" stroke-width="2" opacity="0.55"/>
+            <text x="18" y="25" text-anchor="middle"
+                  font-family="'Playfair Display',Georgia,serif"
+                  font-size="17" font-weight="700" fill="#ed691f">P</text>
+          </svg>
+        </div>
       </div>
+      <div class="brand-divider"></div>
       <div class="brand-words">
         <span class="brand-title">PIF's <em>PIB</em> Tracker</span>
         <span class="brand-subtitle">
@@ -410,7 +566,11 @@
       </div>
     </a>
 
-    <div class="masthead-meta">
+    <div class="masthead-right">
+      <div class="live-badge">
+        <span class="live-dot"></span>
+        Live
+      </div>
       <div class="meta-chip">Updated <strong id="last-updated">—</strong></div>
       <div class="meta-chip"><strong id="total-count">—</strong> releases</div>
     </div>
@@ -418,7 +578,7 @@
   </div>
 
   <div class="ticker-strip">
-    <span class="ticker-label">LATEST</span>
+    <span class="ticker-label">Latest</span>
     <div class="ticker-track">
       <div class="ticker-content" id="ticker-content"></div>
     </div>
@@ -480,6 +640,14 @@
   </div>
 
 </main>
+
+<!-- ══ FOOTER ════════════════════════════════════════════════ -->
+<footer class="site-footer">
+  <a class="footer-logo" href="https://pahleindia.org" target="_blank" rel="noopener">
+    <img src="https://pahleindia.org/wp-content/uploads/2025/12/Pahle-India-foundation.svg" alt="Pahle India Foundation" />
+  </a>
+  <div class="footer-text">© Pahle India Foundation · PIB Tracker · All rights reserved</div>
+</footer>
 
 <script>
 /* ── VERTICAL METADATA ──────────────────────────────────────── */
@@ -626,7 +794,6 @@ function allowedISTDates() {
 function getFiltered() {
   const allowed = allowedISTDates();
   return allArticles.filter(a => {
-    // STRICT: must have a date AND it must be within the allowed window
     if (!a.date || !allowed.has(a.date)) return false;
 
     const pv = a.primary_vertical || '';
@@ -667,21 +834,18 @@ function render() {
   empty.style.display = 'none';
   grid.style.display  = 'block';
 
-  // Group by date
   const byDate = {};
   filtered.forEach(a => {
-    const d = a.date; // always valid after getFiltered()
+    const d = a.date;
     if (!byDate[d]) byDate[d] = [];
     byDate[d].push(a);
   });
 
-  // Sort each group by relevance_score desc, then title asc as tiebreak
   Object.values(byDate).forEach(group => {
     group.sort((a, b) => (b.relevance_score || 0) - (a.relevance_score || 0)
                       || (a.title || '').localeCompare(b.title || ''));
   });
 
-  // Dates newest first
   const sortedDates = Object.keys(byDate).sort().reverse();
 
   let html = '', cardIndex = 0;
@@ -740,6 +904,7 @@ function updateStats(filtered) {
 
 /* ── GSAP ───────────────────────────────────────────────────── */
 function initGSAP() {
+  gsap.from('.back-bar',      { y:-6, opacity:0, duration:0.28, ease:'power2.out' });
   gsap.from('.filter-ribbon', { y:-8, opacity:0, duration:0.35, ease:'power2.out', delay:0.08 });
   const total     = allArticles.length;
   const regions   = new Set(allArticles.map(a=>a.region)).size;
