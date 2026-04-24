@@ -231,7 +231,7 @@
     .ticker-content {
       display:inline-flex; gap:0;
       /* ← slowed from 62s to 180s */
-      animation:ticker-scroll 180s linear infinite;
+      animation:ticker-scroll 360s linear infinite;
       white-space:nowrap;
     }
     .ticker-content:hover { animation-play-state:paused; }
@@ -240,6 +240,13 @@
       color:rgba(30,30,30,0.75); padding:0 2rem;
       font-weight:300;
     }
+    .ticker-content a {
+      font-family:'DM Sans',sans-serif; font-size:0.68rem;
+      color:rgba(30,30,30,0.75); padding:0 2rem;
+      font-weight:300; text-decoration:none;
+      transition:color 0.15s;
+    }
+    .ticker-content a:hover { color:var(--orange); }
     .ticker-sep { color:var(--orange) !important; opacity:0.45 !important; font-weight:400 !important; }
     @keyframes ticker-scroll {
       from { transform:translateX(0); }
@@ -918,7 +925,7 @@ function buildTicker() {
   const el  = document.getElementById('ticker-content');
   const top = allArticles.slice(0, 20);
   const html = top.map(a =>
-    `<span>${esc(a.title)}</span><span class="ticker-sep"> · </span>`
+    `<a href="${esc(a.url || '#')}" target="_blank" rel="noopener">${esc(a.title)}</a><span class="ticker-sep"> · </span>`
   ).join('');
   el.innerHTML = html + html;
 }
