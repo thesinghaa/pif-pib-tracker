@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PIB Tracker — Pahle India Foundation</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%23ed691f'/><text y='72' x='50' text-anchor='middle' font-size='58' font-family='serif' fill='white'>१</text></svg>">
+  <title>PIF's PIB Tracker</title>
+  <!-- dark navy favicon with orange P ring -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%230d1b2e'/><circle cx='50' cy='50' r='34' fill='none' stroke='%23ed691f' stroke-width='6'/><text y='67' x='50' text-anchor='middle' font-size='46' font-family='Georgia,serif' fill='%23ed691f' font-weight='bold'>P</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -14,360 +15,408 @@
     /* ── DESIGN TOKENS ─────────────────────────────────────── */
     :root {
       --orange:      #ed691f;
-      --orange-dark: #b14f17;
-      --orange-dim:  #fdf0e8;
-      --cream:       #faf7f3;
-      --paper:       #ffffff;
-      --ink:         #1c1008;
-      --ink-mid:     #4a3020;
-      --ink-light:   #9a8070;
-      --rule:        #ede5db;
-      --sidebar-w:   260px;
-      --mast-h:      86px;
+      --orange-glow: rgba(237,105,31,0.18);
+      --navy:        #0d1b2e;
+      --navy-mid:    #112240;
+      --navy-light:  #1a3358;
+      --slate:       #8892a4;
+      --slate-lt:    #aab4c4;
+      --white-06:    rgba(255,255,255,0.06);
+      --white-10:    rgba(255,255,255,0.10);
+      --white-20:    rgba(255,255,255,0.20);
+      --rule:        rgba(255,255,255,0.08);
       font-family: 'DM Sans', sans-serif;
-      color: var(--ink);
-      background: var(--cream);
-      min-height: 100vh;
+      color: #e8edf4;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
+
     body {
-      background: linear-gradient(135deg, #f0ede8 0%, #e8e4de 50%, #ede9e3 100%);
+      background:
+        radial-gradient(ellipse 80% 55% at 10% 0%,   rgba(29,53,87,0.85)  0%, transparent 60%),
+        radial-gradient(ellipse 55% 50% at 90% 100%,  rgba(17,34,64,0.75)  0%, transparent 60%),
+        radial-gradient(ellipse 40% 40% at 72% 18%,   rgba(237,105,31,0.06)0%, transparent 55%),
+        linear-gradient(160deg, #0a1628 0%, #0d1b2e 45%, #081220 100%);
       min-height: 100vh;
     }
 
-    /* ── GRAIN TEXTURE ─────────────────────────────────────── */
+    /* grain */
     body::after {
-      content: '';
-      position: fixed; inset: 0;
-      pointer-events: none; z-index: 9000;
-      opacity: 0.025;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E");
-      mix-blend-mode: multiply;
+      content:''; position:fixed; inset:0;
+      pointer-events:none; z-index:9000;
+      opacity:0.028;
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)'/%3E%3C/svg%3E");
+      mix-blend-mode:overlay;
     }
 
-    /* ── READING PROGRESS ──────────────────────────────────── */
+    /* reading progress */
     #read-progress {
-      position: fixed; top: 0; left: 0;
-      width: 100%; height: 2px;
-      background: var(--orange);
-      transform: scaleX(0); transform-origin: left;
-      z-index: 600; pointer-events: none;
+      position:fixed; top:0; left:0; width:100%; height:2px;
+      background:linear-gradient(90deg,var(--orange),#f5a623);
+      transform:scaleX(0); transform-origin:left;
+      z-index:9001; pointer-events:none;
+      box-shadow:0 0 8px rgba(237,105,31,0.5);
     }
 
-    /* ── MASTHEAD ──────────────────────────────────────────── */
+    /* ══ HEADER ═══════════════════════════════════════════════ */
     .masthead {
-      background: var(--ink);
-      border-bottom: 3px solid var(--orange);
-      position: sticky; top: 0; z-index: 400;
+      background:linear-gradient(180deg,
+        rgba(8,18,38,0.98) 0%,
+        rgba(13,27,46,0.96) 100%);
+      border-bottom:1px solid var(--rule);
+      position:sticky; top:0; z-index:500;
+      backdrop-filter:blur(24px);
+      -webkit-backdrop-filter:blur(24px);
     }
-    .masthead-top {
-      display: flex; align-items: center;
-      justify-content: space-between;
-      padding: 0 2rem; height: 58px;
+    .masthead-inner {
+      display:flex; align-items:center;
+      justify-content:space-between;
+      padding:0 2.5rem; height:82px;
     }
-    .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
-    .brand-mark {
-      width: 36px; height: 36px;
-      background: var(--orange); border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      flex-shrink: 0;
-    }
-    .brand-mark-inner {
-      font-family: serif; font-size: 19px;
-      color: #fff; line-height: 1; margin-top: -2px;
-    }
-    .brand-text { display: flex; flex-direction: column; gap: 1px; }
-    .brand-name {
-      font-family: 'Playfair Display', serif;
-      font-size: 1rem; font-weight: 700;
-      color: #fff; letter-spacing: -0.01em; line-height: 1;
-    }
-    .brand-name em { font-style: normal; color: var(--orange); }
-    .brand-sub {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.52rem; color: rgba(255,255,255,0.3);
-      letter-spacing: 0.15em; text-transform: uppercase;
-    }
-    .masthead-meta {
-      display: flex; align-items: center; gap: 1.5rem;
-    }
-    .meta-item {
-      font-family: 'DM Mono', monospace;
-      font-size: 0.6rem; color: rgba(255,255,255,0.4);
-      letter-spacing: 0.05em;
-    }
-    .meta-item strong { color: rgba(255,255,255,0.75); font-weight: 500; }
 
-    /* ── TICKER ────────────────────────────────────────────── */
+    /* brand */
+    .brand { display:flex; align-items:center; gap:14px; text-decoration:none; }
+    .brand-emblem {
+      width:44px; height:44px; flex-shrink:0; border-radius:11px;
+      background:linear-gradient(135deg,#1a3358 0%,#0d1b2e 100%);
+      border:1.5px solid rgba(237,105,31,0.4);
+      display:flex; align-items:center; justify-content:center;
+      box-shadow:0 0 18px rgba(237,105,31,0.12);
+    }
+    .brand-emblem svg { width:24px; height:24px; }
+    .brand-words { display:flex; flex-direction:column; gap:3px; }
+    .brand-title {
+      font-family:'Playfair Display',serif;
+      font-size:1.28rem; font-weight:700;
+      color:#fff; letter-spacing:-0.02em; line-height:1;
+    }
+    .brand-title em { font-style:italic; color:var(--orange); }
+    .brand-subtitle {
+      font-family:'DM Sans',sans-serif;
+      font-size:0.63rem; font-weight:400;
+      color:var(--slate); letter-spacing:0.01em;
+    }
+    .brand-subtitle strong { color:rgba(255,255,255,0.52); font-weight:500; }
+
+    /* meta chips */
+    .masthead-meta { display:flex; align-items:center; gap:0.65rem; }
+    .meta-chip {
+      font-family:'DM Mono',monospace; font-size:0.57rem;
+      color:var(--slate); letter-spacing:0.04em;
+      background:var(--white-06); border:1px solid var(--rule);
+      padding:0.28rem 0.65rem; border-radius:5px;
+    }
+    .meta-chip strong { color:rgba(255,255,255,0.68); font-weight:500; }
+
+    /* ticker */
     .ticker-strip {
-      background: var(--orange);
-      height: 26px; display: flex; align-items: center;
-      overflow: hidden; border-top: 1px solid rgba(255,255,255,0.15);
+      background:linear-gradient(90deg,
+        rgba(220,88,12,0.94) 0%, rgba(200,72,5,0.94) 100%);
+      height:27px; display:flex; align-items:center;
+      overflow:hidden; border-top:1px solid rgba(255,255,255,0.1);
     }
     .ticker-label {
-      font-family: 'DM Mono', monospace; font-size: 0.52rem;
-      font-weight: 500; letter-spacing: 0.18em; color: #fff;
-      padding: 0 1rem; border-right: 1px solid rgba(255,255,255,0.25);
-      white-space: nowrap; flex-shrink: 0;
+      font-family:'DM Mono',monospace; font-size:0.49rem;
+      font-weight:500; letter-spacing:0.2em; color:rgba(255,255,255,0.9);
+      padding:0 1.1rem; border-right:1px solid rgba(255,255,255,0.2);
+      white-space:nowrap; flex-shrink:0;
     }
-    .ticker-track { flex: 1; overflow: hidden; }
+    .ticker-track { flex:1; overflow:hidden; }
     .ticker-content {
-      display: inline-flex; gap: 0;
-      animation: ticker-scroll 55s linear infinite;
-      white-space: nowrap;
+      display:inline-flex; gap:0;
+      animation:ticker-scroll 62s linear infinite;
+      white-space:nowrap;
     }
-    .ticker-content:hover { animation-play-state: paused; }
+    .ticker-content:hover { animation-play-state:paused; }
     .ticker-content span {
-      font-family: 'DM Mono', monospace; font-size: 0.58rem;
-      color: rgba(255,255,255,0.88); padding: 0 1.5rem;
+      font-family:'DM Mono',monospace; font-size:0.56rem;
+      color:rgba(255,255,255,0.84); padding:0 1.5rem;
     }
-    .ticker-sep { opacity: 0.35; }
+    .ticker-sep { opacity:0.35; }
     @keyframes ticker-scroll {
-      from { transform: translateX(0); }
-      to   { transform: translateX(-50%); }
+      from { transform:translateX(0); }
+      to   { transform:translateX(-50%); }
     }
 
-    /* ── LAYOUT ────────────────────────────────────────────── */
-    .layout {
-      display: grid;
-      grid-template-columns: var(--sidebar-w) 1fr;
-      min-height: calc(100vh - var(--mast-h));
+    /* ══ VERTICAL FILTER RIBBON ═══════════════════════════════ */
+    .filter-ribbon {
+      position:sticky; top:109px; z-index:400;
+      background:linear-gradient(180deg,
+        rgba(9,19,39,0.97) 0%,
+        rgba(11,23,45,0.95) 100%);
+      backdrop-filter:blur(20px);
+      -webkit-backdrop-filter:blur(20px);
+      border-bottom:1px solid var(--rule);
+      padding:0 2.5rem;
+    }
+    .ribbon-inner {
+      display:flex; align-items:center;
+      height:50px; gap:0;
+      overflow-x:auto; -ms-overflow-style:none; scrollbar-width:none;
+    }
+    .ribbon-inner::-webkit-scrollbar { display:none; }
+    .ribbon-label {
+      font-family:'DM Mono',monospace; font-size:0.49rem;
+      color:var(--slate); letter-spacing:0.14em;
+      text-transform:uppercase; white-space:nowrap;
+      margin-right:1rem; flex-shrink:0; opacity:0.7;
     }
 
-    /* ── SIDEBAR ───────────────────────────────────────────── */
-    .sidebar {
-      border-right: 1px solid var(--rule);
-      background: rgba(255,255,255,0.55);
-      position: sticky;
-      top: var(--mast-h);
-      height: calc(100vh - var(--mast-h));
-      overflow-y: auto;
-    }
-    .sidebar-head {
-      padding: 1.1rem 1.25rem 0.8rem;
-      border-bottom: 2px solid var(--ink);
-    }
-    .sidebar-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 0.78rem; font-weight: 700;
-      color: var(--orange); text-transform: uppercase;
-      letter-spacing: 0.06em;
-    }
+    /* pill buttons */
     .filter-btn {
-      display: flex; align-items: center; justify-content: space-between;
-      width: 100%; padding: 0.52rem 1.25rem;
-      background: none; border: none;
-      border-left: 2px solid transparent;
-      cursor: pointer; transition: all 0.12s;
-      font-family: 'DM Mono', monospace; font-size: 0.7rem;
-      color: var(--ink-mid); text-align: left;
+      display:inline-flex; align-items:center; gap:0.4rem;
+      padding:0.28rem 0.85rem;
+      background:none; border:1px solid transparent; border-radius:20px;
+      cursor:pointer; white-space:nowrap; flex-shrink:0;
+      font-family:'DM Mono',monospace; font-size:0.62rem;
+      color:var(--slate);
+      transition:all 0.14s ease;
+      margin-right:0.28rem;
     }
-    .filter-btn:hover { background: var(--cream); color: var(--ink); }
+    .filter-btn:hover {
+      color:#e8edf4;
+      background:var(--white-06);
+      border-color:var(--white-10);
+    }
     .filter-btn.active {
-      border-left-color: var(--active-c, var(--orange));
-      background: var(--orange-dim); color: var(--ink);
-      font-weight: 500;
+      color:#fff;
+      background:rgba(var(--active-rgb,237,105,31),0.15);
+      border-color:rgba(var(--active-rgb,237,105,31),0.48);
+      font-weight:500;
     }
     .filter-count {
-      font-family: 'DM Mono', monospace; font-size: 0.62rem;
-      color: var(--ink-light);
+      font-family:'DM Mono',monospace; font-size:0.53rem;
+      color:var(--slate); opacity:0.65;
     }
-    .filter-btn.active .filter-count { color: var(--ink-mid); }
-    .sidebar-rule { height: 1px; background: var(--rule); margin: 0.35rem 0; }
-    .sidebar-section { padding: 0.75rem 1.25rem; }
-    .sidebar-label {
-      display: block;
-      font-family: 'DM Mono', monospace; font-size: 0.57rem;
-      color: var(--ink-light); letter-spacing: 0.1em;
-      text-transform: uppercase; margin-bottom: 0.45rem;
+    .filter-btn.active .filter-count { color:rgba(255,255,255,0.55); opacity:1; }
+
+    .ribbon-divider {
+      width:1px; height:18px; background:var(--rule);
+      margin:0 0.65rem; flex-shrink:0;
     }
+
     .region-select {
-      width: 100%;
-      font-family: 'DM Mono', monospace; font-size: 0.68rem;
-      color: var(--ink); background: var(--cream);
-      border: 1px solid var(--rule); padding: 0.38rem 0.5rem;
-      cursor: pointer; outline: none;
+      font-family:'DM Mono',monospace; font-size:0.61rem;
+      color:var(--slate-lt); background:var(--white-06);
+      border:1px solid var(--rule); border-radius:5px;
+      padding:0.24rem 0.55rem; cursor:pointer; outline:none; flex-shrink:0;
     }
-    .region-select:focus { border-color: var(--orange); }
+    .region-select:focus { border-color:rgba(237,105,31,0.45); color:#fff; }
+    .region-select option { background:#0d1b2e; color:#e8edf4; }
 
-    /* ── MAIN ──────────────────────────────────────────────── */
-    .main { background: transparent; padding: 1.5rem 2rem 3rem; }
+    /* ══ MAIN ═════════════════════════════════════════════════ */
+    .main { padding:1.8rem 2.5rem 4rem; max-width:1440px; margin:0 auto; }
 
-    /* ── SEARCH ────────────────────────────────────────────── */
-    .search-wrap {
-      position: relative; margin-bottom: 1.25rem;
+    /* controls row */
+    .controls-row {
+      display:flex; align-items:center; gap:1rem;
+      margin-bottom:1.5rem; flex-wrap:wrap;
     }
+    .search-wrap { position:relative; flex:1; min-width:200px; max-width:400px; }
     .search-icon {
-      position: absolute; left: 0.7rem; top: 50%;
-      transform: translateY(-50%);
-      color: var(--ink-light); pointer-events: none;
+      position:absolute; left:0.75rem; top:50%;
+      transform:translateY(-50%); color:var(--slate); pointer-events:none;
     }
     .search-input {
-      width: 100%; padding: 0.5rem 0.75rem 0.5rem 2.1rem;
-      font-family: 'DM Sans', sans-serif; font-size: 0.82rem;
-      border: 1px solid var(--rule); background: var(--paper);
-      color: var(--ink); outline: none; transition: border-color 0.15s;
+      width:100%; padding:0.52rem 0.75rem 0.52rem 2.2rem;
+      font-family:'DM Sans',sans-serif; font-size:0.82rem;
+      border:1px solid var(--rule); background:var(--white-06);
+      color:#e8edf4; outline:none; border-radius:7px;
+      backdrop-filter:blur(8px);
+      transition:border-color 0.15s,background 0.15s;
     }
-    .search-input::placeholder { color: var(--ink-light); }
-    .search-input:focus { border-color: var(--orange); }
+    .search-input::placeholder { color:var(--slate); }
+    .search-input:focus {
+      border-color:rgba(237,105,31,0.5);
+      background:rgba(255,255,255,0.08);
+    }
 
-    /* ── STATS BAR ─────────────────────────────────────────── */
+    /* stats */
     .stats-bar {
-      background: var(--ink);
-      display: flex; align-items: center;
-      padding: 1rem 1.75rem; gap: 0;
-      margin-bottom: 1.5rem;
+      display:flex; align-items:center;
+      background:var(--white-06); border:1px solid var(--rule); border-radius:9px;
+      padding:0.7rem 1.4rem; backdrop-filter:blur(12px); flex-shrink:0;
     }
-    .stat { flex: 1; text-align: center; }
+    .stat { text-align:center; padding:0 1.2rem; }
+    .stat:first-child { padding-left:0; }
     .stat-num {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.8rem; font-weight: 700;
-      color: var(--orange); display: block; line-height: 1;
+      font-family:'Playfair Display',serif;
+      font-size:1.55rem; font-weight:700;
+      color:var(--orange); display:block; line-height:1;
     }
     .stat-lbl {
-      font-family: 'DM Mono', monospace; font-size: 0.55rem;
-      color: rgba(255,255,255,0.4); letter-spacing: 0.1em;
-      text-transform: uppercase; margin-top: 0.3rem; display: block;
+      font-family:'DM Mono',monospace; font-size:0.48rem;
+      color:var(--slate); letter-spacing:0.12em;
+      text-transform:uppercase; margin-top:0.22rem; display:block;
     }
-    .stat-div { width: 1px; height: 2rem; background: rgba(255,255,255,0.1); }
+    .stat-div { width:1px; height:2rem; background:var(--rule); }
 
-    /* ── SECTION HEADER ────────────────────────────────────── */
+    /* section header */
     .section-header {
-      display: flex; align-items: baseline; gap: 0.75rem;
-      margin-bottom: 0.85rem; padding-bottom: 0.5rem;
-      border-bottom: 2px solid var(--ink);
+      display:flex; align-items:baseline; gap:0.75rem;
+      margin-bottom:1rem; padding-bottom:0.55rem;
+      border-bottom:1px solid var(--rule);
     }
     .section-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.05rem; font-weight: 700; color: var(--ink);
+      font-family:'Playfair Display',serif;
+      font-size:1.02rem; font-weight:700; color:#e8edf4;
     }
     .section-count {
-      font-family: 'DM Mono', monospace; font-size: 0.62rem;
-      color: var(--ink-light);
+      font-family:'DM Mono',monospace; font-size:0.58rem; color:var(--slate);
     }
 
-    /* ── DATE GROUP HEADERS ────────────────────────────────── */
+    /* date group headers */
     .date-group-header {
-      display: flex; align-items: baseline; gap: 0.6rem;
-      font-family: 'Playfair Display', serif;
-      font-size: 0.88rem; font-weight: 700;
-      color: var(--ink); letter-spacing: -0.01em;
-      margin: 1.4rem 0 0.65rem;
-      padding-bottom: 0.35rem;
-      border-bottom: 1.5px solid var(--rule);
+      display:flex; align-items:baseline; gap:0.65rem;
+      font-family:'Playfair Display',serif;
+      font-size:0.9rem; font-weight:700;
+      color:rgba(255,255,255,0.82); letter-spacing:-0.01em;
+      margin:1.7rem 0 0.8rem;
+      padding-bottom:0.38rem;
+      border-bottom:1px solid var(--rule);
     }
-    .date-group-header:first-child { margin-top: 0; }
+    .date-group-header:first-child { margin-top:0; }
     .date-group-count {
-      font-family: 'DM Mono', monospace; font-size: 0.57rem;
-      color: var(--ink-light); font-weight: 400;
-      letter-spacing: 0.04em;
+      font-family:'DM Mono',monospace; font-size:0.54rem;
+      color:var(--slate); font-weight:400;
     }
     .date-group-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
-      margin-bottom: 0.5rem;
+      display:grid; grid-template-columns:repeat(3,1fr);
+      gap:14px; margin-bottom:0.5rem;
     }
 
-    /* ── CARDS GRID ────────────────────────────────────────── */
-    .cards-grid {
-      background: transparent;
-      border: none;
-    }
+    /* ══ GLASSMORPHISM CARDS ══════════════════════════════════ */
+    .cards-grid { background:transparent; border:none; }
+
     .card {
-      background: rgba(255, 255, 255, 0.65);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      border: 1px solid rgba(255, 255, 255, 0.9);
-      border-radius: 12px;
-      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06),
-                  0 1px 4px rgba(0, 0, 0, 0.04);
-      padding: 1.15rem 1.25rem;
-      display: flex; flex-direction: column;
-      position: relative; overflow: hidden;
-      transition: box-shadow 0.25s ease, transform 0.25s ease;
+      background:linear-gradient(135deg,
+        rgba(255,255,255,0.072) 0%,
+        rgba(255,255,255,0.028) 100%);
+      backdrop-filter:blur(22px);
+      -webkit-backdrop-filter:blur(22px);
+      border:1px solid rgba(255,255,255,0.10);
+      border-radius:15px;
+      box-shadow:
+        0 4px 28px rgba(0,0,0,0.38),
+        inset 0 1px 0 rgba(255,255,255,0.06);
+      padding:1.2rem 1.35rem;
+      display:flex; flex-direction:column;
+      position:relative; overflow:hidden;
+      transition:box-shadow 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+    }
+    /* shimmer top edge */
+    .card::before {
+      content:''; position:absolute;
+      top:0; left:10%; right:10%; height:1px;
+      background:linear-gradient(90deg,
+        transparent, rgba(255,255,255,0.14), transparent);
+      pointer-events:none;
+    }
+    /* coloured left accent bar */
+    .card::after {
+      content:''; position:absolute;
+      top:16px; bottom:16px; left:0; width:3px;
+      background:var(--card-accent,var(--orange));
+      border-radius:0 3px 3px 0;
+      opacity:0; transform:scaleY(0.35);
+      transition:opacity 0.2s, transform 0.22s;
     }
     .card:hover {
-      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.10),
-                  0 2px 8px rgba(0, 0, 0, 0.06);
-      transform: translateY(-2px);
+      transform:translateY(-3px);
+      border-color:rgba(255,255,255,0.15);
+      box-shadow:
+        0 14px 44px rgba(0,0,0,0.52),
+        inset 0 1px 0 rgba(255,255,255,0.08),
+        0 0 22px rgba(237,105,31,0.06);
     }
-    .card:hover .card-meta {
-      border-left-color: var(--card-accent, var(--orange));
-    }
-    .date-group-grid .card.featured { grid-column: span 2; }
+    .card:hover::after { opacity:1; transform:scaleY(1); }
+
+    .date-group-grid .card.featured { grid-column:span 2; }
+
     .card-meta {
-      font-family: 'DM Mono', monospace; font-size: 0.58rem;
-      color: var(--ink-light); letter-spacing: 0.04em;
-      text-transform: uppercase; margin-bottom: 0.45rem;
+      font-family:'DM Mono',monospace; font-size:0.55rem;
+      color:var(--slate); letter-spacing:0.06em;
+      text-transform:uppercase; margin-bottom:0.5rem;
     }
     .card-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 0.96rem; font-weight: 700;
-      color: var(--ink); line-height: 1.4;
-      margin-bottom: 0.45rem;
+      font-family:'Playfair Display',serif;
+      font-size:0.93rem; font-weight:700;
+      color:rgba(255,255,255,0.88); line-height:1.46;
+      margin-bottom:0.5rem;
     }
-    .card.featured .card-title { font-size: 1.18rem; }
+    .card.featured .card-title { font-size:1.12rem; }
     .card-summary {
-      font-size: 0.78rem; font-style: italic;
-      color: var(--ink-light); line-height: 1.7;
-      margin-bottom: 0.75rem;
+      font-size:0.75rem; font-style:italic;
+      color:rgba(170,180,196,0.78); line-height:1.78;
+      margin-bottom:0.85rem;
     }
     .card-link {
-      font-family: 'DM Mono', monospace; font-size: 0.62rem;
-      color: var(--orange); text-decoration: none;
-      margin-top: auto;
+      font-family:'DM Mono',monospace; font-size:0.59rem;
+      color:var(--orange); text-decoration:none;
+      margin-top:auto; opacity:0.78;
+      transition:opacity 0.14s;
     }
-    .card-link:hover { text-decoration: underline; }
+    .card-link:hover { opacity:1; text-decoration:underline; }
+
     .sentiment {
-      font-family: 'DM Mono', monospace; font-size: 0.68rem;
-      font-weight: 700; letter-spacing: 0;
+      font-family:'DM Mono',monospace; font-size:0.65rem;
+      font-weight:700; letter-spacing:0;
     }
-    .sentiment.up   { color: #1E8449; }
-    .sentiment.down { color: #C0392B; }
+    .sentiment.up   { color:#4ade80; }
+    .sentiment.down { color:#f87171; }
 
-    /* ── EMPTY STATE ───────────────────────────────────────── */
-    #empty-state {
-      padding: 3rem; text-align: center;
-      font-family: 'DM Mono', monospace; font-size: 0.78rem;
-      color: var(--ink-light);
-    }
-
-    /* ── LOADING ───────────────────────────────────────────── */
-    #loading {
-      padding: 3rem; text-align: center;
-      font-family: 'DM Mono', monospace; font-size: 0.78rem;
-      color: var(--ink-light);
+    /* empty / loading */
+    #empty-state, #loading {
+      padding:4rem 2rem; text-align:center;
+      font-family:'DM Mono',monospace; font-size:0.78rem;
+      color:var(--slate);
     }
   </style>
 </head>
 <body>
 
-<div style="position:fixed;top:20%;left:60%;width:600px;height:600px;
-  background:radial-gradient(circle, rgba(237,105,31,0.08) 0%, transparent 70%);
-  pointer-events:none;z-index:0;border-radius:50%;filter:blur(40px);"></div>
-<div style="position:fixed;top:60%;left:10%;width:500px;height:500px;
-  background:radial-gradient(circle, rgba(36,113,163,0.06) 0%, transparent 70%);
-  pointer-events:none;z-index:0;border-radius:50%;filter:blur(40px);"></div>
+<!-- ambient glow orbs -->
+<div style="position:fixed;top:-12%;left:58%;width:750px;height:750px;
+  background:radial-gradient(circle,rgba(237,105,31,0.055) 0%,transparent 65%);
+  pointer-events:none;z-index:0;border-radius:50%;filter:blur(70px);"></div>
+<div style="position:fixed;top:58%;left:-8%;width:620px;height:620px;
+  background:radial-gradient(circle,rgba(29,78,216,0.065) 0%,transparent 65%);
+  pointer-events:none;z-index:0;border-radius:50%;filter:blur(65px);"></div>
+<div style="position:fixed;top:28%;right:-10%;width:520px;height:520px;
+  background:radial-gradient(circle,rgba(17,122,101,0.048) 0%,transparent 65%);
+  pointer-events:none;z-index:0;border-radius:50%;filter:blur(65px);"></div>
 
 <div id="read-progress"></div>
 
-<!-- ── MASTHEAD ─────────────────────────────────────────────── -->
+<!-- ══ HEADER ════════════════════════════════════════════════ -->
 <header class="masthead">
-  <div class="masthead-top">
+  <div class="masthead-inner">
+
     <a class="brand" href="#">
-      <div class="brand-mark"><span class="brand-mark-inner">१</span></div>
-      <div class="brand-text">
-        <span class="brand-name">PIB <em>Press Release</em> Tracker</span>
-        <span class="brand-sub">Pahle India Foundation</span>
+      <div class="brand-emblem">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="18" cy="18" r="14" stroke="#ed691f" stroke-width="2" opacity="0.55"/>
+          <text x="18" y="25" text-anchor="middle"
+                font-family="'Playfair Display',Georgia,serif"
+                font-size="17" font-weight="700" fill="#ed691f">P</text>
+        </svg>
+      </div>
+      <div class="brand-words">
+        <span class="brand-title">PIF's <em>PIB</em> Tracker</span>
+        <span class="brand-subtitle">
+          Tracking the last 3 days of PIB press releases &nbsp;·&nbsp;
+          <strong>Pahle India Foundation</strong>
+        </span>
       </div>
     </a>
+
     <div class="masthead-meta">
-      <div class="meta-item">Updated <strong id="last-updated">—</strong></div>
-      <div class="meta-item"><strong id="total-count">—</strong> releases</div>
+      <div class="meta-chip">Updated <strong id="last-updated">—</strong></div>
+      <div class="meta-chip"><strong id="total-count">—</strong> releases</div>
     </div>
+
   </div>
+
   <div class="ticker-strip">
     <span class="ticker-label">LATEST</span>
     <div class="ticker-track">
@@ -376,32 +425,24 @@
   </div>
 </header>
 
-<!-- ── TWO-COLUMN LAYOUT ─────────────────────────────────────── -->
-<div class="layout">
+<!-- ══ VERTICAL FILTER RIBBON ════════════════════════════════ -->
+<nav class="filter-ribbon" aria-label="Filter by vertical">
+  <div class="ribbon-inner">
+    <span class="ribbon-label">Filter ↘</span>
+    <div id="vertical-filters" style="display:contents"></div>
+    <div class="ribbon-divider"></div>
+    <select id="region-select" class="region-select" title="Filter by region">
+      <option value="all">All Regions</option>
+    </select>
+  </div>
+</nav>
 
-  <!-- SIDEBAR -->
-  <aside class="sidebar" id="sidebar">
-    <div class="sidebar-head">
-      <span class="sidebar-title">Filter by Vertical</span>
-    </div>
-    <div id="vertical-filters"></div>
+<!-- ══ MAIN ══════════════════════════════════════════════════ -->
+<main class="main">
 
-    <div class="sidebar-rule"></div>
-
-    <div class="sidebar-section">
-      <span class="sidebar-label">Region</span>
-      <select id="region-select" class="region-select">
-        <option value="all">All Regions</option>
-      </select>
-    </div>
-  </aside>
-
-  <!-- MAIN CONTENT -->
-  <main class="main">
-
-    <!-- Search -->
+  <div class="controls-row">
     <div class="search-wrap">
-      <svg class="search-icon" width="14" height="14" fill="none"
+      <svg class="search-icon" width="13" height="13" fill="none"
            stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
         <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
       </svg>
@@ -409,11 +450,10 @@
              placeholder="Search press releases…" autocomplete="off" />
     </div>
 
-    <!-- Stats bar -->
     <div class="stats-bar">
       <div class="stat">
         <span class="stat-num" id="stat-total">—</span>
-        <span class="stat-lbl">Total Releases</span>
+        <span class="stat-lbl">Releases</span>
       </div>
       <div class="stat-div"></div>
       <div class="stat">
@@ -423,23 +463,23 @@
       <div class="stat-div"></div>
       <div class="stat">
         <span class="stat-num" id="stat-verticals">—</span>
-        <span class="stat-lbl">Verticals Covered</span>
+        <span class="stat-lbl">Verticals</span>
       </div>
     </div>
+  </div>
 
-    <!-- Section header -->
-    <div class="section-header">
-      <span id="section-title" class="section-title">All Releases</span>
-      <span id="section-count" class="section-count"></span>
-    </div>
+  <div class="section-header">
+    <span id="section-title" class="section-title">All Releases</span>
+    <span id="section-count" class="section-count"></span>
+  </div>
 
-    <!-- Cards -->
-    <div id="loading">Loading press releases…</div>
-    <div id="cards-grid" class="cards-grid" style="display:none"></div>
-    <div id="empty-state" style="display:none">No press releases found for today, yesterday, or the day before (IST).</div>
+  <div id="loading">Loading press releases…</div>
+  <div id="cards-grid" class="cards-grid" style="display:none"></div>
+  <div id="empty-state" style="display:none">
+    No press releases found for today, yesterday, or the day before (IST).
+  </div>
 
-  </main>
-</div>
+</main>
 
 <script>
 /* ── VERTICAL METADATA ──────────────────────────────────────── */
@@ -450,17 +490,18 @@ const VCOL = {
   ELS:              '#7D3C98',
   Jobs_Livelihood:  '#7D3C98',
   Sustainability:   '#1E8449',
-  Political_Economy:'#117A65',
-  other:            '#9a8070',
+  Political_Economy:'#0E7490',
+  other:            '#4a5568',
 };
-const VLBL = {
-  EooDB:            'EooDB',
-  CoDED:            'CoDED',
-  iLEAP:            'iLEAP',
-  ELS:              'ELS',
-  Jobs_Livelihood:  'ELS',
-  Sustainability:   'Sustainability',
-  Political_Economy:'Pol. Economy',
+const VCOL_RGB = {
+  EooDB:            '232,98,10',
+  CoDED:            '36,113,163',
+  iLEAP:            '192,57,43',
+  ELS:              '125,60,152',
+  Jobs_Livelihood:  '125,60,152',
+  Sustainability:   '30,132,73',
+  Political_Economy:'14,116,144',
+  other:            '74,85,104',
 };
 
 function normalise(v) {
@@ -469,11 +510,8 @@ function normalise(v) {
   if (v === 'Political_Economy') return 'Pol. Economy';
   return v;
 }
-function color(v) { return VCOL[v] || VCOL[normalise(v)] || '#9a8070'; }
-function label(v, meta) {
-  if (meta && meta[v]) return meta[v].label;
-  return VLBL[v] || normalise(v);
-}
+function color(v)    { return VCOL[v]     || VCOL[normalise(v)]     || VCOL.other; }
+function colorRGB(v) { return VCOL_RGB[v] || VCOL_RGB[normalise(v)] || VCOL_RGB.other; }
 
 /* ── STATE ──────────────────────────────────────────────────── */
 let allArticles   = [];
@@ -488,20 +526,16 @@ async function loadData() {
   try {
     const res  = await fetch('pib.json?t=' + Date.now());
     const data = await res.json();
-
-    allArticles   = data.articles || [];
+    allArticles   = data.articles  || [];
     verticalsMeta = data.verticals || {};
-
     document.getElementById('last-updated').textContent =
       data.last_updated_ist || data.last_updated || '—';
     document.getElementById('total-count').textContent = allArticles.length;
-
     buildFilters();
     buildRegions(data.regions || {});
     buildTicker();
     render();
     initGSAP();
-
   } catch(e) {
     document.getElementById('loading').textContent =
       'Could not load pib.json — run the scraper first.';
@@ -512,12 +546,8 @@ async function loadData() {
 function buildFilters() {
   const c = document.getElementById('vertical-filters');
   c.innerHTML = '';
+  c.appendChild(makeFilterBtn('all', 'All', allArticles.length, '#ed691f', '237,105,31', true));
 
-  // All
-  c.appendChild(makeFilterBtn('all', 'All Releases', allArticles.length,
-    'var(--orange)', true));
-
-  // Verticals from metadata
   const seen = new Set();
   Object.entries(verticalsMeta).forEach(([vid, meta]) => {
     const normId = vid === 'Jobs_Livelihood' ? 'ELS' : vid;
@@ -527,21 +557,21 @@ function buildFilters() {
       const pv = a.primary_vertical;
       return pv === vid || (normId === 'ELS' && pv === 'Jobs_Livelihood');
     }).length;
-    const displayLabel = normId === 'Political_Economy' ? 'Pol. Economy' :
-                         normId === 'Sustainability' ? 'Sustainability' : normId;
-    c.appendChild(makeFilterBtn(vid, displayLabel, cnt, meta.color, false));
+    const lbl = normId === 'Political_Economy' ? 'Pol. Economy' : normId;
+    c.appendChild(makeFilterBtn(vid, lbl, cnt,
+      VCOL[vid]||VCOL.other, VCOL_RGB[vid]||VCOL_RGB.other, false));
   });
 
-  // Other
   const otherCnt = allArticles.filter(a => !a.primary_vertical || a.section === 'other').length;
-  c.appendChild(makeFilterBtn('other', 'Other', otherCnt, '#9a8070', false));
+  c.appendChild(makeFilterBtn('other', 'Other', otherCnt, VCOL.other, VCOL_RGB.other, false));
 }
 
-function makeFilterBtn(vid, lbl, cnt, col, active) {
+function makeFilterBtn(vid, lbl, cnt, col, rgb, active) {
   const b = document.createElement('button');
   b.className = 'filter-btn' + (active ? ' active' : '');
   b.dataset.v = vid;
   b.style.setProperty('--active-c', col);
+  b.style.setProperty('--active-rgb', rgb);
   b.innerHTML = `${esc(lbl)} <span class="filter-count">${cnt}</span>`;
   b.addEventListener('click', () => setVertical(vid, lbl));
   return b;
@@ -577,36 +607,27 @@ function buildTicker() {
   el.innerHTML = html + html;
 }
 
-/* ── FILTER LOGIC ───────────────────────────────────────────── */
-
-/**
- * Returns the set of allowed YYYY-MM-DD date strings in IST:
- * today, yesterday, and day-before-yesterday (IST timezone).
- * This recalculates every call so it auto-updates at IST midnight.
- */
+/* ── IST DATE HELPERS ────────────────────────────────────────── */
 function allowedISTDates() {
-  // IST = UTC+5:30
   const nowIST = new Date(Date.now() + (5.5 * 60 * 60 * 1000));
-  const dates = new Set();
+  const dates  = new Set();
   for (let i = 0; i < 3; i++) {
-    const d = new Date(nowIST);
+    const d   = new Date(nowIST);
     d.setUTCDate(d.getUTCDate() - i);
-    const y = d.getUTCFullYear();
-    const m = String(d.getUTCMonth() + 1).padStart(2, '0');
-    const day = String(d.getUTCDate()).padStart(2, '0');
+    const y   = d.getUTCFullYear();
+    const m   = String(d.getUTCMonth()+1).padStart(2,'0');
+    const day = String(d.getUTCDate()).padStart(2,'0');
     dates.add(`${y}-${m}-${day}`);
   }
   return dates;
 }
 
+/* ── FILTER LOGIC ────────────────────────────────────────────── */
 function getFiltered() {
   const allowed = allowedISTDates();
   return allArticles.filter(a => {
-    // Drop anything outside today / yesterday / day-before in IST
     if (a.date && !allowed.has(a.date)) return false;
-
     const pv = a.primary_vertical || '';
-
     if (activeV === 'other') {
       if (pv && a.section !== 'other') return false;
     } else if (activeV !== 'all') {
@@ -614,13 +635,11 @@ function getFiltered() {
                        (pv === 'ELS' || pv === 'Jobs_Livelihood');
       if (pv !== activeV && !matchELS) return false;
     }
-
     if (activeRegion !== 'all' && a.region !== activeRegion) return false;
-
     if (searchQ) {
       const q = searchQ.toLowerCase();
-      return (a.title || '').toLowerCase().includes(q) ||
-             (a.snippet || '').toLowerCase().includes(q);
+      return (a.title||'').toLowerCase().includes(q) ||
+             (a.snippet||'').toLowerCase().includes(q);
     }
     return true;
   });
@@ -634,20 +653,18 @@ function render() {
   const loading  = document.getElementById('loading');
 
   loading.style.display = 'none';
-
   document.getElementById('section-count').textContent =
     `${filtered.length} release${filtered.length !== 1 ? 's' : ''}`;
 
   if (!filtered.length) {
-    grid.style.display = 'none';
+    grid.style.display  = 'none';
     empty.style.display = 'block';
     updateStats(filtered);
     return;
   }
   empty.style.display = 'none';
-  grid.style.display  = 'block';   // use block so date headers span full width
+  grid.style.display  = 'block';
 
-  // Group articles by date (sorted newest first)
   const byDate = {};
   filtered.forEach(a => {
     const d = a.date || 'unknown';
@@ -656,162 +673,131 @@ function render() {
   });
   const sortedDates = Object.keys(byDate).sort().reverse();
 
-  let html = '';
-  let cardIndex = 0;
+  let html = '', cardIndex = 0;
 
   sortedDates.forEach(dateStr => {
     const group = byDate[dateStr];
+    html += `<div class="date-group-header">
+      ${esc(dateGroupLabel(dateStr))}
+      <span class="date-group-count">${group.length} release${group.length!==1?'s':''}</span>
+    </div><div class="date-group-grid">`;
 
-    // Date group header
-    html += `<div class="date-group-header">${esc(dateGroupLabel(dateStr))}
-      <span class="date-group-count">${group.length} release${group.length !== 1 ? 's' : ''}</span>
-    </div>
-    <div class="date-group-grid">`;
-
-    group.forEach((a, i) => {
+    group.forEach(a => {
       const pv       = a.primary_vertical || 'other';
       const col      = color(pv);
       const lbl      = normalise(pv) === 'other' ? 'Other' : normalise(pv);
       const when     = timeAgo(a.date) || '';
-      const region   = (a.region || '').toUpperCase();
-      const sentHtml = a.sentiment === 'up'   ? ' <span class="sentiment up">↑</span>'
-                     : a.sentiment === 'down' ? ' <span class="sentiment down">↓</span>'
+      const region   = (a.region||'').toUpperCase();
+      const sentHtml = a.sentiment==='up'   ? ' <span class="sentiment up">↑</span>'
+                     : a.sentiment==='down' ? ' <span class="sentiment down">↓</span>'
                      : '';
-      const meta     = [region, lbl + sentHtml, when].filter(Boolean).join(' / ');
-      const summary  = a.summary || firstTwo(a.snippet || a.full_content || '');
-      const featured = (cardIndex === 0) ? ' featured' : '';
+      const meta    = [region, lbl+sentHtml, when].filter(Boolean).join(' / ');
+      const summary = a.summary || firstTwo(a.snippet||a.full_content||'');
+      const featured = (cardIndex===0) ? ' featured' : '';
       cardIndex++;
 
       html += `<article class="card${featured}" style="--card-accent:${col}">
   <div class="card-meta">${meta}</div>
-  <h2 class="card-title">${esc(a.title || '')}</h2>
-  ${summary ? `<p class="card-summary">${esc(summary)}</p>` : ''}
-  <a class="card-link" href="${esc(a.url || '#')}" target="_blank" rel="noopener">Read full release →</a>
+  <h2 class="card-title">${esc(a.title||'')}</h2>
+  ${summary?`<p class="card-summary">${esc(summary)}</p>`:''}
+  <a class="card-link" href="${esc(a.url||'#')}" target="_blank" rel="noopener">Read full release →</a>
 </article>`;
     });
-
-    html += `</div>`; // close date-group-grid
+    html += `</div>`;
   });
 
   grid.innerHTML = html;
-
   updateStats(filtered);
 
   if (inited) {
     gsap.fromTo('.card',
-      { opacity: 0, y: 12 },
-      { opacity: 1, y: 0, duration: 0.28, stagger: 0.035, ease: 'power2.out', clearProps: 'transform' }
+      { opacity:0, y:14 },
+      { opacity:1, y:0, duration:0.3, stagger:0.03, ease:'power2.out', clearProps:'transform' }
     );
   }
 }
 
 function updateStats(filtered) {
-  const uRegions   = new Set(filtered.map(a => a.region)).size;
-  const uVerticals = new Set(
-    filtered.map(a => a.primary_vertical).filter(v => v && v !== '')
-  ).size;
+  const uR = new Set(filtered.map(a=>a.region)).size;
+  const uV = new Set(filtered.map(a=>a.primary_vertical).filter(v=>v&&v!=='')).size;
   if (inited) {
     document.getElementById('stat-total').textContent    = filtered.length;
-    document.getElementById('stat-regions').textContent  = uRegions;
-    document.getElementById('stat-verticals').textContent = uVerticals;
+    document.getElementById('stat-regions').textContent  = uR;
+    document.getElementById('stat-verticals').textContent= uV;
   }
 }
 
 /* ── GSAP ───────────────────────────────────────────────────── */
 function initGSAP() {
-  // Sidebar slide in
-  gsap.from('#sidebar', { x: -24, opacity: 0, duration: 0.45, ease: 'power2.out' });
-
-  // Stats count-up
+  gsap.from('.filter-ribbon', { y:-8, opacity:0, duration:0.35, ease:'power2.out', delay:0.08 });
   const total     = allArticles.length;
-  const regions   = new Set(allArticles.map(a => a.region)).size;
-  const verticals = new Set(allArticles.map(a => a.primary_vertical).filter(Boolean)).size;
-
+  const regions   = new Set(allArticles.map(a=>a.region)).size;
+  const verticals = new Set(allArticles.map(a=>a.primary_vertical).filter(Boolean)).size;
   countUp('stat-total',     total,     0.3);
   countUp('stat-regions',   regions,   0.4);
   countUp('stat-verticals', verticals, 0.5);
-
-  // Cards stagger (initial load)
   gsap.fromTo('.card',
-    { opacity: 0, y: 16 },
-    { opacity: 1, y: 0, duration: 0.35, stagger: 0.04, ease: 'power2.out',
-      delay: 0.2, clearProps: 'transform' }
+    { opacity:0, y:18 },
+    { opacity:1, y:0, duration:0.38, stagger:0.04, ease:'power2.out',
+      delay:0.15, clearProps:'transform' }
   );
-
   inited = true;
 }
 
 function countUp(id, target, delay) {
   const el  = document.getElementById(id);
-  const obj = { v: 0 };
+  const obj = { v:0 };
   gsap.to(obj, {
-    v: target, duration: 0.85, delay,
-    ease: 'power2.out',
+    v:target, duration:0.9, delay, ease:'power2.out',
     onUpdate: () => { el.textContent = Math.round(obj.v); }
   });
 }
 
 /* ── HELPERS ────────────────────────────────────────────────── */
 function esc(s) {
-  return String(s || '')
+  return String(s||'')
     .replace(/&/g,'&amp;').replace(/</g,'&lt;')
     .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
-
 function firstTwo(text) {
   if (!text) return '';
-  const m = text.match(/[^.!?]+[.!?]+/g) || [];
-  return m.slice(0, 2).join(' ').trim() || text.slice(0, 180);
+  const m = text.match(/[^.!?]+[.!?]+/g)||[];
+  return m.slice(0,2).join(' ').trim()||text.slice(0,180);
 }
-
 function timeAgo(d) {
   if (!d) return '';
-  // Compute today / yesterday / day-before in IST
-  const nowIST = new Date(Date.now() + (5.5 * 60 * 60 * 1000));
+  const nowIST   = new Date(Date.now()+(5.5*60*60*1000));
   const todayIST = new Date(nowIST);
-  todayIST.setUTCHours(0, 0, 0, 0);
-  const todayStr     = todayIST.toISOString().slice(0, 10);
-  const yestStr      = new Date(todayIST.getTime() - 86400000).toISOString().slice(0, 10);
-  const dayBefStr    = new Date(todayIST.getTime() - 2 * 86400000).toISOString().slice(0, 10);
-
-  if (d === todayStr)  return 'Today';
-  if (d === yestStr)   return 'Yesterday';
-  if (d === dayBefStr) {
-    const dt = new Date(d + 'T00:00:00Z');
-    return dt.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
-  }
-  const dt = new Date(d + 'T00:00:00Z');
-  return dt.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+  todayIST.setUTCHours(0,0,0,0);
+  const todayStr = todayIST.toISOString().slice(0,10);
+  const yestStr  = new Date(todayIST.getTime()-86400000).toISOString().slice(0,10);
+  if (d===todayStr) return 'Today';
+  if (d===yestStr)  return 'Yesterday';
+  return new Date(d+'T00:00:00Z')
+    .toLocaleDateString('en-IN',{day:'numeric',month:'short'});
 }
-
-/**
- * Returns a human-readable date group label for a section header.
- * e.g. "Today — 24 Apr", "Yesterday — 23 Apr", "22 Apr"
- */
 function dateGroupLabel(dateStr) {
-  const nowIST = new Date(Date.now() + (5.5 * 60 * 60 * 1000));
+  const nowIST   = new Date(Date.now()+(5.5*60*60*1000));
   const todayIST = new Date(nowIST);
-  todayIST.setUTCHours(0, 0, 0, 0);
-  const todayStr  = todayIST.toISOString().slice(0, 10);
-  const yestStr   = new Date(todayIST.getTime() - 86400000).toISOString().slice(0, 10);
-  const dt = new Date(dateStr + 'T00:00:00Z');
-  const fmt = dt.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
-  if (dateStr === todayStr)  return `Today — ${fmt}`;
-  if (dateStr === yestStr)   return `Yesterday — ${fmt}`;
+  todayIST.setUTCHours(0,0,0,0);
+  const todayStr = todayIST.toISOString().slice(0,10);
+  const yestStr  = new Date(todayIST.getTime()-86400000).toISOString().slice(0,10);
+  const fmt = new Date(dateStr+'T00:00:00Z')
+    .toLocaleDateString('en-IN',{day:'numeric',month:'short'});
+  if (dateStr===todayStr) return `Today — ${fmt}`;
+  if (dateStr===yestStr)  return `Yesterday — ${fmt}`;
   return fmt;
 }
 
 /* ── EVENTS ─────────────────────────────────────────────────── */
 document.getElementById('search').addEventListener('input', e => {
-  searchQ = e.target.value.trim();
-  render();
+  searchQ = e.target.value.trim(); render();
 });
-
 window.addEventListener('scroll', () => {
   const total = document.body.scrollHeight - window.innerHeight;
-  if (total > 0)
+  if (total>0)
     document.getElementById('read-progress').style.transform =
-      `scaleX(${window.scrollY / total})`;
+      `scaleX(${window.scrollY/total})`;
 });
 
 loadData();
