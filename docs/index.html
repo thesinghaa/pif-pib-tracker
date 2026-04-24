@@ -26,7 +26,8 @@
       --mast-h:      86px;
       font-family: 'DM Sans', sans-serif;
       color: var(--ink);
-      background: var(--cream);
+      background: linear-gradient(135deg, #f0ede8 0%, #e8e4de 50%, #ede9e3 100%);
+      min-height: 100vh;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
@@ -246,18 +247,31 @@
     .cards-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 1px;
-      background: var(--rule);
+      gap: 16px;
+      background: transparent;
+      border: none;
     }
     .card {
-      background: var(--paper);
+      background: rgba(255, 255, 255, 0.65);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      border-radius: 12px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06),
+                  0 1px 4px rgba(0, 0, 0, 0.04);
       padding: 1.15rem 1.25rem;
-      border-left: 3px solid transparent;
-      transition: border-left-color 0.15s, box-shadow 0.15s;
+      display: flex; flex-direction: column;
+      position: relative; overflow: hidden;
+      opacity: 0;
+      transition: box-shadow 0.25s ease, transform 0.25s ease;
     }
     .card:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.10),
+                  0 2px 8px rgba(0, 0, 0, 0.06);
+      transform: translateY(-2px);
+    }
+    .card:hover .card-meta {
       border-left-color: var(--card-accent, var(--orange));
-      box-shadow: inset 3px 0 0 var(--card-accent, var(--orange));
     }
     .card.featured { grid-column: span 2; }
     .card-meta {
@@ -299,6 +313,13 @@
   </style>
 </head>
 <body>
+
+<div style="position:fixed;top:20%;left:60%;width:600px;height:600px;
+  background:radial-gradient(circle, rgba(237,105,31,0.08) 0%, transparent 70%);
+  pointer-events:none;z-index:0;border-radius:50%;filter:blur(40px);"></div>
+<div style="position:fixed;top:60%;left:10%;width:500px;height:500px;
+  background:radial-gradient(circle, rgba(36,113,163,0.06) 0%, transparent 70%);
+  pointer-events:none;z-index:0;border-radius:50%;filter:blur(40px);"></div>
 
 <div id="read-progress"></div>
 
