@@ -1099,9 +1099,11 @@ function render() {
   empty.style.display = 'none';
   grid.style.display  = 'block';
 
+  // Sort all articles newest-first before grouping
+  filtered.sort((a, b) => new Date(b.date || b.scraped_date || 0) - new Date(a.date || a.scraped_date || 0));
+
   const byDate = {};
   filtered.forEach(a => {
-    // Use the same resolution logic as getFiltered: date first, scraped_date as fallback
     const d = a.date || a.scraped_date || '';
     if (!byDate[d]) byDate[d] = [];
     byDate[d].push(a);
@@ -1206,26 +1208,32 @@ function firstTwo(text) {
   const m = text.match(/[^.!?]+[.!?]+/g)||[];
   return m.slice(0,2).join(' ').trim()||text.slice(0,180);
 }
+function getDateLabel(dateStr) {
+  if (!dateStr) return '';
+  // Parse as local date (YYYY-MM-DD at local midnight) so comparisons
+  // use the browser's timezone — avoids UTC-midnight-vs-IST off-by-one.
+  const parts = dateStr.split('-').map(Number);
+  const articleDay = new Date(parts[0], parts[1] - 1, parts[2]);
+  const now = new Date();
+  const todayDay = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const diffDays = Math.round((todayDay - articleDay) / 86400000);
+  if (diffDays === 0) return 'Today';
+  if (diffDays === 1) return 'Yesterday';
+  return articleDay.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+}
 function timeAgo(d) {
-  if (!d) return '';
-  const base     = nowIST();
-  base.setUTCHours(0,0,0,0);
-  const todayStr = base.toISOString().slice(0,10);
-  const yestStr  = new Date(base.getTime()-86400000).toISOString().slice(0,10);
-  if (d===todayStr) return 'Today';
-  if (d===yestStr)  return 'Yesterday';
-  return new Date(d+'T00:00:00Z')
-    .toLocaleDateString('en-IN',{day:'numeric',month:'short'});
+  return getDateLabel(d);
 }
 function dateGroupLabel(dateStr) {
-  const base     = nowIST();
-  base.setUTCHours(0,0,0,0);
-  const todayStr = base.toISOString().slice(0,10);
-  const yestStr  = new Date(base.getTime()-86400000).toISOString().slice(0,10);
-  const fmt = new Date(dateStr+'T00:00:00Z')
-    .toLocaleDateString('en-IN',{day:'numeric',month:'short'});
-  if (dateStr===todayStr) return `Today — ${fmt}`;
-  if (dateStr===yestStr)  return `Yesterday — ${fmt}`;
+  if (!dateStr) return '';
+  const parts = dateStr.split('-').map(Number);
+  const articleDay = new Date(parts[0], parts[1] - 1, parts[2]);
+  const now = new Date();
+  const todayDay = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const diffDays = Math.round((todayDay - articleDay) / 86400000);
+  const fmt = articleDay.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+  if (diffDays === 0) return `Today — ${fmt}`;
+  if (diffDays === 1) return `Yesterday — ${fmt}`;
   return fmt;
 }
 

@@ -24,6 +24,7 @@ NEW in v3:
   stale articles; the date-check threshold is a finer-grained second pass.
 """
 
+import email.utils
 import feedparser
 import json
 import logging
@@ -265,28 +266,38 @@ def score_release(title: str, snippet: str) -> dict:
 def parse_rss_date(entry) -> tuple:
     today = datetime.now(timezone.utc)
 
+    def _classify(dt_utc: datetime):
+        age_days = (today - dt_utc).days
+        if age_days < 0:
+            return today.strftime("%Y-%m-%d"), True
+        date_str = dt_utc.strftime("%Y-%m-%d")
+        if age_days <= RSS_DATE_MAX_AGE_DAYS:
+            return date_str, True
+        log.debug("RSS date %s is %d days old — flagged for verification", date_str, age_days)
+        return date_str, False
+
+    # 1. feedparser pre-parsed struct_time (already UTC)
     for attr in ("published_parsed", "updated_parsed"):
         val = getattr(entry, attr, None)
         if not val:
             continue
         try:
-            dt = datetime(*val[:6], tzinfo=timezone.utc)
-            age_days = (today - dt).days
-
-            if age_days < 0:
-                return today.strftime("%Y-%m-%d"), True
-
-            date_str = dt.strftime("%Y-%m-%d")
-
-            if age_days <= RSS_DATE_MAX_AGE_DAYS:
-                return date_str, True
-
-            log.debug("RSS date %s is %d days old — flagged for verification", date_str, age_days)
-            return date_str, False
-
+            return _classify(datetime(*val[:6], tzinfo=timezone.utc))
         except Exception:
             continue
 
+    # 2. Raw RFC 2822 string — more reliable when feeds include timezone offset
+    for field in ("published", "updated"):
+        raw = entry.get(field, "") or ""
+        if not raw:
+            continue
+        try:
+            dt = email.utils.parsedate_to_datetime(raw)
+            return _classify(dt.astimezone(timezone.utc))
+        except Exception:
+            continue
+
+    # 3. No date available — caller will attempt page-level verification
     return today.strftime("%Y-%m-%d"), False
 
 def extract_posted_date_from_text(text: str) -> str:
