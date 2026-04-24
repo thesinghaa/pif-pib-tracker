@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-24T01:53:59Z",
-  "last_updated_ist": "24 Apr 2026, 07:23 AM IST",
+  "last_updated": "2026-04-24T04:50:38Z",
+  "last_updated_ist": "24 Apr 2026, 10:20 AM IST",
   "total": 500,
   "articles": [
     {
@@ -10,6 +10,21 @@
       "date": "2026-04-24",
       "relative_time": "Today",
       "region": "Patna",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "15cf622c6ce4f5c06ec3c12290d9c0ce",
+      "title": "General Elections and bye-elections 2026: ECI action on unlawful social media content",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2253528",
+      "date": "2026-04-24",
+      "relative_time": "Today",
+      "region": "Chennai",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -7650,21 +7665,6 @@
       "date": "2026-04-19",
       "relative_time": "Today",
       "region": "Vijayawada",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "vertical_scores": {},
-      "section": "other"
-    },
-    {
-      "id": "a751a005168b81f4cd125d248302d43b",
-      "title": "CTIL Organises Panel Discussion on WTO Ruling on Transnational Subsidies in New Delhi",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2253531",
-      "date": "2026-04-19",
-      "relative_time": "Today",
-      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
