@@ -663,59 +663,88 @@
       .search-wrap    { max-width: 100%; }
     }
 
-    /* Phone (≤ 600px) */
-    @media (max-width: 600px) {
-      /* back bar */
-      .back-bar    { height: 32px; padding: 0 0.85rem; }
-      .back-btn    { font-size: 0.62rem; padding: 0.3rem 0.75rem; }
-      .back-crumb  { font-size: 0.6rem; }
-      .back-separator { display: none; }
+    /* Mobile (≤ 768px) */
+    @media (max-width: 768px) {
+      /* hide back bar — reclaim 36px at top */
+      .back-bar { display: none; }
 
-      /* masthead */
-      .masthead         { top: 32px; }
-      .masthead-inner   { padding: 0 1rem; min-height: 60px; }
+      /* masthead: compact single row, sticks to very top */
+      .masthead { top: 0; }
+      .masthead-inner {
+        padding: 0 1rem;
+        min-height: 50px;
+        gap: 0.5rem;
+      }
+
+      /* hide logo, divider, subtitle — keep just the title */
       .brand-emblem,
-      .brand-emblem img { height: 36px; }
+      .brand-emblem img { display: none; }
       .brand-divider    { display: none; }
-      .brand-title      { font-size: 1.05rem; }
       .brand-subtitle   { display: none; }
-      .live-badge       { display: none; }
-      .meta-chip        { font-size: 0.62rem; padding: 0.25rem 0.55rem; }
+      .brand-title      { font-size: 1rem; }
 
-      /* ticker */
-      .ticker-strip  { height: 28px; }
-      .ticker-label  { font-size: 0.55rem; padding: 0 10px; }
+      /* masthead-right: live badge + releases count only */
+      .masthead-right { gap: 0.4rem; flex-shrink: 0; }
+      /* hide "Updated…" chip (2nd child), keep live-badge and releases count */
+      .masthead-right > div:nth-child(2) { display: none; }
+      .meta-chip { font-size: 0.62rem; padding: 0.25rem 0.55rem; }
+      .live-badge { font-size: 0.6rem; padding: 0.25rem 0.55rem; }
+
+      /* ticker: compact — sticky total so far: 50px masthead-inner */
+      .ticker-strip { height: 28px; }
+      .ticker-label { font-size: 0.55rem; padding: 0 10px; }
       .ticker-content a { font-size: 0.6rem; padding: 0 1.25rem; }
 
-      /* filter ribbon — recalculate sticky: 32 + 60 + 28 = 120px */
-      .filter-ribbon  { top: 120px; padding: 0 0.85rem; }
-      .ribbon-inner   { height: 44px; }
+      /* filter ribbon: horizontal scroll, no label, no region dropdown
+         sticky top = 50px (masthead-inner) + 28px (ticker) = 78px */
+      .filter-ribbon  { top: 78px; padding: 0; }
+      .ribbon-inner   { height: 44px; padding: 0 0.85rem; flex-wrap: nowrap; }
       .ribbon-label   { display: none; }
+      .ribbon-divider { display: none; }
+      .region-select  { display: none; }
       .filter-btn     { padding: 0.35rem 0.85rem; font-size: 0.65rem; margin-right: 0.3rem; }
-      .region-select  { font-size: 0.65rem; padding: 0.3rem 0.65rem; }
 
       /* main content */
       .main { padding: 0.85rem 0.85rem 4rem; }
+      .controls-row { flex-wrap: wrap; gap: 0.75rem; }
 
-      /* stats */
-      .stats-bar    { flex-direction: column; gap: 0; border-radius: 8px; }
-      .stat         { padding: 0.65rem 1rem; border-bottom: 1px solid var(--rule); display: flex; align-items: center; gap: 0.75rem; }
-      .stat:last-child { border-bottom: none; }
-      .stat-num     { font-size: 1.5rem; }
-      .stat-lbl     { font-size: 0.55rem; }
-      .stat-div     { display: none; }
+      /* stats: one clean horizontal row */
+      .stats-bar {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0.6rem 0.5rem;
+        border-radius: 8px;
+        flex-shrink: 0;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      .stat {
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.4rem 0.25rem;
+        text-align: center;
+        border-right: 1px solid var(--rule);
+        border-bottom: none;
+        gap: 0.15rem;
+      }
+      .stat:first-child { padding-left: 0.25rem; }
+      .stat:last-child  { border-right: none; }
+      .stat-num { font-size: 1.5rem; }
+      .stat-lbl { font-size: 0.52rem; margin-top: 0; }
+      .stat-div { display: none; }
 
       /* section header */
       .section-header { margin-bottom: 0.65rem; }
       .section-title  { font-size: 0.9rem; }
 
-      /* cards */
+      /* cards: single column */
       .date-group-grid { grid-template-columns: 1fr; gap: 10px; }
       .date-group-grid .card.featured { grid-column: span 1; }
       .card { padding: 1rem 1.1rem; border-radius: 12px; }
       .card-title { font-size: 0.88rem !important; }
 
-      /* search */
+      /* search: full width */
       .search-wrap { min-width: 100%; }
       .search-input { height: 42px; font-size: 0.85rem; }
     }
