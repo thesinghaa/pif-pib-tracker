@@ -649,6 +649,76 @@
       color: var(--orange);
       background: rgba(237,105,31,0.06);
     }
+
+    /* ══ RESPONSIVE ═══════════════════════════════════════════════ */
+
+    /* Tablet (≤ 880px) */
+    @media (max-width: 880px) {
+      .masthead-inner { padding: 0 1.5rem; }
+      .filter-ribbon  { padding: 0 1.5rem; }
+      .main           { padding: 1.5rem 1.5rem 4rem; }
+      .date-group-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+      .date-group-grid .card.featured { grid-column: span 2; }
+      .controls-row   { flex-wrap: wrap; gap: 0.75rem; }
+      .search-wrap    { max-width: 100%; }
+    }
+
+    /* Phone (≤ 600px) */
+    @media (max-width: 600px) {
+      /* back bar */
+      .back-bar    { height: 32px; padding: 0 0.85rem; }
+      .back-btn    { font-size: 0.62rem; padding: 0.3rem 0.75rem; }
+      .back-crumb  { font-size: 0.6rem; }
+      .back-separator { display: none; }
+
+      /* masthead */
+      .masthead         { top: 32px; }
+      .masthead-inner   { padding: 0 1rem; min-height: 60px; }
+      .brand-emblem,
+      .brand-emblem img { height: 36px; }
+      .brand-divider    { display: none; }
+      .brand-title      { font-size: 1.05rem; }
+      .brand-subtitle   { display: none; }
+      .live-badge       { display: none; }
+      .meta-chip        { font-size: 0.62rem; padding: 0.25rem 0.55rem; }
+
+      /* ticker */
+      .ticker-strip  { height: 28px; }
+      .ticker-label  { font-size: 0.55rem; padding: 0 10px; }
+      .ticker-content a { font-size: 0.6rem; padding: 0 1.25rem; }
+
+      /* filter ribbon — recalculate sticky: 32 + 60 + 28 = 120px */
+      .filter-ribbon  { top: 120px; padding: 0 0.85rem; }
+      .ribbon-inner   { height: 44px; }
+      .ribbon-label   { display: none; }
+      .filter-btn     { padding: 0.35rem 0.85rem; font-size: 0.65rem; margin-right: 0.3rem; }
+      .region-select  { font-size: 0.65rem; padding: 0.3rem 0.65rem; }
+
+      /* main content */
+      .main { padding: 0.85rem 0.85rem 4rem; }
+
+      /* stats */
+      .stats-bar    { flex-direction: column; gap: 0; border-radius: 8px; }
+      .stat         { padding: 0.65rem 1rem; border-bottom: 1px solid var(--rule); display: flex; align-items: center; gap: 0.75rem; }
+      .stat:last-child { border-bottom: none; }
+      .stat-num     { font-size: 1.5rem; }
+      .stat-lbl     { font-size: 0.55rem; }
+      .stat-div     { display: none; }
+
+      /* section header */
+      .section-header { margin-bottom: 0.65rem; }
+      .section-title  { font-size: 0.9rem; }
+
+      /* cards */
+      .date-group-grid { grid-template-columns: 1fr; gap: 10px; }
+      .date-group-grid .card.featured { grid-column: span 1; }
+      .card { padding: 1rem 1.1rem; border-radius: 12px; }
+      .card-title { font-size: 0.88rem !important; }
+
+      /* search */
+      .search-wrap { min-width: 100%; }
+      .search-input { height: 42px; font-size: 0.85rem; }
+    }
   </style>
 </head>
 <body>
