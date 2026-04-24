@@ -5,26 +5,26 @@ PIF PIB Tracker — Scraper
 Client  : Pahle India Foundation (PIF)
 Purpose : Scrape all 28 PIB regional RSS feeds (English, Lang=1),
           filter press releases across 6 PIF research verticals.
-          Last 48hrs releases only. Unmatched go to "other" section.
+          Shows only today + yesterday + day-before-yesterday in IST.
+          Unmatched go to "other" section.
 
 Output  : docs/pib.json  (committed by GitHub Actions)
 
-PATCH NOTES (2026-04-24)
--------------------------
-1. parse_rss_date() now sanity-checks the RSS pubDate against a ±60 day
-   window. PIB regional feeds (esp. Patna) occasionally re-publish old
-   articles with a refreshed pubDate — those are caught and dropped.
+PATCH NOTES (2026-04-24 v2)
+----------------------------
+1. Window changed from rolling 48h to IST calendar days:
+   keeps articles whose IST date is today, yesterday, or day-before-yesterday.
+   This means the oldest day drops automatically at IST midnight.
 
-2. verify_posted_date() extracts the ground-truth "Posted On: DD MMM YYYY"
-   stamp directly from the press release HTML for every matched article.
-   If it disagrees with the RSS date, the page date wins.
+2. parse_rss_date() sanity-checks RSS pubDate; dates older than
+   RSS_DATE_MAX_AGE_DAYS are flagged as unreliable.
 
-3. For "other" articles (no full-content fetch), the RSS date is used as-is
-   but re-checked against the 48h window after any correction.
+3. verify_posted_date() extracts "Posted On: DD MMM YYYY" from page HTML;
+   overrides RSS date on mismatch.
 
-4. merge_releases() prune logic unchanged — belt-and-suspenders safety.
+4. merge_releases() prunes using the same IST 3-day window.
 
-5. Lang=1 confirmed as English. No feed URL changes needed.
+5. All dates stored as YYYY-MM-DD (IST calendar date).
 """
 
 import feedparser
@@ -38,6 +38,12 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 from bs4 import BeautifulSoup
+try:
+    import pytz
+    IST = pytz.timezone("Asia/Kolkata")
+    _HAS_PYTZ = True
+except ImportError:
+    _HAS_PYTZ = False
 
 # ─────────────────────────────────────────────
 # Logging
@@ -58,7 +64,7 @@ OUTPUT_PATH = os.path.join(
 REQUEST_DELAY      = 0.5    # polite delay between feeds (seconds)
 MAX_RELEASES_KEPT  = 500    # rolling window stored in pib.json
 SNIPPET_LENGTH     = 400    # characters of summary to keep
-FRESH_WINDOW_HOURS = 48     # show releases from last 48 hours
+KEEP_IST_DAYS      = 3      # keep today + yesterday + day-before in IST
 SUMMARY_SENTENCES  = 3      # sentences to extract as card summary
 
 # PIB RSS pubDates are sometimes re-stamped. Reject dates older than this
@@ -336,26 +342,49 @@ def extract_posted_date_from_text(text: str) -> str:
         return ""
 
 
+def ist_today() -> datetime:
+    """Return current datetime in IST (timezone-aware)."""
+    utc_now = datetime.now(timezone.utc)
+    if _HAS_PYTZ:
+        return utc_now.astimezone(IST)
+    # Fallback: manual UTC+5:30
+    return utc_now + timedelta(hours=5, minutes=30)
+
+
+def ist_date_today() -> str:
+    """Return today's date string in IST as YYYY-MM-DD."""
+    return ist_today().strftime("%Y-%m-%d")
+
+
+def allowed_ist_dates() -> set:
+    """
+    Return the set of YYYY-MM-DD strings that are allowed:
+    today (IST), yesterday (IST), day-before-yesterday (IST).
+    """
+    today_ist = ist_today().replace(hour=0, minute=0, second=0, microsecond=0)
+    return {
+        (today_ist - timedelta(days=i)).strftime("%Y-%m-%d")
+        for i in range(KEEP_IST_DAYS)
+    }
+
+
 def is_within_window(date_str: str) -> bool:
-    """True if the date is within the last FRESH_WINDOW_HOURS hours."""
+    """True if the date is within the allowed IST 3-day window."""
     try:
-        # Parse as UTC midnight — conservative: a same-day article published
-        # at 11 PM IST is still within window when compared at UTC midnight.
-        release = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-        cutoff  = datetime.now(timezone.utc) - timedelta(hours=FRESH_WINDOW_HOURS)
-        return release >= cutoff
-    except ValueError:
+        return date_str in allowed_ist_dates()
+    except Exception:
         return True  # give benefit of doubt on parse failure
 
 
 def relative_time(date_str: str) -> str:
     try:
-        release = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-        delta   = (datetime.now(timezone.utc) - release).days
-        if delta == 0: return "Today"
-        if delta == 1: return "Yesterday"
-        if delta < 7:  return f"{delta} days ago"
-        return release.strftime("%d %b %Y")
+        today_ist = ist_date_today()
+        yesterday = (ist_today() - timedelta(days=1)).strftime("%Y-%m-%d")
+        day_before = (ist_today() - timedelta(days=2)).strftime("%Y-%m-%d")
+        if date_str == today_ist:       return "Today"
+        if date_str == yesterday:       return "Yesterday"
+        if date_str == day_before:      return datetime.strptime(date_str, "%Y-%m-%d").strftime("%d %b")
+        return datetime.strptime(date_str, "%Y-%m-%d").strftime("%d %b %Y")
     except ValueError:
         return "Recently"
 
@@ -367,8 +396,11 @@ def primary_vertical(scores: dict) -> str:
 
 
 def to_ist(dt: datetime) -> str:
-    ist = dt + timedelta(hours=5, minutes=30)
-    return ist.strftime("%d %b %Y, %I:%M %p IST")
+    if _HAS_PYTZ:
+        ist_dt = dt.astimezone(IST)
+    else:
+        ist_dt = dt + timedelta(hours=5, minutes=30)
+    return ist_dt.strftime("%d %b %Y, %I:%M %p IST")
 
 
 UPSWING_WORDS = [
@@ -558,7 +590,7 @@ def scrape_all_regions() -> list:
                 # authoritative "Posted On" stamp and override the RSS date.
                 # For other articles: if the RSS date was flagged unreliable,
                 # we have to trust it as-is (no page fetch), but we drop it
-                # if it's outside the window anyway.
+                # if it's outside the IST 3-day window anyway.
 
                 if posted_date and posted_date != date_str:
                     log.warning(
@@ -578,7 +610,7 @@ def scrape_all_regions() -> list:
                     continue
 
                 # ── FINAL WINDOW CHECK ───────────────────────────────────
-                # Re-run after possible date correction.
+                # Re-run after possible date correction (uses IST 3-day window).
                 if not is_within_window(date_str):
                     log.info(
                         "  [SKIP]  Out of window after date verification (date=%s): %s",
@@ -639,20 +671,18 @@ def load_existing(path: str) -> list:
 def merge_releases(existing: list, fresh: list) -> list:
     """
     Merge freshly scraped articles into the existing pool.
-    Prunes any existing article whose date falls outside the 48h window
-    so stale articles never persist across scraper runs.
+    Prunes any existing article whose IST date falls outside the 3-day window
+    (today, yesterday, day-before-yesterday in IST) so stale articles never
+    persist across scraper runs. The oldest day drops automatically at IST midnight.
     """
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=FRESH_WINDOW_HOURS)
+    allowed = allowed_ist_dates()
 
     before_prune = len(existing)
-    existing = [
-        r for r in existing
-        if datetime.strptime(r.get("date", "2000-01-01"), "%Y-%m-%d")
-           .replace(tzinfo=timezone.utc) >= cutoff
-    ]
+    existing = [r for r in existing if r.get("date", "") in allowed]
     pruned = before_prune - len(existing)
     if pruned:
-        log.info("Pruned %d stale articles from existing pool", pruned)
+        log.info("Pruned %d stale articles from existing pool (IST window: %s)",
+                 pruned, sorted(allowed))
 
     by_id = {r["id"]: r for r in existing}
     added = 0
@@ -724,8 +754,8 @@ def write_output(releases: list, path: str) -> None:
 def main() -> None:
     log.info("=" * 60)
     log.info("PIF PIB Scraper — starting")
-    log.info("Regions: %d  |  Window: last %dh  |  Output: %s",
-             len(PIB_RSS_FEEDS), FRESH_WINDOW_HOURS, OUTPUT_PATH)
+    log.info("Regions: %d  |  Window: last %d IST calendar days  |  Output: %s",
+             len(PIB_RSS_FEEDS), KEEP_IST_DAYS, OUTPUT_PATH)
     log.info("=" * 60)
 
     fresh    = scrape_all_regions()
