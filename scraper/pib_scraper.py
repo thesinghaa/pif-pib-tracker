@@ -24,6 +24,7 @@ NEW in v3:
   stale articles; the date-check threshold is a finer-grained second pass.
 """
 
+import calendar
 import email.utils
 import feedparser
 import json
@@ -31,7 +32,10 @@ import logging
 import os
 import hashlib
 import re
+import ssl
 import time
+import urllib.request
+import warnings
 from datetime import datetime, timedelta, timezone
 
 import requests
@@ -215,9 +219,11 @@ KEYWORD_MAP = {
     for vid, vdata in VERTICALS.items()
 }
 
+# PIB page date stamp: "22 APR 2026 4:00PM by PIB Delhi"
+# The "Posted On:" label appears in regional languages (Telugu, Meitei, etc.)
+# so we match just the date pattern itself.
 POSTED_ON_RE = re.compile(
-    r"Posted\s+On\s*:\s*(\d{1,2})\s+([A-Za-z]{3})\s+(\d{4})",
-    re.IGNORECASE,
+    r"\b(\d{1,2})\s+([A-Za-z]{3})\s+(20\d{2})\b",
 )
 
 # ─────────────────────────────────────────────
@@ -276,18 +282,18 @@ def parse_rss_date(entry) -> tuple:
         log.debug("RSS date %s is %d days old — flagged for verification", date_str, age_days)
         return date_str, False
 
-    # 1. feedparser pre-parsed struct_time (already UTC)
+    # 1. feedparser pre-parsed struct_time (UTC) — calendar.timegm for correct conversion
     for attr in ("published_parsed", "updated_parsed"):
-        val = getattr(entry, attr, None)
-        if not val:
-            continue
-        try:
-            return _classify(datetime(*val[:6], tzinfo=timezone.utc))
-        except Exception:
-            continue
+        t = getattr(entry, attr, None)
+        if t and t[0] > 2020:  # sanity check: reject default/epoch years
+            try:
+                dt = datetime.fromtimestamp(calendar.timegm(t), tz=timezone.utc)
+                return _classify(dt)
+            except Exception:
+                continue
 
-    # 2. Raw RFC 2822 string — more reliable when feeds include timezone offset
-    for field in ("published", "updated"):
+    # 2. Raw RFC 2822 string — handles explicit timezone offsets (e.g. +0530)
+    for field in ("published", "updated", "pubDate"):
         raw = entry.get(field, "") or ""
         if not raw:
             continue
@@ -297,7 +303,8 @@ def parse_rss_date(entry) -> tuple:
         except Exception:
             continue
 
-    # 3. No date available — caller will attempt page-level verification
+    # 3. No date in feed — page fetch will be the only source of truth
+    log.warning("No date in feed entry: %s", entry.get("title", "?")[:60])
     return today.strftime("%Y-%m-%d"), False
 
 def extract_posted_date_from_text(text: str) -> str:
@@ -407,12 +414,20 @@ def fetch_full_content(url: str) -> tuple:
     Returns (full_content_text, posted_date_YYYY_MM_DD).
     """
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore")  # suppress InsecureRequestWarning
+            resp = requests.get(url, headers=HEADERS, timeout=15, verify=False)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
 
-        page_text_raw = soup.get_text(separator=" ")
-        posted_date   = extract_posted_date_from_text(page_text_raw)
+        # Primary: use the dedicated date div (language-agnostic, always English date)
+        posted_date = ""
+        date_div = soup.select_one("div.ReleaseDateSubHeaddateTime")
+        if date_div:
+            posted_date = extract_posted_date_from_text(date_div.get_text(separator=" "))
+        # Fallback: search full page text
+        if not posted_date:
+            posted_date = extract_posted_date_from_text(soup.get_text(separator=" "))
 
         content_div = (
             soup.select_one("div.innner-page-main-about-us-content-right-part") or
@@ -458,7 +473,13 @@ def scrape_all_regions() -> list:
         log.info("Scraping %-22s  %s", region_name, feed_url)
 
         try:
-            feed    = feedparser.parse(feed_url, request_headers=HEADERS)
+            _ctx = ssl.create_default_context()
+            _ctx.check_hostname = False
+            _ctx.verify_mode = ssl.CERT_NONE
+            feed    = feedparser.parse(
+                feed_url, request_headers=HEADERS,
+                handlers=[urllib.request.HTTPSHandler(context=_ctx)]
+            )
             entries = feed.entries
             log.info("  → %d entries found", len(entries))
 
@@ -523,10 +544,12 @@ def scrape_all_regions() -> list:
                     full_content, posted_date = fetch_full_content(url)
                     total_matched += 1
                     time.sleep(0.3)
-                elif prid_gap_for_article >= PRID_DATE_CHECK_THRESHOLD:
-                    # Suspicious PRID gap — fetch page to get real Posted On date
-                    log.info("  [DATE-CHECK] PRID gap=%d ≥ %d, verifying: %s",
-                             prid_gap_for_article, PRID_DATE_CHECK_THRESHOLD, title[:55])
+                elif not rss_reliable or prid_gap_for_article >= PRID_DATE_CHECK_THRESHOLD:
+                    # Fetch page to get authoritative "Posted On" date when:
+                    #   - RSS provided no date (rss_reliable=False), OR
+                    #   - PRID gap is suspicious (old article re-published with fresh pubDate)
+                    log.info("  [DATE-CHECK] rss_reliable=%s prid_gap=%d: %s",
+                             rss_reliable, prid_gap_for_article, title[:55])
                     _, posted_date = fetch_full_content(url)
                     total_other += 1
                     total_date_checked += 1
