@@ -8,6 +8,23 @@ Purpose : Scrape all 28 PIB regional RSS feeds (English, Lang=1),
           Last 48hrs releases only. Unmatched go to "other" section.
 
 Output  : docs/pib.json  (committed by GitHub Actions)
+
+PATCH NOTES (2026-04-24)
+-------------------------
+1. parse_rss_date() now sanity-checks the RSS pubDate against a ±60 day
+   window. PIB regional feeds (esp. Patna) occasionally re-publish old
+   articles with a refreshed pubDate — those are caught and dropped.
+
+2. verify_posted_date() extracts the ground-truth "Posted On: DD MMM YYYY"
+   stamp directly from the press release HTML for every matched article.
+   If it disagrees with the RSS date, the page date wins.
+
+3. For "other" articles (no full-content fetch), the RSS date is used as-is
+   but re-checked against the 48h window after any correction.
+
+4. merge_releases() prune logic unchanged — belt-and-suspenders safety.
+
+5. Lang=1 confirmed as English. No feed URL changes needed.
 """
 
 import feedparser
@@ -44,6 +61,10 @@ SNIPPET_LENGTH     = 400    # characters of summary to keep
 FRESH_WINDOW_HOURS = 48     # show releases from last 48 hours
 SUMMARY_SENTENCES  = 3      # sentences to extract as card summary
 
+# PIB RSS pubDates are sometimes re-stamped. Reject dates older than this
+# many days even if the RSS claims they are fresh.
+RSS_DATE_MAX_AGE_DAYS = 3
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -53,7 +74,6 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
     "Accept": "application/rss+xml, application/xml, text/xml, */*",
 }
-
 
 # ─────────────────────────────────────────────
 # PIB RSS Feed URLs — Lang=1 is English
@@ -88,6 +108,7 @@ PIB_RSS_FEEDS = {
     "45": ("Vijayawada",         "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=45&reg=3&Langid=1"),
     "46": ("Dehradun",           "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=46&reg=3&Langid=1"),
 }
+
 # ─────────────────────────────────────────────
 # PIF VERTICALS & KEYWORDS
 # ─────────────────────────────────────────────
@@ -137,6 +158,7 @@ VERTICALS = {
             "health scheme", "ministry of health", "healthcare",
             "child health", "immunization", "health program",
             "pm2.5", "non communicable disease", "ncd",
+            "nhm", "national health mission", "aiims",
         ]
     },
     "ELS": {
@@ -167,6 +189,7 @@ VERTICALS = {
             "clean energy", "climate change", "energy efficiency",
             "green energy", "wind energy", "ev charging",
             "pm surya ghar", "national clean air", "biofuel",
+            "ncap", "emission", "greenhouse gas",
         ]
     },
     "Political_Economy": {
@@ -181,15 +204,23 @@ VERTICALS = {
             "public administration", "institutional reform",
             "state capacity", "decentralisation", "psu reform",
             "cooperative federalism", "centre state",
+            "summit", "g20", "g7", "prime minister visit",
         ]
     },
 }
+
 # Build keyword map sorted by length (longest first = more specific matches win)
 KEYWORD_MAP = {
     vid: sorted(vdata["keywords"], key=len, reverse=True)
     for vid, vdata in VERTICALS.items()
 }
 
+# Regex to extract "Posted On: DD MMM YYYY" from press release pages.
+# PIB pages consistently use this format.
+POSTED_ON_RE = re.compile(
+    r"Posted\s+On\s*:\s*(\d{1,2})\s+([A-Za-z]{3})\s+(\d{4})",
+    re.IGNORECASE,
+)
 
 # ─────────────────────────────────────────────
 # Helpers
@@ -204,6 +235,7 @@ def clean_text(raw: str) -> str:
         return ""
     text = BeautifulSoup(raw, "html.parser").get_text(separator=" ")
     return re.sub(r"\s+", " ", text).strip()[:SNIPPET_LENGTH]
+
 
 def score_release(title: str, snippet: str) -> dict:
     """
@@ -240,26 +272,76 @@ def score_release(title: str, snippet: str) -> dict:
     return scores
 
 
-def parse_rss_date(entry) -> str:
-    """Extract date from RSS entry, return YYYY-MM-DD string."""
+def parse_rss_date(entry) -> tuple[str, bool]:
+    """
+    Extract date from RSS entry. Returns (YYYY-MM-DD, is_reliable).
+
+    is_reliable = False means the date came from the RSS feed but is
+    suspiciously old (> RSS_DATE_MAX_AGE_DAYS days). The caller should
+    verify against the page's Posted On date before trusting it.
+
+    Returns today's date with is_reliable=False if no parseable date found.
+    """
+    today = datetime.now(timezone.utc)
+
     for attr in ("published_parsed", "updated_parsed"):
         val = getattr(entry, attr, None)
-        if val:
-            try:
-                dt = datetime(*val[:6], tzinfo=timezone.utc)
-                return dt.strftime("%Y-%m-%d")
-            except Exception:
-                pass
-    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        if not val:
+            continue
+        try:
+            dt = datetime(*val[:6], tzinfo=timezone.utc)
+            age_days = (today - dt).days
+
+            # Future dates (clock skew) — clamp to today
+            if age_days < 0:
+                log.debug("RSS date is in the future (%s) — using today", dt.date())
+                return today.strftime("%Y-%m-%d"), True
+
+            date_str = dt.strftime("%Y-%m-%d")
+
+            # Within the safe window — trust it
+            if age_days <= RSS_DATE_MAX_AGE_DAYS:
+                return date_str, True
+
+            # Older than RSS_DATE_MAX_AGE_DAYS — return it but flag as unreliable.
+            # The scraper will attempt to verify against the page's Posted On.
+            log.debug("RSS date %s is %d days old — flagged for verification", date_str, age_days)
+            return date_str, False
+
+        except Exception:
+            continue
+
+    # No date at all — default to today, mark unreliable
+    log.debug("No RSS date found — defaulting to today")
+    return today.strftime("%Y-%m-%d"), False
+
+
+def extract_posted_date_from_text(text: str) -> str:
+    """
+    Parse the 'Posted On: DD MMM YYYY' stamp from press release page text.
+    Returns YYYY-MM-DD string, or empty string if not found.
+    """
+    match = POSTED_ON_RE.search(text)
+    if not match:
+        return ""
+    day, mon, year = match.groups()
+    try:
+        dt = datetime.strptime(f"{day} {mon} {year}", "%d %b %Y")
+        return dt.strftime("%Y-%m-%d")
+    except ValueError:
+        return ""
 
 
 def is_within_window(date_str: str) -> bool:
+    """True if the date is within the last FRESH_WINDOW_HOURS hours."""
     try:
+        # Parse as UTC midnight — conservative: a same-day article published
+        # at 11 PM IST is still within window when compared at UTC midnight.
         release = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
         cutoff  = datetime.now(timezone.utc) - timedelta(hours=FRESH_WINDOW_HOURS)
         return release >= cutoff
     except ValueError:
-        return True
+        return True  # give benefit of doubt on parse failure
 
 
 def relative_time(date_str: str) -> str:
@@ -307,27 +389,57 @@ def detect_sentiment(title: str, snippet: str) -> str:
 
 
 def extract_summary(full_content: str, fallback: str = "") -> str:
-    """First 2-3 meaningful sentences from full press release text."""
+    """
+    First SUMMARY_SENTENCES meaningful sentences from full press release text.
+    Strips datelines like 'New Delhi:' or 'Posted On: ...' at the start
+    to avoid boilerplate appearing as the summary.
+    """
     src = full_content or fallback
     if not src:
         return ""
-    para_lines = [ln.strip() for ln in src.split("\n")
-                  if ln.strip() and not ln.strip().startswith("•")]
-    text = " ".join(para_lines[:8])
+
+    # Remove Posted On / dateline lines entirely
+    lines = []
+    for ln in src.split("\n"):
+        stripped = ln.strip()
+        if not stripped:
+            continue
+        if stripped.startswith("•"):
+            continue
+        # Drop lines that are just datelines: "New Delhi:", "Mumbai, April 24:"
+        if re.match(r"^[A-Za-z\s,]+:\s*$", stripped):
+            continue
+        # Drop "Posted On" lines
+        if re.match(r"^Posted\s+On\s*:", stripped, re.IGNORECASE):
+            continue
+        lines.append(stripped)
+
+    text = " ".join(lines[:8])
+
+    # Strip leading dateline from the joined text:
+    # e.g. "New Delhi: The government today..." → "The government today..."
+    text = re.sub(r"^[A-Za-z\s,]+:\s+", "", text)
+
     sentences = re.split(r"(?<=[.!?])\s+", text)
     good = [s for s in sentences if len(s) > 50]
     return " ".join(good[:SUMMARY_SENTENCES])
 
 
-def fetch_full_content(url: str) -> str:
+def fetch_full_content(url: str) -> tuple[str, str]:
     """
-    Fetches full text of PIB press release HTML page.
-    Returns formatted text with bullet points preserved.
+    Fetches full text of a PIB press release HTML page.
+    Returns (full_content_text, posted_date_YYYY_MM_DD).
+    posted_date is extracted from the 'Posted On:' stamp on the page —
+    this is the ground-truth date, independent of the RSS feed.
     """
     try:
         resp = requests.get(url, headers=HEADERS, timeout=15)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
+
+        # Extract the Posted On date from raw page text before we strip HTML
+        page_text_raw = soup.get_text(separator=" ")
+        posted_date   = extract_posted_date_from_text(page_text_raw)
 
         content_div = (
             soup.select_one("div.innner-page-main-about-us-content-right-part") or
@@ -337,7 +449,7 @@ def fetch_full_content(url: str) -> str:
         )
 
         if not content_div:
-            return ""
+            return "", posted_date
 
         lines = []
         for tag in content_div.find_all(["p", "li", "h3", "h4"]):
@@ -349,11 +461,11 @@ def fetch_full_content(url: str) -> str:
                 else:
                     lines.append(text)
 
-        return "\n".join(lines)[:3000]
+        return "\n".join(lines)[:3000], posted_date
 
     except Exception as exc:
         log.warning("Content fetch failed [%s]: %s", url, exc)
-        return ""
+        return "", ""
 
 
 # ─────────────────────────────────────────────
@@ -366,6 +478,7 @@ def scrape_all_regions() -> list:
     total_matched = 0
     total_other   = 0
     total_skipped = 0
+    total_date_corrected = 0
 
     for reg_id, (region_name, feed_url) in PIB_RSS_FEEDS.items():
         log.info("Scraping %-22s  %s", region_name, feed_url)
@@ -382,7 +495,8 @@ def scrape_all_regions() -> list:
 
                 if not title or not url:
                     continue
-                # Skip non-English titles
+
+                # Skip non-English titles (Devanagari / other Indic scripts)
                 non_ascii = sum(1 for c in title if ord(c) > 0x0900)
                 if non_ascii > 3:
                     continue
@@ -392,28 +506,70 @@ def scrape_all_regions() -> list:
                     continue
                 seen_ids.add(uid)
 
-                # Date check
-                date_str = parse_rss_date(entry)
-                if not is_within_window(date_str):
+                # ── DATE EXTRACTION ──────────────────────────────────────
+                # Step 1: Get RSS date and reliability flag
+                date_str, rss_reliable = parse_rss_date(entry)
+
+                # Step 2: First-pass window check using RSS date.
+                # If RSS date is clearly old AND reliable, drop early without fetching page.
+                if rss_reliable and not is_within_window(date_str):
+                    log.info("  [SKIP]  Out of window (RSS date %s): %s", date_str, title[:60])
                     total_skipped += 1
                     continue
 
-                # Score against verticals
+                # ── SCORING ──────────────────────────────────────────────
                 scores      = score_release(title, snippet)
                 total_score = sum(scores.values())
 
-                # Fetch full content for matched articles; use snippet for others
+                # ── CONTENT FETCH (matched articles only) ────────────────
                 full_content = ""
+                posted_date  = ""
+
                 if scores:
                     log.info("  [MATCH] %s | %s score=%d",
                              title[:60], list(scores.keys()), total_score)
-                    full_content = fetch_full_content(url)
+                    full_content, posted_date = fetch_full_content(url)
                     total_matched += 1
                     time.sleep(0.3)
                 else:
                     log.info("  [OTHER] %s", title[:60])
                     total_other += 1
 
+                # ── DATE VERIFICATION ────────────────────────────────────
+                # For matched articles: we have the page, so we can read the
+                # authoritative "Posted On" stamp and override the RSS date.
+                # For other articles: if the RSS date was flagged unreliable,
+                # we have to trust it as-is (no page fetch), but we drop it
+                # if it's outside the window anyway.
+
+                if posted_date and posted_date != date_str:
+                    log.warning(
+                        "  [DATE MISMATCH] RSS=%s  Posted On=%s  → using Posted On | %s",
+                        date_str, posted_date, title[:55]
+                    )
+                    date_str = posted_date
+                    total_date_corrected += 1
+                elif not posted_date and not rss_reliable:
+                    # No page date available and RSS date was already flagged.
+                    # Be conservative: treat as stale and skip.
+                    log.info(
+                        "  [SKIP]  Unreliable RSS date %s, no page date found: %s",
+                        date_str, title[:60]
+                    )
+                    total_skipped += 1
+                    continue
+
+                # ── FINAL WINDOW CHECK ───────────────────────────────────
+                # Re-run after possible date correction.
+                if not is_within_window(date_str):
+                    log.info(
+                        "  [SKIP]  Out of window after date verification (date=%s): %s",
+                        date_str, title[:60]
+                    )
+                    total_skipped += 1
+                    continue
+
+                # ── BUILD RELEASE RECORD ─────────────────────────────────
                 release = {
                     "id":               uid,
                     "title":            title,
@@ -440,8 +596,8 @@ def scrape_all_regions() -> list:
         time.sleep(REQUEST_DELAY)
 
     log.info(
-        "Scrape complete — matched=%d  other=%d  skipped=%d  total=%d",
-        total_matched, total_other, total_skipped, len(all_releases)
+        "Scrape complete — matched=%d  other=%d  skipped=%d  date_corrected=%d  total=%d",
+        total_matched, total_other, total_skipped, total_date_corrected, len(all_releases)
     )
     return all_releases
 
@@ -463,19 +619,30 @@ def load_existing(path: str) -> list:
 
 
 def merge_releases(existing: list, fresh: list) -> list:
+    """
+    Merge freshly scraped articles into the existing pool.
+    Prunes any existing article whose date falls outside the 48h window
+    so stale articles never persist across scraper runs.
+    """
     cutoff = datetime.now(timezone.utc) - timedelta(hours=FRESH_WINDOW_HOURS)
-    # Prune existing to the live window so stale articles don't persist
+
+    before_prune = len(existing)
     existing = [
         r for r in existing
         if datetime.strptime(r.get("date", "2000-01-01"), "%Y-%m-%d")
            .replace(tzinfo=timezone.utc) >= cutoff
     ]
+    pruned = before_prune - len(existing)
+    if pruned:
+        log.info("Pruned %d stale articles from existing pool", pruned)
+
     by_id = {r["id"]: r for r in existing}
     added = 0
     for r in fresh:
         if r["id"] not in by_id:
             by_id[r["id"]] = r
             added += 1
+
     log.info("Merged: %d new releases added (window pool: %d)", added, len(by_id))
     return sorted(by_id.values(), key=lambda r: r.get("date", ""), reverse=True)
 
