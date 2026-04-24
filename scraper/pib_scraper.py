@@ -42,6 +42,7 @@ REQUEST_DELAY      = 0.5    # polite delay between feeds (seconds)
 MAX_RELEASES_KEPT  = 500    # rolling window stored in pib.json
 SNIPPET_LENGTH     = 400    # characters of summary to keep
 FRESH_WINDOW_HOURS = 48     # show releases from last 48 hours
+SUMMARY_SENTENCES  = 3      # sentences to extract as card summary
 
 HEADERS = {
     "User-Agent": (
@@ -284,6 +285,40 @@ def to_ist(dt: datetime) -> str:
     return ist.strftime("%d %b %Y, %I:%M %p IST")
 
 
+UPSWING_WORDS = [
+    "launch", "inaugurate", "sanction", "approve", "allocate", "record",
+    "highest", "growth", "boost", "strengthen", "expand", "achieve",
+    "milestone", "initiative", "new scheme", "sign", "award", "increase",
+]
+DOWNSWING_WORDS = [
+    "shortage", "deficiency", "decline", "fall", "challenge", "concern",
+    "crisis", "delay", "suspend", "cancel", "loss", "failure", "reduce",
+    "cut", "deficient", "poor", "slow", "drop", "risk",
+]
+
+
+def detect_sentiment(title: str, snippet: str) -> str:
+    text = (title + " " + snippet).lower()
+    up   = sum(1 for w in UPSWING_WORDS   if w in text)
+    dn   = sum(1 for w in DOWNSWING_WORDS if w in text)
+    if up > dn:  return "up"
+    if dn > up:  return "down"
+    return "neutral"
+
+
+def extract_summary(full_content: str, fallback: str = "") -> str:
+    """First 2-3 meaningful sentences from full press release text."""
+    src = full_content or fallback
+    if not src:
+        return ""
+    para_lines = [ln.strip() for ln in src.split("\n")
+                  if ln.strip() and not ln.strip().startswith("•")]
+    text = " ".join(para_lines[:8])
+    sentences = re.split(r"(?<=[.!?])\s+", text)
+    good = [s for s in sentences if len(s) > 50]
+    return " ".join(good[:SUMMARY_SENTENCES])
+
+
 def fetch_full_content(url: str) -> str:
     """
     Fetches full text of PIB press release HTML page.
@@ -367,7 +402,7 @@ def scrape_all_regions() -> list:
                 scores      = score_release(title, snippet)
                 total_score = sum(scores.values())
 
-                # Fetch full content for matched articles only
+                # Fetch full content for matched articles; use snippet for others
                 full_content = ""
                 if scores:
                     log.info("  [MATCH] %s | %s score=%d",
@@ -391,6 +426,8 @@ def scrape_all_regions() -> list:
                     "relevance_score":  total_score,
                     "snippet":          snippet,
                     "full_content":     full_content,
+                    "summary":          extract_summary(full_content, snippet),
+                    "sentiment":        detect_sentiment(title, snippet),
                     "vertical_scores":  scores,
                     "section":          "vertical" if scores else "other",
                 }
@@ -426,15 +463,21 @@ def load_existing(path: str) -> list:
 
 
 def merge_releases(existing: list, fresh: list) -> list:
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=FRESH_WINDOW_HOURS)
+    # Prune existing to the live window so stale articles don't persist
+    existing = [
+        r for r in existing
+        if datetime.strptime(r.get("date", "2000-01-01"), "%Y-%m-%d")
+           .replace(tzinfo=timezone.utc) >= cutoff
+    ]
     by_id = {r["id"]: r for r in existing}
     added = 0
     for r in fresh:
         if r["id"] not in by_id:
             by_id[r["id"]] = r
             added += 1
-    log.info("Merged: %d new releases added (total pool: %d)", added, len(by_id))
-    merged = sorted(by_id.values(), key=lambda r: r.get("date", ""), reverse=True)
-    return merged[:MAX_RELEASES_KEPT]
+    log.info("Merged: %d new releases added (window pool: %d)", added, len(by_id))
+    return sorted(by_id.values(), key=lambda r: r.get("date", ""), reverse=True)
 
 
 # ─────────────────────────────────────────────

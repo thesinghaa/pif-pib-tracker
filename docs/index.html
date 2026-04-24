@@ -297,8 +297,15 @@
     .card-link {
       font-family: 'DM Mono', monospace; font-size: 0.62rem;
       color: var(--orange); text-decoration: none;
+      margin-top: auto;
     }
     .card-link:hover { text-decoration: underline; }
+    .sentiment {
+      font-family: 'DM Mono', monospace; font-size: 0.68rem;
+      font-weight: 700; letter-spacing: 0;
+    }
+    .sentiment.up   { color: #1E8449; }
+    .sentiment.down { color: #C0392B; }
 
     /* ── EMPTY STATE ───────────────────────────────────────── */
     #empty-state {
@@ -409,7 +416,7 @@
     <!-- Cards -->
     <div id="loading">Loading press releases…</div>
     <div id="cards-grid" class="cards-grid" style="display:none"></div>
-    <div id="empty-state" style="display:none">No releases match your filters.</div>
+    <div id="empty-state" style="display:none">No press releases published in the last 48 hours.</div>
 
   </main>
 </div>
@@ -551,8 +558,14 @@ function buildTicker() {
 }
 
 /* ── FILTER LOGIC ───────────────────────────────────────────── */
+const WINDOW_MS = 48 * 60 * 60 * 1000;
+
 function getFiltered() {
+  const cutoff = Date.now() - WINDOW_MS;
   return allArticles.filter(a => {
+    // Drop anything older than 48 hours
+    if (a.date && new Date(a.date).getTime() < cutoff) return false;
+
     const pv = a.primary_vertical || '';
 
     if (activeV === 'other') {
@@ -596,17 +609,20 @@ function render() {
   grid.style.display  = 'grid';
 
   grid.innerHTML = filtered.map((a, i) => {
-    const pv      = a.primary_vertical || 'other';
-    const col     = color(pv);
-    const lbl     = normalise(pv) === 'other' ? 'Other' : normalise(pv);
-    const when    = timeAgo(a.date) || a.relative_time || '';
-    const region  = (a.region || '').toUpperCase();
-    const meta    = [region, lbl, when].filter(Boolean).join(' / ');
-    const summary = firstTwo(a.snippet || a.full_content || '');
+    const pv       = a.primary_vertical || 'other';
+    const col      = color(pv);
+    const lbl      = normalise(pv) === 'other' ? 'Other' : normalise(pv);
+    const when     = timeAgo(a.date) || a.relative_time || '';
+    const region   = (a.region || '').toUpperCase();
+    const sentHtml = a.sentiment === 'up'   ? ' <span class="sentiment up">↑</span>'
+                   : a.sentiment === 'down' ? ' <span class="sentiment down">↓</span>'
+                   : '';
+    const meta     = [region, lbl + sentHtml, when].filter(Boolean).join(' / ');
+    const summary  = a.summary || firstTwo(a.snippet || a.full_content || '');
     const featured = i === 0 ? ' featured' : '';
 
     return `<article class="card${featured}" style="--card-accent:${col}">
-  <div class="card-meta">${esc(meta)}</div>
+  <div class="card-meta">${meta}</div>
   <h2 class="card-title">${esc(a.title || '')}</h2>
   ${summary ? `<p class="card-summary">${esc(summary)}</p>` : ''}
   <a class="card-link" href="${esc(a.url || '#')}" target="_blank" rel="noopener">Read full release →</a>
