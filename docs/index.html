@@ -26,11 +26,15 @@
       --mast-h:      86px;
       font-family: 'DM Sans', sans-serif;
       color: var(--ink);
-      background: linear-gradient(135deg, #f0ede8 0%, #e8e4de 50%, #ede9e3 100%);
+      background: var(--cream);
       min-height: 100vh;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
+    body {
+      background: linear-gradient(135deg, #f0ede8 0%, #e8e4de 50%, #ede9e3 100%);
+      min-height: 100vh;
+    }
 
     /* ── GRAIN TEXTURE ─────────────────────────────────────── */
     body::after {
@@ -134,7 +138,7 @@
     /* ── SIDEBAR ───────────────────────────────────────────── */
     .sidebar {
       border-right: 1px solid var(--rule);
-      background: var(--paper);
+      background: rgba(255,255,255,0.55);
       position: sticky;
       top: var(--mast-h);
       height: calc(100vh - var(--mast-h));
@@ -188,7 +192,7 @@
     .region-select:focus { border-color: var(--orange); }
 
     /* ── MAIN ──────────────────────────────────────────────── */
-    .main { background: var(--cream); padding: 1.5rem 2rem 3rem; }
+    .main { background: transparent; padding: 1.5rem 2rem 3rem; }
 
     /* ── SEARCH ────────────────────────────────────────────── */
     .search-wrap {
@@ -262,7 +266,6 @@
       padding: 1.15rem 1.25rem;
       display: flex; flex-direction: column;
       position: relative; overflow: hidden;
-      opacity: 0;
       transition: box-shadow 0.25s ease, transform 0.25s ease;
     }
     .card:hover {
@@ -615,7 +618,7 @@ function render() {
   if (inited) {
     gsap.fromTo('.card',
       { opacity: 0, y: 12 },
-      { opacity: 1, y: 0, duration: 0.28, stagger: 0.035, ease: 'power2.out', clearProps: 'all' }
+      { opacity: 1, y: 0, duration: 0.28, stagger: 0.035, ease: 'power2.out', clearProps: 'transform' }
     );
   }
 }
@@ -650,7 +653,7 @@ function initGSAP() {
   gsap.fromTo('.card',
     { opacity: 0, y: 16 },
     { opacity: 1, y: 0, duration: 0.35, stagger: 0.04, ease: 'power2.out',
-      delay: 0.2, clearProps: 'all' }
+      delay: 0.2, clearProps: 'transform' }
   );
 
   inited = true;
