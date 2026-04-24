@@ -247,11 +247,31 @@
       color: var(--ink-light);
     }
 
-    /* ── CARDS GRID ────────────────────────────────────────── */
-    .cards-grid {
+    /* ── DATE GROUP HEADERS ────────────────────────────────── */
+    .date-group-header {
+      display: flex; align-items: baseline; gap: 0.6rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 0.88rem; font-weight: 700;
+      color: var(--ink); letter-spacing: -0.01em;
+      margin: 1.4rem 0 0.65rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 1.5px solid var(--rule);
+    }
+    .date-group-header:first-child { margin-top: 0; }
+    .date-group-count {
+      font-family: 'DM Mono', monospace; font-size: 0.57rem;
+      color: var(--ink-light); font-weight: 400;
+      letter-spacing: 0.04em;
+    }
+    .date-group-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 16px;
+      margin-bottom: 0.5rem;
+    }
+
+    /* ── CARDS GRID ────────────────────────────────────────── */
+    .cards-grid {
       background: transparent;
       border: none;
     }
@@ -276,7 +296,7 @@
     .card:hover .card-meta {
       border-left-color: var(--card-accent, var(--orange));
     }
-    .card.featured { grid-column: span 2; }
+    .date-group-grid .card.featured { grid-column: span 2; }
     .card-meta {
       font-family: 'DM Mono', monospace; font-size: 0.58rem;
       color: var(--ink-light); letter-spacing: 0.04em;
@@ -416,7 +436,7 @@
     <!-- Cards -->
     <div id="loading">Loading press releases…</div>
     <div id="cards-grid" class="cards-grid" style="display:none"></div>
-    <div id="empty-state" style="display:none">No press releases published in the last 48 hours.</div>
+    <div id="empty-state" style="display:none">No press releases found for today, yesterday, or the day before (IST).</div>
 
   </main>
 </div>
@@ -558,13 +578,32 @@ function buildTicker() {
 }
 
 /* ── FILTER LOGIC ───────────────────────────────────────────── */
-const WINDOW_MS = 48 * 60 * 60 * 1000;
+
+/**
+ * Returns the set of allowed YYYY-MM-DD date strings in IST:
+ * today, yesterday, and day-before-yesterday (IST timezone).
+ * This recalculates every call so it auto-updates at IST midnight.
+ */
+function allowedISTDates() {
+  // IST = UTC+5:30
+  const nowIST = new Date(Date.now() + (5.5 * 60 * 60 * 1000));
+  const dates = new Set();
+  for (let i = 0; i < 3; i++) {
+    const d = new Date(nowIST);
+    d.setUTCDate(d.getUTCDate() - i);
+    const y = d.getUTCFullYear();
+    const m = String(d.getUTCMonth() + 1).padStart(2, '0');
+    const day = String(d.getUTCDate()).padStart(2, '0');
+    dates.add(`${y}-${m}-${day}`);
+  }
+  return dates;
+}
 
 function getFiltered() {
-  const cutoff = Date.now() - WINDOW_MS;
+  const allowed = allowedISTDates();
   return allArticles.filter(a => {
-    // Drop anything older than 48 hours
-    if (a.date && new Date(a.date).getTime() < cutoff) return false;
+    // Drop anything outside today / yesterday / day-before in IST
+    if (a.date && !allowed.has(a.date)) return false;
 
     const pv = a.primary_vertical || '';
 
@@ -606,28 +645,55 @@ function render() {
     return;
   }
   empty.style.display = 'none';
-  grid.style.display  = 'grid';
+  grid.style.display  = 'block';   // use block so date headers span full width
 
-  grid.innerHTML = filtered.map((a, i) => {
-    const pv       = a.primary_vertical || 'other';
-    const col      = color(pv);
-    const lbl      = normalise(pv) === 'other' ? 'Other' : normalise(pv);
-    const when     = timeAgo(a.date) || a.relative_time || '';
-    const region   = (a.region || '').toUpperCase();
-    const sentHtml = a.sentiment === 'up'   ? ' <span class="sentiment up">↑</span>'
-                   : a.sentiment === 'down' ? ' <span class="sentiment down">↓</span>'
-                   : '';
-    const meta     = [region, lbl + sentHtml, when].filter(Boolean).join(' / ');
-    const summary  = a.summary || firstTwo(a.snippet || a.full_content || '');
-    const featured = i === 0 ? ' featured' : '';
+  // Group articles by date (sorted newest first)
+  const byDate = {};
+  filtered.forEach(a => {
+    const d = a.date || 'unknown';
+    if (!byDate[d]) byDate[d] = [];
+    byDate[d].push(a);
+  });
+  const sortedDates = Object.keys(byDate).sort().reverse();
 
-    return `<article class="card${featured}" style="--card-accent:${col}">
+  let html = '';
+  let cardIndex = 0;
+
+  sortedDates.forEach(dateStr => {
+    const group = byDate[dateStr];
+
+    // Date group header
+    html += `<div class="date-group-header">${esc(dateGroupLabel(dateStr))}
+      <span class="date-group-count">${group.length} release${group.length !== 1 ? 's' : ''}</span>
+    </div>
+    <div class="date-group-grid">`;
+
+    group.forEach((a, i) => {
+      const pv       = a.primary_vertical || 'other';
+      const col      = color(pv);
+      const lbl      = normalise(pv) === 'other' ? 'Other' : normalise(pv);
+      const when     = timeAgo(a.date) || '';
+      const region   = (a.region || '').toUpperCase();
+      const sentHtml = a.sentiment === 'up'   ? ' <span class="sentiment up">↑</span>'
+                     : a.sentiment === 'down' ? ' <span class="sentiment down">↓</span>'
+                     : '';
+      const meta     = [region, lbl + sentHtml, when].filter(Boolean).join(' / ');
+      const summary  = a.summary || firstTwo(a.snippet || a.full_content || '');
+      const featured = (cardIndex === 0) ? ' featured' : '';
+      cardIndex++;
+
+      html += `<article class="card${featured}" style="--card-accent:${col}">
   <div class="card-meta">${meta}</div>
   <h2 class="card-title">${esc(a.title || '')}</h2>
   ${summary ? `<p class="card-summary">${esc(summary)}</p>` : ''}
   <a class="card-link" href="${esc(a.url || '#')}" target="_blank" rel="noopener">Read full release →</a>
 </article>`;
-  }).join('');
+    });
+
+    html += `</div>`; // close date-group-grid
+  });
+
+  grid.innerHTML = html;
 
   updateStats(filtered);
 
@@ -700,11 +766,39 @@ function firstTwo(text) {
 
 function timeAgo(d) {
   if (!d) return '';
-  const diff = Math.floor((Date.now() - new Date(d).getTime()) / 86400000);
-  if (diff === 0) return 'Today';
-  if (diff === 1) return 'Yesterday';
-  if (diff < 7)  return `${diff}d ago`;
-  return new Date(d).toLocaleDateString('en-IN', { day:'numeric', month:'short' });
+  // Compute today / yesterday / day-before in IST
+  const nowIST = new Date(Date.now() + (5.5 * 60 * 60 * 1000));
+  const todayIST = new Date(nowIST);
+  todayIST.setUTCHours(0, 0, 0, 0);
+  const todayStr     = todayIST.toISOString().slice(0, 10);
+  const yestStr      = new Date(todayIST.getTime() - 86400000).toISOString().slice(0, 10);
+  const dayBefStr    = new Date(todayIST.getTime() - 2 * 86400000).toISOString().slice(0, 10);
+
+  if (d === todayStr)  return 'Today';
+  if (d === yestStr)   return 'Yesterday';
+  if (d === dayBefStr) {
+    const dt = new Date(d + 'T00:00:00Z');
+    return dt.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+  }
+  const dt = new Date(d + 'T00:00:00Z');
+  return dt.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+}
+
+/**
+ * Returns a human-readable date group label for a section header.
+ * e.g. "Today — 24 Apr", "Yesterday — 23 Apr", "22 Apr"
+ */
+function dateGroupLabel(dateStr) {
+  const nowIST = new Date(Date.now() + (5.5 * 60 * 60 * 1000));
+  const todayIST = new Date(nowIST);
+  todayIST.setUTCHours(0, 0, 0, 0);
+  const todayStr  = todayIST.toISOString().slice(0, 10);
+  const yestStr   = new Date(todayIST.getTime() - 86400000).toISOString().slice(0, 10);
+  const dt = new Date(dateStr + 'T00:00:00Z');
+  const fmt = dt.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+  if (dateStr === todayStr)  return `Today — ${fmt}`;
+  if (dateStr === yestStr)   return `Yesterday — ${fmt}`;
+  return fmt;
 }
 
 /* ── EVENTS ─────────────────────────────────────────────────── */
