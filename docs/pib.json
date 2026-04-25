@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-25T08:13:50Z",
-  "last_updated_ist": "25 Apr 2026, 01:43 PM IST",
-  "total": 231,
+  "last_updated": "2026-04-25T09:56:27Z",
+  "last_updated_ist": "25 Apr 2026, 03:26 PM IST",
+  "total": 234,
   "articles": [
     {
       "id": "ba519b5aed34253e3a59860385616812",
@@ -162,6 +162,60 @@
         "Political_Economy": 3
       },
       "section": "vertical"
+    },
+    {
+      "id": "e16c749755fb2191c98afa1129374dfe",
+      "title": "IMD Issues Comprehensive Heatwave Guidance as Temperatures Rise Across Regions",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255487",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "b676a6de3ff08a46361e5aa4960ea541",
+      "title": "Vice-President Urges Youth to Become Job Creators and Nation-Builders at the 35th Convocation of University of Rajasthan",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255486",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "95be1e3292259cec0b121aceba096909",
+      "title": "Union Minister for Finance and Corporate Affairs delivers keynote address at 38th SEBI Foundation Day celebrations",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255490",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "15cf622c6ce4f5c06ec3c12290d9c0ce",
@@ -4184,7 +4238,7 @@
       "scraped_date": "2026-04-23"
     }
   ],
-  "other_count": 193,
+  "other_count": 196,
   "vertical_counts": {
     "EooDB": 6,
     "CoDED": 6,
