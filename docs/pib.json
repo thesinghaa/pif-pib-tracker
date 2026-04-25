@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-25T16:43:24Z",
-  "last_updated_ist": "25 Apr 2026, 10:13 PM IST",
-  "total": 251,
+  "last_updated": "2026-04-25T17:43:13Z",
+  "last_updated_ist": "25 Apr 2026, 11:13 PM IST",
+  "total": 257,
   "articles": [
     {
       "id": "ba519b5aed34253e3a59860385616812",
@@ -542,6 +542,122 @@
         "Political_Economy": 3
       },
       "section": "vertical"
+    },
+    {
+      "id": "828367ce363c88b30cda25bf7aca3d70",
+      "title": "Members of the Governing Body of Shri Ram College of Commerce meets the Prime Minister",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255596",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EooDB"
+      ],
+      "primary_vertical": "EooDB",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "A delegation comprising members of the Governing Body of Shri Ram College of Commerce, met the Prime Minister, Shri Narendra Modi, today. Shri Modi noted that this year marks the centenary of the institution, a significant milestone in its illustrious journey of academic excellence and nation-building. He lauded the college’s long-standing contribution to higher education and its role in nurturing generations of leaders across diverse fields.\nOn the occasion, a commemorative stamp marking the centenary year of Shri Ram College of Commerce was also released.\nThe Prime Minister posted on X:\n\"Met a delegation consisting of the Governing Body of the Shri Ram College of Commerce, one of India’s most reputed educational institutions. This year, we are marking the centenary of this institution. A commemorative stamp was released too. My best wishes to this institution.\"\nMet a delegation consisting of the Governing Body of the Shri Ram College of Commerce, one of India’s most reputed educational institutions. This year, we are marking the centenary of this institution. A commemorative stamp was released too. My best wishes to this institution. pic.twitter.com/uxwQjW2ipz",
+      "summary": "A delegation comprising members of the Governing Body of Shri Ram College of Commerce, met the Prime Minister, Shri Narendra Modi, today. Shri Modi noted that this year marks the centenary of the institution, a significant milestone in its illustrious journey of academic excellence and nation-building. He lauded the college’s long-standing contribution to higher education and its role in nurturing generations of leaders across diverse fields.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "4f8a6d5db2d4014994233a980df3b066",
+      "title": "Prime Minister congratulates Prof. Gobardhan Das on his Appointment",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255595",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "30976974fad9339622a7d4fc87d2c508",
+      "title": "Prime Minister extends best wishes on reconstitution of NITI Aayog",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255594",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Prime Minister, Shri Narendra Modi, expressed his best wishes on reconstitution of NITI Aayog. He noted that NITI Aayog has emerged as a vital pillar in India’s policy-making architecture, fostering cooperative federalism, driving key reforms, and enhancing the ‘Ease of Living’ for citizens. The institution continues to serve as a dynamic platform for innovation and long-term strategic thinking across sectors.\nOn the reconstitution of NITI Aayog, the Prime Minister extended his best wishes to Shri Ashok Kumar Lahiri Ji on his appointment as Vice Chairman. He also conveyed his congratulations to Shri Rajiv Gauba Ji, Prof. K. V. Raju Ji, Prof. Gobardhan Das Ji, Prof. Abhay Karandikar Ji, and Dr. M. Srinivas Ji on being appointed as Full-Time Members.\nThe Prime Minister posted on X:\n\"NITI Aayog has emerged as a vital pillar in India’s policy-making architecture, fostering cooperative federalism, furthering reforms and boosting ‘Ease of Living.’ It serves as a dynamic platform for innovation and long-term strategic thinking across sectors.\nThe Government has reconstituted the NITI Aayog. My best wishes to Shri Ashok Kumar Lahiri Ji on becoming the Vice Chairman. My best wishes also to Shri Rajiv Gauba Ji, Prof. K. V. Raju Ji, Prof. Gobardhan Das Ji, Prof. Abhay Karandikar Ji and Dr. M. Srinivas Ji on becoming Full Time Members of NITI Aayog.\nWishing all of them a productive and impactful tenure ahead.\"\nNITI Aayog has emerged as a vital pillar in India’s policy-making architecture, fostering cooperative federalism, furthering reforms and boosting ‘Ease of Living.’ It serves as a dynamic platform for innovation and long-term strategic thinking across sectors. The Government has…",
+      "summary": "The Prime Minister, Shri Narendra Modi, expressed his best wishes on reconstitution of NITI Aayog. He noted that NITI Aayog has emerged as a vital pillar in India’s policy-making architecture, fostering cooperative federalism, driving key reforms, and enhancing the ‘Ease of Living’ for citizens. The institution continues to serve as a dynamic platform for innovation and long-term strategic thinking across sectors.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "7963b34ed501617605bfb616b227ad21",
+      "title": "Shri Ashok Kumar Lahiri meets the Prime Minister",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255593",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "b619ba1b870a8596b87690756738858c",
+      "title": "Hon’ble Union Minister Sri Ashwini Vaishnaw Inaugurates 'Aditya' Complex at BEML, Bengaluru",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255585",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f12e163acba5579b1ae60a23b2151089",
+      "title": "Union DoNER Secretary Shri Sanjay Jaju arrives in Tripura on a three-day visit",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255586",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Agartala",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "15cf622c6ce4f5c06ec3c12290d9c0ce",
@@ -4564,14 +4680,14 @@
       "scraped_date": "2026-04-23"
     }
   ],
-  "other_count": 208,
+  "other_count": 212,
   "vertical_counts": {
-    "EooDB": 7,
+    "EooDB": 8,
     "CoDED": 7,
     "iLEAP": 5,
     "ELS": 4,
     "Sustainability": 6,
-    "Political_Economy": 14
+    "Political_Economy": 15
   },
   "regions_scraped": 25,
   "verticals": {
