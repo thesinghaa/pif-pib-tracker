@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-25T10:48:08Z",
-  "last_updated_ist": "25 Apr 2026, 04:18 PM IST",
-  "total": 234,
+  "last_updated": "2026-04-25T11:45:09Z",
+  "last_updated_ist": "25 Apr 2026, 05:15 PM IST",
+  "total": 236,
   "articles": [
     {
       "id": "ba519b5aed34253e3a59860385616812",
@@ -207,6 +207,46 @@
       "scraped_date": "2026-04-25",
       "relative_time": "Today",
       "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f4e5e0b5c848d02a19f9b15d33b6a827",
+      "title": "Self-Enumeration for Census-2027 to Begin from April 26 in Telangana",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255521",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Hyderabad",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Process to be conducted from April 26 to May 10, 2026 Citizens can voluntarily participate in census through self-enumeration Directorate of Census Operations, Telangana Director Smt.Bharati Hollikeri\nAs part of Census of India -2027, the Self-Enumeration process will commence in Telangana from April 26, according to the Smt. Bharati Hollikeri, Director, Directorate of Census Operations, Telangana. She said that the process will continue until May 10. She addressed a press conference held at the GHMC Head Office in Hyderabad on Saturday.\nHighlighting the significance of this census, Smt. Bharati Hollikeri stated that this will be the first census conducted after the formation of Telangana state. It will also be the first fully digital census. Additionally, she noted that a caste-based enumeration will be conducted for the first time since Independence, making this exercise particularly significant.\nShe further informed that, for the first time, a Self-Enumeration facility has been introduced, allowing citizens to directly participate in the census process. People can voluntarily submit their details through the official web portal: https://se.census.gov.in.\nClarifying that self-enumeration is not mandatory and it is optional, she described it as a convenience for citizens. The initiative is expected to speed up data collection and reduce the workload of field enumerators. The portal is available in 16 languages, including Telugu, Hindi, and English, and is designed to be highly secure.\nShe said that for any queries, citizens can refer to the information available on the portal or contact the helpline number 1855 between 10:00 AM and 6:00 PM.\nOut of the total 33 questions in the census, citizens can respond to 27 questions through self-enumeration. The remaining six questions will be completed by enumerators during field visits. No documents or photographs are required to be uploaded. As the process does not involve geo-fencing, allowing citizens to complete it from anywhere.\nDescribing the census as the “mother of all surveys,” Smt. Hollikeri emphasized that it provides comprehensive data essential for policymaking and development planning. She urged citizens to provide accurate information, stating that it is their responsibility and crucial for the future of coming generations. The goal is to ensure that census data accurately reflects ground reality.\nGHMC Commissioner Mr. R.V. Karnan explained the arrangements for conducting the census in Greater Hyderabad and the Core Urban Region(CURE). He stated that each division will be considered as a unit for enumeration. A total of 21,866 enumerators and 3,652 supervisors will be deployed, along with 60 Deputy Commissioners overseeing operations at the circle level. Separate in-charge officer will be appointed for cantonment area. He appealed to citizens to actively participate in the self-enumeration process.\nLater, the officials unveiled posters and publicity material related to the census.",
+      "summary": "Process to be conducted from April 26 to May 10, 2026 Citizens can voluntarily participate in census through self-enumeration Directorate of Census Operations, Telangana Director Smt.Bharati Hollikeri As part of Census of India -2027, the Self-Enumeration process will commence in Telangana from April 26, according to the Smt. Bharati Hollikeri, Director, Directorate of Census Operations, Telangana. She said that the process will continue until May 10.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "CoDED": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "a4c2a8bfc8daeb54bd448613b6a7d11f",
+      "title": "Foundation Stone Laid by Union Minister Shri V. Somanna for the Construction of Two Pedestrian Subways in Tumakuru",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255523",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Bengaluru",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -4238,10 +4278,10 @@
       "scraped_date": "2026-04-23"
     }
   ],
-  "other_count": 196,
+  "other_count": 197,
   "vertical_counts": {
     "EooDB": 6,
-    "CoDED": 6,
+    "CoDED": 7,
     "iLEAP": 5,
     "ELS": 2,
     "Sustainability": 6,
