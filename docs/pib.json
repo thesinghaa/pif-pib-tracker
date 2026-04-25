@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-25T14:52:32Z",
-  "last_updated_ist": "25 Apr 2026, 08:22 PM IST",
-  "total": 248,
+  "last_updated": "2026-04-25T15:44:45Z",
+  "last_updated_ist": "25 Apr 2026, 09:14 PM IST",
+  "total": 250,
   "articles": [
     {
       "id": "ba519b5aed34253e3a59860385616812",
@@ -484,6 +484,42 @@
         "ELS": 3
       },
       "section": "vertical"
+    },
+    {
+      "id": "aefafa0d5ea3dc1431865e57947131d4",
+      "title": "Inauguration of OTM Complex at Puducherry",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255571",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "93f2605ec184621412f575c5bd99e2e3",
+      "title": "56 Years of Trust, Service, and Nation Building",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255566",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "15cf622c6ce4f5c06ec3c12290d9c0ce",
@@ -4506,7 +4542,7 @@
       "scraped_date": "2026-04-23"
     }
   ],
-  "other_count": 206,
+  "other_count": 208,
   "vertical_counts": {
     "EooDB": 7,
     "CoDED": 7,
