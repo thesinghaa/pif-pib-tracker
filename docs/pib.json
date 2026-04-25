@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-25T06:28:24Z",
-  "last_updated_ist": "25 Apr 2026, 11:58 AM IST",
-  "total": 229,
+  "last_updated": "2026-04-25T08:13:50Z",
+  "last_updated_ist": "25 Apr 2026, 01:43 PM IST",
+  "total": 231,
   "articles": [
     {
       "id": "ba519b5aed34253e3a59860385616812",
@@ -120,6 +120,46 @@
       "sentiment": "neutral",
       "vertical_scores": {
         "CoDED": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "5297a7a445ff30eabba3cbef2fda32c6",
+      "title": "“Cancer Survivors Are True Warriors”: Vice-President at Cancer Survivors’ Day Celebrations in Jaipur",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255478",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "8c097e471eccd8fd656755d3930f5b3d",
+      "title": "General Elections and Bye-elections, 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255471",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Scrutiny of Form 17A completed in Tamil Nadu and West Bengal (Phase-I)\n• Election Commission of India (ECI) has issued consolidated instructions n the post-poll scrutiny of Form 17A (Register of Voters) and other poll-day documents and other records to strengthen transparency and detect any malpractices at polling stations and recommend repolls if required.\n• Accordingly, scrutiny of documents was conducted smoothly on April 24, 2026 in all 152 Assembly Constituencies (ACs) which went to polls in West Bengal (Phase-I) by the Returning Officers (RO)) in the presence of General Observers (GO) and over 600 candidates or their representatives .\n• In Phase-I of West Bengal general elections, all 1,478 candidates were informed about the date, time and venue of scrutiny for participation in the scrutiny process. After scrutiny no re-poll was recommended out of the 44,376 Polling Stations that went to polls on 23rd April 2026.\n• Similarly, scrutiny of documents was conducted smoothly on April 24, 2026 in all 234 Assembly Constituencies (ACs) which went to polls in Tamil Nadu by the Returning Officers (RO) in the presence of General Observers (GO) and 1,825 candidates or their representatives .\n• In Tamil Nadu general elections, all 4,023 candidates were informed in advance about the date, time and venue of scrutiny for participation in the scrutiny process. After scrutiny no re-poll was recommended out of the 75,064 Polling Stations that went to polls on 23rd April 2026.\n• The entire process in both the states, was videographed and after scrutiny, Forms 17A and related materials were re-sealed with the RO’s seal .\n• The EVM-VVPATs have been stored securely in the Strong Rooms which have been sealed after the polling concluded on April 23, 2026 in the presence of General Observers and candidates or their representatives.\n• Elaborate arrangements have been made for the security of the EVM strong rooms including double-lock system, deployment of two-tier security round the clock and CCTV coverage of the doors/corridors of the strong rooms.\n• The ROs have been directed to visit the strong rooms and check the arrangements twice a day , while DEOs will visit strong rooms at the headquarters once a day and those outside HQ, once in 3-4 days.\n• Representatives of candidates are also allowed to set up camps in the strong room building premises to keep a watch on the strong rooms.",
+      "summary": "Scrutiny of Form 17A completed in Tamil Nadu and West Bengal (Phase-I)",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
       },
       "section": "vertical"
     },
@@ -4144,14 +4184,14 @@
       "scraped_date": "2026-04-23"
     }
   ],
-  "other_count": 192,
+  "other_count": 193,
   "vertical_counts": {
     "EooDB": 6,
     "CoDED": 6,
     "iLEAP": 5,
     "ELS": 2,
     "Sustainability": 6,
-    "Political_Economy": 12
+    "Political_Economy": 13
   },
   "regions_scraped": 25,
   "verticals": {
