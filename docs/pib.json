@@ -1,8 +1,128 @@
 {
-  "last_updated": "2026-04-25T04:43:17Z",
-  "last_updated_ist": "25 Apr 2026, 10:13 AM IST",
-  "total": 223,
+  "last_updated": "2026-04-25T06:28:24Z",
+  "last_updated_ist": "25 Apr 2026, 11:58 AM IST",
+  "total": 229,
   "articles": [
+    {
+      "id": "ba519b5aed34253e3a59860385616812",
+      "title": "Launch of SMILE–Beggary Survey Mobile Application at Chintan Shivir, Chandigarh (24–26 April 2026)",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255463",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5e1c8c0cfbf79cd36808b150fcd6ff8f",
+      "title": "Nasha Mukt Bharat Abhiyaan (NMBA) 2.0 App launched to strengthen monitoring and institutional coordination under National Action Plan for Drug Demand Reduction (NAPDDR)",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255464",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "4220eb8e13e97df594ef66aa9e7d5108",
+      "title": "Model Guidelines on Care, Rehabilitation and Management of Beggars’/Shelter Homes Unveiled at Chintan Shivir",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255462",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f3c3cd5aaaab5f00d74404fbb7655236",
+      "title": "Census 2027: India’s First Digital Enumeration Exercise",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255461",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "• Census 2027 will mark India’s first digital enumeration, leveraging mobile-based data collection to enable faster and more efficient nationwide data availability.\n• The Cabinet Committee on Political Affairs, in its meeting on 30th April 2025, decided to include caste enumeration in the Census 2027.\n• Backed by a strong institutional framework and ₹11,718.24 crore outlay, extensive preparatory measures - including training, pre-test, and administrative readiness - to ensure smooth nationwide implementation.\n• With secure Critical Information Infrastructure (CII)-designated data centres and a large workforce - Census 2027 will deliver reliable data for targeted and inclusive policymaking.\nCensus is the process of collecting, compiling, analyzing and disseminating demographic, social, cultural and economic data relating to all persons in the country or a designated area. The wealth of information collected through census makes it the richest source of data for planners, administrators, research scholars and other data users. Census serves as a critical foundation for governance, enabling informed decision-making across political, social, and economic domains. Census data enables informed policy making that are inclusive, targeted, and aligned with the diverse needs of the population.\nThe earliest references to conducting census in the country can be found in Kautilya’s Arthashastra (321-296 BC) and later in the writings of Abul Fazl in ‘Ain-e-Akbari' during the days of Emperor Akbar. The first modern population census in India was conducted between 1865 and 1872, though it didn't happen simultaneously across all regions. India conducted its first synchronous census in 1881. Since then, the Indian census has been providing reliable, time-tested data on various aspects of the population through extensive exercises held every 10 years. Each successive census refined its methods, increased coverage, and modified questions to better understand the population.\nCensus 2027 will be the 16 th in the series of Indian census and 8 th since independence. This will be the largest census exercise in the world and marks a major step forward with digital integration, strengthened data security, and streamlining processes, reinforcing evidence-based policymaking. It introduces several pioneering features, including mobile-based data collection, near real-time monitoring through the Census Management & Monitoring System (CMMS) portal, an optional self-enumeration facility, and extensive use of geo-referenced jurisdictions. Comprehensive caste enumeration will be done during the Population Enumeration phase.\nSupported by advanced digital tools, the exercise aims to deliver faster, more accurate, and granular data while ensuring the highest standards of data security and public participation.\nHistorical Background of Indian Census\nIndia’s Census has evolved into the world’s largest administrative and statistical exercise. The first population count was conducted dur",
+      "summary": "Census is the process of collecting, compiling, analyzing and disseminating demographic, social, cultural and economic data relating to all persons in the country or a designated area. The wealth of information collected through census makes it the richest source of data for planners, administrators, research scholars and other data users. Census serves as a critical foundation for governance, enabling informed decision-making across political, social, and economic domains.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "CoDED": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "bbf16f7d42422c0cbf1cfa7727d4e331",
+      "title": "CHHATTISGARH CENSUS 2027: OVER 61,000 CITIZENS ENROLL IN DIGITAL SELF-ENUMERATION DRIVE",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255459",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Raipur",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The digital self-enumeration campaign for Census 2027 is gaining significant momentum across Chhattisgarh, with 61,503 citizens already registered on the official portal. This surge in participation marks a pivotal shift toward a digitized demographic exercise, aimed at creating a precise socio-economic database for future state planning and welfare distribution.\n​According to the latest report from the Directorate of Census Operations, Chhattisgarh, the drive has seen high levels of completion, with 47,419 residents having fully submitted their household details. An additional 14,084 individuals have initiated the registration process and are currently in the stages of data entry. This initiative, conducted under the mandate of the Registrar General and Census Commissioner of India, is designed to enhance the authenticity of national data through direct citizen involvement.\n​The self-enumeration system functions through a secure, OTP-based authentication portal, allowing residents to provide information on housing conditions, family demographics, and essential amenities from their own homes. Upon finishing the submission, users receive a Census Reference Number (CRN), which serves as the official record for future administrative verification. Officials have noted that this digital-first approach significantly minimizes the margin for error and reduces the logistical workload on ground-level enumerators.\n​To facilitate a smooth transition for all demographics, the state has deployed trained supervisors equipped with digital devices to assist in error-free verification. Furthermore, dedicated helplines have been established to address technical queries. Authorities have reaffirmed that all data collected is protected by strict legal confidentiality protocols, ensuring that personal information is used exclusively for statistical purposes.\n​Dr. Kartikeya Goyal, Director of Census Operations for Chhattisgarh, has issued a call for continued public cooperation, stating that a robust and accurate data framework is the cornerstone of inclusive development. He urged the remaining residents to visit the portal and complete their self-enumeration promptly to ensure their households are represented in this vital national exercise.",
+      "summary": "The digital self-enumeration campaign for Census 2027 is gaining significant momentum across Chhattisgarh, with 61,503 citizens already registered on the official portal. This surge in participation marks a pivotal shift toward a digitized demographic exercise, aimed at creating a precise socio-economic database for future state planning and welfare distribution. ​According to the latest report from the Directorate of Census Operations, Chhattisgarh, the drive has seen high levels of completion, with 47,419 residents having fully submitted their household details.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "CoDED": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "99653dfc193bac188a0931f0e5469331",
+      "title": "First Phase of Fieldwork for Digital Census 2027 to Begin in Uttarakhand from 25th April",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255467",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Dehradun",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The major campaign for House Listing and Housing Census will run from April 25 to May 24, 2026 Over 62,000 citizens participated in self-enumeration; Dehradun district leads the state 20,859 enumerators and 3,670 supervisors fully trained and deployed 10,884 people completed self-enumeration in Dehradun Approximately 30,000 enumerators and supervisors appointed for the House Listing and Housing Census in Uttarakhand Door-to-door enumeration to be conducted across roughly 32,000 House Listing Blocks\nOn Friday, a press conference regarding the preparations for the first phase of Census 2027—House Listing and Housing Census—was organized by the Directorate of Census Operations, Ministry of Home Affairs, Government of India, in collaboration with PIB Dehradun.\nAddressing the media on this occasion, Ms. Eva Ashish Srivastava, Director (Directorate of Census Operations, Ministry of Home Affairs, Govt. of India), shared detailed information regarding the progress made so far.\nMs. Srivastava stated that between April 10 and April 23, 2026, more than 62,000 citizens in Uttarakhand completed their self-enumeration digitally. Dehradun district emerged as the leader, with 10,884 residents participating in the self-enumeration process.\nTo ensure the successful execution of census operations in Uttarakhand, 20,859 enumerators and 3,670 supervisors have been appointed. They have been divided into 555 training batches and fully trained, including hands-on experience with the specially developed HLO mobile app.\nUnder digital innovation initiatives, the entire state has been divided into 29,567 House Listing Blocks (HLBs) via the HLBC portal, and digital maps have been prepared for each. Enumerators will utilize these maps during their fieldwork. The Director lauded the efforts of all District Magistrates, officers, and district coordinators for completing this groundwork in a time-bound manner. Additionally, the allocation of each House Listing Block has been done entirely digitally through the CMMS portal. As soon as enumerators log in to the mobile app, they will receive details of their allotted area along with the corresponding maps.\nThe Director of Census Operations announced that the “Har Dwar, Dastak” (A Knock at Every Door) campaign will commence across the state on April 25, 2026, and continue until May 24, 2026. She explained that this phase serves as the foundation for Census 2027, during which enumerators will visit every home and building to collect data on amenities and assets through 33 specific questions.\nFor the first time in India’s history, the census is being conducted through a completely mobile app-based digital system, marking a significant milestone in the Digital India campaign.\nMs. Eva Ashish also appealed to the public to remain vigilant against cyber fraud and noted that the state is actively working to address such concerns during this period.\nConcluding the press conference, the Director urged all citizens of the state to extend thei",
+      "summary": "The major campaign for House Listing and Housing Census will run from April 25 to May 24, 2026 Over 62,000 citizens participated in self-enumeration; Dehradun district leads the state 20,859 enumerators and 3,670 supervisors fully trained and deployed 10,884 people completed self-enumeration in Dehradun Approximately 30,000 enumerators and supervisors appointed for the House Listing and Housing Census in Uttarakhand Door-to-door enumeration to be conducted across roughly 32,000 House Listing Blocks On Friday, a press conference regarding the preparations for the first phase of Census 2027—House Listing and Housing Census—was organized by the Directorate of Census Operations, Ministry of Home Affairs, Government of India, in collaboration with PIB Dehradun. Eva Ashish Srivastava, Director (Directorate of Census Operations, Ministry of Home Affairs, Govt. of India), shared detailed information regarding the progress made so far.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "CoDED": 3
+      },
+      "section": "vertical"
+    },
     {
       "id": "15cf622c6ce4f5c06ec3c12290d9c0ce",
       "title": "General Elections and bye-elections 2026: ECI action on unlawful social media content",
@@ -4024,10 +4144,10 @@
       "scraped_date": "2026-04-23"
     }
   ],
-  "other_count": 189,
+  "other_count": 192,
   "vertical_counts": {
     "EooDB": 6,
-    "CoDED": 3,
+    "CoDED": 6,
     "iLEAP": 5,
     "ELS": 2,
     "Sustainability": 6,
