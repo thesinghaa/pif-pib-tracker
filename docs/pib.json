@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-25T15:44:45Z",
-  "last_updated_ist": "25 Apr 2026, 09:14 PM IST",
-  "total": 250,
+  "last_updated": "2026-04-25T16:43:24Z",
+  "last_updated_ist": "25 Apr 2026, 10:13 PM IST",
+  "total": 251,
   "articles": [
     {
       "id": "ba519b5aed34253e3a59860385616812",
@@ -520,6 +520,28 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "110f976f5b73be51d4fa3778f08823b7",
+      "title": "NITI Aayog releases report on “Moving Towards Effective City Government – A Framework for Million-Plus Cities”",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255581",
+      "date": "2026-04-25",
+      "scraped_date": "2026-04-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Hon’ble Union Minister of Housing & Urban Affairs, Sh. Manohar Lal Khattar, released the report “Moving Towards Effective City Government – A Framework for Million-plus Cities” by NITI Aayog on 25 April 2026 at the India Habitat Centre, New Delhi. The event was attended by Urban Development Ministers from more than 10 states, reflecting broad-based participation and commitment to advancing urban governance reforms.\nIndia’s urbanisation is central to achieving the vision of Viksit Bharat by 2047 and progressing towards a $30 trillion economy. Cities are central to driving economic growth, fostering innovation, and generating employment. However, their potential remains constrained by structural challenges such as fragmented institutional arrangements, limited devolution of powers, weak financial autonomy, and diffused accountability. Strengthening urban governance is therefore critical to enabling cities to perform effectively.\nThe report “ Moving Towards Effective City Government – A Framework for Million-plus Cities ” by NITI Aayog presents a focused roadmap to address these challenges. It emphasises the importance of strengthening institutional foundations alongside sectoral improvements and prioritises India’s million-plus cities as key economic centres contributing significantly to national growth.\nThe report identifies persistent governance issues , including weak and fragmented leadership structures, constrained fiscal capacity, and capacity gaps that limit service delivery and urban performance. It calls for a shift towards empowered city governments through a clear realignment of authority, responsibility, and resources at the city level. Such a transformation is essential for cities to function as effective engines of growth and responsive service providers.\nKey recommendations of the report include:\n1. Strengthening city leadership through the introduction of a directly elected Mayor with a fixed tenure, supported by an empowered Mayor-in-Council system to ensure continuity, clarity, and accountability in decision-making.\n2. Integrating urban service delivery by bringing key functions such as water supply, sanitation, and public transport under the purview of city governments to improve coordination and accountability.\n3. Enhancing municipal finances by strengthening own-source revenues, ensuring more predictable and timely fiscal transfers through robust State Finance Commissions, and enabling access to market-based financing mechanisms such as municipal bonds.\n4. Undertaking institutional restructuring by bringing multiple parastatal agencies involved in service delivery under city government oversight, with clearly defined roles and stronger coordination frameworks.\nFor effective implementation , the report recommends that states amend their Municipal Acts to reflect these governance reforms. It also calls on the Ministry of Housing and Urban Affairs to update the Model Municipal Law and provide guidance and incentives to support",
+      "summary": "The Hon’ble Union Minister of Housing & Urban Affairs, Sh. Manohar Lal Khattar, released the report “Moving Towards Effective City Government – A Framework for Million-plus Cities” by NITI Aayog on 25 April 2026 at the India Habitat Centre, New Delhi. The event was attended by Urban Development Ministers from more than 10 states, reflecting broad-based participation and commitment to advancing urban governance reforms.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "15cf622c6ce4f5c06ec3c12290d9c0ce",
@@ -4549,7 +4571,7 @@
     "iLEAP": 5,
     "ELS": 4,
     "Sustainability": 6,
-    "Political_Economy": 13
+    "Political_Economy": 14
   },
   "regions_scraped": 25,
   "verticals": {
