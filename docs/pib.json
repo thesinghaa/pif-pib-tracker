@@ -1,8 +1,26 @@
 {
-  "last_updated": "2026-04-25T18:49:20Z",
-  "last_updated_ist": "26 Apr 2026, 12:19 AM IST",
-  "total": 193,
+  "last_updated": "2026-04-25T19:50:44Z",
+  "last_updated_ist": "26 Apr 2026, 01:20 AM IST",
+  "total": 194,
   "articles": [
+    {
+      "id": "d036e56c560dafced5ce663452bef645",
+      "title": "International Conference on “Vision 2047 - Prosperous and Great Bharat 2.0” at IIT Roorkee",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255604",
+      "date": "2026-04-26",
+      "scraped_date": "2026-04-26",
+      "relative_time": "Today",
+      "region": "Dehradun",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "ba519b5aed34253e3a59860385616812",
       "title": "Launch of SMILE–Beggary Survey Mobile Application at Chintan Shivir, Chandigarh (24–26 April 2026)",
@@ -3632,7 +3650,7 @@
       "section": "other"
     }
   ],
-  "other_count": 154,
+  "other_count": 155,
   "vertical_counts": {
     "EooDB": 7,
     "CoDED": 7,
