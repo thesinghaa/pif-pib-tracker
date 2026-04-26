@@ -134,6 +134,22 @@ VERTICALS = {
             "industrial policy", "msme credit", "udyam",
         ]
     },
+    "EooDB": {
+        "label": "Ease of Doing Business & Export-Led Manufacturing",
+        "color": "#E8620A",
+        "emoji": "🏭",
+        "keywords": [
+            "msme", "pli", "ease of doing business", "make in india",
+            "fta", "export", "manufacturing", "gst", "investment",
+            "startup", "semiconductor", "logistics", "import duty",
+            "anti-dumping", "wto", "sez", "regulatory reform",
+            "dpiit", "commerce", "production linked incentive",
+            "free trade agreement", "special economic zone",
+            "foreign direct investment", "fdi", "industrial corridor",
+            "trade policy", "customs duty", "business reform",
+            "industrial policy", "msme credit", "udyam",
+        ]
+    },
     "CoDED": {
         "label": "Center of Data for Economic Decision-Making",
         "color": "#2471A3",
@@ -717,7 +733,7 @@ def write_output(releases: list, path: str) -> None:
 
     log.info("Written %d articles → %s", len(releases), path)
     for vid, cnt in vertical_counts.items():
-        log.info("  %-25s : %d", VERTICALS[vid]["label"], cnt)
+        log.info("  %-25s : %d", VERTICALS.get(vid, {}).get("label", vid), cnt)
     log.info("  %-25s : %d", "Other Releases", other_count)
 
 
