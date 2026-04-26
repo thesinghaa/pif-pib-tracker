@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-26T12:54:59Z",
-  "last_updated_ist": "26 Apr 2026, 06:24 PM IST",
-  "total": 215,
+  "last_updated": "2026-04-26T18:06:22Z",
+  "last_updated_ist": "26 Apr 2026, 11:36 PM IST",
+  "total": 220,
   "articles": [
     {
       "id": "d036e56c560dafced5ce663452bef645",
@@ -407,6 +407,106 @@
       "scraped_date": "2026-04-26",
       "relative_time": "Today",
       "region": "Raipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "37f753411d99be87e25f915c8f366c6b",
+      "title": "PRESIDENT OF INDIA TO VISIT HIMACHAL PRADESH FROM April 27 to May 1",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255769",
+      "date": "2026-04-26",
+      "scraped_date": "2026-04-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "77405ca23d2fed503a073c667454d7d7",
+      "title": "Prime Minister condoles passing of renowned photographer Shri Raghu Rai",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255754",
+      "date": "2026-04-26",
+      "scraped_date": "2026-04-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "0dc2d5b6e9a5a1eb26d424fef0523e2a",
+      "title": "Union Minister for Commerce and Industry Shri Piyush Goyal and New Zealand Minister for Trade and Investment Mr. Todd McClay Lead Industry Engagement in Agra Ahead of India–New Zealand FTA Signing",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255739",
+      "date": "2026-04-26",
+      "scraped_date": "2026-04-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 18,
+      "snippet": "",
+      "full_content": "India–New Zealand FTA Positioned as Comprehensive Partnership Beyond Tariffs Covering Trade, Mobility, Investment and People-to-People Ties Agra Leather Sector Eyes USD 50 Billion Growth by 2030 as India–New Zealand Synergy Drives High-Value Manufacturing and Global Sourcing Ambitions Industry Welcomes India–New Zealand FTA Provisions on Pharma, Medical Devices; Faster Regulatory Access and Dedicated AYUSH Chapter to Boost Sector Growth Shri Piyush Goyal Urges Industry to Leverage Education, Talent Mobility and Cross-Sector Opportunities Under India–New Zealand FTA\nOn the eve of the signing of the India-New Zealand Free Trade Agreement (FTA), Union Minister for Commerce and Industry, Shri Piyush Goyal, and Mr. Todd McClay, Minister for Trade and Investment, New Zealand, participated in an Industry Engagement Programme at Agra. MoS of Fisheries, Animal Husbandry and Dairying Shri S P Baghel, also participated in the interaction. The interaction brought together leading industry representatives from the leather and footwear, AYUSH, medical devices, light engineering, sports goods sectors and Laghu Udyog Bharati, Uttar Pradesh. The industry presented their views reflecting the depth and diversity of India's leather manufacturing prowess, Pharma industry, medical devices industry, engineering products.\nIn keeping with Prime Minister Shri Narendra Modi's vision of building trade partnerships that are inclusive, forward-looking, and firmly rooted in India's national priorities, both Ministers underscored that the India-New Zealand FTA is far more than a tariff agreement. It is a comprehensive framework encompassing market access, agricultural productivity, investment, talent mobility, collaboration in sports, tourism, and people-to-people ties, designed to benefit manufacturers, farmers, MSMEs, women entrepreneurs, students, and skilled professionals across both nations.\nAgra, which accounts for approximately 75 per cent of India's leather footwear production, holds a Geographical Indication (GI) tag for its leather footwear and is a flagship product under the One District One Product scheme. With the FTA eliminating duties on 100 per cent of Indian exports from Entry into Force, and bringing tariffs on leather and footwear from 5 per cent to zero, Indian exporters are set to gain a decisive competitive advantage. Industry representatives highlighted the sector's potential to grow to USD 50 billion by 2030, driven by a strategic shift from mass production to high value-added manufacturing. New Zealand's rich raw leather resources, combined with India's manufacturing capabilities, offer a strong complementarity that both sides expressed keenness to harness. On the occasion, Both Ministers along with Industry representatives spoke of positioning Agra as a global sourcing destination, an employment engine, and an export powerhouse on the world stage.\nThe interaction also covered the pharmaceutical and medical devices sectors. Industry representatives welc",
+      "summary": "India–New Zealand FTA Positioned as Comprehensive Partnership Beyond Tariffs Covering Trade, Mobility, Investment and People-to-People Ties Agra Leather Sector Eyes USD 50 Billion Growth by 2030 as India–New Zealand Synergy Drives High-Value Manufacturing and Global Sourcing Ambitions Industry Welcomes India–New Zealand FTA Provisions on Pharma, Medical Devices; Faster Regulatory Access and Dedicated AYUSH Chapter to Boost Sector Growth Shri Piyush Goyal Urges Industry to Leverage Education, Talent Mobility and Cross-Sector Opportunities Under India–New Zealand FTA On the eve of the signing of the India-New Zealand Free Trade Agreement (FTA), Union Minister for Commerce and Industry, Shri Piyush Goyal, and Mr. Todd McClay, Minister for Trade and Investment, New Zealand, participated in an Industry Engagement Programme at Agra. MoS of Fisheries, Animal Husbandry and Dairying Shri S P Baghel, also participated in the interaction.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "EoDB": 9,
+        "EooDB": 9
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "eb69433e1fc1c511ac87ba5fdfdc315e",
+      "title": "Union Minister G. Kishan Reddy Participates in Self-Enumeration for Census 2027 in Telangana",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255720",
+      "date": "2026-04-26",
+      "scraped_date": "2026-04-26",
+      "relative_time": "Today",
+      "region": "Hyderabad",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Urges citizens to actively participate; highlights role of Census in inclusive development Emphasises role of Census data in achieving Viksit Bharat\nG. Kishan Reddy, Hon’ble Union Minister of Coal and Mines, participated in the self-enumeration to process for Census 2027 in Telangana by registering his details through the designated online census portal, marking the commencement of the self-enumeration phase in the State on April 26, 2026.\nAddressing a press conference organised by the Office of the Director of Census Operations, Telangana, the Minister described the Census as a foundational pillar in India’s development journey and a critical tool for planning, governance, and equitable development. He stated that accurate and comprehensive data is essential for effective policymaking and inclusive growth.\nHighlighting the significance of Census 2027, he said that it marks a transformative phase with the adoption of modern digital technology, ensuring greater transparency, efficiency, and inclusiveness. He informed that the self-enumeration facility is available from April 26 to May 10, 2026, followed by House Listing Operations from May 11 to June 9, 2026, laying a strong foundation for comprehensive data collection.\nThe Union Minister also emphasised that Census 2027 will provide a clearer understanding of socio-economic conditions across the country and help ensure that development benefits reach every citizen.\nOn this occasion he urged citizens to participate in the Census and provide accurate information, stating that every data point contributes to the nation’s future and the vision of Viksit Bharat of the Hon’ble Prime Minister Narendra Modi.\nBharathi Holikeri, Director , Directorate Census Operations, Telangana, further informed that the Self-Enumeration (SE) facility enables citizens to directly participate in the Census through the official portal https://se.census.gov.in She also highlighted that the data submitted will remain fully confidential and encouraged all residents to utilise the facility. She added that a Self-Enumeration ID will be generated upon submission, which will be verified and finalised by the enumerator also.\nR. V. Karnan, Commissioner, GHMC, and Priyanka Ala, District Collector, Hyderabad, were also present on the occasion.",
+      "summary": "Urges citizens to actively participate; highlights role of Census in inclusive development Emphasises role of Census data in achieving Viksit Bharat G. Kishan Reddy, Hon’ble Union Minister of Coal and Mines, participated in the self-enumeration to process for Census 2027 in Telangana by registering his details through the designated online census portal, marking the commencement of the self-enumeration phase in the State on April 26, 2026. Addressing a press conference organised by the Office of the Director of Census Operations, Telangana, the Minister described the Census as a foundational pillar in India’s development journey and a critical tool for planning, governance, and equitable development.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "CoDED": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "66cbcae7690807fc5e5fe9b590796200",
+      "title": "State-Level Tribal Volunteer Empowerment Programme Concludes at KISS; Additional DG PIB Stresses Effective Communication for Inclusive Development",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255725",
+      "date": "2026-04-26",
+      "scraped_date": "2026-04-26",
+      "relative_time": "Today",
+      "region": "Bhubaneswar",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -4046,34 +4146,40 @@
       "section": "other"
     }
   ],
-  "other_count": 172,
+  "other_count": 175,
   "vertical_counts": {
-    "EooDB": 7,
-    "CoDED": 8,
+    "EoDB": 1,
+    "EooDB": 8,
+    "CoDED": 9,
     "iLEAP": 6,
     "ELS": 4,
     "Sustainability": 6,
     "Political_Economy": 13
   },
-  "regions_scraped": 24,
+  "regions_scraped": 25,
   "verticals": {
+    "EoDB": {
+      "label": "Ease of Doing Business & Export-Led Manufacturing",
+      "color": "#E8620A",
+      "emoji": "🏭"
+    },
     "EooDB": {
-      "label": "Ease of Doing Business & Manufacturing",
+      "label": "Ease of Doing Business & Export-Led Manufacturing",
       "color": "#E8620A",
       "emoji": "🏭"
     },
     "CoDED": {
-      "label": "Data for Economic Decision-making",
+      "label": "Center of Data for Economic Decision-Making",
       "color": "#2471A3",
       "emoji": "📊"
     },
     "iLEAP": {
-      "label": "i-LEAP: Lead Elimination & Public Health",
+      "label": "Mitigating Lead Poisoning (i-LEAP)",
       "color": "#C0392B",
       "emoji": "🩺"
     },
     "ELS": {
-      "label": "Jobs, Livelihoods & Women in Work",
+      "label": "Employment & Livelihood Systems (ELS)",
       "color": "#7D3C98",
       "emoji": "💼"
     },
