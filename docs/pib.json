@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-26T05:05:04Z",
-  "last_updated_ist": "26 Apr 2026, 10:35 AM IST",
-  "total": 197,
+  "last_updated": "2026-04-26T07:07:12Z",
+  "last_updated_ist": "26 Apr 2026, 12:37 PM IST",
+  "total": 199,
   "articles": [
     {
       "id": "d036e56c560dafced5ce663452bef645",
@@ -80,6 +80,46 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "69b55b63d94a664ce671e148ea0aa275",
+      "title": "English rendering of PM’s address in the 133rd Episode of Mann Ki Baat on 26.04.2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255629",
+      "date": "2026-04-26",
+      "scraped_date": "2026-04-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c890ea321ca8f9bd79dc93940b4c005e",
+      "title": "Self-enumeration for Census 2027 begins in Telangana",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255631",
+      "date": "2026-04-26",
+      "scraped_date": "2026-04-26",
+      "relative_time": "Today",
+      "region": "Hyderabad",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Governor inaugurates exercise at Lok Bhavan People Must Participate in Census: Shiv Pratap Shukla\nThe self-enumeration phase for Census 2027 commenced in Telangana on Sunday. Governor Shri Shiv Pratap Shukla formally launched the exercise by registering his details through the online self-enumeration facility.\nAddressing the people, the Governor described the Census as a vital national exercise that provides a comprehensive picture of the population and its socio-economic conditions. He said it forms the foundation for planning, good governance, and equitable distribution of resources, ensuring that development benefits reach all sections of society.\nHe highlighted that Census data plays a key role in policymaking across sectors such as education, healthcare, employment, housing, and infrastructure. Accurate data enables the government to design targeted welfare programmes and assess national progress effectively. Noting that this is the first Census after the formation of Telangana, he said it holds special significance for the State’s future development.\nThe Governor announced that the self-enumeration phase will be conducted from April 26 to May 10, 2026, followed by house-listing operations from May 11 to June 9, 2026. He added that this will be India’s first fully digital Census, with both self-enumeration and house-listing carried out through digital platforms to ensure accuracy, transparency, and efficiency.\n“I have personally completed the self-enumeration process. It is simple and efficient. I urge all citizens to participate actively and provide accurate information,” he said.\nHe emphasised that public participation will contribute to building a strong, inclusive, and well-planned Telangana and India.\nCensus Director Smt. Bharathi Holikeri, GHMC Commissioner R.V. Karnan, Joint Secretary to the Governor K. Shashi Kiran Chary, and others were present on the occasion.",
+      "summary": "Shiv Pratap Shukla The self-enumeration phase for Census 2027 commenced in Telangana on Sunday. Governor Shri Shiv Pratap Shukla formally launched the exercise by registering his details through the online self-enumeration facility. Addressing the people, the Governor described the Census as a vital national exercise that provides a comprehensive picture of the population and its socio-economic conditions.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "CoDED": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "ba519b5aed34253e3a59860385616812",
@@ -3710,10 +3750,10 @@
       "section": "other"
     }
   ],
-  "other_count": 157,
+  "other_count": 158,
   "vertical_counts": {
     "EooDB": 7,
-    "CoDED": 7,
+    "CoDED": 8,
     "iLEAP": 5,
     "ELS": 4,
     "Sustainability": 6,
