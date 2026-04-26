@@ -888,9 +888,10 @@
     @media (max-width: 900px) {
       #wt-tooltip {
         left: 1rem !important; right: 1rem !important;
-        bottom: 1.5rem !important; top: auto !important;
-        transform: none !important; width: auto !important;
+        width: auto !important;
         max-width: calc(100vw - 2rem) !important;
+        transform: none !important;
+        /* top / bottom set dynamically by positionTooltip */
       }
     }
   </style>
@@ -1471,9 +1472,9 @@ const WT_STEPS_MOBILE = [
     position: "bottom"
   },
   {
-    target: ".filter-ribbon",
+    target: ".filter-btn",
     title: "Filter by Vertical",
-    text: "Scroll and tap any vertical — EoDB, CoDED, iLEAP, ELS, Sustainability, Political Economy — to filter releases.",
+    text: "Tap any chip to filter releases by PIF vertical — EoDB, CoDED, iLEAP, ELS, Sustainability, Political Economy.",
     position: "bottom"
   },
   {
@@ -1567,7 +1568,23 @@ function initWalkthrough() {
   }
 
   function positionTooltip(rect, position) {
-    if (window.innerWidth <= 900) return;
+    const isMobile = window.innerWidth <= 900;
+    if (isMobile) {
+      const vh = window.innerHeight, gap = 16;
+      if (!rect || position === "center") {
+        tooltip.style.top = "auto"; tooltip.style.bottom = "1.5rem"; return;
+      }
+      const ttH = tooltip.offsetHeight || 210;
+      if (rect.bottom < vh * 0.50) {
+        // element in top half → tooltip just below it
+        const top = Math.max(gap, Math.min(rect.bottom + gap, vh - ttH - gap));
+        tooltip.style.top = top + "px"; tooltip.style.bottom = "auto";
+      } else {
+        // element in lower half → tooltip at bottom
+        tooltip.style.top = "auto"; tooltip.style.bottom = "1.5rem";
+      }
+      return;
+    }
     const tw = 340, gap = 20;
     if (!rect || position === "center") {
       tooltip.style.top = "50%"; tooltip.style.left = "50%";
@@ -1605,7 +1622,7 @@ function initWalkthrough() {
     if (s.target) {
       const el = document.querySelector(s.target);
       if (el) {
-        el.scrollIntoView({ behavior:"smooth", block: window.innerWidth <= 900 ? "start" : "center" });
+        el.scrollIntoView({ behavior:"smooth", block: "center" });
         setTimeout(() => {
           const r = el.getBoundingClientRect(), pad = 8;
           updateOverlay(r, pad);
