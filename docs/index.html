@@ -1047,7 +1047,8 @@
 <script>
 /* ── VERTICAL METADATA ──────────────────────────────────────── */
 const VCOL = {
-  EooDB:            '#E8620A',
+  EoDB:             '#E8620A',
+  EooDB:            '#E8620A',  /* data key alias */
   CoDED:            '#2471A3',
   iLEAP:            '#C0392B',
   ELS:              '#7D3C98',
@@ -1057,7 +1058,8 @@ const VCOL = {
   other:            '#4a5568',
 };
 const VCOL_RGB = {
-  EooDB:            '232,98,10',
+  EoDB:             '232,98,10',
+  EooDB:            '232,98,10',  /* data key alias */
   CoDED:            '36,113,163',
   iLEAP:            '192,57,43',
   ELS:              '125,60,152',
@@ -1071,6 +1073,7 @@ function normalise(v) {
   if (!v) return 'other';
   if (v === 'Jobs_Livelihood') return 'ELS';
   if (v === 'Political_Economy') return 'Pol. Economy';
+  if (v === 'EooDB') return 'EoDB';
   return v;
 }
 function color(v)    { return VCOL[v]     || VCOL[normalise(v)]     || VCOL.other; }
@@ -1120,7 +1123,7 @@ function buildFilters() {
       const pv = a.primary_vertical;
       return pv === vid || (normId === 'ELS' && pv === 'Jobs_Livelihood');
     }).length;
-    const lbl = normId === 'Political_Economy' ? 'Pol. Economy' : normId;
+    const lbl = normId === 'Political_Economy' ? 'Pol. Economy' : normId === 'EooDB' ? 'EoDB' : normId;
     c.appendChild(makeFilterBtn(vid, lbl, cnt,
       VCOL[vid]||VCOL.other, VCOL_RGB[vid]||VCOL_RGB.other, false));
   });
