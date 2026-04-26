@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-26T02:00:55Z",
-  "last_updated_ist": "26 Apr 2026, 07:30 AM IST",
-  "total": 194,
+  "last_updated": "2026-04-26T05:05:04Z",
+  "last_updated_ist": "26 Apr 2026, 10:35 AM IST",
+  "total": 197,
   "articles": [
     {
       "id": "d036e56c560dafced5ce663452bef645",
@@ -11,6 +11,66 @@
       "scraped_date": "2026-04-26",
       "relative_time": "Today",
       "region": "Dehradun",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "8048d5ee25669884305d3974c2d4b20f",
+      "title": "Government Clarifies Wheat Production Scenario 2025–26; Crop Remains Resilient Despite Weather Variations",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255618",
+      "date": "2026-04-26",
+      "scraped_date": "2026-04-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e1ef1cb103a9c7247319d823e9f0fb6c",
+      "title": "MoEFCC and NBA launch five-year project to strengthen Grassroots Biodiversity Governance in Tamil Nadu and Meghalaya",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255611",
+      "date": "2026-04-26",
+      "scraped_date": "2026-04-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy",
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "To strengthen grassroots biodiversity governance by empowering local communities and institutions through the greening of Gram Panchayat Development Plans (GPDPs) and innovative financing, the Union Ministry of Environment, Forest and Climate Change (MoEFCC) and the National Biodiversity Authority (NBA) have launched a landmark five-year project titled ‘Strengthening Institutional Capacities for Securing Biodiversity Conservation Commitments’. The project is a joint initiative of the Government of India, the Global Environment Facility (GEF) and the United Nations Development Programme (UNDP), with a grant of USD 4.88 million for the period 2025–2030.\nThe project is rooted in two ecologically significant landscapes. In Tamil Nadu, the Sathyamangalam landscape at the confluence of the Western and Eastern Ghats, encompassing the Mudumalai Tiger Reserve and Sathyamangalam Tiger Reserve, unites forest-fringe communities who are longstanding stewards of wildlife corridors. Their deep ecological knowledge will be channelled into GPDPs, giving biodiversity conservation a prominent place in local governance. In Garo Hills, Meghalaya, the Nokrek Biosphere Reserve, Balpakram National Park, and Siju Wildlife Sanctuary together form a vibrant mosaic of government forests and Reserve Forests, providing an ideal setting for community-led conservation woven into Village Employment Councils (VECs), an equivalent of gram panchayats.\nA key objective of the project is mainstreaming biodiversity in local developmental plans to strengthen Panchayati Raj Institutions (PRIs) and Biodiversity Management Committees (BMCs) and to build landscape-level multi-stakeholder platforms that bring together forest departments, revenue authorities, elected representatives and civil society to produce community-owned, funded biodiversity plans.\nAnother major objective is to promote innovative financing mechanisms by activating Access and Benefit Sharing (ABS) arrangements, CSR co-financing and green micro-enterprises that create sustainable livelihoods as direct rewards for conservation stewardship. The third objective focuses on knowledge management and capacity building, systematically capturing innovations from both landscapes for nationwide replication through NBA and MoEFCC platforms, with a dedicated focus on advancing the economic and governance roles of women, Scheduled Castes and tribal communities.\nThe governance architecture is based on a bottom-up approach, with Panchayati Raj Institutions playing a key managerial role. The project advances the implementation of India’s Updated National Biodiversity Strategy and Action Plan (NBSAP 2024–2030), the Kunming-Montreal Global Biodiversity Framework’s landmark 30x30 target, India’s Nationally Determined Contributions (NDCs) under the Paris Agreement and the goals of Tamil Nadu Vision 2030 and Meghalaya Vision 2030. It adopts a ‘Whole-of-Government’ and ‘Whole-of-Society’ approach to ensure participation across sectors and commu",
+      "summary": "To strengthen grassroots biodiversity governance by empowering local communities and institutions through the greening of Gram Panchayat Development Plans (GPDPs) and innovative financing, the Union Ministry of Environment, Forest and Climate Change (MoEFCC) and the National Biodiversity Authority (NBA) have launched a landmark five-year project titled ‘Strengthening Institutional Capacities for Securing Biodiversity Conservation Commitments’. The project is a joint initiative of the Government of India, the Global Environment Facility (GEF) and the United Nations Development Programme (UNDP), with a grant of USD 4.88 million for the period 2025–2030. The project is rooted in two ecologically significant landscapes.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Sustainability": 3,
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "0420e7681a88626c03bed60bccfe239b",
+      "title": "Small Hydro Power Development Scheme",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255609",
+      "date": "2026-04-26",
+      "scraped_date": "2026-04-26",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -3650,14 +3710,14 @@
       "section": "other"
     }
   ],
-  "other_count": 155,
+  "other_count": 157,
   "vertical_counts": {
     "EooDB": 7,
     "CoDED": 7,
     "iLEAP": 5,
     "ELS": 4,
-    "Sustainability": 5,
-    "Political_Economy": 11
+    "Sustainability": 6,
+    "Political_Economy": 12
   },
   "regions_scraped": 23,
   "verticals": {
