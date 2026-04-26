@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-26T10:49:15Z",
-  "last_updated_ist": "26 Apr 2026, 04:19 PM IST",
-  "total": 210,
+  "last_updated": "2026-04-26T11:45:26Z",
+  "last_updated_ist": "26 Apr 2026, 05:15 PM IST",
+  "total": 212,
   "articles": [
     {
       "id": "d036e56c560dafced5ce663452bef645",
@@ -322,6 +322,46 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "866cf220e46c6ebde3169b0bb25fb6da",
+      "title": "Updates on Key Sectors in View of Developments in West Asia",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255678",
+      "date": "2026-04-26",
+      "scraped_date": "2026-04-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "d39a5eed9b2aedde807625418cf8e484",
+      "title": "NTPC Sipat inaugurates CSR projects worth ₹7.19 crore, boosting healthcare infrastructure in Bilaspur",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255688",
+      "date": "2026-04-26",
+      "scraped_date": "2026-04-26",
+      "relative_time": "Today",
+      "region": "Raipur",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "State’s first ultra-modern blood centre inaugurated at Super Speciality Hospital with world-class equipment Chhattisgarh Institute of Medical Sciences receives 26 advanced machines benefiting eight departments Union Minister Tokhan Sahu terms initiative a milestone for strengthening healthcare in the state\nUnion Minister of State for Housing and Urban Affairs and Member of Parliament from Bilaspur, Mr. Tokhan Sahu, on Sunday inaugurated advanced healthcare facilities developed at a cost of approximately ₹7.19 crore under the Corporate Social Responsibility (CSR) initiative of National Thermal Power Corporation (NTPC) Sipat. The initiative has significantly strengthened infrastructure and medical capabilities at the Government Super Speciality Hospital and the Chhattisgarh Institute of Medical Sciences (CIMS), Bilaspur.\nAt the Government Super Speciality Hospital, facilities established with an investment of about ₹4.27 crore by NTPC Sipat were inaugurated. These include a state-of-the-art blood centre, a microbiology laboratory, a hormone laboratory, and an Artificial Intelligence (AI)-based microscopy facility. The blood centre is the first of its kind in Chhattisgarh, equipped with advanced, world-class machines that are expected to enhance diagnostic accuracy and treatment services.\nIn addition, medical equipment worth ₹2.92 crore procured under the Corporate Social Responsibility initiative was inaugurated at the Chhattisgarh Institute of Medical Sciences (CIMS), Bilaspur. Formal documents for the transfer of equipment between National Thermal Power Corporation Sipat and CIMS were also exchanged. The support has enabled the installation of 26 advanced machines across eight departments, including high-end colour Doppler, automatic chemiluminescence system, High Performance Liquid Chromatography (HPLC), C-arm machine, operation theatre table, dental chair, mortuary freezer, MO2 fractional laser system, and ACT machine.\nAddressing the gathering, Union Minister of State Mr. Tokhan Sahu expressed gratitude to NTPC Sipat and described the initiative as a significant contribution to the healthcare sector in Chhattisgarh. He stated that facilities such as the modern blood bank, advanced laboratories, and cutting-edge equipment would ensure timely and improved treatment for patients. He added that such initiatives not only strengthen public service delivery but also accelerate regional development.\nDr. Bhanu Pratap Singh, Director, Professor and Medical Superintendent of the Government Super Speciality Hospital, informed that the blood centre is fully computerized and operates on an online system, ensuring transparency in diagnostic processes. He said that the facility will provide Single Donor Platelet (SDP) services, which are crucial for patients suffering from cancer, dengue, and other serious illnesses. Additionally, the availability of apheresis machines, advanced microbiology equipment, and Artificial Intelligence-based microscopes will enable ",
+      "summary": "State’s first ultra-modern blood centre inaugurated at Super Speciality Hospital with world-class equipment Chhattisgarh Institute of Medical Sciences receives 26 advanced machines benefiting eight departments Union Minister Tokhan Sahu terms initiative a milestone for strengthening healthcare in the state Union Minister of State for Housing and Urban Affairs and Member of Parliament from Bilaspur, Mr. Tokhan Sahu, on Sunday inaugurated advanced healthcare facilities developed at a cost of approximately ₹7.19 crore under the Corporate Social Responsibility (CSR) initiative of National Thermal Power Corporation (NTPC) Sipat. The initiative has significantly strengthened infrastructure and medical capabilities at the Government Super Speciality Hospital and the Chhattisgarh Institute of Medical Sciences (CIMS), Bilaspur.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "iLEAP": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "ba519b5aed34253e3a59860385616812",
@@ -3952,11 +3992,11 @@
       "section": "other"
     }
   ],
-  "other_count": 168,
+  "other_count": 169,
   "vertical_counts": {
     "EooDB": 7,
     "CoDED": 8,
-    "iLEAP": 5,
+    "iLEAP": 6,
     "ELS": 4,
     "Sustainability": 6,
     "Political_Economy": 13
