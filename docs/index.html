@@ -1074,6 +1074,7 @@ function normalise(v) {
   if (v === 'Jobs_Livelihood') return 'ELS';
   if (v === 'Political_Economy') return 'Pol. Economy';
   if (v === 'EooDB') return 'EoDB';
+  if (v === 'iLEAP') return 'i-LEAP';
   return v;
 }
 function color(v)    { return VCOL[v]     || VCOL[normalise(v)]     || VCOL.other; }
@@ -1123,7 +1124,7 @@ function buildFilters() {
       const pv = a.primary_vertical;
       return pv === vid || (normId === 'ELS' && pv === 'Jobs_Livelihood');
     }).length;
-    const lbl = normId === 'Political_Economy' ? 'Pol. Economy' : normId === 'EooDB' ? 'EoDB' : normId;
+    const lbl = normId === 'Political_Economy' ? 'Pol. Economy' : normId === 'EooDB' ? 'EoDB' : normId === 'iLEAP' ? 'i-LEAP' : normId;
     c.appendChild(makeFilterBtn(vid, lbl, cnt,
       VCOL[vid]||VCOL.other, VCOL_RGB[vid]||VCOL_RGB.other, false));
   });
@@ -1432,7 +1433,7 @@ const WT_STEPS = [
   {
     target: ".filter-btn",
     title: "Filter by Research Vertical",
-    text: "Click any chip to filter the entire release feed: EoDB (business reform), CoDED (data economy), iLEAP (labour), ELS (legal systems), Sustainability, or Political Economy. Click again to clear.",
+    text: "Click any chip to filter the entire release feed: EoDB, CoDED, i-LEAP, ELS, Sustainability, or Political Economy. Click again to clear.",
     position: "bottom"
   },
   {
@@ -1471,7 +1472,7 @@ const WT_STEPS_MOBILE = [
   {
     target: ".filter-btn",
     title: "Filter by Research Vertical",
-    text: "Tap any pill to filter the feed: EoDB, CoDED, iLEAP, ELS, Sustainability, or Political Economy. Active filter turns orange — tap again to clear.",
+    text: "Tap any pill to filter the feed: EoDB, CoDED, i-LEAP, ELS, Sustainability, or Political Economy. Active filter turns orange — tap again to clear.",
     position: "bottom"
   },
   {

@@ -118,8 +118,8 @@ PIB_RSS_FEEDS = {
 # PIF VERTICALS & KEYWORDS
 # ─────────────────────────────────────────────
 VERTICALS = {
-    "EooDB": {
-        "label": "Ease of Doing Business & Manufacturing",
+    "EoDB": {
+        "label": "Ease of Doing Business & Export-Led Manufacturing",
         "color": "#E8620A",
         "emoji": "🏭",
         "keywords": [
@@ -135,7 +135,7 @@ VERTICALS = {
         ]
     },
     "CoDED": {
-        "label": "Data for Economic Decision-making",
+        "label": "Center of Data for Economic Decision-Making",
         "color": "#2471A3",
         "emoji": "📊",
         "keywords": [
@@ -150,7 +150,7 @@ VERTICALS = {
         ]
     },
     "iLEAP": {
-        "label": "i-LEAP: Lead Elimination & Public Health",
+        "label": "Mitigating Lead Poisoning (i-LEAP)",
         "color": "#C0392B",
         "emoji": "🩺",
         "keywords": [
@@ -167,7 +167,7 @@ VERTICALS = {
         ]
     },
     "ELS": {
-        "label": "Jobs, Livelihoods & Women in Work",
+        "label": "Employment & Livelihood Systems (ELS)",
         "color": "#7D3C98",
         "emoji": "💼",
         "keywords": [
