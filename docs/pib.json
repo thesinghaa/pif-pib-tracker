@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-26T09:57:01Z",
-  "last_updated_ist": "26 Apr 2026, 03:27 PM IST",
-  "total": 208,
+  "last_updated": "2026-04-26T10:49:15Z",
+  "last_updated_ist": "26 Apr 2026, 04:19 PM IST",
+  "total": 210,
   "articles": [
     {
       "id": "d036e56c560dafced5ce663452bef645",
@@ -284,6 +284,42 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e6829210e6e20b14d0ade4b67376ba81",
+      "title": "PM to visit Sikkim on 27–28 April",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255675",
+      "date": "2026-04-26",
+      "scraped_date": "2026-04-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "72be7976c4b63124697fcbb1c54f3aff",
+      "title": "PM to visit Uttar Pradesh on 28-29 April",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255674",
+      "date": "2026-04-26",
+      "scraped_date": "2026-04-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
     },
@@ -3916,7 +3952,7 @@
       "section": "other"
     }
   ],
-  "other_count": 166,
+  "other_count": 168,
   "vertical_counts": {
     "EooDB": 7,
     "CoDED": 8,
