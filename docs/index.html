@@ -1597,7 +1597,7 @@ function initWalkthrough() {
     if (s.target) {
       const el = document.querySelector(s.target);
       if (el) {
-        el.scrollIntoView({ behavior:"smooth", block:"center" });
+        el.scrollIntoView({ behavior:"smooth", block: window.innerWidth <= 900 ? "start" : "center" });
         setTimeout(() => {
           const r = el.getBoundingClientRect(), pad = 8;
           updateOverlay(r, pad);
