@@ -1423,37 +1423,37 @@ const WT_STEPS = [
   {
     target: null,
     title: "Welcome to the PIB Tracker",
-    text: "Monitor official government press releases curated across PIF's 6 research verticals. Updated every morning at 9:30 AM IST.",
+    text: "Official Government of India press releases — 3-day rolling window, tagged by ministry and filtered across PIF's 6 research verticals. Updated every morning.",
     position: "center"
   },
   {
-    target: ".filter-ribbon",
+    target: ".filter-btn",
     title: "Filter by Research Vertical",
-    text: "Click any vertical — EoDB, CoDED, iLEAP, ELS, Sustainability, Political Economy — to see only relevant press releases.",
+    text: "Click any chip to filter the entire release feed: EoDB (business reform), CoDED (data economy), iLEAP (labour), ELS (legal systems), Sustainability, or Political Economy. Click again to clear.",
     position: "bottom"
   },
   {
     target: ".stats-bar",
-    title: "Today's Intelligence at a Glance",
-    text: "Total releases tracked, regions covered, and verticals active in the current 3-day rolling window.",
+    title: "3-Day Coverage at a Glance",
+    text: "Total press releases tracked, distinct regions represented, and active verticals — all from the live 3-day rolling window. Numbers refresh every morning at 9:30 AM IST.",
     position: "bottom"
   },
   {
     target: ".search-wrap",
     title: "Search Releases",
-    text: "Full-text search across all press release titles. Results filter instantly as you type.",
+    text: "Full-text search across all press release titles in the current window. Stack a search on top of a vertical filter to pinpoint exactly what you need.",
     position: "bottom"
   },
   {
     target: ".card",
     title: "Press Release Cards",
-    text: "Each card shows ministry, vertical tag, date, and summary. Click the headline to open the full PIB press release.",
+    text: "Each card shows the issuing ministry, PIF vertical tag, release date, and a two-line summary. Click the headline to open the full PIB press release on pib.gov.in.",
     position: "right"
   },
   {
     target: ".back-btn",
     title: "Back to PIF News Intelligence",
-    text: "The orange button in the header jumps you back to the main news aggregator — all India policy news across 15+ sources.",
+    text: "The orange button in the header takes you back to the main aggregator — curated India policy news across 15+ publications, updated daily.",
     position: "bottom"
   }
 ];
@@ -1462,31 +1462,37 @@ const WT_STEPS_MOBILE = [
   {
     target: null,
     title: "Welcome to the PIB Tracker",
-    text: "Monitor official government press releases curated across PIF's 6 research verticals. Tap Next for a quick tour.",
+    text: "Official Government of India press releases — 3-day rolling window, tagged by ministry and filtered across PIF's 6 research verticals. Tap Next for a quick tour.",
     position: "center"
   },
   {
-    target: ".mob-back-btn",
-    title: "Back to News Intelligence",
-    text: "Tap here to return to the main PIF News aggregator — all India policy news across 15+ sources.",
+    target: ".filter-btn",
+    title: "Filter by Research Vertical",
+    text: "Tap any pill to filter the feed: EoDB, CoDED, iLEAP, ELS, Sustainability, or Political Economy. Active filter turns orange — tap again to clear.",
     position: "bottom"
   },
   {
-    target: ".filter-btn",
-    title: "Filter by Vertical",
-    text: "Tap any chip to filter releases by PIF vertical — EoDB, CoDED, iLEAP, ELS, Sustainability, Political Economy.",
+    target: ".stats-bar",
+    title: "3-Day Coverage at a Glance",
+    text: "Total releases tracked, distinct regions, and active verticals — all from the live rolling window. Refreshes every morning at 9:30 AM IST.",
     position: "bottom"
   },
   {
     target: ".search-wrap",
     title: "Search Releases",
-    text: "Full-text search across all press release titles. Results filter instantly as you type.",
+    text: "Full-text search across all press release titles. Combine with a vertical filter to pinpoint exactly what you need.",
     position: "bottom"
   },
   {
     target: ".card",
     title: "Press Release Cards",
-    text: "Each card shows ministry, vertical, date, and summary. Tap the headline to open the full PIB release.",
+    text: "Each card shows issuing ministry, vertical tag, release date, and a two-line summary. Tap the headline to open the full release on pib.gov.in.",
+    position: "bottom"
+  },
+  {
+    target: ".mob-back-btn",
+    title: "Back to PIF News Intelligence",
+    text: "Tap the ← News button to return to the main aggregator — curated India policy news across 15+ publications, updated daily.",
     position: "bottom"
   }
 ];
