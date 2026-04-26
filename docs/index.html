@@ -1446,10 +1446,44 @@ const WT_STEPS = [
   }
 ];
 
+const WT_STEPS_MOBILE = [
+  {
+    target: null,
+    title: "Welcome to the PIB Tracker",
+    text: "Monitor official government press releases curated across PIF's 6 research verticals. Tap Next for a quick tour.",
+    position: "center"
+  },
+  {
+    target: ".back-btn",
+    title: "Back to News Intelligence",
+    text: "Tap here to return to the main PIF News aggregator — all India policy news across 15+ sources.",
+    position: "bottom"
+  },
+  {
+    target: ".filter-ribbon",
+    title: "Filter by Vertical",
+    text: "Scroll and tap any vertical — EoDB, CoDED, iLEAP, ELS, Sustainability, Political Economy — to filter releases.",
+    position: "bottom"
+  },
+  {
+    target: ".search-wrap",
+    title: "Search Releases",
+    text: "Full-text search across all press release titles. Results filter instantly as you type.",
+    position: "bottom"
+  },
+  {
+    target: ".card",
+    title: "Press Release Cards",
+    text: "Each card shows ministry, vertical, date, and summary. Tap the headline to open the full PIB release.",
+    position: "bottom"
+  }
+];
+
 function initWalkthrough() {
   if (localStorage.getItem("pif_walkthrough_done") === "true") return;
 
-  const TOTAL = WT_STEPS.length;
+  const steps = window.innerWidth <= 900 ? WT_STEPS_MOBILE : WT_STEPS;
+  const TOTAL = steps.length;
   let step = 0;
 
   const [pTop, pLeft, pRight, pBottom] = ["wt-top","wt-left","wt-right","wt-bottom"].map(id => {
@@ -1465,7 +1499,7 @@ function initWalkthrough() {
 
   const tooltip = document.createElement("div");
   tooltip.id = "wt-tooltip";
-  const dotsHtml = WT_STEPS.map((_,i) =>
+  const dotsHtml = steps.map((_,i) =>
     `<span class="wt-dot" id="wt-dot-${i}"></span>`).join('');
   tooltip.innerHTML = `
     <div class="wt-accent-bar"></div>
@@ -1482,7 +1516,7 @@ function initWalkthrough() {
   document.body.appendChild(tooltip);
 
   function updateDots(i) {
-    WT_STEPS.forEach((_,j) => {
+    steps.forEach((_,j) => {
       const d = document.getElementById(`wt-dot-${j}`);
       if (!d) return;
       d.className = "wt-dot" + (j < i ? " done" : j === i ? " active" : "");
@@ -1548,7 +1582,7 @@ function initWalkthrough() {
   }
 
   function showStep(i) {
-    const s = WT_STEPS[i], isLast = i === TOTAL - 1;
+    const s = steps[i], isLast = i === TOTAL - 1;
     document.getElementById("wt-label").textContent = `Step ${i+1} of ${TOTAL}`;
     document.getElementById("wt-title").textContent = s.title;
     document.getElementById("wt-text").textContent  = s.text;
