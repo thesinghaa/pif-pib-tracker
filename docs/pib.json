@@ -1,8 +1,32 @@
 {
-  "last_updated": "2026-04-27T02:05:38Z",
-  "last_updated_ist": "27 Apr 2026, 07:35 AM IST",
-  "total": 61,
+  "last_updated": "2026-04-27T05:27:06Z",
+  "last_updated_ist": "27 Apr 2026, 10:57 AM IST",
+  "total": 62,
   "articles": [
+    {
+      "id": "12f188f191dcdfd7ae09e2bb5e058c82",
+      "title": "MoSPI to Convene National Deliberative Summit on “Harmonizing Administrative Data for Governance” on 29-30 April, 2026 in Bhubaneswar, Odisha",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2255778",
+      "date": "2026-04-27",
+      "scraped_date": "2026-04-27",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "CoDED",
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 9,
+      "snippet": "",
+      "full_content": "The Ministry of Statistics and Programme Implementation (MoSPI) is organising one-and-a-half-day National Deliberative Summit on \"Harmonizing Administrative Data for Governance\" with States/UTs and other stakeholders on 29-30 th April 2026 in Bhubaneswar, Odisha. The summit is being orgainsed as a follow up of the 5th National Conference of Chief Secretaries of State/UT held in December 2025. The Summit will help in building consensus on the action plan and timelines for harmonizing and making administrative data ready for wider use in policy making and governance.\nPrelude to the Summit, a National Consultative Workshop with States/UTs/ Central Ministries/ Departments and other stakeholders was conducted on 24 th February in New Delhi where States/ UTs were requested to conduct internal consultative workshops to build common understanding around the theme. These internal consultations were designed to engage line departments as well as field-level functionaries so that discussions were grounded in operational reality. The primary objectives were to map existing data systems and grassroots constraints, assess current readiness for data harmonization and interoperability. Another key objective of the internal workshops was to identify and prioritise cross-departmental datasets and use cases capable of delivering immediate value.\nInternal workshops were organised by States/UTs in the month of March and April 2026. Based on the feedbacks of the States/UT level internal workshops, a note for deliberation in the Summit has been prepared which is available at https://www.mospi.gov.in/uploads/announcements/announcements_1776852884237_2790a90e-d136-4a4e-be41-0aa4b626408a_Final_Note_WS_2104.pdf The note has a focus on data harmonization and ecosystem development.\nThe requirement of repurposing administrative datasets for use in policy decisions and service delivery is the main theme on which the deliberations have been designed for 29-30 April 2026. As governance increasingly demands responsiveness and real-time insights, interoperable administrative datasets across departments emerge as a critical pillar for strengthening evidence-based decision-making at the State /UT level. Recognising the need, several foundational building blocks for a harmonized data architecture are already in place which may be accessed at https://mospi.gov.in/data-governance-guidelines and https://egovstandards.gov.in .. These include enabling policy frameworks for data dissemination and sharing, nationally notified standards for metadata, standard codes and classifications, and unique identifiers, quality assessment frameworks, and multiple discovery and dissemination platforms. Collectively, these provide the legal, technical, and institutional scaffolding required for effective data use. The discussions of the Summit will build on this context of multiple guidelines of data harmonisation to arrive at a way forward to have the necessary institutional ecosystem so that administra",
+      "summary": "The Ministry of Statistics and Programme Implementation (MoSPI) is organising one-and-a-half-day National Deliberative Summit on \"Harmonizing Administrative Data for Governance\" with States/UTs and other stakeholders on 29-30 th April 2026 in Bhubaneswar, Odisha. The summit is being orgainsed as a follow up of the 5th National Conference of Chief Secretaries of State/UT held in December 2025. The Summit will help in building consensus on the action plan and timelines for harmonizing and making administrative data ready for wider use in policy making and governance.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "CoDED": 3,
+        "Political_Economy": 6
+      },
+      "section": "vertical"
+    },
     {
       "id": "d036e56c560dafced5ce663452bef645",
       "title": "International Conference on “Vision 2047 - Prosperous and Great Bharat 2.0” at IIT Roorkee",
@@ -1178,11 +1202,11 @@
   "vertical_counts": {
     "EoDB": 1,
     "EooDB": 3,
-    "CoDED": 6,
+    "CoDED": 7,
     "iLEAP": 1,
     "ELS": 2,
     "Sustainability": 1,
-    "Political_Economy": 5
+    "Political_Economy": 6
   },
   "regions_scraped": 15,
   "verticals": {
