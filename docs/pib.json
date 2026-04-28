@@ -1,8 +1,44 @@
 {
-  "last_updated": "2026-04-28T02:13:54Z",
-  "last_updated_ist": "28 Apr 2026, 07:43 AM IST",
-  "total": 71,
+  "last_updated": "2026-04-28T05:44:52Z",
+  "last_updated_ist": "28 Apr 2026, 11:14 AM IST",
+  "total": 73,
   "articles": [
+    {
+      "id": "d3d808002b21d94d00cfe46570b2b6f3",
+      "title": "Prime Minister shares a Sanskrit Subhashitam highlighting fundamental causes of progress",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2256102",
+      "date": "2026-04-28",
+      "scraped_date": "2026-04-28",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "9bb6a1a0212f80188b7e7b621e28a90b",
+      "title": "Prime Minister interacts with Padma Awardees and distinguished personalities in Gangtok",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2256101",
+      "date": "2026-04-28",
+      "scraped_date": "2026-04-28",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "12f188f191dcdfd7ae09e2bb5e058c82",
       "title": "MoSPI to Convene National Deliberative Summit on “Harmonizing Administrative Data for Governance” on 29-30 April, 2026 in Bhubaneswar, Odisha",
@@ -1388,7 +1424,7 @@
       "section": "other"
     }
   ],
-  "other_count": 50,
+  "other_count": 52,
   "vertical_counts": {
     "EoDB": 9,
     "EooDB": 9,
