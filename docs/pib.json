@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-29T19:23:17Z",
-  "last_updated_ist": "30 Apr 2026, 12:53 AM IST",
-  "total": 121,
+  "last_updated": "2026-04-29T21:04:47Z",
+  "last_updated_ist": "30 Apr 2026, 02:34 AM IST",
+  "total": 122,
   "articles": [
     {
       "id": "b44b2697ef81e5b3849450d27b2b1d22",
@@ -1060,6 +1060,28 @@
       "sentiment": "down",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "a98b4e1cc881e12646d6c3b4a6769b01",
+      "title": "Lok Sabha speaker Sh Om Birla calls for collective action for sustainable conservation; emphasises community participation and indigenous knowledge systems",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2256798",
+      "date": "2026-04-29",
+      "scraped_date": "2026-04-30",
+      "relative_time": "Yesterday",
+      "region": "Dehradun",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Community participation and environmentally sustainable lifestyle essential to combat climate change: Lok Sabha Speaker Role of local communities crucial in biodiversity conservation: Lok Sabha Speaker Uttarakhand has a rich legacy in environmental stewardship: Lok Sabha Speaker Lok Sabha Speaker addresses representatives of van panchayats, three-tier panchayati raj institutions and urban local bodies in Nainital\nLok Sabha Speaker Shri Om Birla today called for a coordinated and proactive approach involving all stakeholders—government institutions, Panchayati Raj Institutions, Urban Local Bodies, Van Panchayats, and citizens—to ensure sustainable development and ecological balance. He emphasized that empowering local communities and respecting traditional knowledge systems are essential for long-term environmental sustainability and national progress.\nAddressing representatives of Van Panchayats, elected members of the three-tier Panchayati Raj system, and Urban Local Bodies at Dr. Raghunandan Singh Tolia Administrative Academy, Nainital, Shri Birla noted that Uttarakhand’s Van Panchayats have emerged as a successful model of community-based forest management. He said that these institutions are contributing not only to conservation and regeneration of forests but also to livelihood generation and the vision of an Atmanirbhar Bharat.\nDuring the programme, he also interacted directly with the representatives and listened to their experiences, challenges, and suggestions.\nDescribing Van Panchayats as “the strongest link in India’s democratic framework,” Shri Birla underlined that grassroots institutions play a vital role in conservation and governance. He remarked that interacting with Van Panchayats is akin to engaging with the most robust pillar of democracy and observed that the experience of these local bodies is no less significant than that of institutions at the national level.\nHighlighting the intrinsic relationship between Jal (water), Jangal (forests), and Jameen (land), Shri Birla said these natural resources form the foundation of ecological balance and human sustenance. He stressed that their conservation is not merely an environmental necessity but a collective responsibility that requires active participation at the grassroots level.\nLauding Uttarakhand’s rich cultural and environmental heritage, Shri Birla said the State represents a living example of harmonious coexistence between humans and nature. He acknowledged the invaluable contributions of local communities in protecting forests and biodiversity, noting that traditions such as reverence for water and trees continue to guide sustainable practices.\nReferring to the historical context, Shri Birla recalled the resistance of local communities during the colonial period against exploitative forest policies. He noted that since the 1930s, sustained efforts have been made through laws and policies to strengthen forest conservation, while emphasizing the need to address implementatio",
+      "summary": "Lok Sabha Speaker Role of local communities crucial in biodiversity conservation: Lok Sabha Speaker Uttarakhand has a rich legacy in environmental stewardship: Lok Sabha Speaker Lok Sabha Speaker addresses representatives of van panchayats, three-tier panchayati raj institutions and urban local bodies in Nainital Lok Sabha Speaker Shri Om Birla today called for a coordinated and proactive approach involving all stakeholders—government institutions, Panchayati Raj Institutions, Urban Local Bodies, Van Panchayats, and citizens—to ensure sustainable development and ecological balance. He emphasized that empowering local communities and respecting traditional knowledge systems are essential for long-term environmental sustainability and national progress. Addressing representatives of Van Panchayats, elected members of the three-tier Panchayati Raj system, and Urban Local Bodies at Dr.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "d3d808002b21d94d00cfe46570b2b6f3",
@@ -2330,7 +2352,7 @@
     "iLEAP": 4,
     "ELS": 4,
     "Sustainability": 4,
-    "Political_Economy": 9
+    "Political_Economy": 10
   },
   "regions_scraped": 16,
   "verticals": {
