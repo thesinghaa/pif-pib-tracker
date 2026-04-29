@@ -1,8 +1,48 @@
 {
-  "last_updated": "2026-04-29T02:16:00Z",
-  "last_updated_ist": "29 Apr 2026, 07:46 AM IST",
-  "total": 107,
+  "last_updated": "2026-04-29T05:58:31Z",
+  "last_updated_ist": "29 Apr 2026, 11:28 AM IST",
+  "total": 109,
   "articles": [
+    {
+      "id": "b44b2697ef81e5b3849450d27b2b1d22",
+      "title": "Prime Minister shares a Sanskrit Subhashitam highlighting the true resolve of a representative",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2256435",
+      "date": "2026-04-29",
+      "scraped_date": "2026-04-29",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "ad30f1357f30ff4ea8a15159d345a193",
+      "title": "ICMR-National Institute of Occupational Health Research, Ahmedabad hosts Stakeholder Consultation on “World Day for Safety and Health at Work (28 April)”",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2256469",
+      "date": "2026-04-29",
+      "scraped_date": "2026-04-29",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "To commemorate the World Day for Safety and Health at Work, observed annually on 28 April, ICMR-NIOHR, Ahmedabad, organized a stakeholder consultation on Occupational Health and Safety, with a special focus on heat stress, worker well-being, and the safety of workers in both organized and unorganized sectors. The consultation brought together experts and representatives from government, academia, industry, occupational health associations, emergency services, civil society organizations, and worker groups.\nThe programme was attended by distinguished dignitaries, including Dr. Bhavesh Modi, Director, ICMR-NIOHR; Dr. Minakshi Parikh, Dean, B.J. Medical College, Ahmedabad; Dr. Dileep Mavalankar, former Director, IIPH-Gandhinagar; Ms. Mirai Chatterjee, Self Employed Women’s Association (SEWA), Ahmedabad; Dr. Jayesh Shah, President, IAOH Ahmedabad , Dr. Chirag C. Shah, Deputy Health Officer, Ahmedabad Municipal Corporation and Dr. Hardik Shah, GVK EMRI 108. Organized under the theme “Healthy Psychosocial Working Environment,” the session emphasized the importance of coordinated and multidisciplinary efforts to promote the health, safety, and overall well-being of India’s workforce in the context of changing occupational, climatic, and psychosocial conditions.\nDuring the deliberations, Director NIOHR, Former Director, IIPH-Gandhinagar and experts from the IAOH underscored that occupational risks have become increasingly heterogeneous across sectors; they specifically highlighted the rising prevalence of psychosocial stress within corporate environments alongside the escalating thermal and heat-related vulnerabilities faced by outdoor, construction, and informal workforces. The Dean of B.J. Medical College emphasized the importance of integrating mental and physical health within occupational health programmes, including periodic counselling, early recognition of stress-related conditions, and timely help-seeking. The Deputy Health Officer, Ahmedabad Municipal Corporation, highlighted the significance of Ahmedabad’s ongoing Heat Action Plan and the need to strengthen preventive strategies for vulnerable occupational groups.\nAs a way forward, the consultation highlighted that strengthening safety culture, promoting workplace-based preventive practices, and developing structured occupational health systems are essential for supporting India’s vision of a Viksit Bharat. The programme concluded with a shared commitment from all stakeholders to develop a strategic activity plan and implement coordinated actions over the coming year to promote safer, healthier, and more resilient workplaces for both formal and informal workforces.\nસોશિયલ મીડિયા પર અમને ફોલો કરો : @PIBAhmedabad /pibahmedabad1964 /pibahmedabad pibahmedabad1964[at]gmail[dot]com",
+      "summary": "To commemorate the World Day for Safety and Health at Work, observed annually on 28 April, ICMR-NIOHR, Ahmedabad, organized a stakeholder consultation on Occupational Health and Safety, with a special focus on heat stress, worker well-being, and the safety of workers in both organized and unorganized sectors. The consultation brought together experts and representatives from government, academia, industry, occupational health associations, emergency services, civil society organizations, and worker groups. The programme was attended by distinguished dignitaries, including Dr.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "iLEAP": 3
+      },
+      "section": "vertical"
+    },
     {
       "id": "d3d808002b21d94d00cfe46570b2b6f3",
       "title": "Prime Minister shares a Sanskrit Subhashitam highlighting fundamental causes of progress",
@@ -2098,12 +2138,12 @@
       "section": "other"
     }
   ],
-  "other_count": 75,
+  "other_count": 76,
   "vertical_counts": {
     "EoDB": 16,
     "EooDB": 16,
     "CoDED": 2,
-    "iLEAP": 1,
+    "iLEAP": 2,
     "ELS": 4,
     "Sustainability": 5,
     "Political_Economy": 8
