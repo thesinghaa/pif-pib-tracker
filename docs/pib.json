@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-30T06:00:33Z",
-  "last_updated_ist": "30 Apr 2026, 11:30 AM IST",
-  "total": 125,
+  "last_updated": "2026-04-30T08:15:36Z",
+  "last_updated_ist": "30 Apr 2026, 01:45 PM IST",
+  "total": 126,
   "articles": [
     {
       "id": "40eeca4956b1518924044b034a0cb760",
@@ -66,6 +66,24 @@
         "Political_Economy": 3
       },
       "section": "vertical"
+    },
+    {
+      "id": "83ce9d05404e7f88dc412873b0701c80",
+      "title": "Op Sindoor demonstrated a shift from old mindset of issuing diplomatic statements on terror attacks, it showcased PM Modi-led Govt’s unwavering commitment through decisive action: Raksha Mantri",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2256883",
+      "date": "2026-04-30",
+      "scraped_date": "2026-04-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "b44b2697ef81e5b3849450d27b2b1d22",
@@ -2408,7 +2426,7 @@
       "section": "other"
     }
   ],
-  "other_count": 95,
+  "other_count": 96,
   "vertical_counts": {
     "EoDB": 11,
     "EooDB": 11,
