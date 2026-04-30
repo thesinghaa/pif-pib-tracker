@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-30T15:12:26Z",
-  "last_updated_ist": "30 Apr 2026, 08:42 PM IST",
-  "total": 176,
+  "last_updated": "2026-04-30T16:34:08Z",
+  "last_updated_ist": "30 Apr 2026, 10:04 PM IST",
+  "total": 179,
   "articles": [
     {
       "id": "40eeca4956b1518924044b034a0cb760",
@@ -1050,6 +1050,60 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "d4073455abd10d1df426eecf9b1d38b7",
+      "title": "MDL Delivers Fourth Project-17A Stealth Frigate ‘Mahendragiri’ to Indian Navy",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257131",
+      "date": "2026-04-30",
+      "scraped_date": "2026-04-30",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5cca8e25866cdd790bed9a8ad59decfa",
+      "title": "Union Minister Shri J.P. Nadda to visit NIPER, Mohali, on May 1",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257133",
+      "date": "2026-04-30",
+      "scraped_date": "2026-04-30",
+      "relative_time": "Today",
+      "region": "Chandigarh",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f78fd6cdc55eb6e03388f33575a310fb",
+      "title": "NTPC Signs MoA with District Administration Ri-Bhoi for Establishment of STEM Laboratories in Meghalaya",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257144",
+      "date": "2026-04-30",
+      "scraped_date": "2026-04-30",
+      "relative_time": "Today",
+      "region": "Shillong",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "vertical_scores": {},
       "section": "other"
     },
@@ -3394,7 +3448,7 @@
       "section": "other"
     }
   ],
-  "other_count": 132,
+  "other_count": 135,
   "vertical_counts": {
     "EoDB": 15,
     "EooDB": 15,
