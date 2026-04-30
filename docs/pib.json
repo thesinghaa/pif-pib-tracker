@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-30T16:34:08Z",
-  "last_updated_ist": "30 Apr 2026, 10:04 PM IST",
-  "total": 179,
+  "last_updated": "2026-04-30T18:16:35Z",
+  "last_updated_ist": "30 Apr 2026, 11:46 PM IST",
+  "total": 182,
   "articles": [
     {
       "id": "40eeca4956b1518924044b034a0cb760",
@@ -1104,6 +1104,66 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "b8c616de6c20d2309b9f0643b7087ecb",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah says, the sacred relics of Lord Buddha being made available for darshan to people of Ladakh on the auspicious occasion of Buddha Purnima tomorrow will be a historic day for Ladakh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257162",
+      "date": "2026-04-30",
+      "scraped_date": "2026-04-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "02095121e53130360f0280f54af6f5e1",
+      "title": "Government notifies revised Special Additional Excise Duty (SAED)/Road and Infrastructure Cess (RIC)] rate on exports of diesel and aviation turbine fuel (ATF) for next fortnight beginning 1st May, 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257160",
+      "date": "2026-04-30",
+      "scraped_date": "2026-04-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "Rate of duty on exports of diesel will be Rs. 23 per litre (SAED - Rs. 23; RIC - Nil); and Rs. 33 per litre (SAED only) on exports of ATF; Nil duty on exports of petrol No change in existing excise duty rates on petrol and diesel for domestic consumption\nExport levies [Special Additional Excise Duty (SAED)/Road and Infrastructure Cess (RIC)] on the exports of petrol, diesel and aviation turbine fuel (ATF) were introduced with effect from 27 th March, 2026 so as to ensure domestic availability of petroleum products by disincentivising exports in the backdrop of the West Asia crises. The rates are being revised on a fortnightly basis and the last such revision was undertaken with effect from 11 th April 2026. The rates are prescribed based on the average international prices of crude oil, petrol, diesel and ATF prevailing during the period since the last review.\nThe rates for the next fortnight beginning 1 st May, 2026 have been notified by the Central Government today. Consequently, the rate of duty on exports of diesel will be Rs. 23 per litre (SAED - Rs. 23; RIC - Nil). Further, the rate of duty on exports of ATF will be Rs. 33 per litre (SAED only). The rate of duty on exports of Petrol continues to remain Nil.\nThere is no change in the existing excise duty rates on petrol and diesel cleared for domestic consumption.\nCLICK HERE TO ACCESS THE NOTIFICATION NO. 19/2026",
+      "summary": "33 per litre (SAED only) on exports of ATF; Nil duty on exports of petrol No change in existing excise duty rates on petrol and diesel for domestic consumption Export levies [Special Additional Excise Duty (SAED)/Road and Infrastructure Cess (RIC)] on the exports of petrol, diesel and aviation turbine fuel (ATF) were introduced with effect from 27 th March, 2026 so as to ensure domestic availability of petroleum products by disincentivising exports in the backdrop of the West Asia crises. The rates are being revised on a fortnightly basis and the last such revision was undertaken with effect from 11 th April 2026. The rates are prescribed based on the average international prices of crude oil, petrol, diesel and ATF prevailing during the period since the last review.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "03287f51b2ea4ef3499b393cbd61572b",
+      "title": "Prime Minister attends the Heads of Missions Conference in New Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257159",
+      "date": "2026-04-30",
+      "scraped_date": "2026-04-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
     },
@@ -3448,10 +3508,10 @@
       "section": "other"
     }
   ],
-  "other_count": 135,
+  "other_count": 137,
   "vertical_counts": {
-    "EoDB": 15,
-    "EooDB": 15,
+    "EoDB": 16,
+    "EooDB": 16,
     "CoDED": 7,
     "iLEAP": 4,
     "ELS": 5,
