@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-01T06:12:25Z",
-  "last_updated_ist": "01 May 2026, 11:42 AM IST",
-  "total": 123,
+  "last_updated": "2026-05-01T08:28:35Z",
+  "last_updated_ist": "01 May 2026, 01:58 PM IST",
+  "total": 131,
   "articles": [
     {
       "id": "a95b16073a5059ca58c64de1c351a9eb",
@@ -92,6 +92,164 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "39e777c4a3a707087cd7d515414a9c48",
+      "title": "Bharat Khera Assumes Charge as Secretary, Ministry of MSME",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257224",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "Shri Bharat Khera has assumed charge as Secretary, Ministry of Micro, Small and Medium Enterprises (MSME), Government of India.\nA 1995-batch Indian Administrative Service (IAS) officer of the Himachal Pradesh cadre, Shri Khera brings with him more than three decades of administrative experience across key assignments in both the Central and State Governments. Prior to assuming his present role, he served as Additional Secretary in the Department of Consumer Affairs.\nDuring his distinguished tenure in the Government of India, Shri Khera served for over five years as Joint Secretary in the Ministry of Defence from November 2014 to February 2020. As Joint Secretary (Air), he handled matters related to the Indian Air Force and was also entrusted with the responsibility of coordinating national ceremonial events, including Republic Day celebrations, for four consecutive years from 2017 to 2020. He additionally oversaw matters related to the Border Roads Organisation and international cooperation in the Ministry of Defence.\nWhile serving in the Department of Defence Production, Shri Khera was a member of the Board of Directors of Mazagon Dock Shipbuilders Limited, Garden Reach Shipbuilders & Engineers Limited, Goa Shipyard Limited and Hindustan Shipyard Limited. He contributed significantly to defence infrastructure projects and the promotion of the Make in India initiative.\nSubsequently, Shri Khera served as Joint Secretary in the Cabinet Secretariat for nearly two years, where he handled the Commerce & Industry and Technology verticals and contributed to strategic policy-making during the Covid-19 pandemic.\nAn Electronics Engineer from BITS Pilani, Shri Khera holds a Master of Public Administration degree from the Maxwell School, Syracuse University, and has completed the Advanced Management Programme in Public Policy from the Indian School of Business (ISB). He was also a Chevening Gurukul Fellow at the London School of Economics and Political Science.\nIn the Government of Himachal Pradesh, Shri Khera has held several important positions, including Home Secretary and Principal Secretary of departments such as Public Works, General Administration, State Taxes & Excise, Information & Public Relations, and Power. He also served as Principal Secretary to the Chief Minister. Earlier in his career, he worked as Managing Director of the State Road Transport Corporation, State Industrial Development Corporation and HPMC.\nThe MSME sector today contributes over 30 per cent to India’s GDP and plays a pivotal role in employment generation, manufacturing and exports. As Secretary, MSME, Shri Bharat Khera is committed to strengthening the sector and advancing its role in realising the vision of Viksit Bharat 2047\nSunil Kumar Tiwari\nE-mail hipessi[at]gmail[dot]com",
+      "summary": "Shri Bharat Khera has assumed charge as Secretary, Ministry of Micro, Small and Medium Enterprises (MSME), Government of India. A 1995-batch Indian Administrative Service (IAS) officer of the Himachal Pradesh cadre, Shri Khera brings with him more than three decades of administrative experience across key assignments in both the Central and State Governments. Prior to assuming his present role, he served as Additional Secretary in the Department of Consumer Affairs.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "505c3d0fb53042eee4710b2e03bc940f",
+      "title": "Shri Ashutosh Gowariker Appointed as Festival Director for 57th International Film Festival of India",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257218",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f03d5b888a0f83388cdd6235b3e86d3a",
+      "title": "Prime Minister condoles the loss of lives due to the capsizing of a boat in Jabalpur, Madhya Pradesh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257216",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "ca70ce440460e1078fecfb7b6e1c17c3",
+      "title": "PRESIDENT OF INDIA VISITS HEADQUARTERS ARMY TRAINING COMMAND",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257210",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "4e324767cc1766afbb578a6818876da0",
+      "title": "Ministry of Parliamentary Affairs Concludes Swachhata Pakhwada–2026 with Active Participation and Tangible Outcomes",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257211",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Ministry of Parliamentary Affairs successfully observed Swachhata Pakhwada–2026 from 16 to 30 April, 2026, with active participation from all Sections/Cells of the Ministry. The fortnight-long initiative focused on cleanliness, sanitation, record management, and workplace improvement in line with the objectives of the Swachh Bharat Mission.\nThe Pakhwada commenced on 16 April, 2026, with the administration of the Swachhata Pledge to all officers and officials by the Secretary, Ministry of Parliamentary Affairs. Swachhata messages were prominently displayed on the Ministry’s website, and awareness was further amplified through social media platforms.\nA dedicated Record Management and Digitization Drive was undertaken on 17 April, 2026, during which 92 files were digitized, 60 files were reviewed, 40 physical files were weeded out in accordance with the Record Retention Schedule, and 38 e-files were closed.\nComprehensive cleanliness and maintenance activities were carried out throughout the Pakhwada. These included cleaning of electrical fixtures and replacement of fused bulbs/tube lights in all rooms by CPWD, as well as a special cleanliness drive covering offices, corridors, and common areas. Whitewashing of rooms was undertaken wherever required.\nAs part of the Green Office Initiative, indoor plants were installed by the CPWD Horticulture Division to enhance the workplace environment.\nOn 29 April, 2026, inspections were conducted by senior officers under the leadership of the Additional Secretary, Ministry of Parliamentary Affairs to assess sanitation and cleanliness standards across Sections/Offices of the Ministry. The inspection also formed the basis for ranking Sections on Swachhata parameters.\nThe Pakhwada concluded on 30 April, 2026, with a ceremony wherein the Secretary, Ministry of Parliamentary Affairs distributed mementos to the top three performing Sections. The Additional Secretary was also present on the occasion. During the ceremony, the Secretary encouraged other Sections to emulate the best-performing Sections and to strive for further improvement by enhancing cleanliness standards and the overall ambience of their workspaces.\nThe Ministry reiterates its commitment to institutionalizing cleanliness, efficient record management, and a sustainable work environment as integral components of governance.",
+      "summary": "The Ministry of Parliamentary Affairs successfully observed Swachhata Pakhwada–2026 from 16 to 30 April, 2026, with active participation from all Sections/Cells of the Ministry. The fortnight-long initiative focused on cleanliness, sanitation, record management, and workplace improvement in line with the objectives of the Swachh Bharat Mission. The Pakhwada commenced on 16 April, 2026, with the administration of the Swachhata Pledge to all officers and officials by the Secretary, Ministry of Parliamentary Affairs.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "3c6831d38f14322f2f69275210b961b3",
+      "title": "Prime Minister shares an article highlighting the transformative impact of Pradhan Mantri Ujjwala Yojana",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257207",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "faa4acf7042de00f69b77282c4dc2203",
+      "title": "Women Powering India’s Changing Workforce",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257197",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e5a517e7ba89788afccbc11dd18877c8",
+      "title": "Meghalaya Launches State Campaign for Self-Enumeration for Census 2027",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257222",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Shillong",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Governor C. H. Vijayashankar Leads by Example; Self-Enumeration Open from May 1 to May 15\nThe State Campaign for Self-Enumeration in Meghalaya under Census of India 2027 was formally launched today at Lok Bhavan, marking a significant step towards India’s first fully digital Census.\nThe Governor of Meghalaya, C. H. Vijayashankar, launched the initiative by personally completing the self-enumeration process on the Self-Enumeration Portal, setting an example for citizens across the state.\nThe Governor highlighted the convenience, transparency, and efficiency of the digital self-enumeration process and urged citizens to actively participate in the initiative. He also extended his best wishes to the Office of the Directorate of Census Operations, Meghalaya, expressing confidence in their ability to conduct the Census exercise with accuracy, professionalism and timeliness.\nThe Self-Enumeration facility will be available to citizens from May 1 to May 15, 2026. The online platform enables individuals to fill in their household details conveniently, which will subsequently be verified by enumerators during house-to-house visits.\nOfficials present on the occasion stated that the initiative is a key component of Census 2027 and reflects the Government’s commitment to leveraging technology for improved governance and evidence-based policymaking. Citizens have been encouraged to complete their self-enumeration within the stipulated timeline to ensure comprehensive and reliable data collection.\nDr. Pooja Pandey, Commissioner & Secretary to the Government of Meghalaya and State Nodal Officer for Census, Shri Biswajit Pegu, Director of Census Operations, Government of India, along with senior officials of the Directorate of Census Operations, Meghalaya, and the State Government were present during the launch.",
+      "summary": "Vijayashankar Leads by Example; Self-Enumeration Open from May 1 to May 15 The State Campaign for Self-Enumeration in Meghalaya under Census of India 2027 was formally launched today at Lok Bhavan, marking a significant step towards India’s first fully digital Census. Vijayashankar, launched the initiative by personally completing the self-enumeration process on the Self-Enumeration Portal, setting an example for citizens across the state. The Governor highlighted the convenience, transparency, and efficiency of the digital self-enumeration process and urged citizens to actively participate in the initiative.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "CoDED": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "40eeca4956b1518924044b034a0cb760",
@@ -2356,15 +2514,15 @@
       "section": "vertical"
     }
   ],
-  "other_count": 95,
+  "other_count": 100,
   "vertical_counts": {
-    "EoDB": 8,
-    "EooDB": 8,
-    "CoDED": 6,
+    "EoDB": 9,
+    "EooDB": 9,
+    "CoDED": 7,
     "iLEAP": 4,
     "ELS": 2,
     "Sustainability": 2,
-    "Political_Economy": 11
+    "Political_Economy": 12
   },
   "regions_scraped": 17,
   "verticals": {
