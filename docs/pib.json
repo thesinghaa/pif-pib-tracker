@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-01T15:58:49Z",
-  "last_updated_ist": "01 May 2026, 09:28 PM IST",
-  "total": 167,
+  "last_updated": "2026-05-01T16:57:26Z",
+  "last_updated_ist": "01 May 2026, 10:27 PM IST",
+  "total": 168,
   "articles": [
     {
       "id": "a95b16073a5059ca58c64de1c351a9eb",
@@ -931,6 +931,24 @@
       "scraped_date": "2026-05-01",
       "relative_time": "Today",
       "region": "Shillong",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "b479bab78583dde0b9f8198c949c2076",
+      "title": "Union Minister Jual Oram Calls for Stronger Last-Mile Delivery; Baba Ramdev Highlights Resilience at MoTA Chintan Shivir 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257402",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -3204,7 +3222,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 126,
+  "other_count": 127,
   "vertical_counts": {
     "EoDB": 10,
     "EooDB": 10,
