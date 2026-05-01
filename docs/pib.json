@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-01T13:10:34Z",
-  "last_updated_ist": "01 May 2026, 06:40 PM IST",
-  "total": 157,
+  "last_updated": "2026-05-01T14:27:21Z",
+  "last_updated_ist": "01 May 2026, 07:57 PM IST",
+  "total": 160,
   "articles": [
     {
       "id": "a95b16073a5059ca58c64de1c351a9eb",
@@ -746,6 +746,64 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "80a5bf91e9451764a7c129a908f5c71e",
+      "title": "Updates on Key Sectors in View of Developments in West Asia",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257341",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "120fbf428a6a9f0ff45752f92adddeab",
+      "title": "Maj Gen Vivek Tyagi, ADG NCC Maharashtra, calls on Shri Nitin Gadkari during Nagpur visit",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257363",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "eb59ecb73275490e5fa21553fa823932",
+      "title": "Maharashtra Launches First Digital Self-Enumeration for Census 2027",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257354",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Leading by Example: Governor, CM, Deputy CM and Union Minister Nitin Gadkari Join Self-Enumeration, Urge Citizens to Participate More than 64,000 people in Maharashtra complete self-enumeration by the end of first day\n: Mumbai, May 1, 2026\nSelf-enumeration for the Census 2027 commenced in Maharashtra today. On the opening day, Maharashtra Governor Shri Jishnu Dev Varma, Chief Minister Shri Devendra Fadnavis, Deputy Chief Minister Shri Eknath Shinde, and Union Minister Shri Nitin Gadkari participated in the exercise. Guardian Ministers from various districts also took part, underscoring the significance of this new digital approach to census data collection. For the first time in the history of the Indian Census, a Self-Enumeration (SE) facility has been introduced, enabling individuals to independently fill, complete, and submit their household census details online.\nExpressing happiness that the census is commencing in the state on Maharashtra Day, Governor Shri Jishnu Dev Varma appealed to the people to actively participate in this important national initiative. “Our Census, Our Development,” he urged. Stating that self-enumeration can be done in just ten minutes, Maharashtra's Principal Census Officer Dr. (Mrs.) Nirupama J. Dange informed that 2.6 lakh staff in the state will conduct the census.\nDescribing the first-ever digital census as “historic,” Chief Minister of Maharashtra Shri Devendra Fadnavis, appealed to citizens to actively participate in the exercise. In his message, he noted that the self-enumeration process, which begins today (1 May 2026), can be completed easily through the portal se.census.gov.in, allowing residents to answer 33 questions conveniently from their homes or any location.\nDeputy Chief Minister Eknath Shinde ceremonially inaugurated Census in Thane district by doing self-enumeration. Shri Shinde also appealed to the citizens to cooperate for this national exercise.\nUnion Road Transport and Highways Minister Shri Nitin Gadkari also did self-enumeration at Nagpur and urged citizens to actively contribute to the national exercise.\nBy 6:30 pm on the first day, more than 64,600 people in Maharashtra had completed their self-enumeration, as recorded on the Census Management & Monitoring System (CMMS) Portal.\nFor the first time in the country, the data collection of Census 2027 is being conducted digitally, where self-enumeration will also be an option, though not mandatory. For the State of Maharashtra, a 15-day window prior to the start of the period of house-listing has been scheduled for self-enumeration, which will run from 1st May, 2026 to 15th May, 2026.\nSupported by advanced digital tools, Census 2027 exercise aims to deliver faster, more accurate, and granular data while ensuring the highest standards of data security and public participation. The Census 2027 is the 16th Indian Census overall and the 8th since Independence.\nFollow us on social media: @PIBMumbai / PIBMumbai /pibmumbai pibmumbai[at]gmail[dot]com /",
+      "summary": "Governor, CM, Deputy CM and Union Minister Nitin Gadkari Join Self-Enumeration, Urge Citizens to Participate More than 64,000 people in Maharashtra complete self-enumeration by the end of first day : Mumbai, May 1, 2026 Self-enumeration for the Census 2027 commenced in Maharashtra today. On the opening day, Maharashtra Governor Shri Jishnu Dev Varma, Chief Minister Shri Devendra Fadnavis, Deputy Chief Minister Shri Eknath Shinde, and Union Minister Shri Nitin Gadkari participated in the exercise. Guardian Ministers from various districts also took part, underscoring the significance of this new digital approach to census data collection.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "CoDED": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "40eeca4956b1518924044b034a0cb760",
@@ -3010,11 +3068,11 @@
       "section": "vertical"
     }
   ],
-  "other_count": 119,
+  "other_count": 121,
   "vertical_counts": {
     "EoDB": 9,
     "EooDB": 9,
-    "CoDED": 10,
+    "CoDED": 11,
     "iLEAP": 4,
     "ELS": 3,
     "Sustainability": 2,
