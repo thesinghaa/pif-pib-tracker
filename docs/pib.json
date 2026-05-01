@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-01T16:57:26Z",
-  "last_updated_ist": "01 May 2026, 10:27 PM IST",
-  "total": 168,
+  "last_updated": "2026-05-01T18:02:49Z",
+  "last_updated_ist": "01 May 2026, 11:32 PM IST",
+  "total": 169,
   "articles": [
     {
       "id": "a95b16073a5059ca58c64de1c351a9eb",
@@ -958,6 +958,28 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "d80e364c15b8c544c78ce8c1b4a6b647",
+      "title": "Surat will become a new model of water conservation and modern infrastructure in the country: Union Minister Shri C.R. Patil",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257424",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Union Minister Shri C.R. Patil attended the inauguration ceremony of the Vibrant Gujarat Regional Conference\nUnion Minister for Jal Shakti, Shri C.R. Patil, applauded Gujarat's development path and Surat's global contribution while speaking at the \"Vibrant Gujarat Regional Conference\" held in Surat. He said that other states are now inspired by Hon. Prime Minister Shri Narendra Modi's \"Vibrant Gujarat\" initiative.\nShri Patil proudly mentioned that the cannons manufactured at the L&T plant in Hazira, Surat, are now protecting the nation’s borders. These indigenously developed cannons can accurately hit targets up to 40 km away. He also noted that the indigenous steel used in the Chenab Bridge is a symbol of India’s self-reliance.\nHighlighting the gap between the country’s water demand and storage capacity, he said that under the Prime Minister’s call of ‘Karmabhoomi to Matrubhoomi,’ more than 7 million water conservation structures have been created through public participation.\nHe further stated that the Surat Municipal Corporation is earning an annual revenue of ₹300–350 crore by selling treated water, which serves as an example for other municipal bodies.\nHe added that the new 29-storey building of the Surat Municipal Corporation will become the tallest municipal building in the world. Being constructed at an estimated cost of ₹1,000 crore, this complex will house all government offices under one roof and will have the highest parking capacity among government buildings in the country.\nHe also mentioned that to meet Surat’s water needs for the next 50 years, the ‘Tapi Barrage’ project has been approved, along with a ₹5,000 crore ‘Deep Sea’ project for the disposal of wastewater into the sea.\nPraising the resilience of the people of Surat, Shri Patil said that whether it is floods or plague, Surat has always risen on its own and moved forward. He expressed confidence that under the ‘Vibrant Gujarat Vision-2047,’ Gujarat will continue to be the engine of India’s progress.",
+      "summary": "Patil attended the inauguration ceremony of the Vibrant Gujarat Regional Conference Union Minister for Jal Shakti, Shri C.R. Patil, applauded Gujarat's development path and Surat's global contribution while speaking at the \"Vibrant Gujarat Regional Conference\" held in Surat. Prime Minister Shri Narendra Modi's \"Vibrant Gujarat\" initiative.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "40eeca4956b1518924044b034a0cb760",
@@ -3229,7 +3251,7 @@
     "CoDED": 12,
     "iLEAP": 4,
     "ELS": 3,
-    "Sustainability": 2,
+    "Sustainability": 3,
     "Political_Economy": 15
   },
   "regions_scraped": 19,
