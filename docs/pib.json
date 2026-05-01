@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-01T14:27:21Z",
-  "last_updated_ist": "01 May 2026, 07:57 PM IST",
-  "total": 160,
+  "last_updated": "2026-05-01T15:58:49Z",
+  "last_updated_ist": "01 May 2026, 09:28 PM IST",
+  "total": 167,
   "articles": [
     {
       "id": "a95b16073a5059ca58c64de1c351a9eb",
@@ -804,6 +804,142 @@
         "CoDED": 3
       },
       "section": "vertical"
+    },
+    {
+      "id": "9ecd6b15580fa571590b2385368fed82",
+      "title": "Global launch of 'Padma Doree'",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257390",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "612eab1d88d191ab846624990cfbffe3",
+      "title": "DPIIT Secretary Shri Amardeep Singh Bhatia reviews NICDC projects in Haryana and Rajasthan; holds industry stakeholder consultations",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257374",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "NICDC projects to drive integrated and sustainable industrial ecosystem development\nShri Amardeep Singh Bhatia, Secretary, Department for Promotion of Industry and Internal Trade (DPIIT), visited key industrial project sites in Haryana and Rajasthan to review progress of projects being developed under the National Industrial Corridor Programme and to interact with industry stakeholders.\nThe visit commenced with a review of the Integrated Multi-Modal Logistics Hub (IMLH), Nangal Chaudhary, in Mahendragarh district, Haryana. Spread over approximately 886 acres, the project is planned to serve freight movement to and from major industrial regions including Manesar, Bawal, Dharuhera, East Rajasthan and Western/Northern Haryana sub-regions of NCR.\nThe project was approved by the Government of India at an estimated cost of ₹1,029 crore and is being developed on PPP mode through the SPV, NICDC Haryana Multi Modal Logistic Hub Project Limited, with equal shareholding between NICDIT and HSIIDC. The Secretary reviewed progress of Phase-I development, external connectivity works, internal rail infrastructure, and proposed logistics facilities such as EXIM zone, warehousing, container stacking, transportation zone and commercial areas.\nShri Rajat Kumar Saini, CEO & MD, National Industrial Corridor Development Corporation, accompanied the Secretary during the visit. In Haryana, Shri Sushil Sarwan, Managing Director, HSIIDC; Smt. Anupama Anjalli, IAS, Deputy Commissioner, Mahendragarh at Narnaul; Shri Aniruddh Yadav, IAS, Sub-Divisional Officer (Civil), Narnaul; and other senior officers were present.\nThe delegation thereafter visited Neemrana, Rajasthan, where an industry interaction was held along with a visit to the NICDC Neemrana Solar Power Project. The project, developed as an Indo-Japan collaboration, demonstrates the integration of solar power with smart micro-grid systems for industrial use. It comprises a 6 MW solar power installation including solar PV generation and has served as an important clean-energy demonstration initiative for industrial areas. DPIIT Secretary inaugurated SCADA facility at 5 MW plant in NICDC Neemrana Solar Power Project.\nShri Suresh Kumar Ola, IAS, Managing Director, RIICO, along with senior officers of RIICO, participated during the review of the Jodhpur-Pali-Marwar Industrial Area and related discussions.\nAt Neemrana, the Secretary also reviewed the progress of the Jodhpur-Pali-Marwar Industrial Area (JPMIA) being developed under the National Industrial Corridor Programme in Rajasthan. The node, spread over approximately 1,578 acres, is strategically located between Jodhpur and Pali, around 30 km from each city. It has strong regional connectivity through NH-62 and SH-64, with additional access to NH-25 and SH-68 and is positioned to serve key industrial and logistics markets in western Rajasthan.\nJPMIA is being implemented through the Rajasthan Industrial Corridor Development Corporation (RIDCO), an SPV with equity parti",
+      "summary": "NICDC projects to drive integrated and sustainable industrial ecosystem development Shri Amardeep Singh Bhatia, Secretary, Department for Promotion of Industry and Internal Trade (DPIIT), visited key industrial project sites in Haryana and Rajasthan to review progress of projects being developed under the National Industrial Corridor Programme and to interact with industry stakeholders. The visit commenced with a review of the Integrated Multi-Modal Logistics Hub (IMLH), Nangal Chaudhary, in Mahendragarh district, Haryana. Spread over approximately 886 acres, the project is planned to serve freight movement to and from major industrial regions including Manesar, Bawal, Dharuhera, East Rajasthan and Western/Northern Haryana sub-regions of NCR.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "f891420662e48969cb065e92157f35fb",
+      "title": "Union Home and Cooperation Minister Shri Amit Shah laid the foundation stone and inaugurated various dairy infrastructure and cooperative initiatives in Ladakh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257372",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "05faf4bab2e60cc94bd9c6105f0b0416",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the exposition of the sacred relics of Lord Buddha in Leh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257370",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "142a04bc9a30d6cabcfa270186835034",
+      "title": "Houselisting Operations under Census 2027 begins in Andhra Pradesh, Arunachal Pradesh, Haryana, Chandigarh, Madhya Pradesh and Chhattisgarh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257366",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Self-Enumeration (SE) facility commences in MCD area of Delhi, Rajasthan, Maharashtra, Meghalaya and Jharkhand Self-Enumeration facility, introduced for the first time in Census received an encouraging response from the public Nearly 82 lakh Households availed Self-Enumeration (SE) facility so far All data collected under the Census Act, 1948, remains strictly confidential and is used solely for statistical purposes and development planning Residents in the notified States/UTs requested to extend full cooperation to Enumerators during the Houselisting Operations and actively participate in important national exercise\nThe field operations for Houselisting and Housing Census (HLO), under Phase 1 of Census 2027, have commenced from today in six States and Union Territories namely Andhra Pradesh, Arunachal Pradesh, Haryana, Chandigarh, Madhya Pradesh and Chhattisgarh, following the completion of the notified 15-day Self-Enumeration period. The exercise will continue till May 30, 2026, during which trained Enumerators will undertake house-to-house visits for data collection.\nThe Self-Enumeration (SE) facility under Census 2027 has also commenced from today in Municipal Corporation of Delhi (MCD) area, Rajasthan, Maharashtra, Meghalaya and Jharkhand. The online facility will remain available till May 15, 2026. The corresponding house-to-house Houselisting Operations in these States/UT will be conducted from May 16 to June 14, 2026.\nFurther, in Bihar, the notified 15-day Self-Enumeration period is concluding today, and house-to-house field operations will commence from May 2, 2026 continuing till May 31, 2026.\nThe Self-Enumeration facility, introduced for the first time in Census 2027, has received an encouraging response from the public. As part of the digital approach adopted for Census 2027, so far around 82 lakh households have successfully availed the facility through the official portal (se.census.gov.in).\nThe facility was introduced prior to field enumeration to enable residents to submit their details online through a secure and user-friendly digital platform. The initiative marks a significant milestone in digitising Census operations and has been widely appreciated for offering flexibility, convenience and ease of participation.\nResidents who have completed Self-Enumeration are requested to keep their generated Self-Enumeration ID (SE ID) safe and share the same with the Enumerator during the field visit to complete the HLO process. Households that have not opted for Self-Enumeration will be covered during the physical house-to-house visit by Enumerators.\nThe Census is being conducted using digital tools for the first time, while retaining the traditional door-to-door enumeration framework to ensure comprehensive and accurate coverage. During field visits, Enumerators will use a dedicated mobile application to collect data digitally, ensuring higher accuracy and faster processing.\nDuring the Houselisting and Housing Census phase, information r",
+      "summary": "Self-Enumeration (SE) facility commences in MCD area of Delhi, Rajasthan, Maharashtra, Meghalaya and Jharkhand Self-Enumeration facility, introduced for the first time in Census received an encouraging response from the public Nearly 82 lakh Households availed Self-Enumeration (SE) facility so far All data collected under the Census Act, 1948, remains strictly confidential and is used solely for statistical purposes and development planning Residents in the notified States/UTs requested to extend full cooperation to Enumerators during the Houselisting Operations and actively participate in important national exercise The field operations for Houselisting and Housing Census (HLO), under Phase 1 of Census 2027, have commenced from today in six States and Union Territories namely Andhra Pradesh, Arunachal Pradesh, Haryana, Chandigarh, Madhya Pradesh and Chhattisgarh, following the completion of the notified 15-day Self-Enumeration period. The exercise will continue till May 30, 2026, during which trained Enumerators will undertake house-to-house visits for data collection. The Self-Enumeration (SE) facility under Census 2027 has also commenced from today in Municipal Corporation of Delhi (MCD) area, Rajasthan, Maharashtra, Meghalaya and Jharkhand.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "CoDED": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "34e4c63e323deb501faddb07fdc4e7dd",
+      "title": "AERB issues Permission for Major Equipment Erection at Units 5&6 of Kudankulam Nuclear Power Project",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257371",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "6a77b084258360d731901265384a0bb8",
+      "title": "Statehood Day of Himachal Pradesh, Gujarat, Maharashtra Celebrated at Lok Bhavan Shillong",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257376",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Shillong",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "40eeca4956b1518924044b034a0cb760",
@@ -3068,11 +3204,11 @@
       "section": "vertical"
     }
   ],
-  "other_count": 121,
+  "other_count": 126,
   "vertical_counts": {
-    "EoDB": 9,
-    "EooDB": 9,
-    "CoDED": 11,
+    "EoDB": 10,
+    "EooDB": 10,
+    "CoDED": 12,
     "iLEAP": 4,
     "ELS": 3,
     "Sustainability": 2,
