@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-01T12:05:32Z",
-  "last_updated_ist": "01 May 2026, 05:35 PM IST",
-  "total": 155,
+  "last_updated": "2026-05-01T13:10:34Z",
+  "last_updated_ist": "01 May 2026, 06:40 PM IST",
+  "total": 157,
   "articles": [
     {
       "id": "a95b16073a5059ca58c64de1c351a9eb",
@@ -701,6 +701,42 @@
       "scraped_date": "2026-05-01",
       "relative_time": "Today",
       "region": "Vijayawada",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "8346be7fb091a1d594d1bd034a3f90b5",
+      "title": "Operation WHITE STRIKE: NCB Busts Major Cocaine Syndicate in Mumbai Region seizing 349 kg High-Grade Cocaine worth an Estimated Value ₹1,745 Crore",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257339",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "adcf2a3a7aa708e53b9e61ea0d8215f9",
+      "title": "Great Nicobar Project: FAQs",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257323",
+      "date": "2026-05-01",
+      "scraped_date": "2026-05-01",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -2974,7 +3010,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 117,
+  "other_count": 119,
   "vertical_counts": {
     "EoDB": 9,
     "EooDB": 9,
