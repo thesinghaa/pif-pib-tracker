@@ -1,8 +1,26 @@
 {
-  "last_updated": "2026-05-01T23:43:22Z",
-  "last_updated_ist": "02 May 2026, 05:13 AM IST",
-  "total": 112,
+  "last_updated": "2026-05-02T02:04:55Z",
+  "last_updated_ist": "02 May 2026, 07:34 AM IST",
+  "total": 113,
   "articles": [
+    {
+      "id": "0a50ee81e5c02551869bd712dd625dc0",
+      "title": "Prime Minister wishes for the speedy recovery of Shri Ajay Rai",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257439",
+      "date": "2026-05-02",
+      "scraped_date": "2026-05-02",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "a95b16073a5059ca58c64de1c351a9eb",
       "title": "First Preparatory Meeting of BRICS Women’s Working Group convened by Ministry of Women and Child Development",
@@ -2164,7 +2182,7 @@
       "section": "other"
     }
   ],
-  "other_count": 81,
+  "other_count": 82,
   "vertical_counts": {
     "EoDB": 8,
     "EooDB": 8,
