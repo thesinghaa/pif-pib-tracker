@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-02T10:06:24Z",
-  "last_updated_ist": "02 May 2026, 03:36 PM IST",
-  "total": 120,
+  "last_updated": "2026-05-02T10:53:37Z",
+  "last_updated_ist": "02 May 2026, 04:23 PM IST",
+  "total": 121,
   "articles": [
     {
       "id": "0a50ee81e5c02551869bd712dd625dc0",
@@ -133,6 +133,24 @@
       "id": "efb867208c7b4ae90e47fb7d201c0d3a",
       "title": "No Reason for Panic Over May Heat Conditions; Simple Precautions Can Effectively Manage Impact: Dr. Jitendra Singh",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257475",
+      "date": "2026-05-02",
+      "scraped_date": "2026-05-02",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "2910810334f88207242fa4c66628a1ec",
+      "title": "ECI deploys Additional Counting Observers and Police Observers in West Bengal",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257485",
       "date": "2026-05-02",
       "scraped_date": "2026-05-02",
       "relative_time": "Today",
@@ -2308,7 +2326,7 @@
       "section": "other"
     }
   ],
-  "other_count": 89,
+  "other_count": 90,
   "vertical_counts": {
     "EoDB": 8,
     "EooDB": 8,
