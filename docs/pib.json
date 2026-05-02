@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-02T02:04:55Z",
-  "last_updated_ist": "02 May 2026, 07:34 AM IST",
-  "total": 113,
+  "last_updated": "2026-05-02T05:05:56Z",
+  "last_updated_ist": "02 May 2026, 10:35 AM IST",
+  "total": 114,
   "articles": [
     {
       "id": "0a50ee81e5c02551869bd712dd625dc0",
@@ -11,6 +11,24 @@
       "scraped_date": "2026-05-02",
       "relative_time": "Today",
       "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "907fade2c79ab8c2427a58d0281a44f7",
+      "title": "ANRF Chief Dr. Shivkumar Kalyanaraman Visits CSIR–NIIST, Emphasises High-Impact, Outcome-Driven Research",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257444",
+      "date": "2026-05-02",
+      "scraped_date": "2026-05-02",
+      "relative_time": "Today",
+      "region": "Thiruvananthapuram",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -2182,7 +2200,7 @@
       "section": "other"
     }
   ],
-  "other_count": 82,
+  "other_count": 83,
   "vertical_counts": {
     "EoDB": 8,
     "EooDB": 8,
