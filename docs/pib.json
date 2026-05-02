@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-02T12:59:22Z",
-  "last_updated_ist": "02 May 2026, 06:29 PM IST",
-  "total": 130,
+  "last_updated": "2026-05-02T14:17:05Z",
+  "last_updated_ist": "02 May 2026, 07:47 PM IST",
+  "total": 132,
   "articles": [
     {
       "id": "0a50ee81e5c02551869bd712dd625dc0",
@@ -324,6 +324,42 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "d2ad406dadaf4e66dbf6a615c3f21bd2",
+      "title": "Prime Minister expresses delight over the inauguration of the ‘Sacred Exposition of the Holy Relics of the Tathagata’ in Leh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257535",
+      "date": "2026-05-02",
+      "scraped_date": "2026-05-02",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "b3d351f71246ad7438968d64ecf5f121",
+      "title": "Officials of Ministry of Information & Broadcasting Call on Governor of Nagaland",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257538",
+      "date": "2026-05-02",
+      "scraped_date": "2026-05-02",
+      "relative_time": "Today",
+      "region": "Kohima",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
     },
@@ -2488,7 +2524,7 @@
       "section": "other"
     }
   ],
-  "other_count": 99,
+  "other_count": 101,
   "vertical_counts": {
     "EoDB": 8,
     "EooDB": 8,
@@ -2498,7 +2534,7 @@
     "Sustainability": 2,
     "Political_Economy": 10
   },
-  "regions_scraped": 16,
+  "regions_scraped": 17,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
