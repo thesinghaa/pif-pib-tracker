@@ -1,8 +1,30 @@
 {
-  "last_updated": "2026-05-03T02:06:35Z",
-  "last_updated_ist": "03 May 2026, 07:36 AM IST",
-  "total": 76,
+  "last_updated": "2026-05-03T05:32:51Z",
+  "last_updated_ist": "03 May 2026, 11:02 AM IST",
+  "total": 77,
   "articles": [
+    {
+      "id": "a8dca5df4158ab157c5bbc37252dce79",
+      "title": "INDIAN ARMY CONTINGENT DEPARTS FOR INDIA-CAMBODIA BILATERAL MILITARY EXERCISE CINBAX-II 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257604",
+      "date": "2026-05-03",
+      "scraped_date": "2026-05-03",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Indian Army contingent departed for the second edition of India - Cambodia Bilateral Military Exercise CINBAX-II 2026. The exercise is scheduled to be conducted at Techo Sen Phnom Thom Mreas Prov Royal Cambodian Air Force Training Centre (Camp Basil), Kampong Speu Province, Kingdom of Cambodia from 04 to 17 May 2026. As part of India's ongoing Defence Cooperation with friendly foreign countries, the bilateral exercise CINBAX-II with Cambodia holds significance in the backdrop of evolving global security challenges. The exercise will be conducted under the framework of Chapter VII of UN Mandate, showcasing Company level joint training for conduct of operations in sub-conventional environment.\nThe Indian Army contingent comprises of 120 personnel, majorly from a Battalion of the Maratha Light Infantry Regiment. The Cambodian contingent comprises of 160 personnel, from Royal Cambodian Army.\nThe Joint exercise will be aligned with the current dynamics of Counter-Terrorism operations encountered by the peace keeping forces during the UN peace keeping operation. This aim will be achieved through various practical and comprehensive discussions as well as tactical exercises, leading to a comprehensive validation exercise. Special skill training, including that of Drone operations, Mortar and sniper tactics will be practiced as part of the exercise. The primary objective is to enhance interoperability, coordination and operational synergy between the contingents of both nations.\nThe exercise will not only showcase the capability of both the nations towards maintaining global peace, but will also facilitate in exchanging best practices and sharing of operational experiences gained during various operations against hostile forces in Semi-Urban environment.\nThe joint military exercise CINBAX-II 2026 reflects the growing Defence Co-operation between India - Cambodia and will further enhance the bilateral relations between the two nations, while contributing towards mutual understanding in handling regional security challenges.",
+      "summary": "The Indian Army contingent departed for the second edition of India - Cambodia Bilateral Military Exercise CINBAX-II 2026. The exercise is scheduled to be conducted at Techo Sen Phnom Thom Mreas Prov Royal Cambodian Air Force Training Centre (Camp Basil), Kampong Speu Province, Kingdom of Cambodia from 04 to 17 May 2026. As part of India's ongoing Defence Cooperation with friendly foreign countries, the bilateral exercise CINBAX-II with Cambodia holds significance in the backdrop of evolving global security challenges.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
     {
       "id": "0a50ee81e5c02551869bd712dd625dc0",
       "title": "Prime Minister wishes for the speedy recovery of Shri Ajay Rai",
@@ -1444,7 +1466,7 @@
     "iLEAP": 0,
     "ELS": 1,
     "Sustainability": 1,
-    "Political_Economy": 5
+    "Political_Economy": 6
   },
   "regions_scraped": 12,
   "verticals": {
