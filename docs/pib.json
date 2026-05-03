@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-03T12:57:26Z",
-  "last_updated_ist": "03 May 2026, 06:27 PM IST",
-  "total": 89,
+  "last_updated": "2026-05-03T14:21:14Z",
+  "last_updated_ist": "03 May 2026, 07:51 PM IST",
+  "total": 92,
   "articles": [
     {
       "id": "a8dca5df4158ab157c5bbc37252dce79",
@@ -251,6 +251,64 @@
       "scraped_date": "2026-05-03",
       "relative_time": "Today",
       "region": "Mizoram",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "0db408c9820d0ef69cdd118fb7a8f0e2",
+      "title": "Prime Minister condoles the loss of lives due to a fire mishap in Delhi’s Shahdara district",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257685",
+      "date": "2026-05-03",
+      "scraped_date": "2026-05-03",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "3d300fd7430aba70b741ea79496199c6",
+      "title": "Focus on Ramie and Linen, Handloom Clusters and Rural Livelihood: Shri Giriraj Singh Reviews Textile Sector in Mizoram",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257675",
+      "date": "2026-05-03",
+      "scraped_date": "2026-05-03",
+      "relative_time": "Today",
+      "region": "Mizoram",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Hon’ble Union Minister of Textiles Shri Giriraj Singh began his official visit to Mizoram with a high-level meeting with Shri Lalduhoma, Hon’ble Chief Minister of Mizoram. During the meeting the discussions focused on strengthening sericulture, silk and textile development, rural livelihoods and to leveraging new-age fibers, strengthening the handloom industry, and driving the socio-economic empowerment of weavers and artisans in the state of Mizoram.\nDuring his official visit to Mizoram, Hon’ble Union Minister of Textiles Shri Giriraj Singh called on the Hon’ble Governor of Mizoram, General (Dr.) Vijay Kumar Singh (Retd.). On the occasion, the Hon’ble Governor was honoured with a traditional “5-in-1” silk shawl showcasing the richness of Indian silk heritage. Shri P. Sivakumar, IFS, Member Secretary, Central Silk Board, accompanied the Hon’ble Minister during the meeting.\nShri Giriraj Singh also held a review meeting at the Lok Bhavan Conference Hall with the Shri Lalthansanga, Hon’ble Minister for Sericulture; Smt. Florence Zotluangpuii, Secretary, Sericulture Department; Shri Udit Prakash Rai, Commissioner & Secretary, Cooperation and Disaster Management Department; Smt. Vrunda Manohar Desai, Textiles Commissioner, Ministry of Textiles and Shri P. Sivakumar, Member Secretary, Central Silk Board, along with scientists & other officials.\nIn his address, the Union Minister emphasised that Mizoram holds significant potential in sericulture and fibre-based industries, and stated that the introduction of small, community-level machinery is crucial for efficient fibre extraction and cocoon processing. He underlined that decentralised infrastructure would not only enhance production but also empower rural communities by creating sustainable livelihood opportunities.\nShri Singh further highlighted the importance of adopting a buy-back model for fibre extraction projects, noting that assured market linkages would instill confidence among local producers and encourage wider participation. He remarked that such models can play a transformative role in scaling up fibre production in the state.\nFocusing on diversification, the Union Minister spoke about the need to promote new-age fibres such as Ramie and linen, and suggested that the Agriculture Department should initiate pilot demonstration projects to assess their viability and expand cultivation in Mizoram.\nAddressing the handloom sector, Shri Singh stated that targeted interventions at the household level can significantly enhance income generation. He suggested that select families be supported with multiple looms to build successful micro-models, which could then serve as inspiration for broader community adoption. He stressed that showcasing such success stories would help in motivating others and strengthening the sector organically.\nOn market development, the Union Minister called for the organisation of buyer-seller meets involving designers and stakeholders from across the Northeastern region. H",
+      "summary": "Hon’ble Union Minister of Textiles Shri Giriraj Singh began his official visit to Mizoram with a high-level meeting with Shri Lalduhoma, Hon’ble Chief Minister of Mizoram. During the meeting the discussions focused on strengthening sericulture, silk and textile development, rural livelihoods and to leveraging new-age fibers, strengthening the handloom industry, and driving the socio-economic empowerment of weavers and artisans in the state of Mizoram. During his official visit to Mizoram, Hon’ble Union Minister of Textiles Shri Giriraj Singh called on the Hon’ble Governor of Mizoram, General (Dr.) Vijay Kumar Singh (Retd.).",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "ELS": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "ab5a95e58e01cc711fe4a7e1249396ce",
+      "title": "Dr Jitendra Singh holds a public durbar in Village Barmeen of Chenani Assembly constituency of Udhampur, JK",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257683",
+      "date": "2026-05-03",
+      "scraped_date": "2026-05-03",
+      "relative_time": "Today",
+      "region": "Jammu & Kashmir",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -1694,17 +1752,17 @@
       "section": "vertical"
     }
   ],
-  "other_count": 68,
+  "other_count": 70,
   "vertical_counts": {
     "EoDB": 2,
     "EooDB": 2,
     "CoDED": 6,
     "iLEAP": 2,
-    "ELS": 1,
+    "ELS": 2,
     "Sustainability": 2,
     "Political_Economy": 8
   },
-  "regions_scraped": 13,
+  "regions_scraped": 14,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
