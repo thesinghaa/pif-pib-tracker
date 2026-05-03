@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-03T10:55:44Z",
-  "last_updated_ist": "03 May 2026, 04:25 PM IST",
-  "total": 84,
+  "last_updated": "2026-05-03T11:47:53Z",
+  "last_updated_ist": "03 May 2026, 05:17 PM IST",
+  "total": 86,
   "articles": [
     {
       "id": "a8dca5df4158ab157c5bbc37252dce79",
@@ -168,6 +168,42 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "825fadbdfb66e62e6a2719b12c0e3f58",
+      "title": "Clarification on some news reports on the “new look” of Aadhaar",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257634",
+      "date": "2026-05-03",
+      "scraped_date": "2026-05-03",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "8afd69dd2c5fbc296f0d5cd4490a5729",
+      "title": "Updates on Key Sectors in View of Developments in West Asia",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257633",
+      "date": "2026-05-03",
+      "scraped_date": "2026-05-03",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
     },
@@ -1604,7 +1640,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 63,
+  "other_count": 65,
   "vertical_counts": {
     "EoDB": 2,
     "EooDB": 2,
