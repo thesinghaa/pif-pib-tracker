@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-03T09:27:12Z",
-  "last_updated_ist": "03 May 2026, 02:57 PM IST",
-  "total": 82,
+  "last_updated": "2026-05-03T10:55:44Z",
+  "last_updated_ist": "03 May 2026, 04:25 PM IST",
+  "total": 84,
   "articles": [
     {
       "id": "a8dca5df4158ab157c5bbc37252dce79",
@@ -130,6 +130,46 @@
         "Sustainability": 3
       },
       "section": "vertical"
+    },
+    {
+      "id": "b56a264412456f958e3606666f26ac54",
+      "title": "Union Ministry of Health & Family Welfare to Observe Pan-India ‘Fire Safety Week’ from 4th–10th May 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257627",
+      "date": "2026-05-03",
+      "scraped_date": "2026-05-03",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Union Health Secretary Smt. Punya Salila Srivastava to Inaugurate Fire Safety Week Tomorrow and Lead Pledge on Fire Safety in Health Facilities at Kartavya Bhawan, New Delhi\nUnion Ministry of Health & Family Welfare, in collaboration with all States/UTs and relevant Central Ministries/Departments, will observe a pan-India ‘Fire Safety Week’ from 4th to 10th May 2026 to raise awareness on the importance of prevention and mitigation of fire hazards across healthcare facilities in the country.\nThe observance will be formally inaugurated tomorrow at Kartavya Bhawan-1, New Delhi, under the Chairpersonship of the Union Health Secretary, Smt. Punya Salila Srivastava. The inaugural function will mark the commencement of a series of awareness and preparedness activities to be conducted nationwide during the week.\nAs part of the inaugural event, a pledge on ‘Fire Safety in Health Facilities’ will be administered by the Secretary (Health), reaffirming the commitment of all stakeholders towards ensuring strict adherence to fire safety norms, strengthening preparedness, and fostering a culture of safety within healthcare institutions.\nDuring the week-long observance, States and Union Territories shall undertake a range of activities, including awareness campaigns, mock drills, capacity-building initiatives, and dissemination of fire safety protocols, aimed at sensitizing healthcare personnel and administrators on fire prevention, emergency response, and evacuation procedures.\nThe observance underscores the Ministry’s continued commitment to safeguarding patients, healthcare workers, and critical infrastructure by promoting robust fire safety mechanisms and fostering a culture of safety and preparedness across all levels of the healthcare delivery system.\nHFW- Inauguration of Fire safety week and Pledge ceremony/3 rd May 2026/3",
+      "summary": "Punya Salila Srivastava to Inaugurate Fire Safety Week Tomorrow and Lead Pledge on Fire Safety in Health Facilities at Kartavya Bhawan, New Delhi Union Ministry of Health & Family Welfare, in collaboration with all States/UTs and relevant Central Ministries/Departments, will observe a pan-India ‘Fire Safety Week’ from 4th to 10th May 2026 to raise awareness on the importance of prevention and mitigation of fire hazards across healthcare facilities in the country. The observance will be formally inaugurated tomorrow at Kartavya Bhawan-1, New Delhi, under the Chairpersonship of the Union Health Secretary, Smt. The inaugural function will mark the commencement of a series of awareness and preparedness activities to be conducted nationwide during the week.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "iLEAP": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "e242c4cc0eff6308527217e60af2411a",
+      "title": "Prime Minister congratulates GalaxEye on the successful launch of Mission Drishti",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257625",
+      "date": "2026-05-03",
+      "scraped_date": "2026-05-03",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "0a50ee81e5c02551869bd712dd625dc0",
@@ -1564,12 +1604,12 @@
       "section": "vertical"
     }
   ],
-  "other_count": 62,
+  "other_count": 63,
   "vertical_counts": {
     "EoDB": 2,
     "EooDB": 2,
     "CoDED": 6,
-    "iLEAP": 1,
+    "iLEAP": 2,
     "ELS": 1,
     "Sustainability": 2,
     "Political_Economy": 8
