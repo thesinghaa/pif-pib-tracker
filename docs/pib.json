@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-03T14:21:14Z",
-  "last_updated_ist": "03 May 2026, 07:51 PM IST",
-  "total": 92,
+  "last_updated": "2026-05-03T15:50:09Z",
+  "last_updated_ist": "03 May 2026, 09:20 PM IST",
+  "total": 95,
   "articles": [
     {
       "id": "a8dca5df4158ab157c5bbc37252dce79",
@@ -318,6 +318,64 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "310ab7b121bc990e5583fa276b12ee57",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah congratulates young scientists and engineers at GalaxEye for building Mission Drishti",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257695",
+      "date": "2026-05-03",
+      "scraped_date": "2026-05-03",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f43000dd4e6f5f96a70128d818b0e478",
+      "title": "Vice-Chancellor Issues Appointment Letters Following Strong Placement Drive at Pondicherry University",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257690",
+      "date": "2026-05-03",
+      "scraped_date": "2026-05-03",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e8f4b5e24e05eeb760256acfe41c9730",
+      "title": "Indore to Emerge as Global Hub of Agricultural Diplomacy as BRICS Agriculture Ministers Meet in June",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257701",
+      "date": "2026-05-03",
+      "scraped_date": "2026-05-03",
+      "relative_time": "Today",
+      "region": "Bhopal",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "BRICS Agriculture Working Group to Meet in Indore from June 9–11; Agriculture Ministers’ Summit Scheduled for June 12–13 Union Minister Shivraj Singh Chouhan Reviews BRICS Summit Preparations with Chief Minister Dr. Mohan Yadav “The World Will Witness India’s Agricultural Strength, Innovation and Leadership”: Shivraj Singh Chouhan Food Security, Climate-Smart Farming, Agricultural Trade and Farmer Welfare to Dominate BRICS Deliberations: Shivraj Singh Chouhan “BRICS Nations Hold 42% of Global Agricultural Land, 68% of Small Farmers and 45% of Grain Production”: Shivraj Singh Chouhan BRICS Summit to Showcase Malwa’s Hospitality and Madhya Pradesh’s Agricultural Excellence on the Global Stage\nIndore/Bhopal/New Delhi Union Minister for Agriculture & Farmers Welfare and Rural Development Shri Shivraj Singh Chouhan today reviewed preparations for the upcoming BRICS Agriculture Ministers’ Conference in Indore during a high-level meeting with Madhya Pradesh CM Dr. Mohan Yadav. Following the review meeting, Shri Chouhan addressed a press conference and described the forthcoming summit as a historic opportunity not only for Madhya Pradesh and India, but for the global agricultural community as a whole.\nHe stated that under the leadership of PM Shri Narendra Modi, India’s presidency of BRICS and the hosting of this major agricultural summit would provide new direction to global discussions on food security, agricultural trade, climate change, farmer welfare, and sustainable agriculture. He emphasized that the conference would also establish Indore as an important global hub for international agricultural dialogue and cooperation.\nAddressing the media, Shri Chouhan said it was a matter of immense pride for the entire country that the BRICS Summit 2026 is being hosted in India, and that Indore in Madhya Pradesh has been chosen as the venue for the important gathering of Agriculture Ministers. He informed that the BRICS Agriculture Working Group Meeting will be held in Indore from June 9 to 11, 2026, while the Agriculture Ministers of member countries will convene on June 12 and 13, 2026, to deliberate on critical issues related to agriculture and food security. In the presence of CM Dr. Mohan Yadav, a comprehensive review of all preparations was undertaken with senior officials, and detailed instructions were issued to ensure that every arrangement meets international standards in terms of quality, efficiency, organization, and timely execution. He clarified that the government’s objective is not merely to host a formal diplomatic event, but to organize a landmark conference that showcases India’s agricultural strength, innovation, traditions, and global leadership in the sector. Shri Chouhan highlighted the immense significance of BRICS nations in the global agricultural landscape, noting that these countries collectively account for nearly 42 percent of the world’s agricultural land, 68 percent of small farmers, and around 45 percent of global grain produc",
+      "summary": "BRICS Agriculture Working Group to Meet in Indore from June 9–11; Agriculture Ministers’ Summit Scheduled for June 12–13 Union Minister Shivraj Singh Chouhan Reviews BRICS Summit Preparations with Chief Minister Dr. Mohan Yadav “The World Will Witness India’s Agricultural Strength, Innovation and Leadership”: Shivraj Singh Chouhan Food Security, Climate-Smart Farming, Agricultural Trade and Farmer Welfare to Dominate BRICS Deliberations: Shivraj Singh Chouhan “BRICS Nations Hold 42% of Global Agricultural Land, 68% of Small Farmers and 45% of Grain Production”: Shivraj Singh Chouhan BRICS Summit to Showcase Malwa’s Hospitality and Madhya Pradesh’s Agricultural Excellence on the Global Stage Indore/Bhopal/New Delhi Union Minister for Agriculture & Farmers Welfare and Rural Development Shri Shivraj Singh Chouhan today reviewed preparations for the upcoming BRICS Agriculture Ministers’ Conference in Indore during a high-level meeting with Madhya Pradesh CM Dr. Following the review meeting, Shri Chouhan addressed a press conference and described the forthcoming summit as a historic opportunity not only for Madhya Pradesh and India, but for the global agricultural community as a whole.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "0a50ee81e5c02551869bd712dd625dc0",
@@ -1752,7 +1810,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 70,
+  "other_count": 72,
   "vertical_counts": {
     "EoDB": 2,
     "EooDB": 2,
@@ -1760,9 +1818,9 @@
     "iLEAP": 2,
     "ELS": 2,
     "Sustainability": 2,
-    "Political_Economy": 8
+    "Political_Economy": 9
   },
-  "regions_scraped": 14,
+  "regions_scraped": 15,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
