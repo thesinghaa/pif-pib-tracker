@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-03T05:32:51Z",
-  "last_updated_ist": "03 May 2026, 11:02 AM IST",
-  "total": 77,
+  "last_updated": "2026-05-03T08:02:29Z",
+  "last_updated_ist": "03 May 2026, 01:32 PM IST",
+  "total": 79,
   "articles": [
     {
       "id": "a8dca5df4158ab157c5bbc37252dce79",
@@ -22,6 +22,46 @@
       "sentiment": "neutral",
       "vertical_scores": {
         "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "d794776645c8b6ac8245ee85a08534ad",
+      "title": "2- Day National Workshop on Preparation of Panchayat Development Plans (2026–27) to be held in New Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257612",
+      "date": "2026-05-03",
+      "scraped_date": "2026-05-03",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "9be26b16f1fc00b8043f829b5a273fb1",
+      "title": "Advanced Neurosurgical OT Facility Inaugurated at AIIMS Guwahati",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257610",
+      "date": "2026-05-03",
+      "scraped_date": "2026-05-03",
+      "relative_time": "Today",
+      "region": "Guwahati",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "AIIMS Guwahati has taken a significant step forward in strengthening super-specialty healthcare services in the North-East region with the formal unveiling of its Advanced Neurosurgical Operation Theatre (OT) Facility.\nThe state-of-the-art facility was formally inaugurated by Prof. (Dr.) Ashok Puranik, Executive Director, AIIMS Guwahati, in the presence of dignitaries including Shri Surendra Kumar Majhi, Senior General Manager & Head of Project, Power Grid Corporation of India Limited (PGCIL).\nThe advanced neurosurgical OT has been established with financial support of ₹6.5 crores provided by Power Grid Corporation of India Limited under its Corporate Social Responsibility (CSR) initiative. The funding enabled procurement of cutting-edge neurosurgical equipment aimed at enhancing precision, safety, and outcomes in complex brain and spine surgeries.\nSpeaking on the occasion, Prof. Puranik highlighted the importance of such collaborations in advancing healthcare infrastructure in emerging institutions and emphasized the institute’s commitment to delivering high-quality, accessible care to the people of the North-East.\nShri Surendra Kumar Majhi reiterated PGCIL’s commitment to contributing towards societal development through impactful CSR initiatives, particularly in the healthcare sector.\nThe newly established facility is expected to significantly improve the management of complex neurosurgical conditions and cater to the growing patient load at AIIMS Guwahati, which serves as a major referral center for the entire North-East region.",
+      "summary": "AIIMS Guwahati has taken a significant step forward in strengthening super-specialty healthcare services in the North-East region with the formal unveiling of its Advanced Neurosurgical Operation Theatre (OT) Facility. The state-of-the-art facility was formally inaugurated by Prof. (Dr.) Ashok Puranik, Executive Director, AIIMS Guwahati, in the presence of dignitaries including Shri Surendra Kumar Majhi, Senior General Manager & Head of Project, Power Grid Corporation of India Limited (PGCIL).",
+      "sentiment": "up",
+      "vertical_scores": {
+        "iLEAP": 3
       },
       "section": "vertical"
     },
@@ -1458,17 +1498,17 @@
       "section": "vertical"
     }
   ],
-  "other_count": 61,
+  "other_count": 62,
   "vertical_counts": {
     "EoDB": 2,
     "EooDB": 2,
     "CoDED": 6,
-    "iLEAP": 0,
+    "iLEAP": 1,
     "ELS": 1,
     "Sustainability": 1,
     "Political_Economy": 6
   },
-  "regions_scraped": 12,
+  "regions_scraped": 13,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
