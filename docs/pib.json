@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-04T15:15:39Z",
-  "last_updated_ist": "04 May 2026, 08:45 PM IST",
-  "total": 64,
+  "last_updated": "2026-05-04T17:33:22Z",
+  "last_updated_ist": "04 May 2026, 11:03 PM IST",
+  "total": 66,
   "articles": [
     {
       "id": "ccdaca22b3d6f3cd95bc0bdf2e10c524",
@@ -356,6 +356,48 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "223c45efb67347849a26bc87b013ce19",
+      "title": "Secretary, DFS chairs a Review meeting of Vision Strategy Documents of Public Sector Insurance/Reinsurance Companies",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257922",
+      "date": "2026-05-04",
+      "scraped_date": "2026-05-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "851095b683ca0c5aa2ac3cc217bf13a5",
+      "title": "Public Servants Shine as GST & Customs Amateur Team Defeat Mumbai Heroes in “Fit India Hit India” Friendly Cricket Match",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257921",
+      "date": "2026-05-04",
+      "scraped_date": "2026-05-04",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "Mumbai, 4 May 2026\nThe Sports Authority of India and the Fit India Movement successfully hosted the “Fit India Hit India” Friendly Cricket Match at the Air India Ground, Vakola, on Sunday, bringing together public servants, film personalities, fitness enthusiasts, and sports lovers for an evening dedicated to promoting fitness, active living, and community participation.\nThe friendly encounter featured the GST & Customs Amateur Team taking on the Mumbai Heroes team in front of an enthusiastic crowd in Mumbai. Organised under the Government of India’s Fit India Movement initiative, the match aimed to encourage physical and mental well-being through sports and active lifestyles.\nThe event was graced by Ms. Prachi Saroop, Principal Chief Commissioner (CGST), Mumbai, as the Chief Guest, while Mr. BB Gupta, Chief Commissioner of Customs, Mumbai Zone, attended as the Guest of Honour.\nPankaj Singh, Commissioner CGST, said, “Initiatives like ‘Fit India Hit India’ play a crucial role in encouraging a culture of fitness and well-being among citizens. It is inspiring to see public servants and artists come together on one platform to promote healthy living through sport.”\nThe Mumbai Heroes squad featured several prominent personalities including Suniel Shetty, Sohail Khan, Sharad Kelkar, Shabir Ahluwalia and Freddy Daruwala, along with actors, singers, and fitness influencers who came together to spread awareness about the importance of physical and mental health.\nOther prominent personalities present included Sudesh Bhosale, Gulshan Grover, Karsan Ghavri (former Indian cricketer and former MLA), Vishwas Nagre Patil (IPS officer), Krishna Hegde (former MLA), and Nadim Memon (MCA Curator).\nWinning the toss and electing to bat first, GST & Customs Amateur Team posted a competitive total of 170/5 in their allotted 20 overs. Akhilesh Kumar anchored the innings with a brilliant 57 off 55 balls, including seven boundaries and one six. He was well supported by Parag Khanapurkar, who played an explosive knock of 45 runs off just 21 balls, smashing five fours and two sixes. Amit Dhaiya contributed 22 runs, while Aishwarya Surve remained unbeaten on 21.\nFor Mumbai Heroes, Freddy Daruwala emerged as the standout bowler with figures of 2/21 in his four overs, while Sharad Kelkar and Rohit Kharb chipped in with a wicket each.\nChasing 171, Mumbai Heroes suffered an early setback with Sohail Khan dismissed for 1 in the opening over. Captain Suniel Shetty also departed early after scoring 6 runs with one boundary. Navdeep Tomar attempted to steady the innings with a composed 42 off 41 deliveries, but regular wickets hampered the chase.\nSharad Kelkar scored 12 runs, while Shabir Ahluwalia added 17. Raja Bherwani and Rohit Kharb chipped in with 15 runs each, but Mumbai Heroes eventually finished at 131/9 in their 20 overs, handing GST & Customs Amateur Team a convincing 39-run victory.\nAjit Dan starred with the ball for GST & Customs Amateur Team, claiming three wickets and ",
+      "summary": "Mumbai, 4 May 2026 The Sports Authority of India and the Fit India Movement successfully hosted the “Fit India Hit India” Friendly Cricket Match at the Air India Ground, Vakola, on Sunday, bringing together public servants, film personalities, fitness enthusiasts, and sports lovers for an evening dedicated to promoting fitness, active living, and community participation. The friendly encounter featured the GST & Customs Amateur Team taking on the Mumbai Heroes team in front of an enthusiastic crowd in Mumbai. Organised under the Government of India’s Fit India Movement initiative, the match aimed to encourage physical and mental well-being through sports and active lifestyles.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "a8dca5df4158ab157c5bbc37252dce79",
@@ -1210,10 +1252,10 @@
       "section": "vertical"
     }
   ],
-  "other_count": 51,
+  "other_count": 52,
   "vertical_counts": {
-    "EoDB": 1,
-    "EooDB": 1,
+    "EoDB": 2,
+    "EooDB": 2,
     "CoDED": 0,
     "iLEAP": 3,
     "ELS": 3,
