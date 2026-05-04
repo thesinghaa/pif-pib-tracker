@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-04T05:41:49Z",
-  "last_updated_ist": "04 May 2026, 11:11 AM IST",
-  "total": 47,
+  "last_updated": "2026-05-04T08:31:34Z",
+  "last_updated_ist": "04 May 2026, 02:01 PM IST",
+  "total": 51,
   "articles": [
     {
       "id": "ccdaca22b3d6f3cd95bc0bdf2e10c524",
@@ -36,6 +36,86 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "23e0ee1d9a0e3c5668935ec292ba8119",
+      "title": "Union Ministry of Health and Family Welfare Launches Nationwide Fire Safety Week (4–10 May 2026)",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257800",
+      "date": "2026-05-04",
+      "scraped_date": "2026-05-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Union Health Secretary Smt. Punya Salila Srivastava Leads Nationwide Pledge on “Fire Safety in Health Facilities” Ministry of Health Unveils National Guidelines on Fire and Life Safety in Healthcare Facilities (2026), Strengthening Comprehensive Safety Frameworks Across Healthcare Institutions New Guidelines Introduce Enhanced Protocols for High-Risk Areas Including ICUs, NICUs, PICUs, and Operation Theatres Fire Safety Week to Feature Nationwide Audits, Mock Drills, Evacuation Exercises, Demonstrations, and Webinars to Strengthen Preparedness and Awareness\nReinforcing its commitment to ensuring safe healthcare environments, the Union Ministry of Health and Family Welfare, in partnership with all States and Union Territories and in coordination with relevant Central Ministries and Departments, commenced the nationwide observance of Fire Safety Week from 4th May to 10th May 2026.\nThe observance was inaugurated with a nationwide pledge ceremony on the theme “Fire Safety in Health Facilities,” led by the Union Health Secretary, Smt. Punya Salila Srivastava, reaffirming the collective commitment of healthcare institutions and stakeholders towards strengthening fire prevention, preparedness, and response systems.\nAddressing the occasion, the Union Health Secretary, Smt. Punya Salila Srivastava highlighted that the theme of this year’s Fire Safety Week —“Safe Schools, Safe Hospitals, and a Fire-Safety Aware Society: Together for Fire Prevention”, underscores that ensuring safety within our institutions is a shared and collective responsibility. She noted that Fire Safety Week provides an important opportunity to reassess existing infrastructure, evaluate whether facilities have been adequately audited, and identify gaps and discrepancies that need to be addressed. Emphasizing capacity building, she stressed that healthcare professionals must be adequately trained and sensitized to effectively respond to fire emergencies. She further urged all States and healthcare facilities to regularly upload fire safety audit details on the IHIP portal, noting that such practices would institutionalize compliance and serve as a continuous reminder for maintaining safety standards.\nThe Union Health Secretary also expressed satisfaction that over 50,000 participants have already completed the iGOT fire safety course, including several government institutions, and highlighted the importance of scaling up such efforts. She concluded by emphasizing that through Jan Bhagidari (people’s participation), a meaningful and sustained impact can be achieved in strengthening fire safety across the country.\nAddressing the occasion, Shri Krishna S. Vatsa, Member and Head, National Disaster Management Authority (NDMA), emphasized the need for a proactive, systems-based approach to fire safety in healthcare facilities. He underscored that a nationwide campaign must be undertaken to strengthen fire safety in hospitals and informed that NDMA is planning to organize five regional progra",
+      "summary": "Punya Salila Srivastava Leads Nationwide Pledge on “Fire Safety in Health Facilities” Ministry of Health Unveils National Guidelines on Fire and Life Safety in Healthcare Facilities (2026), Strengthening Comprehensive Safety Frameworks Across Healthcare Institutions New Guidelines Introduce Enhanced Protocols for High-Risk Areas Including ICUs, NICUs, PICUs, and Operation Theatres Fire Safety Week to Feature Nationwide Audits, Mock Drills, Evacuation Exercises, Demonstrations, and Webinars to Strengthen Preparedness and Awareness Reinforcing its commitment to ensuring safe healthcare environments, the Union Ministry of Health and Family Welfare, in partnership with all States and Union Territories and in coordination with relevant Central Ministries and Departments, commenced the nationwide observance of Fire Safety Week from 4th May to 10th May 2026. The observance was inaugurated with a nationwide pledge ceremony on the theme “Fire Safety in Health Facilities,” led by the Union Health Secretary, Smt. Punya Salila Srivastava, reaffirming the collective commitment of healthcare institutions and stakeholders towards strengthening fire prevention, preparedness, and response systems.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "iLEAP": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "f2ea2f0ed602a6bcf0b5ba7f32b94b95",
+      "title": "Research & surprise element must to stay future-ready in today’s technology-driven era: Raksha Mantri at North Tech Symposium",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257798",
+      "date": "2026-05-04",
+      "scraped_date": "2026-05-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c094a9527ab1787d7105b76b62496437",
+      "title": "RBI Organised Financial Literacy Camp for Migrant Workers on International Labour Day",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257774",
+      "date": "2026-05-04",
+      "scraped_date": "2026-05-04",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "On the occasion of International Labour Day, the Reserve Bank of India, Financial Inclusion Development Department, Panaji conducted a Financial Literacy Awareness Camp for migrant workers to promote financial inclusion and safe banking practices among migrant workers at Patto on April 30, 2026. The programme was graced by Shri Prabhakar Jha, Regional Director, RBI.\nAround 80 participants were educated on saving habits, various Govt schemes like PMJJBY, PMSBY, APY, use of banking services e-KYC, digital transactions, and protection against financial fraud. RBI’s message RBI Kehta Hai Jaankar Baniye, Satark Rahiye was highlighted during the programme.\nThe camp also facilitated on-the-spot bank account opening and enrolment in various Government schemes, helping workers access formal financial services and social security benefits through SBI and Canara Bank.\nThe initiative aims to empower migrant workers to make informed financial decisions and secure their future.\nPIBPanaji | AmbadasYadav / DineshYadav\nFollow us on socila media: @PIBMumbai / PIBMumbai /pibmumbai pibmumbai[at]gmail[dot]com /PIBMumbai /pibmumbai",
+      "summary": "On the occasion of International Labour Day, the Reserve Bank of India, Financial Inclusion Development Department, Panaji conducted a Financial Literacy Awareness Camp for migrant workers to promote financial inclusion and safe banking practices among migrant workers at Patto on April 30, 2026. The programme was graced by Shri Prabhakar Jha, Regional Director, RBI. Around 80 participants were educated on saving habits, various Govt schemes like PMJJBY, PMSBY, APY, use of banking services e-KYC, digital transactions, and protection against financial fraud.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "ELS": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "27fe2d87851704d002c911b6ef8daa07",
+      "title": "NTPC Mouda Inaugurates Girl Empowerment Mission 2026 to Empower Rural Girls through Knowledge and Skills",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257757",
+      "date": "2026-05-04",
+      "scraped_date": "2026-05-04",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "vertical_scores": {},
       "section": "other"
     },
@@ -892,13 +972,13 @@
       "section": "vertical"
     }
   ],
-  "other_count": 37,
+  "other_count": 39,
   "vertical_counts": {
     "EoDB": 1,
     "EooDB": 1,
     "CoDED": 0,
-    "iLEAP": 2,
-    "ELS": 1,
+    "iLEAP": 3,
+    "ELS": 2,
     "Sustainability": 1,
     "Political_Economy": 5
   },
