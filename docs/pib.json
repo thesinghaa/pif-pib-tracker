@@ -1,8 +1,44 @@
 {
-  "last_updated": "2026-05-04T02:08:09Z",
-  "last_updated_ist": "04 May 2026, 07:38 AM IST",
-  "total": 44,
+  "last_updated": "2026-05-04T05:41:49Z",
+  "last_updated_ist": "04 May 2026, 11:11 AM IST",
+  "total": 47,
   "articles": [
+    {
+      "id": "ccdaca22b3d6f3cd95bc0bdf2e10c524",
+      "title": "Prime Minister extends birthday greetings to Vice President Thiru CP Radhakrishnan Ji",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257708",
+      "date": "2026-05-04",
+      "scraped_date": "2026-05-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "be46748244463f1073474eefcd56ec21",
+      "title": "Prime Minister shares a Sanskrit Subhashitam highlighting the virtues of skill, hard work, education, and kind speech",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257707",
+      "date": "2026-05-04",
+      "scraped_date": "2026-05-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "a8dca5df4158ab157c5bbc37252dce79",
       "title": "INDIAN ARMY CONTINGENT DEPARTS FOR INDIA-CAMBODIA BILATERAL MILITARY EXERCISE CINBAX-II 2026",
@@ -374,6 +410,30 @@
       "sentiment": "neutral",
       "vertical_scores": {
         "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "7d5a388537681c5ecf3604b054fb0bc9",
+      "title": "CBIC Member Shri Surjit Bhujabal inaugurates GST Bhawan at Itanagar today",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257711",
+      "date": "2026-05-03",
+      "scraped_date": "2026-05-04",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "Shri Surjit Bhujabal, Member (Compliance management and Zonal member), Central Board of Indirect Taxes & Customs (CBIC), inaugurated the new ‘GST Bhawan’ at Itanagar, Arunachal Pradesh, in the august presence of Shri Kul Prakash Singh, Chief Commissioner, CGST & Central Excise, Guwahati Zone, and Shri Shyam Kanu Mahanta, Commissioner, CGST & CX, Itanagar, today.\nThe GST Bhawan, located at Niti Vihar, MOWB-II, Itanagar, has been established as a modern office complex for the Itanagar Commissionerate under CBIC. The facility is envisaged as a dedicated taxpayer facilitation centre aimed at strengthening service delivery, improving accessibility, and promoting ease of compliance.\nThe inauguration was attended by distinguished dignitaries, Shri Lobsang Tsering, DC Papumpare and SGST Commissioner of Arunachal Pradesh, Sh Amit Kumar singh Joint commissioner CGST Itanagar, Shri Shashi Wapang Lanu, Additional Commissioner CGST Dimapur, Shri Otto Yeputhumi, Joint Commissioner CGST Dimapur, Smt Bullo Mamung, Secretary, Skill Development, Shri Marto Kato, Deputy Solicitor General, Shri Arun Kasinath, CGM, Power Grid Corporation, Shri Pradip Kumar, Executive Director, Power Grid Corporation, Shri Rajender Kumar, Commandant, CRPF and officers and staff from CGST & C. Ex. Guwahati zone was present.\nAddressing the gathering, Shri Surjit Bhujabal congratulated the people of Arunachal Pradesh on this significant milestone and emphasised on the foundational principles of GST, and stated that the success of GST lies not merely in enforcement, but in trust, voluntary compliance, and a collaborative partnership between taxpayers and the administration. Drawing from the inherent values of sincerity and community trust that characterise Arunachal Pradesh, he noted that the department is committed to nurturing a similarly responsive and people-centric tax administration. He added that this GST Bhawan will not just be an office, but a centre of facilitation, dialogue, and mutual confidence.\nHighlighting the State’s performance under GST, he noted that revenue collection in Arunachal Pradesh reached ₹526 crore during FY 2025–26, registering a growth of 29.4% over the previous year — among the highest in the country. He observed that this growth reflects improved compliance behaviour and enhanced trust in the GST ecosystem, and emphasised the need for sustained outreach to further widen the tax base.\nShri Kul Prakash Singh, Chief Commissioner, CGST & Central Excise, Guwahati Zone, observed that infrastructure creation must translate into improved taxpayer experience. He stated that our endeavour is to move towards a cooperative compliance framework, where taxpayers are guided, supported, and encouraged to comply voluntarily.\nHe emphasised that officers must act as facilitators and partners, ensuring transparency, fairness, and accountability in all interactions. He also highlighted that this is the third GST Bhawan in the North Eastern region, underscoring the Government’s",
+      "summary": "Shri Surjit Bhujabal, Member (Compliance management and Zonal member), Central Board of Indirect Taxes & Customs (CBIC), inaugurated the new ‘GST Bhawan’ at Itanagar, Arunachal Pradesh, in the august presence of Shri Kul Prakash Singh, Chief Commissioner, CGST & Central Excise, Guwahati Zone, and Shri Shyam Kanu Mahanta, Commissioner, CGST & CX, Itanagar, today. The GST Bhawan, located at Niti Vihar, MOWB-II, Itanagar, has been established as a modern office complex for the Itanagar Commissionerate under CBIC. The facility is envisaged as a dedicated taxpayer facilitation centre aimed at strengthening service delivery, improving accessibility, and promoting ease of compliance.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
       },
       "section": "vertical"
     },
@@ -832,10 +892,10 @@
       "section": "vertical"
     }
   ],
-  "other_count": 35,
+  "other_count": 37,
   "vertical_counts": {
-    "EoDB": 0,
-    "EooDB": 0,
+    "EoDB": 1,
+    "EooDB": 1,
     "CoDED": 0,
     "iLEAP": 2,
     "ELS": 1,
