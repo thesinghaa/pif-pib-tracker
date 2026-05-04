@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-04T08:31:34Z",
-  "last_updated_ist": "04 May 2026, 02:01 PM IST",
-  "total": 51,
+  "last_updated": "2026-05-04T11:10:35Z",
+  "last_updated_ist": "04 May 2026, 04:40 PM IST",
+  "total": 53,
   "articles": [
     {
       "id": "ccdaca22b3d6f3cd95bc0bdf2e10c524",
@@ -109,6 +109,42 @@
       "scraped_date": "2026-05-04",
       "relative_time": "Today",
       "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5d71e33b59c9dabc5a66917735937622",
+      "title": "Union Minister Nitin Gadkari Reviews Proposed High-Speed and High-Density Corridors and State BOT National Highway Projects in Maharashtra",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257829",
+      "date": "2026-05-04",
+      "scraped_date": "2026-05-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "206c5f7066ac9ad9635f86601bf6f47d",
+      "title": "All Five Heavy Portal Beams Launched Over Indian Railway Tracks in Amdavad in just 22 days for Mumbai–Ahmedabad Bullet Train Project",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257831",
+      "date": "2026-05-04",
+      "scraped_date": "2026-05-04",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -972,7 +1008,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 39,
+  "other_count": 41,
   "vertical_counts": {
     "EoDB": 1,
     "EooDB": 1,
