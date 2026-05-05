@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-05T05:07:18Z",
-  "last_updated_ist": "05 May 2026, 10:37 AM IST",
-  "total": 42,
+  "last_updated": "2026-05-05T07:24:39Z",
+  "last_updated_ist": "05 May 2026, 12:54 PM IST",
+  "total": 45,
   "articles": [
     {
       "id": "3db67a200eb0f8eeb35e414f7f8b488a",
@@ -20,6 +20,64 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "0b6aec65805884bf55fa3a89fce67583",
+      "title": "India’s military might forged in factories of our defence industries, Op Sindoor reflected power of indigenous weapons, says Raksha Rajya Mantri at North Tech Symposium 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257964",
+      "date": "2026-05-05",
+      "scraped_date": "2026-05-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "b560cb4dd9284aba5294ddb917076ca4",
+      "title": "PRESIDENT OF INDIA PAYS FLORAL TRIBUTES TO GIANI ZAIL SINGH ON HIS BIRTH ANNIVERSARY",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257951",
+      "date": "2026-05-05",
+      "scraped_date": "2026-05-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "ecb08cfc906927344b3f20e756d20411",
+      "title": "Staff Selection Commission Invites Applications for Hindi Translator Posts",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257966",
+      "date": "2026-05-05",
+      "scraped_date": "2026-05-05",
+      "relative_time": "Today",
+      "region": "Bengaluru",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Staff Selection Commission (SSC) has invited applications from eligible candidates for the 'Combined Hindi Translator Examination-2026' to fill vacant Group-'B' non-gazetted posts in various Ministries and Departments of the Government of India. These include Junior Hindi Translator, Junior Translation Officer, Senior Hindi Translator, and Sub-Inspector (Hindi Translator). The Bengaluru Regional Office of the Karnataka-Kerala Region has issued a notification in this regard, with a total of 84 tentative vacancies currently available. Interested candidates can apply online only through the Commission's official website: (https://ssc.gov.in](https://ssc.gov.in).\nThe last date to apply is May 14, 2026 (until 11:00 PM). A window for application corrections will be provided on May 19 and 20. The computer-based examination for these posts is scheduled to be held in August or September 2026. The selection process consists of two stages: Paper-1 will feature objective-type questions on General Hindi and General English (100 marks each), while Paper-2 will be a descriptive test on Translation and Essay writing (200 marks). The age limit and educational qualifications of the candidates will be considered as of August 1, 2026.\nThe application fee is ₹100 for general candidates. Women, SC/ST, PwD, and Ex-servicemen candidates are exempted from the fee. Selected candidates will receive a total monthly salary ranging from approximately ₹35,393 (Pay Level-1) to a maximum of ₹88,645 (Pay Level-7), depending on the post grade. For more details, candidates are advised to visit the Commission’s website or contact the regional office helpline at 080-25502520.",
+      "summary": "The Staff Selection Commission (SSC) has invited applications from eligible candidates for the 'Combined Hindi Translator Examination-2026' to fill vacant Group-'B' non-gazetted posts in various Ministries and Departments of the Government of India. These include Junior Hindi Translator, Junior Translation Officer, Senior Hindi Translator, and Sub-Inspector (Hindi Translator). The Bengaluru Regional Office of the Karnataka-Kerala Region has issued a notification in this regard, with a total of 84 tentative vacancies currently available.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "ccdaca22b3d6f3cd95bc0bdf2e10c524",
@@ -816,7 +874,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 29,
+  "other_count": 31,
   "vertical_counts": {
     "EoDB": 2,
     "EooDB": 2,
@@ -824,9 +882,9 @@
     "iLEAP": 3,
     "ELS": 3,
     "Sustainability": 1,
-    "Political_Economy": 4
+    "Political_Economy": 5
   },
-  "regions_scraped": 9,
+  "regions_scraped": 10,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
