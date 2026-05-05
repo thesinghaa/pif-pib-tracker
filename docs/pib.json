@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-05T15:45:59Z",
-  "last_updated_ist": "05 May 2026, 09:15 PM IST",
-  "total": 86,
+  "last_updated": "2026-05-05T17:26:11Z",
+  "last_updated_ist": "05 May 2026, 10:56 PM IST",
+  "total": 90,
   "articles": [
     {
       "id": "3db67a200eb0f8eeb35e414f7f8b488a",
@@ -916,6 +916,82 @@
       "section": "other"
     },
     {
+      "id": "5fc751b2ebd1e28ad66d0d4dcaaffbfe",
+      "title": "NITI Aayog Launches Central Prabhari Officer (CPO) Portal to Strengthen Real-Time Governance and Last-Mile Delivery",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258230",
+      "date": "2026-05-05",
+      "scraped_date": "2026-05-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "NITI Aayog today launched the Central Prabhari Officer (CPO) Portal, which is aimed at strengthening real-time governance, improving coordination among stakeholders and accelerating last-mile delivery under the Aspirational Districts and Blocks Programme (ADP/ABP).\nThe portal was formally launched by Ms. Nidhi Chhibber, CEO, NITI Aayog, in the presence of Officers from the Central and State Governments, Central Prabhari Officers, Planning Secretaries and District Magistrates in a virtual event. Delivering the Keynote Address, she emphasised that the CPO Portal represents a significant step towards building a high-trust, transparent and responsive governance ecosystem. She underlined that the platform enables real-time submission and tracking of field observations, ensuring that insights from the ground directly inform policy actions and administrative interventions.\nIn his remarks, Shri Rohit Kumar, Additional Secretary and Mission Director, ADP/ABP, NITI Aayog, underscored the importance of data-driven governance and the critical role played by Central Prabhari Officers (CPOs) in providing field-level insights. He noted that the CPO Portal is designed as an advanced digital platform to capture real-time observations, streamline communication and enable faster administrative response across all levels of governance.\nThrough this portal, Central Prabhari Officers would submit their observations and recommendations from the field in real time via mobile. Once submitted, the data goes live after which the Districts can view the suggestions provided by their CPO, take appropriate action and accordingly submit their responses. In this process, the State Planning Secretaries would gain a bird’s-eye view, coordinating across Departments to implement suggestions and record their feedback. Simultaneously, Officers at NITI Aayog and Line Ministries and Departments would be able to monitor these inputs. The CPO Portal serves as a unified digital interface that bridges the gap between field observations and administrative action. By enabling instant visibility, structured monitoring, and accountability, the platform is expected to significantly improve implementation efficiency and responsiveness in Aspirational Districts and Blocks.\nA short film showcasing the features and functionality of the portal was also screened during the event. NITI Aayog informed that dedicated training sessions will be conducted to ensure effective utilisation of the platform by all stakeholders.\nThe launch marks another step forward in leveraging technology to drive inclusive development and ensure that governance keeps pace with the needs of citizens.",
+      "summary": "NITI Aayog today launched the Central Prabhari Officer (CPO) Portal, which is aimed at strengthening real-time governance, improving coordination among stakeholders and accelerating last-mile delivery under the Aspirational Districts and Blocks Programme (ADP/ABP). Nidhi Chhibber, CEO, NITI Aayog, in the presence of Officers from the Central and State Governments, Central Prabhari Officers, Planning Secretaries and District Magistrates in a virtual event. Delivering the Keynote Address, she emphasised that the CPO Portal represents a significant step towards building a high-trust, transparent and responsive governance ecosystem.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Political_Economy": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "35544e62ad20bd2871a7cbb1b5ab20e8",
+      "title": "IIMC releases special issue of ‘Sanchar Madhyam’ marking 200 years of Hindi journalism",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258219",
+      "date": "2026-05-05",
+      "scraped_date": "2026-05-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5ff71e13221f40194c28f1e311a42981",
+      "title": "INDIAN OCEAN SHIP SAGAR ARRIVES AT YANGON, MYANMAR",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258206",
+      "date": "2026-05-05",
+      "scraped_date": "2026-05-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "da83cf72ae42f68b114cc0db799619e9",
+      "title": "Hon’ble Union Minister of Tribal Affairs Shri Jual Oram Reviews Progress of EMRS Construction Across the Country",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258203",
+      "date": "2026-05-05",
+      "scraped_date": "2026-05-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
       "id": "ccdaca22b3d6f3cd95bc0bdf2e10c524",
       "title": "Prime Minister extends birthday greetings to Vice President Thiru CP Radhakrishnan Ji",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2257708",
@@ -1710,7 +1786,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 50,
+  "other_count": 53,
   "vertical_counts": {
     "EoDB": 5,
     "EooDB": 5,
@@ -1718,7 +1794,7 @@
     "iLEAP": 6,
     "ELS": 5,
     "Sustainability": 1,
-    "Political_Economy": 21
+    "Political_Economy": 22
   },
   "regions_scraped": 12,
   "verticals": {
