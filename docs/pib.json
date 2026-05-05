@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-05T10:05:06Z",
-  "last_updated_ist": "05 May 2026, 03:35 PM IST",
-  "total": 50,
+  "last_updated": "2026-05-05T11:22:22Z",
+  "last_updated_ist": "05 May 2026, 04:52 PM IST",
+  "total": 54,
   "articles": [
     {
       "id": "3db67a200eb0f8eeb35e414f7f8b488a",
@@ -176,6 +176,82 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "e028594ed9a64033e6329044a4870ca2",
+      "title": "India’s Steel Sector Advances Towards Self-Reliance",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258028",
+      "date": "2026-05-05",
+      "scraped_date": "2026-05-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "1b81581bf27191dae5c732d5009e1ff8",
+      "title": "MoD inks Rs 1,476 crore contract with BEL for five Ground-Based Mobile Electronic Systems for Indian Army",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258013",
+      "date": "2026-05-05",
+      "scraped_date": "2026-05-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5d9d53bab2d2cc0ba37c4bb285d326f3",
+      "title": "Scheduled Commercial Banks (SCBs) Record Robust Credit Growth of 15.9% in FY 2025-26, Reflecting Strong Economic Activity and Credit Demand",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258009",
+      "date": "2026-05-05",
+      "scraped_date": "2026-05-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f62583486328aecdca4cb7e1b4bdd5ce",
+      "title": "Union Minister Shri Dharmendra Pradhan Inaugurates IIT Madras’ First-Ever Technology Summit in Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258016",
+      "date": "2026-05-05",
+      "scraped_date": "2026-05-05",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Union Minister of Education Shri Dharmendra Pradhan, inaugurated the first-ever IIT Madras Technology Summit today (05.05.2026) at Bharat Mandapam, New Delhi. Held under the theme “From IITM. For Bharat. Building Together.”, the summit aims to create a collaborative framework between industry, academia, and government to deploy technologies for a Viksit Bharat.\nThe summit brought together leaders from government, industry and academia to co-create technology-led pathways for India’s development. The newly launched centres reflect a strategic push to translate cutting-edge research into scalable, real-world solutions.\nCommending the initiative, Shri Dharmendra Pradhan stated, \"India’s innovation ecosystem is at a crucial turning point. Institutions like IIT Madras have been given mandates as responsible bodies to drive research through Centres of Excellence, reflecting the Government’s strong commitment to strengthening research infrastructure. However, priorities are now shifting. Research should not remain confined to academic theses but it must translate into real-world products and solutions .\" Highlighting the need for domestic investment, he added, \"Much of the technology developed by Indian talent abroad is being purchased back by Indian industries. This indicates a need to build and invest in our own products domestically. With a strong internal market, India has the advantage of being both producer and consumer .\" He further noted that the Government’s commitment is reflected in the proposed Rs.1 lakh crore fund for research and development directed toward the private sector and startups.\nThe summit marked the launch of three major industry-partnered centres: the NTPC Centre for Cardiovascular Research, the BPCL Centre for Next-Gen Technologies for Robotic Assisted Surgeries (YANTRAS), and the HSBC Centre for Resource Efficiency, Recyclability & Circularity in Energy Transition. Additionally, IIT Madras announced \"Bodhan AI,\" a Centre of Excellence supported by the Ministry of Education. This initiative will build the Bharat EduAI Stack, a sovereign digital public infrastructure, with a mission to train over 1 million teachers in AI-enabled teaching by 2027.\nThe centres were inaugurated by Union Minister Shri Dharmendra Pradhan, in the presence of Guest of Honour Shri Jayant Chaudhary, Union Minister of State for Education and Minister of State for Skill Development and Entrepreneurship (Independent Charge), Prof. V. Kamakoti, Director, IIT Madras, Prof. Ashwin Mahalingam, Dean (Alumni and Corporate Relations), IIT Madras, Mr. Kaviraj Nair, CEO - Office of Institutional Advancement (OIA), IIT Madras, Ms. Vasudha Narasimhan, VP-Corporate Relations, OIA, IIT Madras, Faculty members from the Institute, industry leaders and other stakeholders.\nDr Sanjay Kumar, Secretary - School Education & Literacy, M inistry of Education , Dr. Vineet Joshi, Secretary - Higher Education, M inistry of Education , Dr. Neeraj Mittal, Secretary – Ministry of Pet",
+      "summary": "Union Minister of Education Shri Dharmendra Pradhan, inaugurated the first-ever IIT Madras Technology Summit today (05.05.2026) at Bharat Mandapam, New Delhi. Building Together.”, the summit aims to create a collaborative framework between industry, academia, and government to deploy technologies for a Viksit Bharat. The summit brought together leaders from government, industry and academia to co-create technology-led pathways for India’s development.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "ccdaca22b3d6f3cd95bc0bdf2e10c524",
@@ -972,7 +1048,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 34,
+  "other_count": 37,
   "vertical_counts": {
     "EoDB": 2,
     "EooDB": 2,
@@ -980,7 +1056,7 @@
     "iLEAP": 5,
     "ELS": 3,
     "Sustainability": 1,
-    "Political_Economy": 5
+    "Political_Economy": 6
   },
   "regions_scraped": 10,
   "verticals": {
