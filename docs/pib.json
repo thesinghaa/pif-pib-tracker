@@ -1,8 +1,26 @@
 {
-  "last_updated": "2026-05-06T02:05:55Z",
-  "last_updated_ist": "06 May 2026, 07:35 AM IST",
-  "total": 70,
+  "last_updated": "2026-05-06T05:33:30Z",
+  "last_updated_ist": "06 May 2026, 11:03 AM IST",
+  "total": 71,
   "articles": [
+    {
+      "id": "f41d4568b480e0379fce472358ebf883",
+      "title": "Prime Minister shares Sanskrit Subhashitam highlighting the spirit of selfless service and compassion",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258265",
+      "date": "2026-05-06",
+      "scraped_date": "2026-05-06",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "3db67a200eb0f8eeb35e414f7f8b488a",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the value of truth and perseverance",
@@ -1388,7 +1406,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 42,
+  "other_count": 43,
   "vertical_counts": {
     "EoDB": 4,
     "EooDB": 4,
