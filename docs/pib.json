@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-07T16:16:17Z",
-  "last_updated_ist": "07 May 2026, 09:46 PM IST",
-  "total": 159,
+  "last_updated": "2026-05-07T18:00:14Z",
+  "last_updated_ist": "07 May 2026, 11:30 PM IST",
+  "total": 163,
   "articles": [
     {
       "id": "376d390c7dec84a3b35e09f3b5f8a4b4",
@@ -1036,6 +1036,78 @@
         "Political_Economy": 3
       },
       "section": "vertical"
+    },
+    {
+      "id": "e90db311aa35ead10de736270b059114",
+      "title": "“Grassroots Sports Can Shape Young Leaders and Transform Communities\": Union Minister of Youth Affairs and Sports, Dr. Mansukh Mandaviya",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258893",
+      "date": "2026-05-07",
+      "scraped_date": "2026-05-07",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "ab2702daf2a29fe82504a59cee21aa03",
+      "title": "No Shortage of Petrol and Diesel in Odisha; OMCs Assure Adequate Availability",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258887",
+      "date": "2026-05-07",
+      "scraped_date": "2026-05-07",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "27d3b3164e7bed313facd36a5ddf0abc",
+      "title": "Prime Minister congratulates newly sworn-in Ministers in Bihar Government",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258836",
+      "date": "2026-05-07",
+      "scraped_date": "2026-05-07",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c2260ac3507b40925b6ecdb33c5c90fa",
+      "title": "BIS conducted Enforcement Raid at Jewellers Outlet at Pudukkottai",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258909",
+      "date": "2026-05-07",
+      "scraped_date": "2026-05-07",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "f41d4568b480e0379fce472358ebf883",
@@ -3100,7 +3172,7 @@
       "section": "other"
     }
   ],
-  "other_count": 105,
+  "other_count": 109,
   "vertical_counts": {
     "EoDB": 6,
     "EooDB": 6,
