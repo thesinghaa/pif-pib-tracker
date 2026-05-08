@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-08T07:27:59Z",
-  "last_updated_ist": "08 May 2026, 12:57 PM IST",
-  "total": 118,
+  "last_updated": "2026-05-08T09:16:14Z",
+  "last_updated_ist": "08 May 2026, 02:46 PM IST",
+  "total": 123,
   "articles": [
     {
       "id": "acc7673ee2a39af54b4645671e7904da",
@@ -96,6 +96,106 @@
       "sentiment": "up",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "ee00421d9a3bab803e8ae6b5c8a0d16b",
+      "title": "India Hosts Key Global Meet on Space Systems Standards",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259005",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "ded17001234c1fa43adc21ddcaff0f04",
+      "title": "Union Agriculture Minister Shri Shivraj Singh Chouhan orders expert panel on litchi crisis in Bihar",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258998",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "4654e81db9dfb87221a4fa04b4c14ed9",
+      "title": "Raksha Rajya Mantri to inaugurate India’s first International Ophthalmology Research Conference in New Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258999",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "fa1abe71b60353bd36bff7fdbd7f9f0c",
+      "title": "General Elections to Legislative Assemblies and bye-elections 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258991",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Index Cards and Statistical Reports published on ECINET\n• Election Commission of India has published the Index Cards and the Statistical Reports for the General Elections to the Legislative Assemblies and Bye-Elections 2026 which concluded on May 6, 2026. The Index Cards and Statistical Reports have been published for all 830 ACs which went to polls. Re-poll has been scheduled for 144-Falta AC of West Bengal on May 21, 2026.\n• Index Cards for General Elections to Legislative Assemblies and bye-elections have been made available within a record time of 72 hours of the declaration of the poll results . It may be recalled that the digital updation and faster publication of Index Cards and Statistical reports is one of the over 30 initiatives taken in the last one year by the Commission. Before the introduction of ECINET , the process used to take several weeks to months as the data used to be manually filled by the field officials.\n• The Index Cards contain data across multiple dimensions such as candidates, electors, votes polled, votes counted, party-wise and candidate-wise votes polled etc. These Index Cards can be accessed from both the platforms i.e. ECINET App (About Elections tab → Current Elections → Index Cards) and the official ECI website at https://www.eci.gov.in/statistical-reports\n• ECI has concurrently published a set of 14 Statistical Reports for General Elections. This is the first time that the Statistical Reports have been published within 72 hours of the declaration of poll results.\n• The Statistical Reports cover a range of variables , such as details of State level & AC-wise electors, number of polling stations, State/ AC-wise voter turnout, gender-wise poll participation, party-wise vote share, constituency data summary report, constituency wise detailed results among other details.\n• The publication of statistical reports is a suo-moto initiative of ECI to promote transparency and accessibility of election-related data for all stakeholders including academia, researchers and the public and are prepared from the secondary data filled in the Index Cards.\n• The primary data is in the statutory forms maintained by the concerned Returning Officers and the data kept in statutory forms is final .",
+      "summary": "Index Cards and Statistical Reports published on ECINET",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "133aca2612d096a2a86856401f7a2e4b",
+      "title": "INDIA ADVANCES BRICS MSME COOPERATION UNDER ITS 2026 CHAIRSHIP",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258985",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "As Chair of BRICS in 2026, India is spearheading a renewed agenda for MSME cooperation under the BRICS Partnership on the New Industrial Revolution (PartNIR). During India’s Chairship, the Ministry of MSME is mandated to convene three SME Working Group Meetings and the inaugural BRICS MSME Forum.\nThe 1st SME Working Group Meeting (webinar) was successfully convened on 24th April 2026 with a specialized focus on “Access to Finance for MSMEs”. The deliberations among BRICS Member Countries centered on the themes of “Bridging the MSME Credit Gap through Financial Inclusion, Literacy and Credit Readiness” and “Fintech-Driven Ecosystems: Expanding SME Credit and Seamless Global Trade Payments”.\nThe webinar witnessed active participation from BRICS Member Countries and served as an important platform for exchanging experiences and best practices on MSME financing challenges and opportunities. Discussions highlighted the critical role of MSMEs as key drivers of economic growth, employment generation, innovation, and inclusive development, and underscored the persistent challenges relating to timely and adequate access to credit. The deliberations emphasized on the need for a multi-pronged approach to bridge the credit gap through financial inclusion and improved financial literacy and strengthening credit capacities of MSMEs.\nThe Meeting further emphasized the importance of enhanced collaboration among BRICS economies to strengthen institutional capacities, promote innovative financing mechanisms, and build a supportive ecosystem for MSME finance. The discussions also facilitated valuable policy exchange among BRICS Member Countries facing similar developmental challenges and reaffirmed the shared commitment towards fostering resilient, inclusive, and globally competitive MSME sectors across BRICS economies.\nSunil Kumar Tiwari\nE-mail hipessi[at]gmail[dot]com",
+      "summary": "As Chair of BRICS in 2026, India is spearheading a renewed agenda for MSME cooperation under the BRICS Partnership on the New Industrial Revolution (PartNIR). During India’s Chairship, the Ministry of MSME is mandated to convene three SME Working Group Meetings and the inaugural BRICS MSME Forum. The 1st SME Working Group Meeting (webinar) was successfully convened on 24th April 2026 with a specialized focus on “Access to Finance for MSMEs”.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "376d390c7dec84a3b35e09f3b5f8a4b4",
@@ -2260,15 +2360,15 @@
       "section": "vertical"
     }
   ],
-  "other_count": 87,
+  "other_count": 90,
   "vertical_counts": {
-    "EoDB": 3,
-    "EooDB": 3,
+    "EoDB": 4,
+    "EooDB": 4,
     "CoDED": 2,
     "iLEAP": 4,
     "ELS": 6,
     "Sustainability": 2,
-    "Political_Economy": 15
+    "Political_Economy": 16
   },
   "regions_scraped": 11,
   "verticals": {
