@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-08T05:36:23Z",
-  "last_updated_ist": "08 May 2026, 11:06 AM IST",
-  "total": 114,
+  "last_updated": "2026-05-08T07:27:59Z",
+  "last_updated_ist": "08 May 2026, 12:57 PM IST",
+  "total": 118,
   "articles": [
     {
       "id": "acc7673ee2a39af54b4645671e7904da",
@@ -18,6 +18,82 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "df1dbb6f85ee0607624c7c6f19a17acc",
+      "title": "Union Health Ministry Launches Integrated Training for Primary Healthcare Teams under a Unified, Competency-Driven Framework to Strengthen Frontline Healthcare Delivery",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258965",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Integrated Training Model to Strengthen the Capacity of the Community-Based Workforce to Deliver Empathetic, Responsive and High-Quality Care Initiative Empowers Women Who Form Over 70% of the Primary Healthcare Workforce (including ASHAs, ANMs, CHOs), Advancing PM’s Nari Shakti Vision Enhances Last-Mile Healthcare Delivery, Builds Frontline Health Workforce Capacity and Drives Vision of Viksit Bharat @2047\nReinforcing the commitment to comprehensive primary healthcare and strengthening the capabilities of frontline healthcare providers, the Union Minister for Health and Family Welfare, Shri Jagat Prakash Nadda, launched the Integrated Training for Primary Healthcare Teams during the recently concluded 10 th National Summit on “Innovation and Inclusivity: Best Practices Shaping India’s Health Future”.\nThe Integrated Training for Primary Healthcare Teams marks a decisive shift from fragmented capacity building to a single, structured, and competency-driven framework. It will transform India’s frontline health workforce into confident providers of comprehensive, people-centred care at the last mile.\nIndia is well ahead of the curve in its investments in health systems strengthening. In recent years, there has been a strong focus on Comprehensive Primary Health Care and community engagement, reflecting the country’s belief that healthcare must be equitable and accessible close to where people live. A major milestone in this journey was the launch of the Ayushman Bharat programme, under which Ayushman Arogya Mandirs were envisioned as the fulcrum of preventive, promotive, and curative care. A defining strength of this approach has been deep community engagement through platforms such as Jan Arogya Samitis, Mahila Arogya Samitis, Village Health and Sanitation Committees, and AAM Shivirs.\nAs India moves closer to achieving the Sustainable Development Goals and prepares to leap forward into a more advanced future, there is a growing need for healthcare that is not only accessible but also responsive and of high quality. Across the country, thousands of primary healthcare teams serve communities with dedication, often in challenging environments, where their ability to deliver timely and effective care depends not only on infrastructure, but equally on the knowledge, skills, and confidence they bring to their work.\nA well-trained and confident primary healthcare workforce is essential to improving quality of care, reducing the burden on higher-level facilities, and strengthening public trust in the health system. It will further reinforce India’s commitment to preventive and promotive healthcare—key pillars for building a healthier and more productive nation—and contribute to the Hon’ble Prime Minister’s vision of a Viksit Bharat @2047.\nReinforcing this vision of people-centric healthcare, the Hon’ble Prime Minister has emphasized, “True progress is people-centric. No matter how many advances are made in medical science, access must be assured to the las",
+      "summary": "Integrated Training Model to Strengthen the Capacity of the Community-Based Workforce to Deliver Empathetic, Responsive and High-Quality Care Initiative Empowers Women Who Form Over 70% of the Primary Healthcare Workforce (including ASHAs, ANMs, CHOs), Advancing PM’s Nari Shakti Vision Enhances Last-Mile Healthcare Delivery, Builds Frontline Health Workforce Capacity and Drives Vision of Viksit Bharat @2047 Reinforcing the commitment to comprehensive primary healthcare and strengthening the capabilities of frontline healthcare providers, the Union Minister for Health and Family Welfare, Shri Jagat Prakash Nadda, launched the Integrated Training for Primary Healthcare Teams during the recently concluded 10 th National Summit on “Innovation and Inclusivity: Best Practices Shaping India’s Health Future”. The Integrated Training for Primary Healthcare Teams marks a decisive shift from fragmented capacity building to a single, structured, and competency-driven framework. It will transform India’s frontline health workforce into confident providers of comprehensive, people-centred care at the last mile.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "iLEAP": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "82e1455e73375126d3e1566da0abe445",
+      "title": "Prime Minister shares Sanskrit Subhashitam highlighting the valour and duty of the Indian Armed Forces",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258947",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "33ef3d17ab0b905dd05d83bed16d0b86",
+      "title": "Prime Minister writes an OpEd on forthcoming visit to Somnath",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258945",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "2c9231ccc3005c6f12fb9187cd5df4d4",
+      "title": "FINANCE MINISTER INAUGURATES BOOK FAIR & INDUSTRIAL EXHIBITION 2026 IN DAMAN",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2258938",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "vertical_scores": {},
       "section": "other"
     },
@@ -2184,12 +2260,12 @@
       "section": "vertical"
     }
   ],
-  "other_count": 84,
+  "other_count": 87,
   "vertical_counts": {
     "EoDB": 3,
     "EooDB": 3,
     "CoDED": 2,
-    "iLEAP": 3,
+    "iLEAP": 4,
     "ELS": 6,
     "Sustainability": 2,
     "Political_Economy": 15
