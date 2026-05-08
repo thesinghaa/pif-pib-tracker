@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-08T13:23:22Z",
-  "last_updated_ist": "08 May 2026, 06:53 PM IST",
-  "total": 151,
+  "last_updated": "2026-05-08T15:25:06Z",
+  "last_updated_ist": "08 May 2026, 08:55 PM IST",
+  "total": 160,
   "articles": [
     {
       "id": "acc7673ee2a39af54b4645671e7904da",
@@ -712,6 +712,184 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "9bcbb928fac324da7aa7d78f0caa40fe",
+      "title": "INDIAN FOREST SERVICE EXAMINATION, 2025",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259195",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Based on the result of the written part of the Indian Forest Service Examination, 2025 held by the UNION PUBLIC SERVICE COMMISSION from 16th November to 23rd November, 2025, and the interviews for Personality Test held from 6 th April to 15 th April, 2026, following is the list, in order of merit, of candidates who have been recommended for appointment to the posts in Indian Forest Service.\n2. A total of 148 candidates have been recommended for appointment under different categories as per the following break-up :-\n(including 02 PwBD-2 & 02 PwBD-3)\n(including 01 PwBD-2 & 01 PwBD-3)\n(including 01 PwBD-1)\n(including 01 PwBD-1, 03 PwBD-2 & 03 PwBD-3)\n2.1. 02 current vacancies of PwBD-1 have been carried forward to the next recruitment year due to non-availability of candidates.\n2.2 The result of 01 candidate has been withheld.\n3. Appointments shall be made by the Government according to the number of vacancies available and subject to the candidates fulfilling all the prescribed eligibility conditions/provisions contained in the Rules for the Examination and verifications, wherever due, being completed satisfactorily. The numbers of vacancies reported by the Government are as under:-\n* including 09 PwBD vacancies (04 PwBD-1, 02 PwBD-2 & 03 PwBD-3)\n4. The claims of the recommended candidates with regard to their reservation status under EWS/OBC/SC/ST and PwBD are subject to verification by the concerned authorities.\n5. The candidature of 71 recommended candidates has been kept provisional.\n6. Union Public Service Commission has a ‘Facilitation Counter’ near Examination Hall Building in its Campus. Candidates may obtain any information/ clarification regarding their Examination/ Recruitments on working days between 10:00 A.M. and 05:00 P.M. in person or over Telephone Nos.011-23385271 / 23381125. The result will also be available on Commission’s website, i.e., www.upsc.gov.in. However, marks of candidates shall be made available on the Commission’s website within 15 days from the date of declaration of result.\nClick here to result:",
+      "summary": "Based on the result of the written part of the Indian Forest Service Examination, 2025 held by the UNION PUBLIC SERVICE COMMISSION from 16th November to 23rd November, 2025, and the interviews for Personality Test held from 6 th April to 15 th April, 2026, following is the list, in order of merit, of candidates who have been recommended for appointment to the posts in Indian Forest Service. A total of 148 candidates have been recommended for appointment under different categories as per the following break-up :- (including 02 PwBD-2 & 02 PwBD-3) (including 01 PwBD-2 & 01 PwBD-3) (including 01 PwBD-1) (including 01 PwBD-1, 03 PwBD-2 & 03 PwBD-3) 2.1. 02 current vacancies of PwBD-1 have been carried forward to the next recruitment year due to non-availability of candidates.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "b82f463e883cd4ec219e67090d98788b",
+      "title": "STEEL CUTTING OF FIFTH FLEET SUPPORT SHIP FOR INDIAN NAVY",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259193",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "7b77b6b437fee3025a3b3bb0138bd040",
+      "title": "WRITTEN RESULT OF THE NATIONAL DEFENCE ACADEMY AND NAVAL ACADEMY EXAMINATION (I), 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259189",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "040a4260e30317c6af455981613dee29",
+      "title": "India–Canada Joint Statement on the Conclusion of the Second Round of Comprehensive Economic Partnership Agreement (CEPA) Negotiations",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259188",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "cbeeddc1397cb2c7c974ee19a54dfb92",
+      "title": "Aizawl Hosts its first-ever Regional Cooperative Reform Conference in Mizoram under the vision of “Sahkar se Samriddhi”",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259184",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "1efcbf20363596fc21a2d4785b742559",
+      "title": "10ᵗʰ India-Australia Defence Policy Talks held in New Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259170",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "8dcae00cf61202ef0e0217a4dacb73ac",
+      "title": "UIDAI Data Hackathon 2026 Showcases Data-Driven Innovations for Inclusive Governance",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259168",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Over 5,000 teams submitted solutions, making it one of the largest data innovation challenges in the DPI ecosystem\nThe Unique Identification Authority of India (UIDAI) has successfully concluded the UIDAI Data Hackathon 2026 with a celebration of the outstanding student-led innovations in the space of digital identity to improve governance and public service delivery.\nLaunched to promote innovative and responsible use of digital identity data, the hackathon provided a platform for students and young professionals to develop scalable, data-driven solutions aimed at enhancing inclusion, efficiency, and governance outcomes.\nThe initiative witnessed an overwhelming response, with nearly 15,000 teams registering and more than 5,000 teams submitting solutions, making it one of the largest data innovation challenges in the Digital Public Infrastructure (DPI) ecosystem.\nFollowing a rigorous multi-stage evaluation process involving screening of over 5,000 submissions, shortlisting of 30 projects, and detailed assessment of 15 finalist teams, the top five teams were invited to present their solutions at the final ceremony.\nThe winning team from Institute of Engineering and Management, Kolkata and Indian Institute of Science Education and Research in Kolkata presented an in-depth analysis of aggregated Aadhaar enrolment and update datasets shared by UIDAI.\nTheir work generated valuable insights into enrolment trends and biometric update patterns across regions, states, and demographic groups, along with recommendations for improving service delivery.\nAddressing the participants, CEO UIDAI, Shri Vivek Chandra Verma commended the teams for combining analytical rigour with a strong public-interest perspective. He noted that such innovations have the potential to directly support policy and operational improvements, while underscoring the importance of responsible and ethical use of data to drive inclusion and efficiency in governance.\nCEO UIDAI also outlined UIDAI’s forward-looking vision for the initiative, stating that the UIDAI Data Hackathon may be institutionalised as an annual platform to foster innovation in digital identity and public data use.\nFuture editions of the hackathon are also expected to broaden participation beyond students to include academia, researchers, start-ups, and other non-academic contributors, fostering a more diverse and interdisciplinary innovation ecosystem.\nThe UIDAI Data Hackathon 2026 reflects UIDAI’s growing commitment to open innovation, youth engagement, and evidence-based policymaking. By enabling participants to work with real-world datasets, the initiative not only fostered technical excellence but also encouraged solutions grounded in public impact.\nUIDAI expressed its appreciation to all participants, jury members, and partners for contributing to the success of the hackathon.",
+      "summary": "Over 5,000 teams submitted solutions, making it one of the largest data innovation challenges in the DPI ecosystem The Unique Identification Authority of India (UIDAI) has successfully concluded the UIDAI Data Hackathon 2026 with a celebration of the outstanding student-led innovations in the space of digital identity to improve governance and public service delivery. Launched to promote innovative and responsible use of digital identity data, the hackathon provided a platform for students and young professionals to develop scalable, data-driven solutions aimed at enhancing inclusion, efficiency, and governance outcomes. The initiative witnessed an overwhelming response, with nearly 15,000 teams registering and more than 5,000 teams submitting solutions, making it one of the largest data innovation challenges in the Digital Public Infrastructure (DPI) ecosystem.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "7c576060aeeab2a920cbbc4f42e1846c",
+      "title": "INDIA AIRCRAFT LEASING & FINANCING SUMMIT 2.0",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259163",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Ministry of Civil Aviation, Government of India (MoCA), jointly with the International Financial Services Centres Authority (IFSCA) and the Federation of Indian Chambers of Commerce & Industry (FICCI), successfully organised the 2nd edition of the India Aircraft Leasing and Financing Summit 2.0 (IALFS 2.0) on Friday, 8th May 2026, at the GIFT City, Gandhinagar, Gujarat. Union Civil Aviation Minister Shri Ram Mohan Naidu presided over the summit and Chief Minister of Gujarat Shri Bhupendra Patel was the Chief Guest.\nBuilding on the success of its inaugural edition in 2025, IALFS 2.0 brought together experts from policy, finance, and the aviation industry to deliberate on strengthening GIFT IFSC’s role in aircraft leasing and aviation finance, with a focus on GIFT IFSC as an emerging global hub.\nIn his Chief Guest address , Shri Bhupendra Patel, Chief Minister of Gujarat , reaffirmed Gujarat’s commitment to strengthening GIFT City as a global financial and fintech hub. He also pointed to Gujarat's expanding aviation infrastructure, including new airport development projects, and invited global stakeholders to participate in the state's aviation growth journey.\nShri Ram Mohan Naidu Kinjarapu, Union Minister of Civil Aviation, in his Guest of Honour address , stated that under the leadership of Prime Minister Shri Narendra Modi, India is positioning itself not only as one of the world’s fastest-growing aviation markets, but also as an emerging global aviation financing and leasing jurisdiction. He projected significant expansion of India’s commercial fleet across aircraft categories over the coming years, underscoring the urgent need for a strong domestic financing and leasing ecosystem to support this growth.\nHighlighting the scale of opportunity in the leasing sector, he stated: “India’s commercial aircraft fleet is expected to reach 1,100 aircraft by 2027 and further expand to over 2,250 aircraft by 2035. Indian carriers currently have outstanding deliveries of 1,640 aircraft. That translates into a USD 50 billion opportunity for India’s leasing ecosystem over the coming decade.”\nShri Ram Mohan Naidu also highlighted the major commitments fulfilled following the first India Aircraft Leasing & Financing Summit. He referred to the enactment of the Protection of Interests in Aircraft Objects (PIAO) Act, 2025, describing it as a landmark reform aligning India’s legal framework with the Cape Town Convention. He stated, “For years, lessors faced prolonged delays in exercising their IDERA rights, increasing costs for Indian airlines and ultimately impacting passengers through higher airfares. That gap has now been addressed”.\nThe Minister further announced that another key assurance made at the conclusion of the first summit, the constitution of a High-Level Stakeholder Committee for leasing has also been fulfilled.\nMinister Shri Ram Mohan Naidu highlighted the Government’s continued support towards ensuring the operational stability and long-term gr",
+      "summary": "The Ministry of Civil Aviation, Government of India (MoCA), jointly with the International Financial Services Centres Authority (IFSCA) and the Federation of Indian Chambers of Commerce & Industry (FICCI), successfully organised the 2nd edition of the India Aircraft Leasing and Financing Summit 2.0 (IALFS 2.0) on Friday, 8th May 2026, at the GIFT City, Gandhinagar, Gujarat. Union Civil Aviation Minister Shri Ram Mohan Naidu presided over the summit and Chief Minister of Gujarat Shri Bhupendra Patel was the Chief Guest. Building on the success of its inaugural edition in 2025, IALFS 2.0 brought together experts from policy, finance, and the aviation industry to deliberate on strengthening GIFT IFSC’s role in aircraft leasing and aviation finance, with a focus on GIFT IFSC as an emerging global hub.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "ed91224b22d0b404e81f44b24072caae",
+      "title": "Staff Selection Commission announces Combined Hindi Translators Examination - 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259166",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-08",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Staff Selection Commission has published Notification for \"Combined Hindi Translators Examination, 2026\". The Commission will conduct an open competitive examination for filling up of various Group \"B\" posts in different Ministries/Departments/Organizations of Government of India. Candidates from all parts of the country will be eligible to apply.\nInformation regarding details of post, age limit, essential educational qualification, fee payable, scheme of examination, how to apply, etc. are given in detail in the Recruitment Notification in SSC website.\nApplications can be submitted in online mode through Commission's website ssc.gov.in or 'mySSC' app in Android Phones. The last date for submission of online applications is 14.05.2026 (23:00 PM) and last date for making online fee payment is 15.05.2026 (23:00 PM).\nIn Southern Region, Computer Based Examination will be held in August- September, 2026 in 10 Centres/Cities as follows: 4 Centres in Andhra Pradesh; 04 Centres in Tamil Nadu; 02 Centres in Telangana.",
+      "summary": "Staff Selection Commission has published Notification for \"Combined Hindi Translators Examination, 2026\". The Commission will conduct an open competitive examination for filling up of various Group \"B\" posts in different Ministries/Departments/Organizations of Government of India. Candidates from all parts of the country will be eligible to apply.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "376d390c7dec84a3b35e09f3b5f8a4b4",
@@ -2876,15 +3054,15 @@
       "section": "vertical"
     }
   ],
-  "other_count": 115,
+  "other_count": 120,
   "vertical_counts": {
     "EoDB": 4,
     "EooDB": 4,
     "CoDED": 3,
     "iLEAP": 5,
     "ELS": 6,
-    "Sustainability": 2,
-    "Political_Economy": 17
+    "Sustainability": 3,
+    "Political_Economy": 20
   },
   "regions_scraped": 17,
   "verticals": {
