@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-09T13:07:03Z",
-  "last_updated_ist": "09 May 2026, 06:37 PM IST",
-  "total": 142,
+  "last_updated": "2026-05-09T14:26:01Z",
+  "last_updated_ist": "09 May 2026, 07:56 PM IST",
+  "total": 145,
   "articles": [
     {
       "id": "7b03542c806fc48e9b9414976940927a",
@@ -591,6 +591,66 @@
       "scraped_date": "2026-05-09",
       "relative_time": "Today",
       "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "fe526649f361f3a4b9206bfc88f84cf0",
+      "title": "APEDA Facilitates First-Ever Export of 20 Metric Tons of ODOP Honey from Assam’s Aspirational District Baksa to USA",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259436",
+      "date": "2026-05-09",
+      "scraped_date": "2026-05-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "Assam Produces Around 1,650 Metric Tons of Honey; Baksa Among Key Honey-Producing Districts in BTR ODOP Honey Export from Baksa Expected to Deliver Nearly 43% Higher Returns to Local Beekeepers and Farmers\nIn a major boost to the diversification of India’s agricultural exports and furthering the One District One Product (ODOP) initiative, the first-ever export consignment of ODOP honey from Baksa, an Aspirational District in Assam, to the USA was flagged off on 09 May 2026 through the initiative of APEDA. The consignment, comprising 20 Metric Tons of honey, was exported by APEDA-registered exporter from the North Eastern Region, M/s Salt Range Foods Pvt. Ltd., Assam.\nAssam holds significant potential for honey production owing to its rich biodiversity, abundant forest resources and long-standing tradition of beekeeping. Honey collection has been practised for centuries by indigenous communities such as the Karbi, Mishing and Bodo tribes, where honey has traditionally been used as food, medicine and in cultural and religious practices.\nMajor honey-producing districts in the state include Baksa, Kokrajhar, Chirang, Udalguri and Tamulpur in the Bodoland Territorial Region (BTR). As per the latest data from the National Horticulture Board, Assam produced approximately 1,650 Metric Tons of honey during FY 2023–24.\nSourced from eco-friendly and pesticide-free environments, honey from Baksa district is known for its high quality and near-organic characteristics, reflecting the region’s rich biodiversity and sustainable agricultural practices.\nBaksa honey has also been identified under the ODOP initiative, recognising its strong potential for livelihood generation, value addition and export growth. The honey is widely known for its natural purity, rich floral diversity and high nutritional and medicinal value.\nThe ODOP initiative, aligned with the Government of India’s vision of promoting district-specific products, aims to identify, brand and promote one product from each district to enhance value addition, generate employment opportunities and strengthen local economies. By connecting such products to global markets, the initiative plays a key role in diversifying India’s export basket and empowering farmers and local producers.\nThe Agricultural and Processed Food Products Export Development Authority (APEDA), under the Ministry of Commerce and Industry, facilitated the export by supporting infrastructure development, including the provision of testing and laboratory equipment at the processing facility to ensure compliance with international quality standards and food safety requirements.\nThe initiative is expected to significantly benefit local beekeepers and farmers, with producers receiving nearly 43 per cent higher price realisation compared to prevailing local farm gate prices, thereby enhancing income opportunities and strengthening rural livelihoods in the region.\nThe export initiative marks a significant milestone in integrating farmers from A",
+      "summary": "Assam Produces Around 1,650 Metric Tons of Honey; Baksa Among Key Honey-Producing Districts in BTR ODOP Honey Export from Baksa Expected to Deliver Nearly 43% Higher Returns to Local Beekeepers and Farmers In a major boost to the diversification of India’s agricultural exports and furthering the One District One Product (ODOP) initiative, the first-ever export consignment of ODOP honey from Baksa, an Aspirational District in Assam, to the USA was flagged off on 09 May 2026 through the initiative of APEDA. The consignment, comprising 20 Metric Tons of honey, was exported by APEDA-registered exporter from the North Eastern Region, M/s Salt Range Foods Pvt. Assam holds significant potential for honey production owing to its rich biodiversity, abundant forest resources and long-standing tradition of beekeeping.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "09956e21d8c790110b8d3c65b9c3d5ce",
+      "title": "IOS SAGAR ARRIVES AT CHATTOGRAM, BANGLADESH DURING MULTINATIONAL DEPLOYMENT",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259442",
+      "date": "2026-05-09",
+      "scraped_date": "2026-05-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "00129173055ded64427df2dd0dfbfa42",
+      "title": "Akashvani organises Walkathon to celebrate 90 years",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259440",
+      "date": "2026-05-09",
+      "scraped_date": "2026-05-09",
+      "relative_time": "Today",
+      "region": "Chandigarh",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -2700,10 +2760,10 @@
       "section": "other"
     }
   ],
-  "other_count": 109,
+  "other_count": 111,
   "vertical_counts": {
-    "EoDB": 3,
-    "EooDB": 3,
+    "EoDB": 4,
+    "EooDB": 4,
     "CoDED": 4,
     "iLEAP": 5,
     "ELS": 5,
