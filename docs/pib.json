@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-09T14:26:01Z",
-  "last_updated_ist": "09 May 2026, 07:56 PM IST",
-  "total": 145,
+  "last_updated": "2026-05-09T15:53:28Z",
+  "last_updated_ist": "09 May 2026, 09:23 PM IST",
+  "total": 146,
   "articles": [
     {
       "id": "7b03542c806fc48e9b9414976940927a",
@@ -658,6 +658,24 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "ecf64430fdfc5fbff97ad1095d56db44",
+      "title": "PM to Dedicate Railway Infrastructure Projects Worth Around ₹1,535 Crore in Telangana on 10th May, Strengthening Rail Connectivity, Reducing Congestion and Improving Passenger Mobility",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259477",
+      "date": "2026-05-09",
+      "scraped_date": "2026-05-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "vertical_scores": {},
       "section": "other"
     },
@@ -2760,7 +2778,7 @@
       "section": "other"
     }
   ],
-  "other_count": 111,
+  "other_count": 112,
   "vertical_counts": {
     "EoDB": 4,
     "EooDB": 4,
