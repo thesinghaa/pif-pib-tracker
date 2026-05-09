@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-09T02:13:10Z",
-  "last_updated_ist": "09 May 2026, 07:43 AM IST",
-  "total": 111,
+  "last_updated": "2026-05-09T05:34:30Z",
+  "last_updated_ist": "09 May 2026, 11:04 AM IST",
+  "total": 116,
   "articles": [
     {
       "id": "7b03542c806fc48e9b9414976940927a",
@@ -43,6 +43,78 @@
       "id": "87d4997b4735b02b3d8fd26b677c031a",
       "title": "Union Fisheries Secretary visits ornamental fish brood bank and interacted with Progressive Fish Farmers under Pradhan Mantri Matsya Sampada Yojna (PMMSY) at Maharashtra",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259238",
+      "date": "2026-05-09",
+      "scraped_date": "2026-05-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "af79faba2a47a026574533a335999869",
+      "title": "Prime Minister pays heartfelt tributes to Gurudev Rabindranath Tagore on the occasion of Pochishe Boishakh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259252",
+      "date": "2026-05-09",
+      "scraped_date": "2026-05-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e3fed57f77e208d331d2cfa4708eef6e",
+      "title": "Three Jan Suraksha Schemes - Pradhan Mantri Suraksha Bima Yojana (PMSBY), Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) and Atal Pension Yojana (APY) complete 11 years of providing social security cover",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259251",
+      "date": "2026-05-09",
+      "scraped_date": "2026-05-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f76df69d1c6cea5c62a5f82c78a578d2",
+      "title": "Prime Minister pays tributes to Maharana Pratap on his Jayanti",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259250",
+      "date": "2026-05-09",
+      "scraped_date": "2026-05-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "0fb30bfc41bc1009f8f80f12aec8bfea",
+      "title": "RAKSHA RAJYA MANTRI VISITS TRIVANDRUM MILITARY STATION",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259249",
       "date": "2026-05-09",
       "scraped_date": "2026-05-09",
       "relative_time": "Today",
@@ -1026,6 +1098,28 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "6c81a0bdeae366c5eae8506fe2c51381",
+      "title": "RASHTRIYA BOUDHIK SAMPADA MAHOTSAV-2026 AT CSIR-IIP, DEHRADUN",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259255",
+      "date": "2026-05-08",
+      "scraped_date": "2026-05-09",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "CSIR-Indian Institute of Petroleum, Dehradun celebrated Rashtriya Boudhik Sampada Mahotsav (RBSM) 2026 on 8 th May 2026 to promote intellectual Property (IP) awareness in India. It is a part of the Azadi Ka Amrit Mahotsav initiative and was first launched in July 2023.\nThe programme started with the lamp lighting and Saraswati Vandana. The opening remarks were given by Dr. D V Naik, In-charge, IPMG, CSIR-IIP followed by brief address of Dr. Maity, Chairman PPC. This was followed by insightful talk on “Fuelling Innovation: The role of Intellectual Property in Technology and Industrial Advancement” by Dr. Kapil Arya from CSIR-Innovation Protection Unit, New Delhi. The Chief Guest of event, Dr Shikha Tejaswi, Patent Attorney and Founder of TEJASWI-IP Noida highlighted the importance of strategic drafting and claims during filing Indian patent applications.\nThereafter, the winners of IP quiz competition conducted on 6 th May 2026 were felicitated. The event concluded with the vote of thanks by Shri Hemant Kulkarni, Chief Scientist. The program was compeered by Dr Jyoti Porwal, CSIR-IIP and was attended by research scholars and staff of CSIR-IIP.",
+      "summary": "CSIR-Indian Institute of Petroleum, Dehradun celebrated Rashtriya Boudhik Sampada Mahotsav (RBSM) 2026 on 8 th May 2026 to promote intellectual Property (IP) awareness in India. It is a part of the Azadi Ka Amrit Mahotsav initiative and was first launched in July 2023. The programme started with the lamp lighting and Saraswati Vandana.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "CoDED": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "376d390c7dec84a3b35e09f3b5f8a4b4",
@@ -2134,11 +2228,11 @@
       "section": "other"
     }
   ],
-  "other_count": 80,
+  "other_count": 84,
   "vertical_counts": {
     "EoDB": 3,
     "EooDB": 3,
-    "CoDED": 3,
+    "CoDED": 4,
     "iLEAP": 5,
     "ELS": 5,
     "Sustainability": 2,
