@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-09T11:00:22Z",
-  "last_updated_ist": "09 May 2026, 04:30 PM IST",
-  "total": 133,
+  "last_updated": "2026-05-09T11:53:06Z",
+  "last_updated_ist": "09 May 2026, 05:23 PM IST",
+  "total": 134,
   "articles": [
     {
       "id": "7b03542c806fc48e9b9414976940927a",
@@ -425,6 +425,24 @@
       "scraped_date": "2026-05-09",
       "relative_time": "Today",
       "region": "Jaipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "be54f6b268453268a87bd6f0a3109a71",
+      "title": "India conducts successful flight-trial of Advanced Agni missile with Multiple Independently Targeted Re-Entry Vehicle system",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259380",
+      "date": "2026-05-09",
+      "scraped_date": "2026-05-09",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -2534,7 +2552,7 @@
       "section": "other"
     }
   ],
-  "other_count": 101,
+  "other_count": 102,
   "vertical_counts": {
     "EoDB": 3,
     "EooDB": 3,
