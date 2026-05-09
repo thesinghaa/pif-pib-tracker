@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-09T15:53:28Z",
-  "last_updated_ist": "09 May 2026, 09:23 PM IST",
-  "total": 146,
+  "last_updated": "2026-05-09T16:52:35Z",
+  "last_updated_ist": "09 May 2026, 10:22 PM IST",
+  "total": 147,
   "articles": [
     {
       "id": "7b03542c806fc48e9b9414976940927a",
@@ -676,6 +676,24 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "206c0f87ced13c4d6aeced1ad31bbd07",
+      "title": "Major breakthrough in Hypersonic Missile development: DRDO conducts extensive long-duration test of Actively Cooled Full Scale Scramjet Combustor",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259482",
+      "date": "2026-05-09",
+      "scraped_date": "2026-05-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
     },
@@ -2778,7 +2796,7 @@
       "section": "other"
     }
   ],
-  "other_count": 112,
+  "other_count": 113,
   "vertical_counts": {
     "EoDB": 4,
     "EooDB": 4,
