@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-10T09:35:41Z",
-  "last_updated_ist": "10 May 2026, 03:05 PM IST",
-  "total": 93,
+  "last_updated": "2026-05-10T11:09:36Z",
+  "last_updated_ist": "10 May 2026, 04:39 PM IST",
+  "total": 94,
   "articles": [
     {
       "id": "1f167e34fb590c7f38924dd07dc14bbe",
@@ -43,6 +43,24 @@
       "id": "ec07e1efcc2cdcbeede060104fe2c6b2",
       "title": "Text of PM’s speech during the 45th anniversary celebrations of The Art of Living in Bengaluru",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259511",
+      "date": "2026-05-10",
+      "scraped_date": "2026-05-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "0250654d8fd32d5ff578e736fef5e025",
+      "title": "Prime Minister shares highlights from his address during the 45th anniversary celebrations of The Art of Living in Bengaluru",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259515",
       "date": "2026-05-10",
       "scraped_date": "2026-05-10",
       "relative_time": "Today",
@@ -1744,7 +1762,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 78,
+  "other_count": 79,
   "vertical_counts": {
     "EoDB": 3,
     "EooDB": 3,
