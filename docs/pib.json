@@ -1,8 +1,26 @@
 {
-  "last_updated": "2026-05-10T05:48:06Z",
-  "last_updated_ist": "10 May 2026, 11:18 AM IST",
-  "total": 90,
+  "last_updated": "2026-05-10T08:15:52Z",
+  "last_updated_ist": "10 May 2026, 01:45 PM IST",
+  "total": 91,
   "articles": [
+    {
+      "id": "1f167e34fb590c7f38924dd07dc14bbe",
+      "title": "Prime Minister congratulates Thiru C. Joseph Vijay on taking oath as Tamil Nadu Chief Minister",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259495",
+      "date": "2026-05-10",
+      "scraped_date": "2026-05-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "7b03542c806fc48e9b9414976940927a",
       "title": "Vice Admiral Krishna Swaminathan appointed as Chief of the Naval Staff",
@@ -1690,7 +1708,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 75,
+  "other_count": 76,
   "vertical_counts": {
     "EoDB": 3,
     "EooDB": 3,
