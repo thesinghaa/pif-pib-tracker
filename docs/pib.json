@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-10T13:06:57Z",
-  "last_updated_ist": "10 May 2026, 06:36 PM IST",
-  "total": 99,
+  "last_updated": "2026-05-10T14:30:47Z",
+  "last_updated_ist": "10 May 2026, 08:00 PM IST",
+  "total": 104,
   "articles": [
     {
       "id": "1f167e34fb590c7f38924dd07dc14bbe",
@@ -162,6 +162,100 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "2434d9136e5fbbdd95d2750b0ea8ec59",
+      "title": "Prime Minister inaugurates Sindhu Hospital in Hyderabad",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259572",
+      "date": "2026-05-10",
+      "scraped_date": "2026-05-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "7a71a64629e30413144d9479ca7fda3c",
+      "title": "Prime Minister meets Sri Sri Ravi Shankar Ji at Art of Living",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259571",
+      "date": "2026-05-10",
+      "scraped_date": "2026-05-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "46772af502b73101b9c91101db07b206",
+      "title": "Union Home Minister and Minister of Cooperation, Shri Amit Shah, reviews country's preparedness to deal with potential floods and heat waves in a comprehensive manner during an important high-level meeting held in New Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259563",
+      "date": "2026-05-10",
+      "scraped_date": "2026-05-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "dd39c2afda395ad32fe157b29044b5c7",
+      "title": "Water conservation should become a mass movement: appeals Union Minister Shri Nitin Gadkari",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259558",
+      "date": "2026-05-10",
+      "scraped_date": "2026-05-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "‘Jal-samvad’ and ‘Jalkranti’ conferences to be organised in Nagpur on 17th and 18th May\nNagpur, May 10, 2026\nUnion minister for road transport and highways, Shri Nitin Gadkari said that, to remove the stigma of Vidarbha being known as a farmer suicide zone, form Vidarbha and ensure water prosperity in the region’s villages, water conversation should become a mass movement. On the occasion of the silver jubilee of Poorti Sinchan Samruddhi Kalyankari Sanstha, which works in the field of water conservation in Vidarbha, the “Jalsamvad” (water dialogue) and “Jalkranti” (water-revolution) conferences have been organized in Nagpur on May 17 and 18. Gadkari was addressing a press conference held today to provide information about these events. MLAs Charansing Thakur and Umesh Yawalkar were also present in the press meet.\nShri Gadkari further said that, we do not have water scarcity in the country; but we lack proper planning and management of water resources. He also clarified that we can achieve water management through organic farming, drip irrigation, and the use of artificial intelligence in agriculture.\nHe pointed out that the use of soil excavated from farm ponds in the construction of national highways has helped increase groundwater levels in the western Vidarbha districts of Akola, Washim, and Buldhana. He also categorically mentioned that farmers in the region have changed their cropping patterns accordingly. Participation of non-governmental organisations in water conservation is important, but peoples’ active participation is equally valuable, hence; water conservation must become a mass movement, asserted Shri Gadkari. He further stated that in the groundwater-deficient “dark zone” areas of Warud-Morshi and Katol-Narkhed, conservation work related to deepening rivers and streams is being carried out with public participation, and through these efforts, water conservation projects are being undertaken in the region. Gadkari also appealed to local self-government bodies to contribute significantly to these initiatives.\nPoorti Sinchan Samruddhi Kalyankari Sanstha, is constantly working in water conservation for the last 25 years. ‘Tamaswada Model’ developed by the organisation is being recognized across the country.\nMarking the silver jubilee year of the organization, two-day national conferences have been organised in Nagpur. The silver jubilee celebrations will be held in two phases — “Nagpur Jalsamvad-2026” on May 17, 2026, and the “Jalkranti Conference” on May 18, 2026.\nProminent water experts, Padma awardees, and distinguished personalities from the social sector from across the country are expected to participate in these events.\nOn the first day of the silver jubilee celebrations, Sunday, May 17, 2026, at 4:00 PM, the national conference “Nagpur Jalsamvad 2026” will be organised at Dr. Vasantrao Deshpande Auditorium in Civil Lines.\nAn in-depth discussion will be done on the theme, “Water conservation, as a solution for a farmer’s suicide",
+      "summary": "‘Jal-samvad’ and ‘Jalkranti’ conferences to be organised in Nagpur on 17th and 18th May Nagpur, May 10, 2026 Union minister for road transport and highways, Shri Nitin Gadkari said that, to remove the stigma of Vidarbha being known as a farmer suicide zone, form Vidarbha and ensure water prosperity in the region’s villages, water conversation should become a mass movement. On the occasion of the silver jubilee of Poorti Sinchan Samruddhi Kalyankari Sanstha, which works in the field of water conservation in Vidarbha, the “Jalsamvad” (water dialogue) and “Jalkranti” (water-revolution) conferences have been organized in Nagpur on May 17 and 18. Gadkari was addressing a press conference held today to provide information about these events.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "3fe3fc06fc4d236fdb6877b1018fadae",
+      "title": "INS SAGARDHWANI ENHANCES INDIA–VIETNAM MARITIME & SCIENTIFIC COOPERATION",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259584",
+      "date": "2026-05-10",
+      "scraped_date": "2026-05-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
     },
@@ -1852,14 +1946,14 @@
       "section": "vertical"
     }
   ],
-  "other_count": 84,
+  "other_count": 88,
   "vertical_counts": {
     "EoDB": 3,
     "EooDB": 3,
     "CoDED": 2,
     "iLEAP": 2,
     "ELS": 0,
-    "Sustainability": 1,
+    "Sustainability": 2,
     "Political_Economy": 7
   },
   "regions_scraped": 15,
