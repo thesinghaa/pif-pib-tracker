@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-12T02:14:14Z",
-  "last_updated_ist": "12 May 2026, 07:44 AM IST",
-  "total": 81,
+  "last_updated": "2026-05-12T06:08:17Z",
+  "last_updated_ist": "12 May 2026, 11:38 AM IST",
+  "total": 87,
   "articles": [
     {
       "id": "91cc05cba002cac1545f0c319facd348",
@@ -20,6 +20,82 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "d936efdd263f937c20573ea11bc82e03",
+      "title": "India Hosts Kimberley Process Intersessional Meeting 2026 in Mumbai",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2260137",
+      "date": "2026-05-12",
+      "scraped_date": "2026-05-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "ae13c9e4cdeda5d74f0daf5f4f3d2283",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah extends greetings on Sirhind Fateh Divas of Baba Banda Singh Bahadur Ji",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2260134",
+      "date": "2026-05-12",
+      "scraped_date": "2026-05-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "20feb6f3c690186a8ba0dac58e2b4f8a",
+      "title": "National Technology Day Celebrated at CSIR with Transfer of 13 Indigenous Technologies Developed by CSIR-Central Building Research Institute to Industry",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2260122",
+      "date": "2026-05-12",
+      "scraped_date": "2026-05-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "8859cc96a185cbde14dc95a104a7da14",
+      "title": "First Capacity Building Programme for the Civil Servants of Seychelles commences at National Centre for Good Governance (NCGG), Mussoorie",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2260114",
+      "date": "2026-05-12",
+      "scraped_date": "2026-05-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The 29-member delegation is led by Mr. Alex Henderson, Deputy Cabinet Secretary for Policy Affairs, Cabinet Office, Office of the President and attended by senior civil servants from Ministry of Homeland Security & Civils Affairs, Office of the President State House, Department of Defense, Ministry of Education and Human Resource Development, Judiciary etc.\nThe National Centre for Good Governance (NCGG) commenced the First Capacity Building Programme for the Civil Servants of Seychelles on 11 th May, 2026. The 2-week program is being organized from 11 th May, 2026 to 22 nd May, 2026 in collaboration with the Ministry of External Affairs (MEA) in Mussoorie and New Delhi. This first cohort brings together 29 high-ranking officials, including Directors General and senior officers across critical sectors such as Defense, IT, Finance, Judiciary, education, public administration, the Office of the President, among other senior officials.\nThe program is the first milestone of a landmark Memorandum of Understanding (MoU) signed in February 2026 between the NCGG and the Public Service Bureau (PSB) of Seychelles. This three-year agreement outlines a comprehensive roadmap to train 250 Seychellois civil servants, focusing on strengthening institutional leadership and accelerating digital transformation.\nThe inaugural session was chaired by Dr. Surendrakumar Bagde, Director General of the National Centre for Good Governance, Government of India. Welcoming the 29-member delegation, Dr. Bagde highlighted the enduring historical and cultural bonds between India and Seychelles. He emphasized that the curriculum has been meticulously customized to match the officers' professional profiles, focusing on sectors vital to the sustainable development of Seychelles. “The objective is to empower officers with the tools and knowledge to design and implement high-impact national programmes,” Dr. Bagde stated. He invited the participants to present case studies from their respective departments, fostering a collaborative environment for cross-country learning and identifying future training themes.\nMr. Alex Henderson, Deputy Cabinet Secretary for Policy Affairs, Cabinet Office, Office of the President & head of the delegation expressed gratitude to the Indian Government for this opportunity. He emphasized that the training programme would not only enhance capacity building but also foster bilateral dialogue and lead to strengthening of ties between India and Seychelles.\nDr. BS Bisht, Associate Professor, NCGG and Course Coordinator of the programme gave detailed information about National Centre for Good Governance and the milestones achieved by the NCGG over the years. He highlighted how the training will focus on inter-disciplinary fields of public policy with focus on Principles of Good Governance, Policy Framing and Implementation, Technological Innovations in Governance, Court Management and Judicial Reforms in India, e-Courts and Digitization: Transforming Legal Acces",
+      "summary": "Alex Henderson, Deputy Cabinet Secretary for Policy Affairs, Cabinet Office, Office of the President and attended by senior civil servants from Ministry of Homeland Security & Civils Affairs, Office of the President State House, Department of Defense, Ministry of Education and Human Resource Development, Judiciary etc. The National Centre for Good Governance (NCGG) commenced the First Capacity Building Programme for the Civil Servants of Seychelles on 11 th May, 2026. The 2-week program is being organized from 11 th May, 2026 to 22 nd May, 2026 in collaboration with the Ministry of External Affairs (MEA) in Mussoorie and New Delhi.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "3af5e9ec09c5701b8353ecbc0d4a1719",
@@ -1174,6 +1250,42 @@
       "section": "other"
     },
     {
+      "id": "113c8bec15c269de1ee78111269cd857",
+      "title": "Shri Dharmendra Pradhan inaugurates India’s First Integrated CCUS Field Laboratory Facility under Bharat Innovates 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2260083",
+      "date": "2026-05-11",
+      "scraped_date": "2026-05-12",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "b524e405d9f1814da12103e0b7725e9c",
+      "title": "Post offices to conduct Mandatory Biometric Update Camps in schools",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2260108",
+      "date": "2026-05-11",
+      "scraped_date": "2026-05-12",
+      "relative_time": "Yesterday",
+      "region": "Thiruvananthapuram",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
       "id": "1f167e34fb590c7f38924dd07dc14bbe",
       "title": "Prime Minister congratulates Thiru C. Joseph Vijay on taking oath as Tamil Nadu Chief Minister",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2259495",
@@ -1520,7 +1632,7 @@
       "section": "other"
     }
   ],
-  "other_count": 67,
+  "other_count": 72,
   "vertical_counts": {
     "EoDB": 1,
     "EooDB": 1,
@@ -1528,7 +1640,7 @@
     "iLEAP": 3,
     "ELS": 2,
     "Sustainability": 3,
-    "Political_Economy": 3
+    "Political_Economy": 4
   },
   "regions_scraped": 11,
   "verticals": {
