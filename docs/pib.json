@@ -1,8 +1,26 @@
 {
-  "last_updated": "2026-05-11T23:58:24Z",
-  "last_updated_ist": "12 May 2026, 05:28 AM IST",
-  "total": 80,
+  "last_updated": "2026-05-12T02:14:14Z",
+  "last_updated_ist": "12 May 2026, 07:44 AM IST",
+  "total": 81,
   "articles": [
+    {
+      "id": "91cc05cba002cac1545f0c319facd348",
+      "title": "CSIR-CBRI, Roorkee Transfers 13 Indigenous Technologies to Industry on National Technology Day",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2260075",
+      "date": "2026-05-12",
+      "scraped_date": "2026-05-12",
+      "relative_time": "Today",
+      "region": "Dehradun",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "3af5e9ec09c5701b8353ecbc0d4a1719",
       "title": "Prime Minister shares an article highlighting the resilience and civilisational significance of the Somnath temple",
@@ -1502,7 +1520,7 @@
       "section": "other"
     }
   ],
-  "other_count": 66,
+  "other_count": 67,
   "vertical_counts": {
     "EoDB": 1,
     "EooDB": 1,
