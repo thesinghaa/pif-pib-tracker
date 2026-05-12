@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-12T06:08:17Z",
-  "last_updated_ist": "12 May 2026, 11:38 AM IST",
-  "total": 87,
+  "last_updated": "2026-05-12T08:47:06Z",
+  "last_updated_ist": "12 May 2026, 02:17 PM IST",
+  "total": 92,
   "articles": [
     {
       "id": "91cc05cba002cac1545f0c319facd348",
@@ -94,6 +94,104 @@
       "sentiment": "neutral",
       "vertical_scores": {
         "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "fb513835f54e40bca1d147368ccf90dc",
+      "title": "President of India Confers National Florence Nightingale Awards 2026 to 15 Awardees at Rashtrapati Bhavan",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2260185",
+      "date": "2026-05-12",
+      "scraped_date": "2026-05-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "0b12a4b0ecc51bf7e7b4659f457b9ec2",
+      "title": "PRESIDENT OF INDIA PRESENTS NATIONAL FLORENCE NIGHTINGALE AWARDS 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2260178",
+      "date": "2026-05-12",
+      "scraped_date": "2026-05-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c636059dac7a17aef39a68d4ffa05e9e",
+      "title": "The Sports Authority of India and MyBharat Launches Nationwide Engagement Initiatives Ahead of Commonwealth Games",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2260164",
+      "date": "2026-05-12",
+      "scraped_date": "2026-05-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "557e91f841fbb2d27948031d5bbdd7c8",
+      "title": "Chief Secretary of Meghalaya Completes Self-Enumeration for Census 2027",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2260168",
+      "date": "2026-05-12",
+      "scraped_date": "2026-05-12",
+      "relative_time": "Today",
+      "region": "Shillong",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Dr. Shakeel P. Ahammed, IAS, Chief Secretary to the Government of Meghalaya, successfully completed the Self-Enumeration process for the House-Listing Operations (HLO) of Census 2027 today through the Self-Enumeration portal.\nThe Self-Enumeration process for Census 2027 in Meghalaya commenced on May 1, 2026, marking an important step towards the implementation of the digital initiatives introduced for the upcoming Census exercise aimed at facilitating efficient and citizen-friendly data collection.\nPresent on the occasion were Dr. Pooja Pandey, IAS, Commissioner & Secretary to the Government of Meghalaya and State Nodal Officer for Census 2027, along with Shri Swapnil Tembe, IAS, Secretary to the Government of Meghalaya and Additional State Nodal Officer.\nRepresenting the Directorate of Census Operations, Meghalaya, Office of the Registrar General & Census Commissioner of India, were Shri Subhasish Chatterjee, Joint Director, and Shri Aibor Sanglyne, Deputy Director.\nThe Self-Enumeration process was completed smoothly and conveniently using the dedicated Self-Enumeration portal, one of the key digital tools developed for the House-Listing Operations of Census 2027. The initiative reflects the Government’s commitment towards leveraging technology for accurate, efficient, and streamlined census operations.",
+      "summary": "Ahammed, IAS, Chief Secretary to the Government of Meghalaya, successfully completed the Self-Enumeration process for the House-Listing Operations (HLO) of Census 2027 today through the Self-Enumeration portal. The Self-Enumeration process for Census 2027 in Meghalaya commenced on May 1, 2026, marking an important step towards the implementation of the digital initiatives introduced for the upcoming Census exercise aimed at facilitating efficient and citizen-friendly data collection. Pooja Pandey, IAS, Commissioner & Secretary to the Government of Meghalaya and State Nodal Officer for Census 2027, along with Shri Swapnil Tembe, IAS, Secretary to the Government of Meghalaya and Additional State Nodal Officer.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "CoDED": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "01c5f9dfc298aefe719cf0bb0c335435",
+      "title": "National Technology Day Celebrated at Forest Research Institute, Dehradun",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2260181",
+      "date": "2026-05-12",
+      "scraped_date": "2026-05-12",
+      "relative_time": "Today",
+      "region": "Dehradun",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "- The exhibition aimed to disseminate scientific and technical knowledge through posters, models, and display materials - Forest protection division presented three novel fungal species new to science—Calonectria populi, Calonectria caudovesiculata, and Trichoderma frianum\nForest Research Institute celebrated National Technology Day on 11th May 2026 with great enthusiasm. The exhibition aimed to disseminate scientific and technical knowledge through posters, models, and display materials. All Heads of Divisions, Scientists, and Officers of the Institute participated and presented their recent scientific achievements and technological advancements.\nThe exhibition was inaugurated at 10:30 AM by Smt. Richa Misra, IFS, Director In-charge, Forest Research Institute, Dehradun. She visited the exhibition, interacted with scientists, and appreciated the innovative research and technologies developed by various divisions. She encouraged scientists and officers to continue their efforts in effectively disseminating research outcomes for the benefit of society.\nThe major highlights of the exhibition included thermo-hygro-mechanically modified wood, hydrophobic wood of superior quality, and advanced wood finishes mimicking materials such as tiles, stone, and metal. Other exhibits featured molecular and biotechnological interventions aimed at enhancing disease tolerance and adaptability of elite tree genotypes under diverse agro-climatic conditions. Innovative hydroponic and aeroponic techniques for bamboo propagation, improved germplasm, and other advanced forestry technologies were also showcased.\nForest protection division presented three novel fungal species new to science—Calonectria populi, Calonectria caudovesiculata, and Trichoderma frianum. In addition, various techniques and methodological approaches for assessing industrial pollution were exhibited. Informational materials such as pamphlets, brochures, leaflets, and booklets highlighting research outputs and technologies developed by different divisions were also displayed. All the museums of the Institute were opened without any entry fee on the National Technology Day.",
+      "summary": "- The exhibition aimed to disseminate scientific and technical knowledge through posters, models, and display materials - Forest protection division presented three novel fungal species new to science—Calonectria populi, Calonectria caudovesiculata, and Trichoderma frianum Forest Research Institute celebrated National Technology Day on 11th May 2026 with great enthusiasm. The exhibition aimed to disseminate scientific and technical knowledge through posters, models, and display materials. All Heads of Divisions, Scientists, and Officers of the Institute participated and presented their recent scientific achievements and technological advancements.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
       },
       "section": "vertical"
     },
@@ -1632,17 +1730,17 @@
       "section": "other"
     }
   ],
-  "other_count": 72,
+  "other_count": 75,
   "vertical_counts": {
     "EoDB": 1,
     "EooDB": 1,
-    "CoDED": 2,
+    "CoDED": 3,
     "iLEAP": 3,
     "ELS": 2,
-    "Sustainability": 3,
+    "Sustainability": 4,
     "Political_Economy": 4
   },
-  "regions_scraped": 11,
+  "regions_scraped": 12,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
