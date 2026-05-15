@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-15T02:23:16Z",
-  "last_updated_ist": "15 May 2026, 07:53 AM IST",
-  "total": 137,
+  "last_updated": "2026-05-15T06:36:02Z",
+  "last_updated_ist": "15 May 2026, 12:06 PM IST",
+  "total": 139,
   "articles": [
     {
       "id": "e95057d0fe949efc8f9258d47ee14063",
@@ -1532,6 +1532,42 @@
       "section": "other"
     },
     {
+      "id": "559e4273cfa55c84989e90ece99c3443",
+      "title": "India Post Conducts Awareness Programme on Aadhaar Updation under \"One Region-One Mission - Updated Aadhaar for All\"",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261282",
+      "date": "2026-05-14",
+      "scraped_date": "2026-05-15",
+      "relative_time": "Yesterday",
+      "region": "Thiruvananthapuram",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e0661a20cebf33cfd3d0f4ff7c4ba908",
+      "title": "Consumer Outreach Programme at Dalhosie.",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261285",
+      "date": "2026-05-14",
+      "scraped_date": "2026-05-15",
+      "relative_time": "Yesterday",
+      "region": "Shimla",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
       "id": "ebeae6698fdacc8639e850ac14a6b63c",
       "title": "National Quiz for Viksit Vibrant Villages Program 2026 Launched",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2260505",
@@ -2594,7 +2630,7 @@
       "section": "other"
     }
   ],
-  "other_count": 111,
+  "other_count": 113,
   "vertical_counts": {
     "EoDB": 7,
     "EooDB": 7,
