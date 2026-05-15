@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-15T16:10:24Z",
-  "last_updated_ist": "15 May 2026, 09:40 PM IST",
-  "total": 214,
+  "last_updated": "2026-05-15T17:36:47Z",
+  "last_updated_ist": "15 May 2026, 11:06 PM IST",
+  "total": 215,
   "articles": [
     {
       "id": "05b404c6d45ec2aae01e0794ca39beb9",
@@ -1414,6 +1414,24 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "8ac8cb1529215bb2cf214e6193cf8e1b",
+      "title": "Ministry of Tribal Affairs and IIT Delhi Organise Seminar on “Role of AI and Technology in Strengthening Sustainable Tribal Development” under Janjatiya Garima Utsav 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261660",
+      "date": "2026-05-15",
+      "scraped_date": "2026-05-15",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "vertical_scores": {},
       "section": "other"
     },
@@ -4062,7 +4080,7 @@
       "section": "other"
     }
   ],
-  "other_count": 172,
+  "other_count": 173,
   "vertical_counts": {
     "EoDB": 14,
     "EooDB": 14,
