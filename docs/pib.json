@@ -1,8 +1,44 @@
 {
-  "last_updated": "2026-05-16T02:15:52Z",
-  "last_updated_ist": "16 May 2026, 07:45 AM IST",
-  "total": 159,
+  "last_updated": "2026-05-16T05:57:55Z",
+  "last_updated_ist": "16 May 2026, 11:27 AM IST",
+  "total": 162,
   "articles": [
+    {
+      "id": "ab094e4e9ad08092885d1130c926ab96",
+      "title": "The Superfood Sweetener",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261676",
+      "date": "2026-05-16",
+      "scraped_date": "2026-05-16",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "8bb43dc4e131c7cee698a6512875efa0",
+      "title": "Inviting feedback and suggestions on the Base Paper on “Framework for Measuring the Contribution of Knowledge and Knowledge Products to the Indian Economy”",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261671",
+      "date": "2026-05-16",
+      "scraped_date": "2026-05-16",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "05b404c6d45ec2aae01e0794ca39beb9",
       "title": "Union Minister of Youth Affairs and Sports Dr. Mansukh Mansukh Mandaviya assesses India's preparedness for CWG 2026 in Glasgow",
@@ -1432,6 +1468,24 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "fead8d317b02e84a1513f41f1a5fd852",
+      "title": "Under the leadership of Prime Minister Shri Narendra Modi, our Government aims to bring development to every village, every family, every region, and every citizen: Union Minister Nimuben Bambhaniya",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261673",
+      "date": "2026-05-15",
+      "scraped_date": "2026-05-16",
+      "relative_time": "Yesterday",
+      "region": "Mizoram",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
     },
@@ -3018,7 +3072,7 @@
       "section": "other"
     }
   ],
-  "other_count": 129,
+  "other_count": 132,
   "vertical_counts": {
     "EoDB": 12,
     "EooDB": 12,
@@ -3028,7 +3082,7 @@
     "Sustainability": 7,
     "Political_Economy": 6
   },
-  "regions_scraped": 22,
+  "regions_scraped": 23,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
