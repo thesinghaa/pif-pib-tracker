@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-16T16:02:50Z",
-  "last_updated_ist": "16 May 2026, 09:32 PM IST",
-  "total": 193,
+  "last_updated": "2026-05-16T16:56:24Z",
+  "last_updated_ist": "16 May 2026, 10:26 PM IST",
+  "total": 194,
   "articles": [
     {
       "id": "ab094e4e9ad08092885d1130c926ab96",
@@ -572,6 +572,30 @@
       "sentiment": "neutral",
       "vertical_scores": {
         "Political_Economy": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "89056f280d7e7f3e2b96c2b995de7a21",
+      "title": "IIM Sambalpur & IIM Ahmedabad Launch AI4Odisha Initiative for MSME, Union Minister Dharmendra Pradhan Inaugurates Virtually",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261860",
+      "date": "2026-05-16",
+      "scraped_date": "2026-05-16",
+      "relative_time": "Today",
+      "region": "Bhubaneswar",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "IIM Sambalpur and IIM Ahmedabad Launch AI4Odisha Initiative to Drive AI-Led Growth for Local Industries and Entrepreneurs\nIIM Sambalpur, one of India’s premier management institutions, in collaboration with IIM Ahmedabad organised an AI Workshop under newly launched AI4Odisha Initiative. The workshop was virtually inaugurated by Honourable Union Education Minister, Dharmendra Pradhan. Titled “AI for Business Growth: From Local Markets to National Reach”, the practical AI awareness workshop focused on empowering local entrepreneurs and small industries to grow with artificial intelligence. The workshop aims to focus on practical AI adoption for traders, MSME & entrepreneurs to leverage AI for sustainable growth, operational excellence and national competitiveness. Over 350 local industry delegates from western Odisha were attended this workshop.\nThe workshop was graced by Shri Dharmendra Pradhan, Honourable Minister of Education, Government of India as the Chief Guest, along with Prof. Mahadeo Jaiswal, Director, IIM Sambalpur, Prof. Bharat Bhasker, Director, IIM Ahmedabad,Shri Himanshu Lal, IPS, Inspector General, North Division, Sambalpur, Ms. Ankur Sohanpal, Founder Learning, IIMA Ventures and Mr. Gopal Shah, Ideator, AI4 Odisha Ecosystem Partner.Mr. Shankar RNS from ZOHO, Claude, Gemini, Ms. Shruti Bijawat, Business Unit Head , Microsoft ,Mr.Harshit Thaker ,Co-Founder & CEO, Berrywise & Mr. Amish Thaker ,Founder & CEO ,Visity\nInaugurating the workshop, Shri Dharmendra Pradhan, Honourable Minister of Education, Government of India, as the Chief Guest, said, “I congratulate IIM Sambalpur for organising this important workshop on Artificial Intelligence and its role in strengthening India’s MSMEs. Under the leadership of Prime Minister Shri Narendra Modi, AI is empowering entrepreneurs across urban and rural India by improving productivity, expanding customer reach, and enabling sustainable growth. Initiatives like this will accelerate our journey towards an inclusive and technology-driven Viksit Bharat.”\nAddressing the participants, Prof. Mahadeo Jaiswal, Director, IIM Sambalpur, remarked, “MSMEs contributes 30% to India’s GDP and generates 67% employment in India, making them the backbone of the Indian economy. As India moves toward doubling its GDP in the next five years, Artificial Intelligence will be a transformative tool for small businesses by enabling smarter customer assessment, deeper customer engagement, and more efficient supplier management. IIM Sambalpur and IIM Ahmedabad remain committed to nurture entrepreneurs with the knowledge and tools needed to lead India’s next phase of inclusive economic growth.”\nProf. Bharat Bhasker, Director, IIM Ahmedabad stated, “This AI workshop is designed in a practical manner to help MSMEs in get benefitted in a daily basis. AI tools can help entrepreneurs identify not only new customers and analyse consumer behaviour but also identify repeat customers, and streamline supplier and business operation",
+      "summary": "IIM Sambalpur and IIM Ahmedabad Launch AI4Odisha Initiative to Drive AI-Led Growth for Local Industries and Entrepreneurs IIM Sambalpur, one of India’s premier management institutions, in collaboration with IIM Ahmedabad organised an AI Workshop under newly launched AI4Odisha Initiative. The workshop was virtually inaugurated by Honourable Union Education Minister, Dharmendra Pradhan. Titled “AI for Business Growth: From Local Markets to National Reach”, the practical AI awareness workshop focused on empowering local entrepreneurs and small industries to grow with artificial intelligence.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
       },
       "section": "vertical"
     },
@@ -3646,8 +3670,8 @@
   ],
   "other_count": 160,
   "vertical_counts": {
-    "EoDB": 13,
-    "EooDB": 13,
+    "EoDB": 14,
+    "EooDB": 14,
     "CoDED": 6,
     "iLEAP": 1,
     "ELS": 3,
