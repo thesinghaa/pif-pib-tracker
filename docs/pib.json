@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-16T05:57:55Z",
-  "last_updated_ist": "16 May 2026, 11:27 AM IST",
-  "total": 162,
+  "last_updated": "2026-05-16T08:02:40Z",
+  "last_updated_ist": "16 May 2026, 01:32 PM IST",
+  "total": 163,
   "articles": [
     {
       "id": "ab094e4e9ad08092885d1130c926ab96",
@@ -1479,6 +1479,24 @@
       "scraped_date": "2026-05-16",
       "relative_time": "Yesterday",
       "region": "Mizoram",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "63bd2d436d2cee31c54164265b6fd7cb",
+      "title": "Petrol, Diesel & LPG Supplies Across Odisha Remain Adequate and Uninterrupted",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261651",
+      "date": "2026-05-15",
+      "scraped_date": "2026-05-16",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -3072,7 +3090,7 @@
       "section": "other"
     }
   ],
-  "other_count": 132,
+  "other_count": 133,
   "vertical_counts": {
     "EoDB": 12,
     "EooDB": 12,
