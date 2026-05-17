@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-17T06:24:47Z",
-  "last_updated_ist": "17 May 2026, 11:54 AM IST",
-  "total": 121,
+  "last_updated": "2026-05-17T09:10:07Z",
+  "last_updated_ist": "17 May 2026, 02:40 PM IST",
+  "total": 123,
   "articles": [
     {
       "id": "ee497103df88d67fd88e29a5cee44531",
@@ -87,6 +87,48 @@
       "scraped_date": "2026-05-17",
       "relative_time": "Today",
       "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e5ac7dc3a7e064932d09c644bc7eaacb",
+      "title": "National Testing House (NR), Ghaziabad set to unveil the State-of-the-Art Shoe Testing Laboratory, Strengthening India’s Manufacturing and Quality Infrastructure",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261938",
+      "date": "2026-05-17",
+      "scraped_date": "2026-05-17",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "Advanced facility to support MSMEs, exporters and manufacturers with reliable, affordable and high-precision footwear testing services\nThe National Test House (NTH), Northern Region, Ghaziabad, under the Department of Consumer Affairs, Government of India, has established a state-of-the-art Shoe Testing Laboratory, significantly enhancing its capability to provide comprehensive, reliable and high precision footwear testing services for MSMEs, manufacturers, exporters, consumers and regulatory authorities across the country.\nThe establishment of this advanced facility will mark an important step towards strengthening India’s quality assurance infrastructure for the rapidly growing footwear sector and reinforcing India’s manufacturing competitiveness .\nFootwear forms an essential part of everyday life, and consumers increasingly expect products that are durable, comfortable, safe, and suitable for long hours of use and varying environmental conditions. Ensuring such quality requires rigorous testing and evaluation to verify parameters such as slip resistance, durability, material strength, and the absence of harmful chemicals and dyes.\nNTH Ghaziabad’s upgraded Shoe Testing Laboratory is equipped with modern testing instruments and advanced infrastructure to evaluate a wide range of footwear products in accordance with relevant Indian Standards (IS). The laboratory is capable of conducting quality testing for diverse categories of footwear, including:\n• Safety and industrial shoes\n• School and leather footwear\n• Sandals and chappals\n• Children’s footwear\n• Sports footwear\n• Specialized protective boots for industrial and hazardous environments\nThe laboratory will undertake a comprehensive range of critical performance and quality tests to ensure high standards of safety, durability, comfort, and performance. The facility has been designed to provide accurate, dependable, and timely testing services at comparatively affordable testing charges, thereby making quality assessment more accessible , particularly for MSMEs and small-scale manufacturers.\nStrategically located in Ghaziabad near major footwear manufacturing clusters such as Delhi-NCR, Kanpur, and Agra, the laboratory will facilitate faster sample testing, reduce logistics costs, and improve ease of access for the footwear industry in northern India.\nThe establishment of the Shoe Testing Laboratory represents a significant strategic initiative towards supporting India’s expanding footwear manufacturing ecosystem and strengthening the national quality infrastructure. The facility will assist manufacturers in meeting stringent domestic and international quality requirements, thereby enhancing product reliability, consumer safety, export competitiveness, and market acceptance.\nThe laboratory will play an important role in facilitating quality compliance and improving the global competitiveness of Indian footwear products by supporting adherence to stringent domestic and international standards.\nK",
+      "summary": "Advanced facility to support MSMEs, exporters and manufacturers with reliable, affordable and high-precision footwear testing services The National Test House (NTH), Northern Region, Ghaziabad, under the Department of Consumer Affairs, Government of India, has established a state-of-the-art Shoe Testing Laboratory, significantly enhancing its capability to provide comprehensive, reliable and high precision footwear testing services for MSMEs, manufacturers, exporters, consumers and regulatory authorities across the country. The establishment of this advanced facility will mark an important step towards strengthening India’s quality assurance infrastructure for the rapidly growing footwear sector and reinforcing India’s manufacturing competitiveness . Footwear forms an essential part of everyday life, and consumers increasingly expect products that are durable, comfortable, safe, and suitable for long hours of use and varying environmental conditions.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "5320adfa260fef206ab340f53d623d9b",
+      "title": "Union Home Minister Amit Shah to Begin Two-Day Chhattisgarh Visit Tomorrow; Major State Security, Development, and High-Level Programs Slated for May 18 and 19",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261948",
+      "date": "2026-05-17",
+      "scraped_date": "2026-05-17",
+      "relative_time": "Today",
+      "region": "Raipur",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -2294,10 +2336,10 @@
       "section": "other"
     }
   ],
-  "other_count": 99,
+  "other_count": 100,
   "vertical_counts": {
-    "EoDB": 10,
-    "EooDB": 10,
+    "EoDB": 11,
+    "EooDB": 11,
     "CoDED": 4,
     "iLEAP": 1,
     "ELS": 2,
