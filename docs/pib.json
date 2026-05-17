@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-17T09:10:07Z",
-  "last_updated_ist": "17 May 2026, 02:40 PM IST",
-  "total": 123,
+  "last_updated": "2026-05-17T10:31:59Z",
+  "last_updated_ist": "17 May 2026, 04:01 PM IST",
+  "total": 129,
   "articles": [
     {
       "id": "ee497103df88d67fd88e29a5cee44531",
@@ -129,6 +129,64 @@
       "scraped_date": "2026-05-17",
       "relative_time": "Today",
       "region": "Raipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "8e824c68c88274c6d7a5b4acaf5ce5a3",
+      "title": "Union Railway Minister Shri Ashwini Vaishnaw Flags Off Bengaluru–Mumbai Express Train Strengthening Rail Connectivity Between Karnataka and Maharashtra",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261980",
+      "date": "2026-05-17",
+      "scraped_date": "2026-05-17",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "8ef12437a4b763231b467332a2359ee9",
+      "title": "Prime Minister visits Afsluitdijk Dam",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261979",
+      "date": "2026-05-17",
+      "scraped_date": "2026-05-17",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "26ed6b5dcfb152b963b67e9c43875e26",
+      "title": "S-VYASA Organises Yoga Programme as Part of 100-Day Countdown Series to International Day of Yoga 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261962",
+      "date": "2026-05-17",
+      "scraped_date": "2026-05-17",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -846,6 +904,60 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "cbe64be608302934a6e456fed3ae90d2",
+      "title": "HNLU AND MAHINDRA UNIVERSITY SIGN MOU; COLLABORATION TO REVOLUTIONIZE LEGAL EDUCATION AND INTERDISCIPLINARY RESEARCH",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261959",
+      "date": "2026-05-16",
+      "scraped_date": "2026-05-17",
+      "relative_time": "Yesterday",
+      "region": "Raipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "fb00e690b0e27b4e2ff0406b3d3fc91a",
+      "title": "NTPC Lara Launches Girl Empowerment Mission-2026 to Foster Leadership and Self-Reliance Among Rural Girls",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261970",
+      "date": "2026-05-16",
+      "scraped_date": "2026-05-17",
+      "relative_time": "Yesterday",
+      "region": "Raipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "d0229e69417c7c8e8f9ee054a22701af",
+      "title": "NTPC Sipat Launches ‘Girl Empowerment Mission-2026’ for 130 Rural Students",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261964",
+      "date": "2026-05-16",
+      "scraped_date": "2026-05-17",
+      "relative_time": "Yesterday",
+      "region": "Raipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "vertical_scores": {},
       "section": "other"
     },
@@ -2336,7 +2448,7 @@
       "section": "other"
     }
   ],
-  "other_count": 100,
+  "other_count": 105,
   "vertical_counts": {
     "EoDB": 11,
     "EooDB": 11,
@@ -2344,7 +2456,7 @@
     "iLEAP": 1,
     "ELS": 2,
     "Sustainability": 5,
-    "Political_Economy": 2
+    "Political_Economy": 3
   },
   "regions_scraped": 19,
   "verticals": {
