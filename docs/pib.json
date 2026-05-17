@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-17T14:36:47Z",
-  "last_updated_ist": "17 May 2026, 08:06 PM IST",
-  "total": 140,
+  "last_updated": "2026-05-17T16:03:28Z",
+  "last_updated_ist": "17 May 2026, 09:33 PM IST",
+  "total": 142,
   "articles": [
     {
       "id": "ee497103df88d67fd88e29a5cee44531",
@@ -406,6 +406,42 @@
         "Sustainability": 3
       },
       "section": "vertical"
+    },
+    {
+      "id": "9236497528401f63b07c5fcc447c545c",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates and lays foundation stones for various development projects of Gandhinagar Municipal Corporation worth Rs. 620 crore in Gujarat",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262066",
+      "date": "2026-05-17",
+      "scraped_date": "2026-05-17",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "930e3dac750889d88c027ea72407d239",
+      "title": "Rajdhani fire incident",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262064",
+      "date": "2026-05-17",
+      "scraped_date": "2026-05-17",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "ab094e4e9ad08092885d1130c926ab96",
@@ -2658,7 +2694,7 @@
       "section": "other"
     }
   ],
-  "other_count": 113,
+  "other_count": 115,
   "vertical_counts": {
     "EoDB": 11,
     "EooDB": 11,
