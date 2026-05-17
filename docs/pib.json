@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-17T13:08:23Z",
-  "last_updated_ist": "17 May 2026, 06:38 PM IST",
-  "total": 138,
+  "last_updated": "2026-05-17T14:36:47Z",
+  "last_updated_ist": "17 May 2026, 08:06 PM IST",
+  "total": 140,
   "articles": [
     {
       "id": "ee497103df88d67fd88e29a5cee44531",
@@ -366,6 +366,46 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "37e1cdf25223a59c593798ac28d8766d",
+      "title": "Shri Amit Shah inaugurates State-of-the-Art Milk Processing Plant of Madhur Dairy at Dashela, Giving new momentum to the vision of “Sahkar Se Samriddhi”",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262052",
+      "date": "2026-05-17",
+      "scraped_date": "2026-05-17",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f1130325d4052b6962b6a31c2a94176f",
+      "title": "Bengaluru Division Organises Plogging Drive Under World Environment Day Campaign",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262047",
+      "date": "2026-05-17",
+      "scraped_date": "2026-05-17",
+      "relative_time": "Today",
+      "region": "Bengaluru",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "As part of the World Environment Day Campaign being observed from 15.05.2026 to 05.06.2026, Bengaluru Division today organised a Plogging Drive along the railway tracks between KSR Bengaluru and Krishnadevaraya Halt stations in association with Rotary Club and India Ploggers Army.\nThe campaign was conducted to raise awareness among the public, passengers and residents living alongside the railway tracks about the importance of not littering along railway tracks and maintaining cleanliness in station areas and railway premises. Participants collected garbage and waste along the tracks during the drive.\nAround 200 participants took part in the campaign, reinforcing the message of a clean and green environment. Shri Ashutosh Kumar Singh, Divisional Railway Manager; Shri Parikshit Mohanpuria and Shri Praveen Kataraki, Additional Divisional Railway Managers; Shri Azimuddin, Senior Divisional Mechanical Engineer/Environment & Housekeeping; along with officers and staff participated in the drive.",
+      "summary": "As part of the World Environment Day Campaign being observed from 15.05.2026 to 05.06.2026, Bengaluru Division today organised a Plogging Drive along the railway tracks between KSR Bengaluru and Krishnadevaraya Halt stations in association with Rotary Club and India Ploggers Army. The campaign was conducted to raise awareness among the public, passengers and residents living alongside the railway tracks about the importance of not littering along railway tracks and maintaining cleanliness in station areas and railway premises. Participants collected garbage and waste along the tracks during the drive.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "ab094e4e9ad08092885d1130c926ab96",
@@ -2618,14 +2658,14 @@
       "section": "other"
     }
   ],
-  "other_count": 112,
+  "other_count": 113,
   "vertical_counts": {
     "EoDB": 11,
     "EooDB": 11,
     "CoDED": 6,
     "iLEAP": 1,
     "ELS": 2,
-    "Sustainability": 5,
+    "Sustainability": 6,
     "Political_Economy": 3
   },
   "regions_scraped": 20,
