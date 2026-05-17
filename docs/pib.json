@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-16T23:52:59Z",
-  "last_updated_ist": "17 May 2026, 05:22 AM IST",
-  "total": 110,
+  "last_updated": "2026-05-17T02:17:09Z",
+  "last_updated_ist": "17 May 2026, 07:47 AM IST",
+  "total": 113,
   "articles": [
     {
       "id": "ab094e4e9ad08092885d1130c926ab96",
@@ -596,6 +596,66 @@
       "vertical_scores": {
         "EoDB": 3,
         "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "58afa3552ddab886a0332003c6319d23",
+      "title": "Prime Minister meets with Dutch CEOs",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261880",
+      "date": "2026-05-16",
+      "scraped_date": "2026-05-17",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "45e0fb895a4a1170d6054ac9f2382cbe",
+      "title": "Restitution of Chola Copper Plates",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261879",
+      "date": "2026-05-16",
+      "scraped_date": "2026-05-17",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "81a92a06e3cf641137956916c8076362",
+      "title": "Prime Minister witnesses signing of agreement between ASML and Tata Electronics for Semiconductor manufacturing",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261878",
+      "date": "2026-05-16",
+      "scraped_date": "2026-05-17",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 12,
+      "snippet": "",
+      "full_content": "Prime Minister Shri Narendra Modi, accompanied by Prime Minister of the Netherlands, H.E. Mr. Rob Jetten today witnessed the signing of an agreement between Tata Electronics and ASML to support the semiconductor Fab in Dholera, Gujarat. The two Prime Ministers welcomed the decision of Tata Electronics and ASML to partner together for India’s first front-end semiconductor Fab in Gujarat. Prime Minister Modi highlighted the partnership as an important step in India’s journey for developing a semiconductor ecosystem in the country. ASML is a Dutch multinational corporation and one of the leading suppliers for high-precision lithography equipment, a critical requirement in manufacturing of semiconductor chips. Tata Electronics, a subsidiary of the Tata Group, is an Indian electronics and semiconductor manufacturing company which is establishing a semiconductor manufacturing facility in Gujarat. Prime Minister's remarks at the Roundtable Meeting with leading Dutch CEOs may be seen here [Link]",
+      "summary": "Prime Minister Shri Narendra Modi, accompanied by Prime Minister of the Netherlands, H.E. Rob Jetten today witnessed the signing of an agreement between Tata Electronics and ASML to support the semiconductor Fab in Dholera, Gujarat. The two Prime Ministers welcomed the decision of Tata Electronics and ASML to partner together for India’s first front-end semiconductor Fab in Gujarat.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "EoDB": 6,
+        "EooDB": 6
       },
       "section": "vertical"
     },
@@ -2086,10 +2146,10 @@
       "section": "other"
     }
   ],
-  "other_count": 90,
+  "other_count": 92,
   "vertical_counts": {
-    "EoDB": 9,
-    "EooDB": 9,
+    "EoDB": 10,
+    "EooDB": 10,
     "CoDED": 3,
     "iLEAP": 1,
     "ELS": 2,
