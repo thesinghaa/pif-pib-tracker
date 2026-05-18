@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-18T00:03:55Z",
-  "last_updated_ist": "18 May 2026, 05:33 AM IST",
-  "total": 70,
+  "last_updated": "2026-05-18T02:39:37Z",
+  "last_updated_ist": "18 May 2026, 08:09 AM IST",
+  "total": 71,
   "articles": [
     {
       "id": "9317ccb354ae2feb1bcb70fc86db293c",
@@ -42,6 +42,24 @@
         "Political_Economy": 3
       },
       "section": "vertical"
+    },
+    {
+      "id": "66d273f809cd435a0629b32d44b0eb3b",
+      "title": "Prime Minister's address at the European Round Table for the Industry",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262098",
+      "date": "2026-05-18",
+      "scraped_date": "2026-05-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "ee497103df88d67fd88e29a5cee44531",
@@ -1320,7 +1338,7 @@
       "section": "other"
     }
   ],
-  "other_count": 58,
+  "other_count": 59,
   "vertical_counts": {
     "EoDB": 4,
     "EooDB": 4,
