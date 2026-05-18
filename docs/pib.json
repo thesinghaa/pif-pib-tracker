@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-18T14:41:49Z",
-  "last_updated_ist": "18 May 2026, 08:11 PM IST",
-  "total": 142,
+  "last_updated": "2026-05-18T17:39:29Z",
+  "last_updated_ist": "18 May 2026, 11:09 PM IST",
+  "total": 152,
   "articles": [
     {
       "id": "9317ccb354ae2feb1bcb70fc86db293c",
@@ -1374,6 +1374,202 @@
       "section": "other"
     },
     {
+      "id": "5b9eadc7249281ab4bed5e27e05424a3",
+      "title": "Prime Minister attends the India-Norway Business and Research Summit",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262583",
+      "date": "2026-05-18",
+      "scraped_date": "2026-05-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Prime Minister Shri Narendra Modi today attended the India-Norway Business and Research Summit at Oslo. His Royal Highness Crown Prince Haakon and the Prime Minister of Norway, H.E. Jonas Gahr Støre also participated in the Summit. The Summit was attended by CEOs of over 50 companies and more than 250 participants from the Norwegian and Indian business and research communities. The Summit marked the growing momentum in bilateral economic cooperation following the coming into force of India-EFTA Trade and Economic Partnership Agreement. Prior to the high level Business and Research Summit, four roundtable sessions were organized across different locations in Oslo, focusing on healthcare innovation, maritime cooperation, batteries and energy storage systems, digitalization and electrification, and wind energy. In his address, Prime Minister Modi appreciated the growth in bilateral trade and investments following the entry into force of TEPA. He underlined that stakeholders on both sides should make efforts to achieve the investment target of USD 100 billion under TEPA and consequent creation of one million jobs in India. India’s strong upward growth trajectory, demographic dividend, talented and aspirational youth, robust business practices, investor-friendly regulatory framework, and the spirit of competitive federalism. He encouraged greater Norwegian investments in India in key sectors such as the blue economy, shipbuilding, green transition, renewable energy, health-tech, critical minerals, and start-ups. Prime Minister Modi also underscored India’s ambitious green transition agenda, emphasizing the country’s scale, growing energy demands, climate commitments, and rapid expansion in renewable energy, grid infrastructure, green hydrogen, and clean energy. He appreciated Norway’s global leadership in clean energy investments, maritime decarbonization, ocean sustainability, and climate finance. Prime Minister urged the business communities of both countries to forge new partnerships, identify emerging areas of collaboration, and strengthen economic cooperation. A number of business agreements between Indian and Norwegian companies and entities were signed during the Summit.",
+      "summary": "Prime Minister Shri Narendra Modi today attended the India-Norway Business and Research Summit at Oslo. His Royal Highness Crown Prince Haakon and the Prime Minister of Norway, H.E. The Summit was attended by CEOs of over 50 companies and more than 250 participants from the Norwegian and Indian business and research communities.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "e44d1cfcdd83dd4e326bd61942131c75",
+      "title": "JUDGES INQUIRY COMMITTEE SUBMITS REPORT TO HON'BLE SPEAKER, LOK SABHA",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262562",
+      "date": "2026-05-18",
+      "scraped_date": "2026-05-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Judges Inquiry Committee, investigating allegations concerning Justice Shri Yashwant Varma, submitted its report to the Hon'ble Speaker, Lok Sabha Shri Om Birla in Parliament House today. The report, which was presented in accordance with the statutory requirements under the Judges (Inquiry) Act, 1968, will be laid before both Houses of Parliament in due course.\nPresiding Officer of Judges Inquiry Committee Hon'ble Justice Aravind Kumar, Supreme Court of India along with Hon'ble Justice Shree Chandrashekhar, Chief Justice of the Bombay High Court; and Shri B.V. Acharya, Senior Advocate, Karnataka High Court presented the Report of Judges Inquiry Committee to Honble Speaker, Lok Sabha in Parliament House on 18 May 2026.\nThe Committee was constituted by Honble Speaker, Lok Sabha on 12 August 2025.\nThe Judges Inquiry Committee submitted its report concerning Justice Shri Yashwant Varma to me today. ​Presented in accordance with the statutory requirements under the Judges (Inquiry) Act, 1968, the report will be laid before both Houses of Parliament in due course. pic.twitter.com/0VVfzKXbI6",
+      "summary": "The Judges Inquiry Committee, investigating allegations concerning Justice Shri Yashwant Varma, submitted its report to the Hon'ble Speaker, Lok Sabha Shri Om Birla in Parliament House today. The report, which was presented in accordance with the statutory requirements under the Judges (Inquiry) Act, 1968, will be laid before both Houses of Parliament in due course. Presiding Officer of Judges Inquiry Committee Hon'ble Justice Aravind Kumar, Supreme Court of India along with Hon'ble Justice Shree Chandrashekhar, Chief Justice of the Bombay High Court; and Shri B.V.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "d1d23a2daa8685277db0d48072f992d1",
+      "title": "Pharmacopoeia Commission for Indian Medicine & Homoeopathy (PCIM&H) Organizes 5-Day Capacity Building Training Program for ASU&H Drug Regulators and Stakeholders",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262543",
+      "date": "2026-05-18",
+      "scraped_date": "2026-05-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "04d99a298dba34bfcd170ed7752df005",
+      "title": "Centre Circulates Draft National Water Metro Policy for Inter-Ministerial Consultation Ahead of National Rollout in 18 Cities",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262535",
+      "date": "2026-05-18",
+      "scraped_date": "2026-05-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Centre Plans Guwahati Water Metro in Phase I of Nationwide Rollout: Sarbananda Sonowal Srinagar, Patna, Varanasi, Ayodhya, & Prayagraj cities to also get Water Metro in Phase I Tezpur and Dibrugarh in Assam set to get Water Metro in the Phase II of the Project Draft National Water Metro Policy, 2026 circulated for Inter Ministerial Consultations: Sonowal\nThe Union Minister of Ports, Shipping & Waterways (MoPSW), Sarbananda Sonowal chaired a review meeting on the rollout of the much anticipated Water Metro services in the country. The Centre has advanced plans to roll out Water Metro services in 18 cities, with Guwahati among those identified for Phase I, Union Minister Sarbananda Sonowal said here today.\nCities including Srinagar, Patna, Varanasi, Ayodhya and Prayagraj are also part of Phase I, while Tezpur and Dibrugarh in Assam have been proposed for Phase II of the project. The Ministry has simultaneously circulated the Draft National Water Metro Policy, 2026 for inter-ministerial consultations, indicating a push to formalise a national framework for urban water transport.\nBuilding on the success and learnings from the Kochi Water Metro, the Modi Government is now scaling up a national framework to introduce water-based urban mobility solutions across cities with navigable waterways. The proposed rollout aims to transform inland waterways into efficient, sustainable, and modern public transport corridors.\nHighlighting the rationale behind the initiative, the Union Minister Sarbananda Sonowal underscored, “The proposed Water Metro systems are significantly less capital intensive as they utilise existing waterways with minimal civil infrastructure. With faster construction timelines, lower land requirements, and reduced operational costs particularly through the adoption of electric and hybrid ferries the system offers a viable and eco-friendly alternative to conventional urban transport. These services will contribute to reducing congestion in cities while offering a comfortable, scenic, and smoother commuting experience.”\nUnion Minister Sarbananda Sonowal emphasised on the need for consultation of the Draft National Water Metro Policy, 2026 with the State Governments too for receiving their valuable suggestions on the same.\nThe proposed Water Metro system is envisioned as a mass public transport solution catering to both daily commuters and tourism. It will operate across all navigable waterways. Union Minister Sarbananda Sonowal added, “Under PM Narendra Modi ji’s leadership, a strong emphasis has been placed on green technologies, with hybrid and electric propulsion systems encouraged alongside periodic technological upgrades.” The initiative adopts an ecosystem approach, ensuring standardisation in vessel design, terminals, charging infrastructure, and safety protocols, while promoting indigenisation in vessel construction and seamless multimodal integration with existing transport networks.\nOutlining the planning criteria, Sarbananda Sonow",
+      "summary": "Sarbananda Sonowal Srinagar, Patna, Varanasi, Ayodhya, & Prayagraj cities to also get Water Metro in Phase I Tezpur and Dibrugarh in Assam set to get Water Metro in the Phase II of the Project Draft National Water Metro Policy, 2026 circulated for Inter Ministerial Consultations: Sonowal The Union Minister of Ports, Shipping & Waterways (MoPSW), Sarbananda Sonowal chaired a review meeting on the rollout of the much anticipated Water Metro services in the country. The Centre has advanced plans to roll out Water Metro services in 18 cities, with Guwahati among those identified for Phase I, Union Minister Sarbananda Sonowal said here today. Cities including Srinagar, Patna, Varanasi, Ayodhya and Prayagraj are also part of Phase I, while Tezpur and Dibrugarh in Assam have been proposed for Phase II of the project.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "27d0047f8dc508bcbdd67c7c95d27255",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah meets families of martyrs, CAPFs personnel and victims of naxal violence in Jagdalpur, Chhattisgarh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262512",
+      "date": "2026-05-18",
+      "scraped_date": "2026-05-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "14ee15ab240d9ed4090b65d724b75e96",
+      "title": "Prime Minister holds bilateral talks with Prime Minister of Norway",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262509",
+      "date": "2026-05-18",
+      "scraped_date": "2026-05-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Prime Minister Shri Narendra Modi held today bilateral talks with the Prime Minister of Norway, H.E. Mr. Jonas Gahr Støre in Oslo. In a special gesture emblematic of the close ties between India and Norway, on his arrival at the Oslo Airport this morning, he was warmly received by Prime Minister Støre.\nThe leaders reviewed the full spectrum of India-Norway relations, covering trade and investments, follow up on the India-EFTA Trade and Economic Partnership Agreement (TEPA), climate action and energy transition, blue economy and ocean governance, research and higher education, Arctic and polar cooperation, space, and talent mobility. They agreed to elevate ties to a Green Strategic Partnership, underscoring their shared commitment to sustainability and green growth.\nBoth leaders agreed that there is huge potential for boosting economic and commercial partnership. Prime Minister welcomed greater investments by Norwegian enterprises in India. The two leaders underlined the aim of doubling the value of current trade between India and Norway by 2030 and encouraged business representatives to work towards dynamic tie-ups across sectors to meet the investment commitment of USD 100 billion under TEPA and creation of one million jobs in India.\nThe leaders tasked their teams to deepen cooperation in the blue economy, including marine ecosystem protection, shipbuilding, green shipping, tunneling and infrastructure, space, AI, robotics, cyber security, seafarer training, fisheries and aquaculture. They reaffirmed UNCLOS principles and welcomed Norway joining the Indo-Pacific Oceans Initiative. Prime Minister Modi invited Norway to participate in Bharat Innovates 2026 to be held in France in June 2026. He also suggested setting up a Start-up Innovation Hub and Green Innovation Hackathon between the two countries.\nUnderlining cooperation in environment and renewable energy, the leaders called for more collaboration in niche technologies such as carbon capture, utilization and storage (CCUS), offshore wind, and larger investments by Norway in clean energy projects in India.\nThe leaders agreed to strengthen polar research and logistics in the Arctic, reaffirming environmentally responsible practices. They emphasized joint work in research and innovation, including renewable energy, oceans, climate, health, critical minerals, emerging technologies and IT. In higher education, they agreed to explore joint degree programmes, mutual recognition of qualifications, and mobility of students and faculty.\nThey also discussed collaboration in multilateral fora and exchanged views on key regional and global issues of mutual interest. The Norwegian Prime Minister reiterated Norway’s support for India’s permanent membership in a reformed UN Security Council.\nThe leaders unequivocally condemned terrorism, including cross-border terrorism, and urged concerted global action to deal with the menace.\nThey noted potential in defence cooperation and defence industrial collaboration",
+      "summary": "Prime Minister Shri Narendra Modi held today bilateral talks with the Prime Minister of Norway, H.E. In a special gesture emblematic of the close ties between India and Norway, on his arrival at the Oslo Airport this morning, he was warmly received by Prime Minister Støre. The leaders reviewed the full spectrum of India-Norway relations, covering trade and investments, follow up on the India-EFTA Trade and Economic Partnership Agreement (TEPA), climate action and energy transition, blue economy and ocean governance, research and higher education, Arctic and polar cooperation, space, and talent mobility.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "b7096e8586c68db952f87bf99f3696d2",
+      "title": "India Post Nagpur Releases Special Cancellation and Picture Postcards on International Museum Day 2026 at Central Museum Nagpur",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262497",
+      "date": "2026-05-18",
+      "scraped_date": "2026-05-18",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e1e5c7884db1fc71d8bdacc28996d354",
+      "title": "Adequate Availability of Petrol and Diesel in Dadra and Nagar Haveli, Diu and Daman (UT)",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262498",
+      "date": "2026-05-18",
+      "scraped_date": "2026-05-18",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e8c42f095ee189b7a4158871feea21fe",
+      "title": "Adequate Availability of Petrol and Diesel across the state of Arunachal Pradesh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262532",
+      "date": "2026-05-18",
+      "scraped_date": "2026-05-18",
+      "relative_time": "Today",
+      "region": "Itanagar",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5f600304714ed5c850ba61ecd85cbcd4",
+      "title": "Fuel & LPG Supply stable in Andhra Pradesh: OMCs",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262563",
+      "date": "2026-05-18",
+      "scraped_date": "2026-05-18",
+      "relative_time": "Today",
+      "region": "Vijayawada",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
       "id": "ee497103df88d67fd88e29a5cee44531",
       "title": "Field Operations for Houselisting and Housing Census commences in Rajasthan, Meghalaya, Maharashtra, Jharkhand and MCD area of Delhi",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261902",
@@ -2668,17 +2864,17 @@
       "section": "other"
     }
   ],
-  "other_count": 119,
+  "other_count": 125,
   "vertical_counts": {
     "EoDB": 8,
     "EooDB": 8,
     "CoDED": 5,
     "iLEAP": 3,
     "ELS": 1,
-    "Sustainability": 2,
-    "Political_Economy": 4
+    "Sustainability": 3,
+    "Political_Economy": 7
   },
-  "regions_scraped": 22,
+  "regions_scraped": 24,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
