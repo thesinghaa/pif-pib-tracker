@@ -1,8 +1,116 @@
 {
-  "last_updated": "2026-05-19T02:49:04Z",
-  "last_updated_ist": "19 May 2026, 08:19 AM IST",
-  "total": 111,
+  "last_updated": "2026-05-19T06:51:20Z",
+  "last_updated_ist": "19 May 2026, 12:21 PM IST",
+  "total": 120,
   "articles": [
+    {
+      "id": "22e243f83998c41fc59c8f22bcf73334",
+      "title": "Indian Railways Approves Critical Slope Stabilisation, Tunnel Rehabilitation and Bridge Protection Works on Jammu-Shri Mata Vaishno Devi Katra Section Worth ₹238 Crore",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262634",
+      "date": "2026-05-19",
+      "scraped_date": "2026-05-19",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "31f2fc59c3361f0ea0a4b6883c389656",
+      "title": "Indian Railways Approves 54 Km Kiul-Jhajha 3rd Line Project at ₹962 Crore to Boost Capacity on High-Density Howrah-Delhi Route",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262633",
+      "date": "2026-05-19",
+      "scraped_date": "2026-05-19",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "2e920692c031e8894430505a176acbfc",
+      "title": "Indian Railways Approves ₹993 Crore Arakkonam-Chengalpattu Doubling Project to Boost Chennai Suburban Rail Network",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262619",
+      "date": "2026-05-19",
+      "scraped_date": "2026-05-19",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "b365a20937d3b910e600cbc2298404d8",
+      "title": "Clarification on false claims on monetisation of temple gold holdings",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262602",
+      "date": "2026-05-19",
+      "scraped_date": "2026-05-19",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "32fa684442c6e9064c978b55cd908a47",
+      "title": "Prime Minister shares a Sanskrit Subhashitam highlighting Mother Earth's embrace of diverse people as members of a single household",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262599",
+      "date": "2026-05-19",
+      "scraped_date": "2026-05-19",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "03ccb225216e4e4fe086368b7e9e0e0e",
+      "title": "Adequate Availability of Petrol and Diesel across the state of Nagaland",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262605",
+      "date": "2026-05-19",
+      "scraped_date": "2026-05-19",
+      "relative_time": "Today",
+      "region": "Kohima",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "9317ccb354ae2feb1bcb70fc86db293c",
       "title": "Prime Minister addresses the European Round Table for Industry (ERT)",
@@ -1570,6 +1678,68 @@
       "section": "other"
     },
     {
+      "id": "caf6908628d424da9d5b3afc29423191",
+      "title": "Prime Minister's address at the Norway-India Business and Research Summit",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262595",
+      "date": "2026-05-18",
+      "scraped_date": "2026-05-19",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Your Royal Highness, Your Excellency Prime Minister, दोनों देशों के व्यापार जगत के साथियों, Norway और India के business और research leaders के बीच बातचीत करने का आज अवसर मिला है। इस समिट के भव्य आयोजन के लिए मैं नॉर्वे के प्रधान मंत्री का हृदय से आभार व्यक्त करता हूँ। आज नॉर्वे और भारत के बिजनस और रिसर्च कम्यूनिटी के बीच होना, मेरे लिए बहुत खुशी की बात है। कुछ साथियों को मैंने सुना, यह सुनकर विश्वास होता है कि हमारी पार्ट्नर्शिप की नींव बहुत मजबूत है। यह केवल संभावनाओं की ही नहीं, यह एक proven पार्ट्नर्शिप है। आज जब फूड, फ्यूएल और फर्टिलाइज़र सिक्युरिटी ग्लोबल चैलेंज बन गए है, तो भारत और नॉर्वे इनका मिलकर समाधान कर रहें हैं। चाहे वो ओर्क्ला का भारत के फूड सेक्टर में निवेश हो, इक्विनोर से भारत को LPG और LNG सप्लाइ की बात हो, या यारा का भारत के फर्टिलाइज़र क्षेत्र में योगदान। मुझे बहुत खुशी है, कि आप में से कई CEO’s, भारत के वाइब्रन्ट गुजरात और अन्य इन्वेस्टर summits में भी बड़े उत्साह के साथ हमेशा भाग लेते रहें हैं। अब हमे इस पार्ट्नर्शिप की इन्टेन्सिटी बढ़ाकर, इसे न्यू frontiers की ओर ले जाना चाहिए। और हमें अब एक एक कदम से चलने से कोई बात नहीं बनने वाली है। हमें गति भी बढ़ानी होगी, और लक्ष्य भी बहुत ऊंचे तय करने होंगे। Friends, आप में से जो सब साथी भारत से जुड़े हुए हैं , और यहाँ जो भारत के साथ आपसे बातचीत हुई ... में समझता हूँ कि इससे बढ़िया कोई समय नहीं हो सकता है। आज एक ऐसा समय है जिसका सही समय का सही उपयोग का एक अवसर है। अकतूबर 2025 में हमने यूरोपियन फ्री ट्रैड एसोसिएशन के साथ, ट्रैड एण्ड इकनॉमिक पार्ट्नर्शिप अग्रीमन्ट, यानि \"टेपा” लागू किया। यह यूनीक और स्पेशल अग्रीमन्ट, हमारे बीच, टैलेंट, टेक्नॉलजी और म्यूचूअल ट्रस्ट का अग्रीमन्ट है। इस अग्रीमन्ट के माध्यम से एफ्टा कंट्रीस से भारत में, अगले पंद्रह वर्षों में one hundred बिलियन डॉलर इनवेस्टमेंट, और one मिलियन jobs क्रीऐट करने का लक्ष्य है। यह ambitious target है, लेकिन achievable भी है। और भारत में आपके इन्वेस्टमेंट को outcomes में बदलना, में आपको विश्वास से कहता हूँ, यह हमारी गारंटी है। Friends, मैं दो सेक्टर का उल्लेख करूँगा, जो आपके लिए उपयोगी हो सकते है। भारत की rapidly growing middle class, नूट्रिशन और हेल्थ sectors में मेजर डिमैन्ड create कर रही है। नॉर्वे की फूड, फिशेरीस और health-care कम्पनीस इस demand को पूरा करने में भारत के मजबूत partners बन सकती हैं। इसी तरह, क्लीन एनर्जी के क्षेत्र में भारत की aspiration को विश्व मे कोई मैच नहीं कर सकता। 2030 तक हमने 500 गिगा वॅाट क्लीन एनर्जी, और 5 मिलियन टन ग्रीन हाइड्रोजन produce करने का टार्गेट रखा है। क्लीन एनर्जी इन्वेस्टमेंट नॉर्वे वेल्थ फंड की भी प्राथमिकता है। मैं नॉर्वे को भारत के क्लीन एनर्जी फ्यूचर में एहम हिस्सेदार बनने के लिए आमंत्रित करता हूँ। Friends, रिफॉर्म, perform और ट्रैन्स्फॉर्म, इस मंत्र को लेकर हम आगे बढ़ रहे हैं, तब ... अगर पीछे की तरफ देखें तो पिछले 12 वर्षों में हमने भारत का इकनॉमिक DNA पूरी तरह चेंज कर दिया है। हम Compliances लगातार कम कर रहें हैं, और Ease of Doing Business उसको बढ़ाने के लिए सरकार की तरफ से बहुत proactive कदम लिए जा रहे हैं। हाल ही में हमने, टैक्सेशन, लेबर कोड, और गवर्नेंस जैसे विषयों में, नेक्स्ट जेनरेशन रिफॉर्म्स किए हैं। अब भारत में मैन्युफैक्चरिंग को अगले स्तर पर ले जाने के लिए, मैं समझता हूँ की उत्तम से",
+      "summary": "Your Royal Highness, Your Excellency Prime Minister, दोनों देशों के व्यापार जगत के साथियों, Norway और India के business और research leaders के बीच बातचीत करने का आज अवसर मिला है। इस समिट के भव्य आयोजन के लिए मैं नॉर्वे के प्रधान मंत्री का हृदय से आभार व्यक्त करता हूँ। आज नॉर्वे और भारत के बिजनस और रिसर्च कम्यूनिटी के बीच होना, मेरे लिए बहुत खुशी की बात है। कुछ साथियों को मैंने सुना, यह सुनकर विश्वास होता है कि हमारी पार्ट्नर्शिप की नींव बहुत मजबूत है। यह केवल संभावनाओं की ही नहीं, यह एक proven पार्ट्नर्शिप है। आज जब फूड, फ्यूएल और फर्टिलाइज़र सिक्युरिटी ग्लोबल चैलेंज बन गए है, तो भारत और नॉर्वे इनका मिलकर समाधान कर रहें हैं। चाहे वो ओर्क्ला का भारत के फूड सेक्टर में निवेश हो, इक्विनोर से भारत को LPG और LNG सप्लाइ की बात हो, या यारा का भारत के फर्टिलाइज़र क्षेत्र में योगदान। मुझे बहुत खुशी है, कि आप में से कई CEO’s, भारत के वाइब्रन्ट गुजरात और अन्य इन्वेस्टर summits में भी बड़े उत्साह के साथ हमेशा भाग लेते रहें हैं। अब हमे इस पार्ट्नर्शिप की इन्टेन्सिटी बढ़ाकर, इसे न्यू frontiers की ओर ले जाना चाहिए। और हमें अब एक एक कदम से चलने से कोई बात नहीं बनने वाली है। हमें गति भी बढ़ानी होगी, और लक्ष्य भी बहुत ऊंचे तय करने होंगे। Friends, आप में से जो सब साथी भारत से जुड़े हुए हैं , और यहाँ जो भारत के साथ आपसे बातचीत हुई ... में समझता हूँ कि इससे बढ़िया कोई समय नहीं हो सकता है। आज एक ऐसा समय है जिसका सही समय का सही उपयोग का एक अवसर है। अकतूबर 2025 में हमने यूरोपियन फ्री ट्रैड एसोसिएशन के साथ, ट्रैड एण्ड इकनॉमिक पार्ट्नर्शिप अग्रीमन्ट, यानि \"टेपा” लागू किया। यह यूनीक और स्पेशल अग्रीमन्ट, हमारे बीच, टैलेंट, टेक्नॉलजी और म्यूचूअल ट्रस्ट का अग्रीमन्ट है। इस अग्रीमन्ट के माध्यम से एफ्टा कंट्रीस से भारत में, अगले पंद्रह वर्षों में one hundred बिलियन डॉलर इनवेस्टमेंट, और one मिलियन jobs क्रीऐट करने का लक्ष्य है। यह ambitious target है, लेकिन achievable भी है। और भारत में आपके इन्वेस्टमेंट को outcomes में बदलना, में आपको विश्वास से कहता हूँ, यह हमारी गारंटी है। Friends, मैं दो सेक्टर का उल्लेख करूँगा, जो आपके लिए उपयोगी हो सकते है। भारत की rapidly growing middle class, नूट्रिशन और हेल्थ sectors में मेजर डिमैन्ड create कर रही है। नॉर्वे की फूड, फिशेरीस और health-care कम्पनीस इस demand को पूरा करने में भारत के मजबूत partners बन सकती हैं। इसी तरह, क्लीन एनर्जी के क्षेत्र में भारत की aspiration को विश्व मे कोई मैच नहीं कर सकता। 2030 तक हमने 500 गिगा वॅाट क्लीन एनर्जी, और 5 मिलियन टन ग्रीन हाइड्रोजन produce करने का टार्गेट रखा है। क्लीन एनर्जी इन्वेस्टमेंट नॉर्वे वेल्थ फंड की भी प्राथमिकता है। मैं नॉर्वे को भारत के क्लीन एनर्जी फ्यूचर में एहम हिस्सेदार बनने के लिए आमंत्रित करता हूँ। Friends, रिफॉर्म, perform और ट्रैन्स्फॉर्म, इस मंत्र को लेकर हम आगे बढ़ रहे हैं, तब ... अगर पीछे की तरफ देखें तो पिछले 12 वर्षों में हमने भारत का इकनॉमिक DNA पूरी तरह चेंज कर दिया है। हम Compliances लगातार कम कर रहें हैं, और Ease of Doing Business उसको बढ़ाने के लिए सरकार की तरफ से बहुत proactive कदम लिए जा रहे हैं। हाल ही में हमने, टैक्सेशन, लेबर कोड, और गवर्नेंस जैसे विषयों में, नेक्स्ट जेनरेशन रिफॉर्म्स किए हैं। अब भारत में मैन्युफैक्चरिंग को अगले स्तर पर ले जाने के लिए, मैं समझता हूँ की उत्तम से",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "1a916583ae7932212e99a584a9d42d03",
+      "title": "THE PRINCIPLES OF MAHARAJA AGRASEN - EQUALITY, INCLUSIVENESS, COOPERATION, AND COLLECTIVE PARTICIPATION - REMAIN HIGHLY RELEVANT TODAY: LOK SABHA SPEAKER",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262600",
+      "date": "2026-05-18",
+      "scraped_date": "2026-05-19",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "INDIA’S PROGRESS DEPENDS ON COLLECTIVE PARTICIPATION AND SELF-RELIANCE: LOK SABHA SPEAKER WHENEVER THE NATION OR SOCIETY FACED CHALLENGES, THE AGARWAL COMMUNITY STEPPED FORWARD IN SUPPORT: LOK SABHA SPEAKER LOK SABHA SPEAKER ADDRESSES NATIONAL CONVENTION AND INVESTITURE CEREMONY OF THE AKHIL BHARATIYA AGARWAL SAMMELAN\nLok Sabha Speaker Shri Om Birla stated today that the principles of Maharaja Agrasen — equality, inclusiveness, cooperation, and collective participation — remain deeply relevant in the modern era. He noted that thousands of years ago, Maharaja Agrasen established a model of governance rooted in social harmony and shared responsibility, ideals that continue to inspire generations.\nShri Birla made these remarks while addressing the National Convention and Investiture Ceremony of the newly elected office-bearers of the Akhil Bharatiya Agarwal Sammelan.\nHe highlighted that India’s progress depends on collective participation and self-reliance, echoing the spirit of Swadeshi and inclusive development. He noted that the Agarwal community has historically operated with this vision and ideology, contributing significantly to the growth and welfare of society.\nShri Birla further observed that whenever the nation or society faced crises, members of the Agarwal community consistently stepped forward in support. He remarked that the tradition of dedicating wealth and resources to public welfare remains deeply embedded within the community’s core values.\nShri Birla also acknowledged the pivotal role played by the Agarwal community during India’s freedom struggle and its subsequent contributions to post-independence nation-building through industry, trade, commerce, education, healthcare, and social welfare. He observed that schools, colleges, hospitals, and dharamshalas established across the country stand as enduring symbols of the community’s commitment to selfless service.\nEmphasizing the importance of preserving cultural values and social responsibility, Shri Birla said that the respect enjoyed by the Agarwal community today is the hard-earned result of generations of sacrifice, dedication, and commitment to the nation. He urged the younger generation to uphold these values and continue working toward the upliftment of the underprivileged and weaker sections of society.\nShri Birla further stressed the need for ongoing social transformation, dynamic leadership, and greater collective action. He stated that while different organizational units may employ varied approaches, they must remain united in their overarching purpose of serving society and contributing to national development.\nExpressing confidence in the newly appointed office-bearers, the Speaker voiced his hope that they would continue to promote the ideals and vision of Maharaja Agrasen through the Agarwal Sammelan, working actively for the welfare of the poor and marginalized. He added that whenever the nation faces disaster, crisis, or adversity, the Agarwal community should alw",
+      "summary": "INDIA’S PROGRESS DEPENDS ON COLLECTIVE PARTICIPATION AND SELF-RELIANCE: LOK SABHA SPEAKER WHENEVER THE NATION OR SOCIETY FACED CHALLENGES, THE AGARWAL COMMUNITY STEPPED FORWARD IN SUPPORT: LOK SABHA SPEAKER LOK SABHA SPEAKER ADDRESSES NATIONAL CONVENTION AND INVESTITURE CEREMONY OF THE AKHIL BHARATIYA AGARWAL SAMMELAN Lok Sabha Speaker Shri Om Birla stated today that the principles of Maharaja Agrasen — equality, inclusiveness, cooperation, and collective participation — remain deeply relevant in the modern era. He noted that thousands of years ago, Maharaja Agrasen established a model of governance rooted in social harmony and shared responsibility, ideals that continue to inspire generations. Shri Birla made these remarks while addressing the National Convention and Investiture Ceremony of the newly elected office-bearers of the Akhil Bharatiya Agarwal Sammelan.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "570717b9e47b81f2865ce438f5669ab2",
+      "title": "Hindustan Zinc’s Rajasthan Operations Reflect India’s Vision for Viksit Bharat: Union Minister of Coal and Mines Shri G. Kishan Reddy",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2262617",
+      "date": "2026-05-18",
+      "scraped_date": "2026-05-19",
+      "relative_time": "Yesterday",
+      "region": "Jaipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
       "id": "ee497103df88d67fd88e29a5cee44531",
       "title": "Field Operations for Houselisting and Housing Census commences in Rajasthan, Meghalaya, Maharashtra, Jharkhand and MCD area of Delhi",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2261902",
@@ -2100,7 +2270,7 @@
       "section": "other"
     }
   ],
-  "other_count": 89,
+  "other_count": 96,
   "vertical_counts": {
     "EoDB": 5,
     "EooDB": 5,
@@ -2108,9 +2278,9 @@
     "iLEAP": 3,
     "ELS": 1,
     "Sustainability": 3,
-    "Political_Economy": 6
+    "Political_Economy": 8
   },
-  "regions_scraped": 24,
+  "regions_scraped": 26,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
