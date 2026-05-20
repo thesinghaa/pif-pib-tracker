@@ -1,8 +1,124 @@
 {
-  "last_updated": "2026-05-20T02:26:25Z",
-  "last_updated_ist": "20 May 2026, 07:56 AM IST",
-  "total": 169,
+  "last_updated": "2026-05-20T06:51:56Z",
+  "last_updated_ist": "20 May 2026, 12:21 PM IST",
+  "total": 176,
   "articles": [
+    {
+      "id": "2d75ef0c2765e7579cd106f2403fe7a7",
+      "title": "India to Host 68th Session of Asian Productivity Organization Governing Body in New Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2263106",
+      "date": "2026-05-20",
+      "scraped_date": "2026-05-20",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "05eacc79ff6127f16778e3d040b034a0",
+      "title": "Vice-President pays tributes to former Union Minister and former Uttarakhand Chief Minister Major General B. C. Khanduri Ji in Dehradun",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2263098",
+      "date": "2026-05-20",
+      "scraped_date": "2026-05-20",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "6019db11f58cca4f3185196b267c3477",
+      "title": "Prime Minister shares a Sanskrit Subhashitam emphasising that well-ordered standards must guide human conduct",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2263079",
+      "date": "2026-05-20",
+      "scraped_date": "2026-05-20",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e77866f3df97ed4fa6040b731646c19b",
+      "title": "ANRF ANNOUNCES SELECTION OF 10 INSTITUTIONS FOR ESTABLISHING CONVERGENCE RESEARCH CENTRES OF EXCELLENCE (COES)",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2263076",
+      "date": "2026-05-20",
+      "scraped_date": "2026-05-20",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "CONVERGENCE RESEARCH COES TO DRIVE INTERDISCIPLINARY SOLUTIONS FOR SOCIETAL CHALLENGES AND SUSTAINABLE DEVELOPMENT\nTo promote the deep integration of scientific knowledge within social science and humanities frameworks for addressing complex and systemic challenges through a multi-disciplinary research approach, the Anusandhan National Research Foundation (ANRF) has announced the selection of ten Convergence Research Centres of Excellence (CoEs) institutions under one of its flagship initiatives, the Convergence Research Centres of Excellence (CoE) program. The initiative seeks to establish pioneering Centres that bring together Social Sciences, Humanities, Science, and Technology to address complex societal challenges through integrated and transdisciplinary research.\nThe ten ANRF-CoEs selected under the various thematic areas are listed below:\nName of the institute\nBroad Thematic Area\nIndian Institute of Technology (IIT), Gandhinagar\nCentre for Human-Climate Interactions and Environmental Histories (CHIEH)\nArchaeology and Traditional Knowledge systems\nNational Institute of Advanced Studies (NIAS), Bengaluru\nCentre For Excellence in Archaeomaterials, Archaeometallurgy, Earth Sciences & Conservation Research\nArchaeology and Traditional Knowledge systems\nIndian Institute of Technology (IIT) Madras\nSAṂYoga - Center for Sanskrit AI Music and Yoga\nArchaeology and Traditional Knowledge systems\nNational Institute of Technology (NIT) Agartala\nAI-assisted Digital Curation and Global Promotion of North-East Indian Folklore: A Focus on Manipur and Tripura\nDigital Humanities\nInstitute for Human Development (IHD), Delhi\nTransformative AI and the Indian Labour Market: A Multidisciplinary Study on the Impact of Generative AI in Select High-Adoption Service Sectors\nDigital Humanities\nIndian Institute of Technology (IIT) Dharwad\nCentre of Excellence for Rural Livelihoods and Development (CoE-RLD): A Hub for Integrated Planning for Rural Sustainability and Resilience\nRural Development\nIndian Institute of Management (IIM) Jammu\nCentre of Excellence on Digital Empowerment and Livelihood Development of Artisans (CoE-DELDA)\nRural Development\nIndian Institute of Technology (IIT) Kanpur\nCentre of Excellence: Centre for Research and Intervention in Language Performance\nHealth and Psychology\nChanakya University\nCenter for Languages and Lifeworlds\nEmerging Technologies for Social Issues\nPSGR Krishnammal College for Women\nDeveloping a Techno-Managerial Framework to Accelerate MSMEs Transition from Conventional to Contemporary Technologies through Academia-Industry Partnerships towards a Resilient, Sustainable, and Smart Innovation Ecosystem\nComputational Economics\nThe program requires that each Centre involves intra- or inter-disciplinary collaboration, either within the same institution or across different academic, publicly funded organizations under various Ministries/Departments, or private institutions. The Co-PIs associated with these Centres represent a diverse netw",
+      "summary": "CONVERGENCE RESEARCH COES TO DRIVE INTERDISCIPLINARY SOLUTIONS FOR SOCIETAL CHALLENGES AND SUSTAINABLE DEVELOPMENT To promote the deep integration of scientific knowledge within social science and humanities frameworks for addressing complex and systemic challenges through a multi-disciplinary research approach, the Anusandhan National Research Foundation (ANRF) has announced the selection of ten Convergence Research Centres of Excellence (CoEs) institutions under one of its flagship initiatives, the Convergence Research Centres of Excellence (CoE) program. The initiative seeks to establish pioneering Centres that bring together Social Sciences, Humanities, Science, and Technology to address complex societal challenges through integrated and transdisciplinary research. The ten ANRF-CoEs selected under the various thematic areas are listed below: Name of the institute Broad Thematic Area Indian Institute of Technology (IIT), Gandhinagar Centre for Human-Climate Interactions and Environmental Histories (CHIEH) Archaeology and Traditional Knowledge systems",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "128ebe48d1b0e28770fbf3adc99e6345",
+      "title": "GENERAL UPENDRA DWIVEDI, CHIEF OF THE ARMY STAFF, TO REVIEW NDA’S 150TH COURSE PASSING OUT PARADE",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2263108",
+      "date": "2026-05-20",
+      "scraped_date": "2026-05-20",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "957b262141e9fd3cdc9acdb3b34a04e2",
+      "title": "IIT Roorkee and SkyySkill Academy Programmes to Build Job Ready Talent in Electric Vehicle Technology",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2263088",
+      "date": "2026-05-20",
+      "scraped_date": "2026-05-20",
+      "relative_time": "Today",
+      "region": "Dehradun",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "- E&ICT Academy, IIT Roorkee to offer industry-aligned advanced and short certification courses for India’s growing EV workforce - Participants who successfully complete the program and assessments will receive a certificate from E&ICT Academy, IIT Roorkee.\nThe Indian Institute of Technology Roorkee (IIT Roorkee), through its Electronics & ICT Academy (E&ICT Academy), has signed a Memorandum of Understanding (MoU) with SkyySkill Academy to launch courses in Electric Vehicle (EV) Technology designed to build practical, job-ready skills for the rapidly growing electric mobility sector.\nThe program covers EV architecture, battery technologies and battery-management systems, electric motors and power electronics, EV charging infrastructure, diagnostics, safety systems and vehicle energy optimisation. The curriculum balances academic rigor with hands-on learning and is intended for engineering graduates, diploma holders and working professionals seeking specialized EV expertise.\nThe programme deliverables will include live online instructional sessions, hands-on practical lab exposure, structured assignments, and capstone projects based on real-world EV use cases.\nEach participant will complete a capstone project to demonstrate applied problem-solving and develop an industry-relevant portfolio for roles in manufacturing, R&D, and EV service ecosystems. Speaking on the initiative, Prof. Sanjeev Manhas, Chief Investigator, E&ICT Academy, IIT Roorkee, said, “The rapid growth of electric mobility requires a skilled workforce with strong technical knowledge and practical expertise. Through this collaboration with SkyySkill Academy, E&ICT Academy, IIT Roorkee aims to strengthen industry–academia engagement and equip learners with relevant skills to support India’s evolving EV ecosystem.”\n“Himansu Sekhar Panda, CEO of SkyySkill Academy”, emphasized the importance of strong academic–industry collaborations in preparing a skilled workforce for emerging technologies. He noted that electric mobility is rapidly transforming the automotive sector, and through the partnership with E&ICT Academy, IIT Roorkee, the aim is to deliver high-quality, practice-oriented learning programs to equip learners for careers in the EV industry.\nParticipants who successfully complete the program and assessments will receive a certificate from E&ICT Academy, IIT Roorkee. The Electronics & ICT Academy, IIT Roorkee, is an initiative supported by the Ministry of Electronics and Information Technology (MeitY), Government of India, that focuses on capacity building, advanced training and skill development in Electronics, ICT and emerging technology domains\nSkyy Skill Academy is an organisation focused on industry-aligned skill development and training in advanced engineering domains. It has delivered programs in EV technology, drone tech and other advanced engineering systems and has trained thousands of students across India.",
+      "summary": "- E&ICT Academy, IIT Roorkee to offer industry-aligned advanced and short certification courses for India’s growing EV workforce - Participants who successfully complete the program and assessments will receive a certificate from E&ICT Academy, IIT Roorkee. The Indian Institute of Technology Roorkee (IIT Roorkee), through its Electronics & ICT Academy (E&ICT Academy), has signed a Memorandum of Understanding (MoU) with SkyySkill Academy to launch courses in Electric Vehicle (EV) Technology designed to build practical, job-ready skills for the rapidly growing electric mobility sector. The program covers EV architecture, battery technologies and battery-management systems, electric motors and power electronics, EV charging infrastructure, diagnostics, safety systems and vehicle energy optimisation.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
     {
       "id": "22e243f83998c41fc59c8f22bcf73334",
       "title": "Indian Railways Approves Critical Slope Stabilisation, Tunnel Rehabilitation and Bridge Protection Works on Jammu-Shri Mata Vaishno Devi Katra Section Worth ₹238 Crore",
@@ -1539,6 +1655,24 @@
       "scraped_date": "2026-05-19",
       "relative_time": "Yesterday",
       "region": "Dehradun",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "9f14addf95d635a796293c29f09838b8",
+      "title": "Fuel Dispensing Continues Without Restrictions Across Himachal Pradesh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2263081",
+      "date": "2026-05-19",
+      "scraped_date": "2026-05-20",
+      "relative_time": "Yesterday",
+      "region": "Shimla",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -3178,15 +3312,15 @@
       "section": "other"
     }
   ],
-  "other_count": 139,
+  "other_count": 144,
   "vertical_counts": {
     "EoDB": 6,
     "EooDB": 6,
     "CoDED": 3,
     "iLEAP": 3,
     "ELS": 2,
-    "Sustainability": 2,
-    "Political_Economy": 14
+    "Sustainability": 3,
+    "Political_Economy": 15
   },
   "regions_scraped": 26,
   "verticals": {
