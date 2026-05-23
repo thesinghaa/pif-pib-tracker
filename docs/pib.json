@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-23T14:54:40Z",
-  "last_updated_ist": "23 May 2026, 08:24 PM IST",
-  "total": 223,
+  "last_updated": "2026-05-23T16:09:40Z",
+  "last_updated_ist": "23 May 2026, 09:39 PM IST",
+  "total": 231,
   "articles": [
     {
       "id": "84e87a0d0eb55feeee28381634a7c7f6",
@@ -948,6 +948,162 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c166642f6ffe673f82b77dc557ae173f",
+      "title": "Prime Minister condoles the loss of lives in China mining accident",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264635",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "fbb90b6b2385e9e6c771d44785747856",
+      "title": "IIM Nagpur Marks 10th Convocation with 443 Graduates, First Executive Ph.D.",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264646",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "1d7e0bb63e9fec262ef00e62cc2be7a0",
+      "title": "BIS OFFICIALS RAIDED UNIT IN TRICHY SELLING HEXAGONAL WASHER HEAD DRILLING SCREWS WITHOUT ISI MARK",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264659",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e57d2fda9981001472223ed3abd691ec",
+      "title": "MoS Shri Pabitra Margherita, Minister of State for External Affairs & Textiles attends 19th Rozgar Mela in Dimapur",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264634",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Guwahati",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Minister of State for External Affairs & Textiles, Shri Pabitra Margherita , today attended the 19th Rozgar Mela organised by Indian Railways at Dimapur , where 129 appointment letters were distributed to newly recruited candidates across several government departments.\nThe Rozgar Mela was held at 47 locations across the country during which the Hon’ble Prime Minister Shri Narendra Modi , through virtual mode, handed over more than 51,000 appointment letters to youth across the country. Shri Margherita highlighted that the initiative reflects the Union Government’s commitment to fast-tracked, transparent, and merit-based recruitment , noting that over 11 lakh appointment letters have already been distributed through the previous 18 editions of the Rozgar Mela.\nCongratulating the candidates at Dimapur, Shri Margherita described the occasion as the beginning of a meaningful journey dedicated to public service. He encouraged the youth to continue learning, remain confident in their abilities, and contribute with dedication towards nation-building.\nAddressing the gathering, Shri Margherita highlighted the transformation of the North Eastern Region under the leadership of Hon’ble Prime Minister Shri Narendra Modi, recalling his vision of the region emerging from a “frontier region” to a “front-runner of growth.” He noted that sustained investments in connectivity, infrastructure and employment, backed by a significant rise in allocations for the Ministry of Development of North Eastern Region (MDoNER), have accelerated development across the region.\nHighlighting the railway infrastructure development, Shri Margherita said that Nagaland and the North East have witnessed unprecedented growth, with the annual railway budget increasing more than fivefold from ₹2,122 crore during 2009-14 to ₹11,486 crore in 2026-27 , supporting projects worth ₹72,468 crore . He particularly highlighted Nagaland’s railway progress , noting that after nearly 119 years , the state received its second railway station at Shokhuvi , marking a major milestone in regional connectivity. He further noted that Indian Railways has electrified nearly 99.2% of its network , moving steadily towards Mission 100% Electrification . He also encouraged the newly recruited youth to see themselves as contributors to the vision of Viksit Bharat @2047 , emphasising that India’s youth are the nation’s growth engine and key partners in nation-building.\nConcluding his address, Shri Margherita congratulated the newly appointed candidates and appreciated the support and sacrifices of their parents and families, stating that the achievement reflects collective hard work, perseverance and aspiration.",
+      "summary": "The Minister of State for External Affairs & Textiles, Shri Pabitra Margherita , today attended the 19th Rozgar Mela organised by Indian Railways at Dimapur , where 129 appointment letters were distributed to newly recruited candidates across several government departments. The Rozgar Mela was held at 47 locations across the country during which the Hon’ble Prime Minister Shri Narendra Modi , through virtual mode, handed over more than 51,000 appointment letters to youth across the country. Shri Margherita highlighted that the initiative reflects the Union Government’s commitment to fast-tracked, transparent, and merit-based recruitment , noting that over 11 lakh appointment letters have already been distributed through the previous 18 editions of the Rozgar Mela.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "ELS": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "3a7e34fb7b4a352a659fbd265231ed38",
+      "title": "PM Modi Hands Over Appointment Letters to 51,000 Youths; 257 Recruits Receive Jobs at Raipur Rozgar Mela",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264661",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Raipur",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Prime Minister Shri Narendra Modi on Saturday distributed appointment letters to more than 51,000 newly recruited candidates through video conferencing during the 19th edition of the Rozgar Mela organised simultaneously at 47 locations across the country. As part of the nationwide employment drive, 257 newly appointed candidates received appointment letters at the Rozgar Mela organised by the Raipur Division of the South East Central Railway.\nThe programme in Raipur was held at the Pandit Deendayal Upadhyay Auditorium near the Science College Ground, where candidates selected for various departments and ministries under the Government of India were formally handed over their appointment letters.\nAmong the appointees, 200 candidates were inducted into the Indian Railways, 34 into the Department of Posts, seven into the Ministry of Health and Family Welfare, five into Hindustan Copper Limited and 11 into Bank of Baroda. Out of a total of 803 selected candidates, 257 were physically present at the venue to receive their appointment letters.\nAddressing the newly recruited youths, Prime Minister Modi congratulated them on their new responsibilities and urged them to play an active role in nation-building. He said that the youth of the country were no longer merely job seekers, but had emerged as strong partners in the mission of building a developed India. He stated that the Rozgar Mela campaign was not only providing new opportunities to the youth but was also strengthening the vision of an “Aatmanirbhar Bharat” (Self-Reliant India).\nUnion Minister of State for Tribal Affairs Durgadas Uikey attended the Raipur event as the chief guest. Extending his best wishes to the selected candidates, he said that the youth power of the country was India’s greatest strength and would play a decisive role in taking the nation to greater heights during the Amrit Kaal period.\nThe employment fair is being viewed as a significant initiative towards providing government employment opportunities to youths and accelerating the vision of a self-reliant and developed India. Rajya Sabha Member of Parliament Laxmi Verma, Divisional Railway Manager Dayanand, Additional Divisional Railway Manager Bajrang Agrawal, Senior Divisional Personnel Officer Rahul Garg and senior officials from various departments were also present on the occasion along with a large number of candidates.",
+      "summary": "Prime Minister Shri Narendra Modi on Saturday distributed appointment letters to more than 51,000 newly recruited candidates through video conferencing during the 19th edition of the Rozgar Mela organised simultaneously at 47 locations across the country. As part of the nationwide employment drive, 257 newly appointed candidates received appointment letters at the Rozgar Mela organised by the Raipur Division of the South East Central Railway. The programme in Raipur was held at the Pandit Deendayal Upadhyay Auditorium near the Science College Ground, where candidates selected for various departments and ministries under the Government of India were formally handed over their appointment letters.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "ELS": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "093e8640c9829899b2752bc000a974a2",
+      "title": "AIIMS Raipur Gives New Life to 10-Month-Old Baby Through Complex Heart Surgery",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264641",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Raipur",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "AIIMS Raipur Sets Milestone in Paediatric Cardiac Care With Rare Surgery Success\nIn a major breakthrough in paediatric cardiac care, All India Institute of Medical Sciences Raipur successfully performed a rare and highly complex corrective heart surgery on a 10-month-old infant suffering from ALCAPA (Anomalous Left Coronary Artery from the Pulmonary Artery), an extremely uncommon and life-threatening congenital heart defect reported in nearly one out of every 300,000 live births.\nThe infant, a resident of Raipur district, had allegedly been denied treatment at several healthcare centres due to the exceptionally high surgical risk associated with the condition. The child was later referred to AIIMS Raipur, where a multidisciplinary team of specialists from the Departments of Cardiothoracic and Vascular Surgery, Cardiology, Cardiac Anaesthesia, Radiology and Paediatrics undertook the challenging procedure.\nAccording to cardiologist Dr Naik, ALCAPA is among the rarest and most critical congenital cardiac anomalies, and only a few specialised centres worldwide possess the expertise to manage such high-risk cases in infants. The child was admitted with severely compromised cardiac function, including a critically low left ventricular ejection fraction of just 20 per cent and severe mitral regurgitation, significantly increasing both operative and postoperative risks.\nThe intricate surgery was successfully performed by the Cardiothoracic and Vascular Surgery team. Complex perioperative and anaesthetic management was led by Dr Subrata Singha and his team, ensuring meticulous intraoperative and postoperative care. The first 24 hours after surgery remained extremely critical and required intensive multidisciplinary monitoring and advanced life support.\nFollowing the successful procedure, the infant showed remarkable recovery, was extubated on the second postoperative day and discharged in stable condition on the ninth postoperative day.\nCongratulating the medical team, Lt Gen Ashok Jindal (Retd) described the successful surgery as a significant milestone for AIIMS Raipur and said the achievement reflects the institute’s growing expertise in advanced paediatric cardiac surgery and comprehensive high-risk cardiac care, comparable to leading national and international centres.",
+      "summary": "AIIMS Raipur Sets Milestone in Paediatric Cardiac Care With Rare Surgery Success In a major breakthrough in paediatric cardiac care, All India Institute of Medical Sciences Raipur successfully performed a rare and highly complex corrective heart surgery on a 10-month-old infant suffering from ALCAPA (Anomalous Left Coronary Artery from the Pulmonary Artery), an extremely uncommon and life-threatening congenital heart defect reported in nearly one out of every 300,000 live births. The infant, a resident of Raipur district, had allegedly been denied treatment at several healthcare centres due to the exceptionally high surgical risk associated with the condition. The child was later referred to AIIMS Raipur, where a multidisciplinary team of specialists from the Departments of Cardiothoracic and Vascular Surgery, Cardiology, Cardiac Anaesthesia, Radiology and Paediatrics undertook the challenging procedure.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "iLEAP": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "6d09e86cd9abee2d427e76b92fa23f89",
+      "title": "Severely Burnt Child Gets New Lease of Life, Bhilai Burn Unit Helps Youngster Defeat Death and Smile Again",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264640",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Raipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f8039d519478ea0e4cf65902b74d134a",
+      "title": "PSU Oil Companies Ensure Uninterrupted Fuel Supply Amid Surge in Demand",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264632",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Raipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
     },
@@ -4222,13 +4378,13 @@
       "section": "other"
     }
   ],
-  "other_count": 178,
+  "other_count": 183,
   "vertical_counts": {
     "EoDB": 9,
     "EooDB": 9,
     "CoDED": 2,
-    "iLEAP": 6,
-    "ELS": 13,
+    "iLEAP": 7,
+    "ELS": 15,
     "Sustainability": 10,
     "Political_Economy": 8
   },
