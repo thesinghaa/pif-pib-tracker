@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-23T11:19:00Z",
-  "last_updated_ist": "23 May 2026, 04:49 PM IST",
-  "total": 194,
+  "last_updated": "2026-05-23T13:12:55Z",
+  "last_updated_ist": "23 May 2026, 06:42 PM IST",
+  "total": 206,
   "articles": [
     {
       "id": "84e87a0d0eb55feeee28381634a7c7f6",
@@ -387,6 +387,248 @@
       "scraped_date": "2026-05-23",
       "relative_time": "Today",
       "region": "Bhopal",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "1618291f6138e4ceab53b56e3f4f31c7",
+      "title": "Secretary, Department of Rural Development Reviews States’ Preparedness for Rollout of VB–G RAM G Act, 2025",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264559",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "412588ea0edd33fd85fc1a5c8542b467",
+      "title": "India’s Cold Water Fisheries Emerging as a Key Pillar of the Blue Economy",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264535",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "India’s cold water fisheries sector is emerging as an important component of the Blue Economy by generating livelihoods, improving nutrition, promoting eco-tourism, and supporting sustainable mountain development. Once limited to traditional fishing in Himalayan streams, the sector has evolved into a modern aquaculture ecosystem supported by scientific farming and advanced infrastructure.\nCold-water fisheries are practiced in high-altitude snow-fed rivers, streams, lakes, and reservoirs with temperatures ranging between 5°C and 25°C, dissolved oxygen above 6 mg/L, and pH levels between 6.5 and 8.0. Species such as rainbow trout, golden mahseer, and snow trout are cultivated using specialized infrastructure including hatcheries, raceways, RAS, biofloc systems, and cold chain facilities. Trout farming is generally practiced above 1,500 metres altitude, while mahseer culture is suitable at relatively lower elevations.\nCold-water fisheries flourish across Jammu & Kashmir, Ladakh, Himachal Pradesh, Uttarakhand, Arunachal Pradesh, Sikkim, Meghalaya, and Nagaland, along with hill districts of West Bengal, Kerala, Karnataka, and Tamil Nadu. Together, these ecosystems cover more than 5.33 lakh sq. km of mountainous terrain. India has identified over 278 cold-water fish species, making the sector important for biodiversity conservation and sustainable mountain development.\nIndia’s total fish production reached approximately 197.75 lakh tonnes during 2024–25, with cold-water fisheries contributing nearly 3 percent of inland fish production. National cold-water fish production currently stands at around 7,000 metric tonnes, while trout production alone has increased nearly 1.8 times over the last decade to about 6,000 metric tonnes in 2024–25.\nJammu & Kashmir has emerged as India’s leading trout producing region with around 3,010 MT production in 2025–26, supported by the Kokernag hatchery and over 2,000 private trout units. Himachal Pradesh produced around 1,673 MT trout in 2025–26 with 909 trout farmers and 1,739 trout farming units. Uttarakhand recorded around 710 MT trout production and total fish production of 10,486 MT during 2024–25, supported by nearly 2,500 raceways across districts such as Pithoragarh, Bageshwar, and Chamoli. Ladakh has crossed 50 MT production with 120 raceways and four hatcheries despite its harsh climatic conditions.\nNorth Eastern states including Arunachal Pradesh, Sikkim, Meghalaya, and Nagaland are steadily expanding hatcheries and trout farming, while Kerala, Karnataka, and Tamil Nadu are adopting pilot RAS and biofloc systems in hill regions such as Wayanad, Nilgiris, and Uttara Kannada.\nThe sector has generated significant livelihood opportunities. Across cold-water states, 23.51 lakh families have received livelihood support, while 33.78 lakh fishers have been covered under insurance schemes. Jammu & Kashmir alone has over 31,000 registered fishers and fish farmers.\nThe Government of India has made substantial investments",
+      "summary": "India’s cold water fisheries sector is emerging as an important component of the Blue Economy by generating livelihoods, improving nutrition, promoting eco-tourism, and supporting sustainable mountain development. Once limited to traditional fishing in Himalayan streams, the sector has evolved into a modern aquaculture ecosystem supported by scientific farming and advanced infrastructure. Cold-water fisheries are practiced in high-altitude snow-fed rivers, streams, lakes, and reservoirs with temperatures ranging between 5°C and 25°C, dissolved oxygen above 6 mg/L, and pH levels between 6.5 and 8.0.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "2cafadeb8f220e3c893356a26dd171d1",
+      "title": "DPIIT Releases Guidelines for Implementation of BHAVYA Scheme",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264533",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "BHAVYA Scheme to Strengthen India’s Manufacturing Ecosystem through Integrated Industrial Infrastructure BHAVYA Scheme to Develop 100 Industrial Parks with ₹33,660 Crore Outlay\nThe Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry, Government of India, has released the detailed operational guidelines for the implementation of the BHAVYA Scheme, a landmark Central Sector Scheme aimed at developing investment-ready, world-class industrial parks across the country.\nBHAVYA has been designed to strengthen India’s manufacturing ecosystem through development of integrated industrial infrastructure aligned with the objectives of Make in India, PM Gati Shakti, and the Government’s broader vision of positioning India as a globally competitive manufacturing destination.\nThe Scheme provides for development of 100 industrial parks over a period of six years from 2026-27 to 2031-32, with a total financial outlay of approximately ₹33,660 crore. In the first phase, up to 50 industrial parks will be taken up through a challenge-based competitive selection process.\nThe Guidelines lay down a comprehensive framework covering eligibility criteria, project selection methodology, funding structure, governance architecture, monitoring systems, and implementation modalities for industrial parks under the Scheme.\nThe major focus of the Scheme is on creation of “investment-ready” industrial ecosystems with plug-and-play infrastructure, multimodal logistics connectivity, reliable utility systems, worker-support infrastructure, digital governance systems, and sustainable development features.\nThe Guidelines provide for development of both greenfield and eligible brownfield industrial parks. Minimum land requirements have been prescribed at 100 acres for non-hilly states and 25 acres for hilly states, northeastern states, Union Territories, and smaller states. The Scheme also permits consideration of larger parks up to 1000 acres.\nUnder the challenge-based selection framework, proposals will be evaluated on objective parameters including multimodal connectivity, site suitability, quality of infrastructure, industrial ecosystem strength, policy facilitation, digital governance readiness, and long-term sustainability.\nThe Guidelines provide for evaluation on quality of infrastructure for components such as underground utility systems, water and waste management infrastructure, common effluent treatment systems, renewable energy infrastructure, worker housing, testing laboratories, digital single-window systems, skill development facilities and integrated common infrastructure.\nImplementation of projects under BHAVYA will be undertaken through Special Purpose Vehicles (SPVs) incorporated under the Companies Act, 2013. The SPVs will be responsible for project planning, development, operation, management, investor facilitation, and long-term maintenance of assets created under the Scheme.\nThe Scheme will provide financial assistance i",
+      "summary": "BHAVYA Scheme to Strengthen India’s Manufacturing Ecosystem through Integrated Industrial Infrastructure BHAVYA Scheme to Develop 100 Industrial Parks with ₹33,660 Crore Outlay The Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry, Government of India, has released the detailed operational guidelines for the implementation of the BHAVYA Scheme, a landmark Central Sector Scheme aimed at developing investment-ready, world-class industrial parks across the country. BHAVYA has been designed to strengthen India’s manufacturing ecosystem through development of integrated industrial infrastructure aligned with the objectives of Make in India, PM Gati Shakti, and the Government’s broader vision of positioning India as a globally competitive manufacturing destination. The Scheme provides for development of 100 industrial parks over a period of six years from 2026-27 to 2031-32, with a total financial outlay of approximately ₹33,660 crore.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "be2c56203f43f63cd4dcbd90d6c0f0a3",
+      "title": "Union Health Minister Shri J.P. Nadda reviews healthcare systems in West Bengal during virtual meeting with Chief Minister Shri Suvendu Adhikari",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264534",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Focus on Effective Implementation of NHM, PM-ABHIM and Other Flagship Health Programmes in the State Union Health Minister assures full support and cooperation to West Bengal for strengthening healthcare infrastructure ₹527.58 crore released as first tranche from ₹3,505.59 crore NHM allocation for West Bengal Shri Nadda emphasizes effective implementation of nationwide HPV vaccination drive and TB Mukt Bharat Abhiyan in West Bengal with strong public participation Key discussions held on signing of MoU for implementation of Ayushman Bharat PM-JAY in West Bengal, Strengthening Health Infrastructure, Immunization, Maternal & Child Health and Quality Healthcare Services Centre and West Bengal Reaffirm Commitment to Collaborative Efforts for Improving Public Health Outcomes and Ensuring Accessible, Affordable and Quality Healthcare Services for All\nThe Union Minister of Health & Family Welfare, Shri Jagat Prakash Nadda, today chaired a high-level review meeting with the Hon’ble Chief Minister of West Bengal Shri Suvendu Adhikari to discuss strengthening of healthcare services, implementation of key health programmes, and effective utilization of funds under the National Health Mission (NHM), PM-ABHIM and other flagship schemes.\nDiscussions were held on achieving Sustainable Development Goals (SDGs) through improvement of health infrastructure, immunization, maternal and child health initiatives, TB and other vector borne disease elimination, early screening and diagnosis of Non-Communicable Diseases (NCDs) and availability of drugs and diagnostics at all public care health facilities.\nEmphasis was laid on timely utilization of funds, strengthening healthcare delivery systems, better programme monitoring, and ensuring quality healthcare services across the State. Under National Health Mission, a total Resource envelope of Rs. 3505.59 Cr for FY 2026-27 was conveyed to the State, out of which, first mother sanction for Rs 527.58 Cr has been released to the State today. It was also conveyed to the State that the funds available with the state for PM-ABHIM and 15 th Finance Commission-Health grants to be utilised at the earliest.\nThe meeting also focused on enhancing public health systems through improved regulatory oversight, strengthening diagnostics and supply-chain systems, and promoting technology-driven healthcare solutions. Special emphasis was laid on accelerating the effort towards TB Mukt Bharat Abhiyan to be implemented in the State through intensified screening, treatment adherence, and district-level monitoring. The Union Minister also mentioned the State to roll out HPV Vaccination at the earliest in the State.\nAddressing the meeting, Union Health Minister Shri Nadda emphasized that sustained efforts are required to improve and maintain key public health indicators such as Maternal Mortality Rate (MMR), Under-5 Mortality Rate (U5MR) and Neonatal Mortality Rate (NMR), particularly considering West Bengal’s border areas and associated public h",
+      "summary": "Focus on Effective Implementation of NHM, PM-ABHIM and Other Flagship Health Programmes in the State Union Health Minister assures full support and cooperation to West Bengal for strengthening healthcare infrastructure ₹527.58 crore released as first tranche from ₹3,505.59 crore NHM allocation for West Bengal Shri Nadda emphasizes effective implementation of nationwide HPV vaccination drive and TB Mukt Bharat Abhiyan in West Bengal with strong public participation Key discussions held on signing of MoU for implementation of Ayushman Bharat PM-JAY in West Bengal, Strengthening Health Infrastructure, Immunization, Maternal & Child Health and Quality Healthcare Services Centre and West Bengal Reaffirm Commitment to Collaborative Efforts for Improving Public Health Outcomes and Ensuring Accessible, Affordable and Quality Healthcare Services for All The Union Minister of Health & Family Welfare, Shri Jagat Prakash Nadda, today chaired a high-level review meeting with the Hon’ble Chief Minister of West Bengal Shri Suvendu Adhikari to discuss strengthening of healthcare services, implementation of key health programmes, and effective utilization of funds under the National Health Mission (NHM), PM-ABHIM and other flagship schemes. Discussions were held on achieving Sustainable Development Goals (SDGs) through improvement of health infrastructure, immunization, maternal and child health initiatives, TB and other vector borne disease elimination, early screening and diagnosis of Non-Communicable Diseases (NCDs) and availability of drugs and diagnostics at all public care health facilities. Emphasis was laid on timely utilization of funds, strengthening healthcare delivery systems, better programme monitoring, and ensuring quality healthcare services across the State.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "iLEAP": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "76732150ae2a19a8ed1187863ba03a15",
+      "title": "At Siliguri’s 19th employment fair, 82 young people receive appointment letters",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264538",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Minister of State for Rural Development Shri Kamlesh Paswan presented appointment letters to the youth Call to national service under the Prime Minister’s motto of ‘Nagarik Devo Bhavah’ Over 51,000 young people across 47 locations nationwide received employment opportunities\nUnder the leadership of Prime Minister Shri Narendra Modi, a grand event was held today in Siliguri as part of the 19th Employment Fair that took place at 47 locations across the country. At the Siliguri venue, the Honourable Minister of State for Rural Development, Government of India, Shri Kamlesh Paswan, formally presented appointment letters to newly recruited youth and urged them to play an active role in nation-building.\nA total of 82 candidates at the Siliguri employment fair were issued appointment letters for positions in various central government departments. These appointments include posts in the Indian Railways, the Department of Posts, the Defence Department, the Financial Services Department, and the Food Corporation of India (FCI). Through this nationwide employment fair, more than 51,000 young people have been given the opportunity to join the central government services.\nOn the occasion, Shri Kamlesh Paswan emphasised that an employment fair is not merely a distribution of appointment letters but a celebration of the dreams, talents, and participatory spirit of the nation’s youth in building the country. He stated that, under the leadership of Prime Minister Shri Narendra Modi, the central government is consistently creating opportunities for the youth through recruitment processes that are transparent, fast, and merit-based.\nReferring to the Prime Minister’s motto of ‘Nagarik Devo Bhavah’, Shri Paswan observed that serving the citizens is the supreme duty of the government and government employees. He appealed to the newly appointed youth to discharge their duties with honesty, sensitivity, and dedication, and to always prioritise the spirit of ‘Nation First’.\nShri Paswan noted that India today has the world’s youngest population, and that this youthful strength is the greatest force for building a Developed India (Viksit Bharat). He said the central government is generating new opportunities for youth through initiatives such as Skill Development, Digital India, Start-up India, and Make in India.\nThe programme was graced by the dignified presence of many elected representatives and senior officials, including Dr. Jayanti Roy, Honourable Member of Parliament; Dr. Shankar Ghosh, Honourable MLA, Siliguri; Mrs. Shikha Chatterjee, Honourable MLA, Fulbari; Mr. Anandamay Barman, Honourable MLA, Matigara–Naxalbari; Mr. Sonam Lama, Honourable MLA, Kalimpong; Mr. Durga Murmu, Honourable MLA, Phansidewa; Mr. Ananta Dev Adhikari, Honourable MLA, Jalpaiguri; and Mr. Dhirram ji, Honourable MLA, among others.\nIn his concluding remarks, Shri Kamlesh Paswan extended his best wishes to all the newly appointed youth and their families, urging them to place honesty, devotion",
+      "summary": "Minister of State for Rural Development Shri Kamlesh Paswan presented appointment letters to the youth Call to national service under the Prime Minister’s motto of ‘Nagarik Devo Bhavah’ Over 51,000 young people across 47 locations nationwide received employment opportunities Under the leadership of Prime Minister Shri Narendra Modi, a grand event was held today in Siliguri as part of the 19th Employment Fair that took place at 47 locations across the country. At the Siliguri venue, the Honourable Minister of State for Rural Development, Government of India, Shri Kamlesh Paswan, formally presented appointment letters to newly recruited youth and urged them to play an active role in nation-building. A total of 82 candidates at the Siliguri employment fair were issued appointment letters for positions in various central government departments.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "ELS": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "9a808624be6ce1bcdb11b56e69e76077",
+      "title": "TISS-SSE signs strategic MoU with MahaIT at TechMahaImpacT 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264560",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "396dca542c946b3f2fd7caa7828d5dc9",
+      "title": "'Rozgar Mela' Empowers Youth with Jobs and Self-Reliance: Union Minister Shri G. Kishan Reddy",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264524",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Hyderabad",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "19th 'Rozgar Mela' Held in Secunderabad Union Minister Shri Kishan Reddy Distributes Appointment Letters to 218 Recruits\nUnion Minister for Coal and Mines, Shri G. Kishan Reddy, attended the 19th 'Rozgar Mela' held at Rail Kalarang, Secunderabad, on Saturday. During the event, Shri Kishan Reddy distributed appointment letters to 218 newly recruited candidates across six different central government departments.\nThe 19th tranche of the nationwide 'Rozgar Mela', was organized by the Central Government across 47 locations and distributed appointment letters to around 51,000 recruits. Prime Minister Shri Narendra Modi virtually addressed the event.\nAddressing the gathering, Shri Kishan Reddy said that Prime Minister Narendra Modi started the 'Rozgar Mela' initiative not only to provide employment but also to empower the unemployed youth of the nation. He highlighted that since 2022, lakhs of youth have secured central government jobs through these mega recruitment drives.\nHe stated that the Central Government is actively filling vacancies across all government departments and Public Sector Undertakings (PSUs) to provide jobs to unemployed youth. He noted that today, India's youth are transforming from job-seekers into job-creators. He further added that startups are generating lakhs of jobs, and the 'Make in India' initiative has significantly boosted employment in the manufacturing sector.\nCongratulating the newly selected candidates, Shri Kishan Reddy reminded them that a government job offers a valuable opportunity to serve the nation for the next 20 to 30 years. He urged them to work with dedication and a spirit of public service for the country's development. He also advised them never to neglect their parents, who made numerous sacrifices for their success, and to support them wholeheartedly in their old age.\nThe event was attended by Shri Sanjay Kumar Shrivastava, General Manager, South Central Railway, Shri Siddharth Kati, Principal Chief Personnel Officer, South Central Railway, Dr. R. Gopalakrishnan, Divisional Railway Manager, Secunderabad and other senior officials.",
+      "summary": "19th 'Rozgar Mela' Held in Secunderabad Union Minister Shri Kishan Reddy Distributes Appointment Letters to 218 Recruits Union Minister for Coal and Mines, Shri G. Kishan Reddy, attended the 19th 'Rozgar Mela' held at Rail Kalarang, Secunderabad, on Saturday. During the event, Shri Kishan Reddy distributed appointment letters to 218 newly recruited candidates across six different central government departments.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "ELS": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "6cc9eb50f4883c46759e46c586db7b54",
+      "title": "Indian Chartered Accountants of India (ICAI) Convocation ceremony at Chennai",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264563",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5385cf9e8fe2dfb616bc3b3540f329ed",
+      "title": "IISER and Semi-Conductor Laboratory enter into an MoU",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264555",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Chandigarh",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "51fe19fed94c531efd0b56dbfc8c9069",
+      "title": "MoS Sushri Shobha Karandlaje Inaugurated the 19th Rozgar Mela Held in Bengaluru",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264525",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Bengaluru",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Appointment Letters Distributed to More Than 51,000 Candidates in the Events Held Simultaneously Across 19 Locations in the Country\nAt the 19th Rozgar Mela held in Bengaluru today, the Union Minister of State for Labour and Employment, and Micro, Small and Medium Enterprises, Sushri Shobha Karandlaje, distributed appointment letters to candidates selected for posts in various government departments. 19th Rozgar Mela events were held simultaneously across 19 locations in the country, where appointment letters were distributed to more than 51,000 candidates selected for government jobs.\nInaugurating the program, MoS Sushri Shobha Karandlaje said that the youth must involve themselves in government services. We must make India as Viksit Bharat; this is possible only through the upcoming Amrit peedi. India will develop and gain respect through the development of every department and every state. She stated that making India number one in the world by 2047 is our goal and our purpose. So far, a total of 19 Rozgar Melas have been conducted. In the last 3-4 years, more than 12 lakh youth have joined government departments. The responsibility of the Amrit peedi is to work well and honestly in the departments they have joined. Through government work, they should do as much good as possible for society and work for the nation, she said.\nIn the past, one had to wander around offices for an appointment letter, but in the last 4-5 years, a great opportunity has been created for job seekers; Hon.Prime Minister and Ministers themselves are coming in person to hand over the appointment letters. The sole purpose behind this is that we must all come together to take this country forward, and it is our responsibility to improve our departments. The Minister said that this is exactly why the Hon. Prime Minister himself is now undertaking the work of giving appointment letters to our youth.\nAlong with government work, engage in other social services as well. Teach children during your spare time. Taking our country forward is our sole purpose. Our goal is that by the year 2047, India must be in the number one position across every department in the entire world. For this, the Government is fulfilling various responsibilities, and our 'Karmayogi' scheme is one among them; priority is being given to Karmayogi.\nThere are different chapters in Karmayogi. The first one is 'Prarambh'. You must read this and pass it. She advised the newly recruited employees that through this, you will gain more knowledge on how to work and what to do.\nOn this occasion, Hon. Prime Minister Shri Narendra Modi participated virtually through video conferencing and addressed the Rozgar Mela. Officials from various departments were present at the event.",
+      "summary": "Appointment Letters Distributed to More Than 51,000 Candidates in the Events Held Simultaneously Across 19 Locations in the Country At the 19th Rozgar Mela held in Bengaluru today, the Union Minister of State for Labour and Employment, and Micro, Small and Medium Enterprises, Sushri Shobha Karandlaje, distributed appointment letters to candidates selected for posts in various government departments. 19th Rozgar Mela events were held simultaneously across 19 locations in the country, where appointment letters were distributed to more than 51,000 candidates selected for government jobs. Inaugurating the program, MoS Sushri Shobha Karandlaje said that the youth must involve themselves in government services.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "ELS": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "f41f492971f7eeb9702fde2281f02f04",
+      "title": "Musical Evening held in Shillong to mark 90 years of Akashvani’s service to nation as public broadcaster",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264573",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Shillong",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "8fe51d208cb626a72e296da86dbbad48",
+      "title": "NIFT Shillong Hosts Graduation Show 2026 Celebrating Innovation and Creative Excellence",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264544",
+      "date": "2026-05-23",
+      "scraped_date": "2026-05-23",
+      "relative_time": "Today",
+      "region": "Shillong",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -3668,14 +3910,14 @@
       "section": "other"
     }
   ],
-  "other_count": 156,
+  "other_count": 162,
   "vertical_counts": {
-    "EoDB": 7,
-    "EooDB": 7,
+    "EoDB": 8,
+    "EooDB": 8,
     "CoDED": 2,
-    "iLEAP": 5,
-    "ELS": 10,
-    "Sustainability": 9,
+    "iLEAP": 6,
+    "ELS": 13,
+    "Sustainability": 10,
     "Political_Economy": 8
   },
   "regions_scraped": 24,
