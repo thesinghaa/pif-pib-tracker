@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-24T16:11:02Z",
-  "last_updated_ist": "24 May 2026, 09:41 PM IST",
-  "total": 185,
+  "last_updated": "2026-05-24T17:04:20Z",
+  "last_updated_ist": "24 May 2026, 10:34 PM IST",
+  "total": 187,
   "articles": [
     {
       "id": "18db2c5ec7c18b2c552fb1e9e17037e4",
@@ -604,6 +604,42 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "a80a35c2635370ab3c68034542d96f9b",
+      "title": "Union Home Minister and Minister of Cooperation, Shri Amit Shah addresses the ‘Janjati Sanskritik Samagam’ organised in New Delhi on the occasion of the 150thbirth anniversary year of Bhagwan Birsa Munda as the Chief Guest",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264860",
+      "date": "2026-05-24",
+      "scraped_date": "2026-05-24",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "62b634798be0c8d5d908380a1d75b2a8",
+      "title": "President of India to confer the Padma Awards for the year 2026 at the Civil Investiture Ceremony-I tomorrow",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264858",
+      "date": "2026-05-24",
+      "scraped_date": "2026-05-24",
+      "relative_time": "Today",
+      "region": "Bhubaneswar",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "vertical_scores": {},
       "section": "other"
     },
@@ -3510,7 +3546,7 @@
       "section": "other"
     }
   ],
-  "other_count": 146,
+  "other_count": 148,
   "vertical_counts": {
     "EoDB": 7,
     "EooDB": 7,
