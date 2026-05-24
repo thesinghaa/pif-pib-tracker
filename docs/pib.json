@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-24T06:40:57Z",
-  "last_updated_ist": "24 May 2026, 12:10 PM IST",
-  "total": 157,
+  "last_updated": "2026-05-24T09:26:16Z",
+  "last_updated_ist": "24 May 2026, 02:56 PM IST",
+  "total": 160,
   "articles": [
     {
       "id": "18db2c5ec7c18b2c552fb1e9e17037e4",
@@ -96,6 +96,60 @@
         "iLEAP": 3
       },
       "section": "vertical"
+    },
+    {
+      "id": "8025a73934d2a3d51684ec5c03eacc5c",
+      "title": "Raksha Khadse Leads Commonwealth Games 2030 Celebration at IIT Guwahati During Special 75th Edition of Fit India Sundays on Cycle",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264747",
+      "date": "2026-05-24",
+      "scraped_date": "2026-05-24",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "1ea02f9885bbc7ed11fe4a8ebc82748d",
+      "title": "Ahmedabad Leads India’s Grand Commonwealth Games Day Celebrations as 75th Edition of Fit India Sundays on Cycle Unites the Nation",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264740",
+      "date": "2026-05-24",
+      "scraped_date": "2026-05-24",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "41de1cf246426f72d2706fc6d567f206",
+      "title": "JNPA facilitates measures to reduce Import Container Pendency at Terminals",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264720",
+      "date": "2026-05-24",
+      "scraped_date": "2026-05-24",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "84e87a0d0eb55feeee28381634a7c7f6",
@@ -3000,7 +3054,7 @@
       "section": "other"
     }
   ],
-  "other_count": 119,
+  "other_count": 122,
   "vertical_counts": {
     "EoDB": 7,
     "EooDB": 7,
