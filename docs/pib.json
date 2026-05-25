@@ -1,8 +1,84 @@
 {
-  "last_updated": "2026-05-25T02:45:06Z",
-  "last_updated_ist": "25 May 2026, 08:15 AM IST",
-  "total": 92,
+  "last_updated": "2026-05-25T07:17:14Z",
+  "last_updated_ist": "25 May 2026, 12:47 PM IST",
+  "total": 96,
   "articles": [
+    {
+      "id": "32983d59c4c28f36323357fc06fdfef8",
+      "title": "Army Hospital (R&R) commissions modern radiotherapy technology for advanced cancer care",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264896",
+      "date": "2026-05-25",
+      "scraped_date": "2026-05-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f00fb73084cf1426a37c16cd99c294fe",
+      "title": "Ministry of Electronics & IT and Indian School of Business convene the Governance Summit 2026 in Mohali",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264873",
+      "date": "2026-05-25",
+      "scraped_date": "2026-05-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "One-day summit at ISB Mohali brought together stakeholders to advance AI-powered solutions for digital commerce, safety, healthcare, and governance under India’s Viksit Bharat vision\nThe Ministry of Electronics and Information Tecahnology (MeitY), in collaboration with Bharti Institute of Public Policy at the Indian School of Business (ISB), on 23 May 2026, hosted the Governance Summit 2026: Inclusive AI for Viksit Bharat at the ISB Mohali Campus.\nThe fourth edition of the summit commenced with an inaugural keynote address, delivered by Shri S. Krishnan, Secretary, Ministry of Electronics and Information Technology, Government of India, who set out the government’s commitment to building an AI ecosystem that serves every citizen, including those at the margins of the digital economy. He said, \"Artificial intelligence presents India with a transformative opportunity to enhance productivity, improve governance, and expand access across sectors such as healthcare, education, manufacturing, and financial inclusion.” He also raised that while concerns around the impact of AI on cognitive jobs are understandable, India is uniquely positioned to harness this technology for inclusive growth.\nThe day-long programme featured four thematic panel discussions covering AI’s role in digital commerce, online safety for women and children, healthcare access and affordability, and job creation and digital entrepreneurship. A parallel roundtable examined the operationalisation of AI for last-mile public service delivery, from state governments down to gram panchayats.\nIn his opening address, Prof. Ashwini Chhatre, Associate Professor and Executive Director, Bharti Institute of Public Policy, ISB, emphasised the need to translate AI ambitions into actionable governance frameworks. He said, “AI must be viewed as a long-term national mission shaping the future of the next generation and identified inequality, leapfrogging opportunities, and the future of jobs as key dimensions of the emerging AI landscape.” Prof. Chhatre also stressed that access to AI opportunities must remain equitable through appropriate safeguards, social security mechanisms, and affirmative action.” The summit convened senior government officials, industry leaders, academics, and civil society representatives to examine how artificial intelligence can be harnessed to deepen inclusion, strengthen governance, and accelerate India’s development agenda. It saw participation from Reliance Retail, Mastercard, Apollo Hospitals, IIT Madras, UNICEF India, the Punjab Police, and several central and state government ministries.",
+      "summary": "One-day summit at ISB Mohali brought together stakeholders to advance AI-powered solutions for digital commerce, safety, healthcare, and governance under India’s Viksit Bharat vision The Ministry of Electronics and Information Tecahnology (MeitY), in collaboration with Bharti Institute of Public Policy at the Indian School of Business (ISB), on 23 May 2026, hosted the Governance Summit 2026: Inclusive AI for Viksit Bharat at the ISB Mohali Campus. The fourth edition of the summit commenced with an inaugural keynote address, delivered by Shri S. Krishnan, Secretary, Ministry of Electronics and Information Technology, Government of India, who set out the government’s commitment to building an AI ecosystem that serves every citizen, including those at the margins of the digital economy.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "792e14d088b56d08ee529960c48dfe6f",
+      "title": "Prime Minister shares a Sanskrit Subhashitam praying for the eternal abundance, happiness and prosperity of all",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264869",
+      "date": "2026-05-25",
+      "scraped_date": "2026-05-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "70642067ae2cca63551f5223230a2578",
+      "title": "Akashvani Ahmedabad to Organize ‘Sugam Sangeet Samaroh’ under AKASHVANI@90 Celebrations",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2264876",
+      "date": "2026-05-25",
+      "scraped_date": "2026-05-25",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "18db2c5ec7c18b2c552fb1e9e17037e4",
       "title": "NMDC Launches Summer Camp for 1700 Children in Dakshin Bastar",
@@ -1748,7 +1824,7 @@
       "section": "other"
     }
   ],
-  "other_count": 72,
+  "other_count": 75,
   "vertical_counts": {
     "EoDB": 3,
     "EooDB": 3,
@@ -1756,7 +1832,7 @@
     "iLEAP": 3,
     "ELS": 13,
     "Sustainability": 1,
-    "Political_Economy": 1
+    "Political_Economy": 2
   },
   "regions_scraped": 22,
   "verticals": {
