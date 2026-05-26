@@ -1,8 +1,30 @@
 {
-  "last_updated": "2026-05-26T00:09:14Z",
-  "last_updated_ist": "26 May 2026, 05:39 AM IST",
-  "total": 120,
+  "last_updated": "2026-05-26T02:52:34Z",
+  "last_updated_ist": "26 May 2026, 08:22 AM IST",
+  "total": 121,
   "articles": [
+    {
+      "id": "8072bf090466e6316538c6b455a699a0",
+      "title": "Government Notifies National Sports Governance Board Rules and National Sports Tribunal Rules, 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2265248",
+      "date": "2026-05-26",
+      "scraped_date": "2026-05-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "National Sports Board to oversee recognition and governance standards of National Sports Bodies National Sports Tribunal to ensure speedy, independent and cost-effective resolution of sports disputes\nThe Union Government has notified the National Sports Governance (National Sports Board) Rules, 2026 and the National Sports Governance (National Sports Tribunal) Rules, 2026 under the provisions of the National Sports Governance Act, 2025.\nThe National Sports Governance (National Sports Board) Rules, 2026 provide for the composition of the Board, term of office of the Chairperson and Members, salary, allowances and other conditions of service, as well as the powers and functions of the Board.\nUnder the Rules, the National Sports Board shall consist of a Chairperson and two Members to be appointed by the Central Government from a panel of names recommended by the Search-cum-Selection Committee constituted under the National Sports Board (Search-cum-Selection Committee) Rules, 2026.\nThe National Sports Board will function as the central authority for granting recognition to National Sports Bodies and ensuring compliance with governance, financial and ethical standards.\nThe National Sports Governance (National Sports Tribunal) Rules, 2026 provide for the term of office of the Chairperson and Members of the Tribunal, their appointment and re-appointment process, salary and allowances, service conditions and powers of the Tribunal.\nThe Rules also incorporate techno-legal measures for digital implementation, including notification of a dedicated portal by the Central Government for submission of disputes, notices, responses, documents and clarifications, as well as communication from the Tribunal, publication of orders, virtual hearings and maintenance of records related to proceedings and orders.\nThe National Sports Tribunal will serve as a dedicated adjudicatory body for sports-related disputes in the country. It is aimed at reducing reliance on civil courts and ensuring independent, speedy, effective and cost-efficient disposal of disputes relating to sports governance and administration.\nThe Tribunal is also expected to reduce multiplicity of litigation and provide a single-window mechanism for faster, simpler and more accessible resolution of sports disputes.\nThe details of the notified rules of National Sports Tribunal 2026 can be read here:\nThe details of the notified rules of National Sports Board 2026 can be read here:",
+      "summary": "National Sports Board to oversee recognition and governance standards of National Sports Bodies National Sports Tribunal to ensure speedy, independent and cost-effective resolution of sports disputes The Union Government has notified the National Sports Governance (National Sports Board) Rules, 2026 and the National Sports Governance (National Sports Tribunal) Rules, 2026 under the provisions of the National Sports Governance Act, 2025. The National Sports Governance (National Sports Board) Rules, 2026 provide for the composition of the Board, term of office of the Chairperson and Members, salary, allowances and other conditions of service, as well as the powers and functions of the Board. Under the Rules, the National Sports Board shall consist of a Chairperson and two Members to be appointed by the Central Government from a panel of names recommended by the Search-cum-Selection Committee constituted under the National Sports Board (Search-cum-Selection Committee) Rules, 2026.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
     {
       "id": "32983d59c4c28f36323357fc06fdfef8",
       "title": "Army Hospital (R&R) commissions modern radiotherapy technology for advanced cancer care",
@@ -2218,7 +2240,7 @@
     "iLEAP": 1,
     "ELS": 1,
     "Sustainability": 2,
-    "Political_Economy": 4
+    "Political_Economy": 5
   },
   "regions_scraped": 23,
   "verticals": {
