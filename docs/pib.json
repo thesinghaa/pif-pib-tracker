@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-29T05:17:51Z",
-  "last_updated_ist": "29 May 2026, 10:47 AM IST",
-  "total": 137,
+  "last_updated": "2026-05-29T09:46:38Z",
+  "last_updated_ist": "29 May 2026, 03:16 PM IST",
+  "total": 147,
   "articles": [
     {
       "id": "5a09a8bdff11b2ada9641c5ae68f35f1",
@@ -60,6 +60,208 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "1f5f11149ddceef1a12e86c0352f19e9",
+      "title": "Vice President attends Global Celebrations marking 45 Years of the Art of Living Foundation in Bengaluru",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266572",
+      "date": "2026-05-29",
+      "scraped_date": "2026-05-29",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "8ff97e3a14b9d3bc648809b48f1cb685",
+      "title": "Raksha Mantri releases commemorative book on Op Sindoor, chronicling soldiers’ personal testimonies",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266570",
+      "date": "2026-05-29",
+      "scraped_date": "2026-05-29",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f03d87b523c7ee13bbc59b2457c0d62c",
+      "title": "On the Occasion of World No Tobacco Day, Smt. Punya Salila Srivastava, Union Health Secretary launches pilot Tobacco-Free Educational Institutions (ToFEI) Application",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266568",
+      "date": "2026-05-29",
+      "scraped_date": "2026-05-29",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Releases SOP for Tobacco Product Sample Collection\nOn the occasion of World No Tobacco Day (WNTD) 2026, Smt. Punya Salila Srivastava launched the pilot version of the Tobacco-Free Educational Institutions (ToFEI) Application, at a national event under the National Tobacco Control Programme (NTCP) at Kartavya Bhawan, here today, reaffirming India’s strong commitment towards protecting present and future generations from the devastating health, social, economic and environmental consequences of tobacco and nicotine addiction.\nToFEI is a digital initiative aimed at strengthening implementation and monitoring of tobacco-free norms across schools and colleges in the country.\nThe application has been designed to facilitate:\n• self-assessment and reporting by educational institutions;\n• monitoring of compliance with ToFEI guidelines;\n• implementation of tobacco control signage requirements;\n• prohibition of sale of tobacco products within 100 yards of educational institutions;\n• awareness and sensitisation activities for students and teachers; and\n• strengthening enforcement of tobacco-free campus measures.\nThe digital platform is expected to support States/UTs, educational institutions, and programme officials through standardized monitoring, reporting, and compliance assessment mechanisms, thereby enhancing accountability and promoting healthier, tobacco-free environments for children and adolescents. The pilot implementation of the application in 3 States - Rajasthan, Meghalaya, and Maharashtra will help assess operational feasibility, strengthen implementation and reporting mechanisms, and inform future scale-up of the platform across the country.\nOn the occasion, the Ministry also released the Standard Operating Procedure (SOP) for Sample Collection of Tobacco Products, aimed at strengthening surveillance, regulatory compliance and quality assurance related to tobacco products. The SOP provides standardised procedures for collection, handling, storage, transportation and documentation of tobacco product samples to ensure consistency and reliability in testing processes.\nAddressing the gathering, Union Health Secretary Smt. Punya Salila Srivastava stated that this year’s theme for World No Tobacco Day, “Unmasking the Appeal – Countering Nicotine and Tobacco Addiction”, is especially relevant in the context of protecting young people and future generations from the harmful effects of tobacco and nicotine addiction.\nShe observed that tobacco and nicotine products are often designed and marketed in ways that make them appear attractive, particularly to youth, through appealing flavours, packaging, surrogate advertising and portrayals on social media and digital platforms. She emphasized that such strategies can create a misleading perception around tobacco and nicotine use and highlighted the importance of creating greater awareness among young people so that they remain informed, vigilant and committed to rejecting tobacco and nicotine consumption.\nTh",
+      "summary": "Releases SOP for Tobacco Product Sample Collection On the occasion of World No Tobacco Day (WNTD) 2026, Smt. Punya Salila Srivastava launched the pilot version of the Tobacco-Free Educational Institutions (ToFEI) Application, at a national event under the National Tobacco Control Programme (NTCP) at Kartavya Bhawan, here today, reaffirming India’s strong commitment towards protecting present and future generations from the devastating health, social, economic and environmental consequences of tobacco and nicotine addiction. ToFEI is a digital initiative aimed at strengthening implementation and monitoring of tobacco-free norms across schools and colleges in the country.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "iLEAP": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "e77fd17d85141d40289df33f3d05fd7b",
+      "title": "INDIA ADVANCES BRICS MSME COOPERATION UNDER ITS 2026 CHAIRSHIP",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266543",
+      "date": "2026-05-29",
+      "scraped_date": "2026-05-29",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "Ministry of MSME successfully convenes the 2nd SME Working Group Meeting under the BRICS PartNIR track on the theme “Enhancing Access to Technology for MSMEs” Discussions among BRICS Member Countries focused on “Harnessing Innovations and Technology Commercialization for MSMEs”\nThe SME Working Group under the BRICS Partnership on the New Industrial Revolution (PartNIR) is being led by the Ministry of MSME, Government of India. Under India’s BRICS Chairship 2026, the Ministry will convene three SME Working Group Meetings and the inaugural BRICS MSME Forum, focusing on three priority areas: access to finance, technology access, and sustainability-oriented growth for MSMEs.\nFollowing the 1st SME Working Group Meeting held on 24 April 2026, the Ministry of MSME successfully convened the 2nd SME Working Group Meeting on 26 May 2026 under the BRICS PartNIR track on the theme “Enhancing Access to Technology for MSMEs”. Discussions among BRICS Member Countries focused on “Harnessing Innovations and Technology Commercialization for MSMEs” and “Skilling and Development of Industry-Ready Manpower for MSME Tech Adoption”.\nThe Meeting saw active participation from BRICS Member Countries and provided a platform for sharing experiences and best practices, while underscoring the role of MSMEs in economic growth, employment generation, innovation, and inclusive development. Discussions highlighted the need for a multi-pronged approach to bridge the technology divide through greater digital inclusion, stronger innovation capabilities, and improved technology readiness of MSMEs to support their integration into regional and global value chains.\nThe Meeting also reiterated the importance of deeper collaboration among BRICS economies in technology access, innovation ecosystems, and skills development for MSMEs. The deliberations enabled valuable policy exchange among countries facing similar developmental challenges and reinforced the shared commitment to building resilient, inclusive, and globally competitive MSME sectors across BRICS economies.\nThe Meeting was highly successful and productive, facilitating meaningful exchanges, strengthening cooperation among BRICS Member Countries, and generating valuable insights to advance technology access and capacity-building for MSMEs across BRICS economies.\nSunil Kumar Tiwari\nE-mail hipessi[at]gmail[dot]com",
+      "summary": "Ministry of MSME successfully convenes the 2nd SME Working Group Meeting under the BRICS PartNIR track on the theme “Enhancing Access to Technology for MSMEs” Discussions among BRICS Member Countries focused on “Harnessing Innovations and Technology Commercialization for MSMEs” The SME Working Group under the BRICS Partnership on the New Industrial Revolution (PartNIR) is being led by the Ministry of MSME, Government of India. Under India’s BRICS Chairship 2026, the Ministry will convene three SME Working Group Meetings and the inaugural BRICS MSME Forum, focusing on three priority areas: access to finance, technology access, and sustainability-oriented growth for MSMEs. Following the 1st SME Working Group Meeting held on 24 April 2026, the Ministry of MSME successfully convened the 2nd SME Working Group Meeting on 26 May 2026 under the BRICS PartNIR track on the theme “Enhancing Access to Technology for MSMEs”.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "0eecb2e4d7e376e52568855c3d47c87c",
+      "title": "Raksha Khadse Reviews Sports and Youth Development Initiatives with Meghalaya Government",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266500",
+      "date": "2026-05-29",
+      "scraped_date": "2026-05-29",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "bd0086ef59e7eac2f2e7bd7566b3339e",
+      "title": "Updated Long Range Forecast for the Southwest Monsoon Seasonal Rainfall during June–September, 2026 and Monthly Rainfall and Temperature Outlook for June 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266479",
+      "date": "2026-05-29",
+      "scraped_date": "2026-05-29",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "ad64dc72fe73c23f7cd7ee0f3fab9757",
+      "title": "Under the leadership of Prime Minister Shri Narendra Modi, the Khadi and Village Industries Commission (KVIC) has established new benchmarks of performance",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266516",
+      "date": "2026-05-29",
+      "scraped_date": "2026-05-29",
+      "relative_time": "Today",
+      "region": "Bengaluru",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "55c5cee95b4758f10833ef0250107949",
+      "title": "TPCI Organises India Food Manufacturing Summit – North East in Guwahati",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266579",
+      "date": "2026-05-29",
+      "scraped_date": "2026-05-29",
+      "relative_time": "Today",
+      "region": "Guwahati",
+      "verticals": [
+        "EoDB",
+        "EooDB",
+        "Political_Economy"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 9,
+      "snippet": "",
+      "full_content": "The Trade Promotion Council of India (TPCI), in association with the North Eastern Regional Agricultural Marketing Corporation (NERAMAC) under the Ministry of Development of North Eastern Region (MDoNER), organised the 6th Edition of the India Food Manufacturing Summit – North East in, Guwahati today.\nThe summit, held on the theme “Unlocking North East India’s Food Economy: From Farm Abundance to Global Value Chains”, focused on opportunities in food processing, value addition and market access for agricultural and horticultural products from the North East region.\nDuring the programme, TPCI signed a Memorandum of Understanding (MoU) with NERAMAC for promotion of products from the North East and strengthening market linkages and trade opportunities for the region.\nThe summit discussed the potential of North East India in horticulture and organic products including pineapple, orange, banana, jackfruit, kiwi, passion fruit and tomato, besides GI-tagged and indigenous spice products such as Lakadong turmeric, ginger, large cardamom, black pepper and indigenous chillies. Speakers highlighted the need for greater value addition and food processing facilities in the region to reduce post-harvest losses and improve returns for farmers.\nTechnical sessions during the summit covered topics including value chains for ethnic foods, commercialisation of GI-tagged products, dairy sector development, bakery and ready-to-eat food products, and cold chain infrastructure in hilly regions. Discussions focused on processing technologies, farm-gate handling, storage, packaging and market access for products from the North East.\nThe summit also highlighted the upcoming Indusfood Show and Indusfood Manufacturing Exhibition 2027 scheduled to be held from January 6 to 8, 2027 at Yashobhoomi, New Delhi. The event aims to connect food producers and processors with buyers, technology providers and international markets.\nThe programme also emphasised the importance of sustainable practices, energy-efficient technologies and eco-friendly packaging solutions in the food processing sector. The summit provided a platform for interaction and collaboration among policymakers, industry leaders, entrepreneurs and technology providers for strengthening the food processing ecosystem in the North East region.\nSmt. Aruna Rajoria, IAS, Agriculture Production Commissioner (APC), attended the programme as the Chief Guest, while Shri Bhaskar Barua, Managing Director, NERAMAC, Ministry of DoNER, Government of India, was present as the Guest of Honour. The programme was also attended by Shri Satya Brata Bose, Managing Director, NEDFL (Purabi), Dr. Radhey Shyam Dixit, Founder and Chairman, Ananda Dairy, Dr. Basanti Barooah, Former Professor and Head, Assam Agricultural University, Ms. Bhavana Vishwanath, Country Director, Tolsma-Grisnich BV and Kiremko India, along with representatives from the food processing industry, academia and other stakeholders.\n………………………………………..",
+      "summary": "The Trade Promotion Council of India (TPCI), in association with the North Eastern Regional Agricultural Marketing Corporation (NERAMAC) under the Ministry of Development of North Eastern Region (MDoNER), organised the 6th Edition of the India Food Manufacturing Summit – North East in, Guwahati today. The summit, held on the theme “Unlocking North East India’s Food Economy: From Farm Abundance to Global Value Chains”, focused on opportunities in food processing, value addition and market access for agricultural and horticultural products from the North East region. During the programme, TPCI signed a Memorandum of Understanding (MoU) with NERAMAC for promotion of products from the North East and strengthening market linkages and trade opportunities for the region.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3,
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "453e4a17dbe7a6beed8b3636a5c07a2d",
+      "title": "Meghalaya CEO Announces Polling on June 18 for Rajya Sabha Elections 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266581",
+      "date": "2026-05-29",
+      "scraped_date": "2026-05-29",
+      "relative_time": "Today",
+      "region": "Shillong",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "Political parties briefed on nomination procedures, open ballot voting system and statutory compliances\nThe Chief Electoral Officer (CEO), Meghalaya, Dr. B. D. R. Tiwari, IAS, today convened a meeting with representatives of various political parties in connection with the forthcoming Biennial Elections to the Council of States (Rajya Sabha), 2026, at the Main Secretariat Building, Shillong.\nBriefing the media after the meeting, the Chief Electoral Officer informed that polling for the Rajya Sabha election in Meghalaya will be held on June 18 from 9:00 AM to 4:00 PM, followed by counting of votes at 5:00 PM on the same day.\nThe election notification will be issued on June 1, while June 8 has been fixed as the last date for filing nominations. Scrutiny of nomination papers will take place on June 9 and the last date for withdrawal of candidature is June 11. The entire election process is scheduled to be completed before June 20.\nDuring the meeting, detailed presentations were made regarding the schedule of elections, nomination procedures, open ballot voting system, method of voting, counting process, and statutory requirements to be complied with by candidates and political parties.\nPolitical parties were informed about the requirements relating to filing of nomination papers, including submission of Form 2C, affidavits in Form 26, security deposit, oath or affirmation, and Forms AA & BB in the case of party candidates, including provisions related with Forms C1 to C8.\nSpecial emphasis was laid on the provisions relating to publicity of criminal antecedents by candidates and political parties, in compliance with the directions of the Hon’ble Supreme Court and instructions issued by the Election Commission of India.\nThe meeting also highlighted the system of election under proportional representation by means of single transferable vote and the procedure for open ballot voting under the Representation of the People Act, 1951. Political parties were informed that members belonging to a political party are required to show their marked ballot paper only to the authorized agent of their own political party and not to any other party agent. Independent MLAs are prohibited from showing their ballot papers to any agent.\nFurther, the participants were briefed on the method of recording preferences, validity of ballot papers, and the procedure for counting of votes and ascertainment of quota.\nRepresentatives of political parties attended the meeting and interacted with election officials regarding various aspects of the election process.",
+      "summary": "Political parties briefed on nomination procedures, open ballot voting system and statutory compliances The Chief Electoral Officer (CEO), Meghalaya, Dr. Tiwari, IAS, today convened a meeting with representatives of various political parties in connection with the forthcoming Biennial Elections to the Council of States (Rajya Sabha), 2026, at the Main Secretariat Building, Shillong. Briefing the media after the meeting, the Chief Electoral Officer informed that polling for the Rajya Sabha election in Meghalaya will be held on June 18 from 9:00 AM to 4:00 PM, followed by counting of votes at 5:00 PM on the same day.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "12cf8a6f236cbfc8acc31d09e868c4ba",
+      "title": "Raksha Khadse Reviews Sports and Youth Development Initiatives with Meghalaya Government",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266513",
+      "date": "2026-05-29",
+      "scraped_date": "2026-05-29",
+      "relative_time": "Today",
+      "region": "Shillong",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "vertical_scores": {},
       "section": "other"
     },
@@ -2550,17 +2752,17 @@
       "section": "other"
     }
   ],
-  "other_count": 120,
+  "other_count": 126,
   "vertical_counts": {
-    "EoDB": 4,
-    "EooDB": 4,
+    "EoDB": 6,
+    "EooDB": 6,
     "CoDED": 3,
-    "iLEAP": 0,
+    "iLEAP": 1,
     "ELS": 0,
     "Sustainability": 3,
-    "Political_Economy": 9
+    "Political_Economy": 11
   },
-  "regions_scraped": 18,
+  "regions_scraped": 19,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
