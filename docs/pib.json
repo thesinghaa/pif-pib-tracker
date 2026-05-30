@@ -1,8 +1,88 @@
 {
-  "last_updated": "2026-05-30T02:20:51Z",
-  "last_updated_ist": "30 May 2026, 07:50 AM IST",
-  "total": 139,
+  "last_updated": "2026-05-30T06:29:54Z",
+  "last_updated_ist": "30 May 2026, 11:59 AM IST",
+  "total": 146,
   "articles": [
+    {
+      "id": "bc44993309bd39a71641913cc2676668",
+      "title": "Prime Minister greets people of Goa on Goa Statehood Day",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266896",
+      "date": "2026-05-30",
+      "scraped_date": "2026-05-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "69a5630ce5f0e2025e2128650c0e68a1",
+      "title": "NFDC honours the stars of Sitaare Zameen Par in celebration of Global Accessibility Awareness Day at the National Museum of Indian Cinema",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266915",
+      "date": "2026-05-30",
+      "scraped_date": "2026-05-30",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "198078a2c3cff91a336bda0c502399cc",
+      "title": "Union Minister of Ports, Shipping and Waterways Shri Sarbanada Sonowal attends JNPA's celebration of 37 years of service to the nation through maritime excellence",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266913",
+      "date": "2026-05-30",
+      "scraped_date": "2026-05-30",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Union Minister Shri Sarbananda Sonowal inaugurates JNPA’s AI-driven tender evaluation engine NIVIDA and iVTS system\nMumbai, 30 May 2026\nJawaharlal Nehru Port Authority (JNPA) celebrated its 37th Foundation Day in the presence of Union Minister of Ports, Shipping and Waterways Shri Sarbananda Sonowal, in Mumbai on Friday (29th May, 2026).\nJNPA’s corporate film showcasing the port’s journey, achievements, infrastructure capabilities, sustainability initiatives, and future vision was screened on the occasion. The celebration was followed by an Award Ceremony, where JNPA stakeholders were felicitated by the Union Shipping Minister for their exceptional contribution as JNPA achieved its highest-ever container throughput of 8.17 million TEUs in the financial year 2025-26, registering a robust 11.94% growth. JNPA also marked the highest ever overall throughput of 102 MMT signifying their dedicated service towards the port’s growth and operational excellence.\nUnion Minister Shri Sonowal also inaugurated JNPA’s newest innovation—NIVIDA, on the occasion. Developed by JNPA in collaboration with AI Transmute Solutions, NIVIDA is India’s first AI-driven tender evaluation engine. The Indigenous Vessel Traffic Services (iVTS) system was also inaugurated, marking a significant step towards strengthening indigenous maritime technology capabilities through its installation, management, and training initiatives.\nSpeaking on the occasion, Union Minister of Ports, Shipping and Waterways, Shri Sarbananda Sonowal, said, “On this proud occasion of the 37th Foundation Day, I extend my heartfelt congratulations to the entire JNPA family, its leadership, officers, employees, workers, and stakeholders, for their dedication and contribution to the nation’s growth story. What is truly commendable about JNPA is its continuous pursuit of transformation and improvement. The MoUs being exchanged today and the inauguration of new technologies and initiatives are a reflection of this progressive mindset. In a sector where precision, speed, and adaptability are critical, even focus on incremental advancements have the potential to create significant impact across the entire maritime and logistics ecosystem.\" Shri Sonowal further said, “Under the visionary leadership of Hon’ble Prime Minister Narendra Modi, India’s maritime sector is witnessing unprecedented growth and modernisation through landmark initiatives that remain essential in achieving India’s vision of becoming a global maritime powerhouse. I am confident that JNPA will continue to set new benchmarks in operational efficiency, sustainability, innovation, and customer-centric services in the years ahead.”\nThe Foundation Day celebration also witnessed the signing and exchange of several Memorandums of Understanding (MoUs), reinforcing JNPA’s commitment towards infrastructure development, innovation, sustainability, and stakeholder collaboration. One MoU was signed between JNPA and CSIR- National Environmental Engineering Res",
+      "summary": "Union Minister Shri Sarbananda Sonowal inaugurates JNPA’s AI-driven tender evaluation engine NIVIDA and iVTS system Mumbai, 30 May 2026 Jawaharlal Nehru Port Authority (JNPA) celebrated its 37th Foundation Day in the presence of Union Minister of Ports, Shipping and Waterways Shri Sarbananda Sonowal, in Mumbai on Friday (29th May, 2026). JNPA’s corporate film showcasing the port’s journey, achievements, infrastructure capabilities, sustainability initiatives, and future vision was screened on the occasion. The celebration was followed by an Award Ceremony, where JNPA stakeholders were felicitated by the Union Shipping Minister for their exceptional contribution as JNPA achieved its highest-ever container throughput of 8.17 million TEUs in the financial year 2025-26, registering a robust 11.94% growth.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "c89a6374464a822b3a44e21e56a90397",
+      "title": "Harnessing the Complementarity of Watersheds, Fisheries and Livestock Development for Sustainable Prosperity: Dr. Muruganandam",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266900",
+      "date": "2026-05-30",
+      "scraped_date": "2026-05-30",
+      "relative_time": "Today",
+      "region": "Dehradun",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "* Special lectures delivered to officer trainees of ICAR-IISWC on integrated watershed management and sustainable livelihoods * Emphasis on convergence of watershed management, fisheries and livestock development for food and nutritional security * Advanced resource-efficient technologies and integrated natural resource management highlighted\nDr. M. Muruganandam, Head, Fisheries Science Division, ICAR–Central Island Agricultural Research Institute (ICAR-CIARI), Sri Vijaya Puram, Andaman & Nicobar Islands, delivered a series of special lectures to the 131st batch officer trainees of ICAR–Indian Institute of Soil and Water Conservation (ICAR-IISWC), Dehradun, on 29 May 2026.\nDr. Muruganandam was invited as a Special Guest Faculty Member for the Regular Officer Training Programme being conducted by ICAR-IISWC from 22 April to 21 August 2026.\nDuring his lectures, he elaborated on the principles of integrated watershed management and its various components, including drainage lines, rivers of different orders, wastelands and underutilized lands, water harvesting structures, farm ponds, aquatic resources, rural livestock, rangelands and community grasslands. He highlighted the opportunities emerging from the interconnections among these components, such as water harvesting, river management, upland-lowland interactions, upstream-downstream linkages and fodder management.\nDr. Muruganandam explained several contemporary concepts, including the “Mountain to Ocean (M2O)” source-to-sink approach and the river continuum concept, which describes the distribution of fish species across different stretches of river ecosystems and their relevance in planning effective conservation strategies.\nHe also discussed the relationship between runoff concentration time and environmental pollution potential, along with the assumptions involved in designing water harvesting structures, limitations associated with runoff availability, landscape constraints and opportunities for water utilization.\nEmphasizing the need to balance water harvesting potential with livelihood opportunities, Dr. Muruganandam highlighted the effective design of water harvesting structures for integrated fish farming. He also underlined the importance of balancing seasonal fodder availability with responsible grazing and sustainable rangeland management.\nThe lectures covered advanced fish farming technologies, water quality management, optimization of production inputs and resource-efficient technologies for fisheries- and livestock-based rural livelihood and food production systems.\nDr. Muruganandam stressed that watershed management, fisheries development and livestock production are inherently complementary and together play a vital role in ensuring food security, nutritional well-being and livelihood enhancement through micro-enterprise development. He further emphasized that farming and food production systems are integral components of broader environmental management frameworks and highlighte",
+      "summary": "* Special lectures delivered to officer trainees of ICAR-IISWC on integrated watershed management and sustainable livelihoods * Emphasis on convergence of watershed management, fisheries and livestock development for food and nutritional security * Advanced resource-efficient technologies and integrated natural resource management highlighted Dr. Muruganandam, Head, Fisheries Science Division, ICAR–Central Island Agricultural Research Institute (ICAR-CIARI), Sri Vijaya Puram, Andaman & Nicobar Islands, delivered a series of special lectures to the 131st batch officer trainees of ICAR–Indian Institute of Soil and Water Conservation (ICAR-IISWC), Dehradun, on 29 May 2026. Muruganandam was invited as a Special Guest Faculty Member for the Regular Officer Training Programme being conducted by ICAR-IISWC from 22 April to 21 August 2026.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
     {
       "id": "5a09a8bdff11b2ada9641c5ae68f35f1",
       "title": "Canada-India Joint Statement 2026 Trade and Investment Forum",
@@ -1512,6 +1592,60 @@
       "section": "other"
     },
     {
+      "id": "319cc0d648f8483b997ddd793e8393d5",
+      "title": "DVC in Collaboration with Jadavpur University, unveils ‘Green Yellow Taxi’ Prototype, Pioneering Sustainable Mobility through Retrofitted E-Mobility",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266895",
+      "date": "2026-05-29",
+      "scraped_date": "2026-05-30",
+      "relative_time": "Yesterday",
+      "region": "Kolkata",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "cf224bb7d587ca0f98772d197b952e49",
+      "title": "Oil Marketing Companies Confirm Smooth Fuel Supply; Adequate Stocks Available Across Nagaland",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266897",
+      "date": "2026-05-29",
+      "scraped_date": "2026-05-30",
+      "relative_time": "Yesterday",
+      "region": "Kohima",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "fb9816a4a9608aaa791375207eef3b9a",
+      "title": "Hon’ble Union Minister of Textiles Shri Giriraj Singh visited Andhra Pradesh on Friday",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266906",
+      "date": "2026-05-29",
+      "scraped_date": "2026-05-30",
+      "relative_time": "Yesterday",
+      "region": "Vijayawada",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
       "id": "fd1a3c4138c28bccb63b9676d810eb31",
       "title": "BRICS Academic Mid-Term Conference to be Held in Dehradun on 29 May",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2266109",
@@ -2636,17 +2770,17 @@
       "section": "other"
     }
   ],
-  "other_count": 113,
+  "other_count": 118,
   "vertical_counts": {
     "EoDB": 10,
     "EooDB": 10,
     "CoDED": 5,
     "iLEAP": 1,
     "ELS": 0,
-    "Sustainability": 4,
+    "Sustainability": 6,
     "Political_Economy": 9
   },
-  "regions_scraped": 19,
+  "regions_scraped": 20,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
