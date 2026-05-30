@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-30T16:20:33Z",
-  "last_updated_ist": "30 May 2026, 09:50 PM IST",
-  "total": 194,
+  "last_updated": "2026-05-30T18:16:54Z",
+  "last_updated_ist": "30 May 2026, 11:46 PM IST",
+  "total": 195,
   "articles": [
     {
       "id": "bc44993309bd39a71641913cc2676668",
@@ -975,6 +975,24 @@
       "scraped_date": "2026-05-30",
       "relative_time": "Today",
       "region": "Itanagar",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "a66eeb134ab3c788112b654ab6068757",
+      "title": "EcoLime+: Turns industrial waste into a solution for Potential saving 10-15% DAP in acid soils of Odisha",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267123",
+      "date": "2026-05-30",
+      "scraped_date": "2026-05-30",
+      "relative_time": "Today",
+      "region": "Bhubaneswar",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -3672,7 +3690,7 @@
       "section": "other"
     }
   ],
-  "other_count": 158,
+  "other_count": 159,
   "vertical_counts": {
     "EoDB": 13,
     "EooDB": 13,
