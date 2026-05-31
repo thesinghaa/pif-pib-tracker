@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-31T15:34:08Z",
-  "last_updated_ist": "31 May 2026, 09:04 PM IST",
-  "total": 168,
+  "last_updated": "2026-05-31T17:14:27Z",
+  "last_updated_ist": "31 May 2026, 10:44 PM IST",
+  "total": 170,
   "articles": [
     {
       "id": "8224552089286e061b13b5b2c1881118",
@@ -549,6 +549,42 @@
       "scraped_date": "2026-05-31",
       "relative_time": "Today",
       "region": "Agartala",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "2b729cf465a6c1b8e4bbaf96fc0f2183",
+      "title": "41 Odisha Youth Delegates Embark on Cultural Exchange Visit to Gujarat Under Yuva Sangam Phase VI",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267337",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Bhubaneswar",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5775470c88824dbaa0c9053eae52ba1a",
+      "title": "OMCs Maintain Steady Fuel Supplies Across the Country Amid Rise in Demand",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267311",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Itanagar",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -3182,7 +3218,7 @@
       "section": "other"
     }
   ],
-  "other_count": 137,
+  "other_count": 139,
   "vertical_counts": {
     "EoDB": 12,
     "EooDB": 12,
