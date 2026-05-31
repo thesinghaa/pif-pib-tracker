@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-31T17:14:27Z",
-  "last_updated_ist": "31 May 2026, 10:44 PM IST",
-  "total": 170,
+  "last_updated": "2026-05-31T18:14:27Z",
+  "last_updated_ist": "31 May 2026, 11:44 PM IST",
+  "total": 171,
   "articles": [
     {
       "id": "8224552089286e061b13b5b2c1881118",
@@ -585,6 +585,24 @@
       "scraped_date": "2026-05-31",
       "relative_time": "Today",
       "region": "Itanagar",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5f37b40541ca7274c7f70a824987f126",
+      "title": "General NS Raja Subramani assumes charge as Chief of Defence Staff & Secretary, Department of Military Affairs",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267339",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -3218,7 +3236,7 @@
       "section": "other"
     }
   ],
-  "other_count": 139,
+  "other_count": 140,
   "vertical_counts": {
     "EoDB": 12,
     "EooDB": 12,
