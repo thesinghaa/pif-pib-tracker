@@ -1,8 +1,26 @@
 {
-  "last_updated": "2026-05-31T00:14:21Z",
-  "last_updated_ist": "31 May 2026, 05:44 AM IST",
-  "total": 137,
+  "last_updated": "2026-05-31T02:53:36Z",
+  "last_updated_ist": "31 May 2026, 08:23 AM IST",
+  "total": 138,
   "articles": [
+    {
+      "id": "8224552089286e061b13b5b2c1881118",
+      "title": "ECI Convenes National Conference of ECI Counsels 2026 for further Strengthening its Legal Framework",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267147",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "bc44993309bd39a71641913cc2676668",
       "title": "Prime Minister greets people of Goa on Goa Statehood Day",
@@ -2608,7 +2626,7 @@
       "section": "other"
     }
   ],
-  "other_count": 110,
+  "other_count": 111,
   "vertical_counts": {
     "EoDB": 12,
     "EooDB": 12,
