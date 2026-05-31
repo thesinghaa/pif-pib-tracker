@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-31T11:48:08Z",
-  "last_updated_ist": "31 May 2026, 05:18 PM IST",
-  "total": 154,
+  "last_updated": "2026-05-31T13:37:17Z",
+  "last_updated_ist": "31 May 2026, 07:07 PM IST",
+  "total": 162,
   "articles": [
     {
       "id": "8224552089286e061b13b5b2c1881118",
@@ -292,6 +292,162 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "72fdd1fde3a8a553833fb8f25fa2ac18",
+      "title": "Raksha Khadse Visits NorthEast United FC, Commends Club’s Grassroots Talent Development Model",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267266",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "91ba209fe2e917b63f0f55597c02b0a8",
+      "title": "DRI seizes around 105 kg ganja in Bihar in its anti-narcotic drive; two arrested",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267263",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5932663ea6d13cd614e6ad950a0ab85a",
+      "title": "Vice President Graces 140th Anniversary Celebrations of Deepika Malayalam Daily in Kottayam",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267256",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "0c42c115c973c486e3b09a717413b042",
+      "title": "AIIMS Guwahati Launches Epilepsy Surgery Services",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267269",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Guwahati",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Marking a historic milestone for epilepsy care in North east region\nIn a major milestone for neurological healthcare in North-East India, the Comprehensive Epilepsy Program at AIIMS Guwahati has now introduced epilepsy surgery services, offering hope to patients suffering from difficult-to-control epilepsy across the region.\nSpeaking on the occasion, Prof Ashok Puranik-Executive Director, AIIMS Guwahati and the team at AIIMS Guwahati emphasized that epilepsy is a treatable condition and that patients with uncontrolled seizures should seek timely expert consultation. Early identification of drug-resistant epilepsy and appropriate surgical evaluation can dramatically improve long-term outcomes.\nEpilepsy is one of the most common neurological disorders, affecting millions of people worldwide. Despite the availability of effective treatment, a large treatment gap continues to exist in India, particularly in the North-East, where access to specialized epilepsy care remains extremely limited. The newly added epilepsy surgery service to the Epilepsy Program at AIIMS Guwahati aims to bridge this critical gap by providing end-to-end epilepsy care under one roof. The program begins with assessment in the dedicated Epilepsy Clinic, where patients undergo detailed clinical evaluation by trained neurologists and epilepsy specialists.\nPatients who continue to experience seizures despite appropriate medications are further evaluated using Long-Term Video EEG Monitoring, a highly specialized investigation that simultaneously records brain electrical activity and patient behavior over prolonged periods. This process helps accurately identify the origin of seizures and determine whether the patient may benefit from epilepsy surgery.\nThe first successful epilepsy surgery performed at AIIMS Guwahati -a case of drug-refractory temporal lobe epilepsy was conducted one week ago. The surgery marked a historic milestone for neurological care in the region. The introduction of epilepsy surgery services represents a transformative step for healthcare delivery in North-East India. Epilepsy surgery can significantly reduce or even completely eliminate seizures in carefully selected patients with drug-resistant epilepsy, thereby improving quality of life, education, employment opportunities, and psychosocial wellbeing.\nUntil now, patients from North-East India requiring comprehensive epilepsy evaluation and surgery often had to travel to distant metropolitan centers outside the region, leading to substantial financial, emotional, and logistical burdens for families. AIIMS Guwahati is currently the only center in North-East India providing such comprehensive and integrated epilepsy care, including specialized epilepsy clinics, long-term video EEG monitoring, advanced neuroimaging support, multidisciplinary evaluation, and epilepsy surgery services. The epilepsy program at AIIMS Guwahati follows a multidisciplinary approach involving neurologists, neurosurgeons, neuroradiologis",
+      "summary": "Marking a historic milestone for epilepsy care in North east region In a major milestone for neurological healthcare in North-East India, the Comprehensive Epilepsy Program at AIIMS Guwahati has now introduced epilepsy surgery services, offering hope to patients suffering from difficult-to-control epilepsy across the region. Speaking on the occasion, Prof Ashok Puranik-Executive Director, AIIMS Guwahati and the team at AIIMS Guwahati emphasized that epilepsy is a treatable condition and that patients with uncontrolled seizures should seek timely expert consultation. Early identification of drug-resistant epilepsy and appropriate surgical evaluation can dramatically improve long-term outcomes.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "iLEAP": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "ab9385649106a89e116f651a576a389c",
+      "title": "OMCs Maintain Steady Fuel Supplies Across the Country Amid Rise in Demand",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267285",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Imphal",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "1a4793e7a22a1eaead575db06d5f21c3",
+      "title": "CBC Regional Office Imphal Organizes Anti-Tobacco Awareness Campaign at Gem Public School, Pourabi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267275",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Imphal",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Central Bureau of Communication (CBC), Regional Office Imphal, under the Ministry of Information and Broadcasting, organized a Special Outreach Programme (SOP) on World No-Tobacco Day at Gem Public School, Pourabi, Imphal East. The event was held under the theme, “Unmasking the appeal— countering nicotine and tobacco addiction.”\nField Publicity Officer, Dr N Reena gave an overview of the roles played by Central Bureau of Communication in disseminating information about the scheme of the Government of India. She led the participating students, teachers of the school and locals in taking a pledge to abstain from using tobacco and other harmful tobacco products.\nResource person Dr Haobijam Angomcha Singh, Sr Psychiatrist (retd.) Directorate of Health Services gave a detailed presentation on the harmful impacts of tobacco use. He spoke on the psychology of teenagers being dragged into use of tobacco and other harmful substances due to peer pressure and various other factors. He urged the young students to refrain from using tobacco products and other harmful substances.\nIn the context of Manipur there is a changing trend where society has become increasingly tolerant to young people who have started using tobacco products and other harmful substances, which is very alarming, he added. It is unfortunate that the State is ranked 2nd among the highest tobacco consuming states in the country. He further said that despite having various acts and rules against use and sales of tobacco and tobacco products, the country still lacks sufficient action plan to spread the knowledge of the harm of tobacco products. So, let us take this opportunity to refrain from using tobacco and tobacco products, and spread the message to our friends and family, he said.\nW Jaminjoy Meitei, Principal of Gem Public School in his speech appreciated CBC, RO Imphal for organising such event in the school. He said that organising such event at grassroots level is worth appreciating adding that in the future such events should be organised in different areas.\nThe outreach event also featured a live spot-quiz contest, with prizes and certificates distributed to the winners. Private Registered Troupe (PRTs) also presented a skit and drama depicting the harm of tobacco use.",
+      "summary": "The Central Bureau of Communication (CBC), Regional Office Imphal, under the Ministry of Information and Broadcasting, organized a Special Outreach Programme (SOP) on World No-Tobacco Day at Gem Public School, Pourabi, Imphal East. The event was held under the theme, “Unmasking the appeal— countering nicotine and tobacco addiction.” Field Publicity Officer, Dr N Reena gave an overview of the roles played by Central Bureau of Communication in disseminating information about the scheme of the Government of India. She led the participating students, teachers of the school and locals in taking a pledge to abstain from using tobacco and other harmful tobacco products.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "iLEAP": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "957a068e33c57cab5c129700a88f1a80",
+      "title": "CBC Chandel Hosts Special Outreach Programme on World No-Tobacco Day 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267268",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Imphal",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Central Bureau of Communication (CBC), Field Office Chandel, under the Ministry of Information and Broadcasting, organized a Special Outreach Programme (SOP) on World No-Tobacco Day at Purum Tampak Village, Chandel district. This year’s event was held under the theme, “Unmasking the appeal—countering nicotine and tobacco addiction.”\nThe program featured several prominent local figures, including MK Ahalpi (President of Purum Tampak SHG Cluster), PR Winson Babu (Retired Headmaster) as special guests, and Leivon John Kobari (Principal, Smart Life Academy) as the resource person.\nMathew Sk Bengam, Field Publicity Assistant of CBC, FO Chandel, outlined the campaign's goal to unmask tobacco industry tactics and counter addiction.\nAddressing the gathering, MK Ahalpi thanked the CBC for educating women’s self-help groups (SHGs) and urged families to fight the menace. Winson Babu emphasized the devastating effects of tobacco on youth, calling on SHG members to actively protect the next generation from these hazardous products.\nIn his detailed presentation, Leivon John Kobari explained the dangers of both smoked and smokeless tobacco. He noted that Northeast India faces significant social and security challenges due to its proximity to major illegal drug trafficking routes, specifically mentioning Manipur’s border connection to Myanmar. Kobari appealed to the community to stand united against the spread of substance abuse to protect families and future generations.\nThe outreach event also featured a live spot-quiz contest, with prizes and certificates distributed to the winners. The program concluded with a vote of thanks from the CBC Chandel team.",
+      "summary": "The Central Bureau of Communication (CBC), Field Office Chandel, under the Ministry of Information and Broadcasting, organized a Special Outreach Programme (SOP) on World No-Tobacco Day at Purum Tampak Village, Chandel district. This year’s event was held under the theme, “Unmasking the appeal—countering nicotine and tobacco addiction.” The program featured several prominent local figures, including MK Ahalpi (President of Purum Tampak SHG Cluster), PR Winson Babu (Retired Headmaster) as special guests, and Leivon John Kobari (Principal, Smart Life Academy) as the resource person. Mathew Sk Bengam, Field Publicity Assistant of CBC, FO Chandel, outlined the campaign's goal to unmask tobacco industry tactics and counter addiction.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "iLEAP": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "338eb251822a0843e7885f5e94da786b",
+      "title": "Meghalaya Records Encouraging Progress in Child Nutrition",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267270",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Shillong",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "vertical_scores": {},
       "section": "other"
     },
@@ -2918,12 +3074,12 @@
       "section": "other"
     }
   ],
-  "other_count": 126,
+  "other_count": 131,
   "vertical_counts": {
     "EoDB": 12,
     "EooDB": 12,
     "CoDED": 2,
-    "iLEAP": 3,
+    "iLEAP": 6,
     "ELS": 2,
     "Sustainability": 8,
     "Political_Economy": 4
