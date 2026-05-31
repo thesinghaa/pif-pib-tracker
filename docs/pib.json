@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-31T02:53:36Z",
-  "last_updated_ist": "31 May 2026, 08:23 AM IST",
-  "total": 138,
+  "last_updated": "2026-05-31T07:09:00Z",
+  "last_updated_ist": "31 May 2026, 12:39 PM IST",
+  "total": 143,
   "articles": [
     {
       "id": "8224552089286e061b13b5b2c1881118",
@@ -18,6 +18,100 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "6c3dace7cfaae078e1a35c1c68a587ff",
+      "title": "English rendering of PM’s address in the 134th Episode of Mann Ki Baat on 31.05.2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267168",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "db4df2ff6c20a502e4426cb76c909058",
+      "title": "Prime Minister pays tribute to Lokmata Ahilyabai Holkar on her birth anniversary",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267152",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "4d791860c9e412d2fa9ae4d148a94fe3",
+      "title": "INDIAN AIR FORCE AIRLIFTS SACRED RELICS OF LORD BUDDHA TO MONGOLIA",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267150",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "664e0eff32a5f72c75198cf20dd71ac4",
+      "title": "Government, Industry and Academia Converge to Strengthen India’s Water Research and Innovation Ecosystem",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267149",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "National Workshop on R&D in Water to Drive Bharat’s Next Wave of Water Innovation to be Held in New Delhi\nThe Ministry of Jal Shakti will organize the National Workshop on R&D in Water on 1 June 2026 at Dr. Ambedkar International Centre, New Delhi.\nThe one-day workshop will be attended and jointly inaugrated by Shri C.R. Patil, Union Minister of Jal Shakti; Dr. Jitendra Singh, Minister of State (Independent Charge) for Science & Technology; Shri Raj Bhushan Choudhary, Minister of State, Ministry of Jal Shakti; and Dr. V. Narayanan, Secretary, Department of Space & Chairman, ISRO, Secretary, DST; Secretary, DoDWS; Secretary, DoWR, RD&GR; and Additional Secretary & Mission Director, National Water Mission, along with other senior officials.\nComing together of Government, Industry and Academia marks a significant step towards strengthening India’s water research ecosystem and accelerating innovation-driven solutions for sustainable water management, while fostering stronger convergence among scientific institutions, policymakers, academia, startups, technical organizations and community stakeholders.\nA major highlight of the event will be the launch of MAHA on Water (Mission for Advancement in High-Impact Areas for Water) , a joint initiative of the Ministry of Jal Shakti and ANRF to promote cutting-edge research in priority areas such as water resources management, drinking water, climate resilience and water-use efficiency. An open call for research proposals under the initiative will also be announced.\nThe Ministry will further launch an open call for Startups and MSMEs under the BHARAT-WIN Portal to support product and prototype development in the water sector.\nThe workshop will also witness the launch of Jal Sanchay Jan Bhagidari: Catch the Rain (JSJB:CTR) , a participatory digital platform designed to strengthen community-led water conservation efforts by enabling citizens, institutions and local bodies to document and showcase water conservation, rainwater harvesting and groundwater recharge initiatives. Reinforcing the vision of “Whole of Government and Whole of Society,” the platform will promote Jan Bhagidari, behavioural change, local participation and grassroots innovations as key drivers of long-term water security and climate resilience.\nThe Ministry of Jal Shakti and ISRO are expected to sign a MoU to strengthen satellite-based applications and advanced technologies for water resource assessment, monitoring and management, with 24 priority studies and areas of cooperation already identified.\nThe workshop will feature multiple technical sessions covering key themes such as groundwater management, irrigation practices, river morphology, floodplain inundation mapping, climate resilience, ecological assessments, dam and hydraulic structure safety, urban aquifer mapping and the application of remote sensing and advanced technologies in water governance.\nEnd-user beneficiaries and PIs will share successful practices, key learnings and tangi",
+      "summary": "National Workshop on R&D in Water to Drive Bharat’s Next Wave of Water Innovation to be Held in New Delhi The Ministry of Jal Shakti will organize the National Workshop on R&D in Water on 1 June 2026 at Dr. The one-day workshop will be attended and jointly inaugrated by Shri C.R. Jitendra Singh, Minister of State (Independent Charge) for Science & Technology; Shri Raj Bhushan Choudhary, Minister of State, Ministry of Jal Shakti; and Dr.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "e0317f8b3f6ca48670b7deca989d7932",
+      "title": "Dr Mansukh Mandaviya Participates in 76th Edition of ‘Sundays on Cycle’ in Shillong Under Fit India Movement",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267151",
+      "date": "2026-05-31",
+      "scraped_date": "2026-05-31",
+      "relative_time": "Today",
+      "region": "Shillong",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
     },
@@ -2626,14 +2720,14 @@
       "section": "other"
     }
   ],
-  "other_count": 111,
+  "other_count": 115,
   "vertical_counts": {
     "EoDB": 12,
     "EooDB": 12,
     "CoDED": 2,
     "iLEAP": 3,
     "ELS": 2,
-    "Sustainability": 7,
+    "Sustainability": 8,
     "Political_Economy": 4
   },
   "regions_scraped": 20,
