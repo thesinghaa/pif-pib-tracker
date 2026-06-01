@@ -1,8 +1,26 @@
 {
-  "last_updated": "2026-06-01T00:17:49Z",
-  "last_updated_ist": "01 Jun 2026, 05:47 AM IST",
-  "total": 89,
+  "last_updated": "2026-06-01T03:54:10Z",
+  "last_updated_ist": "01 Jun 2026, 09:24 AM IST",
+  "total": 90,
   "articles": [
+    {
+      "id": "fde369a7af4681af8a7d9beda97144ea",
+      "title": "Prime Minister shares Sanskrit Subhashitam highlighting the qualities of an ideal teacher",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267352",
+      "date": "2026-06-01",
+      "scraped_date": "2026-06-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "8224552089286e061b13b5b2c1881118",
       "title": "ECI Convenes National Conference of ECI Counsels 2026 for further Strengthening its Legal Framework",
@@ -1674,7 +1692,7 @@
       "section": "other"
     }
   ],
-  "other_count": 74,
+  "other_count": 75,
   "vertical_counts": {
     "EoDB": 4,
     "EooDB": 4,
