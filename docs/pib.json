@@ -1,8 +1,44 @@
 {
-  "last_updated": "2026-06-02T00:22:14Z",
-  "last_updated_ist": "02 Jun 2026, 05:52 AM IST",
-  "total": 107,
+  "last_updated": "2026-06-02T05:39:08Z",
+  "last_updated_ist": "02 Jun 2026, 11:09 AM IST",
+  "total": 109,
   "articles": [
+    {
+      "id": "0b781e08fa9cf9ad3c0ef357cd343b07",
+      "title": "Prime Minister shares a Sanskrit Subhashitam highlighting the virtues of firm resolve, self-control, and wisdom",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267754",
+      "date": "2026-06-02",
+      "scraped_date": "2026-06-02",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "dae48e628f2ab73ffd6b8cd014fe8c01",
+      "title": "Prime Minister greets the people of Telangana on Statehood Day",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2267753",
+      "date": "2026-06-02",
+      "scraped_date": "2026-06-02",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "fde369a7af4681af8a7d9beda97144ea",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the qualities of an ideal teacher",
@@ -2042,7 +2078,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 83,
+  "other_count": 85,
   "vertical_counts": {
     "EoDB": 6,
     "EooDB": 6,
