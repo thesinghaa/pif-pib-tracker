@@ -1,8 +1,26 @@
 {
-  "last_updated": "2026-06-02T23:45:09Z",
-  "last_updated_ist": "03 Jun 2026, 05:15 AM IST",
-  "total": 129,
+  "last_updated": "2026-06-03T03:01:49Z",
+  "last_updated_ist": "03 Jun 2026, 08:31 AM IST",
+  "total": 130,
   "articles": [
+    {
+      "id": "6f086bc64cac9471f0dc9b319b902254",
+      "title": "SECOND BRICS 2026 MEETING OF THE DISASTER RISK REDUCTION GROUP TO BE HELD IN PURI, ODISHA FROM 03–05 JUNE 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2268202",
+      "date": "2026-06-03",
+      "scraped_date": "2026-06-03",
+      "relative_time": "Today",
+      "region": "Bhubaneswar",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "0b781e08fa9cf9ad3c0ef357cd343b07",
       "title": "Prime Minister shares a Sanskrit Subhashitam highlighting the virtues of firm resolve, self-control, and wisdom",
@@ -2438,7 +2456,7 @@
       "section": "other"
     }
   ],
-  "other_count": 105,
+  "other_count": 106,
   "vertical_counts": {
     "EoDB": 6,
     "EooDB": 6,
