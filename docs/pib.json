@@ -1,8 +1,84 @@
 {
-  "last_updated": "2026-06-04T03:01:13Z",
-  "last_updated_ist": "04 Jun 2026, 08:31 AM IST",
-  "total": 143,
+  "last_updated": "2026-06-04T07:28:41Z",
+  "last_updated_ist": "04 Jun 2026, 12:58 PM IST",
+  "total": 147,
   "articles": [
+    {
+      "id": "a24b00a5c08c43afcdae7715e05d8ee6",
+      "title": "NHRC, India organised a meeting of Environment & Climate Core Group on ‘Heat Wave and its Mitigation in Urban Areas’",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2268793",
+      "date": "2026-06-04",
+      "scraped_date": "2026-06-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "Chairperson, Justice V. Ramasubramanian emphasised the need for stronger protection of existing natural ecosystems, stricter regulation of construction around water bodies and actionable recommendations focused on sustainable urban development Member, Justice (Dr.) Bidyut Ranjan Sarangi highlighted the need to balance urban development with environmental protection, urging collective action to conserve nature Secretary General, Shri Bharat Lal expressed concern over the rising number of deaths due to heat waves across the country despite efforts to mitigate its impact Among various suggestions, improving heat wave mortality and morbidity surveillance through a unified, scientifically validated reporting and data management system highlighted\nThe National Human Rights Commission (NHRC), India organised a meeting of its Core Group on Environment & Climate on the theme ‘Heat Wave and its Mitigation in Urban Areas’ in hybrid mode at Manav Adhikar Bhavan, New Delhi. The meet generated lots of interest among various stakeholders and saw a very meaningful participation. Chairperson, Justice V. Ramasubramanian while presiding the meeting, said that there is a recurring annual discourse on pollution in winter and heat waves in summer for some time now without any visible effects of the mitigation efforts to protect human life from the impact of these crises. NHRC Members, Justice (Dr.) Bidyut Ranjan Sarangi, Smt. Vijaya Bharathi Sayani; Secretary General, Shri Bharat Lal; DG (I), Smt. Anupama Nilekar Chandra; Joint Secretary, Smt. Saidingpuii Chhakchhuak; Core Group members, Special Rapporteurs, Special Monitors, senior functionaries of Government of India and various parastatal organisations; Municipal Commissioners of Ahmedabad and Indore, eminent domain experts and members of civil society organisations were present in the meeting.\nJustice Ramasubramanian said that the evolution of human rights initially focused on civil, political, social, cultural and economic rights after the First and Second World Wars, while environmental rights remained largely overlooked. Although the Universal Declaration of Human Rights (UDHR) was adopted in 1948, serious discourse on environmental rights began around 1970 following growing awareness of environmental degradation and major ecological disasters.\nHe said that the industrial revolution contributed so much to climate change and the consequent heat wave that we started realising it after it really impacted our lives. He said that if you read about the Gandhian economy, he never contemplated the industrialisation of the entire country. He thought that every village should be self-reliant, but the reverse happened, resulting in migration from villages to urban areas. He said that unliveable rural conditions and the growth of ‘concrete jungles’ in cities have further contributed to rising temperatures and heat wave-related challenges. The damage caused to the environment over the decades cannot be reversed and the focu",
+      "summary": "Ramasubramanian emphasised the need for stronger protection of existing natural ecosystems, stricter regulation of construction around water bodies and actionable recommendations focused on sustainable urban development Member, Justice (Dr.) Bidyut Ranjan Sarangi highlighted the need to balance urban development with environmental protection, urging collective action to conserve nature Secretary General, Shri Bharat Lal expressed concern over the rising number of deaths due to heat waves across the country despite efforts to mitigate its impact Among various suggestions, improving heat wave mortality and morbidity surveillance through a unified, scientifically validated reporting and data management system highlighted The National Human Rights Commission (NHRC), India organised a meeting of its Core Group on Environment & Climate on the theme ‘Heat Wave and its Mitigation in Urban Areas’ in hybrid mode at Manav Adhikar Bhavan, New Delhi. The meet generated lots of interest among various stakeholders and saw a very meaningful participation. Ramasubramanian while presiding the meeting, said that there is a recurring annual discourse on pollution in winter and heat waves in summer for some time now without any visible effects of the mitigation efforts to protect human life from the impact of these crises.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "38b14e9223ce88976668e1d9d14623bc",
+      "title": "PM to visit Surat and Daman on 5th June",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2268727",
+      "date": "2026-06-04",
+      "scraped_date": "2026-06-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "10209dbae91e33fc0f33eddebe5734be",
+      "title": "Prime Minister shares a Sanskrit Subhashitam honoring Sage Patanjali and the virtues of Yoga",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2268724",
+      "date": "2026-06-04",
+      "scraped_date": "2026-06-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "34a9f324d5f2b18cd10d5d71aa2a765b",
+      "title": "PSU OMCs Ensure Uninterrupted Fuel Supplies Amid Demand Surge",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2268728",
+      "date": "2026-06-04",
+      "scraped_date": "2026-06-04",
+      "relative_time": "Today",
+      "region": "Dehradun",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "6f086bc64cac9471f0dc9b319b902254",
       "title": "SECOND BRICS 2026 MEETING OF THE DISASTER RISK REDUCTION GROUP TO BE HELD IN PURI, ODISHA FROM 03–05 JUNE 2026",
@@ -2720,17 +2796,17 @@
       "section": "vertical"
     }
   ],
-  "other_count": 112,
+  "other_count": 115,
   "vertical_counts": {
     "EoDB": 5,
     "EooDB": 5,
     "CoDED": 2,
     "iLEAP": 3,
     "ELS": 3,
-    "Sustainability": 4,
+    "Sustainability": 5,
     "Political_Economy": 18
   },
-  "regions_scraped": 18,
+  "regions_scraped": 19,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
