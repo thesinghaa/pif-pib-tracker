@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-05T14:04:44Z",
-  "last_updated_ist": "05 Jun 2026, 07:34 PM IST",
-  "total": 239,
+  "last_updated": "2026-06-05T16:44:01Z",
+  "last_updated_ist": "05 Jun 2026, 10:14 PM IST",
+  "total": 264,
   "articles": [
     {
       "id": "a78c2f29663e5ca9b74f1b61536373a3",
@@ -1734,6 +1734,508 @@
       "vertical_scores": {
         "EoDB": 3,
         "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "03bd613c5eed13eed1b0248d79575c89",
+      "title": "Second BRICS Culture Working Group Meeting Concludes in Varanasi with Renewed Commitment to Cultural Cooperation",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269566",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "dea3fa5e7cbdce155c0e6d3a7d4d20fa",
+      "title": "Railway Minister Reviews Hydrogen Train and State-of-the-Art Maintenance Facilities at Shakur Basti Depot",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269558",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "bf722523a1555ff5466ed77f1031d3fa",
+      "title": "English rendering of PM’s address at the launch of development works in Surat, Gujarat",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269542",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "4cc030b08d64633c3ccae06d169928dc",
+      "title": "Prime Minister Shri Narendra Modi inaugurates, dedicates to the nation and lays the foundation stone of multiple development projects worth over ₹18,800 crore in Surat, Gujarat",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269528",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "02e4d6aa6a27f755c2fe17b0bf79483f",
+      "title": "Prime Minister visits L&T complex at Hazira, Gujarat",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269520",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Prime Minister Shri Narendra Modi today visited the Larsen & Toubro (L&T) complex at Hazira, Gujarat, where he witnessed pioneering innovations being developed by the company across various sectors.\nThe Prime Minister highly commended the significant role played by L&T in furthering self-reliance in India's defence sector. Sharing glimpses from the visit, Shri Modi appreciated the engineering achievements and advancements being spearheaded at the facility.\nIn a series of posts on X, the Prime Minister shared:\n\"This afternoon, went to the L&T complex at Hazira. Witnessed some of their pioneering innovations across different sectors. The role played by L&T in furthering self-reliance in the defence sector is commendable. @larsentoubro\"\nThis afternoon, went to the L&T complex at Hazira. Witnessed some of their pioneering innovations across different sectors. The role played by L&T in furthering self-reliance in the defence sector is commendable. @larsentoubro pic.twitter.com/FZ6eOhTDXF\n\"Here are some more glimpses from the visit to the L&T complex in Hazira, Gujarat.\"\nHere are some more glimpses from the visit to the L&T complex in Hazira, Gujarat. pic.twitter.com/NZjUq70NlD",
+      "summary": "Prime Minister Shri Narendra Modi today visited the Larsen & Toubro (L&T) complex at Hazira, Gujarat, where he witnessed pioneering innovations being developed by the company across various sectors. The Prime Minister highly commended the significant role played by L&T in furthering self-reliance in India's defence sector. Sharing glimpses from the visit, Shri Modi appreciated the engineering achievements and advancements being spearheaded at the facility.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "59fb2b7025c8a87e15be12e26bd355b1",
+      "title": "Prime Minister highlights strong growth momentum of Indian economy",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269518",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "08a6698e0b3be6d87a25daa92607ae06",
+      "title": "More than 9.42 lakh farmers have joined the ‘Save the Farm Campaign’, giving balanced fertiliser use the character of a mass movement",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269511",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "95ec14f8edc0ff1739cf514b8f45d958",
+      "title": "E85 rollout commences across 48 retail outlets of Public Sector OMCs; Save Money, Save Environment, Save Foreign Exchange!",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269509",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "E85-powered vehicles run on domestically produced ethanol derived from the sweat and toil of Indian farmers: Sh. Hardeep Singh Puri E85 is priced nearly ₹20 per litre lower than conventional petrol to pass on the economic benefits of domestically produced ethanol to consumers E85 की असली ताकत यह है—न आयातित तेल , न विदेशी खनिज; भारत की उपज, भारत की प्रगति;\nUnion Minister for Petroleum and Natural Gas Shri Hardeep Singh Puri launched E85 fuel at an IndianOil retail outlet in New Delhi today on the occasion of World Environment Day 2026. Senior officials of the Ministry of Petroleum and Natural Gas, and CMDs of public sector OMCs were also present during the event.\nE85 is a high-ethanol blended fuel comprising 80–85 per cent ethanol and 14–19 per cent petrol, specifically designed for use in flex-fuel vehicles. The initiative aims to facilitate the adoption of Flex-Fuel Vehicles (FFVs), which are capable of operating on ethanol blends from E20 to E100, without restricting consumers to a single blend.\nThe rollout commences across 48 Public Sector OMC’s retail outlets (ROs) in the country, enabling flex-fuel vehicle users to access this cleaner fuel. The initiative is slated for nationwide expansion.The same would be scaled up to 500 ROs by December 2026 and about 5000 ROs by December 2027 and help raise India’s aggregate ethanol blending levels to nearly 26 per cent by 2030-31.\nSpeaking at the event, the Minister said India has demonstrated its ability to successfully balance the “Energy Trilemma” of energy availability, affordability and sustainability, while ensuring stable fuel supplies, protecting consumers from global energy volatility to the maximum possible extent. He noted that India has one of the lowest increases of fuel prices since February 2026.\nHighlighting that ethanol blending has increased from 1.53 per cent in 2014 to 20 per cent today, with the target achieved five years ahead of schedule, he stated that this transformation has helped save over ₹1.84 lakh crore in foreign exchange and substituted nearly 302 lakh metric tonnes of crude oil imports. This has been driven by the contribution of India’s farmers, who have evolved from being the country’s “Annadatas” to becoming its “Urjadatas” as well.\nBenefits of E85:\n• E85 is priced nearly ₹20 per litre lower than conventional petrol to ensure that the economic benefits of domestically produced ethanol are passed on to consumers.\n• Flex-fuel vehicles operating on E85 can reduce lifecycle greenhouse gas emissions by around 61 per cent compared to conventional petrol vehicles.\n• With a Research Octane Number (RON) of about 108, ethanol offers superior knock resistance that allows engines to operate at higher compression ratios and optimized ignition timing.\n• Higher ethanol blends promote cleaner and more complete combustion, resulting in near-zero particulate matter emissions contributing to improved urban air quality.\nElaborating further, the Minister stated that if 50 per cent of new",
+      "summary": "E85-powered vehicles run on domestically produced ethanol derived from the sweat and toil of Indian farmers: Sh. Hardeep Singh Puri E85 is priced nearly ₹20 per litre lower than conventional petrol to pass on the economic benefits of domestically produced ethanol to consumers E85 की असली ताकत यह है—न आयातित तेल , न विदेशी खनिज; भारत की उपज, भारत की प्रगति; Union Minister for Petroleum and Natural Gas Shri Hardeep Singh Puri launched E85 fuel at an IndianOil retail outlet in New Delhi today on the occasion of World Environment Day 2026. Senior officials of the Ministry of Petroleum and Natural Gas, and CMDs of public sector OMCs were also present during the event.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "5c895c43d5bfc2c13c415b48e00096b6",
+      "title": "DDWS organises plantation drive under ‘Ek Ped Maa Ke Naam’ as a part of Swachh Gaon, Surakshit Jalvayu campaign",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269506",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "789bf7d1a287b275fef19ce4bfd023aa",
+      "title": "National Institute of Sowa-Rigpa Organizes Plantation and Cleanliness Drive on World Environment Day",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269501",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "On the occasion of World Environment Day, National Institute of Sowa-Rigpa (NISR), Leh organized a plantation drive along with a cleanliness campaign at the Trans-Himalayan Herbal Garden, Phey, to promote environmental awareness and encourage sustainable practices.\nThe programme was inaugurated by Shri Jamyang Tsering Namgyal, former Member of Parliament, Ladakh. Marking the occasion, Shri Jamyang Tsering Namgyal, along with the Director, National Institute of Sowa-Rigpa (NISR), planted an apple tree in the herbal garden as a symbol of environmental stewardship and commitment to environmental conservation.\nFollowing the inauguration, Shri Jamyang Tsering Namgyal was taken on a guided tour of the Trans-Himalayan Herbal Garden, where he was briefed about the diverse medicinal and aromatic plant species being conserved and cultivated. He appreciated the efforts being made towards the preservation, research, and promotion of the region's rich herbal heritage.\nFaculty members, staff, and students enthusiastically participated in the plantation and cleanliness drives. The participants planted saplings and undertook cleanliness activities within and around the garden premises, reflecting their commitment to environmental protection and sustainable living.\nThe programme highlighted the significance of collective action in safeguarding the environment and promoting a cleaner and greener future.",
+      "summary": "On the occasion of World Environment Day, National Institute of Sowa-Rigpa (NISR), Leh organized a plantation drive along with a cleanliness campaign at the Trans-Himalayan Herbal Garden, Phey, to promote environmental awareness and encourage sustainable practices. The programme was inaugurated by Shri Jamyang Tsering Namgyal, former Member of Parliament, Ladakh. Marking the occasion, Shri Jamyang Tsering Namgyal, along with the Director, National Institute of Sowa-Rigpa (NISR), planted an apple tree in the herbal garden as a symbol of environmental stewardship and commitment to environmental conservation.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "8060b7923d9eaa5b474eaf1f160d8255",
+      "title": "National Workshop on Seafood Exports at Visakhapatnam, Andhra Pradesh Convened by the Department of Fisheries in Collaboration with Ministry of Commerce & Industry",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269489",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 12,
+      "snippet": "",
+      "full_content": "In the gracious presence of Hon’ble Chief Minister, Andhra Pradesh; Hon’ble Minister of Commerce & Industry; Hon’ble Minister of Fisheries, Animal Husbandry & Dairying; Hon’ble Minister of Civil Aviation and Hon’ble Minister of Food Processing Industries Charting comprehensive roadmap for strengthening India’s seafood export ecosystem\nA National Workshop on Seafood Exports was convened by the Department of Fisheries, Ministry of Fisheries, Animal Husbandry and Dairying, in collaboration with the Ministry of Commerce and Industry, with support from the Government of Andhra Pradesh, on 5th & 6th June 2026 in Visakhapatnam, Andhra Pradesh , to chart a comprehensive roadmap for strengthening India’s seafood export ecosystem across States and stakeholders. The event was graced by Shri Nara Chandrababu Naidu , Hon’ble Chief Minister, Andhra Pradesh; Shri Piyush Goyal, Hon’ble Minister of Commerce & Industry; Shri Rajiv Ranjan Singh , Hon’ble Minister of Fisheries, Animal Husbandry & Dairying and Panchayati Raj; Shri Kinjarapu Rammohan Naidu , Hon’ble Minister of Civil Aviation, GoI; and Shri Chirag Paswan , Hon’ble Minister of Food Processing Industries, GoI.\nThe workshop brought together senior officials from the Central Government, along with representatives from States and Union Territories. Key national institutions, including the Marine Products Export Development Authority (MPEDA), Export Inspection Council (EIC), National Fisheries Development Board (NFDB), NABARD, NCDC, NCEL, SFAC and Invest India, participated. The workshop also witnessed the presence of seafood exporters, industry associations, processors, start‑ups, and other value‑chain stakeholders, ensuring comprehensive representation of the seafood export ecosystem.\nShri. Nara Chandrababu Naidu , Hon’ble Chief Minister, Andhra Pradesh highlighted that the Blue Economy will be a key driver of future economic growth, with the fisheries sector playing a transformative role. He underscored Andhra Pradesh’s leadership in fisheries production and exports and expressed confidence that India can significantly scale up its global market share through value addition, innovation, and stronger export ecosystems. Emphasising quality, sustainability, traceability, and circular economy practices, he called for a collaborative approach involving all stakeholders to build a globally competitive and trusted Indian seafood brand, while assuring full support from the State to promote investment, infrastructure, and a robust aquaculture ecosystem.\nShri. Piyush Goyal, Hon’ble Minister, Ministry of Commerce & Industry, GoI, emphasised the need to embrace innovation and adopt advanced technologies to fully harness the potential of India’s fisheries and aquatic resources. He highlighted the Government’s vision to position India as a globally trusted seafood brand, known for quality, sustainability, traceability and value addition, and underscored the importance of collective efforts to enhance competitiveness i",
+      "summary": "In the gracious presence of Hon’ble Chief Minister, Andhra Pradesh; Hon’ble Minister of Commerce & Industry; Hon’ble Minister of Fisheries, Animal Husbandry & Dairying; Hon’ble Minister of Civil Aviation and Hon’ble Minister of Food Processing Industries Charting comprehensive roadmap for strengthening India’s seafood export ecosystem A National Workshop on Seafood Exports was convened by the Department of Fisheries, Ministry of Fisheries, Animal Husbandry and Dairying, in collaboration with the Ministry of Commerce and Industry, with support from the Government of Andhra Pradesh, on 5th & 6th June 2026 in Visakhapatnam, Andhra Pradesh , to chart a comprehensive roadmap for strengthening India’s seafood export ecosystem across States and stakeholders. The event was graced by Shri Nara Chandrababu Naidu , Hon’ble Chief Minister, Andhra Pradesh; Shri Piyush Goyal, Hon’ble Minister of Commerce & Industry; Shri Rajiv Ranjan Singh , Hon’ble Minister of Fisheries, Animal Husbandry & Dairying and Panchayati Raj; Shri Kinjarapu Rammohan Naidu , Hon’ble Minister of Civil Aviation, GoI; and Shri Chirag Paswan , Hon’ble Minister of Food Processing Industries, GoI. The workshop brought together senior officials from the Central Government, along with representatives from States and Union Territories.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EoDB": 6,
+        "EooDB": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "5268bfc6731e1f290688c4c4b433c647",
+      "title": "Towards a Greener Tomorrow: GC CRPF Pune launches a monsoon-long plantation campaign",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269581",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "df6a4cd7194904df9190e66f25dcd117",
+      "title": "REGIONAL PASSPORT OFFICER, PUNE CONDUCTS JOINT INSPECTION OF POPSK SATARA",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269573",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "202875d799df9af27c5acec95ee85d07",
+      "title": "NDRF Academy Organises Environment Awareness Programme on World Environment Day",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269523",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Nagpur, 5 June 2026\nOn the occasion of World Environment Day, the NDRF Academy, Suradevi, (Nagpur) organized a series of activities on 05 June 2026, reaffirming its commitment towards environmental conservation and sustainable development.\nThe programme was led by Brigadier R. Sathya Narayanan, Director, NDRF Academy, and witnessed enthusiastic participation from officers, staff, trainees and their family members.\nThe highlight of the event was an inspiring address delivered by Ms. Neha Vyas, Senior Environment Specialist, World Bank. In her address, she emphasized the importance of sustainable environmental practices, climate resilience and active community participation in the conservation of natural resources.\nAs part of the programme, a tree plantation drive and various awareness activities were organised to promote environmental conservation and encourage a greener lifestyle.\nTo support a plastic-free way of life and spread awareness on environmental protection, jute bags were distributed among participating families.\nAddressing the gathering, Brigadier R. Sathya Narayanan highlighted the importance of environmental conservation in disaster risk reduction and sustainable development. He also reaffirmed the Academy’s commitment towards promoting environmental responsibility among officers, staff and trainees.\nThe programme concluded with a collective pledge by participants to work towards environmental protection and sustainable living.\nPIB Nagpur | Saurabh Khekde/Darshana Rane\nFollow us on social media: @PIBMumbai / PIBMumbai /pibmumbai pibmumbai[at]gmail[dot]com /PIBMumbai /pibmumbai\nFollow us on social media:",
+      "summary": "Nagpur, 5 June 2026 On the occasion of World Environment Day, the NDRF Academy, Suradevi, (Nagpur) organized a series of activities on 05 June 2026, reaffirming its commitment towards environmental conservation and sustainable development. Sathya Narayanan, Director, NDRF Academy, and witnessed enthusiastic participation from officers, staff, trainees and their family members. The highlight of the event was an inspiring address delivered by Ms.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "86d76cae95e6168e4ded1d8a7aa2fe14",
+      "title": "CSIR-NEERI Celebrates World Environment Day, Focuses on Environmental Surveillance and Public Health",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269507",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [
+        "Sustainability",
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "Nagpur, 5 June 2026\nCSIR-National Environmental Engineering Research Institute (CSIR-NEERI) celebrated World Environment Day on 5 June 2026. Dr. Rakesh Mishra, Director, Tata Institute for Genetics and Society (TIGS), Bengaluru and former Director, CSIR-Centre for Cellular & Molecular Biology (CSIR-CCMB), Hyderabad, was the Chief Guest. Dr. S. Venkata Mohan, Director, CSIR-NEERI, and Shri Prakash Kumbhare, Scientist-F, CSIR-NEERI, were also present.\nDelivering a lecture on ‘Environmental Surveillance and One Health’, Dr. Mishra highlighted the role of metagenomics and environmental surveillance in monitoring pathogens, antimicrobial resistance (AMR) and ecosystem health. Referring to wastewater surveillance during the COVID-19 pandemic, he said environmental monitoring enabled early detection of infection trends and viral variants, supporting timely public health interventions.\nHe emphasized that AMR is an emerging global challenge and highlighted national initiatives such as the Alliance for Pathogen Surveillance Innovations (APSI) and the National One Health Mission for monitoring pathogens through wastewater, air and other environmental matrices. Stressing the One Health approach, he said human, animal and environmental health are closely interconnected and require coordinated action.\nDr. Mishra also underscored the importance of collaboration among scientific institutions, government agencies and communities for building resilient surveillance systems and strengthening health preparedness.\nIn his welcome address, Dr. S. Venkata Mohan highlighted CSIR-NEERI’s contributions in air and water quality management, wastewater treatment, waste valorization and eco-restoration, reaffirming the institute’s commitment to sustainable environmental solutions.\nOn the occasion, an MoU was signed between CSIR-NEERI and TIGS to strengthen collaborative research and innovation. Two White Papers — ‘Industrial Ecology in the Indian Context’ and ‘Environmental Health Risk Atlas and Action Framework for the Vidarbha Region’ — were released. The book ‘Fungal Diversity in CSIR-NEERI Nagpur’ was also unveiled. Certificates of Excellence were presented to students participating in the Student Research & Innovation Expo for their innovative ideas and science models.\nPIB Nagpur | Saurabh Khekde/Darshana Rane\nFollow us on social media: @PIBMumbai / PIBMumbai /pibmumbai pibmumbai[at]gmail[dot]com /PIBMumbai /pibmumbai\nFollow us on social media:",
+      "summary": "Nagpur, 5 June 2026 CSIR-National Environmental Engineering Research Institute (CSIR-NEERI) celebrated World Environment Day on 5 June 2026. Rakesh Mishra, Director, Tata Institute for Genetics and Society (TIGS), Bengaluru and former Director, CSIR-Centre for Cellular & Molecular Biology (CSIR-CCMB), Hyderabad, was the Chief Guest. Venkata Mohan, Director, CSIR-NEERI, and Shri Prakash Kumbhare, Scientist-F, CSIR-NEERI, were also present.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "iLEAP": 3,
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "bc9d1577049fbea9ac948ce0c2dc9aad",
+      "title": "‘Sur Sangam’ Marks Nine Decades of Akashvani’s Broadcasting Legacy",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269502",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "dc5db0e05993e6e4acb80b5e02147655",
+      "title": "World Environment Day: NHAI Launches Green Drives and Eco-Friendly Cloth Bags Distribution across National Highways",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269495",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "To commemorate World Environment Day, the National Highways Authority of India (NHAI) Regional Office, Madurai organized a series of environmental sustainability drives across various Highway projects in southern Tamil Nadu, reinforcing its commitment to green infrastructure. As part of its long-term conservation effort, NHAI has successfully planted over 2000 saplings, sowed 100 palm seeds, and distributed 600 eco-friendly cloth bags to commuters across various National Highway sections today.\nThe initiative highlights NHAI’s focus on sustainable infrastructure development to ecological preservation, aligning closely with Sustainable Development Goals (SDGs). The eco-friendly bags distribution and plantation drives with toll plaza commuters, local villagers, and students at major intersections to sensitize them on eliminating single-use plastics and promoting sustainable habits. An official pledge to adopt eco-friendly and sustainable ways of living was also administered with students and staff during the event.\nUnderscoring the strategic integration of safety and sustainability, the Regional Officer, NHAI Madurai, emphasized the organization's focus on ecological balance. He said that \"Our responsibility extends far beyond building world-class Highways; NHAI is dedicated to building sustainable corridors. Achieving substantial green cover across our networks is a top priority. We are actively maintaining major NH stretches with an approx 80% green cover and executing scientific tree transplants with high survival rates and building rain water harvesting structures. These activities under the Regional Office, Madurai are the testament to our proactive efforts towards environment and ensuring economic growth goes hand-in-hand with preservation. Furthermore, these initiatives will help to create awareness among students and the public, motivating them to adopt eco-friendly day to day practices.\"\nSpeaking on the occasion, the Joint Adviser, NHAI informed that,\n\"The 54th World Environment Day serves as a vital reminder to integrate eco-friendly ideas into our core Highway operations. By combining active plantation drives with community-focused awareness initiatives like distributing eco-friendly cloth bags to staff, the public, and students, NHAI is fostering a collective culture of environmental responsibility. A Greener Highway is inherently a safer, more sustainable highway for future generations. Today, we took a joint pledge with students and commuters to make conscious, eco-friendly changes in our daily lives.\"\nThe plantation drives include native species like Neem, Pungam, Naval, Palm,etc and plantation will continue across various ongoing project units in the region, backed by a proactive institutional monitoring mechanism and regular maintenance works to ensure high survival rates of the saplings.",
+      "summary": "To commemorate World Environment Day, the National Highways Authority of India (NHAI) Regional Office, Madurai organized a series of environmental sustainability drives across various Highway projects in southern Tamil Nadu, reinforcing its commitment to green infrastructure. As part of its long-term conservation effort, NHAI has successfully planted over 2000 saplings, sowed 100 palm seeds, and distributed 600 eco-friendly cloth bags to commuters across various National Highway sections today. The initiative highlights NHAI’s focus on sustainable infrastructure development to ecological preservation, aligning closely with Sustainable Development Goals (SDGs).",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "80259475b15dda63fb116189de9fd0ea",
+      "title": "Income Tax Department, Odisha Region Hosts Mega Outreach Programme “Prarambh-2026” on Income Tax Act, 2025",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269583",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Bhubaneswar",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e3a3d682c644edf51d9ab51e3a49a4db",
+      "title": "Hosts India make flying start with five gold medals at World Yogasana Championships",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269562",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5905b81b2a207153c1bc6acbe4b34284",
+      "title": "MoEFCC celebrates World Environment Day with Plantation Drive at Shankardev Vidya Niketan",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269516",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Guwahati",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "To mark World Environment Day 2026, the Ministry of Environment, Forest and Climate Change (MoEF&CC), Sub-Office, Guwahati, organized an awareness programmes at Shankardev Vidya Niketan under the theme “Inspired by Nature. For Climate. For Our Future”, aiming to promote environmental consciousness among school students.\nThe celebration commenced with the distribution of various tree saplings, including Bokul, Guava, Lemon, Bel, Amla, Azar and Debdaru, among nearly 500 students. A plantation drive was also conducted within the school campus, encouraging students to actively participate in environmental conservation efforts.\nAddressing the students Dr. Hemen Hazarika, Addl Director and Scientist MoEF&CC), Sub-Office highlighted the importance of tree plantation, reduction of plastic use, conservation of water and electricity, and adoption of sustainable lifestyles. He also spoke about the significance of the “Ek Ped Maa Ke Naam” campaign and emphasized the need for maintaining ecological balance. Addressing local environmental challenges, he discussed issues such as drainage congestion, artificial flooding and waste management in Guwahati. He further explained the global significance of COP21, the Paris Agreement and COP26, particularly India's “Panchamrit” commitments aimed at combating climate change and global warming.\nOn this occasion Dr. Thoudam James Singh, Research Officer urged students to embrace environmentally responsible habits in their daily lives. He encouraged them to keep their surroundings clean, avoid littering—especially plastic waste—and actively participate in plantation activities. Emphasizing the role of youth in environmental protection, he stated that students are the future custodians of the nation and must lead by example in safeguarding nature.\nThe celebration concluded with a prize distribution ceremony for winners of various competitions organized as part of the event. Shri Manjumohan Chakravarty, Principal Shankardev Vidya Niketan and Smt. Arati Bhattacharya , President, School Managing Committee were also present during the occasion.",
+      "summary": "To mark World Environment Day 2026, the Ministry of Environment, Forest and Climate Change (MoEF&CC), Sub-Office, Guwahati, organized an awareness programmes at Shankardev Vidya Niketan under the theme “Inspired by Nature. For Our Future”, aiming to promote environmental consciousness among school students. The celebration commenced with the distribution of various tree saplings, including Bokul, Guava, Lemon, Bel, Amla, Azar and Debdaru, among nearly 500 students.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "13737577bcf4205465ec689c6bba7aab",
+      "title": "INDIAN ARMY COMMEMORATES WORLD ENVIRONMENT DAY 2026 WITH SWACHHATA CAMPAIGN AND MASS TREE PLANTATION DRIVE",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269564",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Agartala",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Agartala, 5 June 2026: Red Shield Division under the Spear Corps, commemorated World Environment Day 2026 with a comprehensive Swachhata Campaign and Mass Tree Plantation Drive, reaffirming the Indian Army's commitment towards environmental conservation and sustainable development.\nThe initiative was conducted in consonance with the global observance of World Environment Day and aimed at promoting environmental stewardship, enhancing green cover and fostering awareness on climate action among troops, families and the local community.\nThe programme commenced with a large-scale tree plantation drive across military stations and selected community areas. A variety of native and climate-resilient saplings, including Neem, Peepal and Gulmohar, were planted to strengthen biodiversity and contribute towards long-term ecological sustainability. The plantation drive symbolised a collective commitment to creating a greener and healthier future.\nSimultaneously, personnel of the Brigade undertook an extensive Swachhata Campaign focused on cleanliness, waste management and environmental responsibility. The drive included the collection and segregation of waste into recyclable, biodegradable and non-recyclable categories. Special emphasis was laid on the elimination of single-use plastics and the promotion of environmentally responsible practices. The collected recyclable waste was handed over to authorised recycling agencies for scientific disposal and processing.\nTo ensure the sustained growth and maintenance of the newly planted saplings, dedicated teams have been tasked with their care and upkeep. The event also featured an environmental awareness session highlighting the importance of climate action, water conservation, waste segregation and sustainable living practices.\nThe observance concluded with participants taking a pledge to adopt eco-friendly habits, reduce plastic consumption and contribute actively towards environmental conservation. Through such initiatives, the Indian Army continues to demonstrate its unwavering commitment to nation-building, environmental protection and the creation of a sustainable future for generations to come.\nRed Shield Division under the Spear Corps, commemorated #WorldEnvironmentDay2026 with a comprehensive #SwachhataCampaign and Mass Tree Plantation Drive, reaffirming the Indian Army's commitment towards environmental conservation and sustainable development @adgpi @DefenceMinIndia pic.twitter.com/VNd9QPQOcM",
+      "summary": "Agartala, 5 June 2026: Red Shield Division under the Spear Corps, commemorated World Environment Day 2026 with a comprehensive Swachhata Campaign and Mass Tree Plantation Drive, reaffirming the Indian Army's commitment towards environmental conservation and sustainable development. The initiative was conducted in consonance with the global observance of World Environment Day and aimed at promoting environmental stewardship, enhancing green cover and fostering awareness on climate action among troops, families and the local community. The programme commenced with a large-scale tree plantation drive across military stations and selected community areas.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "f40606ecef40ba2072c3eb1c6d19e2a9",
+      "title": "ICAR NEH Sikkim Centre Celebrates World Environment Day 2026 with a Massive Plantation Drive",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269548",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Gangtok",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The ICAR Research Complex for North Eastern Hill Region, Sikkim Centre, celebrated World Environment Day - 2026 with a large-scale mass plantation drive at the ICAR NEH Sikkim Centre Research Farm, Tadong, in collaboration with several other line departments and research organisations, including the National Horticulture Board, Spices Board – Indian Cardamom Research Institute, Regional Ayurveda Research Institute, and G.B. Pant National Institute of Himalayan Environment of Govt. of India. The programme was launched under the ongoing Khet Bachao Abhiyan implemented by the Ministry of Agriculture & Farmers Welfare, Government of India.\nThe event witnessed active participation from Shri Sansar Ahmad, JD, NHB; Dr. John Varghese, Deputy Director, ICRI, Spices Board; Dr. A J V Sai Prasad, Asstt. Director In-charge, RARI, Gangtok; Dr. J C Arya, Research Officer Botany, RARI, Gangtok; Dr. Lizima C, Research Officer Ayurveda, RARI, Gangtok; along with scientists, technical staff, and officials from the ICAR RC for NEH Sikkim Centre.\nAs part of the mass plantation drive, a diverse range of economically important, horticultural, agroforestry, and environmentally beneficial species were planted. The plantation included 5,000 pineapple suckers, 6,000 large cardamom saplings, 300 papino (Solanum muricatum) seedlings, 60 Nebaro (Ficus roxburghii), 120 Gagun (Saurauia nepalensis), 60 Tejpatta (Cinnamomum tamala), and several bamboo species including Bambusa balcooa, Bambusa wamin, Bambusa tulda, Dendrocalamus hamiltonii, Bambusa nutans, Bambusa vulgaris, and Bambusa multiplex. In addition, 156 apple ber, 100 mahogany, 100 neem, 5 low-chill apple, and 500 moringa saplings were also planted.\nThe mass plantation initiative aimed to promote environmental conservation, enhance biodiversity, strengthen ecosystem resilience, and support climate change mitigation efforts. The collaborative effort reflects the commitment of scientific institutions and other stakeholder organizations to sustainable natural resource management and the vision of a greener and more climate-resilient Sikkim.\nThe programme concluded with a collective pledge by all participants to promote environmental stewardship and undertake sustained efforts towards ecological restoration and sustainable development in the Sikkim Himalayan region.\nICAR Research Complex for North Eastern Hill Region, Sikkim Centre, celebrated World Environment Day 2026 today through large-scale mass plantation drive at ICAR NEH Sikkim centre Research Farm, Tadong @ICAR_NRCO @icarindia @AgriGoI @PIB_India @MIB_India @PIB_Guwahati pic.twitter.com/T6XsVx30Ai — PIB in Sikkim (@PIBGangtok) June 5, 2026\nICAR Research Complex for North Eastern Hill Region, Sikkim Centre, celebrated World Environment Day 2026 today through large-scale mass plantation drive at ICAR NEH Sikkim centre Research Farm, Tadong @ICAR_NRCO @icarindia @AgriGoI @PIB_India @MIB_India @PIB_Guwahati pic.twitter.com/T6XsVx30Ai",
+      "summary": "The ICAR Research Complex for North Eastern Hill Region, Sikkim Centre, celebrated World Environment Day - 2026 with a large-scale mass plantation drive at the ICAR NEH Sikkim Centre Research Farm, Tadong, in collaboration with several other line departments and research organisations, including the National Horticulture Board, Spices Board – Indian Cardamom Research Institute, Regional Ayurveda Research Institute, and G.B. Pant National Institute of Himalayan Environment of Govt. The programme was launched under the ongoing Khet Bachao Abhiyan implemented by the Ministry of Agriculture & Farmers Welfare, Government of India.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "2d979554ff0385f516d6dc33be52d0ec",
+      "title": "Parliamentary Consultative Committee meeting under MoHFW held at Shillong",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269515",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Shillong",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Ministry of Health & Family Welfare, Parliamentary Consultative Committee meeting was held on 5th Jun 2026 at Courtyard by Marriott, Shillong. The committee headed by Chairman Hon'ble Union Cabinet Minister of Health and Family Welfare & Minister of Chemicals and Fertilizers Shri. Jagat Prakash Nadda, along with Hon'ble Minister of State, Ministry of Health and Family Welfare & Minister of State, Ministry of Chemicals and Fertilizers Smt. Anupriya Patel discussed various matters related to Child Health Program in India and ways to improve various aspects of Child Health policies in India.\nThe meeting was also attended by Hon'ble Members of Parliament from Lok Sabha including Dr. CN Manjunath, Dr. Sanjay Jaiswal, Shri. Rajabhau Parag Prakash Waje, Shri. Satish Kumar Gautam, Shri. Brijendra Singh Ola, Shri. Anoop Pradhan, Dr. Sharmila Sarkar and Rajya Sabha members including Dr. Kalpana Saini, Shri. Haris Beeran, Dr. Parmar Jashvantsinh Salamsinh, Dr. Radha Mohan Das Agarwal, Smt. Renuka Chowdhary and Smt. Rajathi. Union Secretary MoHFW, Smt. Punya Salila Srivastava along with Secretary of the Department of Health Research (DHR) within the Ministry of Health and Family Welfare (MoHFW) & the Director General of the Indian Council of Medical Research (ICMR) Dr. Rajiv Bhal and Director NEIGRIHMS Prof. Nalin Mehta were also present during the deliberations.\nThe members also visited NEIGRIHMS, Shillong. During the visit at NEIGRIHMS the committee took overview of infrastructure & functioning of hospital along with special focus of child health care services offered at NEIGRIHMS. The members visited the pediatric OPD & ward and interacted with patients and were satisfied with the services and health care delivery offered for the pediatric cases at NEIGRIHMS. The Members along with Union Secretary, MoHFW, Smt. Punya Salila Srivastava also celebrated the World Environment Day, 5th Jun at NEIGRIHMS by Tree Plantation Drive and planted various saplings inside the campus. All the honorable Members of Parliament along with Secretary, MoHFW, Smt. Punya Salila Srivastava echoed the theme of the world environment day 2026 \"Inspired by Nature. For Climate. For Our Future.\" The Tree plantation drive was a small step by the ministry that emphasizes the importance of nature for sustained & climate-resilient planet for the next century.\nNEIGRIHMS Director, Prof. Nalin Mehta and Medical Superintendent, Sr. Prof. Suvamoy Chakraborty along with other staff and doctors were also present during the occasion. Director NEIGRIHMS Prof. Mehta said that the overall meeting and visit to NEIGRIHMS was quite successful. He further added that the initiative by Ministry of Health & Family Welfare will definitely improve child health care across India and NEIGRIHMS is committed to be part of this initiative as a tertiary health care Institute in the region.",
+      "summary": "The Ministry of Health & Family Welfare, Parliamentary Consultative Committee meeting was held on 5th Jun 2026 at Courtyard by Marriott, Shillong. The committee headed by Chairman Hon'ble Union Cabinet Minister of Health and Family Welfare & Minister of Chemicals and Fertilizers Shri. Jagat Prakash Nadda, along with Hon'ble Minister of State, Ministry of Health and Family Welfare & Minister of State, Ministry of Chemicals and Fertilizers Smt.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "d727fdab838627571df32d982dd75aed",
+      "title": "Union Minister Dr Jitendra Singh Leads a Public Darbar in village Malhori of district Doda; Many issues resolved on the spot",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269530",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Jammu & Kashmir",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "60fb239d7cd6e40f917b83aa9f5eee15",
+      "title": "INDIRA GANDHI NATIONAL FOREST ACADEMY, DEHRADUN ORGANIZES SPECIAL LECTURE ON WORLD ENVIRONMENT DAY",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269499",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-05",
+      "relative_time": "Today",
+      "region": "Dehradun",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "The Indira Gandhi National Forest Academy (IGNFA), Dehradun, organized a Special Lecture on the occasion of World Environment Day at the Hari Singh Auditorium. Shri Bhaskar Khulbe, IAS (Retd.), former Secretary, PMO and Adviser to the Prime Minister of India delivered the special lecture as the chief guest. The programme commenced with the traditional lighting of the lamp, followed by a welcome address and introduction of the distinguished speaker. He also planted a sapling on this occasion.\nAddressing the gathering, Shri Bhaskar Khulbe shared valuable insights on environmental governance, sustainable development, and the role of public institutions in addressing contemporary environmental challenges. Drawing from his vast experience in public administration and policymaking, he emphasized the importance of balancing conservation objectives with developmental aspirations. He highlighted the need for innovative approaches to environmental management, community participation, and responsible stewardship of natural resources.\nShri Khulbe also spoke about his involvement in initiatives related to plastic waste management in eco-sensitive zones and sustainable development planning in the Himalayan region, including the reconstruction efforts at Kedarnath and Badrinath. He underscored the significance of environmental leadership and encouraged the probationers to uphold the values of integrity, commitment, and public service throughout their careers.\nSmt. Bharati, the Director of IGNFA, faculty members, and probationers expressed their gratitude to Shri Khulbe for sharing his experiences and perspectives. The lecture provided an enriching opportunity for the probationers to learn from a distinguished civil servant whose career exemplifies dedication to nation-building, governance reforms, and environmental sustainability.\nThe programme concluded with an interactive session, where probationers engaged with the speaker on issues related to environmental conservation, governance, climate resilience, and sustainable development.\nThe event formed part of IGNFA's continued efforts to expose future forest officers to diverse perspectives and inspire them to contribute effectively towards the conservation and sustainable management of India's natural resources.\nThe occasion was well attended by the Indian Forest Service (IFS) Probationers, faculty members of IGNFA and CASFoS Dehradun, officers, staff, and distinguished guests.",
+      "summary": "The Indira Gandhi National Forest Academy (IGNFA), Dehradun, organized a Special Lecture on the occasion of World Environment Day at the Hari Singh Auditorium. Shri Bhaskar Khulbe, IAS (Retd.), former Secretary, PMO and Adviser to the Prime Minister of India delivered the special lecture as the chief guest. The programme commenced with the traditional lighting of the lamp, followed by a welcome address and introduction of the distinguished speaker.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 6
       },
       "section": "vertical"
     },
@@ -4688,15 +5190,15 @@
       "section": "other"
     }
   ],
-  "other_count": 155,
+  "other_count": 168,
   "vertical_counts": {
-    "EoDB": 13,
-    "EooDB": 13,
+    "EoDB": 14,
+    "EooDB": 14,
     "CoDED": 3,
-    "iLEAP": 5,
+    "iLEAP": 6,
     "ELS": 7,
-    "Sustainability": 44,
-    "Political_Economy": 22
+    "Sustainability": 53,
+    "Political_Economy": 24
   },
   "regions_scraped": 24,
   "verticals": {
