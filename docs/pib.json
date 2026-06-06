@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-06T13:24:07Z",
-  "last_updated_ist": "06 Jun 2026, 06:54 PM IST",
-  "total": 219,
+  "last_updated": "2026-06-06T15:25:24Z",
+  "last_updated_ist": "06 Jun 2026, 08:55 PM IST",
+  "total": 223,
   "articles": [
     {
       "id": "161ebb0f67ea7eaef031d01e495d24da",
@@ -346,6 +346,60 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c7c3224d7876e1f5a9cd263e41e3a2bd",
+      "title": "Union Home Minister and Minister of Cooperation, Shri Amit Shah, chaired a meeting regarding issues related to border areas in Tripura",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269875",
+      "date": "2026-06-06",
+      "scraped_date": "2026-06-06",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "4b357c5ccc019fcad93c93fb14aff01d",
+      "title": "CAQM reviews enforcement actions across NCR; 245 inspections conducted during May 11-29",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269842",
+      "date": "2026-06-06",
+      "scraped_date": "2026-06-06",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "7084882f26cd8bb3c226357ce8cfbefe",
+      "title": "Why first-ever World Yogasana Championships is boosting PM Modi’s dreams of transforming traditional art into global sporting discipline",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269878",
+      "date": "2026-06-06",
+      "scraped_date": "2026-06-06",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "vertical_scores": {},
       "section": "other"
     },
@@ -2960,6 +3014,24 @@
       "section": "vertical"
     },
     {
+      "id": "5d426288c642d8349a12bdf1768a1e9e",
+      "title": "Despite rise in demand, Oil Marketing Companies Ensure Steady Fuel and LPG Supplies Across Nagaland",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269854",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-06",
+      "relative_time": "Yesterday",
+      "region": "Kohima",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
       "id": "a24b00a5c08c43afcdae7715e05d8ee6",
       "title": "NHRC, India organised a meeting of Environment & Climate Core Group on ‘Heat Wave and its Mitigation in Urban Areas’",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2268793",
@@ -4300,7 +4372,7 @@
       "section": "other"
     }
   ],
-  "other_count": 139,
+  "other_count": 143,
   "vertical_counts": {
     "EoDB": 10,
     "EooDB": 10,
