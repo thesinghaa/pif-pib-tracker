@@ -1,8 +1,44 @@
 {
-  "last_updated": "2026-06-06T03:48:39Z",
-  "last_updated_ist": "06 Jun 2026, 09:18 AM IST",
-  "total": 196,
+  "last_updated": "2026-06-06T07:04:58Z",
+  "last_updated_ist": "06 Jun 2026, 12:34 PM IST",
+  "total": 199,
   "articles": [
+    {
+      "id": "161ebb0f67ea7eaef031d01e495d24da",
+      "title": "Report on Datasets for State Finance Commissions to be Released on 8th June 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269683",
+      "date": "2026-06-06",
+      "scraped_date": "2026-06-06",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "fb2aa66089b77073ad58860c36ef24ac",
+      "title": "Sundays on Cycle – World Bicycle Day Special to Unite Thousands Across India on 7 June 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269695",
+      "date": "2026-06-06",
+      "scraped_date": "2026-06-06",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "a78c2f29663e5ca9b74f1b61536373a3",
       "title": "ESIC Invites Applications for Admission to MBBS, BDS and B.Sc. Nursing Courses under Ward of Insured Person Quota for Academic Session 2026-27",
@@ -2552,6 +2588,28 @@
       "section": "other"
     },
     {
+      "id": "e9140ca6bfe6f3fc4cb9af673fe62ebb",
+      "title": "KARNATAKA & KERALA SECTOR CRPF OBSERVES WORLD ENVIRONMENT DAY WITH MASSIVE PLANTATION DRIVE",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269680",
+      "date": "2026-06-05",
+      "scraped_date": "2026-06-06",
+      "relative_time": "Yesterday",
+      "region": "Bengaluru",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "“Plant a Tree Today, Secure a Better Tomorrow”\nOn the occasion of World Environment Day, Karnataka & Kerala Sector, Central Reserve Police Force (CRPF), organized a large-scale plantation drive across all formations under the Sector to promote environmental conservation and sustainable development. Dr. Vipul Kumar, IPS, Inspector General of Police, Karnataka & Kerala Sector CRPF, along with all officers, subordinate officers, other ranks and family members, actively participated in the programme.\nThe plantation drive was conducted simultaneously at Range Bengaluru, Group Centre Bengaluru, 240 (M) Battalion, 247 Battalion, D/97 Battalion, CIT Bengaluru and all other establishments and institutions in the CRPF campus Bengaluru.\nBengaluru based 02 NGO have also principiated:\n01.🌱 Hasire Usiru is a Karnataka-based environmental organization dedicated to tree plantation, green cover enhancement, biodiversity conservation, and environmental awareness.\n02.🤝 Jeevanmukthi Foundation is a non-profit organization focused on rural development, education, healthcare, poverty alleviation, and community welfare, working towards sustainable social development.\nThe programme witnessed enthusiastic participation from personnel of all ranks, reaffirming the Force's commitment towards environmental protection and a greener future. Thousands of saplings were planted as part of the nationwide initiative undertaken by CRPF under the guidance of the Ministry of Home Affairs.\nAddressing the participants, Dr. Vipul Kumar, IPS, emphasized that environmental protection is a collective responsibility and encouraged all personnel to contribute actively towards preserving nature for future generations. He highlighted the importance of increasing green cover and adopting eco-friendly practices in daily life. Karnataka & Kerala Sector CRPF remains dedicated to environmental sustainability and will continue to undertake initiatives aimed at conserving natural resources and promoting ecological balance.",
+      "summary": "“Plant a Tree Today, Secure a Better Tomorrow” On the occasion of World Environment Day, Karnataka & Kerala Sector, Central Reserve Police Force (CRPF), organized a large-scale plantation drive across all formations under the Sector to promote environmental conservation and sustainable development. Vipul Kumar, IPS, Inspector General of Police, Karnataka & Kerala Sector CRPF, along with all officers, subordinate officers, other ranks and family members, actively participated in the programme. The plantation drive was conducted simultaneously at Range Bengaluru, Group Centre Bengaluru, 240 (M) Battalion, 247 Battalion, D/97 Battalion, CIT Bengaluru and all other establishments and institutions in the CRPF campus Bengaluru.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
       "id": "a24b00a5c08c43afcdae7715e05d8ee6",
       "title": "NHRC, India organised a meeting of Environment & Climate Core Group on ‘Heat Wave and its Mitigation in Urban Areas’",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2268793",
@@ -3874,14 +3932,14 @@
       "section": "other"
     }
   ],
-  "other_count": 119,
+  "other_count": 121,
   "vertical_counts": {
     "EoDB": 10,
     "EooDB": 10,
     "CoDED": 3,
     "iLEAP": 4,
     "ELS": 4,
-    "Sustainability": 54,
+    "Sustainability": 55,
     "Political_Economy": 9
   },
   "regions_scraped": 23,
