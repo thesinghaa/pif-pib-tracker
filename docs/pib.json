@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-06T09:33:07Z",
-  "last_updated_ist": "06 Jun 2026, 03:03 PM IST",
-  "total": 210,
+  "last_updated": "2026-06-06T11:30:54Z",
+  "last_updated_ist": "06 Jun 2026, 05:00 PM IST",
+  "total": 215,
   "articles": [
     {
       "id": "161ebb0f67ea7eaef031d01e495d24da",
@@ -180,6 +180,100 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5f64dbe72da2d5d0619738adcb858735",
+      "title": "“India’s youth constitute the nation's greatest strength & are central to the realization of the vision of Viksit Bharat”: Union Minister of Youth Affairs and Sports, Dr. Mansukh Mandaviya addresses MY Bharat Youth Convention",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269794",
+      "date": "2026-06-06",
+      "scraped_date": "2026-06-06",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "14c1fa6a628fd6678890242782b27e05",
+      "title": "Department of Consumer Affairs Prescribes Standard Pack Sizes for Edible Oils under Legal Metrology Framework",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269789",
+      "date": "2026-06-06",
+      "scraped_date": "2026-06-06",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "dcee8a7e27a9e3cd91ac7e9128bf3da2",
+      "title": "JIPMER observed World Environment Day 2026 with great enthusiasm and active participation from faculty members, officials, staff, and students.",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269758",
+      "date": "2026-06-06",
+      "scraped_date": "2026-06-06",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The programme was inaugurated by Dr. Vikram Kate, Dean (Academics) and Officiating Director, JIPMER, who planted a sapling and addressed the gathering. Speaking on the occasion, he highlighted the significance of World Environment Day and emphasized JIPMER's continued commitment towards creating an environmentally sustainable, green, and pollution-free campus through year-round initiatives and responsible environmental practices. Dr. Kate noted that environmental conservation is a collective responsibility and encouraged all members of the JIPMER community to actively contribute towards preserving nature for future generations.\nThe event was attended by Shri S. Rangabashiam, Deputy Director; Dr. K.C. Premarajan, Project Coordinator, JIPMER; Ms. Varsini Arun, Senior Financial Advisor; and Mr. Hawa Singh, Senior Administrative Officer, along with faculty members, staff, students, and other stakeholders. As part of the initiative, dignitaries, staff, and students actively participated in planting saplings across various locations on the campus.\nMr. Sakthivel, Horticulture Superintendent, JIPMER, stated that the plantation drive builds upon JIPMER's sustained environmental conservation efforts under the guidance of Dr. Vir Singh Negi, Director, JIPMER. He added that more than 2,000 saplings were planted last year under the same initiative, significantly enhancing the institute's green cover and contributing to a healthier campus environment.",
+      "summary": "Vikram Kate, Dean (Academics) and Officiating Director, JIPMER, who planted a sapling and addressed the gathering. Speaking on the occasion, he highlighted the significance of World Environment Day and emphasized JIPMER's continued commitment towards creating an environmentally sustainable, green, and pollution-free campus through year-round initiatives and responsible environmental practices. Kate noted that environmental conservation is a collective responsibility and encouraged all members of the JIPMER community to actively contribute towards preserving nature for future generations.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "c9fb424d3a877896447c829002b07711",
+      "title": "Lavender Goes Global: Union Minister Dr Jitendra Singh Inaugurates 4th Lavender Festival at Bhaderwah",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269804",
+      "date": "2026-06-06",
+      "scraped_date": "2026-06-06",
+      "relative_time": "Today",
+      "region": "Jammu & Kashmir",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "9f7a838b5f986be1ab353fa99ee57246",
+      "title": "Dr. Pemmasani Chandra shekar Launches Andhra Pradesh's First Samriddhi Kendram at Narakoduru",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269773",
+      "date": "2026-06-06",
+      "scraped_date": "2026-06-06",
+      "relative_time": "Today",
+      "region": "Vijayawada",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "vertical_scores": {},
       "section": "other"
     },
@@ -4134,14 +4228,14 @@
       "section": "other"
     }
   ],
-  "other_count": 131,
+  "other_count": 135,
   "vertical_counts": {
     "EoDB": 10,
     "EooDB": 10,
     "CoDED": 3,
     "iLEAP": 4,
     "ELS": 4,
-    "Sustainability": 56,
+    "Sustainability": 57,
     "Political_Economy": 9
   },
   "regions_scraped": 23,
