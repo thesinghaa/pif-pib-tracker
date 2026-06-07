@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-07T15:34:14Z",
-  "last_updated_ist": "07 Jun 2026, 09:04 PM IST",
-  "total": 183,
+  "last_updated": "2026-06-07T17:18:15Z",
+  "last_updated_ist": "07 Jun 2026, 10:48 PM IST",
+  "total": 185,
   "articles": [
     {
       "id": "3265af6df2331f3dd335b4ede0282e1c",
@@ -504,6 +504,46 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "b4d400725dfba0e412cf4338b0513f9d",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah offers prayers at the Bhagwan Ayyappa Temple in New Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2270116",
+      "date": "2026-06-07",
+      "scraped_date": "2026-06-07",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "66a7069a5f6dd3df44ded7927f907ed4",
+      "title": "PUBLIC PARTICIPATION, ENTREPRENEURSHIP, AND INNOVATION ARE KEY TO VIKSIT BHARAT 2047: LOK SABHA SPEAKER",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2270113",
+      "date": "2026-06-07",
+      "scraped_date": "2026-06-07",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "​LOK SABHA SPEAKER CALLS UPON YOUTH AND ENTREPRENEURS TO LEAD INDIA’S JOURNEY TOWARDS A DEVELOPED NATION MAHESHWARI COMMUNITY’S LEGACY OF SERVICE, ETHICS, AND ENTERPRISE STRENGTHENS NATION-BUILDING: LOK SABHA SPEAKER ENTREPRENEURSHIP AND NATION-BUILDING MUST PROGRESS TOGETHER, ASSERTS SPEAKER ​LOK SABHA SPEAKER ADDRESSES PARTICIPANTS AT THE EVENT \"MAHESHWARIS & THE MAKING OF VIKSIT BHARAT 2047\nLok Sabha Speaker Shri Om Birla today asserted that the vision of Viksit Bharat 2047 can only be realized through public participation, innovation, entrepreneurship, and collective resolve. Addressing on the theme 'Maheshwaris & Making of Viksit Bharat 2047' at National Conclave of the Maheshwari Community in New Delhi, he emphasized that entrepreneurship and nation-building must progress hand in hand to ensure that the benefits of development reach every section of society. He noted that India’s journey toward becoming a developed nation must be guided by inclusive growth, social responsibility, and active citizen engagement.\nDescribing Maheshwari community as a vibrant force in India's economic and social landscape, Shri Birla lauded its invaluable contributions to nation-building through service, ethical business practices, philanthropy, and social responsibility. He observed that the community has consistently worked for societal welfare by establishing and nurturing institutions dedicated to education, healthcare, and public service across generations and regions.\n​Lok Sabha Speaker remarked that the Maheshwari community has historically demonstrated remarkable adaptability and enterprise, significantly driving regional economic transformations. Whether in metropolitan centers, the North-East, or southern India, community members have created opportunities, generated employment, and strengthened local economies. He added that the community’s commitment to honesty, ethical conduct, and social harmony has set exemplary standards in the business world.\n​Shri Birla emphasized that the true measure of success is not wealth creation alone, but the generation of value and positive social change. Appreciating the entrepreneurial achievements of Shri Anand Rathi, he noted that his exemplary journey serves as an inspiration for generations of young entrepreneurs. He also lauded the contributions of Justice J.K. Maheshwari, observing that his efforts have played an important role in strengthening the judicial system and advancing legal reforms. Such distinguished personalities, he remarked, reflect the community’s deep-rooted tradition of excellence, leadership, and public service.\n​Highlighting the role of youth in shaping the future, Shri Birla stated that educated, skilled, and technology-enabled young people constitute the greatest strength of Viksit Bharat 2047. He urged the younger generation to embrace innovation, artificial intelligence, and emerging technologies to position India as a global leader. He observed that the coming era will be driven by knowl",
+      "summary": "​LOK SABHA SPEAKER CALLS UPON YOUTH AND ENTREPRENEURS TO LEAD INDIA’S JOURNEY TOWARDS A DEVELOPED NATION MAHESHWARI COMMUNITY’S LEGACY OF SERVICE, ETHICS, AND ENTERPRISE STRENGTHENS NATION-BUILDING: LOK SABHA SPEAKER ENTREPRENEURSHIP AND NATION-BUILDING MUST PROGRESS TOGETHER, ASSERTS SPEAKER ​LOK SABHA SPEAKER ADDRESSES PARTICIPANTS AT THE EVENT \"MAHESHWARIS & THE MAKING OF VIKSIT BHARAT 2047 Lok Sabha Speaker Shri Om Birla today asserted that the vision of Viksit Bharat 2047 can only be realized through public participation, innovation, entrepreneurship, and collective resolve. Addressing on the theme 'Maheshwaris & Making of Viksit Bharat 2047' at National Conclave of the Maheshwari Community in New Delhi, he emphasized that entrepreneurship and nation-building must progress hand in hand to ensure that the benefits of development reach every section of society. He noted that India’s journey toward becoming a developed nation must be guided by inclusive growth, social responsibility, and active citizen engagement.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "161ebb0f67ea7eaef031d01e495d24da",
@@ -3628,7 +3668,7 @@
       "section": "other"
     }
   ],
-  "other_count": 108,
+  "other_count": 109,
   "vertical_counts": {
     "EoDB": 10,
     "EooDB": 10,
@@ -3636,7 +3676,7 @@
     "iLEAP": 3,
     "ELS": 2,
     "Sustainability": 56,
-    "Political_Economy": 6
+    "Political_Economy": 7
   },
   "regions_scraped": 23,
   "verticals": {
