@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-07T13:40:54Z",
-  "last_updated_ist": "07 Jun 2026, 07:10 PM IST",
-  "total": 179,
+  "last_updated": "2026-06-07T15:34:14Z",
+  "last_updated_ist": "07 Jun 2026, 09:04 PM IST",
+  "total": 183,
   "articles": [
     {
       "id": "3265af6df2331f3dd335b4ede0282e1c",
@@ -419,6 +419,82 @@
       "scraped_date": "2026-06-07",
       "relative_time": "Today",
       "region": "Bhopal",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "bc52bcd9fcbc25a2b6cf2dde09950e65",
+      "title": "Ministry of Panchayati Raj to organise outreach workshop on Atmanirbhar Panchayat Programme at Gandhinagar, Gujarat on 9 June 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2270088",
+      "date": "2026-06-07",
+      "scraped_date": "2026-06-07",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "4d927282f4393215d4b8d85a0525a0b0",
+      "title": "MoS Environment, Forest and Climate Change Launches \"NZP Saathi App\" and Inaugurates Self-ticketing Kiosks at National Zoological Park",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2270074",
+      "date": "2026-06-07",
+      "scraped_date": "2026-06-07",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 12,
+      "snippet": "",
+      "full_content": "New digital initiatives aimed at enhancing visitor convenience through smart navigation and seamless ticket booking\nUnion Minister of State for Environment, Forest and Climate Change Shri Kirti Vardhan Singh today launched the \"NZP Saathi App\", a smart digital zoo guide, and inaugurated Self-ticketing Kiosks at the National Zoological Park (NZP), New Delhi, aimed at enhancing visitor experience through smart navigation and easing online ticket booking.\nThe Minister visited an exhibition showcasing creative works prepared by students who participated in the recently concluded Summer Vacation Programme 2026. He appreciated the creativity of the young participants and commended the zoo authorities for organising educational and awareness programmes that foster a deeper understanding of wildlife conservation among students.\nThe Minister formally launched the \"NZP Saathi App\" and inaugurated the Self-ticketing Kiosks, marking a significant step towards visitor convenience and digital transformation at the National Zoological Park.\nThe \"NZP Saathi App\", available on both Android and iOS platforms, features an interactive digital map and smart navigation system that enables visitors to locate animal enclosures, washrooms, buggy points, exits and other facilities. The app also offers thematic tours, including Express Tour, Family Tour, Grand Zoo Tour and personalised \"My Tour\" options.\nThe Self-ticketing Kiosks will facilitate online ticket booking through UPI-based digital payments with free Wi-Fi connectivity for on-the-spot ticket booking.\nFollowing the inauguration, the Minister held a meeting with officials and section in-charges to review ongoing initiatives and discuss strategies for the overall enhancement, modernisation and efficient management of the National Zoological Park.\nThe Minister also inspected the bird houses and reviewed the summer management arrangements for the avian collection. He assessed the enclosure conditions and offered suggestions for further improving animal welfare and habitat management.\nDuring his visit to the Veterinary Hospital, the Minister observed the care being provided to in-house sick animals and held detailed discussions with zoo veterinarians and animal health staff regarding healthcare and management practices.\nLater, the Minister visited the lion enclosure and observed the Asiatic lions, Kartik and Karani. He expressed satisfaction with their upkeep and the overall management of the enclosure.\nThe Minister lauded the staff and officials of the National Zoological Park for their commitment, dedication and continuous efforts towards wildlife conservation, animal welfare and public education.\nThe National Zoological Park remains committed to strengthening conservation education, improving visitor services through technology and ensuring the highest standards of animal care and management.",
+      "summary": "New digital initiatives aimed at enhancing visitor convenience through smart navigation and seamless ticket booking Union Minister of State for Environment, Forest and Climate Change Shri Kirti Vardhan Singh today launched the \"NZP Saathi App\", a smart digital zoo guide, and inaugurated Self-ticketing Kiosks at the National Zoological Park (NZP), New Delhi, aimed at enhancing visitor experience through smart navigation and easing online ticket booking. The Minister visited an exhibition showcasing creative works prepared by students who participated in the recently concluded Summer Vacation Programme 2026. He appreciated the creativity of the young participants and commended the zoo authorities for organising educational and awareness programmes that foster a deeper understanding of wildlife conservation among students.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Sustainability": 12
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "b8c1c87f1611cabcc9fb36309a8accd6",
+      "title": "Gujarat’s Heena Rajgor leads India’s gold medal rush on penultimate day of World Yogasana Championships",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2270084",
+      "date": "2026-06-07",
+      "scraped_date": "2026-06-07",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "7de9dc8e0474a260a2fbcb8c5aee8841",
+      "title": "MY Bharat Volunteers Experience Rich Heritage of Uttarakhand Border Villages Under Viksit Vibrant Village Programme",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2270081",
+      "date": "2026-06-07",
+      "scraped_date": "2026-06-07",
+      "relative_time": "Today",
+      "region": "Dehradun",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -3552,14 +3628,14 @@
       "section": "other"
     }
   ],
-  "other_count": 105,
+  "other_count": 108,
   "vertical_counts": {
     "EoDB": 10,
     "EooDB": 10,
     "CoDED": 3,
     "iLEAP": 3,
     "ELS": 2,
-    "Sustainability": 55,
+    "Sustainability": 56,
     "Political_Economy": 6
   },
   "regions_scraped": 23,
