@@ -1,8 +1,26 @@
 {
-  "last_updated": "2026-06-07T00:17:33Z",
-  "last_updated_ist": "07 Jun 2026, 05:47 AM IST",
-  "total": 156,
+  "last_updated": "2026-06-07T05:32:22Z",
+  "last_updated_ist": "07 Jun 2026, 11:02 AM IST",
+  "total": 157,
   "articles": [
+    {
+      "id": "3265af6df2331f3dd335b4ede0282e1c",
+      "title": "Indian households continue to pay among the lowest cooking gas prices in the world",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2269944",
+      "date": "2026-06-07",
+      "scraped_date": "2026-06-07",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "161ebb0f67ea7eaef031d01e495d24da",
       "title": "Report on Datasets for State Finance Commissions to be Released on 8th June 2026",
@@ -3104,7 +3122,7 @@
       "section": "other"
     }
   ],
-  "other_count": 89,
+  "other_count": 90,
   "vertical_counts": {
     "EoDB": 7,
     "EooDB": 7,
