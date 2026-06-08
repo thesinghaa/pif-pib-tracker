@@ -1,8 +1,26 @@
 {
-  "last_updated": "2026-06-08T00:13:54Z",
-  "last_updated_ist": "08 Jun 2026, 05:43 AM IST",
-  "total": 55,
+  "last_updated": "2026-06-08T04:20:36Z",
+  "last_updated_ist": "08 Jun 2026, 09:50 AM IST",
+  "total": 56,
   "articles": [
+    {
+      "id": "90ab33f54550a8eb056c47cc1486d405",
+      "title": "Prime Minister shares a Sanskrit Subhashitam highlighting the welfare of all living beings and harmony with nature",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2270126",
+      "date": "2026-06-08",
+      "scraped_date": "2026-06-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "3265af6df2331f3dd335b4ede0282e1c",
       "title": "Indian households continue to pay among the lowest cooking gas prices in the world",
@@ -1040,7 +1058,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 45,
+  "other_count": 46,
   "vertical_counts": {
     "EoDB": 3,
     "EooDB": 3,
