@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-10T14:34:41Z",
-  "last_updated_ist": "10 Jun 2026, 08:04 PM IST",
-  "total": 206,
+  "last_updated": "2026-06-10T18:17:17Z",
+  "last_updated_ist": "10 Jun 2026, 11:47 PM IST",
+  "total": 225,
   "articles": [
     {
       "id": "8e69b617f1eb4120b8cd3009a6e169d0",
@@ -1240,6 +1240,386 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f3d6a0099b6192ecfbdcf460ea0880c7",
+      "title": "Prime Minister shares an article by author Shri Berjis Desai, highlighting the scientific alleviation of poverty through a revolutionized welfare state",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271424",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e4c96d6e3f464d18582706fac1c7a2b2",
+      "title": "Prime Minister shares an article by journalist and author Shri Ajay Singh, highlighting social welfare schemes covering vulnerable sections of society",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271418",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f063d457128702c244db4bb8b78c8fb2",
+      "title": "Prime Minister shares an article by columnist and author Shri Suhel Seth, highlighting a governance approach that is a mass movement powered by dignity and delivery",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271410",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Prime Minister, Shri Narendra Modi, has shared an article written by columnist and author, Shri Suhel Seth.\nThe article reflects on PM Narendra Modi’s tenure, noting that he took the road less travelled, making all the difference through a governance approach that is a mass movement powered by dignity and delivery. It emphasises that PM Modi has been the more impactful Prime Minister and the enabler that India so desperately needs.\nThe Prime Minister posted on X:\n“In this article, Shri @Suhelseth reflects on PM @narendramodi’s tenure, noting that he took the road less travelled, making all the difference through a governance approach that is a mass movement powered by dignity and delivery. He emphasises that PM Modi has been the more impactful Prime Minister and the enabler that India so desperately needs.”\nIn this article, Shri @Suhelseth reflects on PM @narendramodi ’s tenure, noting that he took the road less travelled, making all the difference through a governance approach that is a mass movement powered by dignity and delivery. He emphasises that PM Modi has been the more… pic.twitter.com/f01kkmOF8p",
+      "summary": "The Prime Minister, Shri Narendra Modi, has shared an article written by columnist and author, Shri Suhel Seth. The article reflects on PM Narendra Modi’s tenure, noting that he took the road less travelled, making all the difference through a governance approach that is a mass movement powered by dignity and delivery. It emphasises that PM Modi has been the more impactful Prime Minister and the enabler that India so desperately needs.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "27d995ecf9e01b595f6e1eb630d6be81",
+      "title": "Prime Minister shares an article by veteran statesman Dr. Karan Singh, highlighting the transformative changes witnessed across welfare delivery, infrastructure, education, healthcare and India's global engagement",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271404",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Prime Minister, Shri Narendra Modi, has shared an article written by veteran statesman, Dr. Karan Singh.\nThe article reflects on PM Narendra Modi's historic milestone of completing 12 years in office, highlighting the transformative changes witnessed across welfare delivery, infrastructure, education, healthcare and India's global engagement. It notes that PM Modi's enduring contribution lies in inspiring confidence in India's future and fostering a direct connection with citizens.\nThe Prime Minister posted on X:\n“Reflecting on PM @narendramodi's historic milestone of completing 12 years in office, veteran statesman Dr Karan Singh in this article highlights the transformative changes witnessed across welfare delivery, infrastructure, education, healthcare and India's global engagement. He notes that PM Modi's enduring contribution lies in inspiring confidence in India's future and fostering a direct connection with citizens.”\nReflecting on PM @narendramodi 's historic milestone of completing 12 years in office, veteran statesman Dr Karan Singh in this article highlights the transformative changes witnessed across welfare delivery, infrastructure, education, healthcare and India's global engagement. He… pic.twitter.com/NoGVp0MyMX",
+      "summary": "The Prime Minister, Shri Narendra Modi, has shared an article written by veteran statesman, Dr. The article reflects on PM Narendra Modi's historic milestone of completing 12 years in office, highlighting the transformative changes witnessed across welfare delivery, infrastructure, education, healthcare and India's global engagement. It notes that PM Modi's enduring contribution lies in inspiring confidence in India's future and fostering a direct connection with citizens.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "iLEAP": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "edfc5a4c211b0ea340879872cdeebeb9",
+      "title": "Prime Minister shares an article by Rajya Sabha MP highlighting thoughts on 12 years of transformative governance",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271402",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "The Prime Minister, Shri Narendra Modi, has shared an article written by Rajya Sabha MP, Shri Nitin Nabin.\nThe article shares thoughts on 12 years of transformative governance under PM Narendra Modi. It also highlights how collective resolve, inclusive development and citizen participation have accelerated India's journey towards becoming a Viksit Bharat and fulfilled the aspirations of millions.\nThe Prime Minister posted on X:\n“This article by Rajya Sabha MP Shri @NitinNabin shares thoughts on 12 years of transformative governance under PM @narendramodi, also highlights how collective resolve, inclusive development and citizen participation have accelerated India's journey towards becoming a Viksit Bharat and fulfilled the aspirations of millions.”\nThis article by Rajya Sabha MP Shri @NitinNabin shares thoughts on 12 years of transformative governance under PM @narendramodi , also highlights how collective resolve, inclusive development and citizen participation have accelerated India's journey towards becoming a Viksit… pic.twitter.com/NVcsmFi7fK — PMO India (@PMOIndia) June 10, 2026 *** MJPS/SS/PRK (Release ID: 2271402) Visitor Counter : 105 Read this release in: Gujarati\nThis article by Rajya Sabha MP Shri @NitinNabin shares thoughts on 12 years of transformative governance under PM @narendramodi , also highlights how collective resolve, inclusive development and citizen participation have accelerated India's journey towards becoming a Viksit… pic.twitter.com/NVcsmFi7fK",
+      "summary": "The Prime Minister, Shri Narendra Modi, has shared an article written by Rajya Sabha MP, Shri Nitin Nabin. The article shares thoughts on 12 years of transformative governance under PM Narendra Modi. It also highlights how collective resolve, inclusive development and citizen participation have accelerated India's journey towards becoming a Viksit Bharat and fulfilled the aspirations of millions.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "c372ab69d1edeeb201387362da48def0",
+      "title": "Prime Minister shares an article by former CM of Bihar and Rajya Sabha MP highlighting emphasis on ensuring governance translates into tangible outcomes for citizens",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271400",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "The Prime Minister, Shri Narendra Modi, has shared an article written by former Chief Minister of Bihar and Rajya Sabha MP, Shri Nitish Kumar.\nThe article lauds PM Narendra Modi on becoming India’s longest-serving democratically elected PM in consecutive terms. It recalls the struggles during the Emergency, lists many achievements of the government and notes that a defining feature of PM Modi’s leadership has been his emphasis on ensuring that governance translates into tangible outcomes for citizens.\nThe Prime Minister posted on X:\n“This article by former CM of Bihar and Rajya Sabha MP Shri @NitishKumar lauds PM @narendramodi on becoming India’s longest serving democratically elected PM in consecutive terms. He recalls the struggles during the Emergency, lists many achievements of the NDA government and notes that a defining feature of PM Modi’s leadership has been his emphasis on ensuring that governance translates into tangible outcomes for citizens.”\nThis article by former CM of Bihar and Rajya Sabha MP Shri @NitishKumar lauds PM @narendramodi on becoming India’s longest serving democratically elected PM in consecutive terms. He recalls the struggles during the Emergency, lists many achievements of the NDA government and… pic.twitter.com/Fvi31Wwa92 — PMO India (@PMOIndia) June 10, 2026 *** MJPS/SS/PRK (Release ID: 2271400) Visitor Counter : 75 Read this release in: Gujarati\nThis article by former CM of Bihar and Rajya Sabha MP Shri @NitishKumar lauds PM @narendramodi on becoming India’s longest serving democratically elected PM in consecutive terms. He recalls the struggles during the Emergency, lists many achievements of the NDA government and… pic.twitter.com/Fvi31Wwa92",
+      "summary": "The Prime Minister, Shri Narendra Modi, has shared an article written by former Chief Minister of Bihar and Rajya Sabha MP, Shri Nitish Kumar. The article lauds PM Narendra Modi on becoming India’s longest-serving democratically elected PM in consecutive terms. It recalls the struggles during the Emergency, lists many achievements of the government and notes that a defining feature of PM Modi’s leadership has been his emphasis on ensuring that governance translates into tangible outcomes for citizens.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "011f82fa77ba70075a2d7887822ffb97",
+      "title": "Prime Minister shares an article by Union Minister highlighting a transformative journey where reform and effective delivery have remained central to governance",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271398",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Prime Minister, Shri Narendra Modi, has shared an article written by Union Minister, Shri Piyush Goyal highlighting a transformative journey where reform and effective delivery have remained central to governance.\nThe article talks about a transformative journey where reform and effective delivery have remained central to governance. Referring to the expansion of welfare, financial inclusion, women-led development, entrepreneurship and infrastructure, it notes that this people-first approach has strengthened aspirations, accelerated development and renewed confidence in India's journey towards Viksit Bharat.\nThe Prime Minister posted on X:\n“This article by Union Minister Shri @PiyushGoyal talks about a transformative journey where reform and effective delivery have remained central to governance. Referring to the expansion of welfare, financial inclusion, women-led development, entrepreneurship and infrastructure, he notes that this people-first approach has strengthened aspirations, accelerated development and renewed confidence in India's journey towards Viksit Bharat.”\nThis article by Union Minister Shri @PiyushGoyal talks about a transformative journey where reform and effective delivery have remained central to governance. Referring to the expansion of welfare, financial inclusion, women-led development, entrepreneurship and infrastructure,… pic.twitter.com/w14oGYjZyG — PMO India (@PMOIndia) June 10, 2026 *** MJPS/SS/PRK (Release ID: 2271398) Visitor Counter : 66 Read this release in: Gujarati\nThis article by Union Minister Shri @PiyushGoyal talks about a transformative journey where reform and effective delivery have remained central to governance. Referring to the expansion of welfare, financial inclusion, women-led development, entrepreneurship and infrastructure,… pic.twitter.com/w14oGYjZyG",
+      "summary": "The Prime Minister, Shri Narendra Modi, has shared an article written by Union Minister, Shri Piyush Goyal highlighting a transformative journey where reform and effective delivery have remained central to governance. The article talks about a transformative journey where reform and effective delivery have remained central to governance. Referring to the expansion of welfare, financial inclusion, women-led development, entrepreneurship and infrastructure, it notes that this people-first approach has strengthened aspirations, accelerated development and renewed confidence in India's journey towards Viksit Bharat.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "2ead93a1485e0c0376b305889c3a2372",
+      "title": "CSIR-CRRI Signs MoA with Government of Uttar Pradesh for Implementation of CAQM Framework on Paving and Greening of Urban Roads",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271399",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5e8cf11cfa366451bd861917c696a011",
+      "title": "Prime Minister shares an article by former Vice President Shri M. Venkaiah Naidu highlighting development-driven governance model and the path toward a Swarnim Bharat",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271397",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Prime Minister Shri Narendra Modi today shared an article written by former Vice President Shri M. Venkaiah Naidu.\nIn the article former Vice President highlights development-driven governance model that resonates with people’s aspirations, paving the way for a Swarnim Bharat.\nThe Prime Minister posted on X:\n\"As PM @narendramodi completes 4,399 days in office, this article by former Vice President Shri @MVenkaiahNaidu hails the milestone as an extraordinary achievement. He highlights PM Modi’s development-driven governance model that resonates with people’s aspirations, paving the way for a Swarnim Bharat.\"\nAs PM @narendramodi completes 4,399 days in office, this article by former Vice President Shri @MVenkaiahNaidu hails the milestone as an extraordinary achievement. He highlights PM Modi’s development-driven governance model that resonates with people’s aspirations, paving the way… pic.twitter.com/KxYB8hw4ZL — PMO India (@PMOIndia) June 10, 2026 *** MJPS/SS/PRK (Release ID: 2271397) Visitor Counter : 62 Read this release in: Gujarati\nAs PM @narendramodi completes 4,399 days in office, this article by former Vice President Shri @MVenkaiahNaidu hails the milestone as an extraordinary achievement. He highlights PM Modi’s development-driven governance model that resonates with people’s aspirations, paving the way… pic.twitter.com/KxYB8hw4ZL",
+      "summary": "Prime Minister Shri Narendra Modi today shared an article written by former Vice President Shri M. In the article former Vice President highlights development-driven governance model that resonates with people’s aspirations, paving the way for a Swarnim Bharat. \"As PM @narendramodi completes 4,399 days in office, this article by former Vice President Shri @MVenkaiahNaidu hails the milestone as an extraordinary achievement.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "185cf1ea34e11bceeebc55892f514e13",
+      "title": "Prime Minister shares an article by former President Shri Ram Nath Kovind highlighting the shift to building a deeper trust in Bharat and India's transformative journey",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271395",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e78f4d84f743d1c4a8930e4cfbe5236b",
+      "title": "Prime Minister expresses gratitude to Deputy Chairman of Rajya Sabha Shri. Harivansh Ji for his wishes",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271392",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Prime Minister Shri Narendra Modi today expressed heartfelt gratitude to Deputy Chairman of Rajya Sabha, Shri. Harivansh Ji for his wishes. The Prime Minister stated that this occasion gives the inspiration to work for the country with even greater dedication, loyalty, and commitment.\nShri Modi emphasized that with the mantra of 'Sabka Saath, Sabka Vikas', the government is committed to the all-round development of India.\nThe Prime Minister posted on X:\n\"शुभकामनाओं के लिए आपका हृदय से आभार माननीय हरिवंश जी। यह अवसर देश के लिए और अधिक समर्पण, निष्ठा एवं प्रतिबद्धता के साथ कार्य करने की प्रेरणा देता है। 'सबका साथ, सबका विकास' के मंत्र के साथ हम भारतवर्ष के चौतरफा विकास के लिए प्रतिबद्ध हैं।\nशुभकामनाओं के लिए आपका हृदय से आभार माननीय हरिवंश जी। यह अवसर देश के लिए और अधिक समर्पण, निष्ठा एवं प्रतिबद्धता के साथ कार्य करने की प्रेरणा देता है। 'सबका साथ, सबका विकास' के मंत्र के साथ हम भारतवर्ष के चौतरफा विकास के लिए प्रतिबद्ध हैं। @harivansh1956 https://t.co/LJLQfLZ08Q — Narendra Modi (@narendramodi) June 10, 2026 *** MJPS/SS/PRK (Release ID: 2271392) Visitor Counter : 81 Read this release in: Gujarati , Tamil\nशुभकामनाओं के लिए आपका हृदय से आभार माननीय हरिवंश जी। यह अवसर देश के लिए और अधिक समर्पण, निष्ठा एवं प्रतिबद्धता के साथ कार्य करने की प्रेरणा देता है। 'सबका साथ, सबका विकास' के मंत्र के साथ हम भारतवर्ष के चौतरफा विकास के लिए प्रतिबद्ध हैं। @harivansh1956 https://t.co/LJLQfLZ08Q",
+      "summary": "Prime Minister Shri Narendra Modi today expressed heartfelt gratitude to Deputy Chairman of Rajya Sabha, Shri. The Prime Minister stated that this occasion gives the inspiration to work for the country with even greater dedication, loyalty, and commitment. Shri Modi emphasized that with the mantra of 'Sabka Saath, Sabka Vikas', the government is committed to the all-round development of India.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "f1cd9f3ff8814d9a4f3b920597748c99",
+      "title": "DigiLocker Experiences Massive Expansion",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271375",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "b1476c79f506988d57de3671888d0490",
+      "title": "Prime Minister expresses gratitude to Lok Sabha Speaker, Om Birla Ji for his warm wishes",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271374",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Prime Minister Shri Narendra Modi today expressed deep gratitude to Lok Sabha Speaker, Om Birla Ji for his warm wishes. The Prime Minister stated that this historic milestone in Indian democracy is the outcome of the immense blessings and affection of the public.\nShri Modi affirmed that together, we all will continue to carry forward the resolution of building a developed, self-reliant, and prosperous India with even greater determination.\nThe Prime Minister posted on X:\n\"आपकी स्नेहिल शुभकामनाओं के लिए बहुत-बहुत आभार माननीय ओम बिरला जी। भारतीय लोकतंत्र में यह ऐतिहासिक पड़ाव जनता-जनार्दन के अपार आशीर्वाद और अपनत्व का सुपरिणाम है। हम सभी मिलकर विकसित, आत्मनिर्भर और समृद्ध भारत के निर्माण के संकल्प को और अधिक दृढ़ता के साथ आगे बढ़ाते रहेंगे।\nआपकी स्नेहिल शुभकामनाओं के लिए बहुत-बहुत आभार माननीय ओम बिरला जी। भारतीय लोकतंत्र में यह ऐतिहासिक पड़ाव जनता-जनार्दन के अपार आशीर्वाद और अपनत्व का सुपरिणाम है। हम सभी मिलकर विकसित, आत्मनिर्भर और समृद्ध भारत के निर्माण के संकल्प को और अधिक दृढ़ता के साथ आगे बढ़ाते रहेंगे।… https://t.co/8FsCitrxYm",
+      "summary": "Prime Minister Shri Narendra Modi today expressed deep gratitude to Lok Sabha Speaker, Om Birla Ji for his warm wishes. The Prime Minister stated that this historic milestone in Indian democracy is the outcome of the immense blessings and affection of the public. Shri Modi affirmed that together, we all will continue to carry forward the resolution of building a developed, self-reliant, and prosperous India with even greater determination.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "17f1f4118823191430e993d00cdce2d2",
+      "title": "Announcement of Sangeet Natak Akademi Fellowship (Akademi Ratna) & Sangeet Natak Akademi Awards (Akademi Puraskar) for the years 2024 and 2025 and Ustad Bismillah Khan Yuva Puraskar for the years 2024 and 2025",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271371",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "b942827bc9ed468f94e9644a25adf8cc",
+      "title": "Commerce Secretary Urges Enhanced Trade, Investment and Business Engagement at India–Tajikistan Joint Commission Meeting",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271366",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 12,
+      "snippet": "",
+      "full_content": "India and Tajikistan agree to deepen trade, investment, pharmaceuticals, agriculture, services, energy, connectivity and capacity-building cooperation India offers to work with Tajikistan for expanding procurement of high-quality and affordable Indian pharmaceutical products\nCommerce Secretary, Government of India, Shri Rajesh Agrawal, delivered the opening remarks at the 12th Meeting of the India-Tajikistan Joint Commission on Trade, Economic, Scientific and Technical Cooperation, held today through video conference. He noted that the Joint Commission was meeting at a time when the global trade, supply-chain and technology landscape had changed significantly, and underlined the need for India and Tajikistan to convert political goodwill and historical friendship into stronger economic outcomes through greater focus on trade, investment, market access, regulatory cooperation and business engagement.\nThe meeting was co-chaired by Shri Mohit Yadav, Joint Secretary, Department of Commerce, Government of India, and H.E. Mr. Nuriddinzoda Ahliddin Nuriddin, Deputy Minister of Economic Development and Trade of the Republic of Tajikistan. Senior officials and representatives from relevant ministries, departments and agencies of both countries participated in the meeting.\nThe meeting was held in a warm and constructive atmosphere, reflecting the long-standing friendship, civilizational bonds and mutual trust between India and Tajikistan. Both sides reviewed the progress made since the 11th Session of the Joint Commission and exchanged views on further strengthening bilateral economic engagement.\nThe Indian side further noted India’s strong economic growth and export achievements during the last 12 years under the visionary leadership of Prime Minister Shri Narendra Modi. The Indian side also highlighted India’s strong economic momentum. India recorded GDP growth of 7.7 percent in FY 2025-26 and 7.8 percent in Q4 of FY 2025-26, reflecting the strength of reforms, enterprise and public effort. India’s total exports during FY 2025-26 were estimated at US$ 863 billion, including merchandise exports of USD 442 billion and services exports of US$ 421 billion.\nThe Indian side noted the positive momentum in bilateral merchandise trade. India’s exports to Tajikistan are estimated at US$ 58.12 million in 2025-26, rising 27.23% compared to previous year. Drug formulations and biologicals was the major product of India’s exports to Tajikistan during this period, followed by pulses, industrial machinery for dairy and related sectors, medical and scientific instruments, tea, Ayush and herbal products, and refrigeration machinery. This reflects rising opportunities for farmers, Indian MSMEs and businesses.\nBoth sides reviewed regulatory and market access issues affecting bilateral trade and agreed to strengthen coordination between competent authorities, trade bodies and business chambers. They emphasized the need for regular interaction to address operational concerns ",
+      "summary": "India and Tajikistan agree to deepen trade, investment, pharmaceuticals, agriculture, services, energy, connectivity and capacity-building cooperation India offers to work with Tajikistan for expanding procurement of high-quality and affordable Indian pharmaceutical products Commerce Secretary, Government of India, Shri Rajesh Agrawal, delivered the opening remarks at the 12th Meeting of the India-Tajikistan Joint Commission on Trade, Economic, Scientific and Technical Cooperation, held today through video conference. He noted that the Joint Commission was meeting at a time when the global trade, supply-chain and technology landscape had changed significantly, and underlined the need for India and Tajikistan to convert political goodwill and historical friendship into stronger economic outcomes through greater focus on trade, investment, market access, regulatory cooperation and business engagement. The meeting was co-chaired by Shri Mohit Yadav, Joint Secretary, Department of Commerce, Government of India, and H.E.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EoDB": 6,
+        "EooDB": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "6b4036601a9ada27de08731b4483cac5",
+      "title": "Indian Railways Takes a Major Step to Enhance Passenger Safety with Nationwide Fire Safety Audits at Stations",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271327",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "83ef8e74a85036b0ba6fb12653f8cfd6",
+      "title": "No Ban on Import of Indian Mangoes by Nepal",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271315",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "8804720d2402c41bb15f009b4647959d",
+      "title": "SAPLING Dialogue 2026 Concludes with Call for concrete action plan for holistic development of the food processing Sector",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271308",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "21ed73a59e38e1be2ac3c41f4da49545",
+      "title": "IIT Gandhinagar to Launch Major Research Initiatives in Presence of Union Minister Dr. Jitendra Singh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271385",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "vertical_scores": {},
       "section": "other"
     },
@@ -4026,15 +4406,15 @@
       "section": "other"
     }
   ],
-  "other_count": 144,
+  "other_count": 154,
   "vertical_counts": {
-    "EoDB": 29,
-    "EooDB": 29,
+    "EoDB": 30,
+    "EooDB": 30,
     "CoDED": 5,
-    "iLEAP": 5,
+    "iLEAP": 6,
     "ELS": 5,
     "Sustainability": 9,
-    "Political_Economy": 13
+    "Political_Economy": 20
   },
   "regions_scraped": 23,
   "verticals": {
