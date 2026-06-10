@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-10T07:13:13Z",
-  "last_updated_ist": "10 Jun 2026, 12:43 PM IST",
-  "total": 147,
+  "last_updated": "2026-06-10T11:13:13Z",
+  "last_updated_ist": "10 Jun 2026, 04:43 PM IST",
+  "total": 177,
   "articles": [
     {
       "id": "8e69b617f1eb4120b8cd3009a6e169d0",
@@ -106,6 +106,596 @@
         "ELS": 3
       },
       "section": "vertical"
+    },
+    {
+      "id": "34b33ce645ec5674c924d28c4638f646",
+      "title": "National Commission for Homoeopathy Advises Responsible Public Discourse on Homoeopathy; Calls for Reliance on Verified Information",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271132",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "d512b3b23728e960b317715e26de4a31",
+      "title": "Union Public Service Commission announces Recruitment Results for the month of April, 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271129",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "6e2095f818fa4dff7881978f12a5458d",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah extends heartfelt wishes to Prime Minister Shri Narendra Modi on the historic achievement of serving people as the country's longest-serving elected PM",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271125",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "2aaf95ba454559ec78c587b571d4f47e",
+      "title": "TDB-DST Supports TIEA Connectors Pvt. Ltd., Bengaluru, for Commercialization of Indigenous High-Reliability Connector Technologies for Aerospace, Defence, Space and Electric Mobility Applications",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271121",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c7250f71c852eee56f0ae87f369804ad",
+      "title": "Government approves 96 Companies under round-III of Textile PLI Scheme; ₹12,822 crore investment to boost manufacturing and employment",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271102",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "ELS",
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 21,
+      "snippet": "",
+      "full_content": "The Government has approved 22 new applicants under the Round-3 of the Production Linked Incentive (PLI) Scheme for Textiles. The newly approved companies are expected to bring in a total investment of ₹2,339.14 crore, generate a projected turnover of ₹15,561.34 crore in notified products, and create 36,217 employment opportunities across the textile value chain. A total of 96 companies have been selected under Round-3 of the scheme with a total committed investment of ₹12,822.67 crore and a projected turnover of ₹58,294.18 crore.\nThe approved applicants span key focus segments of the PLI Scheme, including Man-Made Fibre (MMF) Apparel, MMF Fabrics and Technical Textiles, thereby further strengthening India's position as a global hub for value-added textile manufacturing.\nThe addition of these companies under the PLI Scheme reflects the continued industry response to the Government's efforts to promote investments in sunrise segments of the textile sector. The proposed investments and production capacities are expected to support the development of a robust and globally competitive textile ecosystem aligned with the vision of Aatmanirbhar Bharat.",
+      "summary": "The Government has approved 22 new applicants under the Round-3 of the Production Linked Incentive (PLI) Scheme for Textiles. The newly approved companies are expected to bring in a total investment of ₹2,339.14 crore, generate a projected turnover of ₹15,561.34 crore in notified products, and create 36,217 employment opportunities across the textile value chain. A total of 96 companies have been selected under Round-3 of the scheme with a total committed investment of ₹12,822.67 crore and a projected turnover of ₹58,294.18 crore.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "EoDB": 9,
+        "EooDB": 9,
+        "ELS": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "f03888cc68945236b160bc13c95b3ee4",
+      "title": "Aatmanirbhar Bharat: MoD inks Rs 449 crore contract for 20 Enhanced Capability Global Navigation Satellite System Jammers for Indian Navy",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271094",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "015c9fb6e2327726f4220321668db2e3",
+      "title": "Cabinet approves construction of new Central Government General Pool Office Accommodation at the New Capital City, Amaravati, Andhra Pradesh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271063",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Cabinet Committee on Economic Affairs, chaired by the Prime Minister Shri Narendra Modi, today has approved the construction of the Central Government General Pool Office Accommodation (CGGPOA) at the New Capital City, Amaravati, Andhra Pradesh.\nThis project is a landmark initiative in the new Greenfield city of Amaravati, envisioned to evolve into a world-class urban centre. The objective of the proposal is to address the growing demand for office accommodation for various Central Government offices by housing them under one roof. This consolidation will enhance inter-departmental coordination and improve the efficiency and effectiveness of services delivered by the Central Government to the State of Andhra Pradesh.\nThe Central Government General Pool Office Accommodation (CGGPOA) at New Capital City, Amaravati, Andhra Pradesh, is planned over an area of 5.53 acres. The CGGPOA comprises two blocks: one block on Plot C-9 with Ground + 13 floors (Ground Floor for services, three floors for podium parking, and ten floors for office spaces), and another block on Plot C-8 with Ground + 10 floors (Ground Floor for services, three floors for podium parking, and seven floors for office spaces). The facility is designed to accommodate approximately 8,000 officials and staff members. Podium parking provision for about 1,800 Equivalent Car Spaces (ECS) is proposed. The total built-up area of the project is 23,25,000 sqft. (2,16,032 sqm.).\nAcross the globe, there is a growing emphasis on environmentally sustainable and resource-efficient construction practices. Reflecting this commitment, the proposed Central Government General Pool Office Accommodation (CGGPOA) at New Capital City, Amaravati, Andhra Pradesh, is being planned and designed in accordance with the highest green building standards prevalent in India. The project aims to minimize environmental impact through sustainable site planning, enhanced energy efficiency, water conservation, usage of locally available materials, and improved occupant health and comfort. The campus will be designed, constructed, and registered to achieve a minimum GRIHA 4-Star Rating and will comply with the latest provisions of the Energy Conservation and Sustainable Building Code (ECSBC) 2024.\nThe Central Government General Pool Office Accommodation (CGGPOA) at New Capital City, Amaravati, Andhra Pradesh, will be equipped with essential civic and community amenities, including a Bank with ATM, Post Office, Crèche, Recreation Room, Ladies’ Room, Conference Hall with a seating capacity of 100, Multipurpose Hall with a seating capacity of 500, and four canteens to cater to the needs of employees and visitors.\nThe campus will incorporate a barrier-free built environment to ensure accessibility, safety, and convenience for Divyangjan (Persons with Disabilities), in compliance with applicable accessibility norms and standards.\nThe project is expected to generate substantial direct and indirect employment opportunities for ",
+      "summary": "The Cabinet Committee on Economic Affairs, chaired by the Prime Minister Shri Narendra Modi, today has approved the construction of the Central Government General Pool Office Accommodation (CGGPOA) at the New Capital City, Amaravati, Andhra Pradesh. This project is a landmark initiative in the new Greenfield city of Amaravati, envisioned to evolve into a world-class urban centre. The objective of the proposal is to address the growing demand for office accommodation for various Central Government offices by housing them under one roof.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "face6f726b4c8f2bff00ebac4b0562e2",
+      "title": "Prime Minister, Shri Narendra Modi receives congratulatory messages from World Leaders on becoming India’s Longest Continuously Serving Democratically Elected Prime Minister",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271065",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "aef8640d3cb01560928559dac170044c",
+      "title": "DGTR Organises Media Briefing on Trade Remedy Measures and Fair-Trade Practices",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271060",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "dfdf06086c5ca197c12d41ae3edb3b19",
+      "title": "Cabinet approves the construction of the General Pool Residential Accommodation (GPRA) at New Capital City, Amaravati, Andhra Pradesh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271061",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Cabinet Committee on Economic Affairs, chaired by the Prime Minister Shri Narendra Modi, today has approved the construction of the General Pool Residential Accommodation (GPRA) at New Capital City, Amaravati, Andhra Pradesh. This marks the first GPRA project in the capital city of Amaravati, as well as within the State of Andhra Pradesh.\nThe objective of the proposal is to alleviate the financial burden on Central Government employees by providing adequate residential accommodation, thereby enhancing their morale, promoting integrity, and contributing to their overall well-being. Further, by enabling staff to reside in close proximity to their workplaces, the project will support efficient government functioning and ensure that employees remain readily available to discharge their official duties effectively.\nThe General Pool Residential Accommodation (GPRA) Campus in the New Capital City of Amaravati, Andhra Pradesh, is planned over an area of 17 acres. The development comprises 11 residential towers with a total of 1,504 dwelling units, ranging from Type II to Type VI, including refuge areas. The project provides basement parking facilities accommodating 1,972 Equivalent Car Spaces (ECS). The total built-up area of the project is 31.30 lakh sqft. (2,90,762 sqm), including a basement area of 9.10 lakh sqft. (84,394 sqm).\nAcross the globe, there is a growing emphasis on adopting environmentally friendly and sustainable construction practices. In line with this objective, the proposed General Pool Residential Accommodation (GPRA) Campus in the New Capital City of Amaravati, Andhra Pradesh, envisages that all buildings will be planned and designed in strict compliance with the best green building standards prevailing in India, with a strong focus on minimizing environmental impact through sustainable site planning, enhanced energy efficiency, water conservation, usage of locally available materials, and improved occupant health and comfort.\nThe campus will be designed, constructed, and registered to achieve a minimum GRIHA 4-Star Rating, in compliance with the latest provisions of the Energy Conservation and Sustainable Building Code (ECSBC) 2024 and requirements of Eco-Niwas Samhita (ENS) 2024.\nThe General Pool Residential Accommodation (GPRA) Campus in the New Capital City of Amaravati, Andhra Pradesh, will be equipped with essential civic and community amenities, including a bank and ATM, post office, crèche, community hall with dining facilities, food court, shopping complex, service centre, and guest house. The campus will incorporate a barrier-free built environment to ensure accessibility and convenience for Divyangjan (Persons with Disabilities), in compliance with applicable accessibility standards.\nThe project is expected to generate significant direct and indirect employment opportunities for skilled, semi-skilled, and unskilled workers. It is estimated to create approximately 7.00 lakh man-days of employment per annum during the co",
+      "summary": "The Cabinet Committee on Economic Affairs, chaired by the Prime Minister Shri Narendra Modi, today has approved the construction of the General Pool Residential Accommodation (GPRA) at New Capital City, Amaravati, Andhra Pradesh. This marks the first GPRA project in the capital city of Amaravati, as well as within the State of Andhra Pradesh. The objective of the proposal is to alleviate the financial burden on Central Government employees by providing adequate residential accommodation, thereby enhancing their morale, promoting integrity, and contributing to their overall well-being.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "db638ef05ae9e0569210ae3253956405",
+      "title": "Cabinet approves Ahmedabad Metro Rail project Phase 2A (Koteshwar Road to Airport corridor)",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271058",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Union Cabinet chaired by the Prime Minister Shri Narendra Modi has approved Phase 2(A) of Ahmedabad Metro Rail Project with corridor for a length of 6.032 Km with 05 stations (04 Elevated and 01 underground). On operationalisation of Phase 2(A), Ahmedabad-Gandhinagar will have 77.63 Km of active Metro Rail Network. The names of stations in the Phase 2(A) Corridor are- Ashram Road, Koteshwar Prachin Mandir, Sabarmati River, Sardar Nagar and Airport.\nThe total completion cost including IDC (Interest during Construction) for the project will be Rs.2,169.04 crore.\nBenefits and Bolstering Growth:\nThe Phase 2(A) of Ahmedabad Metro Rail Project represents a significant advancement in the city’s infrastructure development. Phase 2(A) acts as a major expansion of the Metro Rail Network in the city.\nEnhanced Connectivity:\nPhase 2(A) of the Ahmedabad Metro Project envisages the development of approximately 6.032 km of new metro corridor, aimed at substantially enhancing public transportation by providing seamless connectivity to the airport and linking key residential and commercial areas that presently lack efficient transit access.\nThis phase aims to seamlessly integrate key zones, including residential & Commercial hubs with existing Ahmedabad-Gandhinagar corridor. Further, likelihood of sports facilities also being developed in the vicinity for the World Police Games 2029 and Commonwealth Games 2030.\nBy bridging these vital areas with the metro network, Phase 2(A) will not only enhance connectivity but also stimulate economic activity, tourism, and ease urban mobility for both residents and visitors.\n• Reduction in Traffic Congestion : Metro Rail as an efficient alternate road transport and with Phase 2(A) as an extension of the Metro Rail network to the Airport, will be particularly impactful inside Ahmedabad. Reduction in road traffic can lead to smoother movement of vehicles, reduction in travel time, increasing overall road safety etc.\n• Environmental Benefits : With the addition of Phase 2(A) of Ahmedabad Metro Rail Project and increase in overall Metro Rail Network in Ahmedabad & Gandhinagar cities, can significantly reduce carbon emissions compared to traditional fossil fuel-based transport.\n• Economic Growth : Reduced travel times and improved access to different parts of the city such as Airport, Railway Stations and Bus Depots can enhance productivity by allowing individuals to reach their workplaces and destinations more efficiently. Also, the enhanced connectivity can stimulate local businesses, especially in areas near new metro stations which can also attract investment and development in previously less accessible regions.\n• Social Impact : The expansion of Phase 2(A) Metro Rail network in Ahmedabad will provide more equitable access to public transport, benefiting diverse socio-economic groups and reducing transport disparities which will contribute to a higher quality of life by reducing commute times and improving access to essenti",
+      "summary": "The Union Cabinet chaired by the Prime Minister Shri Narendra Modi has approved Phase 2(A) of Ahmedabad Metro Rail Project with corridor for a length of 6.032 Km with 05 stations (04 Elevated and 01 underground). On operationalisation of Phase 2(A), Ahmedabad-Gandhinagar will have 77.63 Km of active Metro Rail Network. The names of stations in the Phase 2(A) Corridor are- Ashram Road, Koteshwar Prachin Mandir, Sabarmati River, Sardar Nagar and Airport.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "e4601c913e430c5819edcab7efba85ad",
+      "title": "Cabinet approves Ahmedabad Metro Rail project Phase 2A (Koteshwar Road to Airport corridor)",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271056",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Union Cabinet chaired by the Prime Minister Shri Narendra Modi has approved Phase 2(A) of Ahmedabad Metro Rail Project with corridor for a length of 6.032 Km with 05 stations (04 Elevated and 01 underground). On operationalisation of Phase 2(A), Ahmedabad-Gandhinagar will have 77.63 Km of active Metro Rail Network. The names of stations in the Phase 2(A) Corridor are- Ashram Road, Koteshwar Prachin Mandir, Sabarmati River, Sardar Nagar and Airport.\nThe total completion cost including IDC (Interest during Construction) for the project will be Rs.2,169.04 crore.\nBenefits and Bolstering Growth:\nThe Phase 2(A) of Ahmedabad Metro Rail Project represents a significant advancement in the city’s infrastructure development. Phase 2(A) acts as a major expansion of the Metro Rail Network in the city.\nEnhanced Connectivity:\nPhase 2(A) of the Ahmedabad Metro Project envisages the development of approximately 6.032 km of new metro corridor, aimed at substantially enhancing public transportation by providing seamless connectivity to the airport and linking key residential and commercial areas that presently lack efficient transit access.\nThis phase aims to seamlessly integrate key zones, including residential & Commercial hubs with existing Ahmedabad-Gandhinagar corridor. Further, likelihood of sports facilities also being developed in the vicinity for the World Police Games 2029 and Commonwealth Games 2030.\nBy bridging these vital areas with the metro network, Phase 2(A) will not only enhance connectivity but also stimulate economic activity, tourism, and ease urban mobility for both residents and visitors.\n• Reduction in Traffic Congestion : Metro Rail as an efficient alternate road transport and with Phase 2(A) as an extension of the Metro Rail network to the Airport, will be particularly impactful inside Ahmedabad. Reduction in road traffic can lead to smoother movement of vehicles, reduction in travel time, increasing overall road safety etc.\n• Environmental Benefits : With the addition of Phase 2(A) of Ahmedabad Metro Rail Project and increase in overall Metro Rail Network in Ahmedabad & Gandhinagar cities, can significantly reduce carbon emissions compared to traditional fossil fuel-based transport.\n• Economic Growth : Reduced travel times and improved access to different parts of the city such as Airport, Railway Stations and Bus Depots can enhance productivity by allowing individuals to reach their workplaces and destinations more efficiently. Also, the enhanced connectivity can stimulate local businesses, especially in areas near new metro stations which can also attract investment and development in previously less accessible regions.\n• Social Impact : The expansion of Phase 2(A) Metro Rail network in Ahmedabad will provide more equitable access to public transport, benefiting diverse socio-economic groups and reducing transport disparities which will contribute to a higher quality of life by reducing commute times and improving access to essenti",
+      "summary": "The Union Cabinet chaired by the Prime Minister Shri Narendra Modi has approved Phase 2(A) of Ahmedabad Metro Rail Project with corridor for a length of 6.032 Km with 05 stations (04 Elevated and 01 underground). On operationalisation of Phase 2(A), Ahmedabad-Gandhinagar will have 77.63 Km of active Metro Rail Network. The names of stations in the Phase 2(A) Corridor are- Ashram Road, Koteshwar Prachin Mandir, Sabarmati River, Sardar Nagar and Airport.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "1a8cad2bb903a799f85f59890f2bec6d",
+      "title": "Cabinet approves the construction of the General Pool Residential Accommodation (GPRA) at New Capital City, Amaravati, Andhra Pradesh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271055",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Cabinet Committee on Economic Affairs, chaired by the Prime Minister Shri Narendra Modi, today has approved the construction of the General Pool Residential Accommodation (GPRA) at New Capital City, Amaravati, Andhra Pradesh. This marks the first GPRA project in the capital city of Amaravati, as well as within the State of Andhra Pradesh.\nThe objective of the proposal is to alleviate the financial burden on Central Government employees by providing adequate residential accommodation, thereby enhancing their morale, promoting integrity, and contributing to their overall well-being. Further, by enabling staff to reside in close proximity to their workplaces, the project will support efficient government functioning and ensure that employees remain readily available to discharge their official duties effectively.\nThe General Pool Residential Accommodation (GPRA) Campus in the New Capital City of Amaravati, Andhra Pradesh, is planned over an area of 17 acres. The development comprises 11 residential towers with a total of 1,504 dwelling units, ranging from Type II to Type VI, including refuge areas. The project provides basement parking facilities accommodating 1,972 Equivalent Car Spaces (ECS). The total built-up area of the project is 31.30 lakh sqft. (2,90,762 sqm), including a basement area of 9.10 lakh sqft. (84,394 sqm).\nAcross the globe, there is a growing emphasis on adopting environmentally friendly and sustainable construction practices. In line with this objective, the proposed General Pool Residential Accommodation (GPRA) Campus in the New Capital City of Amaravati, Andhra Pradesh, envisages that all buildings will be planned and designed in strict compliance with the best green building standards prevailing in India, with a strong focus on minimizing environmental impact through sustainable site planning, enhanced energy efficiency, water conservation, usage of locally available materials, and improved occupant health and comfort.\nThe campus will be designed, constructed, and registered to achieve a minimum GRIHA 4-Star Rating, in compliance with the latest provisions of the Energy Conservation and Sustainable Building Code (ECSBC) 2024 and requirements of Eco-Niwas Samhita (ENS) 2024.\nThe General Pool Residential Accommodation (GPRA) Campus in the New Capital City of Amaravati, Andhra Pradesh, will be equipped with essential civic and community amenities, including a bank and ATM, post office, crèche, community hall with dining facilities, food court, shopping complex, service centre, and guest house. The campus will incorporate a barrier-free built environment to ensure accessibility and convenience for Divyangjan (Persons with Disabilities), in compliance with applicable accessibility standards.\nThe project is expected to generate significant direct and indirect employment opportunities for skilled, semi-skilled, and unskilled workers. It is estimated to create approximately 7.00 lakh man-days of employment per annum during the co",
+      "summary": "The Cabinet Committee on Economic Affairs, chaired by the Prime Minister Shri Narendra Modi, today has approved the construction of the General Pool Residential Accommodation (GPRA) at New Capital City, Amaravati, Andhra Pradesh. This marks the first GPRA project in the capital city of Amaravati, as well as within the State of Andhra Pradesh. The objective of the proposal is to alleviate the financial burden on Central Government employees by providing adequate residential accommodation, thereby enhancing their morale, promoting integrity, and contributing to their overall well-being.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "3c307fb690d7903ffcf4377e3a6efdde",
+      "title": "Cabinet approves construction of new Central Government General Pool Office Accommodation at the New Capital City, Amaravati, Andhra Pradesh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271054",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Cabinet Committee on Economic Affairs, chaired by the Prime Minister Shri Narendra Modi, today has approved the construction of the Central Government General Pool Office Accommodation (CGGPOA) at the New Capital City, Amaravati, Andhra Pradesh.\nThis project is a landmark initiative in the new Greenfield city of Amaravati, envisioned to evolve into a world-class urban centre. The objective of the proposal is to address the growing demand for office accommodation for various Central Government offices by housing them under one roof. This consolidation will enhance inter-departmental coordination and improve the efficiency and effectiveness of services delivered by the Central Government to the State of Andhra Pradesh.\nThe Central Government General Pool Office Accommodation (CGGPOA) at New Capital City, Amaravati, Andhra Pradesh, is planned over an area of 5.53 acres. The CGGPOA comprises two blocks: one block on Plot C-9 with Ground + 13 floors (Ground Floor for services, three floors for podium parking, and ten floors for office spaces), and another block on Plot C-8 with Ground + 10 floors (Ground Floor for services, three floors for podium parking, and seven floors for office spaces). The facility is designed to accommodate approximately 8,000 officials and staff members. Podium parking provision for about 1,800 Equivalent Car Spaces (ECS) is proposed. The total built-up area of the project is 23,25,000 sqft. (2,16,032 sqm.).\nAcross the globe, there is a growing emphasis on environmentally sustainable and resource-efficient construction practices. Reflecting this commitment, the proposed Central Government General Pool Office Accommodation (CGGPOA) at New Capital City, Amaravati, Andhra Pradesh, is being planned and designed in accordance with the highest green building standards prevalent in India. The project aims to minimize environmental impact through sustainable site planning, enhanced energy efficiency, water conservation, usage of locally available materials, and improved occupant health and comfort. The campus will be designed, constructed, and registered to achieve a minimum GRIHA 4-Star Rating and will comply with the latest provisions of the Energy Conservation and Sustainable Building Code (ECSBC) 2024.\nThe Central Government General Pool Office Accommodation (CGGPOA) at New Capital City, Amaravati, Andhra Pradesh, will be equipped with essential civic and community amenities, including a Bank with ATM, Post Office, Crèche, Recreation Room, Ladies’ Room, Conference Hall with a seating capacity of 100, Multipurpose Hall with a seating capacity of 500, and four canteens to cater to the needs of employees and visitors.\nThe campus will incorporate a barrier-free built environment to ensure accessibility, safety, and convenience for Divyangjan (Persons with Disabilities), in compliance with applicable accessibility norms and standards.\nThe project is expected to generate substantial direct and indirect employment opportunities for ",
+      "summary": "The Cabinet Committee on Economic Affairs, chaired by the Prime Minister Shri Narendra Modi, today has approved the construction of the Central Government General Pool Office Accommodation (CGGPOA) at the New Capital City, Amaravati, Andhra Pradesh. This project is a landmark initiative in the new Greenfield city of Amaravati, envisioned to evolve into a world-class urban centre. The objective of the proposal is to address the growing demand for office accommodation for various Central Government offices by housing them under one roof.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "4cce29e54be4f823621ecf2befefd8a0",
+      "title": "Cabinet passes a resolution applauding Prime Minister Shri Narendra Modi for becoming the longest serving elected Prime Minister for consecutive terms",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271052",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Union Cabinet today passed a resolution marking June 10, 2026, as an historic milestone in the journey of Indian democracy applauding Shri Narendra Modi for becoming the longest-serving elected Prime Minister of the country. By establishing a record of 4,399 days of continuous service as an elected PM, he has surpassed the previous record held by Shri Jawaharlal Nehru, who served for 4,398 continuous days from 1952 to 1964. The resolution states that this occasion stands as a symbol of India's democratic consciousness, public trust, and the power of public participation, reflecting the unprecedented support bestowed by the people upon a leader guided by the 'Nation First' resolve.\nExtending its heartfelt congratulations and best wishes to the Prime Minister, the resolution highlights that this achievement coincides with the NDA government completing 12 years under his leadership. It also notes that the Prime Minister is approaching the historic mark of 25 years of continuous service as Head of Government. Taking pride in a leadership characterized by sensitivity, restraint, intent, and decisiveness, the official text emphasizes that it is after six decades that the country has given a mandate to the NDA government for a third consecutive term.\nOutlining the Prime Minister's life as a symbol of continuous dedication to service and nation-building, the text recalls his 2014 declaration as the \"Pradhan Sevak\" committed to the mantra of 'Sabka Saath, Sabka Vikas'. Acknowledging that the welfare of the poor has been placed at the center of governance, the document details the unprecedented scale of amenities delivered,including pucca houses, electricity, clean water, and direct benefit transfers, alongside free rations for over 80 crore citizens and free medical treatment for over 60 crore poor individuals. The resolution records that these efforts collectively boosted national self-confidence and enabled over 25 crore people to defeat poverty.\nThe resolution further maps the empowerment of key demographics. It recognizes the focus on youth power that propelled India into becoming the world's third-largest startup ecosystem and a scientific power through Mission Chandrayaan. A new chapter of 'Women-Led Development' is detailed through comprehensive policies ranging from smoke-free kitchens and the Lakhpati Didi campaign to the historic 33 percent reservation for women in legislative bodies. Affirming farmers as a core pillar of a 'Viksit Bharat', the text applauds initiatives like PM Kisan Samman Nidhi and the provision of Kisan Credit Cards to pastoralists and fishermen, which have helped propel agricultural exports past the Rs 5 lakh crore mark.\nPraising the decisive 'Nation First' spirit in enacting decades-pending reforms, the resolution commends landmarks such as the abrogation of Article 370, implementation of GST and OROP, the CAA law, the Bharatiya Nyaya Sanhita, and the consolidation of labor codes. The document strongly emphasizes the el",
+      "summary": "The Union Cabinet today passed a resolution marking June 10, 2026, as an historic milestone in the journey of Indian democracy applauding Shri Narendra Modi for becoming the longest-serving elected Prime Minister of the country. By establishing a record of 4,399 days of continuous service as an elected PM, he has surpassed the previous record held by Shri Jawaharlal Nehru, who served for 4,398 continuous days from 1952 to 1964. The resolution states that this occasion stands as a symbol of India's democratic consciousness, public trust, and the power of public participation, reflecting the unprecedented support bestowed by the people upon a leader guided by the 'Nation First' resolve.",
+      "sentiment": "down",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "c67b6b881f0df24ba87bfe529444c59e",
+      "title": "Vice President Condoles the Demise of Veteran Filmmaker Bharathiraja",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271049",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "b3ec459c0db6016aba5e5b829abb9542",
+      "title": "NHRC, India takes suo motu cognizance of the reported death of four workers while cleaning a septic tank at a jewellery manufacturing unit in the Surat district, Gujarat",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271047",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "Reportedly, the victims entered the tank without following safety protocol The Commission issues notices to Gujarat Chief Secretary and Surat Police Commissioner, calling for a detailed report on the matter within two weeks The report is expected to include the status of the investigation and compensation, if any, paid to the next of kin of the deceased workers\nThe National Human Rights Commission (NHRC), India has taken suo motu cognizance of a media report that on 7th June 2026, four workers died while cleaning a septic tank at a jewellery manufacturing unit in Surat district of Gujarat. Reportedly, they entered the tank to clean it without following any safety protocol and became victims of toxic fumes. The workers were taken to the hospital by the rescue team, where doctors declared them dead.\nThe Commission has observed that the contents of the news report, if true, raise serious issues of violation of human rights. Therefore, it has issued notices to the Gujarat Chief Secretary and Surat Commissioner of Police, calling for a detailed report on the matter within two weeks. The report is expected to include the status of the investigation and compensation, if any, paid to the next of kin of the deceased workers.\nAccording to the media report, carried on 8th June 2026, the waste generated during the jewellery cleaning process is collected in the septic tank.",
+      "summary": "Reportedly, the victims entered the tank without following safety protocol The Commission issues notices to Gujarat Chief Secretary and Surat Police Commissioner, calling for a detailed report on the matter within two weeks The report is expected to include the status of the investigation and compensation, if any, paid to the next of kin of the deceased workers The National Human Rights Commission (NHRC), India has taken suo motu cognizance of a media report that on 7th June 2026, four workers died while cleaning a septic tank at a jewellery manufacturing unit in Surat district of Gujarat. Reportedly, they entered the tank to clean it without following any safety protocol and became victims of toxic fumes. The workers were taken to the hospital by the rescue team, where doctors declared them dead.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "df6328c1f2771cdd5986d94e11f7080a",
+      "title": "PM to Chair 11th Governing Council Meeting of NITI Aayog",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271043",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Theme: Inclusive Human Development for Viksit Bharat @2047\nPrime Minister Shri Narendra Modi will chair the 11th Governing Council Meeting of NITI Aayog on June 11, 2026, at Rashtrapati Bhavan Cultural Centre, New Delhi. In line with the Prime Minister's vision of 'Team India' for a Viksit Bharat, this year's theme, 'Inclusive Human Development for Viksit Bharat @2047', focuses on the well-being and development of every Indian, regardless of age, region, gender, or socio-economic background. The Governing Council Meeting will deliberate on the approach to realise this vision and translate it into concrete, measurable outcomes for every citizen across the country.\nThis Governing Council Meeting will bring together Chief Ministers and Lieutenant Governors to discuss the Inclusive Human Development Framework, anchored around four core pillars: (i) Foundational Human Capital and Future-Ready Skills; (ii) Productive Employment, Entrepreneurship and Decentralised Growth; (iii) Health, Nutrition and Wellbeing; and (iv) Equity and Dignity for All. Measures for promoting entrepreneurship, enhancing skilling, and creating sustainable employment opportunities across the country will also be deliberated upon in the meeting.\nThe discussions will further focus on collectively charting an Implementation Roadmap that leverages key enablers, including Governance, Digital Public Infrastructure (DPI), Convergence, Partnerships, and Data-driven Systems, alongside a structured mechanism to track short, medium, and long-term outcomes, ensuring accountability and measurable impact. A key thrust will be on aligning State Visions with the National Vision on Inclusive Human Development, reinforcing a unified and collaborative approach toward equitable and sustainable growth.\nThe Governing Council of NITI Aayog will also focus on the recommendations of the 5th National Conference of Chief Secretaries held during December 26 to 28, 2025. Recommendations were made during 5th National Conference of Chief Secretaries on the following five key themes: (i) Early Childhood Education: Laying the Foundation; (ii) Schooling: Building Blocks; (iii) Skilling: Future-Ready Workforce; (iv) Higher Education: Knowledge Economy; and (v) Sports & Extracurricular: Beyond Classrooms.\nThe 11th Governing Council Meeting will be attended by Chief Ministers of States and UTs, Lieutenant Governors/Administrators of Union Territories, Union Ministers as Ex-officio Members and Special Invitees, and the Vice Chairman, Members and the CEO of NITI Aayog.",
+      "summary": "Inclusive Human Development for Viksit Bharat @2047 Prime Minister Shri Narendra Modi will chair the 11th Governing Council Meeting of NITI Aayog on June 11, 2026, at Rashtrapati Bhavan Cultural Centre, New Delhi. In line with the Prime Minister's vision of 'Team India' for a Viksit Bharat, this year's theme, 'Inclusive Human Development for Viksit Bharat @2047', focuses on the well-being and development of every Indian, regardless of age, region, gender, or socio-economic background. The Governing Council Meeting will deliberate on the approach to realise this vision and translate it into concrete, measurable outcomes for every citizen across the country.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "cc4f40ecd9a7f3acbace7de9a9d3ccc9",
+      "title": "Vice-President Congratulates Prime Minister Shri Narendra Modi on Becoming Bharat’s Longest Continuously Serving Elected Prime Minister",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271019",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "2e1f1f5db31f1d47e8c7b968e8ced22c",
+      "title": "Anna Road Head Post Office to Conduct Unit Level Dak Adalat in June",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271120",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f411c3f8868d67cde22b7428f1031b89",
+      "title": "NSO to Conduct Regional Training Conference for NSS 81st Round for AIDIS and SAS",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271084",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The National Statistics Office (NSO), Ministry of Statistics and Programme Implementation, Government of India, Regional Office, Chennai is organizing a regional training conference for the NSS 81 st Round of its Socio-Economic Survey for All India Debt and Investment Survey and Land and Livestock holding of Households (AIDIS) and Situation Assessment of Rural Agricultural Household (SAS) at its Office Premises on 11 & 12 June, 2026.\nThe All-India Workshop of Trainers (AIWOT) All India Debt and Investment Survey and Land and Livestock holding of Households (AIDIS) was conducted by the Ministry of Statistics & Programme Implementation on 21 st & 22 nd May, 2026 in Jaipur. In continuation of the AIWOT, the Regional Training Conference (RTC) for AIDIS & SAS 2026 for the officers/officials of National Statistics Office, (Field Operations Division), Tamil Nadu (North) Region Chennai including Sub-Regional Offices located at Cuddalore, Vellore and Puducherry are scheduled to be held at Conference Hall No. 5, 'A' Wing, Shastri Bhawan, Nungambakkam, Chennai.\nDr. Chandrasekar K, Joint Director, NSO (FOD), Tamil Nadu (North) Region will welcome the gathering and Shri. Manohar R, Deputy Director General, NSO (FOD), Tamil Nadu (North) Region will inaugurate the RTC, 2026. The Technical Sessions will be conducted by Shri S Shankar Ganesh, Assistant Director, Shri A Karunaimurukan, Senior Statistical Officer, & Shri Ashish Sharma, Senior Statistical Officer, NSO (FOD), Tamil Nadu (North) Region.\nThe principal objective of All India Debt and Investment Survey and Land and Livestock holding of Households (AIDIS) intends to collect comprehensive quantitative information on the stock of assets, capital formation and indebtedness of Indian Households\nThe Situation Assessment of Rural Agricultural Households will be conducted in the rural areas of the country, with an objective of generating different indicators of ownership and operational holding of rural households, including their ownership of livestock and various estimates related to the situation of agricultural households.\nThe Situation Assessment of Rural Agricultural Households survey will collect detailed information on receipts and expenditure of the agricultural households' farm and non-farm businesses and receipts from all other economic activities pursued by their members to arrive at an estimate of average monthly income per agricultural household for the reference period (i.e., for the agricultural year July 2025 - June 2026)\nThe period of survey will be of one year duration staring from ft July, 2026 and will end on 30th June, 2027.\nThe General Public is requested to extend their fullest co-operation for NSS Surveys by providing relevant, valuable and factual information to the visiting field officials of NSO (FOD).",
+      "summary": "The National Statistics Office (NSO), Ministry of Statistics and Programme Implementation, Government of India, Regional Office, Chennai is organizing a regional training conference for the NSS 81 st Round of its Socio-Economic Survey for All India Debt and Investment Survey and Land and Livestock holding of Households (AIDIS) and Situation Assessment of Rural Agricultural Household (SAS) at its Office Premises on 11 & 12 June, 2026. The All-India Workshop of Trainers (AIWOT) All India Debt and Investment Survey and Land and Livestock holding of Households (AIDIS) was conducted by the Ministry of Statistics & Programme Implementation on 21 st & 22 nd May, 2026 in Jaipur. In continuation of the AIWOT, the Regional Training Conference (RTC) for AIDIS & SAS 2026 for the officers/officials of National Statistics Office, (Field Operations Division), Tamil Nadu (North) Region Chennai including Sub-Regional Offices located at Cuddalore, Vellore and Puducherry are scheduled to be held at Conference Hall No.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "CoDED": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "0f80b63c1fcbcd40e59c5a84ab9c06cb",
+      "title": "DPIIT Showcases 12 Years of Transformative Reforms; Startup Ecosystem Emerges as a Key Driver of India’s Growth Story",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271031",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Chandigarh",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 12,
+      "snippet": "",
+      "full_content": "’Startup-Led Growth Reflects the Success of 12 Years of Governance’: Shri Sumeet Kumar Jarangal\nAs part of the Government’s nationwide campaign commemorating 12 Years of Governance, the Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry, organised a Regional Press Briefing in Chandigarh to highlight the Department’s major initiatives, structural reforms and achievements over the past decade.\nAddressing the media, Shri Sumeet Kumar Jarangal, Joint Secretary, DPIIT, outlined the transformative journey of India’s industrial and startup ecosystem, emphasizing that policy reforms, innovation and entrepreneurship have emerged as key pillars of India’s economic resilience and global competitiveness.\nTwelve Years of Transformative Governance\nHighlighting the Department’s achievements, Shri Jarangal said India has successfully navigated multiple global disruptions while undertaking far-reaching structural reforms that have strengthened investor confidence and accelerated industrial growth.\nOver the last decade, India attracted cumulative Foreign Direct Investment (FDI) inflows of USD 843 billion between FY 2014-15 and FY 2025-26, representing a 169 per cent increase over the preceding twelve-year period. Even amid global economic uncertainties, the country recorded a historic USD 94.53 billion in FY 2025-26, with over 90 per cent of equity inflows coming through the automatic route.\nThe Joint Secretary highlighted that flagship initiatives such as Make in India and the Production Linked Incentive (PLI) Scheme have translated investments into manufacturing strength. Across 14 strategic sectors, the PLI schemes have attracted investments of Rs 2.40 lakh crore, generated production worth Rs 22.66 lakh crore, exports exceeding Rs 15.20 lakh crore, and created more than 14 lakh jobs.\nHe noted that India now manufactures 99.2 per cent of the mobile phones used domestically, while the pharmaceutical sector has significantly reduced import dependence through domestic production of 191 bulk drugs, with PLI-supported production contributing substantially to exports.\nTrust-Based Governance and Ease of Doing Busines\nThe briefing also highlighted the Government’s sustained efforts to simplify regulations and improve the ease of doing business. More than 47,000 compliances have been eliminated and numerous legal provisions rationalised through the Jan Vishwas Act, 2026, reflecting a shift from enforcement-based regulation to a trust-based governance framework.\nThe National Single Window System, integrated with 32 Central Ministries and 34 States and Union Territories, has processed over 13.7 lakh applications and facilitated more than 8.5 lakh approvals, creating a seamless investment ecosystem. Reforms are further being strengthened through initiatives such as the Business Reforms Action Plan (BRAP), Udyog Samagam and District-level BRAP.\nStartup India Driving Inclusive Growth\nFocusing on India’s startup revolution, Shri J",
+      "summary": "’Startup-Led Growth Reflects the Success of 12 Years of Governance’: Shri Sumeet Kumar Jarangal As part of the Government’s nationwide campaign commemorating 12 Years of Governance, the Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce & Industry, organised a Regional Press Briefing in Chandigarh to highlight the Department’s major initiatives, structural reforms and achievements over the past decade. Addressing the media, Shri Sumeet Kumar Jarangal, Joint Secretary, DPIIT, outlined the transformative journey of India’s industrial and startup ecosystem, emphasizing that policy reforms, innovation and entrepreneurship have emerged as key pillars of India’s economic resilience and global competitiveness. Twelve Years of Transformative Governance Highlighting the Department’s achievements, Shri Jarangal said India has successfully navigated multiple global disruptions while undertaking far-reaching structural reforms that have strengthened investor confidence and accelerated industrial growth.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "EoDB": 6,
+        "EooDB": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "44686f4b568dbb6bee47efdef6ac9b45",
+      "title": "12 Years of Transformative Growth: Falta SEZ Strengthens India's Export-led Development",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271151",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Kolkata",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 12,
+      "snippet": "",
+      "full_content": "Exports increase more than eight-fold, employment more than doubles and investments nearly triple between FY 2014-15 and FY 2025-26\nKolkata, June 10, 2026\nThe Falta Special Economic Zone (SEZ), functioning under the Department of Commerce, Ministry of Commerce & Industry, Government of India, has emerged as a significant contributor to India's export-led growth over the last 12 years. Addressing a press conference in Kolkata today (10/6/26), development commissioner, Falta SEZ, Shri Deen Bandhu Singh highlighted the SEZ’s achievements in these years. He informed that exports from the SEZ grew to Rs 85,093 crore in FY 2025-26, nearly eight times the FY 2014-15 level, while employment rose from 49,879 to 1,23,829, highlighting its contribution to growth, exports and jobs in eastern India.\nBetween FY 2014-15 and FY 2025-26, merchandise exports increased from Rs 2,592 crore to Rs 53,439 crore; service exports grew from Rs. 7,877 crore to Rs 31,654 crore; and investment, from Rs. 15,563 crore to Rs. 45,331 crore. This growth has been driven by sectors such as engineering, textiles, chemicals, leather, food processing, electronics, gems and jewellery, software and other manufacturing and service industries.\nNotably, an SEZ has been approved for semiconductor manufacturing in Odisha under the jurisdiction of the development commissioner of the Falta SEZ. It is expected to generate exports worth Rs 1,250 crore by 2030 and generate employment for over 250 persons over the next five years.\nFalta SEZ currently has 55 approved units, of which 42 are operational. The jurisdiction of the development commissioner, Falta SEZ, also covers several major manufacturing and IT/ITES SEZs across eastern India, contributing substantially to exports and economic activity. The sustained growth achieved over the last 12 years demonstrates the success of the government’s policies aimed at boosting exports, attracting investment, generating employment and strengthening India's position in global value chains.\nThe Falta SEZ’s jurisdiction covers West Bengal, Odisha, Jharkhand, Bihar, Sikkim and the North-Eastern States, with major activities concentrated in West Bengal, Odisha and Jharkhand. It was established in 1984 as an export processing zone and was later categorised as an SEZ.",
+      "summary": "Exports increase more than eight-fold, employment more than doubles and investments nearly triple between FY 2014-15 and FY 2025-26 Kolkata, June 10, 2026 The Falta Special Economic Zone (SEZ), functioning under the Department of Commerce, Ministry of Commerce & Industry, Government of India, has emerged as a significant contributor to India's export-led growth over the last 12 years. Addressing a press conference in Kolkata today (10/6/26), development commissioner, Falta SEZ, Shri Deen Bandhu Singh highlighted the SEZ’s achievements in these years. He informed that exports from the SEZ grew to Rs 85,093 crore in FY 2025-26, nearly eight times the FY 2014-15 level, while employment rose from 49,879 to 1,23,829, highlighting its contribution to growth, exports and jobs in eastern India.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "EoDB": 6,
+        "EooDB": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "006cfccaa366139fc17fee7c5e9889c3",
+      "title": "MoS, Coal and Mines initiates Revival of Kendadih Mines of Hindustan Copper Ltd.",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271154",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Kolkata",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c2c9de0fa90918c98d20f2bb2009ad26",
+      "title": "Union Minister for Science & Technology Dr. Jitendra Singh to launch 6th RISE Conclave in Bengaluru",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271051",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Bengaluru",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "d07ce7ba41b49ff5c6e416e638613e32",
+      "title": "Mobile Passport Seva Van to be Deployed at Chirayinkeezhu Post Office from June 16 to 18",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271127",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Thiruvananthapuram",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "76cccd9814cb2d7cddc0ea0c8a761360",
+      "title": "Indian Agricultural Exports: A Journey of Scale, Strength and Success",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271100",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Thiruvananthapuram",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "12 Years of Growth, Resilience and Global Reach Export Inspection Council has introduced new technology-based regulatory reforms aimed at strengthening export facilitation - Shri Ujjwal Kumar Ghosh, Joint Secretary, Department of Commerce\nKochi, June 10, 2026 : India’s remarkable rise in agricultural exports from USD 32.08 billion in FY 2014-15 to a record USD 52.55 billion in FY 2025-26 reflects the significant transf ormation and sustained progress achieved by the country over the past decade. This milestone was highlighted by the Department of Commerce, Ministry of Commerce and Industry, during an interactive session with stakeholders from the Southern Region, attended by officials from the Department of Commerce, the Export Inspection Council (EIC), representatives of Export Promotion Councils, and members of the agricultural exporting community.\nShri Ujjwal Kumar Ghosh, IAS, Joint Secretary, Department of Commerce, Ministry of Commerce and Industry, Government of India, highlighted that India’s agricultural exports continued their upward trajectory in FY 2025-26, increasing by 2.8 per cent from USD 51.12 billion in FY 2024-25 to USD 52.55 billion. He noted that the growth was driven by in high-value agricultural products, marine exports, and processed food products, reflecting the increasing global competitiveness and diversification of India’s agricultural export basket.\nHe stated that rice remained India’s largest agricultural export commodity, with exports valued at USD 11.5 billion during FY 2025-26. Marine product exports registered robust growth of 13.4 per cent, rising from USD 7.4 billion in FY 2024-25 to USD 8.4 billion in FY 2025-26, while spice exports maintained a strong performance with export at USD 4.3 billion.\nHe emphasized that these achievements underscore the resilience of India’s agricultural sector and the success of ongoing efforts to enhance product quality, strengthen export infrastructure, improve market access, and promote value-added agricultural products. Despite global economic uncertainties, changing trade dynamics, and evolving quality standards, India’s agricultural exporters have demonstrated remarkable adaptability, further reinforcing the country’s position as a reliable supplier of agricultural products in global markets.\nShri Ghosh also highlighted that the concluded Free Trade Agreement (FTA) with the United Kingdom, European Union, New Zealand, Oman, Australia, the UAE and the EFTA countries are creating significant opportunities for the expansion and diversification of India's agricultural exports. Improved market access under these agreements is expected to create new opportunities for marine products, particularly shrimp and value-added seafood; Basmati and premium non-Basmati rice; spices, nutraceutical ingredients and traditional food products; tea, especially orthodox and specialty varieties; as well as fruits, vegetables, millet-based products, meat, organic products and processed foods.\nShri Gho",
+      "summary": "12 Years of Growth, Resilience and Global Reach Export Inspection Council has introduced new technology-based regulatory reforms aimed at strengthening export facilitation - Shri Ujjwal Kumar Ghosh, Joint Secretary, Department of Commerce Kochi, June 10, 2026 : India’s remarkable rise in agricultural exports from USD 32.08 billion in FY 2014-15 to a record USD 52.55 billion in FY 2025-26 reflects the significant transf ormation and sustained progress achieved by the country over the past decade. This milestone was highlighted by the Department of Commerce, Ministry of Commerce and Industry, during an interactive session with stakeholders from the Southern Region, attended by officials from the Department of Commerce, the Export Inspection Council (EIC), representatives of Export Promotion Councils, and members of the agricultural exporting community. Shri Ujjwal Kumar Ghosh, IAS, Joint Secretary, Department of Commerce, Ministry of Commerce and Industry, Government of India, highlighted that India’s agricultural exports continued their upward trajectory in FY 2025-26, increasing by 2.8 per cent from USD 51.12 billion in FY 2024-25 to USD 52.55 billion.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "32b18c741949df117eb08345e28840cc",
+      "title": "ICAR-NRCO, Pakyong Organizes “Khet Bachao Abhiyan” and NEH Sapling Distribution Programme in Linkey Village",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271131",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Gangtok",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "306d1f3caf463b48498a4ab2a83a08a1",
+      "title": "Viksit Vibrant Villages Program at Village- Chulling",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271109",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Today",
+      "region": "Shimla",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "45d076420fed6f31f391e98576a9a58e",
@@ -1570,6 +2160,24 @@
       "section": "other"
     },
     {
+      "id": "9016fd73095a5188256693d7798a9375",
+      "title": "Viksit Bharat – Vibrant Village Programme 2026 in Himachal Pradesh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271101",
+      "date": "2026-06-09",
+      "scraped_date": "2026-06-10",
+      "relative_time": "Yesterday",
+      "region": "Shimla",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
       "id": "90ab33f54550a8eb056c47cc1486d405",
       "title": "Prime Minister shares a Sanskrit Subhashitam highlighting the welfare of all living beings and harmony with nature",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2270126",
@@ -2872,17 +3480,17 @@
       "section": "other"
     }
   ],
-  "other_count": 103,
+  "other_count": 119,
   "vertical_counts": {
-    "EoDB": 20,
-    "EooDB": 20,
-    "CoDED": 4,
+    "EoDB": 25,
+    "EooDB": 25,
+    "CoDED": 5,
     "iLEAP": 5,
-    "ELS": 4,
+    "ELS": 5,
     "Sustainability": 9,
-    "Political_Economy": 5
+    "Political_Economy": 13
   },
-  "regions_scraped": 21,
+  "regions_scraped": 22,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
