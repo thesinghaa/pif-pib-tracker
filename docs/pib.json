@@ -1,8 +1,48 @@
 {
-  "last_updated": "2026-06-11T00:25:12Z",
-  "last_updated_ist": "11 Jun 2026, 05:55 AM IST",
-  "total": 156,
+  "last_updated": "2026-06-11T05:34:34Z",
+  "last_updated_ist": "11 Jun 2026, 11:04 AM IST",
+  "total": 159,
   "articles": [
+    {
+      "id": "3a4c153d94138bf362d58c8c934c779d",
+      "title": "MoS Shobha Karandlaje Addresses Plenary Session at 114th International Labour Conference in Geneva; Highlights India’s Labour Reforms, Social Protection and Digital Public Infrastructure",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271464",
+      "date": "2026-06-11",
+      "scraped_date": "2026-06-11",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Union Minister of State for Labour and Employment, and Micro, Small & Medium Enterprises, Government of India, Ms. Shobha Karandlaje, led the Indian delegation at the 114th International Labour Conference (ILC) in Geneva, Switzerland.\nAddressing the Plenary Session of the 114th International Labour Conference, the Union Minister congratulated the International Labour Organization on convening of the Conference and appreciated its continued leadership in promoting social justice and decent work amidst rapidly evolving global transformations.\nHonoured to deliver India’s Plenary Statement at the 114th International Labour Conference in Geneva. The statement highlighted India’s transformative labour reforms under the leadership of Honorable PM Shri Narendra Modi Ji, including the consolidation of 29 labour laws into 4… pic.twitter.com/KQDP4649Oi\nSushri Shobha Karandlaje highlighted that India has undertaken wide-ranging labour reforms guided by the principle of “Antyodaya” through consolidation of 29 Central Labour Laws into four Labour Codes to simplify compliance, strengthen workers’ welfare and create a modern and transparent labour ecosystem.\nShe further mentioned that Youth Employability has increased from 34% in 2014 to over 56% in 2025. Between 2017 and 2025, unemployment rate fell from 6% to 3.1%, and women’s workforce participation surged from 22% to 38.8%.\nThe Union Minister also laid emphasis on India’s progress in developing Digital Public Infrastructure in the labour and employment sector through the National Career Service Portal and the e-Shram Portal. The importance of international cooperation on skills and occupations and India’s ongoing feasibility study with the ILO on developing an international reference classification of occupations, was also highlighted.\nShe further enunciated the significant expansion of India’s social protection coverage, which as per preliminary estimates of ILO has reached around 1001 million. India’s increasing female labour force participation and the launch of the Pradhan Mantri Viksit Bharat Rozgar Yojana to promote employment generation were also elucidated.\nOn the sidelines of the 114th International Labour Conference in Geneva, Sushri Shobha Karandlaje held bilateral meeting with Amb. Christine Nkulikiyinka, Minister of Public Service & Labour of Rwanda.\nThe discussions focused on strengthening bilateral cooperation in employment services, skilling, workforce planning and digital governance. India highlighted the success of the National Career Service Portal and the e-Shram Portal as scalable Digital Public Goods and extended technical assistance and capacity-building support for developing digital platforms for employment services, worker registration, jobs and skill matching. Rwanda highlighted India’s impressive Digital Public Infrastructure & sought support on skills development and the journey from labour informalisation to formalisation .\nShe also held a bilateral meeting with Mr. Anil Jayanth",
+      "summary": "Union Minister of State for Labour and Employment, and Micro, Small & Medium Enterprises, Government of India, Ms. Shobha Karandlaje, led the Indian delegation at the 114th International Labour Conference (ILC) in Geneva, Switzerland. Addressing the Plenary Session of the 114th International Labour Conference, the Union Minister congratulated the International Labour Organization on convening of the Conference and appreciated its continued leadership in promoting social justice and decent work amidst rapidly evolving global transformations.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "ELS": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "1dfeeabeec9181e51d1e7a56d40fc78b",
+      "title": "Prime Minister shares a Sanskrit Subhashitam highlighting agriculture and crops as the foundation of human life",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271461",
+      "date": "2026-06-11",
+      "scraped_date": "2026-06-11",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "8e69b617f1eb4120b8cd3009a6e169d0",
       "title": "Prime Minister shares a Sanskrit Subhashitam highlighting public service as the biggest test of good governance and earning public trust",
@@ -1624,6 +1664,24 @@
       "section": "other"
     },
     {
+      "id": "416c45d18002ca9e006806197af86210",
+      "title": "Prime Minister extends his gratitude to world leaders and citizens for their warm wishes",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2271446",
+      "date": "2026-06-10",
+      "scraped_date": "2026-06-11",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
       "id": "45d076420fed6f31f391e98576a9a58e",
       "title": "National Workshop on Seafood Exports Focuses on Value Addition, Sustainability and Market Access",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2270579",
@@ -3104,13 +3162,13 @@
       "section": "other"
     }
   ],
-  "other_count": 97,
+  "other_count": 99,
   "vertical_counts": {
     "EoDB": 26,
     "EooDB": 26,
     "CoDED": 5,
     "iLEAP": 4,
-    "ELS": 3,
+    "ELS": 4,
     "Sustainability": 5,
     "Political_Economy": 18
   },
