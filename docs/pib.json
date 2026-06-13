@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-13T15:43:47Z",
-  "last_updated_ist": "13 Jun 2026, 09:13 PM IST",
-  "total": 175,
+  "last_updated": "2026-06-13T17:25:37Z",
+  "last_updated_ist": "13 Jun 2026, 10:55 PM IST",
+  "total": 176,
   "articles": [
     {
       "id": "7b6968e2214ae69d4c86c54342ee523d",
@@ -660,6 +660,24 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c9593c920ccfd1e0467fe1fe826c2256",
+      "title": "Historic Milestone: First batch of women cadets trained at NDA commissioned into Defence Forces",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2272587",
+      "date": "2026-06-13",
+      "scraped_date": "2026-06-13",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "vertical_scores": {},
       "section": "other"
     },
@@ -3348,7 +3366,7 @@
       "section": "other"
     }
   ],
-  "other_count": 134,
+  "other_count": 135,
   "vertical_counts": {
     "EoDB": 11,
     "EooDB": 11,
