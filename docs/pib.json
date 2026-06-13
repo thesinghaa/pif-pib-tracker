@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-13T10:05:14Z",
-  "last_updated_ist": "13 Jun 2026, 03:35 PM IST",
-  "total": 154,
+  "last_updated": "2026-06-13T12:01:34Z",
+  "last_updated_ist": "13 Jun 2026, 05:31 PM IST",
+  "total": 158,
   "articles": [
     {
       "id": "7b6968e2214ae69d4c86c54342ee523d",
@@ -256,6 +256,82 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "b29451b83460c538dc10e277fc2fb03d",
+      "title": "INDIAN NAVAL SHIP TARKASH ARRIVES AT PORT VICTORIA, SEYCHELLES",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2272484",
+      "date": "2026-06-13",
+      "scraped_date": "2026-06-13",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "82d856edf19c4282b8c67bffe70dcd5e",
+      "title": "Massive Development Works Undertaken in Nagpur Over the Last 12 Years; Commitment to Develop a ‘Green Nagpur’ Through Plantation of 2.5 Million Trees: Union Minister Shri Nitin Gadkari",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2272461",
+      "date": "2026-06-13",
+      "scraped_date": "2026-06-13",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c2648522d1512b7ddc80fb104d4f9974",
+      "title": "Maharashtra secures Two Gold Awards at National Awards for e-Governance 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2272480",
+      "date": "2026-06-13",
+      "scraped_date": "2026-06-13",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Kadepur Gram Panchayat, Sangli and Zilla Parishad Nandurbar recognised for Excellence in Digital Governance and Citizen Service Delivery\n: Mumbai, 13 June 2026\nMaharashtra has earned national recognition at the National Awards for e-Governance (NAeG) 2026, with two Panchayati Raj-related initiatives securing Gold Awards for their outstanding contributions to digital governance and citizen-centric service delivery.\nKadepur Gram Panchayat of Kadegaon Taluka in Sangli district has been conferred the Gold Award under the category \"Grassroots Level Initiatives by Gram Panchayats for Deepening/Widening of Service Delivery\" .\nThe Gram Panchayat has established a comprehensive end-to-end digital governance ecosystem, emerging as a model for technology-driven rural administration. It became the first Gram Panchayat in the country to implement a fully paperless e-Office system, delivering more than 1,355 online services to 4,321 beneficiaries. The adoption of integrated digital payment systems has contributed to a 21 per cent increase in revenue collection.\nLeveraging emerging technologies, the Gram Panchayat has deployed eight Artificial Intelligence-based applications, including tools for meeting summarisation, scheme eligibility identification, Government Resolution extraction, smart noting preparation, data analysis and RTI response generation, significantly enhancing administrative efficiency and service delivery at the village level. Blockchain-enabled record management has ensured secure and tamper-proof maintenance of digital records, while GIS-based geo-tagging of 309 newly identified houses has led to an increase of approximately ₹7.5 lakh in house tax revenue.\nThe Gram Panchayat has also achieved 100 per cent timely resolution of 1,736 citizen grievances through the Meri Panchayat App. All 60 Gram Sabha meetings were scheduled through the Nirnay App, resulting in the highest level of digital participation and utilisation recorded in the country. Notably, it is the only Gram Panchayat in India with formally approved policies on e-Governance, Artificial Intelligence, Blockchain, Nanotechnology, Biotechnology and Robotics, demonstrating a structured and future-ready approach to technology adoption and grassroots governance.\nIn another significant achievement for the State, the Health Department of Zilla Parishad Nandurbar has received the Gold Award under the category \"District Level Initiatives in e-Governance\" for its innovative initiative, e-Aarogya Dhamni – Transforming Healthcare through e-Governance.\nThe initiative has leveraged modern digital tools to provide timely and quality healthcare services to citizens residing in tribal and remote areas of Nandurbar district. By enhancing accessibility and responsiveness in public healthcare delivery, the programme has brought governance and essential health services closer to underserved communities.\nThe awards will be presented during the 29th National Conference on e-Governance to be held in Jaipu",
+      "summary": "Mumbai, 13 June 2026 Maharashtra has earned national recognition at the National Awards for e-Governance (NAeG) 2026, with two Panchayati Raj-related initiatives securing Gold Awards for their outstanding contributions to digital governance and citizen-centric service delivery. Kadepur Gram Panchayat of Kadegaon Taluka in Sangli district has been conferred the Gold Award under the category \"Grassroots Level Initiatives by Gram Panchayats for Deepening/Widening of Service Delivery\" . The Gram Panchayat has established a comprehensive end-to-end digital governance ecosystem, emerging as a model for technology-driven rural administration.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "eacb77b9be323bd592f6e2a0cdaa3dd1",
+      "title": "India has carved a distinct identity on the global stage under the leadership of PM Shri Narendra Modi: Shri Hardeep Singh Puri",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2272489",
+      "date": "2026-06-13",
+      "scraped_date": "2026-06-13",
+      "relative_time": "Today",
+      "region": "Chandigarh",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
     },
@@ -2944,7 +3020,7 @@
       "section": "other"
     }
   ],
-  "other_count": 118,
+  "other_count": 121,
   "vertical_counts": {
     "EoDB": 10,
     "EooDB": 10,
@@ -2952,7 +3028,7 @@
     "iLEAP": 3,
     "ELS": 9,
     "Sustainability": 6,
-    "Political_Economy": 6
+    "Political_Economy": 7
   },
   "regions_scraped": 19,
   "verticals": {
