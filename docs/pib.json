@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-14T08:25:27Z",
-  "last_updated_ist": "14 Jun 2026, 01:55 PM IST",
-  "total": 118,
+  "last_updated": "2026-06-14T11:39:07Z",
+  "last_updated_ist": "14 Jun 2026, 05:09 PM IST",
+  "total": 122,
   "articles": [
     {
       "id": "5156f3dc19f036082379a92ebd2edc5e",
@@ -122,6 +122,84 @@
       "sentiment": "neutral",
       "vertical_scores": {
         "CoDED": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "821c45df8c4dba4f6075f2dec99f6dd1",
+      "title": "NFDC announces selected projects under 'WAVES Doc Bazaar Recommends' to be showcased at the WAVES Doc Bazaar 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2272654",
+      "date": "2026-06-14",
+      "scraped_date": "2026-06-14",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "1d24132fa758d38e866dab93c08d2226",
+      "title": "Highways Transformation: Powering India's Journey Towards Viksit Bharat",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2272639",
+      "date": "2026-06-14",
+      "scraped_date": "2026-06-14",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "1f6d24d41bcb6144dbbf01746bc95ad3",
+      "title": "INS SHARDA CONCLUDES SUCCESSFUL VISIT TO COLOMBO, SRI LANKA",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2272649",
+      "date": "2026-06-14",
+      "scraped_date": "2026-06-14",
+      "relative_time": "Today",
+      "region": "Kolkata",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "4c9a9f14aac4294aadf6dbce84e5fabd",
+      "title": "India's Space Economy Poised to Reach USD 45 Billion in Next Decade; over 400 Space StartUps driving the next phase of growth: Dr Jitendra Singh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2272658",
+      "date": "2026-06-14",
+      "scraped_date": "2026-06-14",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "One of the significant achievements of recent years has been the growing connect between science and society, with citizens increasingly seeing themselves as stakeholders in India’s scientific progress, says the Minister India Leveraging Space Technology to Transform Governance and Infrastructure Development: Dr Jitendra Singh While missions such as Chandrayaan-3 have established India among the world’s leading space-faring nations, initiatives such as PM Gati Shakti, Amrut urban development programmes etc demonstrate how India is using space technology in planning, implementing and monitoring infrastructure projects: Dr Jitendra Singh India’s Innovation Ecosystem Driving the Journey Towards Viksit Bharat 2047: Dr Jitendra Singh Science, Startups and Space Technology Emerging as Pillars of India’s Future Growth: Dr Jitendra Singh\nUnion Minister of State (Independent Charge) for Science & Technology and Earth Sciences, and Minister of State in the Prime Minister’s Office, Department of Atomic Energy, Department of Space, Personnel, Public Grievances and Pensions, Dr Jitendra Singh, said India’s space economy is poised to grow from the current USD 8-9 billion to nearly USD 40-45 billion over the next decade, driven by policy reforms, growing private participation and a rapidly expanding innovation ecosystem.\nAddressing a press conference here, Dr Jitendra Singh said the transformation of India’s space sector reflects a larger change taking place across the country, where science and technology have moved beyond laboratories to become part of the national consciousness. He said one of the most significant achievements of recent years has been the growing connect between science and society, with citizens increasingly seeing themselves as stakeholders in India’s scientific progress.\n“The biggest achievement is that the common citizen today feels connected to India’s scientific progress and sees a stake in it,” Dr Jitendra Singh said.\nThe Minister said the growing prominence of science and technology in public discourse reflects the vision of Prime Minister Narendra Modi, who has consistently brought science-driven initiatives into the national mainstream through his Independence Day addresses. He said programmes such as Swachh Bharat, Digital India, Digital Health, Deep Ocean Mission and Gaganyaan have helped position science and innovation at the centre of India’s development journey.\nAccording to Dr Jitendra Singh, the increasing presence of mainstream media at science and technology events itself reflects the growing public interest in scientific developments. He said missions such as Chandrayaan-3 have transformed space science into a subject of widespread public interest, creating unprecedented awareness and engagement among citizens across the country.\nThe Minister said India’s growing capabilities in frontier sectors such as space, atomic energy and advanced technologies have strengthened the country’s global standing. He said the confidence g",
+      "summary": "One of the significant achievements of recent years has been the growing connect between science and society, with citizens increasingly seeing themselves as stakeholders in India’s scientific progress, says the Minister India Leveraging Space Technology to Transform Governance and Infrastructure Development: Dr Jitendra Singh While missions such as Chandrayaan-3 have established India among the world’s leading space-faring nations, initiatives such as PM Gati Shakti, Amrut urban development programmes etc demonstrate how India is using space technology in planning, implementing and monitoring infrastructure projects: Dr Jitendra Singh India’s Innovation Ecosystem Driving the Journey Towards Viksit Bharat 2047: Dr Jitendra Singh Science, Startups and Space Technology Emerging as Pillars of India’s Future Growth: Dr Jitendra Singh Union Minister of State (Independent Charge) for Science & Technology and Earth Sciences, and Minister of State in the Prime Minister’s Office, Department of Atomic Energy, Department of Space, Personnel, Public Grievances and Pensions, Dr Jitendra Singh, said India’s space economy is poised to grow from the current USD 8-9 billion to nearly USD 40-45 billion over the next decade, driven by policy reforms, growing private participation and a rapidly expanding innovation ecosystem. Addressing a press conference here, Dr Jitendra Singh said the transformation of India’s space sector reflects a larger change taking place across the country, where science and technology have moved beyond laboratories to become part of the national consciousness. He said one of the most significant achievements of recent years has been the growing connect between science and society, with citizens increasingly seeing themselves as stakeholders in India’s scientific progress.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
       },
       "section": "vertical"
     },
@@ -2252,10 +2330,10 @@
       "section": "other"
     }
   ],
-  "other_count": 92,
+  "other_count": 95,
   "vertical_counts": {
-    "EoDB": 7,
-    "EooDB": 7,
+    "EoDB": 8,
+    "EooDB": 8,
     "CoDED": 5,
     "iLEAP": 4,
     "ELS": 3,
