@@ -1,28 +1,9 @@
 {
-  "last_updated": "2026-06-18T17:04:43Z",
-  "last_updated_ist": "18 Jun 2026, 10:34 PM IST",
-  "total": 1,
-  "articles": [
-    {
-      "id": "df502180eac0b4ec49415c78b9b4ac85",
-      "title": "NHAI’s Rs. 905 Cr Thoppur Ghat Realignment Project on NH 44 Progresses Rapidly; 41% Work Completed",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2273324",
-      "date": "2026-06-16",
-      "scraped_date": "2026-06-16",
-      "relative_time": "16 Jun",
-      "region": "Chennai",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "summary": "",
-      "sentiment": "neutral",
-      "vertical_scores": {},
-      "section": "other"
-    }
-  ],
-  "other_count": 1,
+  "last_updated": "2026-06-18T19:28:40Z",
+  "last_updated_ist": "19 Jun 2026, 12:58 AM IST",
+  "total": 0,
+  "articles": [],
+  "other_count": 0,
   "vertical_counts": {
     "EoDB": 0,
     "EooDB": 0,
@@ -32,7 +13,7 @@
     "Sustainability": 0,
     "Political_Economy": 0
   },
-  "regions_scraped": 1,
+  "regions_scraped": 0,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
