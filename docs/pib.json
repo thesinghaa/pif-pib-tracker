@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-19T19:39:40Z",
-  "last_updated_ist": "20 Jun 2026, 01:09 AM IST",
-  "total": 144,
+  "last_updated": "2026-06-19T21:15:43Z",
+  "last_updated_ist": "20 Jun 2026, 02:45 AM IST",
+  "total": 145,
   "articles": [
     {
       "id": "602ac26daacb51e8b89586151d5c40fc",
@@ -1960,6 +1960,28 @@
       "section": "other"
     },
     {
+      "id": "08bc9937da5b7f2b5227eddd3724522f",
+      "title": "Pradhan Mantri Viksit Bharat Rozgar Yojana Programme Telecasted at ESIC Kolkata",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2275546",
+      "date": "2026-06-19",
+      "scraped_date": "2026-06-20",
+      "relative_time": "Yesterday",
+      "region": "Kolkata",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "Appointment Letters handed over to New Recruits\nKolkata, June 19, 2026\nA live telecast of the Pradhan Mantri Viksit Bharat Rozgar Yojana (PMVBRY) incentive disbursement programme was organised at the Employees' State Insurance Corporation (ESIC) Auditorium, Kolkata, today, in presence of Shri Arjun Singh, Minister of Labour & Transport, Government of West Bengal.\nThe programme brought together representatives from industry, employers, employees and beneficiaries to witness the nationwide initiative aimed at promoting employment generation and expanding social security coverage.\nDuring the event, Prime Minister Shri Narendra Modi disbursed incentives worth around ₹2,400 crore under PMVBRY. The scheme has supported the creation of nearly 15 lakh employment opportunities across the country and has emerged as a key employment-linked initiative of the Government of India.\nAddressing the beneficiaries and stakeholders through live telecast, the Prime Minister said, the PMVBRY is not merely an employment scheme, but an initiative that strengthens the aspirations of the first-time employees while creating a strong bridge between industry and dedicated workforce. He pointed out that the programme supports both job-seekers and employers, encouraging employment generation while extending social security coverages to young workers.\nAs a part of the Kolkata programme, leading employers handed over the appointment letters to the newly recruited candidates, symbolising the translation of the scheme's objectives into tangible employment opportunities for the youths.\nThe event underscored the importance of collaboration among the Government, industry and young job-seekers in advancing employment generation and contributing to the vision of Viksit Bharat.\n*****************",
+      "summary": "Appointment Letters handed over to New Recruits Kolkata, June 19, 2026 A live telecast of the Pradhan Mantri Viksit Bharat Rozgar Yojana (PMVBRY) incentive disbursement programme was organised at the Employees' State Insurance Corporation (ESIC) Auditorium, Kolkata, today, in presence of Shri Arjun Singh, Minister of Labour & Transport, Government of West Bengal. The programme brought together representatives from industry, employers, employees and beneficiaries to witness the nationwide initiative aimed at promoting employment generation and expanding social security coverage. During the event, Prime Minister Shri Narendra Modi disbursed incentives worth around ₹2,400 crore under PMVBRY.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "ELS": 6
+      },
+      "section": "vertical"
+    },
+    {
       "id": "4bddacee9d0b7f2b86cfe8f0a5b480d9",
       "title": "Prime Minister participates in Vivatech 2026",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2274838",
@@ -2730,11 +2752,11 @@
     "EooDB": 11,
     "CoDED": 0,
     "iLEAP": 1,
-    "ELS": 9,
+    "ELS": 10,
     "Sustainability": 5,
     "Political_Economy": 1
   },
-  "regions_scraped": 23,
+  "regions_scraped": 24,
   "verticals": {
     "EoDB": {
       "label": "Ease of Doing Business & Export-Led Manufacturing",
