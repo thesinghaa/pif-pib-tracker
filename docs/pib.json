@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-22T13:00:22Z",
-  "last_updated_ist": "22 Jun 2026, 06:30 PM IST",
-  "total": 230,
+  "last_updated": "2026-06-22T17:40:01Z",
+  "last_updated_ist": "22 Jun 2026, 11:10 PM IST",
+  "total": 250,
   "articles": [
     {
       "id": "b5bceb3a3dbe71f6ae14a4a9531ee654",
@@ -864,6 +864,406 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "45d3d288dfe316c929a7c787177de977",
+      "title": "Prime Minister shares highlights of his address at Republic Summit 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276888",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "The Prime Minister, Shri Narendra Modi has shared highlights of his address at Republic Summit 2026 held in New Delhi.\nIn a series of X posts, Shri Modi said;\n“जिन नक्सल प्रभावित इलाकों में जाने से दिन में भी लोग डरते थे, वहां हम नेशन फर्स्ट की स्पिरिट के साथ विकास का संकल्प लेकर आगे बढ़े हैं। इसी का परिणाम है कि आज देश में माओवादी आतंक अंतिम सांसें गिन रहा है।\n#RepublicSummit2026”\nजिन नक्सल प्रभावित इलाकों में जाने से दिन में भी लोग डरते थे, वहां हम नेशन फर्स्ट की स्पिरिट के साथ विकास का संकल्प लेकर आगे बढ़े हैं। इसी का परिणाम है कि आज देश में माओवादी आतंक अंतिम सांसें गिन रहा है। #RepublicSummit2026 pic.twitter.com/GVWCkscfuj\n“सेवा के बीते 12 वर्षों की हमारी एक और बड़ी सिद्धि रही है- निराशा से निकलकर आशा और आकांक्षा से भरे भारत का निर्माण!\n#RepublicSummit2026”\nसेवा के बीते 12 वर्षों की हमारी एक और बड़ी सिद्धि रही है- निराशा से निकलकर आशा और आकांक्षा से भरे भारत का निर्माण! #RepublicSummit2026 pic.twitter.com/slfDHBb27i\n“मिडिल क्लास हमेशा हमारी बड़ी प्राथमिकता रहा है। इसकी Ease of Living के लिए सरकार ने हर स्तर पर काम किया है।\n#RepublicSummit2026”\nमिडिल क्लास हमेशा हमारी बड़ी प्राथमिकता रहा है। इसकी Ease of Living के लिए सरकार ने हर स्तर पर काम किया है। #RepublicSummit2026 pic.twitter.com/A1jxNyVs1f\n“भारत के विकास के इस अहम कालखंड में कुतर्क करने वालों से इसलिए सतर्क रहना बहुत जरूरी है…\n#RepublicSummit2026”\nभारत के विकास के इस अहम कालखंड में कुतर्क करने वालों से इसलिए सतर्क रहना बहुत जरूरी है… #RepublicSummit2026 pic.twitter.com/XvqvsH5NZp",
+      "summary": "The Prime Minister, Shri Narendra Modi has shared highlights of his address at Republic Summit 2026 held in New Delhi. In a series of X posts, Shri Modi said; “जिन नक्सल प्रभावित इलाकों में जाने से दिन में भी लोग डरते थे, वहां हम नेशन फर्स्ट की स्पिरिट के साथ विकास का संकल्प लेकर आगे बढ़े हैं। इसी का परिणाम है कि आज देश में माओवादी आतंक अंतिम सांसें गिन रहा है। #RepublicSummit2026” जिन नक्सल प्रभावित इलाकों में जाने से दिन में भी लोग डरते थे, वहां हम नेशन फर्स्ट की स्पिरिट के साथ विकास का संकल्प लेकर आगे बढ़े हैं। इसी का परिणाम है कि आज देश में माओवादी आतंक अंतिम सांसें गिन रहा है। #RepublicSummit2026 pic.twitter.com/GVWCkscfuj “सेवा के बीते 12 वर्षों की हमारी एक और बड़ी सिद्धि रही है- निराशा से निकलकर आशा और आकांक्षा से भरे भारत का निर्माण! #RepublicSummit2026” सेवा के बीते 12 वर्षों की हमारी एक और बड़ी सिद्धि रही है- निराशा से निकलकर आशा और आकांक्षा से भरे भारत का निर्माण!",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "b05edc8a21e7304d7aadb670e913c348",
+      "title": "English rendering of PM’s address at Republic Summit 2026 in New Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276878",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Swar Sadhana, Manokamana, Aradhana - after such an auspicious beginning, it would have been wonderful if your program had continued. Greetings to all of you.\nI extend my regards to all viewers of Republic TV Network, which now broadcasts in many languages. I also welcome all companions who have come to participate in this summit. In 24-hour news channels, breaking news holds great importance. And nowadays, if you look anywhere in the world, the entire world seems to be in breaking news mode. Amidst such hustle and bustle, you are hosting and participating in this summit, and therefore you deserve special congratulations. This time, your theme of discussion is equally significant: Great Power India: Nation First.\nOur scriptures say: Yato Dharmastato Jayah! - meaning, the root of victory and strength is Dharma. And Dharma means duty, Dharma means justice, Dharma means equality, Dharma means dialogue, Dharma means compassion. This very essence is embedded in the spirit of Nation First. India views its power through this lens, weighing it on this scale.\nIndia has another unique quality, which the world has now acknowledged. We are not a nation that reacts hastily to momentary events. We are a nation that has witnessed both development and destruction, endured them as well. We are a nation with the memory chip of ages embedded in our consciousness - a nation with the memory chip of millennia. That is why what India is doing today - and I say this with full responsibility - what India is doing today will write the future of the next thousand years. This is India’s greatest guarantee to the world. India is not only a fast-growing economy, it is also a credible economy. Alongside being a rising power - and you even stretched the dictionary to call it a superpower - I would certainly say that India is a reliable power. Just a few days ago, I returned from the G7 Summit, and every leader, every country understands very well that for today’s India, Nation First is the greatest mantra, the highest principle.\nJust a few days ago, our government completed 12 years. Arnab even compelled you to clap for that. If you weigh the achievements of the past twelve years, you will find that at the core of every decision, every step, every effort lies the spirit of Nation First. From the Swachh Bharat Abhiyan to Make in India, from emphasizing khadi to encouraging local products - all these initiatives succeeded because the people of the country placed the nation above all and fulfilled their duty. I salute the citizens of this country.\nHere with us is our companion, Shri Sridhar Vembu ji. When our entrepreneurs walk with the spirit of Nation First, when they set their goals by understanding the needs of the nation, institutions are built and the country prospers. I don’t know how much has been discussed here about Shri Vembu ji’s work, but recently I went to VivaTech in France. There were nearly 1.5 to 2 lakh young people there. As I and the President of France walked t",
+      "summary": "Swar Sadhana, Manokamana, Aradhana - after such an auspicious beginning, it would have been wonderful if your program had continued. I extend my regards to all viewers of Republic TV Network, which now broadcasts in many languages. I also welcome all companions who have come to participate in this summit.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "56d4b3af2016a62248608e9731b5e7e1",
+      "title": "Prime Minister Shri Narendra Modi addresses the Republic Summit 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276874",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "India is not only a fast-growing economy, but also a credible one: PM Along with being a rising power, India is also a reliable power: PM For India, Nation First is the highest guiding principle: PM Maoist terror is breathing its last in India: PM The shift in mindset from \"this can never be done\" to \"this will be done\" is India's greatest achievement: PM The government is empowering the poor and middle-class: PM The collective efforts of 140 crore Indians will realise the dream of a Viksit Bharat: PM\nPrime Minister Shri Narendra Modi, today addressed the Republic Summit. Greeting the participants of the Summit, the Prime Minister congratulated the organisers for hosting a discussion on the theme \"Great Power India: Nation First\" at a time when the world is witnessing rapid and consequential developments.\nAddressing the gathering, the Prime Minister underscored that the spirit of \"Nation First\" has been the guiding principle behind India's achievements over the past decade and its emergence as a trusted global power. Shri Modi observed that India is a civilization with a long historical memory and a unique ability to draw lessons from both progress and adversity. He remarked that the decisions and actions being undertaken today are laying the foundation for the country's future over the coming centuries.”The country has emerged not only as one of the world's fastest-growing economies but also as a credible and reliable partner. India's rise is founded on trust, stability and a commitment to the larger global good”, he noted.\nRecalling his recent participation in the G7 Summit, the Prime Minister said that leaders across the world recognize India's unwavering commitment to the principle of Nation First. He added that this guiding philosophy continues to shape the country's policies, priorities and aspirations as it advances on the path of development.\nReflecting on the Government's 12 years in service, the Prime Minister stated that major national initiatives such as Swachh Bharat, Make in India, promotion of khadi, and the campaign for local products succeeded because citizens embraced the spirit of putting the nation first. Highlighting the transformative impact of this approach in tribal and Left Wing Extremism-affected regions, the Prime Minister said, “The areas once plagued by violence and underdevelopment are witnessing unprecedented progress. More than 12,000 kilometres of roads, over 9,500 mobile towers, banking facilities, post offices, and communication networks have been established in affected regions over the last decade”.\nShri Modi observed that Maoist violence, which had claimed thousands of lives in previous decades, is now in its final phase due to a combination of determined security efforts and accelerated development. “The growing success of the Bastar Olympics as evidence of the aspirations and talents of youth replacing the fear and uncertainty once associated with the region”, he pointed.\nEmphasizing the rise of an aspirati",
+      "summary": "India is not only a fast-growing economy, but also a credible one: PM Along with being a rising power, India is also a reliable power: PM For India, Nation First is the highest guiding principle: PM Maoist terror is breathing its last in India: PM The shift in mindset from \"this can never be done\" to \"this will be done\" is India's greatest achievement: PM The government is empowering the poor and middle-class: PM The collective efforts of 140 crore Indians will realise the dream of a Viksit Bharat: PM Prime Minister Shri Narendra Modi, today addressed the Republic Summit. Greeting the participants of the Summit, the Prime Minister congratulated the organisers for hosting a discussion on the theme \"Great Power India: Nation First\" at a time when the world is witnessing rapid and consequential developments. Addressing the gathering, the Prime Minister underscored that the spirit of \"Nation First\" has been the guiding principle behind India's achievements over the past decade and its emergence as a trusted global power.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "14ad809ce6d516711d60da043e849b8d",
+      "title": "7TH EDITION OF THE MARSHAL OF THE AIR FORCE ARJAN SINGH MEMORIAL HOCKEY TOURNAMENT-2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276830",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f9e8fe3cfc847452fc36899b28ea070f",
+      "title": "India Achieves Landmark Milestone of 5 Lakh Organ Donation Pledges",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276810",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "0b787619e1a86130d3b70ab202546ac2",
+      "title": "Haj Policy 2027 announced; Haj Committee of India invites applications from prospective pilgrims",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276793",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "8ed61a70c980629efcfebfc9a1879ee8",
+      "title": "Resilient Supply Chains: Four Fertilizer Ships Successfully Cross Strait of Hormuz to Bolster Indian Agri-Stocks",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276792",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f89dfb9a6776a7659566d1f72d0def36",
+      "title": "Government Committed to Reforms to Make India a Globally Competitive Tourism Destination: Shri Gajendra Singh Shekhawat",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276789",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c093b4ea33812de44aeaa953c1564d3a",
+      "title": "“Indian Telecom Services Performance Indicator Report” for the Quarter January - March, 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276780",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f433addffc63f713a1a0660dfa6ac69c",
+      "title": "Prime Minister expresses grief over loss of lives in fire mishap in Lucknow",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276773",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e385c9df138c5bad35987af6cae9b28c",
+      "title": "Rajya Sabha Chairman, Shri C.P. Radhakrishnan administers oath to Shri Neeraj Dangi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276761",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Hon'ble Chairman, Rajya Sabha, Shri C.P. Radhakrishnan today administered oath in the Parliament House to the re-elected member Shri Neeraj Dangi, representing the state of Rajasthan. Shri Neeraj Dangi took the oath in Hindi.\nShri Harivansh, Deputy Chairman, Rajya Sabha; Shri Kiren Rijiju, Minister of Parliamentary Affairs and Minority Affairs; Shri Jagat Prakash Nadda, Leader of the House, Rajya Sabha and Minister of Health and Family Welfare, and Chemicals and Fertilizers; Shri Jairam Ramesh, Member, Rajya Sabha; Shri P. C. Mody, Secretary General, Rajya Sabha and other senior officers of the secretariat were also present on the occasion.",
+      "summary": "Radhakrishnan today administered oath in the Parliament House to the re-elected member Shri Neeraj Dangi, representing the state of Rajasthan. Shri Harivansh, Deputy Chairman, Rajya Sabha; Shri Kiren Rijiju, Minister of Parliamentary Affairs and Minority Affairs; Shri Jagat Prakash Nadda, Leader of the House, Rajya Sabha and Minister of Health and Family Welfare, and Chemicals and Fertilizers; Shri Jairam Ramesh, Member, Rajya Sabha; Shri P. Mody, Secretary General, Rajya Sabha and other senior officers of the secretariat were also present on the occasion.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "a0566bcf60a09816231cc72262131b38",
+      "title": "MEPZ SEZ Approves Investments of Over Rs.710 Crores in June, Creating More Than 15,000 Jobs across the TAP Region",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276811",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 12,
+      "snippet": "",
+      "full_content": "The Unit Approval Committee (UAC) of MEPZ Special Economic Zone, chaired by Thiru. Alex Paul Menon, Zonal Development Commissioner, has approved 7 new SEZ Units and 4 Export Oriented Units (EOUs) during June 2026. The approved projects represent a combined investment of Rs.710.39 crores and are projected to generate 15,424 employment opportunities, reinforcing the Tamil Nadu, Andaman & Puducherry (TAP) Region's position for investment, manufacturing, and export-led growth.\nThe major approvals include:\n• M/s. TKG Taekwang India Private Limited will establish a non-leather footwear manufacturing unit at ELCOT SEZ, Tiruchirappalli, with a projected investment of ₹ 514.72 crores and employment generation of 13,364 persons.\n• M/s. Kinesis Semiconductor Wire Solutions India Private Limited will set up operations at MEPZ SEZ, Tambaram, Chennai, with a projected investment of ₹ 115.20 crores, generating 123 jobs and strengthening the region's growing semiconductor and electronics ecosystem.\n• M/s. Global We Connect Technologies Private Limited will establish its SEZ unit at ELCOT SEZ, Hosur, creating 265 employment opportunities.\n• M/s. Samvardhana Motherson International Limited will establish an EOU at Kattavakkam Village, Kanchipuram District, with a projected investment of ₹ 11 crores and employment generation of 1,050 persons.\n• M/s. Rishaba Industries LLP will establish an EOU at One Hub Chennai, Chengalpattu District, with a projected investment of ₹ 58.10 crores and employment generation of 145 persons.\nSpeaking on the approvals, Thiru. Alex Paul Menon, said, \" The approvals reflect the growing diversification of the TAP Region's industrial ecosystem, with investments spanning advanced manufacturing, technology services, and semiconductor-related activities. Projects such as the footwear manufacturing facility in Tiruchirappalli and semiconductor operations in Chennai highlight the emergence of new growth centres across Tamil Nadu, creating employment opportunities while strengthening the region's integration into global value chains. These developments reinforce the TAP Region's position as a dynamic and future-ready investment destination.\"",
+      "summary": "The Unit Approval Committee (UAC) of MEPZ Special Economic Zone, chaired by Thiru. Alex Paul Menon, Zonal Development Commissioner, has approved 7 new SEZ Units and 4 Export Oriented Units (EOUs) during June 2026. The approved projects represent a combined investment of Rs.710.39 crores and are projected to generate 15,424 employment opportunities, reinforcing the Tamil Nadu, Andaman & Puducherry (TAP) Region's position for investment, manufacturing, and export-led growth.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "EoDB": 6,
+        "EooDB": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "1bc9065e26982586f798eef1edbe2a9d",
+      "title": "ICAR-CIBA Demonstrates India’s First Blue Swimmer Crab Farming Technology Using its own Hatchery-Produced Seed and Formulated Feed",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276781",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "6bd1b22af7a707dfc027c595dc3c15a8",
+      "title": "SCRI Marks International Day of Yoga 2026 with Focus on Healthy Aging",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276770",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "7671d651fd25260fa2568ebe1ddaba74",
+      "title": "Regulatory and Executive Impersonation for WhatsApp Account Takeover using Malicious Windows Executables and High value financial fraud",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276809",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "1999b4e4fe45ab86992eba9a9ee6e49b",
+      "title": "A HISTORIC MILESTONE: GUJARAT CIRCLE OPENS NEW POST OFFICE AT WORLD’S LARGEST RENEWABLE ENERGY HUB WITH EXCLUSIVE PIN CODE 370246",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276778",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Gujarat Postal Circle, is taking a significant step in expanding India’s postal and digital network. A new delivery post office will commence its operations on June 24, 2026 , at the Renewable Energy (RE) Park, Khavda , assigned with an exclusive new PIN Code 370246 .\nThis expansion marks a historic shift for the area. For past few years there has been massive development work in this area, which is about 70 km away from Khavda town and was served from Khavda post office through Kuran Branch Post Office.Due to increasing number of people working and living in this area there was a growing demand to open a delivery post office for this newly developing RE Park and township. By introducing PIN Code 370246 from June 24, India Post has formally carved out a distinct postal identity dedicated entirely to the massive green energy infrastructure growing in the Great Rann of Kutch.\nIndia Post does not merely connect the far-flung areas of Bharat to the rest of the world; it actively bridges the digital divide. By blending a trusted physical network with cutting-edge digital infrastructure, this new location brings essential \"Phygital\" services right to the nation's western frontier. This ensures that remote project sites enjoy the same technological advantages as major urban centers.\nStarting June 24 2026, the RE Park Khavda Post Office will be fully equipped to serve as a comprehensive logistical and financial hub. It will provide specialized counters designed to meet the unique demands of the massive workforce and industrial developers in the zone which are as follows: -\n• Speed Post : Guaranteeing time-bound, express delivery of critical business agreements, tender documents, and corporate communications worldwide.\n• Parcel Booking and Delivery : Providing a robust logistics backbone to handle the high volume of incoming e-commerce shipments, tool kits, and spare parts for the energy grid.\n• Post Office Savings Bank (POSB) : Offering secured, high-yield government savings schemes, recurring deposits, and Public Provident Fund (PPF) accounts for long-term financial security.\n• India Post Payments Bank (IPPB) : Delivering instant, paperless digital banking, paperless Aadhaar-Enabled Payment Services (AePS), and biometric cash withdrawals directly to site workers.\n• Powering the world's largest Green Hub : The Khavda Hybrid Renewable Energy Park is slated to be the largest of its kind globally, generating 30 Gigawatts (GW) of clean energy.\n• Industrial and infrastructure backbone : This new post office will directly serve a massive ecosystem of engineering hubs, public-private sector partnerships, and massive workforce colonies stationed near the international border.\n• Seamless Logistics & supply chains : The creation of a dedicated PIN code will optimize tracking, dispatch, and delivery of heavy machinery, spare parts, and critical administrative documentation.\nBy planting the India Post flag firmly within the Khavda RE Park, the Gujarat Postal Circle ",
+      "summary": "Gujarat Postal Circle, is taking a significant step in expanding India’s postal and digital network. A new delivery post office will commence its operations on June 24, 2026 , at the Renewable Energy (RE) Park, Khavda , assigned with an exclusive new PIN Code 370246 . This expansion marks a historic shift for the area.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "84a422d2e63e8ada9ae3807fe22bc313",
+      "title": "RBI Guwahati hosts MSME Day event, Focuses on Strengthening MSME Ecosystem",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276834",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Guwahati",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "In observance of International MSME day the Reserve Bank of India (RBI), Guwahati, organised the MSME Day event at NEDFi House, Guwahati today.\nThe programme was graced by Dr. Ravi Kota, Chief Secretary, Government of Assam, as the Chief Guest. The event was attended by Smt. Sushmita Phukan, Regional Director, Reserve Bank of India, Shri Ramesh Ganta, Chief General Manager, NABARD and representatives from the Department of Industries and Commerce, Government of Assam, and the MSME-Development and Facilitation Office.\nAddressing the gathering, Dr Ravi Kota highlighted the vital contribution of Micro, Small and Medium Enterprises (MSMEs), particularly women entrepreneurs, to the economic development of the region. He encouraged entrepreneurs to leverage the benefits of formalisation and adopt responsible banking practices for sustainable growth.\nThe event witnessed enthusiastic participation from members of the North East Women Entrepreneurs Association and Laghu Udyog Bharati.\nThe programme featured informative sessions on RBI guidelines relating to MSMEs and various initiatives undertaken by stakeholders to support the sector. Discussions focused on enhancing access to credit, addressing key challenges faced by MSMEs, and fostering innovation and entrepreneurship.\nA dedicated session on Government initiatives provided participants with an overview of various schemes and policy measures available for MSMEs. The programme also included an interactive session, which enabled participants to engage directly with officials, share their experiences, and seek clarifications on issues concerning the sector.",
+      "summary": "In observance of International MSME day the Reserve Bank of India (RBI), Guwahati, organised the MSME Day event at NEDFi House, Guwahati today. Ravi Kota, Chief Secretary, Government of Assam, as the Chief Guest. Sushmita Phukan, Regional Director, Reserve Bank of India, Shri Ramesh Ganta, Chief General Manager, NABARD and representatives from the Department of Industries and Commerce, Government of Assam, and the MSME-Development and Facilitation Office.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "aa5075e6845b4602d3ef15a4033c1a24",
+      "title": "NSO(FOD), Regional Office, Guwahati organises regional training camp for 81st round Socio-economic survey",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276805",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Guwahati",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "The National Statistics Office (NSO), under the Ministry of Statistics and Programme Implementation, Government of India, is conducting the 81st Round of the Socio-Economic Survey on All India Debt and Investment Survey (AIDIS), Situation Assessment Survey (SAS) of Agricultural Households, and Migration Particulars from 1 July 2026 to 30 June 2027. The survey will be carried out by NSO for central samples and by the State Directorates of Economics and Statistics (DESs) for state samples parallelly across the country.\nThe Regional Training Camp (RTC) to train the field functionaries/ officers/officials of RO Guwahati, SRO Silchar and DES Assam commenced today at CIFRI Conference hall, Housefed complex, Guwahati organized by Regional Office of NSO(FOD), Guwahati and will continue until 25 th June 2026. Around 80 field staffs members are participating in the training programme. The programme will provide a platform for discussing key operational aspects, methodology of the upcoming survey.\nShri N Mohondas Singh, Director and Regional Head, Regional Office Guwahati inaugurated the RTC. In his inaugural address, he highlighted the importance of the survey for evidence-based policymaking and stressed the need for maintaining adequate standard for quality data. He emphasized on awareness among people about the surveys and requested DES Assam to extend necessary co-operation on effective measures for adequate publicity. He also appealed to the public to extend their cooperation to ensure the successful conduct of the survey.\nShri Suman Choudhuri, Joint Director, DES Assam also addressed the gathering and shared the previous experiences of DES Assam on past surveys and involvement of DES in the up coming surveys.\nThe Migration Particulars Survey will focus on collecting detailed information on migration particulars of household members, as well as on out-migrants of households.",
+      "summary": "The National Statistics Office (NSO), under the Ministry of Statistics and Programme Implementation, Government of India, is conducting the 81st Round of the Socio-Economic Survey on All India Debt and Investment Survey (AIDIS), Situation Assessment Survey (SAS) of Agricultural Households, and Migration Particulars from 1 July 2026 to 30 June 2027. The survey will be carried out by NSO for central samples and by the State Directorates of Economics and Statistics (DESs) for state samples parallelly across the country. The Regional Training Camp (RTC) to train the field functionaries/ officers/officials of RO Guwahati, SRO Silchar and DES Assam commenced today at CIFRI Conference hall, Housefed complex, Guwahati organized by Regional Office of NSO(FOD), Guwahati and will continue until 25 th June 2026.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "CoDED": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "52b962d4b0930bf192715d9a14f86c3f",
+      "title": "Nasha Mukt Bharat Abhiyan and Swachh Bharat Mission Mobilise Youth for a Healthier and Cleaner India at JNV Mukhla",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276769",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Shillong",
+      "verticals": [
+        "Sustainability"
+      ],
+      "primary_vertical": "Sustainability",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "CBC Shillong conducts awareness programme on substance abuse prevention, sanitation and waste management Mukhla, West Jaintia\nStudents of PM SHRI Jawahar Navodaya Vidyalaya (JNV), Mukhla, West Jaintia Hills, were sensitised on the importance of leading a drug-free life and maintaining a clean environment during an awareness programme organised under the Nasha Mukt Bharat Abhiyan (NMBA) and Swachh Bharat Mission (SBM) by the Central Bureau of Communication (CBC), Shillong. The programme encouraged students to make informed choices, reject substance abuse and become active participants in promoting cleanliness, responsible waste management and environmental conservation.\nThe programme witnessed the participation of Shri Neeraj Kumar, Principal, PM SHRI JNV Mukhla, Smt. Hun-i-ka Tang, Block Programme Assistant (SBM-G), Thadlaskein Block, faculty members, students and officials of CBC Shillong.\nAddressing the gathering, speakers highlighted the significance of the Nasha Mukt Bharat Abhiyan, a flagship initiative of the Ministry of Social Justice and Empowerment aimed at creating awareness about the harmful effects of substance abuse and mobilising community participation for a drug-free India. Students were sensitised about the adverse impact of drug addiction on physical health, mental well-being, education, family life and society. Students also took an active part in the interactive session, engaging with the speakers through questions and discussions on substance abuse prevention and healthy lifestyle choices.\nSpeaking on the occasion, Smt. Hun-i-ka Tang elaborated on the objectives and key components of the Swachh Bharat Mission (Grameen). She explained the Mission’s efforts towards sustaining an Open Defecation Free (ODF) India through improved sanitation infrastructure and effective Solid and Liquid Waste Management systems. Emphasising the importance of environmental responsibility, she educated students on waste segregation, plastic waste management, safe disposal of waste and the need to adopt sustainable practices in everyday life.\nThe students were also introduced to the concept of the Four Rs - Reduce, Refuse, Reuse and Recycle, as practical measures to minimise waste generation and conserve natural resources. The session further highlighted simple practices such as composting, kitchen gardening and the productive utilisation of biodegradable waste, demonstrating how responsible waste management can contribute to a cleaner and healthier environment.\nTo reinforce the key messages of the programme, a drawing competition on the themes of a drug-free society and cleanliness was organised, providing students with an opportunity to creatively express their ideas and understanding of the issues discussed.\nA cleanliness drive was also conducted within the school campus, with students enthusiastically participating in cleaning activities and demonstrating their commitment towards a clean and healthy environment. The activity translated the messag",
+      "summary": "CBC Shillong conducts awareness programme on substance abuse prevention, sanitation and waste management Mukhla, West Jaintia Students of PM SHRI Jawahar Navodaya Vidyalaya (JNV), Mukhla, West Jaintia Hills, were sensitised on the importance of leading a drug-free life and maintaining a clean environment during an awareness programme organised under the Nasha Mukt Bharat Abhiyan (NMBA) and Swachh Bharat Mission (SBM) by the Central Bureau of Communication (CBC), Shillong. The programme encouraged students to make informed choices, reject substance abuse and become active participants in promoting cleanliness, responsible waste management and environmental conservation. The programme witnessed the participation of Shri Neeraj Kumar, Principal, PM SHRI JNV Mukhla, Smt.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Sustainability": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "5cf7d8fcb825fb21ef02676e089aceab",
+      "title": "Oil Marketing Companies Ensure Uninterrupted Supply of Petrol, Diesel & LPG",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276843",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-22",
+      "relative_time": "Today",
+      "region": "Itanagar",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
     },
@@ -4268,15 +4668,15 @@
       "section": "other"
     }
   ],
-  "other_count": 203,
+  "other_count": 214,
   "vertical_counts": {
-    "EoDB": 6,
-    "EooDB": 6,
-    "CoDED": 2,
+    "EoDB": 8,
+    "EooDB": 8,
+    "CoDED": 3,
     "iLEAP": 5,
     "ELS": 2,
-    "Sustainability": 6,
-    "Political_Economy": 8
+    "Sustainability": 8,
+    "Political_Economy": 12
   },
   "regions_scraped": 22,
   "verticals": {
