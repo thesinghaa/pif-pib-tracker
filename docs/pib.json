@@ -1,8 +1,102 @@
 {
-  "last_updated": "2026-06-23T04:04:44Z",
-  "last_updated_ist": "23 Jun 2026, 09:34 AM IST",
-  "total": 179,
+  "last_updated": "2026-06-23T07:53:06Z",
+  "last_updated_ist": "23 Jun 2026, 01:23 PM IST",
+  "total": 185,
   "articles": [
+    {
+      "id": "78148571079a0749f62b901410048d88",
+      "title": "Government invites application for selection for post of Chairperson & two members in National Sports Board",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276959",
+      "date": "2026-06-23",
+      "scraped_date": "2026-06-23",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "National Sports Board will act as central authority for granting board recognition to National Sports Bodies and ensuring compliance with governance, financial and ethical standards\nThe Ministry of Youth Affairs & Sports has invited applications for selection for the post of Chairperson and two members in the National Sports Board.\nThe Selection is to be made in terms of the provisions of National Sports Governance Act 2025 and National Sports Governance (National Sports Board) Rules 2026.\nThe appointment for post of Chairperson and two members in National Sports Board will be made by the Central Government on the recommendations of the Search-cum-Selection Committee, constituted in terms of Rule 3(3) of National Sports Board (Search-cum-Selection Committee) Rules, 2026, from amongst persons of ability, integrity and standing, having knowledge or practical experience in the field of public administration, sports governance, sports law and other related fields.\nThe salary and other terms and conditions of the appointment of Chairperson and Members, NSB will be governed by the provisions of the National Sports Governance (National Sports Board) Rules, 2026.\nThe National Sports Board will act as central authority for granting board recognition to National Sports Bodies and ensuring compliance with governance, financial and ethical standards.\nEligible persons can apply through online portal https://sports.yas.gov.in/application_app . The last date of submission of applications is 22nd July, 2026.",
+      "summary": "National Sports Board will act as central authority for granting board recognition to National Sports Bodies and ensuring compliance with governance, financial and ethical standards The Ministry of Youth Affairs & Sports has invited applications for selection for the post of Chairperson and two members in the National Sports Board. The Selection is to be made in terms of the provisions of National Sports Governance Act 2025 and National Sports Governance (National Sports Board) Rules 2026. The appointment for post of Chairperson and two members in National Sports Board will be made by the Central Government on the recommendations of the Search-cum-Selection Committee, constituted in terms of Rule 3(3) of National Sports Board (Search-cum-Selection Committee) Rules, 2026, from amongst persons of ability, integrity and standing, having knowledge or practical experience in the field of public administration, sports governance, sports law and other related fields.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "89204066a8a0b60bea47d53e6062b131",
+      "title": "Pradhan Mantri Rashtriya Bal Puraskar",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276954",
+      "date": "2026-06-23",
+      "scraped_date": "2026-06-23",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "18cbd7939ba4ed8ff9a6fc4317f2ff42",
+      "title": "189th Meeting of State Level Bankers’ Committee (SLBC) Gujarat",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276957",
+      "date": "2026-06-23",
+      "scraped_date": "2026-06-23",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "c68c40c8d6f11d8d8a0be6a746086489",
+      "title": "Cycling Will Help India Progress Towards Becoming a Developed Nation: Union Minister Dr. Mansukh Mandaviya",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276930",
+      "date": "2026-06-23",
+      "scraped_date": "2026-06-23",
+      "relative_time": "Today",
+      "region": "Thiruvananthapuram",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e60e79263bd5876dbebda6bc5bea4ff9",
+      "title": "Rashtriya Raksha University (RRU) Pasighat Campus Invites Applications for Academic Session 2026–27",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276928",
+      "date": "2026-06-23",
+      "scraped_date": "2026-06-23",
+      "relative_time": "Today",
+      "region": "Imphal",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "b5bceb3a3dbe71f6ae14a4a9531ee654",
       "title": "India’s Emerging Technology Ecosystem",
@@ -1290,6 +1384,24 @@
         "EooDB": 3
       },
       "section": "vertical"
+    },
+    {
+      "id": "9481cb84f787c30c5276abbea4e07a17",
+      "title": "UIDAI opens new Aadhar Seva Kendra",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276952",
+      "date": "2026-06-22",
+      "scraped_date": "2026-06-23",
+      "relative_time": "Yesterday",
+      "region": "Bengaluru",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "22ac0ba46a17fe0849957bfbf2088de5",
@@ -3356,7 +3468,7 @@
       "section": "other"
     }
   ],
-  "other_count": 151,
+  "other_count": 156,
   "vertical_counts": {
     "EoDB": 8,
     "EooDB": 8,
@@ -3364,7 +3476,7 @@
     "iLEAP": 4,
     "ELS": 1,
     "Sustainability": 6,
-    "Political_Economy": 7
+    "Political_Economy": 8
   },
   "regions_scraped": 20,
   "verticals": {
