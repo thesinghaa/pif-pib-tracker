@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-24T18:45:11Z",
-  "last_updated_ist": "25 Jun 2026, 12:15 AM IST",
-  "total": 129,
+  "last_updated": "2026-06-24T20:50:39Z",
+  "last_updated_ist": "25 Jun 2026, 02:20 AM IST",
+  "total": 128,
   "articles": [
     {
       "id": "f6ead8f53771f303164da204a78fb8c1",
@@ -1067,7 +1067,7 @@
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2277595",
       "date": "2026-06-24",
       "scraped_date": "2026-06-24",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
@@ -1085,7 +1085,7 @@
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2277608",
       "date": "2026-06-24",
       "scraped_date": "2026-06-24",
-      "relative_time": "Today",
+      "relative_time": "Yesterday",
       "region": "Chennai",
       "verticals": [],
       "primary_vertical": "",
@@ -2428,27 +2428,9 @@
       "sentiment": "neutral",
       "vertical_scores": {},
       "section": "other"
-    },
-    {
-      "id": "92ed719551d0688e1d9891d4b0de0e6d",
-      "title": "BIS Raids Jewellery Store in Abids, Hyderabad for Hallmarking Violations",
-      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2276682",
-      "date": "2026-06-22",
-      "scraped_date": "2026-06-24",
-      "relative_time": "22 Jun",
-      "region": "Hyderabad",
-      "verticals": [],
-      "primary_vertical": "",
-      "relevance_score": 0,
-      "snippet": "",
-      "full_content": "",
-      "summary": "",
-      "sentiment": "neutral",
-      "vertical_scores": {},
-      "section": "other"
     }
   ],
-  "other_count": 104,
+  "other_count": 103,
   "vertical_counts": {
     "EoDB": 9,
     "EooDB": 9,
