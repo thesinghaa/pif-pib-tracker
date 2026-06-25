@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-25T13:28:00Z",
-  "last_updated_ist": "25 Jun 2026, 06:58 PM IST",
-  "total": 190,
+  "last_updated": "2026-06-25T16:33:20Z",
+  "last_updated_ist": "25 Jun 2026, 10:03 PM IST",
+  "total": 205,
   "articles": [
     {
       "id": "7a05e08b9ac90ebe68eacde2c5832159",
@@ -1184,6 +1184,308 @@
       "sentiment": "down",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "d4f25ffbffd891f6fbb98ba545aa2b2c",
+      "title": "Ministry of Culture Commemorates ‘Samvidhan Hatya Diwas’",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2278042",
+      "date": "2026-06-25",
+      "scraped_date": "2026-06-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "0f0607e009dcde76be4241c71e3557d8",
+      "title": "DPIIT Notifies Transition Facilitation (Quality Control) Order, 2026 to Strengthen Supply Chains and Facilitate Industry Compliance",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2278019",
+      "date": "2026-06-25",
+      "scraped_date": "2026-06-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "Transition Facilitation Order Enables Flexible Sourcing Framework for Industry While Upholding Quality Standards\nIn a significant step towards strengthening India's quality ecosystem and enhancing industrial competitiveness, the Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry, has notified the Transition Facilitation (Quality Control) Order, 2026. The Order introduces a framework aimed at balancing regulatory compliance with innovation, technological advancement and supply chain resilience.\nThe Government of India is working to build a robust quality ecosystem by ensuring the availability of safe, reliable and standards-compliant products. As part of this effort, DPIIT has notified Quality Control Orders (QCOs) for critical products to safeguard consumer interests, improve product reliability and enhance the competitiveness of domestic industry through standardisation and improved manufacturing practices.\nBuilding upon this objective, the Transition Facilitation (Quality Control) Order, 2026 introduces an alternative risk-based compliance mechanism to facilitate a smooth transition for industry while maintaining quality assurance and consumer protection.\nThe Order enables domestic industry to procure supplies from manufacturers holding licences under Scheme II of Schedule II of the Bureau of Indian Standards (Conformity Assessment) Regulations, 2018, instead of Scheme I (ISI Mark Scheme) of BIS. Permissions under the mechanism will be granted based on technical capability, demonstrated compliance history and commitment towards technology advancement or adoption, development of design and research capabilities, innovation and strengthening domestic supply chain capabilities.\nThe Order also extends its benefits to manufacturers that have demonstrated consistent adherence to QCO requirements over a continuous period of three years without any default. The provision recognises sustained compliance with quality requirements and encourages continued adherence to prescribed standards.\nThe reform seeks to facilitate industry compliance while maintaining quality standards. By providing an alternative compliance mechanism, the Order is expected to support technological modernisation, innovation and the strengthening of India's manufacturing ecosystem.\nThe initiative is expected to strengthen domestic value chains, promote technology advancement, reduce compliance bottlenecks and enhance India's integration with global supply chains, while reinforcing consumer confidence in the quality and safety of products available in the Indian market.\nRead the full notification\nAbhijith Narayanan/ Garima Singh/ Ishita Biswas",
+      "summary": "Transition Facilitation Order Enables Flexible Sourcing Framework for Industry While Upholding Quality Standards In a significant step towards strengthening India's quality ecosystem and enhancing industrial competitiveness, the Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry, has notified the Transition Facilitation (Quality Control) Order, 2026. The Order introduces a framework aimed at balancing regulatory compliance with innovation, technological advancement and supply chain resilience. The Government of India is working to build a robust quality ecosystem by ensuring the availability of safe, reliable and standards-compliant products.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "EoDB": 3,
+        "EooDB": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "8666593dca402ac1721e70d6e4c2ebdb",
+      "title": "Ministry of Jal Shakti Extends Timeline for Citizen Feedback on Jal Sanchay Jan Bhagidari 2.0 Portal",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2278018",
+      "date": "2026-06-25",
+      "scraped_date": "2026-06-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "3661a88cf342ba76e38ecee7e628b285",
+      "title": "Shri Arjun Ram Meghwal distributes prizes of 36th National Youth Parliament Competition, 2025–26 for Kendriya Vidyalayas",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2278002",
+      "date": "2026-06-25",
+      "scraped_date": "2026-06-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Union Minister urges youth to internalize democratic values, parliamentary ethics, and national harmony Dr. Rajendra Prasad Kendriya Vidyalaya, President Estate, New Delhi (Delhi Region, North Zone) wins first prize in the 36th National Youth Parliament Competition, 2025-26 for Kendriya Vidyalayas\nThe Prize Distribution Function of the 36 th National Youth Parliament Competition, 2025–26 for Kendriya Vidyalayas was held today at the GMC Balayogi Auditorium, Parliament Library Building, Parliament House Complex, New Delhi.\nShri Arjun Ram Meghwal, Minister of State (Independent Charge) of the Ministry of Law and Justice; and Minister of State in the Ministry of Parliamentary Affairs, presided over the function and distributed prizes to the prize-winning students and Kendriya Vidyalayas for their meritorious performance in the competition.\nIn his address, he congratulated the students for their excellent demonstration of parliamentary procedures and observed that they are not only the future of the country but also its future leaders. Recalling the inspirational message of former President Dr. A.P.J. Abdul Kalam, Shri Arjun Ram Meghwal exhorted the students to dream big, translate their dreams into goals, and work with a well-defined plan to realise them. He expressed confidence that the students would make meaningful contributions to nation-building and wished them success in all their future endeavours.\nHe also administered the LiFE (Lifestyle for Environment) Pledge to all attendees, inspiring them to adopt healthy lifestyles to save the environment.\nOn this occasion, the students of Dr. Rajendra Prasad Kendriya Vidyalaya, President Estate, New Delhi (Delhi Region, North Zone), which stood first at the National Level in the 36th National Youth Parliament Competition, 2025–26 for Kendriya Vidyalayas, presented a repeat performance of “Youth Parliament”, which was highly appreciated by the august gathering.\nShri Nikunja Bihari Dhal, Secretary, Ministry of Parliamentary Affairs, lauded the students for their outstanding performance and observed that they had displayed a commendable understanding of parliamentary procedures while maintaining the decorum and dignity of Parliament. He noted that the participants had not only demonstrated knowledge of parliamentary rules and regulations but had also exhibited leadership qualities and confidence.\nHighlighting the Youth Parliament Programme as an important platform for nurturing democratic values among the youth, Shri Dhal stated that around 200 Kendriya Vidyalayas currently participate in the Scheme every year and expressed the Ministry's endeavour to expand its reach to 250-300 Kendriya Vidyalayas in the future.\nEarlier, Dr. Satya Prakash, Additional Secretary, Ministry of Parliamentary Affairs, welcomed the dignitaries and participants and encouraged students to actively engage with and uphold the values of parliamentary democracy. Stressing the importance of youth in shaping India's future, he urged s",
+      "summary": "Union Minister urges youth to internalize democratic values, parliamentary ethics, and national harmony Dr. Rajendra Prasad Kendriya Vidyalaya, President Estate, New Delhi (Delhi Region, North Zone) wins first prize in the 36th National Youth Parliament Competition, 2025-26 for Kendriya Vidyalayas The Prize Distribution Function of the 36 th National Youth Parliament Competition, 2025–26 for Kendriya Vidyalayas was held today at the GMC Balayogi Auditorium, Parliament Library Building, Parliament House Complex, New Delhi. Shri Arjun Ram Meghwal, Minister of State (Independent Charge) of the Ministry of Law and Justice; and Minister of State in the Ministry of Parliamentary Affairs, presided over the function and distributed prizes to the prize-winning students and Kendriya Vidyalayas for their meritorious performance in the competition.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "6703cd8e3cb8ff12c594537588c15605",
+      "title": "Department of Telecommunications Activates Intra Circle Roaming in Four Districts of Arunachal Pradesh amid Heavy Rainfall, Cloudburst and Landslides",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2277997",
+      "date": "2026-06-25",
+      "scraped_date": "2026-06-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "37ec655e1c464c65e49adae60129f06a",
+      "title": "Vice President of India Shri C. P. Radhakrishnan to Preside Over 'MSME Day 2026- Udyami Bharat' on 27th June 2026 at Dr Ambedkar International Centre, New Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2277980",
+      "date": "2026-06-25",
+      "scraped_date": "2026-06-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "EoDB",
+        "EooDB"
+      ],
+      "primary_vertical": "EoDB",
+      "relevance_score": 12,
+      "snippet": "",
+      "full_content": "Union Minister of MSME Shri Jitan Ram Manjhi and Minister of State for MSME, Sushri Shobha Karandlaje also to grace the event MSME Day Celebrates the Vital Role of MSMEs in Driving Economic Growth, Innovation and Inclusive Development Ministry of MSME will Launch a New Generation of Digital Platforms to Strengthen India's MSME Ecosystem\nThe Vice President of India, Shri C. P. Radhakrishnan, will preside over the 'MSME Day 2026-Udyami Bharat' event on 27th June 2026 at Dr. Ambedkar International Centre, New Delhi. The event will also be graced by Shri Jitan Ram Manjhi, Minister for Micro, Small and Medium Enterprises; Sushri Shobha Karandlaje, Minister of State for Micro, Small and Medium Enterprises; Shri Manoj Goel, Chairman, Khadi and Village Industries Commission (KVIC); and senior officials from the Ministry and its organisations.\nCelebrated annually on 27 June, MSME Day provides an opportunity to recognise the pivotal role played by MSME in driving economic growth, innovation, employment generation, exports and inclusive development across the country. This year's event will underscore the Government's commitment to building a more resilient, technology-driven, competitive and future-ready MSME ecosystem.\nThe status of National Small Industries Corporation (NSIC) has upgraded from Schedule 'B' to Schedule 'A' category Central Public Sector Enterprises (CPSE) earlier this year-a significant recognition of NSIC's growing stature and contribution to the MSME sector. Ponduru Khadi, a traditional hand-spun and handwoven textile from Srikakulam district of Andhra Pradesh, has been accorded the prestigious Geographical Indication (GI) tag, a significant achievement facilitated by the KVIC.\nOn the occasion, the Vice President will launch a suite of transformative digital platforms, portals, and e-books aimed at empowering MSMEs across India.\n1. PMEGP 2.0 Portal\nThe newly developed portal introduces a range of citizen-centric, technology-driven features designed to simplify the entire lifecycle of a beneficiary with improved coordination among all stakeholders. A key highlight is its integration with the Jan Samarth Portal, enabling real-time exchange of information with participating banks for loan processing, sanction, and disbursement. The PMEGP 2.0 Portal represents a transformative shift towards a fully digital, transparent, and accountable ecosystem for enterprise promotion.\n2. SAMADHAAN 2.0 Portal\nThe dedicated platform is designed to report and track outstanding dues owed to MSMEs by Central Ministries, Departments, Central Public Sector Enterprises (CPSE) and other Government Agencies. It provides a dedicated online functionality for mandatory reporting of pending MSME dues on a monthly basis within prescribed timelines.\nThe Procurement and Marketing Support (PMS) Portal is an integrated digital platform that connects Micro and Small Enterprises (MSEs) with trade fairs and exhibitions. Linked with Udyam Registration, the portal makes the ent",
+      "summary": "Union Minister of MSME Shri Jitan Ram Manjhi and Minister of State for MSME, Sushri Shobha Karandlaje also to grace the event MSME Day Celebrates the Vital Role of MSMEs in Driving Economic Growth, Innovation and Inclusive Development Ministry of MSME will Launch a New Generation of Digital Platforms to Strengthen India's MSME Ecosystem The Vice President of India, Shri C. Radhakrishnan, will preside over the 'MSME Day 2026-Udyami Bharat' event on 27th June 2026 at Dr. The event will also be graced by Shri Jitan Ram Manjhi, Minister for Micro, Small and Medium Enterprises; Sushri Shobha Karandlaje, Minister of State for Micro, Small and Medium Enterprises; Shri Manoj Goel, Chairman, Khadi and Village Industries Commission (KVIC); and senior officials from the Ministry and its organisations.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "EoDB": 6,
+        "EooDB": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "17dadaf0d2936c4533698caf5bcfcfad",
+      "title": "37th Webinar of the National Good Governance Webinar Series 2026-27 under the theme ‘Sustainability and Replication of the Awarded Initiatives under PMA’ held on 25th June 2026.",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2277970",
+      "date": "2026-06-25",
+      "scraped_date": "2026-06-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Presentations made on the Nashik District initiative, Maharashtra by Shri Jalaj Sharma, its Sustainability by Shri Ayush Prasad and its Replication in Yavatmal district by Shri Vikas Meena to national audience.\nHon’ble Prime Minister had directed Department of Administrative Reforms & Public Grievances (DARPG), in April 2022, to hold virtual conferences/ webinars with District Collectors and other officers in which past award winners of PM’s Awards (PMA) for Excellence in Public Administration be invited to present their experiences with the objective of greater dissemination and replication.\nSince then, 36 webinars have been held so far. Each webinar is attended by about 1000 officials from Line Departments, State Governments, District Collectors, State Administrative Training Institutes and Central Training Institutes.\nThe 37 th National Good Governance Webinar was held on the 25 th June 2026 in which the initiative of Nashik District, Maharashtra awarded with the PM’s Award for Excellence in Public Administration, 2023 was presented under the theme ‘ Sustainability and Replication of the Initiatives Awarded under PMA ’. The Presentations included:\n• The awarded Nashik District initiative presented by Shri Jalaj Sharma, the former DM, Nashik & Commissioner, Nashik Metropolitan Region Development Authority;\n• Sustainability of aspects of the initiatives by Shri Ayush Prasad, District Magistrate & Collector, Nashik; and\n(iii) Replication of the key aspects & further scaling up in Yavatmal District by Shri Vikas Meena, District Collector, Yavatmal.\nThe Webinar was chaired by Shri Puneet Yadav, Additional Secretary, DARPG and was attended by senior officers of the Department. The Webinar was attended from more than 640 locations across India with Senior Officials of Administrative Reforms Departments of States/UTs, District Collectors, State and District field officers, Officers of Central and State Administrative Training Institutes.",
+      "summary": "Presentations made on the Nashik District initiative, Maharashtra by Shri Jalaj Sharma, its Sustainability by Shri Ayush Prasad and its Replication in Yavatmal district by Shri Vikas Meena to national audience. Hon’ble Prime Minister had directed Department of Administrative Reforms & Public Grievances (DARPG), in April 2022, to hold virtual conferences/ webinars with District Collectors and other officers in which past award winners of PM’s Awards (PMA) for Excellence in Public Administration be invited to present their experiences with the objective of greater dissemination and replication. Each webinar is attended by about 1000 officials from Line Departments, State Governments, District Collectors, State Administrative Training Institutes and Central Training Institutes.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "7cc8012a9c64627067ac3f74bc76f69a",
+      "title": "Ministry of Skill Development and Entrepreneurship Announces Kaushal Mahotsav- Warangal 2026; Brings Over 5,000 Opportunities of Employment for Telangana Youth",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2277958",
+      "date": "2026-06-25",
+      "scraped_date": "2026-06-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "relevance_score": 6,
+      "snippet": "",
+      "full_content": "The Ministry of Skill Development and Entrepreneurship (MSDE) today announced Kaushal Mahotsav, Warangal 2026, scheduled to be held on June 27, 2026, at the Kakatiya Institute of Technology & Science (KITS), Warangal, Telangana.\nThe announcement was made during a press conference held at KITS and addressed by Shri V.S. Arvind, Director, Ministry of Skill Development and Entrepreneurship (MSDE). Also present were Shri Thoutam Ramu, Regional Employment Officer, Department of Employment & Training and Shri Komal Reddy, Registrar, KITS.\nThe upcoming Kaushal Mahotsav will bring together more than 50+ leading employers from diverse sectors and offer over 5,000 opportunities of employment for youth across Telangana. The event aims to connect skilled candidates directly with industry, facilitate on-the-spot interviews, and strengthen pathways to sustainable livelihoods through employment and apprenticeship opportunities.\nThe Mahotsav will cater to candidates with varied educational backgrounds and skill levels, including school pass-outs, ITI graduates, diploma holders, graduates, and skilled youth seeking better career opportunities. Participating employers will represent sectors such as manufacturing, retail, logistics, automotive, textile, IT-ITeS, healthcare, tourism & hospitality, telecom, and banking, financial services & insurance (BFSI), reflecting the evolving employment landscape and growing demand for skilled talent.\nShri V.S. Arvind, Director, Ministry of Skill Development and Entrepreneurship, Government of India said, \"Kaushal Mahotsav reflects our commitment to ensuring that every skilled young person has access to meaningful opportunities. By bringing employers and aspiring candidates together on a single platform, we are creating stronger pathways from skilling to employment and supporting the aspirations of Telangana's youth.\"\nHe further highlighted that Kaushal Mahotsav has emerged as an important platform for translating skill development into tangible employment outcomes by bringing together industry, training institutions, and job seekers under one roof.\nThe Mahotsav is expected to witness participation from thousands of aspiring candidates from Warangal and neighbouring districts, creating a vibrant platform where local talent can engage directly with recruiters and explore opportunities aligned with their skills and aspirations.\nIn addition to recruitment opportunities, Kaushal Mahotsav – Warangal 2026 will provide candidates with information on apprenticeship programmes, government skilling initiatives, career pathways, future-ready job roles, and opportunities for upskilling and reskilling in line with evolving industry demand.\nLeading employers including Prompt Personnel Pvt. Ltd., ParadigmIT Technology Services Pvt. Ltd., Sitaram Spinners Pvt. Ltd., Royal Enfield Dealership Network, KAPSTON Services Limited, Cream Stone, Jayabheri Automotives Pvt. Ltd., Blink Commerce Pvt. Ltd., Galactic Solution, SMG Electric Scooters, Varun ",
+      "summary": "The Ministry of Skill Development and Entrepreneurship (MSDE) today announced Kaushal Mahotsav, Warangal 2026, scheduled to be held on June 27, 2026, at the Kakatiya Institute of Technology & Science (KITS), Warangal, Telangana. The announcement was made during a press conference held at KITS and addressed by Shri V.S. Arvind, Director, Ministry of Skill Development and Entrepreneurship (MSDE).",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "ELS": 6
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "9d446542835683a96f19c0e8f5711a5c",
+      "title": "Special Drive for Expeditious Disposal of Long-Pending Labour Cases: ₹10.32 Lakh Disbursed to Workers in New Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2277929",
+      "date": "2026-06-25",
+      "scraped_date": "2026-06-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "As part of the Special Drive launched by the Office of the Chief Labour Commissioner (Central), Ministry of Labour & Employment, to expedite the disposal of long-pending labour cases, a consolidated hearing of claim cases involving Delhi Metro Rail Corporation (DMRC) Ltd. and its contractors was conducted today before the Regional Labour Commissioner (Central), New Delhi-cum-Authority under the Code on Wages, 2019, at the Office of the Deputy Chief Labour Commissioner (Central), New Delhi.\nTo facilitate the effective resolution of pending cases, the Chief Labour Commissioner (Central), Smt. Sonal Mishra, attended the proceedings and addressed officers of the Delhi Region, representatives of the management, and workers participating in the hearings. She emphasized the need for timely disposal of labour disputes and strict adherence to labour laws to ensure speedy justice for workers.\nDuring the proceedings, 193 claim cases were taken up, of which 23 cases were successfully resolved, resulting in the disbursement of ₹10,32,484 to 12 workers towards their rightful dues. Substantive hearings were also conducted in the remaining cases, paving the way for their likely resolution on the next scheduled date.\nRepresentatives of the management, including the Senior Labour Welfare Inspector and Labour Welfare Inspector of DMRC Ltd., along with representatives of the contractors, were sensitized on the importance of strict compliance with labour laws, particularly regarding timely payment of wages, maintenance of statutory records, and protection of workers' rights. The management assured the labour authorities that necessary corrective measures would be implemented to strengthen compliance.\nThe Special Drive reflects the Ministry of Labour & Employment's continued commitment to ensuring timely grievance redressal, improving access to justice for workers, strengthening compliance with labour laws, and fostering harmonious industrial relations through effective and time-bound dispute resolution.\nRini Choudhury/Anjelina Alexander",
+      "summary": "As part of the Special Drive launched by the Office of the Chief Labour Commissioner (Central), Ministry of Labour & Employment, to expedite the disposal of long-pending labour cases, a consolidated hearing of claim cases involving Delhi Metro Rail Corporation (DMRC) Ltd. and its contractors was conducted today before the Regional Labour Commissioner (Central), New Delhi-cum-Authority under the Code on Wages, 2019, at the Office of the Deputy Chief Labour Commissioner (Central), New Delhi. To facilitate the effective resolution of pending cases, the Chief Labour Commissioner (Central), Smt.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "ELS": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "d271b22aa548f586235dc785a8adcdf7",
+      "title": "India's Steel Sector Records Steady Growth in May 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2277931",
+      "date": "2026-06-25",
+      "scraped_date": "2026-06-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "f3d1b74143bdef3531fbb6bb17011c26",
+      "title": "Government Restores Non-Domestic packed LPG Supplies to Pre-Crisis Levels; Sectoral Supply Restrictions Withdrawn",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2277925",
+      "date": "2026-06-25",
+      "scraped_date": "2026-06-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "1ff8da18f843d9d86a7b983c66bf5f79",
+      "title": "Highlights of Telecom Subscription Data at the end of May 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2277922",
+      "date": "2026-06-25",
+      "scraped_date": "2026-06-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "3f6ed82640c4a48cc9cf224a69b91232",
+      "title": "Union Minister Kiren Rijiju urges greater utilisation of minority welfare schemes in Goa",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2277930",
+      "date": "2026-06-25",
+      "scraped_date": "2026-06-25",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "03824359bb0dee4711f129c270ee0bca",
+      "title": "BIS, Coimbatore Branch Office Conducts a Two-Day Capsule Course training programme for Grey Iron Castings Manufacturers in Coimbatore",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2277983",
+      "date": "2026-06-25",
+      "scraped_date": "2026-06-25",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "3f3ed5c7132312d4d9d7a42461752628",
+      "title": "SOFTWARE SYSTEM UPDATION UNDER EPFO 2.01",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2277943",
+      "date": "2026-06-25",
+      "scraped_date": "2026-06-25",
+      "relative_time": "Today",
+      "region": "Thiruvananthapuram",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "It is informed that EPFO is undertaking a planned database consolidation and software system upgradation under the EPFO 2.01 initiative from 26 June 2026 (00:00 Hrs) to 28 June 2026 (23:59 Hrs). During this period, certain online services will be temporarily unavailable.\n“To enhance service delivery, improve processing efficiency, and provide a better user experience, EPFO is undertaking a planned database consolidation and upgradation of software applications for the claims processing system. As part of this transition, the Member Portal, UMANG App, and Employer Portal will be down, and submission of claims, ECR, etc. through these portals will remain temporarily unavailable from 26 June 2026 (00:00 Hrs) to 28 June 2026 (23:59 Hrs). We expect services to be fully restored by 29 June 2026 (00:00 Hrs). We regret the inconvenience” 6/25/26, 3:10 PM Temporary unavailability of EPFO Services from 26 June 2026 (00:00 Hrs) to 28 June 2026 (23:59 Hrs)-reg about:blank 1/2 During this period, it is informed that, following services will not be available\n. • Linking of UAN of new employees or submission of ECR for remittance of dues will be temporarily unavailable.\n• Submission of new claim requests will be temporarily unavailable.\n• Claim processing services will be temporarily unavailable.\n• E-passbook services will also be temporarily unavailable.\n• Claims already submitted before the migration period will be taken up for processing after services resume.",
+      "summary": "It is informed that EPFO is undertaking a planned database consolidation and software system upgradation under the EPFO 2.01 initiative from 26 June 2026 (00:00 Hrs) to 28 June 2026 (23:59 Hrs). During this period, certain online services will be temporarily unavailable. “To enhance service delivery, improve processing efficiency, and provide a better user experience, EPFO is undertaking a planned database consolidation and upgradation of software applications for the claims processing system.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "ELS": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "f6ead8f53771f303164da204a78fb8c1",
@@ -3612,15 +3914,15 @@
       "section": "other"
     }
   ],
-  "other_count": 151,
+  "other_count": 159,
   "vertical_counts": {
-    "EoDB": 14,
-    "EooDB": 14,
+    "EoDB": 16,
+    "EooDB": 16,
     "CoDED": 6,
     "iLEAP": 3,
-    "ELS": 2,
+    "ELS": 5,
     "Sustainability": 3,
-    "Political_Economy": 13
+    "Political_Economy": 15
   },
   "regions_scraped": 19,
   "verticals": {
