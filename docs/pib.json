@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-27T17:12:14Z",
-  "last_updated_ist": "27 Jun 2026, 10:42 PM IST",
-  "total": 147,
+  "last_updated": "2026-06-27T18:12:27Z",
+  "last_updated_ist": "27 Jun 2026, 11:42 PM IST",
+  "total": 148,
   "articles": [
     {
       "id": "d617b6f17b6424fb5ae787e566a1000a",
@@ -623,6 +623,24 @@
       "scraped_date": "2026-06-27",
       "relative_time": "Today",
       "region": "Raipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "e123763c3758ecd2fc1384ab08e48ea2",
+      "title": "SWIFT MEDICAL EVACUATION BY COAST GUARD AT LAKSHADWEEP ISLANDS",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2278523",
+      "date": "2026-06-27",
+      "scraped_date": "2026-06-27",
+      "relative_time": "Today",
+      "region": "Thiruvananthapuram",
       "verticals": [],
       "primary_vertical": "",
       "relevance_score": 0,
@@ -2834,7 +2852,7 @@
       "section": "other"
     }
   ],
-  "other_count": 110,
+  "other_count": 111,
   "vertical_counts": {
     "EoDB": 17,
     "EooDB": 17,
