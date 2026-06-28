@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-28T10:07:58Z",
-  "last_updated_ist": "28 Jun 2026, 03:37 PM IST",
-  "total": 77,
+  "last_updated": "2026-06-28T11:59:47Z",
+  "last_updated_ist": "28 Jun 2026, 05:29 PM IST",
+  "total": 78,
   "articles": [
     {
       "id": "73a25c9592625bf24549603b84d5b122",
@@ -208,6 +208,24 @@
         "ELS": 3
       },
       "section": "vertical"
+    },
+    {
+      "id": "9b22b1054a2ed130ab86a321ce8bdf48",
+      "title": "Harmonious Confluence of Tribes: Aadi Mahotsav Unveils India’s Rich Tapestry of Indigenous Heritage",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2278626",
+      "date": "2026-06-28",
+      "scraped_date": "2026-06-28",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
     },
     {
       "id": "d617b6f17b6424fb5ae787e566a1000a",
@@ -1484,7 +1502,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 59,
+  "other_count": 60,
   "vertical_counts": {
     "EoDB": 10,
     "EooDB": 10,
