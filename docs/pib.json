@@ -1,8 +1,84 @@
 {
-  "last_updated": "2026-06-28T02:50:54Z",
-  "last_updated_ist": "28 Jun 2026, 08:20 AM IST",
-  "total": 66,
+  "last_updated": "2026-06-28T07:10:35Z",
+  "last_updated_ist": "28 Jun 2026, 12:40 PM IST",
+  "total": 70,
   "articles": [
+    {
+      "id": "73a25c9592625bf24549603b84d5b122",
+      "title": "DIKSHA: Powering India's Digital Learning Ecosystem",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2278569",
+      "date": "2026-06-28",
+      "scraped_date": "2026-06-28",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "88d3e4b999a1dbdff5e5e70cb9c31f1a",
+      "title": "English rendering of PM’s address in the 135th Episode of Mann Ki Baat on 28.06.2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2278561",
+      "date": "2026-06-28",
+      "scraped_date": "2026-06-28",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5fd34de4e4cbdb558320e4dfda8c805e",
+      "title": "Union Ministry of Health and Family Welfare Proposes Amendments to Medical Devices Rules, 2017 to Streamline Licensing Process",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2278555",
+      "date": "2026-06-28",
+      "scraped_date": "2026-06-28",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "iLEAP"
+      ],
+      "primary_vertical": "iLEAP",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Draft amendments aim to reduce timelines for grant of manufacturing licences and enhance ease of doing business\nThe Ministry of Health and Family Welfare has published a draft notification in the Official Gazette proposing amendments to the Medical Devices Rules, 2017 with the objective of simplifying and expediting the licensing process for medical devices while ensuring continued compliance with quality, safety and performance requirements.\nThe proposed amendments seek to rationalize the timelines for grant of manufacturing licences for medical devices across different risk categories. The initiative is aimed at enhancing the ease of doing business, improving regulatory efficiency, and facilitating the timely availability of quality medical devices in the country.\nUnder the Medical Devices Rules, 2017, medical devices are classified into four risk-based categories—Class A, Class B, Class C and Class D—with Class D comprising the highest-risk devices. The Rules prescribe statutory timelines for processing applications for manufacturing licences for each category. The proposed amendments seek to reduce these timelines, thereby enabling faster regulatory approvals while maintaining the established standards of quality, safety and performance.\nFor Class B medical devices, which include low to moderate risk devices such as blood pressure monitors, hypodermic needles and pulse oximeters, the timeline for grant of manufacturing licence has been proposed to be reduced from 140 days to 115 days.\nSimilarly, for Class C and Class D medical devices, which include high-risk devices such as cardiac stents, hip and knee implants, and other orthopaedic implants, the timeline for grant of manufacturing licence has been proposed to be reduced from 105 days to 90 days.\nThe draft amendments also introduce clearly defined timelines for each stage of the licensing process, including scrutiny of applications, audit by notified bodies, verification of compliance and issuance of licences. This is expected to bring greater transparency, predictability and efficiency to the regulatory framework, benefiting both the medical device industry and patients through faster access to quality-assured medical devices.\nThe draft notification has been placed in the public domain for comments and suggestions from all stakeholders. The notification is available in the Official Gazette and on the website of the Central Drugs Standard Control Organisation (CDSCO). Stakeholders are invited to submit their comments and suggestions within the prescribed period.\nThe draft Gazette Notification is available at: https://egazette.gov.in/WriteReadData/2026/273896.pdf\nHFW / Amendments to Medical Devices Rules, 2017 /28 June 2026/1",
+      "summary": "Draft amendments aim to reduce timelines for grant of manufacturing licences and enhance ease of doing business The Ministry of Health and Family Welfare has published a draft notification in the Official Gazette proposing amendments to the Medical Devices Rules, 2017 with the objective of simplifying and expediting the licensing process for medical devices while ensuring continued compliance with quality, safety and performance requirements. The proposed amendments seek to rationalize the timelines for grant of manufacturing licences for medical devices across different risk categories. The initiative is aimed at enhancing the ease of doing business, improving regulatory efficiency, and facilitating the timely availability of quality medical devices in the country.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "iLEAP": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "9bc2566fc2087fcb5cb26d872e64d165",
+      "title": "Prime Minister pays homage to former PM Shri PV Narasimha Rao Ji on his birth anniversary",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2278552",
+      "date": "2026-06-28",
+      "scraped_date": "2026-06-28",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
     {
       "id": "d617b6f17b6424fb5ae787e566a1000a",
       "title": "Union Health Minister Shri J.P. Nadda to Launch Aarogya Setu 2.0 and Other Digital Initiatives for Health Sector on 29th June, 2026",
@@ -1278,12 +1354,12 @@
       "section": "vertical"
     }
   ],
-  "other_count": 50,
+  "other_count": 53,
   "vertical_counts": {
     "EoDB": 10,
     "EooDB": 10,
     "CoDED": 0,
-    "iLEAP": 3,
+    "iLEAP": 4,
     "ELS": 0,
     "Sustainability": 2,
     "Political_Economy": 2
