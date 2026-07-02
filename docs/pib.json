@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-02T15:20:42Z",
-  "last_updated_ist": "02 Jul 2026, 08:50 PM IST",
-  "total": 235,
+  "last_updated": "2026-07-02T17:42:47Z",
+  "last_updated_ist": "02 Jul 2026, 11:12 PM IST",
+  "total": 243,
   "articles": [
     {
       "id": "2ac993af74afff805cba130919cb9446",
@@ -1354,6 +1354,166 @@
       "sentiment": "up",
       "vertical_scores": {},
       "section": "other"
+    },
+    {
+      "id": "9d9a3de76ae44f4cf664d730df9bd5ff",
+      "title": "List of Outcomes: Prime Minister of Japan’s visit to India for the 16th India-Japan Annual Summit",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2280591",
+      "date": "2026-07-02",
+      "scraped_date": "2026-07-02",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "569170d2191390ad0edf94ca5ebf6f5b",
+      "title": "16th India-Japan Annual Summit Joint Statement",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2280587",
+      "date": "2026-07-02",
+      "scraped_date": "2026-07-02",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Advancing a Partnership of Strategic Convergence and Trust for Shared Growth, Prosperity and Resilience\nAt the invitation of the Prime Minister of India H.E. Shri Narendra Modi, the Prime Minister of Japan H.E. Ms. TAKAICHI Sanae paid an Official Visit to India from 1-3 July 2026 for the 16th India-Japan Annual Summit. Prime Minister Takaichi was accompanied by a high-level delegation including senior officials, CEOs and industry leaders. This was Prime Minister Takaichi’s first official visit to India.\nThe two Prime Ministers reviewed developments since the last Annual Summit and discussed a wide range of areas of cooperation to further enhance the India-Japan Special Strategic and Global Partnership. They recognized that strengthening such strategic and global cooperation between the two countries will be mutually beneficial and contribute to a resilient and prosperous Indo-Pacific and beyond.\nIn recognition of the strategic salience of the India-Japan partnership in an increasingly volatile and uncertain geopolitical environment, the two Prime Ministers reaffirmed their commitment to developing a mutually complementary relationship. Building upon the success of the 15th India-Japan Annual Summit, they concurred on advancing cooperation based on three priority areas: defence and security cooperation; economic partnership including economic security, energy resilience, technology, and innovation; and people-to-people exchanges. They shared the view that India and Japan are natural and indispensable partners in their efforts to realize respective national interests.\nThe two Prime Ministers reiterated that as leading democracies and major economies of the world, they have a duty to shape and uphold an international order which is free, open and based on the rule of law. To this end, Prime Minister Modi welcomed the updated “Free and Open Indo-Pacific (FOIP)” and shared that it closely aligns with the Indo-Pacific Oceans’ Initiative (IPOI) and Mutual And Holistic Advancement for Security And Growth Across Regions (MAHASAGAR). They reiterated their commitment to further deepen concrete cooperation based on their common strategic outlook.\nThe two Prime Ministers expressed deep satisfaction that bilateral defence and security cooperation is on an upward trajectory and reaffirmed their commitment to deepening cooperation based on the Joint Declaration on Security Cooperation, adopted at the last Annual Summit. They directed their Ministers to hold the fourth round of the 2+2 Ministerial Meeting in Tokyo by the end of this year. They welcomed the progress made in the cooperation among the respective services, including the successful conduct of the naval exercise “JAIMEX 25”, supported by the two services on the Japanese side. India welcomed Japan's participation at the International Fleet Review 2026 held in Vishakhapatnam. They concurred on deepening maritime security cooperation through enhanced exercises, maritime domain awareness using satellite ca",
+      "summary": "Advancing a Partnership of Strategic Convergence and Trust for Shared Growth, Prosperity and Resilience At the invitation of the Prime Minister of India H.E. Shri Narendra Modi, the Prime Minister of Japan H.E. TAKAICHI Sanae paid an Official Visit to India from 1-3 July 2026 for the 16th India-Japan Annual Summit.",
+      "sentiment": "neutral",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "62db0da80ff47c85033c76fe4b44ac02",
+      "title": "India-Japan Joint Statement on cooperation in the field of Artificial Intelligence (AI)",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2280583",
+      "date": "2026-07-02",
+      "scraped_date": "2026-07-02",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "a0844ef5060395ec65dbea00e29cb751",
+      "title": "Joint Statement between Ministry of Petroleum and Natural Gas of the Republic of India and the Ministry of Economy, Trade, and Industry of Japan on Energy Resilience",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2280580",
+      "date": "2026-07-02",
+      "scraped_date": "2026-07-02",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "52267bbdfc18b98a3fb267126fecffb8",
+      "title": "English Translation of Prime Minister Narendra Modi’s Address at the India-Japan Business Forum",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2280577",
+      "date": "2026-07-02",
+      "scraped_date": "2026-07-02",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "5e66d6125fd44d8dbfd27d9fd4f30af1",
+      "title": "NITI Aayog launches report on \"Strategic Roadmap for Making Ayurveda Global\"",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2280540",
+      "date": "2026-07-02",
+      "scraped_date": "2026-07-02",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "NITI Aayog released a report titled \"Strategic Roadmap for Making Ayurveda Global\" on 2 nd July 2026, which presents a comprehensive assessment of Ayurveda's global footprint and outlines a phased roadmap for making Ayurveda global.\nThe report was launched by Dr. Ashok Kumar Lahiri, Vice Chairman, NITI Aayog , in the presence of Prof. (Dr.) M. Srinivas, Member, NITI Aayog , and Vaidya Rajesh Kotecha, Secretary, Ministry of Ayush , Senior officials from NITI Aayog, Ministry of Ayush, Ministry of External Affairs, government bodies, research bodies, industry associations, and other stakeholders.\nSpeaking on the occasion, Shri Ashok Kumar Lahiri, Vice Chairman, NITI Aayog , stated that the globalization of Ayurveda presents a unique opportunity to establish India as a global leader in traditional medicine while unlocking substantial economic value, creating employment, strengthening exports, and reinforcing India's cultural and knowledge-based soft power. He emphasized that realizing this vision would require a whole-of-government approach to ensure coordinated and time-bound implementation.\nProf. (Dr.) M. Srinivas, Member, NITI Aayog , emphasized that the globalization of Ayurveda is not merely about expanding markets or increasing exports. At its core, it is about improving health outcomes and offering people across the world additional evidence-based options for achieving healthier and more fulfilling lives while advancing the vision of “सर्वे भवन्तु सुखिनः”.\nVaidya Rajesh Kotecha , Secretary, Ministry of Ayush , highlighted the major initiatives undertaken by the Ministry to promote the global acceptance of Ayurveda and the substantial progress achieved during the past decade. He stated that the report's recommendations would complement the Ministry's efforts and provide renewed momentum for establishing Ayurveda as a globally recognized system of healthcare.\nMr. Acquino Vimal, Additional Secretary (UNES), Ministry of External Affairs, highlighted the progress made in advancing the globalization of Ayurveda through India's international engagements and partnerships.\nThe study was undertaken by the Health Division of NITI Aayog in collaboration with PricewaterhouseCoopers (PwC) . It draws upon extensive stakeholder consultations, international benchmarking, and evidence-based analysis to identify opportunities and challenges in the globalization of Ayurveda.\nThe report adopts a three-pillar framework encompassing:\n• Availability – Globalized practice and workforce, global exports and manufacturing, international research & development, and standardized global education.\n• Acceptability – Compliance to regulations and guidelines, international collaborations (academic & industrial), insurance coverage, and localization & cultural adaptability.\n• Propagation – Strategic brand positioning, global visibility and promotions, medical value travel and presence in global bodies.\nThe report proposes a phased strategy extending up to 2047 , aligned with th",
+      "summary": "NITI Aayog released a report titled \"Strategic Roadmap for Making Ayurveda Global\" on 2 nd July 2026, which presents a comprehensive assessment of Ayurveda's global footprint and outlines a phased roadmap for making Ayurveda global. Ashok Kumar Lahiri, Vice Chairman, NITI Aayog , in the presence of Prof. Srinivas, Member, NITI Aayog , and Vaidya Rajesh Kotecha, Secretary, Ministry of Ayush , Senior officials from NITI Aayog, Ministry of Ayush, Ministry of External Affairs, government bodies, research bodies, industry associations, and other stakeholders.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
+    },
+    {
+      "id": "3a4648dbf95b769ea5d390db0087590b",
+      "title": "SHRI SANOJ KUMAR JHA, IAS, ASSUMES ADDITIONAL CHARGE AS CHAIRMAN AND MANAGING DIRECTOR OF NLC INDIA LIMITED",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2280544",
+      "date": "2026-07-02",
+      "scraped_date": "2026-07-02",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "vertical_scores": {},
+      "section": "other"
+    },
+    {
+      "id": "055999c96f35de727c8bf936bf5f56af",
+      "title": "Four Panchayati Raj-related Initiatives, including Panchayat Advancement Index of MoPR, Win National Awards for e-Governance 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2280542",
+      "date": "2026-07-02",
+      "scraped_date": "2026-07-02",
+      "relative_time": "Today",
+      "region": "Jaipur",
+      "verticals": [
+        "Political_Economy"
+      ],
+      "primary_vertical": "Political_Economy",
+      "relevance_score": 3,
+      "snippet": "",
+      "full_content": "Four Panchayati Raj-related initiatives, including the Panchayat Advancement Index (PAI) of the Ministry of Panchayati Raj, were conferred National Awards for e-Governance (NAeG) 2026 today at the 29th National Conference on e-Governance (NCeG), held at the Rajasthan International Centre, Jaipur. The awards were presented by Dr. Jitendra Singh, Union Minister of State (Independent Charge) for Science & Technology, Earth Sciences, and Personnel, Public Grievances and Pensions, in the presence of Col. Rajyavardhan Rathore, Minister of Information Technology and Communications, Government of Rajasthan, and Shri V. Srinivas, Chief Secretary, Government of Rajasthan.\nA total of 17 National Awards were conferred this year, comprising 10 Gold, 6 Silver and 1 Jury Award, across various categories of e-Governance excellence. Of these, four were won by the Panchayati Raj ecosystem:\n• Gold: Panchayat Advancement Index (PAI), Ministry of Panchayati Raj, under “Digital Transformation through Use of Data Analytics”\n• Gold: Kadepur Gram Panchayat, Maharashtra\n• Silver: Bijaynagar Gram Panchayat, Tripura\n• Gold: Zilla Parishad Nandurbar, Maharashtra, for its e-Aarogya Dhamani initiative\nNotably, the dedicated Gram Panchayat award category under NAeG was instituted in 2025 at the specific advocacy of the Ministry of Panchayati Raj, in recognition of the growing digital maturity of Gram Panchayats and the need to showcase innovation emerging directly from the grassroots. The performance of Kadepur and Bijaynagar Gram Panchayats this year reflects the significant success of that initiative. This year’s NAeG process saw participation from over 1,65,000 Gram Panchayats across 30 States, underlining the scale and reach of digital governance at the grassroots.\nA day earlier, on July 1, 2026, during Breakout Session III, “Grassroots Governance: Digital, Decentralised, Data Driven”, Secretary, Ministry of Panchayati Raj, Shri Vivek Bharadwaj, had said that such digital initiatives reflect a sustained transformation bringing government services to every citizen’s doorstep and making Panchayats more transparent, accountable and responsive. He described PAI, covering nearly 2.5 lakh Gram Panchayats and aligned with the nine Localised Sustainable Development Goals (LSDGs), as India’s first comprehensive data-driven performance assessment framework for local governance, enabling evidence-based planning, benchmarking and transparent, data-driven decision-making.\nAlso on July 1, 2026, at Breakout Session IV on Excellence in e-Governance Initiatives by Gold Awardees of NAeG 2026, Shri Sushil Kumar Lohani, Additional Secretary, Ministry of Panchayati Raj, had highlighted such digital governance initiatives as scalable, replicable models for Panchayati Raj Institutions nationwide.\nThe Ministry reaffirmed its commitment to strengthening digital public infrastructure for Panchayati Raj Institutions through platforms such as eGramSwaraj, Meri Panchayat, AuditOnline, Panchayat NIRNAY,",
+      "summary": "Four Panchayati Raj-related initiatives, including the Panchayat Advancement Index (PAI) of the Ministry of Panchayati Raj, were conferred National Awards for e-Governance (NAeG) 2026 today at the 29th National Conference on e-Governance (NCeG), held at the Rajasthan International Centre, Jaipur. Jitendra Singh, Union Minister of State (Independent Charge) for Science & Technology, Earth Sciences, and Personnel, Public Grievances and Pensions, in the presence of Col. Rajyavardhan Rathore, Minister of Information Technology and Communications, Government of Rajasthan, and Shri V.",
+      "sentiment": "up",
+      "vertical_scores": {
+        "Political_Economy": 3
+      },
+      "section": "vertical"
     },
     {
       "id": "4c8c20c18bae4c2fcbf961406cffb0eb",
@@ -4502,7 +4662,7 @@
       "section": "other"
     }
   ],
-  "other_count": 180,
+  "other_count": 184,
   "vertical_counts": {
     "EoDB": 21,
     "EooDB": 21,
@@ -4510,7 +4670,7 @@
     "iLEAP": 4,
     "ELS": 8,
     "Sustainability": 6,
-    "Political_Economy": 17
+    "Political_Economy": 21
   },
   "regions_scraped": 21,
   "verticals": {
