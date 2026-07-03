@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-03T16:03:37Z",
-  "last_updated_ist": "03 Jul 2026, 09:33 PM IST",
-  "total": 228,
+  "last_updated": "2026-07-03T17:26:41Z",
+  "last_updated_ist": "03 Jul 2026, 10:56 PM IST",
+  "total": 231,
   "articles": [
     {
       "id": "01054cb90a25cdbea8f18c8509f3d573",
@@ -1281,6 +1281,66 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "b9696958e3cb293eedee39f92ff42304",
+      "title": "Union Minister for Finance & Corporate Affairs Smt. Nirmala Sitharaman and H.E. Mr. Roland Lescure, Minister of Economy, Finance, Industrial, Energy, and Digital Sovereignty of France, co-chair India-France Economic & Financial Dialogue (EFD) in Aix-en-Provence",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2280965",
+      "date": "2026-07-03",
+      "scraped_date": "2026-07-03",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Corporate_Advisory",
+        "General"
+      ],
+      "primary_vertical": "Corporate_Advisory",
+      "sub_verticals": [],
+      "tier": "primary",
+      "relevance_score": 9.0,
+      "snippet": "",
+      "full_content": "India and France discuss potential areas for greater bilateral cooperation in critical minerals, economic sovereignty and security policies, and further enhance the financial industries connect between India and France\nSmt. Nirmala Sitharaman, Union Minister for Finance & Corporate Affairs of India, and H.E. Mr. Roland Lescure, Minister of Economy, Finance, Industrial, Energy, and Digital Sovereignty of France, today co-chaired the India-France Economic and Financial Dialogue (EFD) in Aix-en-Provence.\nAs the economic relationship between India and France deepens within the broader framework of the special global strategic partnership, resuming high-level exchanges on international outlook, bilateral cooperation and outcome-oriented solutions had become essential.\nDuring the visit of President of the French Republic H.E. Mr. Emmanuel Macron to India in February 2026, and the Prime Minister of the Republic of India, Shri Narendra Modi, committed to holding the dialogue in 2026.\nDuring this dialogue, India and France have discussed:\n• The search for greater alignment of India-France positions within multilateral economic platforms such as the G20 and the Paris Club, in the context of India’s association to the French G7 presidency. Both Ministers also exchanged views on the world economic outlook.\n• Potential areas for greater bilateral cooperation, for instance the roll-out of the India-France cooperation on critical minerals as part of a greater discussion between India and France on policies towards economic sovereignty and security; ways to increase cross-investments; opportunities in the high-speed railway sector following-on from the signature of the declaration of intent on railways.\n• Proposals to further connect the financial industries between India and France.\nBoth the Ministers also recognised the value of the French Development Agency’s work in India for economic development and welcomed the prospects for future projects.\nThe Ministers have pledged to use the economic and financial dialogue as the main platform for addressing economic, financial, technological, investment and trade matters between India and France. Both Ministers agreed on exploring the possibility of holding the next edition of the dialogue in 2027.",
+      "summary": "India and France discuss potential areas for greater bilateral cooperation in critical minerals, economic sovereignty and security policies, and further enhance the financial industries connect between India and France Smt. Nirmala Sitharaman, Union Minister for Finance & Corporate Affairs of India, and H.E. Roland Lescure, Minister of Economy, Finance, Industrial, Energy, and Digital Sovereignty of France, today co-chaired the India-France Economic and Financial Dialogue (EFD) in Aix-en-Provence.",
+      "sentiment": "neutral",
+      "section": "vertical"
+    },
+    {
+      "id": "dda40c0792fd54c5a2221e8f66f32b7a",
+      "title": "NHAI undertakes immediate remedial measures at Mahalaxmi Bridge to ensure Safe Traffic Movement",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2280931",
+      "date": "2026-07-03",
+      "scraped_date": "2026-07-03",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "0d6196f259943915f2e77376d0f204ac",
+      "title": "BIS OFFICIALS CONDUCTED RAID AT WATER PURIFIER MANUFACTURING UNITS IN COIMBATORE",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2280958",
+      "date": "2026-07-03",
+      "scraped_date": "2026-07-03",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -4639,13 +4699,13 @@
       "tier": "drop"
     }
   ],
-  "other_count": 212,
+  "other_count": 214,
   "vertical_counts": {
-    "General": 10,
+    "General": 11,
     "CoDED": 1,
     "ELS": 5,
     "Environmental_Health": 4,
-    "Corporate_Advisory": 5,
+    "Corporate_Advisory": 6,
     "Government_Practice": 1
   },
   "regions_scraped": 21,
