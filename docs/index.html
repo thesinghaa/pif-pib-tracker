@@ -1045,7 +1045,7 @@ async function loadData() {
     verticalsMeta = data.verticals || {};
     document.getElementById('last-updated').textContent =
       data.last_updated_ist || data.last_updated || '—';
-    document.getElementById('total-count').textContent = allArticles.length;
+    document.getElementById('total-count').textContent = windowedArticles().length;
     buildFilters();
     buildRegions(data.regions || {});
     buildTicker();
@@ -1059,16 +1059,17 @@ async function loadData() {
 
 /* ── FILTERS ────────────────────────────────────────────────── */
 function buildFilters() {
-  const c = document.getElementById('vertical-filters');
+  const c    = document.getElementById('vertical-filters');
+  const pool = windowedArticles();  // count only what the list can show
   c.innerHTML = '';
-  c.appendChild(makeFilterBtn('all', 'All', allArticles.length, '#ed691f', '237,105,31', true));
+  c.appendChild(makeFilterBtn('all', 'All', pool.length, '#ed691f', '237,105,31', true));
 
   Object.keys(verticalsMeta).forEach(vid => {
-    const cnt = allArticles.filter(a => a.primary_vertical === vid).length;
+    const cnt = pool.filter(a => a.primary_vertical === vid).length;
     c.appendChild(makeFilterBtn(vid, shortLabel(vid), cnt, color(vid), colorRGB(vid), false));
   });
 
-  const otherCnt = allArticles.filter(a => !a.primary_vertical || a.section === 'other').length;
+  const otherCnt = pool.filter(a => !a.primary_vertical || a.section === 'other').length;
   c.appendChild(makeFilterBtn('other', 'Other', otherCnt, VCOL_OTHER, hexToRgb(VCOL_OTHER), false));
 }
 
@@ -1094,7 +1095,7 @@ function setVertical(vid, lbl) {
 
 function buildRegions(regMeta) {
   const sel = document.getElementById('region-select');
-  const regions = [...new Set(allArticles.map(a => a.region).filter(Boolean))].sort();
+  const regions = [...new Set(windowedArticles().map(a => a.region).filter(Boolean))].sort();
   regions.forEach(r => {
     const o = document.createElement('option');
     o.value = r; o.textContent = r;
@@ -1106,7 +1107,7 @@ function buildRegions(regMeta) {
 /* ── TICKER ─────────────────────────────────────────────────── */
 function buildTicker() {
   const el  = document.getElementById('ticker-content');
-  const top = allArticles.slice(0, 20);
+  const top = windowedArticles().slice(0, 20);
   const html = top.map(a =>
     `<a href="${esc(a.url || '#')}" target="_blank" rel="noopener">${esc(a.title)}</a><span class="ticker-sep"> · </span>`
   ).join('');
@@ -1140,16 +1141,20 @@ function allowedISTDates() {
 }
 
 /* ── FILTER LOGIC ────────────────────────────────────────────── */
-function getFiltered() {
+// Articles the page can ever show: publication date (or scraped_date)
+// inside the 3-day IST window, never future-dated. Chip counts and the
+// header total must use this same base or they overcount hidden articles.
+function windowedArticles() {
   const allowed = allowedISTDates();
   const today   = todayISTStr();
   return allArticles.filter(a => {
-    // Use publication date; fall back to scraped_date (scraper v4+) if missing.
-    // Articles with no resolvable date, or outside the 3-day IST window, are hidden.
     const articleDate = a.date || a.scraped_date || '';
-    if (!articleDate || !allowed.has(articleDate)) return false;
-    if (articleDate > today) return false; // never show future-dated articles
+    return articleDate && allowed.has(articleDate) && articleDate <= today;
+  });
+}
 
+function getFiltered() {
+  return windowedArticles().filter(a => {
     const pv = a.primary_vertical || '';
     if (activeV === 'other') {
       if (pv && a.section !== 'other') return false;
@@ -1264,9 +1269,10 @@ function updateStats(filtered) {
 function initGSAP() {
   gsap.from('.masthead',      { y:-6, opacity:0, duration:0.28, ease:'power2.out' });
   gsap.from('.filter-ribbon', { y:-8, opacity:0, duration:0.35, ease:'power2.out', delay:0.08 });
-  const total     = allArticles.length;
-  const regions   = new Set(allArticles.map(a=>a.region)).size;
-  const verticals = new Set(allArticles.map(a=>a.primary_vertical).filter(Boolean)).size;
+  const pool      = windowedArticles();
+  const total     = pool.length;
+  const regions   = new Set(pool.map(a=>a.region)).size;
+  const verticals = new Set(pool.map(a=>a.primary_vertical).filter(Boolean)).size;
   countUp('stat-total',     total,     0.3);
   countUp('stat-regions',   regions,   0.4);
   countUp('stat-verticals', verticals, 0.5);
