@@ -534,11 +534,24 @@ def merge_releases(existing: list, fresh: list) -> list:
     # ── REFRESH: re-stamp relative_time on every surviving article so that
     #    "Today" correctly becomes "Yesterday" on subsequent scraper runs.
     #    Also backfill scraped_date for legacy articles that predate this field.
+    #    Re-run match_article() against the stored text so any article tagged
+    #    under a since-retired vertical id (e.g. a pre-restructure scheme)
+    #    self-heals onto the current taxonomy within the 3-day window instead
+    #    of lingering until it ages out.
     for r in existing:
         r["relative_time"] = relative_time(r.get("date", ""))
         if "scraped_date" not in r:
             # Backfill: treat publication date as scraped_date for legacy articles
             r["scraped_date"] = r.get("date", today_ist)
+
+        rescored = match_article(r.get("title", ""), r.get("snippet", ""),
+                                  (r.get("full_content") or "")[:1500])
+        r["verticals"]        = rescored["verticals"]
+        r["primary_vertical"] = rescored["verticals"][0] if rescored["verticals"] else ""
+        r["sub_verticals"]    = rescored.get("sub_verticals", [])
+        r["tier"]             = rescored["tier"]
+        r["relevance_score"]  = rescored["relevance_score"]
+        r["section"]          = "vertical" if rescored["verticals"] else "other"
 
     by_id = {r["id"]: r for r in existing}
     added = 0
