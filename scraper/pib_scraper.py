@@ -33,6 +33,7 @@ import os
 import hashlib
 import re
 import ssl
+import sys
 import time
 import urllib.request
 import warnings
@@ -40,6 +41,11 @@ from datetime import datetime, timedelta, timezone
 
 import requests
 from bs4 import BeautifulSoup
+
+# ── Shared vertical taxonomy + scoring engine (kept in sync with
+#    pif-news-aggregator/scraper/scraper_core.py) ──────────────
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from scraper_core import VERTICALS, match_article
 try:
     import pytz
     IST = pytz.timezone("Asia/Kolkata")
@@ -115,125 +121,11 @@ PIB_RSS_FEEDS = {
 }
 
 # ─────────────────────────────────────────────
-# PIF VERTICALS & KEYWORDS
+# PIF VERTICALS & SCORING — imported from scraper_core (see top of file).
+# The 6-vertical taxonomy (General, CoDED, ELS, Environmental_Health,
+# Corporate_Advisory, Government_Practice) and match_article() are shared
+# with pif-news-aggregator so both trackers classify identically.
 # ─────────────────────────────────────────────
-VERTICALS = {
-    "EoDB": {
-        "label": "Ease of Doing Business & Export-Led Manufacturing",
-        "color": "#E8620A",
-        "emoji": "🏭",
-        "keywords": [
-            "msme", "pli", "ease of doing business", "make in india",
-            "fta", "export", "manufacturing", "gst", "investment",
-            "startup", "semiconductor", "logistics", "import duty",
-            "anti-dumping", "wto", "sez", "regulatory reform",
-            "dpiit", "commerce", "production linked incentive",
-            "free trade agreement", "special economic zone",
-            "foreign direct investment", "fdi", "industrial corridor",
-            "trade policy", "customs duty", "business reform",
-            "industrial policy", "msme credit", "udyam",
-        ]
-    },
-    "EooDB": {
-        "label": "Ease of Doing Business & Export-Led Manufacturing",
-        "color": "#E8620A",
-        "emoji": "🏭",
-        "keywords": [
-            "msme", "pli", "ease of doing business", "make in india",
-            "fta", "export", "manufacturing", "gst", "investment",
-            "startup", "semiconductor", "logistics", "import duty",
-            "anti-dumping", "wto", "sez", "regulatory reform",
-            "dpiit", "commerce", "production linked incentive",
-            "free trade agreement", "special economic zone",
-            "foreign direct investment", "fdi", "industrial corridor",
-            "trade policy", "customs duty", "business reform",
-            "industrial policy", "msme credit", "udyam",
-        ]
-    },
-    "CoDED": {
-        "label": "Center of Data for Economic Decision-Making",
-        "color": "#2471A3",
-        "emoji": "📊",
-        "keywords": [
-            "gdp", "mospi", "nso", "inflation", "cpi", "wpi", "iip",
-            "plfs", "economic survey", "census", "statistical",
-            "economic data", "economic growth", "national accounts",
-            "base year", "economic indicators", "national statistical",
-            "consumer price index", "wholesale price index",
-            "index of industrial production", "labour force survey",
-            "gross domestic product", "economic census",
-            "data governance", "national data", "data policy",
-        ]
-    },
-    "iLEAP": {
-        "label": "Mitigating Lead Poisoning (i-LEAP)",
-        "color": "#C0392B",
-        "emoji": "🩺",
-        "keywords": [
-            "lead poisoning", "lead paint", "lead exposure",
-            "public health", "ayushman", "maternal health",
-            "malnutrition", "vaccination", "air pollution", "icmr",
-            "health budget", "health policy", "cervical cancer",
-            "poshan", "anaemia", "immunisation", "generic medicine",
-            "jan aushadhi", "tobacco", "mental health",
-            "health scheme", "ministry of health", "healthcare",
-            "child health", "immunization", "health program",
-            "pm2.5", "non communicable disease", "ncd",
-            "nhm", "national health mission", "aiims",
-        ]
-    },
-    "ELS": {
-        "label": "Employment & Livelihood Systems (ELS)",
-        "color": "#7D3C98",
-        "emoji": "💼",
-        "keywords": [
-            "employment", "nrega", "mgnregs", "gig workers",
-            "women workforce", "skill development", "pmkvy",
-            "informal sector", "shg", "labour", "minimum wage",
-            "mudra", "rozgar", "unemployment", "vocational",
-            "job creation", "livelihood", "self help group",
-            "skill india", "women employment", "female workforce",
-            "pradhan mantri kaushal", "labour market",
-            "e-shram", "esic", "epfo", "lakhpati didi",
-        ]
-    },
-    "Sustainability": {
-        "label": "Sustainability, Climate & Environment",
-        "color": "#1E8449",
-        "emoji": "🌱",
-        "keywords": [
-            "climate", "renewable energy", "solar", "net zero",
-            "electric vehicle", "green hydrogen", "air pollution",
-            "water", "waste management", "swachh bharat",
-            "energy transition", "carbon", "forest", "biodiversity",
-            "mnre", "environment", "pollution control",
-            "clean energy", "climate change", "energy efficiency",
-            "green energy", "wind energy", "ev charging",
-            "pm surya ghar", "national clean air", "biofuel",
-            "ncap", "emission", "greenhouse gas",
-        ]
-    },
-    "Political_Economy": {
-        "label": "Political Economy & Governance",
-        "color": "#117A65",
-        "emoji": "🏛️",
-        "keywords": [
-            "governance", "policy reform", "parliament", "federalism",
-            "foreign policy", "niti aayog", "disinvestment", "election",
-            "bilateral", "diplomacy", "cabinet", "legislation",
-            "lok sabha", "rajya sabha", "administrative reform",
-            "public administration", "institutional reform",
-            "state capacity", "decentralisation", "psu reform",
-            "cooperative federalism", "centre state",
-            "summit", "g20", "g7", "prime minister visit",
-        ]
-    },
-}
-
-KEYWORD_MAP = {
-    vid: sorted(vdata["keywords"], key=len, reverse=True)
-    for vid, vdata in VERTICALS.items()
-}
 
 # PIB page date stamp: "22 APR 2026 4:00PM by PIB Delhi"
 # The "Posted On:" label appears in regional languages (Telugu, Meitei, etc.)
@@ -258,32 +150,6 @@ def clean_text(raw: str) -> str:
         return ""
     text = BeautifulSoup(raw, "html.parser").get_text(separator=" ")
     return re.sub(r"\s+", " ", text).strip()[:SNIPPET_LENGTH]
-
-def score_release(title: str, snippet: str) -> dict:
-    title_low   = title.lower()
-    snippet_low = snippet.lower()
-    scores: dict = {}
-
-    for vertical, keywords in KEYWORD_MAP.items():
-        score = 0
-        for kw in keywords:
-            if len(kw) <= 4 and " " not in kw:
-                pat = r"\b" + re.escape(kw) + r"\b"
-                in_title   = bool(re.search(pat, title_low))
-                in_snippet = bool(re.search(pat, snippet_low))
-            else:
-                in_title   = kw in title_low
-                in_snippet = kw in snippet_low
-
-            if in_title:
-                score += 3
-            elif in_snippet:
-                score += 1
-
-        if score > 0:
-            scores[vertical] = score
-
-    return scores
 
 def parse_rss_date(entry) -> tuple:
     today = datetime.now(timezone.utc)
@@ -367,11 +233,6 @@ def relative_time(date_str: str) -> str:
         return datetime.strptime(date_str, "%Y-%m-%d").strftime("%d %b %Y")
     except ValueError:
         return "Recently"
-
-def primary_vertical(scores: dict) -> str:
-    if not scores:
-        return ""
-    return max(scores, key=scores.get)
 
 def to_ist(dt: datetime) -> str:
     if _HAS_PYTZ:
@@ -540,9 +401,8 @@ def scrape_all_regions() -> list:
                     total_skipped += 1
                     continue
 
-                # ── SCORING ──────────────────────────────────────────────
-                scores      = score_release(title, snippet)
-                total_score = sum(scores.values())
+                # ── SCORING (quick pass: title + RSS snippet only) ────────
+                quick = match_article(title, snippet)
 
                 # ── CONTENT FETCH ────────────────────────────────────────
                 # Matched articles: always fetch (full content + posted_date).
@@ -554,9 +414,9 @@ def scrape_all_regions() -> list:
 
                 prid_gap_for_article = (feed_prid_max - prid) if (feed_prid_max > 0 and prid > 0) else 0
 
-                if scores:
-                    log.info("  [MATCH] %s | %s score=%d",
-                             title[:60], list(scores.keys()), total_score)
+                if quick["verticals"]:
+                    log.info("  [MATCH] %s | %s score=%.1f",
+                             title[:60], quick["verticals"], quick["relevance_score"])
                     full_content, posted_date = fetch_full_content(url)
                     total_matched += 1
                     time.sleep(0.3)
@@ -599,6 +459,11 @@ def scrape_all_regions() -> list:
                     total_skipped += 1
                     continue
 
+                # ── FINAL SCORING (title + snippet + full body, when fetched) ──
+                # Body text sharpens vertical assignment and can surface
+                # sub_verticals (iLEAP / PAVANA) that the RSS snippet alone missed.
+                final = match_article(title, snippet, full_content[:1500]) if full_content else quick
+
                 # ── BUILD RELEASE RECORD ─────────────────────────────────
                 release = {
                     "id":               uid,
@@ -612,15 +477,16 @@ def scrape_all_regions() -> list:
                     "scraped_date":     ist_date_today(),
                     "relative_time":    relative_time(date_str),
                     "region":           region_name,
-                    "verticals":        sorted(scores.keys()),
-                    "primary_vertical": primary_vertical(scores),
-                    "relevance_score":  total_score,
+                    "verticals":        final["verticals"],
+                    "primary_vertical": final["verticals"][0] if final["verticals"] else "",
+                    "sub_verticals":    final.get("sub_verticals", []),
+                    "tier":             final["tier"],
+                    "relevance_score":  final["relevance_score"],
                     "snippet":          snippet,
                     "full_content":     full_content,
                     "summary":          extract_summary(full_content, snippet),
                     "sentiment":        detect_sentiment(title, snippet),
-                    "vertical_scores":  scores,
-                    "section":          "vertical" if scores else "other",
+                    "section":          "vertical" if final["verticals"] else "other",
                 }
 
                 all_releases.append(release)
@@ -668,11 +534,24 @@ def merge_releases(existing: list, fresh: list) -> list:
     # ── REFRESH: re-stamp relative_time on every surviving article so that
     #    "Today" correctly becomes "Yesterday" on subsequent scraper runs.
     #    Also backfill scraped_date for legacy articles that predate this field.
+    #    Re-run match_article() against the stored text so any article tagged
+    #    under a since-retired vertical id (e.g. a pre-restructure scheme)
+    #    self-heals onto the current taxonomy within the 3-day window instead
+    #    of lingering until it ages out.
     for r in existing:
         r["relative_time"] = relative_time(r.get("date", ""))
         if "scraped_date" not in r:
             # Backfill: treat publication date as scraped_date for legacy articles
             r["scraped_date"] = r.get("date", today_ist)
+
+        rescored = match_article(r.get("title", ""), r.get("snippet", ""),
+                                  (r.get("full_content") or "")[:1500])
+        r["verticals"]        = rescored["verticals"]
+        r["primary_vertical"] = rescored["verticals"][0] if rescored["verticals"] else ""
+        r["sub_verticals"]    = rescored.get("sub_verticals", [])
+        r["tier"]             = rescored["tier"]
+        r["relevance_score"]  = rescored["relevance_score"]
+        r["section"]          = "vertical" if rescored["verticals"] else "other"
 
     by_id = {r["id"]: r for r in existing}
     added = 0

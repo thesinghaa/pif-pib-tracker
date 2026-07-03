@@ -488,6 +488,14 @@
     .sentiment.up   { color:#4ade80; }
     .sentiment.down { color:#f87171; }
 
+    /* Sub-vertical badge (iLEAP / PAVANA) — small filled pill */
+    .subtag {
+      font-family:'DM Mono',monospace; font-size:0.5rem; font-weight:500;
+      letter-spacing:0.05em; text-transform:uppercase;
+      color:#fff; background:var(--card-accent,#C0392B);
+      border-radius:3px; padding:1px 5px; margin-left:4px;
+    }
+
     /* empty / loading */
     #empty-state, #loading {
       padding:4rem 2rem; text-align:center;
@@ -1046,39 +1054,30 @@
 
 <script>
 /* ── VERTICAL METADATA ──────────────────────────────────────── */
-const VCOL = {
-  EoDB:             '#E8620A',
-  EooDB:            '#E8620A',  /* data key alias */
-  CoDED:            '#2471A3',
-  iLEAP:            '#C0392B',
-  ELS:              '#7D3C98',
-  Jobs_Livelihood:  '#7D3C98',
-  Sustainability:   '#1E8449',
-  Political_Economy:'#0E7490',
-  other:            '#4a5568',
-};
-const VCOL_RGB = {
-  EoDB:             '232,98,10',
-  EooDB:            '232,98,10',  /* data key alias */
-  CoDED:            '36,113,163',
-  iLEAP:            '192,57,43',
-  ELS:              '125,60,152',
-  Jobs_Livelihood:  '125,60,152',
-  Sustainability:   '30,132,73',
-  Political_Economy:'14,116,144',
-  other:            '74,85,104',
-};
+// Colors/labels come from pib.json's `verticals` meta, written by the
+// shared scraper_core.VERTICALS taxonomy (kept in sync with
+// pif-news-aggregator's docs/index.html — same 6 verticals, same colors).
+const VCOL_OTHER = '#4a5568';
 
-function normalise(v) {
-  if (!v) return 'other';
-  if (v === 'Jobs_Livelihood') return 'ELS';
-  if (v === 'Political_Economy') return 'Pol. Economy';
-  if (v === 'EooDB') return 'EoDB';
-  if (v === 'iLEAP') return 'i-LEAP';
-  return v;
+function hexToRgb(hex) {
+  const m = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex || '');
+  return m ? `${parseInt(m[1],16)},${parseInt(m[2],16)},${parseInt(m[3],16)}` : '74,85,104';
 }
-function color(v)    { return VCOL[v]     || VCOL[normalise(v)]     || VCOL.other; }
-function colorRGB(v) { return VCOL_RGB[v] || VCOL_RGB[normalise(v)] || VCOL_RGB.other; }
+
+function shortLabel(vid) {
+  if (!vid || vid === 'other') return 'Other';
+  const lbl = (verticalsMeta[vid] || {}).label || vid;
+  return lbl
+    .replace(/General.*/i,                     'General')
+    .replace(/Centre for Data.*/i,             'CoDED')
+    .replace(/Employment\s*&\s*Livelihood.*/i, 'ELS')
+    .replace(/Environmental Health.*/i,        'Env. Health')
+    .replace(/Corporate Advisory.*/i,          'Corp. Advisory')
+    .replace(/Government Practice.*/i,         'Govt. Practice');
+}
+function normalise(v) { return shortLabel(v); }
+function color(v)    { return (v && v !== 'other' && (verticalsMeta[v]||{}).color) || VCOL_OTHER; }
+function colorRGB(v) { return hexToRgb(color(v)); }
 
 /* ── STATE ──────────────────────────────────────────────────── */
 let allArticles   = [];
@@ -1115,22 +1114,13 @@ function buildFilters() {
   c.innerHTML = '';
   c.appendChild(makeFilterBtn('all', 'All', allArticles.length, '#ed691f', '237,105,31', true));
 
-  const seen = new Set();
-  Object.entries(verticalsMeta).forEach(([vid, meta]) => {
-    const normId = vid === 'Jobs_Livelihood' ? 'ELS' : vid;
-    if (seen.has(normId)) return;
-    seen.add(normId);
-    const cnt = allArticles.filter(a => {
-      const pv = a.primary_vertical;
-      return pv === vid || (normId === 'ELS' && pv === 'Jobs_Livelihood');
-    }).length;
-    const lbl = normId === 'Political_Economy' ? 'Pol. Economy' : normId === 'EooDB' ? 'EoDB' : normId === 'iLEAP' ? 'i-LEAP' : normId;
-    c.appendChild(makeFilterBtn(vid, lbl, cnt,
-      VCOL[vid]||VCOL.other, VCOL_RGB[vid]||VCOL_RGB.other, false));
+  Object.keys(verticalsMeta).forEach(vid => {
+    const cnt = allArticles.filter(a => a.primary_vertical === vid).length;
+    c.appendChild(makeFilterBtn(vid, shortLabel(vid), cnt, color(vid), colorRGB(vid), false));
   });
 
   const otherCnt = allArticles.filter(a => !a.primary_vertical || a.section === 'other').length;
-  c.appendChild(makeFilterBtn('other', 'Other', otherCnt, VCOL.other, VCOL_RGB.other, false));
+  c.appendChild(makeFilterBtn('other', 'Other', otherCnt, VCOL_OTHER, hexToRgb(VCOL_OTHER), false));
 }
 
 function makeFilterBtn(vid, lbl, cnt, col, rgb, active) {
@@ -1215,9 +1205,7 @@ function getFiltered() {
     if (activeV === 'other') {
       if (pv && a.section !== 'other') return false;
     } else if (activeV !== 'all') {
-      const matchELS = (activeV === 'ELS' || activeV === 'Jobs_Livelihood') &&
-                       (pv === 'ELS' || pv === 'Jobs_Livelihood');
-      if (pv !== activeV && !matchELS) return false;
+      if (pv !== activeV) return false;
     }
     if (activeRegion !== 'all' && a.region !== activeRegion) return false;
     if (searchQ) {
@@ -1278,13 +1266,16 @@ function render() {
     group.forEach(a => {
       const pv       = a.primary_vertical || 'other';
       const col      = color(pv);
-      const lbl      = normalise(pv) === 'other' ? 'Other' : normalise(pv);
+      const lbl      = normalise(pv);
       const when     = timeAgo(a.date);
       const region   = (a.region||'').toUpperCase();
       const sentHtml = a.sentiment==='up'   ? ' <span class="sentiment up">↑</span>'
                      : a.sentiment==='down' ? ' <span class="sentiment down">↓</span>'
                      : '';
-      const meta    = [region, lbl+sentHtml, when].filter(Boolean).join(' / ');
+      // Sub-vertical badges (iLEAP / PAVANA) — programme tags under Env. Health
+      const subHtml  = (a.sub_verticals || [])
+                     .map(s => `<span class="subtag">${esc(s)}</span>`).join('');
+      const meta    = [region, lbl+sentHtml+subHtml, when].filter(Boolean).join(' / ');
       const summary = a.summary || firstTwo(a.snippet||a.full_content||'');
       const featured = (cardIndex===0) ? ' featured' : '';
       cardIndex++;
@@ -1433,7 +1424,7 @@ const WT_STEPS = [
   {
     target: ".filter-btn",
     title: "Filter by Research Vertical",
-    text: "Click any chip to filter the entire release feed: EoDB, CoDED, i-LEAP, ELS, Sustainability, or Political Economy. Click again to clear.",
+    text: "Click any chip to filter the entire release feed: General, CoDED, ELS, Environmental Health, Corporate Advisory, or Government Practice. Click again to clear.",
     position: "bottom"
   },
   {
@@ -1472,7 +1463,7 @@ const WT_STEPS_MOBILE = [
   {
     target: ".filter-btn",
     title: "Filter by Research Vertical",
-    text: "Tap any pill to filter the feed: EoDB, CoDED, i-LEAP, ELS, Sustainability, or Political Economy. Active filter turns orange — tap again to clear.",
+    text: "Tap any pill to filter the feed: General, CoDED, ELS, Environmental Health, Corporate Advisory, or Government Practice. Active filter turns orange — tap again to clear.",
     position: "bottom"
   },
   {
