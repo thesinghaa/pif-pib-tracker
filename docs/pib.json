@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-04T13:13:52Z",
-  "last_updated_ist": "04 Jul 2026, 06:43 PM IST",
-  "total": 177,
+  "last_updated": "2026-07-04T14:48:25Z",
+  "last_updated_ist": "04 Jul 2026, 08:18 PM IST",
+  "total": 179,
   "articles": [
     {
       "id": "64bb28f77a84d323bd29f7789195b643",
@@ -487,6 +487,44 @@
       "id": "423abbdaeb35c3e08c4e24f56dbef814",
       "title": "Traffic Restored on National Highway-51 Near Hussainabad in Mangrol Taluka",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2281095",
+      "date": "2026-07-04",
+      "scraped_date": "2026-07-04",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "eb0210e99e41512c01c317bc225e48e7",
+      "title": "Prime Minister Shri Narendra Modi inaugurates the CG Semi Outsourced Semiconductor Assembly and Test (OSAT) facility in Sanand, Gujarat",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2281125",
+      "date": "2026-07-04",
+      "scraped_date": "2026-07-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "7b2332e53db3d9f214916f272248af65",
+      "title": "Lieutenant Governor Reviews Management of Shri Amarnath Ji Yatra 2026; Appeals to Pilgrims to Travel Only After Obtaining Valid Registration",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2281129",
       "date": "2026-07-04",
       "scraped_date": "2026-07-04",
       "relative_time": "Today",
@@ -3530,7 +3568,7 @@
       "tier": "drop"
     }
   ],
-  "other_count": 162,
+  "other_count": 164,
   "vertical_counts": {
     "General": 8,
     "CoDED": 0,
