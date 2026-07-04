@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-04T16:08:59Z",
-  "last_updated_ist": "04 Jul 2026, 09:38 PM IST",
-  "total": 186,
+  "last_updated": "2026-07-04T17:06:31Z",
+  "last_updated_ist": "04 Jul 2026, 10:36 PM IST",
+  "total": 190,
   "articles": [
     {
       "id": "64bb28f77a84d323bd29f7789195b643",
@@ -671,6 +671,82 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "5ecc73d51bb6af54b19d0a89e3561246",
+      "title": "Prime Minister shares glimpses from inauguration and laying of foundation stone for development projects in Balotra, Rajasthan",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2281172",
+      "date": "2026-07-04",
+      "scraped_date": "2026-07-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "c1024d7c3c43b09f66d314b6aa668356",
+      "title": "Prime Minister shares glimpses from inauguration of CG Semi Outsourced Semiconductor Assembly and Test (OSAT) facility in Sanand, Gujarat",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2281165",
+      "date": "2026-07-04",
+      "scraped_date": "2026-07-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "fdb6c3ed5c044fbcac92181abe95031a",
+      "title": "Prime Minister greets President of the United States on the 250th anniversary of the United States' independence",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2281164",
+      "date": "2026-07-04",
+      "scraped_date": "2026-07-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "8bfb827f6f88b4fb8ca6c538988ee9a2",
+      "title": "J&K Lieutenant Governor Appeals to Pilgrims to Undertake Amarnath Yatra Only with Valid Registration In Wake of Large Number of Unregistered Yatris Arrival",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2281168",
+      "date": "2026-07-04",
+      "scraped_date": "2026-07-04",
+      "relative_time": "Today",
+      "region": "Jammu & Kashmir",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -3701,7 +3777,7 @@
       "tier": "drop"
     }
   ],
-  "other_count": 171,
+  "other_count": 175,
   "vertical_counts": {
     "General": 8,
     "CoDED": 0,
@@ -3710,7 +3786,7 @@
     "Corporate_Advisory": 4,
     "Government_Practice": 1
   },
-  "regions_scraped": 21,
+  "regions_scraped": 22,
   "verticals": {
     "General": {
       "label": "General (Cross-Cutting)",
