@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-07-04T02:54:26Z",
-  "last_updated_ist": "04 Jul 2026, 08:24 AM IST",
-  "total": 151,
+  "last_updated": "2026-07-04T06:27:12Z",
+  "last_updated_ist": "04 Jul 2026, 11:57 AM IST",
+  "total": 153,
   "articles": [
+    {
+      "id": "64bb28f77a84d323bd29f7789195b643",
+      "title": "LokOS: A Digital Backbone for Rural Livelihoods",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2280986",
+      "date": "2026-07-04",
+      "scraped_date": "2026-07-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "c936ce7c1a66028b8951e77e723ea06c",
+      "title": "India-Israel Bilateral Investment Agreement (BIA) comes into force today",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2280989",
+      "date": "2026-07-04",
+      "scraped_date": "2026-07-04",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "01054cb90a25cdbea8f18c8509f3d573",
       "title": "PM to visit Rajasthan and Gujarat on 4 July",
@@ -3031,7 +3069,7 @@
       "tier": "drop"
     }
   ],
-  "other_count": 138,
+  "other_count": 140,
   "vertical_counts": {
     "General": 7,
     "CoDED": 0,
