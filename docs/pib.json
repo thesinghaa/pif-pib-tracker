@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-04T17:06:31Z",
-  "last_updated_ist": "04 Jul 2026, 10:36 PM IST",
-  "total": 190,
+  "last_updated": "2026-07-04T18:10:23Z",
+  "last_updated_ist": "04 Jul 2026, 11:40 PM IST",
+  "total": 191,
   "articles": [
     {
       "id": "64bb28f77a84d323bd29f7789195b643",
@@ -738,6 +738,25 @@
       "scraped_date": "2026-07-04",
       "relative_time": "Today",
       "region": "Jammu & Kashmir",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "f83cc3cfd3d324d3d7c16bd2a2145fae",
+      "title": "\"India Has Entered a New Era in Semiconductors\" Says Union Minister Ashwini Vaishnaw as CG SEMI's OSAT Facility Begins Commercial Production in Sanand",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2281174",
+      "date": "2026-07-04",
+      "scraped_date": "2026-07-04",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -3777,7 +3796,7 @@
       "tier": "drop"
     }
   ],
-  "other_count": 175,
+  "other_count": 176,
   "vertical_counts": {
     "General": 8,
     "CoDED": 0,
