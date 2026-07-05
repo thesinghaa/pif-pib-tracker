@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-05T11:37:36Z",
-  "last_updated_ist": "05 Jul 2026, 05:07 PM IST",
-  "total": 128,
+  "last_updated": "2026-07-05T13:21:51Z",
+  "last_updated_ist": "05 Jul 2026, 06:51 PM IST",
+  "total": 130,
   "articles": [
     {
       "id": "94fd1be5e62218ff479ca3a987a5f797",
@@ -317,6 +317,44 @@
       "scraped_date": "2026-07-05",
       "relative_time": "Today",
       "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "8c8aaeb7fa63a54e69729da47a26b97c",
+      "title": "Union Home and Cooperation Minister Shri Amit Shah to lay the Foundation Stone and Inaugurate Several Key Initiatives at the 5th Foundation Day Ceremony of the Ministry of Cooperation in New Delhi Tomorrow",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2281327",
+      "date": "2026-07-05",
+      "scraped_date": "2026-07-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "cc570d816685f358f338557c68802711",
+      "title": "INDIAN NAVAL SHIPS CONCLUDE SUCCESSFUL VISIT TO SINGAPORE",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2281318",
+      "date": "2026-07-05",
+      "scraped_date": "2026-07-05",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2453,7 +2491,7 @@
       "section": "other"
     }
   ],
-  "other_count": 121,
+  "other_count": 123,
   "vertical_counts": {
     "General": 2,
     "CoDED": 0,
