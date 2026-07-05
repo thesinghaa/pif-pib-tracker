@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-05T15:18:30Z",
-  "last_updated_ist": "05 Jul 2026, 08:48 PM IST",
-  "total": 138,
+  "last_updated": "2026-07-05T17:10:19Z",
+  "last_updated_ist": "05 Jul 2026, 10:40 PM IST",
+  "total": 139,
   "articles": [
     {
       "id": "94fd1be5e62218ff479ca3a987a5f797",
@@ -507,6 +507,25 @@
       "scraped_date": "2026-07-05",
       "relative_time": "Today",
       "region": "Thiruvananthapuram",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "4a2e88257240c49358108edbce427017",
+      "title": "Reforms Utsav & Chintan Shivir 2026 organised by Ministry of Law & Justice concludes at Mount Abu",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2281391",
+      "date": "2026-07-05",
+      "scraped_date": "2026-07-05",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2643,7 +2662,7 @@
       "section": "other"
     }
   ],
-  "other_count": 131,
+  "other_count": 132,
   "vertical_counts": {
     "General": 2,
     "CoDED": 0,
