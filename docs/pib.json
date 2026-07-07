@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-07-07T00:22:01Z",
-  "last_updated_ist": "07 Jul 2026, 05:52 AM IST",
-  "total": 87,
+  "last_updated": "2026-07-07T04:59:13Z",
+  "last_updated_ist": "07 Jul 2026, 10:29 AM IST",
+  "total": 88,
   "articles": [
+    {
+      "id": "f0b8734046595fc54aacb05b20562207",
+      "title": "Prime Minister shares Sanskrit Subhashitam highlighting the virtues of humility and selfless service",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2281867",
+      "date": "2026-07-07",
+      "scraped_date": "2026-07-07",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "843e6f09cf1f996aac29c9e99a88847e",
       "title": "Prime Minister pens Op-Ed commemorating Dr. Syama Prasad Mookerjee's 125th jayanti",
@@ -1661,7 +1680,7 @@
       "section": "other"
     }
   ],
-  "other_count": 85,
+  "other_count": 86,
   "vertical_counts": {
     "General": 0,
     "CoDED": 0,
