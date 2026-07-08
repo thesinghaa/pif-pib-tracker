@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-07-08T02:02:39Z",
-  "last_updated_ist": "08 Jul 2026, 07:32 AM IST",
-  "total": 132,
+  "last_updated": "2026-07-08T05:15:14Z",
+  "last_updated_ist": "08 Jul 2026, 10:45 AM IST",
+  "total": 135,
   "articles": [
+    {
+      "id": "9d83f21a00abd800b2da9d1fc620870a",
+      "title": "Hon’ble Vice President of India to launch Letter of Authorisation for Sustainable Harnessing of Fisheries in the High Seas and Odisha Deep Sea Fishing Mission Document",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2282312",
+      "date": "2026-07-08",
+      "scraped_date": "2026-07-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "0095a708e7ac011361f6cef7e7e77a25",
+      "title": "Prime Minister shares Sanskrit Subhashitam highlighting the strength of courage and resilience",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2282311",
+      "date": "2026-07-08",
+      "scraped_date": "2026-07-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "f0b8734046595fc54aacb05b20562207",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the virtues of humility and selfless service",
@@ -1410,6 +1448,25 @@
       "section": "other"
     },
     {
+      "id": "34e7e4392386a38ddf6eb3d3f9960317",
+      "title": "Prime Minister's address at the community event in Indonesia",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2282309",
+      "date": "2026-07-07",
+      "scraped_date": "2026-07-08",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
       "id": "843e6f09cf1f996aac29c9e99a88847e",
       "title": "Prime Minister pens Op-Ed commemorating Dr. Syama Prasad Mookerjee's 125th jayanti",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2281493",
@@ -2514,7 +2571,7 @@
       "section": "other"
     }
   ],
-  "other_count": 131,
+  "other_count": 134,
   "vertical_counts": {
     "General": 0,
     "CoDED": 0,
