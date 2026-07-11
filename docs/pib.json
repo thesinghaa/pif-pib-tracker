@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-11T11:07:10Z",
-  "last_updated_ist": "11 Jul 2026, 04:37 PM IST",
-  "total": 163,
+  "last_updated": "2026-07-11T11:56:04Z",
+  "last_updated_ist": "11 Jul 2026, 05:26 PM IST",
+  "total": 165,
   "articles": [
     {
       "id": "e5b02ef8018b02e576a5d704f98e17dd",
@@ -371,6 +371,44 @@
       "id": "69805f8b46874a9496a0f8cff2fb8138",
       "title": "Prime Minister Addresses the Indian Diaspora in New Zealand",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2283621",
+      "date": "2026-07-11",
+      "scraped_date": "2026-07-11",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "350491f6539d26b1b81f3f42de88cfe7",
+      "title": "National Conference on \"Strengthening Legal Education through Integration of Regional Languages\"",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2283658",
+      "date": "2026-07-11",
+      "scraped_date": "2026-07-11",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "24c5ec486dd782ade009224cc93f983b",
+      "title": "Ministry of Social Justice & Empowerment to Mark 3rd NAMASTE Day on July 14 in Kolkata West Bengal;",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2283651",
       "date": "2026-07-11",
       "scraped_date": "2026-07-11",
       "relative_time": "Today",
@@ -3123,7 +3161,7 @@
       "section": "other"
     }
   ],
-  "other_count": 154,
+  "other_count": 156,
   "vertical_counts": {
     "General": 2,
     "CoDED": 2,
