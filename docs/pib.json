@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-11T15:59:32Z",
-  "last_updated_ist": "11 Jul 2026, 09:29 PM IST",
-  "total": 185,
+  "last_updated": "2026-07-11T16:58:31Z",
+  "last_updated_ist": "11 Jul 2026, 10:28 PM IST",
+  "total": 186,
   "articles": [
     {
       "id": "e5b02ef8018b02e576a5d704f98e17dd",
@@ -793,6 +793,25 @@
       "scraped_date": "2026-07-11",
       "relative_time": "Today",
       "region": "Kolkata",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "4daaa87870676b9c7a22f54dcfba54b4",
+      "title": "EPFO INVITES APPLICATIONS FOR AMNESTY SCHEME FROM PROVIDENT FUND TRUSTS",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2283786",
+      "date": "2026-07-11",
+      "scraped_date": "2026-07-11",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -3541,7 +3560,7 @@
       "section": "other"
     }
   ],
-  "other_count": 176,
+  "other_count": 177,
   "vertical_counts": {
     "General": 2,
     "CoDED": 2,
