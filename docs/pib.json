@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-12T17:02:13Z",
-  "last_updated_ist": "12 Jul 2026, 10:32 PM IST",
-  "total": 141,
+  "last_updated": "2026-07-12T18:04:55Z",
+  "last_updated_ist": "12 Jul 2026, 11:34 PM IST",
+  "total": 142,
   "articles": [
     {
       "id": "33eb71634a7ec74f29b0ebf015ed3c57",
@@ -505,6 +505,25 @@
       "scraped_date": "2026-07-12",
       "relative_time": "Today",
       "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "d34bed5c12a2bcfec1847e45f091f8a9",
+      "title": "One Day State Mourning as a mark of respect on the passing away of His Highness Sheikh Hamad Bin Khalifa Al Thani, Father Amir of The State of Qatar",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2283966",
+      "date": "2026-07-12",
+      "scraped_date": "2026-07-12",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2696,7 +2715,7 @@
       "section": "other"
     }
   ],
-  "other_count": 136,
+  "other_count": 137,
   "vertical_counts": {
     "General": 2,
     "CoDED": 2,
