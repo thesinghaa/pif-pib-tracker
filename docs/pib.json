@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-12T10:05:15Z",
-  "last_updated_ist": "12 Jul 2026, 03:35 PM IST",
-  "total": 128,
+  "last_updated": "2026-07-12T11:18:34Z",
+  "last_updated_ist": "12 Jul 2026, 04:48 PM IST",
+  "total": 130,
   "articles": [
     {
       "id": "33eb71634a7ec74f29b0ebf015ed3c57",
@@ -258,6 +258,44 @@
       "scraped_date": "2026-07-12",
       "relative_time": "Today",
       "region": "Bhopal",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "fa12d1d799110c6ca7ef313f77bdbb9c",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah to inaugurate the new vegetable sub-yard during the Amrit Mahotsav of APMC at Dahegam, Gujarat, on 13 July",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2283868",
+      "date": "2026-07-12",
+      "scraped_date": "2026-07-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "53cfec4ec558dc3b029c9347b14eb7d2",
+      "title": "Prime Minister condoles the passing of Father Amir of State of Qatar HH Sheikh Hamad bin Khalifa Al Thani",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2283856",
+      "date": "2026-07-12",
+      "scraped_date": "2026-07-12",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2449,7 +2487,7 @@
       "section": "other"
     }
   ],
-  "other_count": 123,
+  "other_count": 125,
   "vertical_counts": {
     "General": 2,
     "CoDED": 2,
