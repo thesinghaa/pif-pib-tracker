@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-14T15:33:15Z",
-  "last_updated_ist": "14 Jul 2026, 09:03 PM IST",
-  "total": 154,
+  "last_updated": "2026-07-14T17:20:38Z",
+  "last_updated_ist": "14 Jul 2026, 10:50 PM IST",
+  "total": 158,
   "articles": [
     {
       "id": "54e86c02c22f9eb3a881dc299a69b925",
@@ -1203,6 +1203,84 @@
       "scraped_date": "2026-07-14",
       "relative_time": "Today",
       "region": "Raipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "3cf99930301e82989651c052ca0f6c5d",
+      "title": "Union Minister Sarbananda Sonowal Orders ‘Seafarer-First' Response as India Intensifies Maritime Vigil in West Asia",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2284674",
+      "date": "2026-07-14",
+      "scraped_date": "2026-07-14",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "067e59f2c6313bd1b24077cd589b09a2",
+      "title": "Index of Services Production:",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2284646",
+      "date": "2026-07-14",
+      "scraped_date": "2026-07-14",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "89655cfa4d39b52efbea9daf175ed201",
+      "title": "DGFT flags off first ever consignment to the United Kingdom under India–UK FTA from Kochi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2284652",
+      "date": "2026-07-14",
+      "scraped_date": "2026-07-14",
+      "relative_time": "Today",
+      "region": "Thiruvananthapuram",
+      "verticals": [
+        "Government_Practice"
+      ],
+      "primary_vertical": "Government_Practice",
+      "sub_verticals": [],
+      "tier": "primary",
+      "relevance_score": 11.0,
+      "snippet": "",
+      "full_content": "Kochi, July 14, 2026: Directorate General of Foreign Trade (DGFT) Regional Authority, Kochi, flagged off the first export consignment from Kerala to the United Kingdom under the India–UK Free Trade Agreement (Comprehensive Economic and Trade Agreement – CETA) at Cochin Port Authority today.\nOn the occasion, the DGFT presented a Letter of Recognition to the exporter in acknowledgement of becoming the first exporter from Kerala to export goods to the United Kingdom under the India–UK CETA.\nThe flag-off marks the commencement of exports from Kerala under the newly signed India–UK Free Trade Agreement (CETA)\nThe India–UK FTA is expected to significantly enhance the competitiveness of Indian exporters while opening new opportunities for key sectors in Kerala, including marine products, spices, food products etc. It is also expected to boost trade, investment and employment while further strengthening India's global trade footprint.\nThe programme saw the participation of representatives from the Department of Customs, Federation of Indian Export Organisations (FIEO), APEDA, Immigration Department, Food Safety and Standards Authority of India (FSSAI), the exporting firm and other stakeholders, reflecting a coordinated effort to strengthen Kerala's export ecosystem.\nDr. T. Tiju, Commissioner of Customs; Shri Hassan Usaid N. A., Deputy Director, DGFT; Shri Rajeev, Assistant Director, FIEO Kerala Chapter; Smt. Dhanya, Administrative Officer, FSSAI; officials from APEDA; Immigration Officers Ms. Athira Sreedevi and Ms. Kritika Yadav; and officials including Ms. Gayathri Das and Shri Alfin Santhosh attended the event.",
+      "summary": "Kochi, July 14, 2026: Directorate General of Foreign Trade (DGFT) Regional Authority, Kochi, flagged off the first export consignment from Kerala to the United Kingdom under the India–UK Free Trade Agreement (Comprehensive Economic and Trade Agreement – CETA) at Cochin Port Authority today. On the occasion, the DGFT presented a Letter of Recognition to the exporter in acknowledgement of becoming the first exporter from Kerala to export goods to the United Kingdom under the India–UK CETA. The flag-off marks the commencement of exports from Kerala under the newly signed India–UK Free Trade Agreement (CETA) The India–UK FTA is expected to significantly enhance the competitiveness of Indian exporters while opening new opportunities for key sectors in Kerala, including marine products, spices, food products etc.",
+      "sentiment": "up",
+      "section": "vertical"
+    },
+    {
+      "id": "aa1faf46f7b286f1394c6c1366f138f7",
+      "title": "Pandavaas Captivates Audience with Soulful Folk-Fusion Performance on Day Four of Lok Samvardhan Parv",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2284670",
+      "date": "2026-07-14",
+      "scraped_date": "2026-07-14",
+      "relative_time": "Today",
+      "region": "Dehradun",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2950,14 +3028,14 @@
       "section": "other"
     }
   ],
-  "other_count": 146,
+  "other_count": 149,
   "vertical_counts": {
     "General": 4,
     "CoDED": 2,
     "ELS": 3,
     "Environmental_Health": 2,
     "Corporate_Advisory": 1,
-    "Government_Practice": 0
+    "Government_Practice": 1
   },
   "regions_scraped": 17,
   "verticals": {
