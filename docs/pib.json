@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-15T19:09:02Z",
-  "last_updated_ist": "16 Jul 2026, 12:39 AM IST",
-  "total": 162,
+  "last_updated": "2026-07-15T20:15:07Z",
+  "last_updated_ist": "16 Jul 2026, 01:45 AM IST",
+  "total": 163,
   "articles": [
     {
       "id": "c7be4593fd2dfa9642df27d3507b67aa",
@@ -1827,6 +1827,25 @@
       "section": "other"
     },
     {
+      "id": "6c325cc1d569b6f75fd4cfc8f7aa828a",
+      "title": "Union Minister G. Kishan Reddy Announces India Mining Week 2026 to be held in November 15–17",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2285206",
+      "date": "2026-07-15",
+      "scraped_date": "2026-07-16",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
       "id": "54e86c02c22f9eb3a881dc299a69b925",
       "title": "India's Rich Handicraft Heritage Continues to Draw Crowds on the Third Day of Lok Samvardhan Parv",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2284344",
@@ -3116,7 +3135,7 @@
       "section": "other"
     }
   ],
-  "other_count": 148,
+  "other_count": 149,
   "vertical_counts": {
     "General": 4,
     "CoDED": 2,
