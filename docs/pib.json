@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-07-15T01:38:39Z",
-  "last_updated_ist": "15 Jul 2026, 07:08 AM IST",
-  "total": 129,
+  "last_updated": "2026-07-15T04:57:42Z",
+  "last_updated_ist": "15 Jul 2026, 10:27 AM IST",
+  "total": 130,
   "articles": [
+    {
+      "id": "c7be4593fd2dfa9642df27d3507b67aa",
+      "title": "COMBINED GEO-SCIENTIST EXAMINATION, 2025",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2284688",
+      "date": "2026-07-15",
+      "scraped_date": "2026-07-15",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "54e86c02c22f9eb3a881dc299a69b925",
       "title": "India's Rich Handicraft Heritage Continues to Draw Crowds on the Third Day of Lok Samvardhan Parv",
@@ -2477,7 +2496,7 @@
       "section": "other"
     }
   ],
-  "other_count": 120,
+  "other_count": 121,
   "vertical_counts": {
     "General": 4,
     "CoDED": 2,
