@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-17T02:02:50Z",
-  "last_updated_ist": "17 Jul 2026, 07:32 AM IST",
-  "total": 170,
+  "last_updated": "2026-07-17T05:08:10Z",
+  "last_updated_ist": "17 Jul 2026, 10:38 AM IST",
+  "total": 171,
   "articles": [
     {
       "id": "0f4aa9e35dc368ae36d94eaad818c13a",
@@ -1359,6 +1359,25 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "172e20d5af7e0fa6a1548052edab0b39",
+      "title": "ICAR-National Research Centre for Orchids, Pakyong Celebrates 98th ICAR Foundation Day",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2285625",
+      "date": "2026-07-16",
+      "scraped_date": "2026-07-17",
+      "relative_time": "Yesterday",
+      "region": "Gangtok",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -3261,7 +3280,7 @@
       "section": "other"
     }
   ],
-  "other_count": 159,
+  "other_count": 160,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
