@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-17T17:17:20Z",
-  "last_updated_ist": "17 Jul 2026, 10:47 PM IST",
-  "total": 237,
+  "last_updated": "2026-07-17T18:20:30Z",
+  "last_updated_ist": "17 Jul 2026, 11:50 PM IST",
+  "total": 238,
   "articles": [
     {
       "id": "6439193d340c2ae8fa896ae4a867aa3d",
@@ -1264,6 +1264,25 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "db5d1058168f4217f056333de1b5946d",
+      "title": "IndianOil Responds Swiftly to Pipeline Damage Incident in Muzaffarpur; Situation Fully Restored",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286005",
+      "date": "2026-07-17",
+      "scraped_date": "2026-07-17",
+      "relative_time": "Today",
+      "region": "Patna",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -4543,7 +4562,7 @@
       "section": "other"
     }
   ],
-  "other_count": 222,
+  "other_count": 223,
   "vertical_counts": {
     "General": 4,
     "CoDED": 1,
@@ -4552,7 +4571,7 @@
     "Corporate_Advisory": 3,
     "Government_Practice": 5
   },
-  "regions_scraped": 19,
+  "regions_scraped": 20,
   "verticals": {
     "General": {
       "label": "General (Cross-Cutting)",
