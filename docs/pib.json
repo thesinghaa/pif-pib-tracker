@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-07-17T05:08:10Z",
-  "last_updated_ist": "17 Jul 2026, 10:38 AM IST",
-  "total": 171,
+  "last_updated": "2026-07-17T07:25:11Z",
+  "last_updated_ist": "17 Jul 2026, 12:55 PM IST",
+  "total": 173,
   "articles": [
+    {
+      "id": "6439193d340c2ae8fa896ae4a867aa3d",
+      "title": "Union Minister Ram Mohan Naidu flags off inaugural flight from NAMO Airport, Daman",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2285630",
+      "date": "2026-07-17",
+      "scraped_date": "2026-07-17",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "57e6ebf79ad4a888beaa86ead5992cbb",
+      "title": "IISER's 14th Convocation on July 19",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2285641",
+      "date": "2026-07-17",
+      "scraped_date": "2026-07-17",
+      "relative_time": "Today",
+      "region": "Thiruvananthapuram",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "0f4aa9e35dc368ae36d94eaad818c13a",
       "title": "India's First Hydrogen-Powered Train: Advancing Green Rail Mobility",
@@ -3280,7 +3318,7 @@
       "section": "other"
     }
   ],
-  "other_count": 160,
+  "other_count": 162,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
