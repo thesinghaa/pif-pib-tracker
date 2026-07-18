@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-18T04:54:47Z",
-  "last_updated_ist": "18 Jul 2026, 10:24 AM IST",
-  "total": 141,
+  "last_updated": "2026-07-18T07:09:26Z",
+  "last_updated_ist": "18 Jul 2026, 12:39 PM IST",
+  "total": 143,
   "articles": [
     {
       "id": "4741d82d90ac7ba6e7e2416f26996904",
@@ -20,6 +20,44 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "734dd5d621606401476b7c02f14d8394",
+      "title": "Vikram-1: Charting India’s Cosmic Future",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286011",
+      "date": "2026-07-18",
+      "scraped_date": "2026-07-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "d71e1746427b6b2e087e5eedf33d7a2c",
+      "title": "Ramnagar–Dehradun Express Launched",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286019",
+      "date": "2026-07-18",
+      "scraped_date": "2026-07-18",
+      "relative_time": "Today",
+      "region": "Dehradun",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "section": "other"
     },
     {
@@ -2701,7 +2739,7 @@
       "section": "other"
     }
   ],
-  "other_count": 133,
+  "other_count": 135,
   "vertical_counts": {
     "General": 2,
     "CoDED": 0,
@@ -2710,7 +2748,7 @@
     "Corporate_Advisory": 1,
     "Government_Practice": 5
   },
-  "regions_scraped": 16,
+  "regions_scraped": 17,
   "verticals": {
     "General": {
       "label": "General (Cross-Cutting)",
