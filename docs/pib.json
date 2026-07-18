@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-18T08:59:34Z",
-  "last_updated_ist": "18 Jul 2026, 02:29 PM IST",
-  "total": 149,
+  "last_updated": "2026-07-18T10:25:51Z",
+  "last_updated_ist": "18 Jul 2026, 03:55 PM IST",
+  "total": 150,
   "articles": [
     {
       "id": "4741d82d90ac7ba6e7e2416f26996904",
@@ -172,6 +172,25 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "b62cf31d3a619f659fbdd975af7a0359",
+      "title": "CBI Court Sentences Ex Branch Manager of IOB and a Private Person to Three Years RI with a Fine of over Rs. 1.12 Crore in a Bank Fraud Case",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286061",
+      "date": "2026-07-18",
+      "scraped_date": "2026-07-18",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -2853,7 +2872,7 @@
       "section": "other"
     }
   ],
-  "other_count": 141,
+  "other_count": 142,
   "vertical_counts": {
     "General": 2,
     "CoDED": 0,
