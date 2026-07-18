@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-07-18T01:43:51Z",
-  "last_updated_ist": "18 Jul 2026, 07:13 AM IST",
-  "total": 139,
+  "last_updated": "2026-07-18T04:54:47Z",
+  "last_updated_ist": "18 Jul 2026, 10:24 AM IST",
+  "total": 141,
   "articles": [
+    {
+      "id": "4741d82d90ac7ba6e7e2416f26996904",
+      "title": "Prime Minister extends best wishes to Skyroot Aerospace",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286010",
+      "date": "2026-07-18",
+      "scraped_date": "2026-07-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "6439193d340c2ae8fa896ae4a867aa3d",
       "title": "Union Minister Ram Mohan Naidu flags off inaugural flight from NAMO Airport, Daman",
@@ -1274,6 +1293,25 @@
       "scraped_date": "2026-07-17",
       "relative_time": "Yesterday",
       "region": "Patna",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "2cb9f7258711626db86816c21ac270ca",
+      "title": "Prime Minister meets Sant Niranjan Dass Ji",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286008",
+      "date": "2026-07-17",
+      "scraped_date": "2026-07-18",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2663,7 +2701,7 @@
       "section": "other"
     }
   ],
-  "other_count": 131,
+  "other_count": 133,
   "vertical_counts": {
     "General": 2,
     "CoDED": 0,
