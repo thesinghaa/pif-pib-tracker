@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-18T16:57:20Z",
-  "last_updated_ist": "18 Jul 2026, 10:27 PM IST",
-  "total": 181,
+  "last_updated": "2026-07-18T18:03:59Z",
+  "last_updated_ist": "18 Jul 2026, 11:33 PM IST",
+  "total": 182,
   "articles": [
     {
       "id": "4741d82d90ac7ba6e7e2416f26996904",
@@ -771,6 +771,25 @@
       "scraped_date": "2026-07-18",
       "relative_time": "Today",
       "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "9297b1f845d6c3004315e05aed048120",
+      "title": "Eminent industry leader Shri Ravi Kant meets the Prime Minister",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286216",
+      "date": "2026-07-18",
+      "scraped_date": "2026-07-18",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -3461,7 +3480,7 @@
       "section": "other"
     }
   ],
-  "other_count": 173,
+  "other_count": 174,
   "vertical_counts": {
     "General": 2,
     "CoDED": 0,
