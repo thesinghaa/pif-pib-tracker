@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-19T16:02:27Z",
-  "last_updated_ist": "19 Jul 2026, 09:32 PM IST",
-  "total": 138,
+  "last_updated": "2026-07-19T16:59:44Z",
+  "last_updated_ist": "19 Jul 2026, 10:29 PM IST",
+  "total": 139,
   "articles": [
     {
       "id": "0069fdf5086f600b704f30cc3096eba9",
@@ -486,6 +486,25 @@
       "scraped_date": "2026-07-19",
       "relative_time": "Today",
       "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "644cde5aa01bceac5c06d29b65f40709",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah Inaugurates India's First Immersive Language Museum, Museum of Word, at the National Library, Kolkata",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286386",
+      "date": "2026-07-19",
+      "scraped_date": "2026-07-19",
+      "relative_time": "Today",
+      "region": "Kolkata",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2635,7 +2654,7 @@
       "section": "other"
     }
   ],
-  "other_count": 134,
+  "other_count": 135,
   "vertical_counts": {
     "General": 2,
     "CoDED": 0,
