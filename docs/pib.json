@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-19T10:06:14Z",
-  "last_updated_ist": "19 Jul 2026, 03:36 PM IST",
-  "total": 122,
+  "last_updated": "2026-07-19T11:19:06Z",
+  "last_updated_ist": "19 Jul 2026, 04:49 PM IST",
+  "total": 124,
   "articles": [
     {
       "id": "0069fdf5086f600b704f30cc3096eba9",
@@ -182,6 +182,44 @@
       "scraped_date": "2026-07-19",
       "relative_time": "Today",
       "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "a2e5145b44a991220bddeccdf8f53cdd",
+      "title": "Meeting of Government with Leaders of Political Parties held today",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286307",
+      "date": "2026-07-19",
+      "scraped_date": "2026-07-19",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "36c42d7237634b451eca60ee82ad33cd",
+      "title": "Dr Jitendra Singh Calls for Mass Public Movement Against Cancer, Diabetes and Obesity; Stresses Early Detection and Scientific Awareness",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286302",
+      "date": "2026-07-19",
+      "scraped_date": "2026-07-19",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2331,7 +2369,7 @@
       "section": "other"
     }
   ],
-  "other_count": 118,
+  "other_count": 120,
   "vertical_counts": {
     "General": 2,
     "CoDED": 0,
