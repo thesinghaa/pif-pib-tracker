@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-21T16:35:29Z",
-  "last_updated_ist": "21 Jul 2026, 10:05 PM IST",
-  "total": 244,
+  "last_updated": "2026-07-21T18:24:38Z",
+  "last_updated_ist": "21 Jul 2026, 11:54 PM IST",
+  "total": 246,
   "articles": [
     {
       "id": "527beb095ec364c719b7db56e1501a48",
@@ -2740,6 +2740,44 @@
       "section": "other"
     },
     {
+      "id": "2f661c3ce3a948e5a215af198d2777ce",
+      "title": "PRESIDENT OF INDIA ADDRESSES INDIA-NORTH MACEDONIA BUSINESS FORUM",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2287491",
+      "date": "2026-07-21",
+      "scraped_date": "2026-07-21",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "431531fc6092699b7d076c27418d605d",
+      "title": "India Reaffirms Commitment to Rules-Based Multilateral Trading System at WTO Trade Policy Review in Geneva",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2287487",
+      "date": "2026-07-21",
+      "scraped_date": "2026-07-21",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
       "id": "4d0e8da30b3434f19619c6ede0adf81f",
       "title": "Prime Minister shares Sanskrit Subhashitam applauding the courage and perseverance of India's Youth",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2286461",
@@ -4668,7 +4706,7 @@
       "section": "other"
     }
   ],
-  "other_count": 231,
+  "other_count": 233,
   "vertical_counts": {
     "General": 0,
     "CoDED": 1,
