@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-07-22T01:58:12Z",
-  "last_updated_ist": "22 Jul 2026, 07:28 AM IST",
-  "total": 218,
+  "last_updated": "2026-07-22T05:17:06Z",
+  "last_updated_ist": "22 Jul 2026, 10:47 AM IST",
+  "total": 219,
   "articles": [
+    {
+      "id": "25412f73318ab49226dfdfbdc215bfaf",
+      "title": "Prime Minister shares a Sanskrit Subhashitam, highlights the qualities of an ideal and truly excellent individual",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2287511",
+      "date": "2026-07-22",
+      "scraped_date": "2026-07-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "527beb095ec364c719b7db56e1501a48",
       "title": "CDSCO Approves India's First Dengue Vaccine, Strengthening National Dengue Prevention Efforts",
@@ -4174,7 +4193,7 @@
       "section": "other"
     }
   ],
-  "other_count": 205,
+  "other_count": 206,
   "vertical_counts": {
     "General": 0,
     "CoDED": 1,
