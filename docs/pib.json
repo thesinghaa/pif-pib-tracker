@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-07-24T00:12:03Z",
-  "last_updated_ist": "24 Jul 2026, 05:42 AM IST",
-  "total": 230,
+  "last_updated": "2026-07-24T02:06:28Z",
+  "last_updated_ist": "24 Jul 2026, 07:36 AM IST",
+  "total": 232,
   "articles": [
+    {
+      "id": "3408261ee4e3b58ae72631ce7fb2e8b1",
+      "title": "Prime Minister urges Sonam Ji to follow doctors' advice and prays for his good health",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2288692",
+      "date": "2026-07-24",
+      "scraped_date": "2026-07-24",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "048ea0c2e24c2be2493b91306e96622d",
+      "title": "Prime Minister Announces More Strict Actions Against Paper Leaks to Come in Today’s Cabinet",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2288691",
+      "date": "2026-07-24",
+      "scraped_date": "2026-07-24",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "d3f1e67852d7c5197036846f918f63c7",
       "title": "36th Basic Course in Legislative Drafting Inaugurated to Strengthen Uniform and Effective Law-Making Across India",
@@ -4421,7 +4459,7 @@
       "section": "other"
     }
   ],
-  "other_count": 211,
+  "other_count": 213,
   "vertical_counts": {
     "General": 5,
     "CoDED": 4,
