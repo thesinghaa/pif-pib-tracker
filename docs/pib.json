@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-25T16:13:13Z",
-  "last_updated_ist": "25 Jul 2026, 09:43 PM IST",
-  "total": 255,
+  "last_updated": "2026-07-25T17:05:21Z",
+  "last_updated_ist": "25 Jul 2026, 10:35 PM IST",
+  "total": 256,
   "articles": [
     {
       "id": "b041830ed0990084e64350977cd42e09",
@@ -976,6 +976,25 @@
       "summary": "A review meeting on solid waste management on Railway lands and within Greater Bengaluru was held today at the Divisional Railway Office, Bengaluru. The meeting was jointly chaired by Hon'ble Union Minister of State for Railways and Jal Shakti, Shri V. Somanna, and Hon'ble Minister for Greater Bengaluru Development, Government of Karnataka, Shri Krishna Byre Gowda.",
       "sentiment": "neutral",
       "section": "vertical"
+    },
+    {
+      "id": "3c202313423242bf277fa0cd6c58dce9",
+      "title": "Rajasthan Chief Minister Shri Bhajanlal Sharma launches ‘Bharat Taxi’ service in Jaipur",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289491",
+      "date": "2026-07-25",
+      "scraped_date": "2026-07-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
     },
     {
       "id": "3408261ee4e3b58ae72631ce7fb2e8b1",
@@ -4901,7 +4920,7 @@
       "section": "other"
     }
   ],
-  "other_count": 234,
+  "other_count": 235,
   "vertical_counts": {
     "General": 7,
     "CoDED": 3,
