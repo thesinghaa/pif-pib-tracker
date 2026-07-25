@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-07-25T02:06:21Z",
-  "last_updated_ist": "25 Jul 2026, 07:36 AM IST",
-  "total": 202,
+  "last_updated": "2026-07-25T05:12:02Z",
+  "last_updated_ist": "25 Jul 2026, 10:42 AM IST",
+  "total": 205,
   "articles": [
+    {
+      "id": "b041830ed0990084e64350977cd42e09",
+      "title": "Start-up Village Entrepreneurship Programme",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289268",
+      "date": "2026-07-25",
+      "scraped_date": "2026-07-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "3408261ee4e3b58ae72631ce7fb2e8b1",
       "title": "Prime Minister urges Sonam Ji to follow doctors' advice and prays for his good health",
@@ -1998,6 +2017,44 @@
       "section": "other"
     },
     {
+      "id": "bf4e9cda82c0445ae5665758d252106a",
+      "title": "BUCHAREST UNIVERSTY OF ECONOMIC STUDIES CONFERS HONORARY DOCTORATE ON THE PRESIDENT",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289265",
+      "date": "2026-07-24",
+      "scraped_date": "2026-07-25",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "20b38a1846e6ec5741b3eade3ec48204",
+      "title": "03 persons convicted by Ernakulam District Court in NCB, Cochin NDPS Case",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289264",
+      "date": "2026-07-24",
+      "scraped_date": "2026-07-25",
+      "relative_time": "Yesterday",
+      "region": "Thiruvananthapuram",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
       "id": "d3f1e67852d7c5197036846f918f63c7",
       "title": "36th Basic Course in Legislative Drafting Inaugurated to Strengthen Uniform and Effective Law-Making Across India",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2288143",
@@ -3889,7 +3946,7 @@
       "section": "other"
     }
   ],
-  "other_count": 183,
+  "other_count": 186,
   "vertical_counts": {
     "General": 5,
     "CoDED": 3,
