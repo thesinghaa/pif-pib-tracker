@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-07-26T02:05:10Z",
-  "last_updated_ist": "26 Jul 2026, 07:35 AM IST",
-  "total": 158,
+  "last_updated": "2026-07-26T05:36:44Z",
+  "last_updated_ist": "26 Jul 2026, 11:06 AM IST",
+  "total": 160,
   "articles": [
+    {
+      "id": "7dd6b8224b8b1a67f0fdd17d9a9c94e9",
+      "title": "Prime Minister expresses gratitude to brave soldiers on Kargil Vijay Diwas",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289533",
+      "date": "2026-07-26",
+      "scraped_date": "2026-07-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "b041830ed0990084e64350977cd42e09",
       "title": "Start-up Village Entrepreneurship Programme",
@@ -3027,9 +3046,28 @@
       "summary": "",
       "sentiment": "neutral",
       "section": "other"
+    },
+    {
+      "id": "7da2edb03166658f3fdfd901b83e4cf6",
+      "title": "Prime Minister extends best wishes to the Indian contingent for the Commonwealth Games Glasgow 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289211",
+      "date": "2026-07-24",
+      "scraped_date": "2026-07-26",
+      "relative_time": "24 Jul",
+      "region": "Guwahati",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
     }
   ],
-  "other_count": 149,
+  "other_count": 151,
   "vertical_counts": {
     "General": 5,
     "CoDED": 1,
