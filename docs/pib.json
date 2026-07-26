@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-26T17:03:09Z",
-  "last_updated_ist": "26 Jul 2026, 10:33 PM IST",
-  "total": 185,
+  "last_updated": "2026-07-26T18:09:04Z",
+  "last_updated_ist": "26 Jul 2026, 11:39 PM IST",
+  "total": 187,
   "articles": [
     {
       "id": "7dd6b8224b8b1a67f0fdd17d9a9c94e9",
@@ -485,6 +485,47 @@
       "id": "456b79bc9cac5179e62ea1f37e1c933e",
       "title": "Prime Minister shares highlights of his address in the 136th Episode of ‘Mann Ki Baat’",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289709",
+      "date": "2026-07-26",
+      "scraped_date": "2026-07-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "013dbd09c6203320163a16373791c3c4",
+      "title": "Ministry of Corporate Affairs’ ‘Corporate Mitra Scheme’ Awareness Webinar Successfully Organized by IICA Shillong for the youth and enterprises of Arunachal Pradesh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289729",
+      "date": "2026-07-26",
+      "scraped_date": "2026-07-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Corporate_Advisory",
+        "ELS"
+      ],
+      "primary_vertical": "Corporate_Advisory",
+      "sub_verticals": [],
+      "tier": "flagship",
+      "relevance_score": 15.5,
+      "snippet": "",
+      "full_content": "The Indian Institute of Corporate Affairs (IICA), Shillong, under the Ministry of Corporate Affairs, successfully organised a webinar on recently, for awareness and sensitization of the Corporate Mitra Scheme among the youth, students, MSMEs, professionals and enterprises of Arunachal Pradesh.\nThe webinar was conducted as part of the Corporate Mitra Scheme Awareness Campaign for the Northeast Region (NER), in collaboration with Rajiv Gandhi University (RGU) -Arunachal Pradesh and support of The Institute of Cost Accountants of India (ICMAI) - as the lead co-host and the Institute of Company Secretaries of India (ICSI) , the Institute of Chartered Accountants of India (ICAI) – as the support co-host.\nThe Scheme aims to empower MSMEs, primarily in the Tier-3 & 2 cities, by supporting them in playing their part in the larger vision of a Viksit Bharat @ 2047. The scheme embodies the vision of a formalized, financially sustainable, and a thriving MSME sector by creating a strong support ecosystem for the MSMEs, through facilitating access to a pool of qualified, accredited and trusted para professionals “Corporate Mitras”.\nThe Corporate Mitras are envisaged to provide accessible, affordable, and quality compliance and business support services to Micro, Small and Medium Enterprises (MSMEs), while creating a pool of trained para-professionals by equipping young graduates with industry-relevant knowledge and practical skills. The initiative is expected to strengthen the MSME ecosystem and enhance employment opportunities, particularly across the North Eastern Region. The accredited Corporate Mitra(s) are expected to provide affordable and accessible professional assistance to the local enterprises, for the non-core aspects of their business operation i.e. regulatory, compliance, financial, taxation, accounting, and governance-related needs, thereby ensuring that MSMEs can focus on innovation, expansion and growth, while meeting regulatory requirements with ease.\nThe scheme implementation is planned with an initial pan India target of 2000 participants, including 200 exclusively from the North East Region (NER), with a 50% fee concession being available for the NER candidates.\nFor Scheme’s rollout and implementation for the Northeast region, Indian Institute of Corporate Affairs (IICA) Shillong, under the Ministry of Corporate Affairs has been designated as the nodal agency for coordination and liaison with State Governments and other stakeholders (universities/associations/industry bodies/institutes etc.), for promotion, and awareness of the Scheme.\nRegistration for the 'Corporate Mitra' Course was launched for registration by eligible students w.e.f. from 15th July 2026 and shall be live up till to 31st July 2026 (Registration Link: https://swayamplus.education.gov.in/courses/corporate-mitra).\nThe webinar commenced with the welcome address and context-setting by Sh. Debarun Kalita, Officer on Special Duty (OSD) for IICA Shillong , designated Nodal Offi",
+      "summary": "The Indian Institute of Corporate Affairs (IICA), Shillong, under the Ministry of Corporate Affairs, successfully organised a webinar on recently, for awareness and sensitization of the Corporate Mitra Scheme among the youth, students, MSMEs, professionals and enterprises of Arunachal Pradesh. The webinar was conducted as part of the Corporate Mitra Scheme Awareness Campaign for the Northeast Region (NER), in collaboration with Rajiv Gandhi University (RGU) -Arunachal Pradesh and support of The Institute of Cost Accountants of India (ICMAI) - as the lead co-host and the Institute of Company Secretaries of India (ICSI) , the Institute of Chartered Accountants of India (ICAI) – as the support co-host. The Scheme aims to empower MSMEs, primarily in the Tier-3 & 2 cities, by supporting them in playing their part in the larger vision of a Viksit Bharat @ 2047.",
+      "sentiment": "neutral",
+      "section": "vertical"
+    },
+    {
+      "id": "dbb00c2c5eb822b3c249920649900704",
+      "title": "Prime Minister Shri Narendra Modi lauds the commendable work of the Participants of the Viksit Vibrant Village Programme 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289726",
       "date": "2026-07-26",
       "scraped_date": "2026-07-26",
       "relative_time": "Today",
@@ -3545,13 +3586,13 @@
       "section": "other"
     }
   ],
-  "other_count": 175,
+  "other_count": 176,
   "vertical_counts": {
     "General": 6,
     "CoDED": 1,
-    "ELS": 0,
+    "ELS": 1,
     "Environmental_Health": 6,
-    "Corporate_Advisory": 3,
+    "Corporate_Advisory": 4,
     "Government_Practice": 0
   },
   "regions_scraped": 16,
