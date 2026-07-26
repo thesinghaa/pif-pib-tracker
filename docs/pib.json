@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-26T16:12:47Z",
-  "last_updated_ist": "26 Jul 2026, 09:42 PM IST",
-  "total": 183,
+  "last_updated": "2026-07-26T17:03:09Z",
+  "last_updated_ist": "26 Jul 2026, 10:33 PM IST",
+  "total": 185,
   "articles": [
     {
       "id": "7dd6b8224b8b1a67f0fdd17d9a9c94e9",
@@ -447,6 +447,44 @@
       "id": "76a2b7d365ec2a002d7a390900e4a601",
       "title": "Text of PM’s address during Viksit Vibrant Village Programme 2026",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289672",
+      "date": "2026-07-26",
+      "scraped_date": "2026-07-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "39fb3da18440745b66c67355e0793aad",
+      "title": "Prime Minister congratulates weightlifter Mirabai Chanu on winning Gold at Commonwealth Games 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289707",
+      "date": "2026-07-26",
+      "scraped_date": "2026-07-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "456b79bc9cac5179e62ea1f37e1c933e",
+      "title": "Prime Minister shares highlights of his address in the 136th Episode of ‘Mann Ki Baat’",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289709",
       "date": "2026-07-26",
       "scraped_date": "2026-07-26",
       "relative_time": "Today",
@@ -3507,7 +3545,7 @@
       "section": "other"
     }
   ],
-  "other_count": 173,
+  "other_count": 175,
   "vertical_counts": {
     "General": 6,
     "CoDED": 1,
