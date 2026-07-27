@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-07-27T02:14:14Z",
-  "last_updated_ist": "27 Jul 2026, 07:44 AM IST",
-  "total": 80,
+  "last_updated": "2026-07-27T06:04:34Z",
+  "last_updated_ist": "27 Jul 2026, 11:34 AM IST",
+  "total": 82,
   "articles": [
+    {
+      "id": "4c671ad28ff5569f6bcc914eaebc79ab",
+      "title": "India's Fight to Combat Hepatitis",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289761",
+      "date": "2026-07-27",
+      "scraped_date": "2026-07-27",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "a813396b93a6af46969c5a9ba45a78bf",
+      "title": "Prime Minister shares a Sanskrit Subhashitam, highlights noble character as the foundation of respect, trust, and effective leadership",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2289745",
+      "date": "2026-07-27",
+      "scraped_date": "2026-07-27",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "7dd6b8224b8b1a67f0fdd17d9a9c94e9",
       "title": "Prime Minister expresses gratitude to brave soldiers on Kargil Vijay Diwas",
@@ -1535,7 +1573,7 @@
       "section": "other"
     }
   ],
-  "other_count": 76,
+  "other_count": 78,
   "vertical_counts": {
     "General": 3,
     "CoDED": 0,
