@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-07-28T01:55:42Z",
-  "last_updated_ist": "28 Jul 2026, 07:25 AM IST",
-  "total": 113,
+  "last_updated": "2026-07-28T05:08:57Z",
+  "last_updated_ist": "28 Jul 2026, 10:38 AM IST",
+  "total": 115,
   "articles": [
+    {
+      "id": "b3163e86a1f3250cead8e02bdd007830",
+      "title": "Prime Minister congratulates Weightlifter, Bindyarani Devi Sorokhaibam on winning Bronze at Commonwealth Games 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2290216",
+      "date": "2026-07-28",
+      "scraped_date": "2026-07-28",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "ebc1629ff5b2a634090a98fd3619c731",
+      "title": "Prime Minister shares Sanskrit Subhashitam highlighting the importance of protecting nature",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2290215",
+      "date": "2026-07-28",
+      "scraped_date": "2026-07-28",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "4c671ad28ff5569f6bcc914eaebc79ab",
       "title": "India's Fight to Combat Hepatitis",
@@ -2173,7 +2211,7 @@
       "section": "other"
     }
   ],
-  "other_count": 104,
+  "other_count": 106,
   "vertical_counts": {
     "General": 3,
     "CoDED": 0,
