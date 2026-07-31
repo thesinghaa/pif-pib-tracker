@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-07-31T16:05:34Z",
-  "last_updated_ist": "31 Jul 2026, 09:35 PM IST",
-  "total": 357,
+  "last_updated": "2026-07-31T17:32:06Z",
+  "last_updated_ist": "31 Jul 2026, 11:02 PM IST",
+  "total": 359,
   "articles": [
     {
       "id": "88f77bc452a1022c34200322199d5e36",
@@ -1923,6 +1923,44 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "1b2cc684fcb683e032a1d670e30bac86",
+      "title": "Chennai Port Authority Introduces New Cargo and Enhances Cargo Handling Capabilities",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2292791",
+      "date": "2026-07-31",
+      "scraped_date": "2026-07-31",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "dd09579677685abb0bf4d71edff686de",
+      "title": "DRI continues crackdown on narcotics trafficking under Operation Chakravyuh: Passenger apprehended at Calicut International Airport with approximately 10 kg of hydroponic weed.",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2292793",
+      "date": "2026-07-31",
+      "scraped_date": "2026-07-31",
+      "relative_time": "Today",
+      "region": "Thiruvananthapuram",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
       "section": "other"
     },
     {
@@ -6848,7 +6886,7 @@
       "section": "other"
     }
   ],
-  "other_count": 334,
+  "other_count": 336,
   "vertical_counts": {
     "General": 9,
     "CoDED": 3,
