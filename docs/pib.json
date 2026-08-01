@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-01T16:03:49Z",
-  "last_updated_ist": "01 Aug 2026, 09:33 PM IST",
-  "total": 285,
+  "last_updated": "2026-08-01T17:03:23Z",
+  "last_updated_ist": "01 Aug 2026, 10:33 PM IST",
+  "total": 286,
   "articles": [
     {
       "id": "9529f98a6c414e07f69308277a2156f8",
@@ -909,6 +909,25 @@
       "scraped_date": "2026-08-01",
       "relative_time": "Today",
       "region": "Thiruvananthapuram",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "cf650a568fee13b96baa3c0069b43841",
+      "title": "World Breastfeeding Week (August 1–7, 2026) Celebrated in JIPMER",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2293162",
+      "date": "2026-08-01",
+      "scraped_date": "2026-08-01",
+      "relative_time": "Today",
+      "region": "Chennai",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -5466,7 +5485,7 @@
       "section": "other"
     }
   ],
-  "other_count": 267,
+  "other_count": 268,
   "vertical_counts": {
     "General": 6,
     "CoDED": 1,
