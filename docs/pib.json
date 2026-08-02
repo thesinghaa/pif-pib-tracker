@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-02T14:42:35Z",
-  "last_updated_ist": "02 Aug 2026, 08:12 PM IST",
-  "total": 196,
+  "last_updated": "2026-08-02T16:05:25Z",
+  "last_updated_ist": "02 Aug 2026, 09:35 PM IST",
+  "total": 199,
   "articles": [
     {
       "id": "98f3982259227855db19497fd41cd87d",
@@ -780,6 +780,63 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "1426db610fc956f592b0810bd387fe7d",
+      "title": "Prime Minister shares glimpses of his speech at the launch of ‘Nasha Mukt Yuva for Viksit Bharat Sankalp Abhiyan’ via VC",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2293517",
+      "date": "2026-08-02",
+      "scraped_date": "2026-08-02",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "fdb8b88a872ca4391aae78cff537645b",
+      "title": "Prime Minister pays tributes to Freedom Fighter, Shri Pingali Venkayya on his 150th birth anniversary",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2293516",
+      "date": "2026-08-02",
+      "scraped_date": "2026-08-02",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "8c7ae8837cfdd5b3a61d3b1728a8e706",
+      "title": "Governor Shri Indra Sena Reddy Nallu inaugurates the State-level launch of “Nasha Mukt Yuva for Viksit Bharat Sankalp Abhiyan” in Tripura",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2293519",
+      "date": "2026-08-02",
+      "scraped_date": "2026-08-02",
+      "relative_time": "Today",
+      "region": "Agartala",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "section": "other"
     },
     {
@@ -3755,7 +3812,7 @@
       "section": "other"
     }
   ],
-  "other_count": 187,
+  "other_count": 190,
   "vertical_counts": {
     "General": 5,
     "CoDED": 0,
@@ -3764,7 +3821,7 @@
     "Corporate_Advisory": 0,
     "Government_Practice": 1
   },
-  "regions_scraped": 16,
+  "regions_scraped": 17,
   "verticals": {
     "General": {
       "label": "General (Cross-Cutting)",
