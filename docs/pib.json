@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-02T12:06:56Z",
-  "last_updated_ist": "02 Aug 2026, 05:36 PM IST",
-  "total": 192,
+  "last_updated": "2026-08-02T13:10:49Z",
+  "last_updated_ist": "02 Aug 2026, 06:40 PM IST",
+  "total": 193,
   "articles": [
     {
       "id": "98f3982259227855db19497fd41cd87d",
@@ -695,6 +695,25 @@
       "scraped_date": "2026-08-02",
       "relative_time": "Today",
       "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "08a89900e42215676a57afdbaf502203",
+      "title": "BRICS WAVES Bazaar to Bring Together Over 500 Delegates from BRICS Member and Partner Countries in Mumbai",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2293471",
+      "date": "2026-08-02",
+      "scraped_date": "2026-08-02",
+      "relative_time": "Today",
+      "region": "Mumbai",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -3679,7 +3698,7 @@
       "section": "other"
     }
   ],
-  "other_count": 183,
+  "other_count": 184,
   "vertical_counts": {
     "General": 5,
     "CoDED": 0,
