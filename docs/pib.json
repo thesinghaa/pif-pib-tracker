@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-08-03T02:09:27Z",
-  "last_updated_ist": "03 Aug 2026, 07:39 AM IST",
-  "total": 93,
+  "last_updated": "2026-08-03T05:51:43Z",
+  "last_updated_ist": "03 Aug 2026, 11:21 AM IST",
+  "total": 95,
   "articles": [
+    {
+      "id": "74bae8507c5cf7f2484cc2948dc0e253",
+      "title": "Prime Minister expresses pride in Indian contingent’s performance at Commonwealth Games 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2293569",
+      "date": "2026-08-03",
+      "scraped_date": "2026-08-03",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "d6b33b0e32122174e6de71d77274f79f",
+      "title": "Prime Minister shares Sanskrit Subhashitam highlighting the importance of courage and perseverance",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2293568",
+      "date": "2026-08-03",
+      "scraped_date": "2026-08-03",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "98f3982259227855db19497fd41cd87d",
       "title": "Prime Minister congratulates Sachin Siwach on winning Gold in Men’s 60 kg Boxing",
@@ -1776,7 +1814,7 @@
       "section": "other"
     }
   ],
-  "other_count": 91,
+  "other_count": 93,
   "vertical_counts": {
     "General": 1,
     "CoDED": 0,
