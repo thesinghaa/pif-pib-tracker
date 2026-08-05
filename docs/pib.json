@@ -1,8 +1,49 @@
 {
-  "last_updated": "2026-08-05T02:01:09Z",
-  "last_updated_ist": "05 Aug 2026, 07:31 AM IST",
-  "total": 221,
+  "last_updated": "2026-08-05T05:12:16Z",
+  "last_updated_ist": "05 Aug 2026, 10:42 AM IST",
+  "total": 223,
   "articles": [
+    {
+      "id": "b52c6b0c6d1cc71446279bde6f6aa724",
+      "title": "NCS PORTAL",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2294658",
+      "date": "2026-08-05",
+      "scraped_date": "2026-08-05",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "9ca48a55956b54c4443e7637fb74d8b5",
+      "title": "CSIR-IIP, CSIR-CRRI and CSIR-AMPRI Showcase Indigenous Bio-Binder Technology for Sustainable Road Infrastructure",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2294669",
+      "date": "2026-08-05",
+      "scraped_date": "2026-08-05",
+      "relative_time": "Today",
+      "region": "Dehradun",
+      "verticals": [
+        "CoDED",
+        "Government_Practice"
+      ],
+      "primary_vertical": "CoDED",
+      "sub_verticals": [],
+      "tier": "flagship",
+      "relevance_score": 23.0,
+      "snippet": "",
+      "full_content": "- Bio-Binder technology converts agricultural and biomass waste into an eco-friendly alternative to petroleum-based bitumen - Technology supports Atmanirbhar Bharat by reducing dependence on imported petroleum products and promoting a circular bioeconomy - CSIR-CRRI to establish a National Bio-Binder Testing Laboratory by March 2027\nCSIR-Indian Institute of Petroleum (CSIR-IIP), Dehradun, in collaboration with CSIR-Central Road Research Institute (CSIR-CRRI) and CSIR-Advanced Materials and Processes Research Institute (CSIR-AMPRI), showcased Bio-Binder Technology during a technology demonstration programme aimed at accelerating the commercialization of indigenous green technologies for sustainable road infrastructure. The event brought together senior scientists, industry leaders and research collaborators to promote technology-led national development and sustainable innovation.\nThe programme was attended by Director, CSIR-IIP, Dr. Harender Singh Bisht; Director, CSIR-CRRI, Dr. C. Ravi Sekhar; Director, CSIR-AMPRI, Dr. Thallada Bhaskar; Dr. V. C. S. Palla and his team from CSIR-IIP; Dr. G. Bharath and his team from CSIR-CRRI; along with representatives from industry collaborating with CSIR-IIP and CSIR-CRRI for the commercial scale-up and deployment of Bio-Binder technology.\nAddressing the gathering, Dr. Harender Singh Bisht said that Bio-Binder Technology represents a significant advancement towards sustainable road construction by converting agricultural and biomass waste into an environmentally friendly substitute for petroleum-derived bitumen. He stated that the technology reflects the collective efforts of the three CSIR laboratories to reduce dependence on imported petroleum products, promote the effective utilization of agricultural residues, create additional income opportunities for farmers and contribute to India's transition towards greener and more sustainable infrastructure.\nSpeaking on the occasion, Dr. C. Ravi Sekhar highlighted that India's rapidly expanding road infrastructure continues to depend heavily on imported bitumen. He said that the Bio-Binder technology provides an indigenous and sustainable alternative by converting agricultural residues, particularly rice straw and other biomass waste, through pyrolysis into valuable products such as bio-oil, bio-binder, biochar and biogas. The bio-binder produced through this process can effectively replace or supplement conventional petroleum-derived bitumen in flexible pavement construction, thereby supporting the vision of Atmanirbhar Bharat, promoting circular economy principles and reducing environmental pollution caused by agricultural residue burning.\nDr. Ravi Sekhar informed that CSIR-CRRI has successfully completed the long-term evaluation of a 100-metre Bio-Binder test section constructed on National Highway-40 near Shillong. Building on these successful trials, he said that the Government of Andhra Pradesh has initiated a five-kilometre evaluation programme for Bio-Binder",
+      "summary": "- Bio-Binder technology converts agricultural and biomass waste into an eco-friendly alternative to petroleum-based bitumen - Technology supports Atmanirbhar Bharat by reducing dependence on imported petroleum products and promoting a circular bioeconomy - CSIR-CRRI to establish a National Bio-Binder Testing Laboratory by March 2027 CSIR-Indian Institute of Petroleum (CSIR-IIP), Dehradun, in collaboration with CSIR-Central Road Research Institute (CSIR-CRRI) and CSIR-Advanced Materials and Processes Research Institute (CSIR-AMPRI), showcased Bio-Binder Technology during a technology demonstration programme aimed at accelerating the commercialization of indigenous green technologies for sustainable road infrastructure. The event brought together senior scientists, industry leaders and research collaborators to promote technology-led national development and sustainable innovation. The programme was attended by Director, CSIR-IIP, Dr.",
+      "sentiment": "neutral",
+      "section": "vertical"
+    },
     {
       "id": "f47f33983891b0c44b4f9c45a6313ce1",
       "title": "Prime Minister shares Sanskrit Subhashitam applauding the effort and dedication of India's Youth",
@@ -4263,14 +4304,14 @@
       "section": "other"
     }
   ],
-  "other_count": 200,
+  "other_count": 201,
   "vertical_counts": {
     "General": 10,
-    "CoDED": 4,
+    "CoDED": 5,
     "ELS": 10,
     "Environmental_Health": 9,
     "Corporate_Advisory": 3,
-    "Government_Practice": 3
+    "Government_Practice": 4
   },
   "regions_scraped": 19,
   "verticals": {
