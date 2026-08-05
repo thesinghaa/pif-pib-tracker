@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-08-05T19:31:18Z",
-  "last_updated_ist": "06 Aug 2026, 01:01 AM IST",
-  "total": 250,
+  "last_updated": "2026-08-05T21:16:51Z",
+  "last_updated_ist": "06 Aug 2026, 02:46 AM IST",
+  "total": 251,
   "articles": [
+    {
+      "id": "43c0b77c44d9dc8060da2ff369c3e969",
+      "title": "Mental Illness is Not Shameful; It Should be Properly Treated – Dr. Akhilesh Shukla",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2295289",
+      "date": "2026-08-06",
+      "scraped_date": "2026-08-06",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "b52c6b0c6d1cc71446279bde6f6aa724",
       "title": "NCS PORTAL",
@@ -4794,7 +4813,7 @@
       "section": "other"
     }
   ],
-  "other_count": 235,
+  "other_count": 236,
   "vertical_counts": {
     "General": 5,
     "CoDED": 1,
