@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-06T00:03:34Z",
-  "last_updated_ist": "06 Aug 2026, 05:33 AM IST",
-  "total": 251,
+  "last_updated": "2026-08-06T01:57:19Z",
+  "last_updated_ist": "06 Aug 2026, 07:27 AM IST",
+  "total": 252,
   "articles": [
     {
       "id": "43c0b77c44d9dc8060da2ff369c3e969",
@@ -2531,6 +2531,25 @@
       "section": "other"
     },
     {
+      "id": "e2054762d1040ea53c571895f3b0055b",
+      "title": "Mr. Ted Sarandos meets the Prime Minister",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2295291",
+      "date": "2026-08-05",
+      "scraped_date": "2026-08-06",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
       "id": "f47f33983891b0c44b4f9c45a6313ce1",
       "title": "Prime Minister shares Sanskrit Subhashitam applauding the effort and dedication of India's Youth",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2294135",
@@ -4813,7 +4832,7 @@
       "section": "other"
     }
   ],
-  "other_count": 236,
+  "other_count": 237,
   "vertical_counts": {
     "General": 5,
     "CoDED": 1,
