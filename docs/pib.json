@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-07T05:02:00Z",
-  "last_updated_ist": "07 Aug 2026, 10:32 AM IST",
-  "total": 231,
+  "last_updated": "2026-08-07T06:16:57Z",
+  "last_updated_ist": "07 Aug 2026, 11:46 AM IST",
+  "total": 234,
   "articles": [
     {
       "id": "8a806fc8948bbd979b2c94c1aa81d9aa",
@@ -20,6 +20,63 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "47bd009dd9654422beac09242651b607",
+      "title": "Prime Minister shares Sanskrit Subhashitam emphasizing on spirit of selfless service",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2295850",
+      "date": "2026-08-07",
+      "scraped_date": "2026-08-07",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "0121e3794aa5de70422f26435675d42b",
+      "title": "Prime Minister greets the nation on National Handloom Day",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2295848",
+      "date": "2026-08-07",
+      "scraped_date": "2026-08-07",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "35373fbdf3ae64a59e868fe65f1c8874",
+      "title": "NHRC, India takes suo motu cognizance of a media report about school students risking their lives by hopping on check dam pillars to cross the Betwa River to reach school in Madhya Pradesh's Vidisha district",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2295841",
+      "date": "2026-08-07",
+      "scraped_date": "2026-08-07",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
       "section": "other"
     },
     {
@@ -4433,7 +4490,7 @@
       "section": "other"
     }
   ],
-  "other_count": 216,
+  "other_count": 219,
   "vertical_counts": {
     "General": 5,
     "CoDED": 1,
