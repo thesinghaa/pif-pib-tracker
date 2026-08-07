@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-08-07T02:21:18Z",
-  "last_updated_ist": "07 Aug 2026, 07:51 AM IST",
-  "total": 230,
+  "last_updated": "2026-08-07T05:02:00Z",
+  "last_updated_ist": "07 Aug 2026, 10:32 AM IST",
+  "total": 231,
   "articles": [
+    {
+      "id": "8a806fc8948bbd979b2c94c1aa81d9aa",
+      "title": "PM to address the 57th Convocation Ceremony of IIT Delhi on 8th August",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2295834",
+      "date": "2026-08-07",
+      "scraped_date": "2026-08-07",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "43c0b77c44d9dc8060da2ff369c3e969",
       "title": "Mental Illness is Not Shameful; It Should be Properly Treated – Dr. Akhilesh Shukla",
@@ -4414,7 +4433,7 @@
       "section": "other"
     }
   ],
-  "other_count": 215,
+  "other_count": 216,
   "vertical_counts": {
     "General": 5,
     "CoDED": 1,
