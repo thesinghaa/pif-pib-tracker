@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-08T13:54:17Z",
-  "last_updated_ist": "08 Aug 2026, 07:24 PM IST",
-  "total": 255,
+  "last_updated": "2026-08-08T14:39:37Z",
+  "last_updated_ist": "08 Aug 2026, 08:09 PM IST",
+  "total": 258,
   "articles": [
     {
       "id": "1b7cd2152b433feb65840ef747b1702e",
@@ -613,6 +613,63 @@
       "full_content": "",
       "summary": "",
       "sentiment": "down",
+      "section": "other"
+    },
+    {
+      "id": "b5424f9cad91fed6b8357c4c757256b8",
+      "title": "Dr. Ambedkar Foundation’s Inter-Caste Marriage and Atrocity Victims Relief Schemes Merged with Centrally Sponsored Scheme from March 31, 2023",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296603",
+      "date": "2026-08-08",
+      "scraped_date": "2026-08-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "d71ac08f3de62d7de702b07715e66675",
+      "title": "Awareness session on 4 new Labour Codes organized at BPCL LPG Bottling plant in Solur",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296615",
+      "date": "2026-08-08",
+      "scraped_date": "2026-08-08",
+      "relative_time": "Today",
+      "region": "Bengaluru",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "d0bafead08df2dacd88fa62a72b2cb20",
+      "title": "BSP Promotes Mental and Emotional Resilience through Special Sessions",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296614",
+      "date": "2026-08-08",
+      "scraped_date": "2026-08-08",
+      "relative_time": "Today",
+      "region": "Raipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -4886,7 +4943,7 @@
       "section": "other"
     }
   ],
-  "other_count": 241,
+  "other_count": 244,
   "vertical_counts": {
     "General": 4,
     "CoDED": 0,
