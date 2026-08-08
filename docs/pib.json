@@ -1,8 +1,48 @@
 {
-  "last_updated": "2026-08-08T04:20:55Z",
-  "last_updated_ist": "08 Aug 2026, 09:50 AM IST",
-  "total": 223,
+  "last_updated": "2026-08-08T05:46:27Z",
+  "last_updated_ist": "08 Aug 2026, 11:16 AM IST",
+  "total": 225,
   "articles": [
+    {
+      "id": "1b7cd2152b433feb65840ef747b1702e",
+      "title": "DigiLocker Partners with AAERI to Fast-Track Document Verification for Indian Students Heading to Australia",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296443",
+      "date": "2026-08-08",
+      "scraped_date": "2026-08-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "9b58e1421bae8f3e363514fa4fe46b4a",
+      "title": "Coordinators' Conclave-cum-Meeting of the Monitoring Committee for the First Year of Phase III (2025–30) under the CSIR Integrated Skill Initiative",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296442",
+      "date": "2026-08-08",
+      "scraped_date": "2026-08-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "sub_verticals": [],
+      "tier": "primary",
+      "relevance_score": 10.5,
+      "snippet": "",
+      "full_content": "The Coordinators' Conclave-cum-Meeting of the Monitoring Committee for the First Year of Phase III (2025–30) under the CSIR Integrated Skill Initiative was successfully organized by the CSIR-Human Resource Development Centre (CSIR-HRDC), Ghaziabad, in association with CSIR-National Chemical Laboratory (CSIR-NCL), Pune, on 06–07 August 2026 at CSIR-NCL, Pune. The two-day conclave served as a significant platform for reviewing the progress made during the first year of Phase III of the CSIR Integrated Skill Initiative, facilitating knowledge exchange among participating laboratories, and strengthening collaborative efforts for the effective implementation of the programme.\nThe programme commenced with an inaugural session featuring the ceremonial welcome of dignitaries and participants, followed by the traditional lamp-lighting ceremony. Dr Rajesh G. Gonnade, Scientist-G, CSIR-NCL, welcomed the gathering and set the stage for the discussions by emphasizing the importance of collaboration, innovation and skill development in achieving the objectives of the meeting. Dr. Vinay Kumar, Scientist-G and Skill Nodal Principal Investigator, CSIR-HRDC, presented the objectives of the conclave and provided a brief overview of the remarkable progress achieved under the CSIR Integrated Skill Initiative during 2025–26. He highlighted the vision of CSIR integrated Skill Initiative’s pivotal role in creating a nationwide skill development ecosystem for nurturing industry-ready talent to build a technology-driven workforce. Dr. Abhishek Kumar, Scientist-F, CSIR-Central Planning Directorate (CPD) highlighted the significant achievements of the initiative and the policy interventions undertaken during the year. Dr. T. S. Rana, Head, CSIR-HRDC, Ghaziabad emphasized CSIR's commitment to transforming knowledge into digitally enabled, experiential, and innovation-driven solutions for skill development.\nDr. Mohana Krishna Reddy Mudiam, Director, Institute of Pesticide Formulation Technology (IPFT), Gurugram, and Chairman of the Monitoring Committee underscored that skill development is an integral part of nation-building and outlined five key priority pillars to guide the CSIR Integrated Skill Initiative towards building a robust, future-ready, and industry-aligned skill development ecosystem. Dr. Ashish Lele, Director, CSIR-NCL, Pune emphasized that that CSIR is uniquely positioned to make a meaningful contribution to the Skill India Mission by leveraging its extensive nationwide laboratory network and scientific expertise to help position India as a global hub for skilled talent.\nA major highlight of the conclave was the comprehensive review of the annual progress achieved during 2025–26 under Phase III of the CSIR Integrated Skill Initiative. Throughout the first day, Skill Nodal Coordinators from all 37 participating CSIR laboratories presented their annual progress reports, highlighting the programmes conducted, trainee outreach, innovative initiatives, challenges en",
+      "summary": "The Coordinators' Conclave-cum-Meeting of the Monitoring Committee for the First Year of Phase III (2025–30) under the CSIR Integrated Skill Initiative was successfully organized by the CSIR-Human Resource Development Centre (CSIR-HRDC), Ghaziabad, in association with CSIR-National Chemical Laboratory (CSIR-NCL), Pune, on 06–07 August 2026 at CSIR-NCL, Pune. The two-day conclave served as a significant platform for reviewing the progress made during the first year of Phase III of the CSIR Integrated Skill Initiative, facilitating knowledge exchange among participating laboratories, and strengthening collaborative efforts for the effective implementation of the programme. The programme commenced with an inaugural session featuring the ceremonial welcome of dignitaries and participants, followed by the traditional lamp-lighting ceremony.",
+      "sentiment": "up",
+      "section": "vertical"
+    },
     {
       "id": "8a806fc8948bbd979b2c94c1aa81d9aa",
       "title": "PM to address the 57th Convocation Ceremony of IIT Delhi on 8th August",
@@ -4274,11 +4314,11 @@
       "section": "other"
     }
   ],
-  "other_count": 211,
+  "other_count": 212,
   "vertical_counts": {
     "General": 4,
     "CoDED": 0,
-    "ELS": 3,
+    "ELS": 4,
     "Environmental_Health": 9,
     "Corporate_Advisory": 1,
     "Government_Practice": 2
