@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-08T05:46:27Z",
-  "last_updated_ist": "08 Aug 2026, 11:16 AM IST",
-  "total": 225,
+  "last_updated": "2026-08-08T06:48:35Z",
+  "last_updated_ist": "08 Aug 2026, 12:18 PM IST",
+  "total": 227,
   "articles": [
     {
       "id": "1b7cd2152b433feb65840ef747b1702e",
@@ -42,6 +42,44 @@
       "summary": "The Coordinators' Conclave-cum-Meeting of the Monitoring Committee for the First Year of Phase III (2025–30) under the CSIR Integrated Skill Initiative was successfully organized by the CSIR-Human Resource Development Centre (CSIR-HRDC), Ghaziabad, in association with CSIR-National Chemical Laboratory (CSIR-NCL), Pune, on 06–07 August 2026 at CSIR-NCL, Pune. The two-day conclave served as a significant platform for reviewing the progress made during the first year of Phase III of the CSIR Integrated Skill Initiative, facilitating knowledge exchange among participating laboratories, and strengthening collaborative efforts for the effective implementation of the programme. The programme commenced with an inaugural session featuring the ceremonial welcome of dignitaries and participants, followed by the traditional lamp-lighting ceremony.",
       "sentiment": "up",
       "section": "vertical"
+    },
+    {
+      "id": "a82fca7ad40f284abc4f3ac5d69cab99",
+      "title": "Prime Minister condoles loss of lives in a mishap in Chamba, Himachal Pradesh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296454",
+      "date": "2026-08-08",
+      "scraped_date": "2026-08-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "section": "other"
+    },
+    {
+      "id": "a9090feb2b0d9707e066414b1f39db6a",
+      "title": "Oil Marketing Companies (OMCs) test for Moisture & Chloride presence in E20 Petrol: Claims of 500 ppm Chloride and presence of moisture not validated",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296452",
+      "date": "2026-08-08",
+      "scraped_date": "2026-08-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
     },
     {
       "id": "8a806fc8948bbd979b2c94c1aa81d9aa",
@@ -4314,7 +4352,7 @@
       "section": "other"
     }
   ],
-  "other_count": 212,
+  "other_count": 214,
   "vertical_counts": {
     "General": 4,
     "CoDED": 0,
