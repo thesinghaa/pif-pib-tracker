@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-09T12:42:38Z",
-  "last_updated_ist": "09 Aug 2026, 06:12 PM IST",
-  "total": 186,
+  "last_updated": "2026-08-09T13:52:47Z",
+  "last_updated_ist": "09 Aug 2026, 07:22 PM IST",
+  "total": 188,
   "articles": [
     {
       "id": "e3f40bb6e3895040efc833e2f0bf8566",
@@ -362,6 +362,44 @@
       "full_content": "",
       "summary": "",
       "sentiment": "down",
+      "section": "other"
+    },
+    {
+      "id": "6ac365a99b87a9ab39fd00f483bd1aca",
+      "title": "Runway Excursion Incident Involving Cessna C172 trainer Aircraft at Baramati Airfield, Maharashtra",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296861",
+      "date": "2026-08-09",
+      "scraped_date": "2026-08-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "f8fc9b8140ec25e4930fa23dadae5c5e",
+      "title": "‘The message of Nasha Mukti from Kashi must reach every village in Jalgaon’ — MoS Raksha Khadse",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296858",
+      "date": "2026-08-09",
+      "scraped_date": "2026-08-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -3554,7 +3592,7 @@
       "section": "other"
     }
   ],
-  "other_count": 179,
+  "other_count": 181,
   "vertical_counts": {
     "General": 0,
     "CoDED": 0,
