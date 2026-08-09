@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-09T16:37:57Z",
-  "last_updated_ist": "09 Aug 2026, 10:07 PM IST",
-  "total": 191,
+  "last_updated": "2026-08-09T17:36:58Z",
+  "last_updated_ist": "09 Aug 2026, 11:06 PM IST",
+  "total": 192,
   "articles": [
     {
       "id": "e3f40bb6e3895040efc833e2f0bf8566",
@@ -448,6 +448,25 @@
       "scraped_date": "2026-08-09",
       "relative_time": "Today",
       "region": "Agartala",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "90cc855c8161564ff2f88d2397437545",
+      "title": "Prime Minister hosts Commonwealth Games 2026 medal winners",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296926",
+      "date": "2026-08-09",
+      "scraped_date": "2026-08-09",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -3649,7 +3668,7 @@
       "section": "other"
     }
   ],
-  "other_count": 184,
+  "other_count": 185,
   "vertical_counts": {
     "General": 0,
     "CoDED": 0,
