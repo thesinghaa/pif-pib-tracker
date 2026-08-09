@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-09T09:45:19Z",
-  "last_updated_ist": "09 Aug 2026, 03:15 PM IST",
-  "total": 181,
+  "last_updated": "2026-08-09T10:34:53Z",
+  "last_updated_ist": "09 Aug 2026, 04:04 PM IST",
+  "total": 184,
   "articles": [
     {
       "id": "e3f40bb6e3895040efc833e2f0bf8566",
@@ -267,6 +267,63 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "e1a8e75d4c382a9428f6ae883ce01259",
+      "title": "Competition Commission of India (CCI) hosts BRICS Heads of Competition Authorities 2026 meeting",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296800",
+      "date": "2026-08-09",
+      "scraped_date": "2026-08-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "af25479e669c5acfe53eae59877c780b",
+      "title": "Pradhan Mantri Awas Yojana - Urban Milestone: 1.25 crore houses sanctioned, 1 crore houses delivered",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296797",
+      "date": "2026-08-09",
+      "scraped_date": "2026-08-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "ddde2c62b2251e17852d3f00cf8aed7f",
+      "title": "‘Nasha Mukt Bharat’ the theme as Sports Minister Dr Mansukh Mandaviya leads nationwide 85th edition of Fit India Sundays on Cycle from Hanol in Gujarat with youth, MyBharat, NSS",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296795",
+      "date": "2026-08-09",
+      "scraped_date": "2026-08-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -3459,7 +3516,7 @@
       "section": "other"
     }
   ],
-  "other_count": 174,
+  "other_count": 177,
   "vertical_counts": {
     "General": 0,
     "CoDED": 0,
