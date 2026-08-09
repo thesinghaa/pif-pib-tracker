@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-09T11:32:54Z",
-  "last_updated_ist": "09 Aug 2026, 05:02 PM IST",
-  "total": 184,
+  "last_updated": "2026-08-09T12:42:38Z",
+  "last_updated_ist": "09 Aug 2026, 06:12 PM IST",
+  "total": 186,
   "articles": [
     {
       "id": "e3f40bb6e3895040efc833e2f0bf8566",
@@ -324,6 +324,44 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "6c037f0d469029e76db979d0267774bd",
+      "title": "INDIAN NAVY–US NAVY EXPLOSIVE ORDNANCE DISPOSAL EXERCISE 2026 TO COMMENCE AT SOUTHERN NAVAL COMMAND, KOCHI",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296842",
+      "date": "2026-08-09",
+      "scraped_date": "2026-08-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "74abf8b5024d4d10aa570d2433845f66",
+      "title": "Sudden loss of altitude during cruise and injuries on board M/s Air India A320 aircraft VT-EXO operating flight AI2379 from Phuket to Delhi on 04.08.2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296835",
+      "date": "2026-08-09",
+      "scraped_date": "2026-08-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
       "section": "other"
     },
     {
@@ -3516,7 +3554,7 @@
       "section": "other"
     }
   ],
-  "other_count": 177,
+  "other_count": 179,
   "vertical_counts": {
     "General": 0,
     "CoDED": 0,
