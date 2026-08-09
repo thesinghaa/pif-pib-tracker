@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-09T07:56:36Z",
-  "last_updated_ist": "09 Aug 2026, 01:26 PM IST",
-  "total": 176,
+  "last_updated": "2026-08-09T08:42:08Z",
+  "last_updated_ist": "09 Aug 2026, 02:12 PM IST",
+  "total": 179,
   "articles": [
     {
       "id": "e3f40bb6e3895040efc833e2f0bf8566",
@@ -172,6 +172,63 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "81b5c61eafbc8fb6588eed2c21d71b77",
+      "title": "Op Sindoor sent a global message that India will go to any extent to ensure safety of its citizens: Raksha Mantri",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296769",
+      "date": "2026-08-09",
+      "scraped_date": "2026-08-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "753cd08a36f64e1e6dc579ccc9a92659",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah presents the President’s Colours to Puducherry Police",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296762",
+      "date": "2026-08-09",
+      "scraped_date": "2026-08-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "9fe9664e0336895e939e7e7e4a05d01a",
+      "title": "Hydroponic Ganja seized at Chennai International Airport",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296764",
+      "date": "2026-08-09",
+      "scraped_date": "2026-08-09",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
       "section": "other"
     },
     {
@@ -3364,7 +3421,7 @@
       "section": "other"
     }
   ],
-  "other_count": 169,
+  "other_count": 172,
   "vertical_counts": {
     "General": 0,
     "CoDED": 0,
