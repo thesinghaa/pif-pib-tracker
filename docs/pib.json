@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-09T08:42:08Z",
-  "last_updated_ist": "09 Aug 2026, 02:12 PM IST",
-  "total": 179,
+  "last_updated": "2026-08-09T09:45:19Z",
+  "last_updated_ist": "09 Aug 2026, 03:15 PM IST",
+  "total": 181,
   "articles": [
     {
       "id": "e3f40bb6e3895040efc833e2f0bf8566",
@@ -229,6 +229,44 @@
       "full_content": "",
       "summary": "",
       "sentiment": "down",
+      "section": "other"
+    },
+    {
+      "id": "fdb34223b8387d9233af7d3b89a1cf5f",
+      "title": "India to be an essential player in the next industrial revolution which will be biotechnology and AI driven: Dr Jitendra Singh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296785",
+      "date": "2026-08-09",
+      "scraped_date": "2026-08-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "08fd06b94e8f5709281be793eaf550db",
+      "title": "India Achieves Landmark 300 GW Non-Fossil Fuel Power Capacity",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296782",
+      "date": "2026-08-09",
+      "scraped_date": "2026-08-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "section": "other"
     },
     {
@@ -3421,7 +3459,7 @@
       "section": "other"
     }
   ],
-  "other_count": 172,
+  "other_count": 174,
   "vertical_counts": {
     "General": 0,
     "CoDED": 0,
