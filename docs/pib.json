@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-08-10T03:23:30Z",
-  "last_updated_ist": "10 Aug 2026, 08:53 AM IST",
-  "total": 69,
+  "last_updated": "2026-08-10T05:29:06Z",
+  "last_updated_ist": "10 Aug 2026, 10:59 AM IST",
+  "total": 70,
   "articles": [
+    {
+      "id": "11698054d590bdcb33513ca134e6767b",
+      "title": "CHIEF OF THE NAVAL STAFF ON AN OFFICIAL VISIT TO MAURITIUS TO STRENGTHEN BILATERAL MARITIME COOPERATION",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296929",
+      "date": "2026-08-10",
+      "scraped_date": "2026-08-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
     {
       "id": "e3f40bb6e3895040efc833e2f0bf8566",
       "title": "NBA disburses around Rs. 3.79 crore under Access and Benefit Sharing mechanism to 33 States/UTs and National Institutes",
@@ -1319,7 +1338,7 @@
       "section": "other"
     }
   ],
-  "other_count": 67,
+  "other_count": 68,
   "vertical_counts": {
     "General": 0,
     "CoDED": 0,
