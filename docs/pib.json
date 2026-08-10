@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-10T16:03:44Z",
-  "last_updated_ist": "10 Aug 2026, 09:33 PM IST",
-  "total": 157,
+  "last_updated": "2026-08-10T16:54:48Z",
+  "last_updated_ist": "10 Aug 2026, 10:24 PM IST",
+  "total": 159,
   "articles": [
     {
       "id": "11698054d590bdcb33513ca134e6767b",
@@ -1682,6 +1682,44 @@
       "section": "other"
     },
     {
+      "id": "bc1632aafa2be47111def84e53ff30b4",
+      "title": "Commerce and Industry Minister Shri Piyush Goyal awards top buyers and sellers on GEM platform at the 10th Anniversary celebrations of GEM",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2297421",
+      "date": "2026-08-10",
+      "scraped_date": "2026-08-10",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "344d154e58f63f07906ecb4ab6b82c3d",
+      "title": "MEPZ SEZ Approves Investments of Over ₹443 Crores in August, Creating 2,427 Jobs",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2297414",
+      "date": "2026-08-10",
+      "scraped_date": "2026-08-10",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
       "id": "e3f40bb6e3895040efc833e2f0bf8566",
       "title": "NBA disburses around Rs. 3.79 crore under Access and Benefit Sharing mechanism to 33 States/UTs and National Institutes",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296731",
@@ -3016,7 +3054,7 @@
       "section": "other"
     }
   ],
-  "other_count": 146,
+  "other_count": 148,
   "vertical_counts": {
     "General": 2,
     "CoDED": 3,
