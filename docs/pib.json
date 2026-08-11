@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-11T05:11:10Z",
-  "last_updated_ist": "11 Aug 2026, 10:41 AM IST",
-  "total": 116,
+  "last_updated": "2026-08-11T06:06:20Z",
+  "last_updated_ist": "11 Aug 2026, 11:36 AM IST",
+  "total": 118,
   "articles": [
     {
       "id": "ba1297c79907b6786707236eb1843c55",
@@ -11,6 +11,44 @@
       "scraped_date": "2026-08-11",
       "relative_time": "Today",
       "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "34a60523f233867ce9aae0163d0d1d03",
+      "title": "Container Manufacturing Assistance Scheme: Building India's Maritime Future",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2297455",
+      "date": "2026-08-11",
+      "scraped_date": "2026-08-11",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "798ffd6bb9e726090fc62ad12ba03b8d",
+      "title": "CONSERVATION OF NATIONAL CULTURE HERITAGE UNDER NCF AND AMASR ACT",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2297463",
+      "date": "2026-08-11",
+      "scraped_date": "2026-08-11",
+      "relative_time": "Today",
+      "region": "Patna",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2233,7 +2271,7 @@
       "section": "other"
     }
   ],
-  "other_count": 107,
+  "other_count": 109,
   "vertical_counts": {
     "General": 2,
     "CoDED": 3,
@@ -2242,7 +2280,7 @@
     "Corporate_Advisory": 1,
     "Government_Practice": 2
   },
-  "regions_scraped": 13,
+  "regions_scraped": 14,
   "verticals": {
     "General": {
       "label": "General (Cross-Cutting)",
