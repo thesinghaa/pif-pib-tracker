@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-11T06:06:20Z",
-  "last_updated_ist": "11 Aug 2026, 11:36 AM IST",
-  "total": 118,
+  "last_updated": "2026-08-11T07:02:28Z",
+  "last_updated_ist": "11 Aug 2026, 12:32 PM IST",
+  "total": 122,
   "articles": [
     {
       "id": "ba1297c79907b6786707236eb1843c55",
@@ -59,6 +59,90 @@
       "summary": "",
       "sentiment": "neutral",
       "section": "other"
+    },
+    {
+      "id": "844f69f8f87128b901286949d3943a1d",
+      "title": "Union Agriculture Minister Shri Shivraj Singh Chouhan launches National Scholarship Portal",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2297476",
+      "date": "2026-08-11",
+      "scraped_date": "2026-08-11",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "1befca285885279fb1b77b932935cd30",
+      "title": "Ministry of MSME and DPIIT sign Memorandum of Understanding to accelerate commercialisation and global market access of India's Geographical Indication (GI) products",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2297474",
+      "date": "2026-08-11",
+      "scraped_date": "2026-08-11",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "ELS",
+        "Corporate_Advisory",
+        "Government_Practice"
+      ],
+      "primary_vertical": "ELS",
+      "sub_verticals": [],
+      "tier": "flagship",
+      "relevance_score": 41.5,
+      "snippet": "",
+      "full_content": "'Bharat GI' Banner Launched: Ministry of MSME and DPIIT to Bring Regional GI Products to ONDC and GeM\nIn a significant step towards unlocking the economic potential of India's rich heritage of Geographical Indication (GI) products, the Ministry of Micro, Small and Medium Enterprises and the Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry, signed a Memorandum of Understanding (MoU) on 05 th August,2026 at Vanijya Bhawan, New Delhi. The MoU was signed by Md. Salik Parwaiz, Director, Ministry of MSME and Shri Karan Thapar, Director, IPR Division, DPIIT, in the presence of senior officials of both organisations.\nDPIIT is the nodal department for the registration and legal protection of Geographical Indications in India under the Geographical Indications of Goods (Registration and Protection) Act, 1999, while Ministry of MSME is the nodal ministry for steering the growth, financial health and overall development of Micro, Small and Medium Enterprises, traditional industries and artisans across the country. Both sides recognise that while the legal registration of GIs protects regional identity, maximising their economic value requires a coordinated effort to transition these products from localised crafts into scalable, commercially viable and export-ready enterprises. The MoU accordingly establishes a collaborative framework to accelerate the commercialisation, quality standardisation and market penetration of Indian GI products, thereby enhancing the livelihoods of indigenous artisans, weavers and producers, while also strengthening the One District One Product (ODOP) ecosystem in the country.\nAs joint initiatives, both organisations will work towards integrating ODOP in their programme design and interventions, collaboratively facilitate the onboarding of GI collectives and authorised users onto the Open Network for Digital Commerce (ONDC) and the Government e-Marketplace (GeM) under a dedicated “Bharat GI” banner, and co-sponsor dedicated GI Pavilions at national and international trade expos, buyer-seller meets and exhibitions for domestic and global marketing of GI products.\nThe MoU represents a significant step towards aligning the Department for Promotion of Industry and Internal Trade’s (DPIIT) mandate for intellectual property protection with the Ministry of Micro, Small and Medium Enterprises’ (MSME) mandate for enterprise development. The collaboration is expected to strengthen India’s Geographical Indications (GI) ecosystem by facilitating capacity building, digital enablement and enhanced market access for artisans, weavers and producer collectives. It will further support the integration of GI products with premium domestic and international markets, contributing to the vision of Aatmanirbhar Bharat and Vocal for Local .\nSunil Kumar Tiwari\nE-Mail - hipessi[at]gmail[dot]com",
+      "summary": "'Bharat GI' Banner Launched: Ministry of MSME and DPIIT to Bring Regional GI Products to ONDC and GeM In a significant step towards unlocking the economic potential of India's rich heritage of Geographical Indication (GI) products, the Ministry of Micro, Small and Medium Enterprises and the Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry, signed a Memorandum of Understanding (MoU) on 05 th August,2026 at Vanijya Bhawan, New Delhi. Salik Parwaiz, Director, Ministry of MSME and Shri Karan Thapar, Director, IPR Division, DPIIT, in the presence of senior officials of both organisations. DPIIT is the nodal department for the registration and legal protection of Geographical Indications in India under the Geographical Indications of Goods (Registration and Protection) Act, 1999, while Ministry of MSME is the nodal ministry for steering the growth, financial health and overall development of Micro, Small and Medium Enterprises, traditional industries and artisans across the country.",
+      "sentiment": "up",
+      "section": "vertical"
+    },
+    {
+      "id": "f374325fc73a81d7e692191d9436faf9",
+      "title": "NIT Goa Invites Goa Youth to Experience Mizoram’s Rich Culture through ‘Yuva Sangam’",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2297478",
+      "date": "2026-08-11",
+      "scraped_date": "2026-08-11",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "0a2d2417a4c2202c4c127449ba26db0d",
+      "title": "Ministry of MSME and DPIIT sign Memorandum of Understanding to accelerate commercialisation and global market access of India's Geographical Indication (GI) products",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2297475",
+      "date": "2026-08-11",
+      "scraped_date": "2026-08-11",
+      "relative_time": "Today",
+      "region": "Ranchi",
+      "verticals": [
+        "ELS",
+        "Corporate_Advisory",
+        "Government_Practice"
+      ],
+      "primary_vertical": "ELS",
+      "sub_verticals": [],
+      "tier": "flagship",
+      "relevance_score": 41.5,
+      "snippet": "",
+      "full_content": "'Bharat GI' Banner Launched: Ministry of MSME and DPIIT to Bring Regional GI Products to ONDC and GeM\nIn a significant step towards unlocking the economic potential of India's rich heritage of Geographical Indication (GI) products, the Ministry of Micro, Small and Medium Enterprises and the Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry, signed a Memorandum of Understanding (MoU) on 05 th August,2026 at Vanijya Bhawan, New Delhi. The MoU was signed by Md. Salik Parwaiz, Director, Ministry of MSME and Shri Karan Thapar, Director, IPR Division, DPIIT, in the presence of senior officials of both organisations.\nDPIIT is the nodal department for the registration and legal protection of Geographical Indications in India under the Geographical Indications of Goods (Registration and Protection) Act, 1999, while Ministry of MSME is the nodal ministry for steering the growth, financial health and overall development of Micro, Small and Medium Enterprises, traditional industries and artisans across the country. Both sides recognise that while the legal registration of GIs protects regional identity, maximising their economic value requires a coordinated effort to transition these products from localised crafts into scalable, commercially viable and export-ready enterprises. The MoU accordingly establishes a collaborative framework to accelerate the commercialisation, quality standardisation and market penetration of Indian GI products, thereby enhancing the livelihoods of indigenous artisans, weavers and producers, while also strengthening the One District One Product (ODOP) ecosystem in the country.\nAs joint initiatives, both organisations will work towards integrating ODOP in their programme design and interventions, collaboratively facilitate the onboarding of GI collectives and authorised users onto the Open Network for Digital Commerce (ONDC) and the Government e-Marketplace (GeM) under a dedicated “Bharat GI” banner, and co-sponsor dedicated GI Pavilions at national and international trade expos, buyer-seller meets and exhibitions for domestic and global marketing of GI products.\nThe MoU represents a significant step towards aligning the Department for Promotion of Industry and Internal Trade’s (DPIIT) mandate for intellectual property protection with the Ministry of Micro, Small and Medium Enterprises’ (MSME) mandate for enterprise development. The collaboration is expected to strengthen India’s Geographical Indications (GI) ecosystem by facilitating capacity building, digital enablement and enhanced market access for artisans, weavers and producer collectives. It will further support the integration of GI products with premium domestic and international markets, contributing to the vision of Aatmanirbhar Bharat and Vocal for Local .",
+      "summary": "'Bharat GI' Banner Launched: Ministry of MSME and DPIIT to Bring Regional GI Products to ONDC and GeM In a significant step towards unlocking the economic potential of India's rich heritage of Geographical Indication (GI) products, the Ministry of Micro, Small and Medium Enterprises and the Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry, signed a Memorandum of Understanding (MoU) on 05 th August,2026 at Vanijya Bhawan, New Delhi. Salik Parwaiz, Director, Ministry of MSME and Shri Karan Thapar, Director, IPR Division, DPIIT, in the presence of senior officials of both organisations. DPIIT is the nodal department for the registration and legal protection of Geographical Indications in India under the Geographical Indications of Goods (Registration and Protection) Act, 1999, while Ministry of MSME is the nodal ministry for steering the growth, financial health and overall development of Micro, Small and Medium Enterprises, traditional industries and artisans across the country.",
+      "sentiment": "up",
+      "section": "vertical"
     },
     {
       "id": "11698054d590bdcb33513ca134e6767b",
@@ -2271,14 +2355,14 @@
       "section": "other"
     }
   ],
-  "other_count": 109,
+  "other_count": 111,
   "vertical_counts": {
     "General": 2,
     "CoDED": 3,
-    "ELS": 6,
+    "ELS": 8,
     "Environmental_Health": 2,
-    "Corporate_Advisory": 1,
-    "Government_Practice": 2
+    "Corporate_Advisory": 3,
+    "Government_Practice": 4
   },
   "regions_scraped": 14,
   "verticals": {
