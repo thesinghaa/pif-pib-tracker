@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-08-11T01:10:04Z",
-  "last_updated_ist": "11 Aug 2026, 06:40 AM IST",
-  "total": 115,
+  "last_updated": "2026-08-11T03:19:23Z",
+  "last_updated_ist": "11 Aug 2026, 08:49 AM IST",
+  "total": 116,
   "articles": [
+    {
+      "id": "ba1297c79907b6786707236eb1843c55",
+      "title": "Prime Minister shares a Sanskrit Subhashitam, highlighting the eight essential qualities that brighten a person's life and build character",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2297448",
+      "date": "2026-08-11",
+      "scraped_date": "2026-08-11",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "11698054d590bdcb33513ca134e6767b",
       "title": "CHIEF OF THE NAVAL STAFF ON AN OFFICIAL VISIT TO MAURITIUS TO STRENGTHEN BILATERAL MARITIME COOPERATION",
@@ -2214,7 +2233,7 @@
       "section": "other"
     }
   ],
-  "other_count": 106,
+  "other_count": 107,
   "vertical_counts": {
     "General": 2,
     "CoDED": 3,
