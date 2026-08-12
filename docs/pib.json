@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-08-12T01:20:43Z",
-  "last_updated_ist": "12 Aug 2026, 06:50 AM IST",
-  "total": 206,
+  "last_updated": "2026-08-12T04:13:08Z",
+  "last_updated_ist": "12 Aug 2026, 09:43 AM IST",
+  "total": 208,
   "articles": [
+    {
+      "id": "aaa8317686f907296962e3ad70ea966a",
+      "title": "Prime Minister shares a Sanskrit Subhashitam, highlighting the power of winning hearts through vision, thoughts, words, and actions",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298023",
+      "date": "2026-08-12",
+      "scraped_date": "2026-08-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "ba1297c79907b6786707236eb1843c55",
       "title": "Prime Minister shares a Sanskrit Subhashitam, highlighting the eight essential qualities that brighten a person's life and build character",
@@ -2225,6 +2244,25 @@
       "section": "other"
     },
     {
+      "id": "54b6d5cc0899d2a38e7baac96b3feab3",
+      "title": "From Financial Constraints to Educational Confidence: How Scholarship Support Helped YELUKURU SUDEEKSHA Continue Her B.Tech. Education",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298022",
+      "date": "2026-08-11",
+      "scraped_date": "2026-08-12",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
       "id": "11698054d590bdcb33513ca134e6767b",
       "title": "CHIEF OF THE NAVAL STAFF ON AN OFFICIAL VISIT TO MAURITIUS TO STRENGTHEN BILATERAL MARITIME COOPERATION",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2296929",
@@ -3960,7 +3998,7 @@
       "section": "other"
     }
   ],
-  "other_count": 191,
+  "other_count": 193,
   "vertical_counts": {
     "General": 3,
     "CoDED": 3,
