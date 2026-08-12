@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-12T16:06:24Z",
-  "last_updated_ist": "12 Aug 2026, 09:36 PM IST",
-  "total": 377,
+  "last_updated": "2026-08-12T17:02:37Z",
+  "last_updated_ist": "12 Aug 2026, 10:32 PM IST",
+  "total": 379,
   "articles": [
     {
       "id": "aaa8317686f907296962e3ad70ea966a",
@@ -3264,6 +3264,44 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "f1adedcb21d9f5f264d625e1b58ee75b",
+      "title": "PRESS RELEASE ON 393rd REPORT OF THE DEPARTMENT-RELATED PARLIAMENTARY STANDING COMMITTEE ON TRANSPORT, TOURISM AND CULTURE",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298703",
+      "date": "2026-08-12",
+      "scraped_date": "2026-08-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "c1de48027606218c7cecafe0816efc44",
+      "title": "India and the Southern African Customs Union (SACU) sign Terms of Reference (ToR) for negotiations towards a Preferential Trade Agreement",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298681",
+      "date": "2026-08-12",
+      "scraped_date": "2026-08-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "section": "other"
     },
     {
@@ -7242,7 +7280,7 @@
       "section": "other"
     }
   ],
-  "other_count": 349,
+  "other_count": 351,
   "vertical_counts": {
     "General": 7,
     "CoDED": 4,
