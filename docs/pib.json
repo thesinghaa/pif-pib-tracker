@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-13T04:14:36Z",
-  "last_updated_ist": "13 Aug 2026, 09:44 AM IST",
-  "total": 292,
+  "last_updated": "2026-08-13T05:56:11Z",
+  "last_updated_ist": "13 Aug 2026, 11:26 AM IST",
+  "total": 294,
   "articles": [
     {
       "id": "8c21712efc6d0224a78901f9b995e855",
@@ -39,6 +39,44 @@
       "full_content": "",
       "summary": "",
       "sentiment": "down",
+      "section": "other"
+    },
+    {
+      "id": "1cdaeb4ad7cda19b5cff91fa539a82de",
+      "title": "PIRPAINTI–JASIDIH NEW RAIL LINE PROJECT",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298730",
+      "date": "2026-08-13",
+      "scraped_date": "2026-08-13",
+      "relative_time": "Today",
+      "region": "Patna",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "73d32b7685ad22e5931217defe46ae06",
+      "title": "LACK OF RAILWAY CONNECTIVITY FOR SHEOHAR DISTRICT",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298729",
+      "date": "2026-08-13",
+      "scraped_date": "2026-08-13",
+      "relative_time": "Today",
+      "region": "Patna",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -5602,7 +5640,7 @@
       "section": "other"
     }
   ],
-  "other_count": 273,
+  "other_count": 275,
   "vertical_counts": {
     "General": 5,
     "CoDED": 1,
