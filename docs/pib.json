@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-13T17:01:38Z",
-  "last_updated_ist": "13 Aug 2026, 10:31 PM IST",
-  "total": 384,
+  "last_updated": "2026-08-13T18:04:40Z",
+  "last_updated_ist": "13 Aug 2026, 11:34 PM IST",
+  "total": 387,
   "articles": [
     {
       "id": "8c21712efc6d0224a78901f9b995e855",
@@ -1809,6 +1809,63 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "cb902a36643d5267ca6e4919f5fb8fa3",
+      "title": "PRESIDENT OF INDIA TO ADDRESS THE NATION TOMORROW ON THE EVE OF 80TH INDEPENDENCE DAY",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299250",
+      "date": "2026-08-13",
+      "scraped_date": "2026-08-13",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "a5f9f5e3525b2c9a64aea15168cc3c2a",
+      "title": "All India Hindi Technical Seminar 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299269",
+      "date": "2026-08-13",
+      "scraped_date": "2026-08-13",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "0fd67ec06dab5da375861275f0b610b7",
+      "title": "MoU signed between AIC IGCAR FAST Foundation and Tamil Nadu Government for Deeptech Translation",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299266",
+      "date": "2026-08-13",
+      "scraped_date": "2026-08-13",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "section": "other"
     },
     {
@@ -7372,7 +7429,7 @@
       "section": "other"
     }
   ],
-  "other_count": 356,
+  "other_count": 359,
   "vertical_counts": {
     "General": 11,
     "CoDED": 1,
