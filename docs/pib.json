@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-13T05:56:11Z",
-  "last_updated_ist": "13 Aug 2026, 11:26 AM IST",
-  "total": 294,
+  "last_updated": "2026-08-13T07:31:26Z",
+  "last_updated_ist": "13 Aug 2026, 01:01 PM IST",
+  "total": 295,
   "articles": [
     {
       "id": "8c21712efc6d0224a78901f9b995e855",
@@ -77,6 +77,25 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "6523f4eeb70eaa779635365936f96a0b",
+      "title": "Expanding the Development Horizon",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298755",
+      "date": "2026-08-13",
+      "scraped_date": "2026-08-13",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "section": "other"
     },
     {
@@ -5640,7 +5659,7 @@
       "section": "other"
     }
   ],
-  "other_count": 275,
+  "other_count": 276,
   "vertical_counts": {
     "General": 5,
     "CoDED": 1,
