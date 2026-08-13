@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-08-13T01:24:14Z",
-  "last_updated_ist": "13 Aug 2026, 06:54 AM IST",
-  "total": 289,
+  "last_updated": "2026-08-13T04:14:36Z",
+  "last_updated_ist": "13 Aug 2026, 09:44 AM IST",
+  "total": 292,
   "articles": [
+    {
+      "id": "8c21712efc6d0224a78901f9b995e855",
+      "title": "National Biodiversity Authority releases Rs. 15.52 crore ABS Proceeds from Mustard Genetic Resources",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298712",
+      "date": "2026-08-13",
+      "scraped_date": "2026-08-13",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "df11b6be70ce04eacad1e73a42449db2",
+      "title": "Prime Minister shares a Sanskrit Subhashitam, highlighting determination, perseverance, and continuous effort in overcoming life's challenges",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298710",
+      "date": "2026-08-13",
+      "scraped_date": "2026-08-13",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "section": "other"
+    },
     {
       "id": "aaa8317686f907296962e3ad70ea966a",
       "title": "Prime Minister shares a Sanskrit Subhashitam, highlighting the power of winning hearts through vision, thoughts, words, and actions",
@@ -3305,6 +3343,25 @@
       "section": "other"
     },
     {
+      "id": "5edbbfc93d965ba93d15757dce715a73",
+      "title": "Army Public School Agartala Hosts Inter APS Cluster Level Chess Competition 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2298711",
+      "date": "2026-08-12",
+      "scraped_date": "2026-08-13",
+      "relative_time": "Yesterday",
+      "region": "Agartala",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
       "id": "ba1297c79907b6786707236eb1843c55",
       "title": "Prime Minister shares a Sanskrit Subhashitam, highlighting the eight essential qualities that brighten a person's life and build character",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2297448",
@@ -5545,7 +5602,7 @@
       "section": "other"
     }
   ],
-  "other_count": 270,
+  "other_count": 273,
   "vertical_counts": {
     "General": 5,
     "CoDED": 1,
