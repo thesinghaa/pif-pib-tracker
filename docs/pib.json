@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-14T04:11:57Z",
-  "last_updated_ist": "14 Aug 2026, 09:41 AM IST",
-  "total": 272,
+  "last_updated": "2026-08-14T05:38:57Z",
+  "last_updated_ist": "14 Aug 2026, 11:08 AM IST",
+  "total": 273,
   "articles": [
     {
       "id": "22dc9fde79531ebc3b660c2cad7d4284",
@@ -40,6 +40,27 @@
       "summary": "",
       "sentiment": "neutral",
       "section": "other"
+    },
+    {
+      "id": "a6af07cc80c4ce236dd958911af7f01a",
+      "title": "PM Vishwakarma Beneficiaries Invited as ‘Special Guests’ to Witness 80th Independence Day Ceremony at Red Fort, Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299286",
+      "date": "2026-08-14",
+      "scraped_date": "2026-08-14",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "sub_verticals": [],
+      "tier": "primary",
+      "relevance_score": 11.0,
+      "snippet": "",
+      "full_content": "100 beneficiaries from Delhi-NCR to attend the Celebration\nThe Government of India has invited 100 beneficiaries of PM Vishwakarma from the Delhi-NCR region as ‘Special Guests’ to witness the 80th Independence Day Ceremony at the Red Fort, Delhi, on 15th August, 2026. The beneficiaries will attend the national celebration along with their spouse/companion.\nThe Special Guests also include women artisans from various traditional trades, reflecting the scheme’s contribution towards women’s economic empowerment, greater participation in livelihoods and strengthening the role of women in preserving India’s rich artisanal and cultural heritage.\nRecognition and Appreciation of Beneficiaries- As part of their participation, the PM Vishwakarma beneficiaries will also be presented with souvenirs as a token of recognition and appreciation, followed by an interaction with officials of the Ministry of MSME on 14 August 2026 at the Indian Institute of Public Administration, Delhi, recognising their contribution to India’s traditional crafts and cultural heritage.\nAbout PM Vishwakarma Scheme-\nPM Vishwakarma is one of the flagship initiatives of the Government of India aimed at providing comprehensive support to artisans and craftspeople engaged in traditional trades. The scheme provides assistance through skill upgradation, modern tools, financial support, digital enablement and market linkages, with the objective of promoting the socio-economic empowerment of artisans, strengthening traditional crafts and ensuring sustainable livelihoods. Under the scheme, 30 lakh traditional artisans and craftspeople have been registered.\nCelebrating the Contribution of India’s Traditional Artisans & Craftspeople\nThe invited beneficiaries represent the 18 traditional trades covered under PM Vishwakarma, including Tailor, Carpenter, Goldsmith, Blacksmith, Locksmith, among others. The beneficiaries invited have availed various benefits under the scheme, including registration, Basic Skill Training and provision of toolkits, along with other support benefits available under the scheme.\nThe participation of PM Vishwakarma beneficiaries in the Independence Day celebration is recognition of the invaluable contribution of traditional artisans and craftspeople to India’s rich cultural heritage. Their presence at the Red Fort will provide them an opportunity to witness the grandeur of the 80th Independence Day and to be a part of this historic national celebration.\nScan the QR Code to read more about the PM Vishwakarma Scheme-\nSunil Kumar Tiwari\nE-Mail - hipessi[at]gmail[dot]com",
+      "summary": "100 beneficiaries from Delhi-NCR to attend the Celebration The Government of India has invited 100 beneficiaries of PM Vishwakarma from the Delhi-NCR region as ‘Special Guests’ to witness the 80th Independence Day Ceremony at the Red Fort, Delhi, on 15th August, 2026. The beneficiaries will attend the national celebration along with their spouse/companion. The Special Guests also include women artisans from various traditional trades, reflecting the scheme’s contribution towards women’s economic empowerment, greater participation in livelihoods and strengthening the role of women in preserving India’s rich artisanal and cultural heritage.",
+      "sentiment": "neutral",
+      "section": "vertical"
     },
     {
       "id": "8c21712efc6d0224a78901f9b995e855",
@@ -5231,7 +5252,7 @@
   "vertical_counts": {
     "General": 10,
     "CoDED": 1,
-    "ELS": 8,
+    "ELS": 9,
     "Environmental_Health": 9,
     "Corporate_Advisory": 5,
     "Government_Practice": 0
