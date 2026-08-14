@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-08-14T01:21:28Z",
-  "last_updated_ist": "14 Aug 2026, 06:51 AM IST",
-  "total": 270,
+  "last_updated": "2026-08-14T04:11:57Z",
+  "last_updated_ist": "14 Aug 2026, 09:41 AM IST",
+  "total": 272,
   "articles": [
+    {
+      "id": "22dc9fde79531ebc3b660c2cad7d4284",
+      "title": "1057 Personnel of Police, Fire, Home Guard & Civil Defence and Correctional Services awarded Gallantry/Service Medals on the occasion of the Independence Day- 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299280",
+      "date": "2026-08-14",
+      "scraped_date": "2026-08-14",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "4d7a98134fe55d3615996f384ea3e53e",
+      "title": "Prime Minister recalls the courage of those impacted by Partition on Partition Horrors Remembrance Day",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299279",
+      "date": "2026-08-14",
+      "scraped_date": "2026-08-14",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "8c21712efc6d0224a78901f9b995e855",
       "title": "National Biodiversity Authority releases Rs. 15.52 crore ABS Proceeds from Mustard Genetic Resources",
@@ -5189,7 +5227,7 @@
       "section": "other"
     }
   ],
-  "other_count": 248,
+  "other_count": 250,
   "vertical_counts": {
     "General": 10,
     "CoDED": 1,
