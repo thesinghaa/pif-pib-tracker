@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-14T16:01:36Z",
-  "last_updated_ist": "14 Aug 2026, 09:31 PM IST",
-  "total": 361,
+  "last_updated": "2026-08-14T16:55:53Z",
+  "last_updated_ist": "14 Aug 2026, 10:25 PM IST",
+  "total": 365,
   "articles": [
     {
       "id": "22dc9fde79531ebc3b660c2cad7d4284",
@@ -1731,6 +1731,84 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "cf0c437cc9b3d552b79cf7226602c5dd",
+      "title": "National Statistical Systems Training Academy of Ministry of Statistics and Programme Implementation celebrates “Har Ghar Tiranga Campaign\" with great enthusiasm and patriotic fervor",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299666",
+      "date": "2026-08-14",
+      "scraped_date": "2026-08-14",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "CoDED"
+      ],
+      "primary_vertical": "CoDED",
+      "sub_verticals": [],
+      "tier": "primary",
+      "relevance_score": 9.0,
+      "snippet": "",
+      "full_content": "Commemorating the 150th year of Vande Mataram and as part of the “Har Ghar Tiranga Campaign,\" a grand Tiranga Yatra was carried out by the Indian Statistical Service (ISS) 2026 Batch Officer Trainees and officers/staff of National Statistical Systems Training Academy (NSSTA), Ministry of Statistics and Programme Implementation, MoSPI with great enthusiasm and patriotic fervor.\nThe event commenced with the recitation of the full version of Vande Mataram. While flagging off the Tiranga Yatra, Shri R. Rajesh serving as the Additional Director General emphasized that the spirit of Vande Mataram can be truly embodied and tribute paid to our freedom fighters through the diligent performance of our official duties for long hours as a dedication to Bharat Mata.\nThe Tiranga Yatra witnessed enthusiastic participation from all officers, contractual staff, and other personnel of NSSTA, who joined the procession, with patriotic slogans of “Vande Mataram” and “Bharat Mata Ki Jai” echoing throughout. The event concluded with the recitation of the National Anthem.",
+      "summary": "Commemorating the 150th year of Vande Mataram and as part of the “Har Ghar Tiranga Campaign,\" a grand Tiranga Yatra was carried out by the Indian Statistical Service (ISS) 2026 Batch Officer Trainees and officers/staff of National Statistical Systems Training Academy (NSSTA), Ministry of Statistics and Programme Implementation, MoSPI with great enthusiasm and patriotic fervor. The event commenced with the recitation of the full version of Vande Mataram. Rajesh serving as the Additional Director General emphasized that the spirit of Vande Mataram can be truly embodied and tribute paid to our freedom fighters through the diligent performance of our official duties for long hours as a dedication to Bharat Mata.",
+      "sentiment": "neutral",
+      "section": "vertical"
+    },
+    {
+      "id": "fb81500bb24aaf47deb51e3d49cf09e8",
+      "title": "ICMR-CRMCH Chandrapur organises SHINE Open School Day 2026 to Inspire Young Minds Towards Biomedical Research",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299669",
+      "date": "2026-08-14",
+      "scraped_date": "2026-08-14",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "fe702be0ddc83d2dbe3d8edb7a4df2f0",
+      "title": "BIS Nagpur Branch Office organizes MANAK MANTHAN (Technical Meeting) on Indian Standards",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299661",
+      "date": "2026-08-14",
+      "scraped_date": "2026-08-14",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "4ea84624676713deb93a38444db4238c",
+      "title": "BSNL Chennai Telephones launched several offers",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299697",
+      "date": "2026-08-14",
+      "scraped_date": "2026-08-14",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "section": "other"
     },
     {
@@ -6938,10 +7016,10 @@
       "section": "other"
     }
   ],
-  "other_count": 330,
+  "other_count": 333,
   "vertical_counts": {
     "General": 12,
-    "CoDED": 3,
+    "CoDED": 4,
     "ELS": 12,
     "Environmental_Health": 11,
     "Corporate_Advisory": 6,
