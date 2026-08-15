@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-15T03:48:18Z",
-  "last_updated_ist": "15 Aug 2026, 09:18 AM IST",
-  "total": 196,
+  "last_updated": "2026-08-15T04:37:58Z",
+  "last_updated_ist": "15 Aug 2026, 10:07 AM IST",
+  "total": 197,
   "articles": [
     {
       "id": "0d5b4ca5aa9ff99c104d4f164c0b99ab",
@@ -11,6 +11,25 @@
       "scraped_date": "2026-08-15",
       "relative_time": "Today",
       "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "3327182b425a5f3f3ba9ddf76bc4dba3",
+      "title": "CBC Regional Office Itanagar Celebrates 80th Independence Day",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299745",
+      "date": "2026-08-15",
+      "scraped_date": "2026-08-15",
+      "relative_time": "Today",
+      "region": "Itanagar",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -3778,7 +3797,7 @@
       "section": "other"
     }
   ],
-  "other_count": 175,
+  "other_count": 176,
   "vertical_counts": {
     "General": 10,
     "CoDED": 3,
@@ -3787,7 +3806,7 @@
     "Corporate_Advisory": 4,
     "Government_Practice": 0
   },
-  "regions_scraped": 21,
+  "regions_scraped": 22,
   "verticals": {
     "General": {
       "label": "General (Cross-Cutting)",
