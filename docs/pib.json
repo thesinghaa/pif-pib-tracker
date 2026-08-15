@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-15T17:23:23Z",
-  "last_updated_ist": "15 Aug 2026, 10:53 PM IST",
-  "total": 275,
+  "last_updated": "2026-08-15T18:28:53Z",
+  "last_updated_ist": "15 Aug 2026, 11:58 PM IST",
+  "total": 277,
   "articles": [
     {
       "id": "0d5b4ca5aa9ff99c104d4f164c0b99ab",
@@ -1517,6 +1517,44 @@
       "scraped_date": "2026-08-15",
       "relative_time": "Today",
       "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "3eee59784c9f9868d9b65f8365268964",
+      "title": "Ministry of Culture Observed Partition Horrors Remembrance Day Across Delhi, Amritsar and Kolkata",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300077",
+      "date": "2026-08-15",
+      "scraped_date": "2026-08-15",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "c1511683556b67ca639b60df4f06a547",
+      "title": "DVC observes 80th Independence Day with Reverence",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300080",
+      "date": "2026-08-15",
+      "scraped_date": "2026-08-15",
+      "relative_time": "Today",
+      "region": "Kolkata",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -5284,7 +5322,7 @@
       "section": "other"
     }
   ],
-  "other_count": 252,
+  "other_count": 254,
   "vertical_counts": {
     "General": 11,
     "CoDED": 4,
