@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-08-15T00:56:43Z",
-  "last_updated_ist": "15 Aug 2026, 06:26 AM IST",
-  "total": 195,
+  "last_updated": "2026-08-15T02:25:39Z",
+  "last_updated_ist": "15 Aug 2026, 07:55 AM IST",
+  "total": 196,
   "articles": [
+    {
+      "id": "0d5b4ca5aa9ff99c104d4f164c0b99ab",
+      "title": "Prime Minister greets everyone on the occasion of Independence Day",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299725",
+      "date": "2026-08-15",
+      "scraped_date": "2026-08-15",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "22dc9fde79531ebc3b660c2cad7d4284",
       "title": "1057 Personnel of Police, Fire, Home Guard & Civil Defence and Correctional Services awarded Gallantry/Service Medals on the occasion of the Independence Day- 2026",
@@ -3759,7 +3778,7 @@
       "section": "other"
     }
   ],
-  "other_count": 174,
+  "other_count": 175,
   "vertical_counts": {
     "General": 10,
     "CoDED": 3,
