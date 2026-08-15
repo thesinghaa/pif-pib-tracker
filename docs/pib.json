@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-15T06:34:13Z",
-  "last_updated_ist": "15 Aug 2026, 12:04 PM IST",
-  "total": 203,
+  "last_updated": "2026-08-15T07:36:33Z",
+  "last_updated_ist": "15 Aug 2026, 01:06 PM IST",
+  "total": 205,
   "articles": [
     {
       "id": "0d5b4ca5aa9ff99c104d4f164c0b99ab",
@@ -144,6 +144,44 @@
       "scraped_date": "2026-08-15",
       "relative_time": "Today",
       "region": "Kolkata",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "be1e3cbeb29872ed7421233c3f7e02e1",
+      "title": "Chennai Port Authority Celebrates 80th Independence Day; Registers Record Cargo and Financial Performance",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299795",
+      "date": "2026-08-15",
+      "scraped_date": "2026-08-15",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "409597e442552769ac6caf1e16555c87",
+      "title": "National Forensic Sciences University celebrates 80th Independence Day",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2299788",
+      "date": "2026-08-15",
+      "scraped_date": "2026-08-15",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -3911,7 +3949,7 @@
       "section": "other"
     }
   ],
-  "other_count": 182,
+  "other_count": 184,
   "vertical_counts": {
     "General": 10,
     "CoDED": 3,
