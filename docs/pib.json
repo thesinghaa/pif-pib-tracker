@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-16T06:34:02Z",
-  "last_updated_ist": "16 Aug 2026, 12:04 PM IST",
-  "total": 184,
+  "last_updated": "2026-08-16T07:36:43Z",
+  "last_updated_ist": "16 Aug 2026, 01:06 PM IST",
+  "total": 185,
   "articles": [
     {
       "id": "551b83be01750e9f5a4107a5039fcbdc",
@@ -77,6 +77,25 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "ac96e793454b89e2d500a50b35a7fe25",
+      "title": "NIELIT Launches CYBER KUSHTI 2026: National Cybersecurity & AI Hackathon scores judgment rather than detection speed",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300120",
+      "date": "2026-08-16",
+      "scraped_date": "2026-08-16",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "section": "other"
     },
     {
@@ -3533,7 +3552,7 @@
       "section": "other"
     }
   ],
-  "other_count": 170,
+  "other_count": 171,
   "vertical_counts": {
     "General": 5,
     "CoDED": 4,
