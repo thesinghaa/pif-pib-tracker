@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-16T13:37:14Z",
-  "last_updated_ist": "16 Aug 2026, 07:07 PM IST",
-  "total": 198,
+  "last_updated": "2026-08-16T14:28:41Z",
+  "last_updated_ist": "16 Aug 2026, 07:58 PM IST",
+  "total": 199,
   "articles": [
     {
       "id": "551b83be01750e9f5a4107a5039fcbdc",
@@ -343,6 +343,25 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "e7dc91df47731a033683e520497ef6ca",
+      "title": "IIEST Shibpur Inaugurates 1,160-Capacity Dr. Syama Prasad Mookerjee Hall",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300220",
+      "date": "2026-08-16",
+      "scraped_date": "2026-08-16",
+      "relative_time": "Today",
+      "region": "Kolkata",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "section": "other"
     },
     {
@@ -3799,7 +3818,7 @@
       "section": "other"
     }
   ],
-  "other_count": 184,
+  "other_count": 185,
   "vertical_counts": {
     "General": 5,
     "CoDED": 4,
