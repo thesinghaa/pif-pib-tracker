@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-16T05:35:05Z",
-  "last_updated_ist": "16 Aug 2026, 11:05 AM IST",
-  "total": 182,
+  "last_updated": "2026-08-16T06:34:02Z",
+  "last_updated_ist": "16 Aug 2026, 12:04 PM IST",
+  "total": 184,
   "articles": [
     {
       "id": "551b83be01750e9f5a4107a5039fcbdc",
@@ -26,6 +26,44 @@
       "id": "ab097c2699fa05d2a8b7fe8ba2616fdd",
       "title": "India to Host BRICS Environment Working Group Meetings at Bharat Mandapam, New Delhi (17-18 August 2026)",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300088",
+      "date": "2026-08-16",
+      "scraped_date": "2026-08-16",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "aad25988e5960cf6a9b30654c244bda8",
+      "title": "Prime Minister pays homage to former Prime Minister, Shri Atal Bihari Vajpayee at Sadaiv Atal",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300111",
+      "date": "2026-08-16",
+      "scraped_date": "2026-08-16",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "9eb095d7add262b0de0b40ac071a41e8",
+      "title": "DRI uncovers large-scale illegal use of SAFTA agreement in areca imports",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300102",
       "date": "2026-08-16",
       "scraped_date": "2026-08-16",
       "relative_time": "Today",
@@ -3495,7 +3533,7 @@
       "section": "other"
     }
   ],
-  "other_count": 168,
+  "other_count": 170,
   "vertical_counts": {
     "General": 5,
     "CoDED": 4,
