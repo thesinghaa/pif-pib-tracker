@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-16T08:28:46Z",
-  "last_updated_ist": "16 Aug 2026, 01:58 PM IST",
-  "total": 185,
+  "last_updated": "2026-08-16T09:28:25Z",
+  "last_updated_ist": "16 Aug 2026, 02:58 PM IST",
+  "total": 187,
   "articles": [
     {
       "id": "551b83be01750e9f5a4107a5039fcbdc",
@@ -96,6 +96,44 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "bdc9cdcbd6ca7db1cd38082b10269904",
+      "title": "Accidental Discharge of Licensed Weapon at Varanasi Airport",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300136",
+      "date": "2026-08-16",
+      "scraped_date": "2026-08-16",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "1de753c73402581e2d4eb63bedee224b",
+      "title": "Central Police Forces participate in 86th edition of Fit India- Sundays on Cycle",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300144",
+      "date": "2026-08-16",
+      "scraped_date": "2026-08-16",
+      "relative_time": "Today",
+      "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -3552,7 +3590,7 @@
       "section": "other"
     }
   ],
-  "other_count": 171,
+  "other_count": 173,
   "vertical_counts": {
     "General": 5,
     "CoDED": 4,
