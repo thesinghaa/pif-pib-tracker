@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-16T15:25:15Z",
-  "last_updated_ist": "16 Aug 2026, 08:55 PM IST",
-  "total": 199,
+  "last_updated": "2026-08-16T16:26:36Z",
+  "last_updated_ist": "16 Aug 2026, 09:56 PM IST",
+  "total": 200,
   "articles": [
     {
       "id": "551b83be01750e9f5a4107a5039fcbdc",
@@ -353,6 +353,25 @@
       "scraped_date": "2026-08-16",
       "relative_time": "Today",
       "region": "Kolkata",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "4f2649dc45dacd6d689238fc3b377f36",
+      "title": "Union Home and Cooperation Minister Shri Amit Shah today inaugurated and laid the foundation for development projects worth ₹6,453 crore across 17 districts from Alwar, Rajasthan.",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300253",
+      "date": "2026-08-16",
+      "scraped_date": "2026-08-16",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -3818,7 +3837,7 @@
       "section": "other"
     }
   ],
-  "other_count": 185,
+  "other_count": 186,
   "vertical_counts": {
     "General": 5,
     "CoDED": 4,
