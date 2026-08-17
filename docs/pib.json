@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-17T06:49:15Z",
-  "last_updated_ist": "17 Aug 2026, 12:19 PM IST",
-  "total": 107,
+  "last_updated": "2026-08-17T07:57:37Z",
+  "last_updated_ist": "17 Aug 2026, 01:27 PM IST",
+  "total": 108,
   "articles": [
     {
       "id": "14971101bc44e0ffe236f0102faae1a2",
@@ -60,6 +60,25 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "80faf15b71882bed7e1baa80f913d3ba",
+      "title": "Prime Minister expresses grief over the loss of lives due to a stampede in Lakhisarai, Bihar",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300333",
+      "date": "2026-08-17",
+      "scraped_date": "2026-08-17",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
       "section": "other"
     },
     {
@@ -2044,7 +2063,7 @@
       "section": "other"
     }
   ],
-  "other_count": 104,
+  "other_count": 105,
   "vertical_counts": {
     "General": 1,
     "CoDED": 1,
