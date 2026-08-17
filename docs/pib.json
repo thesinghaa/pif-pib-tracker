@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-17T16:29:29Z",
-  "last_updated_ist": "17 Aug 2026, 09:59 PM IST",
-  "total": 167,
+  "last_updated": "2026-08-17T17:32:32Z",
+  "last_updated_ist": "17 Aug 2026, 11:02 PM IST",
+  "total": 169,
   "articles": [
     {
       "id": "14971101bc44e0ffe236f0102faae1a2",
@@ -1192,6 +1192,44 @@
       "summary": "Sitharaman urges for faster completion of infrastructure, land allotment, investment and commencement of production Union Minister for Commerce and Industry Shri Piyush Goyal calls for investor-ready industrial ecosystems with plug-and-play infrastructure Shri Piyush Goyal calls for PM GatiShakti-aligned, integrated area-development approach for BHAVYA and future industrial developments BHAVYA receives strong response from States in 1st round Union Minister for Finance and Corporate Affairs, Smt. Nirmala Sitharaman, chaired the 3rd Meeting of the Apex Monitoring Authority of the National Industrial Corridor Development and Implementation Trust (NICDIT) in New Delhi today. The meeting reviewed the progress of projects under the National Industrial Corridor Development Programme (NICDP) and deliberated on priorities for the next phase of industrial corridor development.",
       "sentiment": "neutral",
       "section": "vertical"
+    },
+    {
+      "id": "ea532e6dfcc96097ab689e5cabac3ea2",
+      "title": "IIT Kharagpur’s Platinum Jubilee Dialogue Envisions the IITs of Tomorrow",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300689",
+      "date": "2026-08-17",
+      "scraped_date": "2026-08-17",
+      "relative_time": "Today",
+      "region": "Kolkata",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "3c2faad4a7f36bd76520d7e5f0d9b4db",
+      "title": "SMP, Kolkata inaugurates 3-month Campaign for Vigilance Awareness Week 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300686",
+      "date": "2026-08-17",
+      "scraped_date": "2026-08-17",
+      "relative_time": "Today",
+      "region": "Kolkata",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
     },
     {
       "id": "551b83be01750e9f5a4107a5039fcbdc",
@@ -3194,7 +3232,7 @@
       "section": "other"
     }
   ],
-  "other_count": 160,
+  "other_count": 162,
   "vertical_counts": {
     "General": 2,
     "CoDED": 2,
