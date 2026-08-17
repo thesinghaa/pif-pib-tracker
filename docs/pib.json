@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-17T08:45:34Z",
-  "last_updated_ist": "17 Aug 2026, 02:15 PM IST",
-  "total": 111,
+  "last_updated": "2026-08-17T09:42:01Z",
+  "last_updated_ist": "17 Aug 2026, 03:12 PM IST",
+  "total": 115,
   "articles": [
     {
       "id": "14971101bc44e0ffe236f0102faae1a2",
@@ -136,6 +136,63 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "164d00d735762acd817e757418a00da7",
+      "title": "Department of Fisheries Celebrates 80th Independence Day, Reaffirms Commitment to Empowering Fishers sector and Strengthening the Blue Economy",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300391",
+      "date": "2026-08-17",
+      "scraped_date": "2026-08-17",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "4527891565ae06e6a4375fad06f5c53b",
+      "title": "MoD inks contract with General Atomics Aeronautical Systems, Inc for leasing of two MQ-9B Sea Guardian High-Altitude Long-Endurance Remotely Piloted Aircraft Systems for Indian Navy for 30 months",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300388",
+      "date": "2026-08-17",
+      "scraped_date": "2026-08-17",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "229fc7a9bbba4e2537db20a289a9a72f",
+      "title": "RRU–FRSC Strengthen India–Nigeria Cooperation with 10-Day International Training on Stress Management and Emotional Well-being for Law Enforcement Officers",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300398",
+      "date": "2026-08-17",
+      "scraped_date": "2026-08-17",
+      "relative_time": "Today",
+      "region": "Bhopal",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "section": "other"
     },
     {
@@ -526,6 +583,25 @@
       "scraped_date": "2026-08-17",
       "relative_time": "Yesterday",
       "region": "Lucknow",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "9ef016bafa801c4b63fd02ce05399aca",
+      "title": "Training Program and Input Distribution Program on IPM in Cymbidium Orchids organized by ICAR-NRCO at Mirik",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300395",
+      "date": "2026-08-16",
+      "scraped_date": "2026-08-17",
+      "relative_time": "Yesterday",
+      "region": "Gangtok",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2120,7 +2196,7 @@
       "section": "other"
     }
   ],
-  "other_count": 108,
+  "other_count": 112,
   "vertical_counts": {
     "General": 1,
     "CoDED": 1,
@@ -2129,7 +2205,7 @@
     "Corporate_Advisory": 0,
     "Government_Practice": 0
   },
-  "regions_scraped": 16,
+  "regions_scraped": 17,
   "verticals": {
     "General": {
       "label": "General (Cross-Cutting)",
