@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-17T04:42:42Z",
-  "last_updated_ist": "17 Aug 2026, 10:12 AM IST",
-  "total": 104,
+  "last_updated": "2026-08-17T05:41:36Z",
+  "last_updated_ist": "17 Aug 2026, 11:11 AM IST",
+  "total": 105,
   "articles": [
     {
       "id": "14971101bc44e0ffe236f0102faae1a2",
@@ -400,6 +400,25 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "84bb8185da95bd15cb4024a62b0e3b51",
+      "title": "SAI NSRC Lucknow Celebrates 80th Independence Day with Patriotic Spirit",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300286",
+      "date": "2026-08-16",
+      "scraped_date": "2026-08-17",
+      "relative_time": "Yesterday",
+      "region": "Lucknow",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -1985,7 +2004,7 @@
       "section": "other"
     }
   ],
-  "other_count": 102,
+  "other_count": 103,
   "vertical_counts": {
     "General": 1,
     "CoDED": 1,
@@ -1994,7 +2013,7 @@
     "Corporate_Advisory": 0,
     "Government_Practice": 0
   },
-  "regions_scraped": 15,
+  "regions_scraped": 16,
   "verticals": {
     "General": {
       "label": "General (Cross-Cutting)",
