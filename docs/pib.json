@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-08-17T03:51:20Z",
-  "last_updated_ist": "17 Aug 2026, 09:21 AM IST",
-  "total": 103,
+  "last_updated": "2026-08-17T04:42:42Z",
+  "last_updated_ist": "17 Aug 2026, 10:12 AM IST",
+  "total": 104,
   "articles": [
+    {
+      "id": "14971101bc44e0ffe236f0102faae1a2",
+      "title": "Prime Minister shares a Sanskrit Subhashitam, highlighting the power of collective resolve, unity, and mutual cooperation for societal progress",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300271",
+      "date": "2026-08-17",
+      "scraped_date": "2026-08-17",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "551b83be01750e9f5a4107a5039fcbdc",
       "title": "Prime Minister pays homage to Shri Atal Bihari Vajpayee on his Punya Tithi",
@@ -1966,7 +1985,7 @@
       "section": "other"
     }
   ],
-  "other_count": 101,
+  "other_count": 102,
   "vertical_counts": {
     "General": 1,
     "CoDED": 1,
