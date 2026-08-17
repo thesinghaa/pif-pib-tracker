@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-17T07:57:37Z",
-  "last_updated_ist": "17 Aug 2026, 01:27 PM IST",
-  "total": 108,
+  "last_updated": "2026-08-17T08:45:34Z",
+  "last_updated_ist": "17 Aug 2026, 02:15 PM IST",
+  "total": 111,
   "articles": [
     {
       "id": "14971101bc44e0ffe236f0102faae1a2",
@@ -79,6 +79,63 @@
       "full_content": "",
       "summary": "",
       "sentiment": "down",
+      "section": "other"
+    },
+    {
+      "id": "a4fb151c59ac7ed454160de3c66b7329",
+      "title": "Vice President Shri C. P. Radhakrishnan graces 11th Convocation of Central University of Tamil Nadu, Thiruvarur",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300370",
+      "date": "2026-08-17",
+      "scraped_date": "2026-08-17",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "02a2853d94a19b20afc8c0399db60cb8",
+      "title": "Prime Minister condoles the loss of lives due to a fire tragedy in Birbhum, West Bengal",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300361",
+      "date": "2026-08-17",
+      "scraped_date": "2026-08-17",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "down",
+      "section": "other"
+    },
+    {
+      "id": "f685480bd6e23c8cfdcc50965162a00c",
+      "title": "Chief Minister of Maharashtra meets the Prime Minister",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300360",
+      "date": "2026-08-17",
+      "scraped_date": "2026-08-17",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -2063,7 +2120,7 @@
       "section": "other"
     }
   ],
-  "other_count": 105,
+  "other_count": 108,
   "vertical_counts": {
     "General": 1,
     "CoDED": 1,
