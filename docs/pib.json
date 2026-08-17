@@ -1,12 +1,52 @@
 {
-  "last_updated": "2026-08-17T05:41:36Z",
-  "last_updated_ist": "17 Aug 2026, 11:11 AM IST",
-  "total": 105,
+  "last_updated": "2026-08-17T06:49:15Z",
+  "last_updated_ist": "17 Aug 2026, 12:19 PM IST",
+  "total": 107,
   "articles": [
     {
       "id": "14971101bc44e0ffe236f0102faae1a2",
       "title": "Prime Minister shares a Sanskrit Subhashitam, highlighting the power of collective resolve, unity, and mutual cooperation for societal progress",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300271",
+      "date": "2026-08-17",
+      "scraped_date": "2026-08-17",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "85f9b3bc93a03313812ac6b5e988a374",
+      "title": "Senior Officers from BRICS Member Countries hold discussions on Key Priorities of the Environment Working Group and Contact Group on Climate Change and Sustainable Development in New Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300324",
+      "date": "2026-08-17",
+      "scraped_date": "2026-08-17",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Environmental_Health"
+      ],
+      "primary_vertical": "Environmental_Health",
+      "sub_verticals": [],
+      "tier": "primary",
+      "relevance_score": 9.0,
+      "snippet": "",
+      "full_content": "Under India’s BRICS Chairship 2026, Senior Officers’ Meeting of the Environment Working Group and Contact Group on Climate Change and Sustainable Development was held in Bharat Mandapam, New Delhi, on 17th August 2026. The meeting was chaired by Secretary, Ministry of Environment, Forest and Climate Change (MoEFCC), Government of India, Shri Tanmay Kumar. The proceedings witnessed participation from BRICS member countries including Federative Republic of Brazil, People’s Republic of China, Arab Republic of Egypt, Federal Democratic Republic of Ethiopia, Republic of Indonesia, Islamic Republic of Iran, Russian Federation, Republic of South Africa and United Arab Emirates.\nSecretary, @moefcc , Shri Tanmay Kumar, welcomed the distinguished delegates from BRICS Member Countries to the Environment Working Group-Senior Officers' Meeting affirming solidarity & shared commitments towards a sustainable future. #BRICS2026 #BRICSIndia2026 … pic.twitter.com/6T5n3bWabA\nIn his keynote address, the Chair stated that over the past two decades, the BRICS alliance has expanded from an economic dialogue into an increasingly influential platform for defining its approach to the critical challenges facing the environment, including pressing global issues of increasing pollution, biodiversity loss as well as global warming. He said, \"Our partnership has broadened in terms of relevance to sustainable development, climate resilience and adaptation, resource efficiency and circular economy, as well as environmental governance.\"\nThe Chair informed that BRICS 2026 has been guided by the vision of the Prime Minister of India, Shri Narendra Modi, that global cooperation must remain people-centric by advancing a humanity-first approach. This vision finds expression in the Chairship theme - 'Building for Resilience, Innovation, Cooperation, and Sustainability'. India has sought to advance environmental action through approaches that integrate ecological sustainability with development objectives, it was stated.\nOver the course of India’s Chairship, the Environment Working Group and the Contact Group on Climate Change and Sustainable Development have together advanced cooperation across four interconnected priority areas: Promoting Sustainable Lifestyles; Afforestation, Forest Fire Management and Disaster Resilience; Circular Economy and Adaptation.\nThe Chair stated that these priorities reflect both the shared environmental challenges confronting the BRICS countries and the collective wisdom and strength to address them. They reflect the unanimous recognition that climate resilience, ecosystem restoration, resource efficiency and sustainable development are deeply interconnected challenges that require integrated and holistic responses rather than isolated interventions in silos.\nIt was informed that since the commencement of India’s Chairship, Member Countries have engaged through 21 virtual thematic and negotiation meetings, 10 bilateral consultations, 2 thematic dialogues a",
+      "summary": "Under India’s BRICS Chairship 2026, Senior Officers’ Meeting of the Environment Working Group and Contact Group on Climate Change and Sustainable Development was held in Bharat Mandapam, New Delhi, on 17th August 2026. The meeting was chaired by Secretary, Ministry of Environment, Forest and Climate Change (MoEFCC), Government of India, Shri Tanmay Kumar. The proceedings witnessed participation from BRICS member countries including Federative Republic of Brazil, People’s Republic of China, Arab Republic of Egypt, Federal Democratic Republic of Ethiopia, Republic of Indonesia, Islamic Republic of Iran, Russian Federation, Republic of South Africa and United Arab Emirates.",
+      "sentiment": "neutral",
+      "section": "vertical"
+    },
+    {
+      "id": "42e1480bc8f22b661622f911bf924766",
+      "title": "INDIAN ARMY CONTINGENT DEPARTS FOR INDIA-THAILAND JOINT MILITARY EXERCISE MAITREE-XV",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300293",
       "date": "2026-08-17",
       "scraped_date": "2026-08-17",
       "relative_time": "Today",
@@ -2004,12 +2044,12 @@
       "section": "other"
     }
   ],
-  "other_count": 103,
+  "other_count": 104,
   "vertical_counts": {
     "General": 1,
     "CoDED": 1,
     "ELS": 1,
-    "Environmental_Health": 0,
+    "Environmental_Health": 1,
     "Corporate_Advisory": 0,
     "Government_Practice": 0
   },
