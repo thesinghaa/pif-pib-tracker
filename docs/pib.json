@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-18T15:34:02Z",
-  "last_updated_ist": "18 Aug 2026, 09:04 PM IST",
-  "total": 143,
+  "last_updated": "2026-08-18T16:36:55Z",
+  "last_updated_ist": "18 Aug 2026, 10:06 PM IST",
+  "total": 144,
   "articles": [
     {
       "id": "68df1f6230e9c01f3d5b76000d6ab64b",
@@ -1076,6 +1076,25 @@
       "id": "f6ef06762f2c991ebc6c30d13b0e538f",
       "title": "PSB Confluence 2026 concludes with actionable strategies across seven themes for Public Sector Banks and Public Financial Institutions",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300990",
+      "date": "2026-08-18",
+      "scraped_date": "2026-08-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "e65345b45cded490337df6130ad74f4c",
+      "title": "Press Brief: Incentive Scheme for Promotion of Domestic PNG Connections",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301012",
       "date": "2026-08-18",
       "scraped_date": "2026-08-18",
       "relative_time": "Today",
@@ -2738,7 +2757,7 @@
       "section": "other"
     }
   ],
-  "other_count": 136,
+  "other_count": 137,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
