@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-18T09:37:55Z",
-  "last_updated_ist": "18 Aug 2026, 03:07 PM IST",
-  "total": 103,
+  "last_updated": "2026-08-18T10:33:22Z",
+  "last_updated_ist": "18 Aug 2026, 04:03 PM IST",
+  "total": 104,
   "articles": [
     {
       "id": "68df1f6230e9c01f3d5b76000d6ab64b",
@@ -328,6 +328,25 @@
       "summary": "Rashtriya Raksha University (RRU), an Institution of National Importance under the Ministry of Home Affairs, Government of India, engaged with the media in Bengaluru to highlight the second cohort of its flagship Masters in Financial and Economic Security (MFES) programme, a specialised hybrid programme for working professionals, offered in collaboration with the Indian Institute of Corporate Affairs (IICA), Ministry of Corporate Affairs, Government of India. The MFES Cohort 2.0 marks a significant step forward in RRU’s endeavour to build a specialised professional ecosystem equipped with the knowledge, investigative capabilities and security-oriented understanding required to address the increasingly sophisticated nature of financial and economic crimes in an evolving digital and interconnected financial landscape. The programme adopts a multidisciplinary and practice-oriented approach, integrating law, finance, investigation, regulation, emerging technologies and economic security through real-world case studies, analytical tools and expert-led learning.",
       "sentiment": "up",
       "section": "vertical"
+    },
+    {
+      "id": "401ee2b72608d211b4c4915db1ad21fd",
+      "title": "India calls for People-Centric, Implementation-Oriented Environmental Action at 12th BRICS Environment Ministers’ Meeting",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300822",
+      "date": "2026-08-18",
+      "scraped_date": "2026-08-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
     },
     {
       "id": "14971101bc44e0ffe236f0102faae1a2",
@@ -1976,7 +1995,7 @@
       "section": "other"
     }
   ],
-  "other_count": 97,
+  "other_count": 98,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
