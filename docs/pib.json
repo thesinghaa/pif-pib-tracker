@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-18T14:38:50Z",
-  "last_updated_ist": "18 Aug 2026, 08:08 PM IST",
-  "total": 140,
+  "last_updated": "2026-08-18T15:34:02Z",
+  "last_updated_ist": "18 Aug 2026, 09:04 PM IST",
+  "total": 143,
   "articles": [
     {
       "id": "68df1f6230e9c01f3d5b76000d6ab64b",
@@ -1030,6 +1030,65 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "28a4e044df51750e2cd571a0dd0cdfbb",
+      "title": "MMDR Amendment Act, 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301002",
+      "date": "2026-08-18",
+      "scraped_date": "2026-08-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "59d5361ee4c1715d783e1ee050120fac",
+      "title": "Historic Turnout Marks West Bengal’s First-Ever Kaushal Mahotsav in Balurghat hosted by Ministry of Skill Development and Entrepreneurship",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300992",
+      "date": "2026-08-18",
+      "scraped_date": "2026-08-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "sub_verticals": [],
+      "tier": "primary",
+      "relevance_score": 10.5,
+      "snippet": "",
+      "full_content": "Over 4500 youth shortlisted and more than 7500 interviews conducted\nDrawing enthusiastic participation from thousands of aspiring youths, the Kaushal Mahotsav in Balurghat emerged as a major platform connecting job seekers from Dakshin Dinajpur and neighbouring regions with employment opportunities. Organized by the Ministry of Skill Development and Entrepreneurship (MSDE), Government of India in collaboration with the Government of West Bengal and the National Skill Development Corporation (NSDC), the Mahotsav witnessed a historic turnout with over 7500 interviews being conducted. More than 7,000 job opportunities from over 50+ employers provided diverse opportunities to the local youth aspiring to build their careers in different sectors, including manufacturing, retail, logistics, healthcare, hospitality, food processing, banking and financial services, and other services.\nThe event was attended by Dr. Sukanta Majumdar, Minister of State for Education and Minister of State for Development of Northeastern Region, Government of India; Shri Kshudiram Tudu, Minister – In – Charge, Tribal Development Department, Minority Affairs and Madrasah Education Department, Government of West Bengal; Shri Joyel Murmu, Minister of State, Irrigation and waterways department and Tribal Development Department, Government of West Bengal; Shri Khagen Murmu, Member of Parliament for Malda North; Shri Bidyut Kumar Roy, Member of Legislative Assembly, Balurghat; Shri Badurai Tudu, Member of Legislative Assembly, Tapan; Shri Satyendranath Roy, Member of Legislative Assembly, Gangarampur; Shri Rajiv Kumar, Principal Secretary, Technical Education, Training and Skill Development, Government of West Bengal; Shri VS Arvind, Director, MSDE; Shri Balasubramanium T., District Magistrate, Dakshin Dinajpur; and Shri Abhishek Gupta, Superintendent of Police, Dakshin Dinajpur.\nHighlighting that education and skills serve as twin pillars of employability and success, Dr. Sukanta Majumdar, Minister of State for Education and Minister of State for Development of Northeastern Region, Government of India, said, “the Skill India Mission was envisioned by our Prime Minister, Shri Narendra Modi to ensure the youth of India are skilled and are provided a platform to connect with gainful employment opportunities and Kaushal Mahotsav is one such initiative under his guidance.”\nEncouraging productive use of technology, he urged them to harness digital platforms and transform their mobile phones into gateways for learning and growth rather than mere sources of entertainment, calling upon the youth to adopt a culture of lifelong learning and skill development.\nHe further lauded the efforts of Shri Jayant Chaudhary, Minister of State (Independent Charge) for Skill Development and Entrepreneurship and Minister of State for Education, Government of India, for organizing the Kaushal Mahotsav in Balurghat. He remarked that bringing such an initiative to a remote region reflects the Government’s com",
+      "summary": "Over 4500 youth shortlisted and more than 7500 interviews conducted Drawing enthusiastic participation from thousands of aspiring youths, the Kaushal Mahotsav in Balurghat emerged as a major platform connecting job seekers from Dakshin Dinajpur and neighbouring regions with employment opportunities. Organized by the Ministry of Skill Development and Entrepreneurship (MSDE), Government of India in collaboration with the Government of West Bengal and the National Skill Development Corporation (NSDC), the Mahotsav witnessed a historic turnout with over 7500 interviews being conducted. More than 7,000 job opportunities from over 50+ employers provided diverse opportunities to the local youth aspiring to build their careers in different sectors, including manufacturing, retail, logistics, healthcare, hospitality, food processing, banking and financial services, and other services.",
+      "sentiment": "neutral",
+      "section": "vertical"
+    },
+    {
+      "id": "f6ef06762f2c991ebc6c30d13b0e538f",
+      "title": "PSB Confluence 2026 concludes with actionable strategies across seven themes for Public Sector Banks and Public Financial Institutions",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300990",
+      "date": "2026-08-18",
+      "scraped_date": "2026-08-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -2679,11 +2738,11 @@
       "section": "other"
     }
   ],
-  "other_count": 134,
+  "other_count": 136,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
-    "ELS": 3,
+    "ELS": 4,
     "Environmental_Health": 1,
     "Corporate_Advisory": 2,
     "Government_Practice": 0
