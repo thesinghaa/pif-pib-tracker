@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-08-18T03:48:40Z",
-  "last_updated_ist": "18 Aug 2026, 09:18 AM IST",
-  "total": 86,
+  "last_updated": "2026-08-18T04:41:21Z",
+  "last_updated_ist": "18 Aug 2026, 10:11 AM IST",
+  "total": 87,
   "articles": [
+    {
+      "id": "68df1f6230e9c01f3d5b76000d6ab64b",
+      "title": "Prime Minister shares Sanskrit Subhashitam highlighting the importance of self-respect, courage and steadfastness",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300700",
+      "date": "2026-08-18",
+      "scraped_date": "2026-08-18",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "14971101bc44e0ffe236f0102faae1a2",
       "title": "Prime Minister shares a Sanskrit Subhashitam, highlighting the power of collective resolve, unity, and mutual cooperation for societal progress",
@@ -1650,7 +1669,7 @@
       "section": "other"
     }
   ],
-  "other_count": 81,
+  "other_count": 82,
   "vertical_counts": {
     "General": 1,
     "CoDED": 1,
