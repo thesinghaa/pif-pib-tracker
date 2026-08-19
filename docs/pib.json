@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-19T16:35:55Z",
-  "last_updated_ist": "19 Aug 2026, 10:05 PM IST",
-  "total": 189,
+  "last_updated": "2026-08-19T17:34:05Z",
+  "last_updated_ist": "19 Aug 2026, 11:04 PM IST",
+  "total": 190,
   "articles": [
     {
       "id": "8876c2ccbd47c0bebc2371173d1c9bf5",
@@ -1175,6 +1175,25 @@
       "scraped_date": "2026-08-19",
       "relative_time": "Today",
       "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "936d218a44e6a5dd858a6fc52af55e36",
+      "title": "CBC’s two-day outreach programme on VB-G RAM G Act begins in Kargil",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301396",
+      "date": "2026-08-19",
+      "scraped_date": "2026-08-19",
+      "relative_time": "Today",
+      "region": "Jammu & Kashmir",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -3619,7 +3638,7 @@
       "section": "other"
     }
   ],
-  "other_count": 179,
+  "other_count": 180,
   "vertical_counts": {
     "General": 3,
     "CoDED": 1,
