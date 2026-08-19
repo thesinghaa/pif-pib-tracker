@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-19T05:36:11Z",
-  "last_updated_ist": "19 Aug 2026, 11:06 AM IST",
-  "total": 129,
+  "last_updated": "2026-08-19T06:40:30Z",
+  "last_updated_ist": "19 Aug 2026, 12:10 PM IST",
+  "total": 130,
   "articles": [
     {
       "id": "8876c2ccbd47c0bebc2371173d1c9bf5",
@@ -1244,6 +1244,27 @@
       "section": "other"
     },
     {
+      "id": "ebdf052ebb06c7eb14626fd5deeed25d",
+      "title": "MSME DFO Dimapur organize PM Vishwakarma One-Day Awareness Workshop on Branding and Marketing in Wokha",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301060",
+      "date": "2026-08-18",
+      "scraped_date": "2026-08-19",
+      "relative_time": "Yesterday",
+      "region": "Kohima",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "sub_verticals": [],
+      "tier": "primary",
+      "relevance_score": 10.5,
+      "snippet": "",
+      "full_content": "The MSME Development and Facilitation Office (MSME-DFO), Dimapur, under the Ministry of MSME, Government of India, in association with the Department of Industries and Commerce and the District Industries Centre (DIC), Wokha, organized a one-day awareness workshop on Branding and Marketing at the DC Conference Hall, Wokha on August 18, 2026, under the PM Vishwakarma scheme.\nThe workshop aimed to strengthen the entrepreneurial capabilities of PM Vishwakarma artisans by providing practical knowledge on product packaging, labelling and design, business development, export development, Artificial Intelligence (AI), e-commerce, QR code generation and financial literacy. Over 97 artisans, including tailors, carpenters, barbers and basket makers, participated in the programme from across the district.\nThe programme commenced with a welcome address delivered by Shri K. Myingthungo Kikon, General Manager, DIC Wokha. The keynote address was delivered by Shri K. Mathung Tsanglao, NCS, Deputy Commissioner of Wokha, who addressed participants and highlighted the workshop's vital role in empowering local artisans. He emphasized the importance of building market knowledge and leveraging e-commerce platforms, encouraging artisans to embrace modern marketing approaches to boost their visibility, reach wider customer bases, and grow their businesses. During the event, under his chairmanship, loan sanctions were officially announced for two artisans—a basket maker and a carpenter—under the Central Bank of India, Wokha Branch.\nThe first technical session on Product Packaging, Labelling and Design was delivered by Smt. Therali Ovung, Proprietor, The Sewist Design Studio and Training Centre, Wokha. The session focused on product development based on customer needs and market demand, highlighting the importance of effective packaging, labelling, product design, and branding.\nAn interactive session on Business Development was conducted by Smt. Bwenye Kemp, Financial Analyst, RAMP. The session covered business planning, SMART targets, networking, digital business development, identifying product strengths and Unique Selling Propositions (USP), understanding target customers and appropriate pricing strategies.\nThe Artificial Intelligence and E-commerce Onboarding session was conducted by the State Programme Management Unit (SPMU), PM Vishwakarma wherein the participants were introduced to emerging digital technologies and their applications in product promotion, marketing and enterprise development.\nThe session on Export Development was conducted by Shri Mhachan N. Kikon, Functional Manager, DIC Wokha, who provided insights into export readiness, accessing international markets and available Government support schemes. The QR Code Generation session was conducted by Smt. Ronbeni C. Lotha, Executive, India Post Payments Bank, Wokha Branch, who highlighted DBT account opening and its benefits under the PM Vishwakarma Scheme.\nThe programme concluded with a Financial Literacy",
+      "summary": "The MSME Development and Facilitation Office (MSME-DFO), Dimapur, under the Ministry of MSME, Government of India, in association with the Department of Industries and Commerce and the District Industries Centre (DIC), Wokha, organized a one-day awareness workshop on Branding and Marketing at the DC Conference Hall, Wokha on August 18, 2026, under the PM Vishwakarma scheme. The workshop aimed to strengthen the entrepreneurial capabilities of PM Vishwakarma artisans by providing practical knowledge on product packaging, labelling and design, business development, export development, Artificial Intelligence (AI), e-commerce, QR code generation and financial literacy. Over 97 artisans, including tailors, carpenters, barbers and basket makers, participated in the programme from across the district.",
+      "sentiment": "neutral",
+      "section": "vertical"
+    },
+    {
       "id": "14971101bc44e0ffe236f0102faae1a2",
       "title": "Prime Minister shares a Sanskrit Subhashitam, highlighting the power of collective resolve, unity, and mutual cooperation for societal progress",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2300271",
@@ -2476,12 +2497,12 @@
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
-    "ELS": 4,
+    "ELS": 5,
     "Environmental_Health": 1,
     "Corporate_Advisory": 2,
     "Government_Practice": 0
   },
-  "regions_scraped": 20,
+  "regions_scraped": 21,
   "verticals": {
     "General": {
       "label": "General (Cross-Cutting)",
