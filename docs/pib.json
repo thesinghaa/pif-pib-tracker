@@ -1,12 +1,50 @@
 {
-  "last_updated": "2026-08-19T04:45:21Z",
-  "last_updated_ist": "19 Aug 2026, 10:15 AM IST",
-  "total": 127,
+  "last_updated": "2026-08-19T05:36:11Z",
+  "last_updated_ist": "19 Aug 2026, 11:06 AM IST",
+  "total": 129,
   "articles": [
     {
       "id": "8876c2ccbd47c0bebc2371173d1c9bf5",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the importance of benevolent actions and welfare of others",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301038",
+      "date": "2026-08-19",
+      "scraped_date": "2026-08-19",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "87b3c12ba68d31ce9150ff4d7e56620b",
+      "title": "India’s Makhana Sector: Traditional Crop to Global Superfood",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301052",
+      "date": "2026-08-19",
+      "scraped_date": "2026-08-19",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "d7edea41b0e6bb1a424e8c3c01185d15",
+      "title": "Union Minister of Commerce & Industry Shri Piyush Goyal leaves for Singapore for 4th India-Singapore Ministerial Roundtable and 4th India-Singapore Business Roundtable",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301050",
       "date": "2026-08-19",
       "scraped_date": "2026-08-19",
       "relative_time": "Today",
@@ -2434,7 +2472,7 @@
       "section": "other"
     }
   ],
-  "other_count": 120,
+  "other_count": 122,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
