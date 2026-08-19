@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-08-19T02:25:48Z",
-  "last_updated_ist": "19 Aug 2026, 07:55 AM IST",
-  "total": 126,
+  "last_updated": "2026-08-19T03:53:46Z",
+  "last_updated_ist": "19 Aug 2026, 09:23 AM IST",
+  "total": 127,
   "articles": [
+    {
+      "id": "8876c2ccbd47c0bebc2371173d1c9bf5",
+      "title": "Prime Minister shares Sanskrit Subhashitam highlighting the importance of benevolent actions and welfare of others",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301038",
+      "date": "2026-08-19",
+      "scraped_date": "2026-08-19",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "68df1f6230e9c01f3d5b76000d6ab64b",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the importance of self-respect, courage and steadfastness",
@@ -2415,7 +2434,7 @@
       "section": "other"
     }
   ],
-  "other_count": 119,
+  "other_count": 120,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
