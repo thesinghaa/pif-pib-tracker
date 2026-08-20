@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-20T07:48:38Z",
-  "last_updated_ist": "20 Aug 2026, 01:18 PM IST",
-  "total": 135,
+  "last_updated": "2026-08-20T08:41:35Z",
+  "last_updated_ist": "20 Aug 2026, 02:11 PM IST",
+  "total": 137,
   "articles": [
     {
       "id": "1a53c62534eb7048036c99f8b4b5971e",
@@ -166,6 +166,44 @@
       "scraped_date": "2026-08-20",
       "relative_time": "Today",
       "region": "Dehradun",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "dc9361950730af13341464a22f0b711a",
+      "title": "Aadhaar App Crosses 5 crore Downloads, Strengthening Convenient and Resident Centric Digital Identity Services",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301481",
+      "date": "2026-08-20",
+      "scraped_date": "2026-08-20",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "c69fadbbaee663f33874fdfc13250411",
+      "title": "India-Japan Joint Press Statement",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301459",
+      "date": "2026-08-20",
+      "scraped_date": "2026-08-20",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2584,7 +2622,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 129,
+  "other_count": 131,
   "vertical_counts": {
     "General": 2,
     "CoDED": 0,
