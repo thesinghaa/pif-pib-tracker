@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-08-20T04:42:27Z",
-  "last_updated_ist": "20 Aug 2026, 10:12 AM IST",
-  "total": 126,
+  "last_updated": "2026-08-20T05:38:38Z",
+  "last_updated_ist": "20 Aug 2026, 11:08 AM IST",
+  "total": 128,
   "articles": [
+    {
+      "id": "1a53c62534eb7048036c99f8b4b5971e",
+      "title": "Prime Minister pays homage to former Prime Minister Rajiv Gandhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301416",
+      "date": "2026-08-20",
+      "scraped_date": "2026-08-20",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "00a6a51d3c3e9a8097363923d53f3143",
+      "title": "Prime Minister shares Sanskrit Subhashitam highlighting the importance of enthusiasm and steadfastness",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301415",
+      "date": "2026-08-20",
+      "scraped_date": "2026-08-20",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "8876c2ccbd47c0bebc2371173d1c9bf5",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the importance of benevolent actions and welfare of others",
@@ -2410,7 +2448,7 @@
       "section": "vertical"
     }
   ],
-  "other_count": 121,
+  "other_count": 123,
   "vertical_counts": {
     "General": 2,
     "CoDED": 0,
