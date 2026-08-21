@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-21T06:42:22Z",
-  "last_updated_ist": "21 Aug 2026, 12:12 PM IST",
-  "total": 147,
+  "last_updated": "2026-08-21T07:49:39Z",
+  "last_updated_ist": "21 Aug 2026, 01:19 PM IST",
+  "total": 148,
   "articles": [
     {
       "id": "d9619e3e98f7ee3cb0492f5561b09166",
@@ -58,6 +58,25 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "8b687ba61ed7dfda8d0f5f990f55f9bf",
+      "title": "BRICS Youth and Sports Ministers’ Meeting to take place in Visakhapatnam on August 22 & 23, 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301860",
+      "date": "2026-08-21",
+      "scraped_date": "2026-08-21",
+      "relative_time": "Today",
+      "region": "Kolkata",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -2815,7 +2834,7 @@
       "section": "other"
     }
   ],
-  "other_count": 140,
+  "other_count": 141,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
