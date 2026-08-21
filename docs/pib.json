@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-21T02:30:16Z",
-  "last_updated_ist": "21 Aug 2026, 08:00 AM IST",
-  "total": 142,
+  "last_updated": "2026-08-21T03:58:20Z",
+  "last_updated_ist": "21 Aug 2026, 09:28 AM IST",
+  "total": 143,
   "articles": [
     {
       "id": "1a53c62534eb7048036c99f8b4b5971e",
@@ -1518,6 +1518,25 @@
       "section": "other"
     },
     {
+      "id": "ea43323e043035c27c0dcf3e844d4ab9",
+      "title": "HLL Lifecare Signs MoU with West Bengal Government for 100 AMRIT Pharmacies",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301812",
+      "date": "2026-08-20",
+      "scraped_date": "2026-08-21",
+      "relative_time": "Yesterday",
+      "region": "Kolkata",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
       "id": "8876c2ccbd47c0bebc2371173d1c9bf5",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the importance of benevolent actions and welfare of others",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301038",
@@ -2720,7 +2739,7 @@
       "section": "other"
     }
   ],
-  "other_count": 135,
+  "other_count": 136,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
