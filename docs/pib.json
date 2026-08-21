@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-08-21T04:41:39Z",
-  "last_updated_ist": "21 Aug 2026, 10:11 AM IST",
-  "total": 143,
+  "last_updated": "2026-08-21T05:40:03Z",
+  "last_updated_ist": "21 Aug 2026, 11:10 AM IST",
+  "total": 146,
   "articles": [
+    {
+      "id": "d9619e3e98f7ee3cb0492f5561b09166",
+      "title": "Prime Minister shares Sanskrit Subhashitam highlighting the spirit of selfless service and dedication",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301820",
+      "date": "2026-08-21",
+      "scraped_date": "2026-08-21",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "6aa8e6e0f3e06a3ffdf0155f8452b042",
+      "title": "Pradhan Mantri Annadata Aay Sanrakshan Abhiyan (PM-AASHA)",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301814",
+      "date": "2026-08-21",
+      "scraped_date": "2026-08-21",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "1a53c62534eb7048036c99f8b4b5971e",
       "title": "Prime Minister pays homage to former Prime Minister Rajiv Gandhi",
@@ -1537,6 +1575,25 @@
       "section": "other"
     },
     {
+      "id": "a356af87d56f3672b654a3e0f9a85bba",
+      "title": "Response and Clarification Regarding the Special Food Safety Inspection Drive at Railway Stations in Karnataka",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301813",
+      "date": "2026-08-20",
+      "scraped_date": "2026-08-21",
+      "relative_time": "Yesterday",
+      "region": "Bengaluru",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
       "id": "8876c2ccbd47c0bebc2371173d1c9bf5",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the importance of benevolent actions and welfare of others",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301038",
@@ -2739,7 +2796,7 @@
       "section": "other"
     }
   ],
-  "other_count": 136,
+  "other_count": 139,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
@@ -2748,7 +2805,7 @@
     "Corporate_Advisory": 1,
     "Government_Practice": 3
   },
-  "regions_scraped": 21,
+  "regions_scraped": 22,
   "verticals": {
     "General": {
       "label": "General (Cross-Cutting)",
