@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-21T08:38:27Z",
-  "last_updated_ist": "21 Aug 2026, 02:08 PM IST",
-  "total": 149,
+  "last_updated": "2026-08-21T09:42:00Z",
+  "last_updated_ist": "21 Aug 2026, 03:12 PM IST",
+  "total": 153,
   "articles": [
     {
       "id": "d9619e3e98f7ee3cb0492f5561b09166",
@@ -96,6 +96,63 @@
       "full_content": "",
       "summary": "",
       "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "797031bb86ac435ad287603a4574e58b",
+      "title": "PM interacts with CEOs and Founders of Space Startups",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301901",
+      "date": "2026-08-21",
+      "scraped_date": "2026-08-21",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "23e570f16f5f119f19cf117033b9e328",
+      "title": "Union Minister Dr. Jitendra Singh delivers inaugural address at BRICS Science Ministerial Meet at Chennai",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301900",
+      "date": "2026-08-21",
+      "scraped_date": "2026-08-21",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "5050f940e4b0e5c1f1a1bd2989d2dcb6",
+      "title": "India and ADB sign $230 million loan to modernise water supply and sanitation in Chennai",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301883",
+      "date": "2026-08-21",
+      "scraped_date": "2026-08-21",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
       "section": "other"
     },
     {
@@ -1651,6 +1708,25 @@
       "section": "other"
     },
     {
+      "id": "d2c53ae6f79c8d2f2325f298d87a725b",
+      "title": "VARTA held on 12 Years of Governance on Youth Empowerment and Employment Generation",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301897",
+      "date": "2026-08-20",
+      "scraped_date": "2026-08-21",
+      "relative_time": "Yesterday",
+      "region": "Mizoram",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
       "id": "8876c2ccbd47c0bebc2371173d1c9bf5",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the importance of benevolent actions and welfare of others",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2301038",
@@ -2853,7 +2929,7 @@
       "section": "other"
     }
   ],
-  "other_count": 142,
+  "other_count": 146,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
