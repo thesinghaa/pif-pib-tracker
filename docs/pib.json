@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-08-22T03:51:49Z",
-  "last_updated_ist": "22 Aug 2026, 09:21 AM IST",
-  "total": 156,
+  "last_updated": "2026-08-22T04:44:10Z",
+  "last_updated_ist": "22 Aug 2026, 10:14 AM IST",
+  "total": 158,
   "articles": [
+    {
+      "id": "b58c3193dd95d10e1d6fc0815bc8113a",
+      "title": "Government Restricts Manufacture, Sale and Distribution of Fixed Dose Combinations Containing Chlorpheniramine Maleate and Phenylephrine Hydrochloride for Use in Children Below Four Years",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302237",
+      "date": "2026-08-22",
+      "scraped_date": "2026-08-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "5f1a287e547db78a89b3b922cf08c7bf",
+      "title": "First Steering Committee Meeting For 57th IFFI Held Under Chairmanship of MoS Dr. L. Murugan to Review Festival Preparations",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302236",
+      "date": "2026-08-22",
+      "scraped_date": "2026-08-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "d9619e3e98f7ee3cb0492f5561b09166",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the spirit of selfless service and dedication",
@@ -2991,7 +3029,7 @@
       "section": "other"
     }
   ],
-  "other_count": 147,
+  "other_count": 149,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
