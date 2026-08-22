@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-22T13:45:10Z",
-  "last_updated_ist": "22 Aug 2026, 07:15 PM IST",
-  "total": 182,
+  "last_updated": "2026-08-22T14:33:38Z",
+  "last_updated_ist": "22 Aug 2026, 08:03 PM IST",
+  "total": 183,
   "articles": [
     {
       "id": "b58c3193dd95d10e1d6fc0815bc8113a",
@@ -488,6 +488,25 @@
       "scraped_date": "2026-08-22",
       "relative_time": "Today",
       "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "594e195fd642e19bde52f614b151bd9d",
+      "title": "Union Minister Jitan Ram Manjhi Reviews Coir Board Activities and Charts New Directions for Coir Industry",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302375",
+      "date": "2026-08-22",
+      "scraped_date": "2026-08-22",
+      "relative_time": "Today",
+      "region": "Thiruvananthapuram",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -3487,7 +3506,7 @@
       "section": "other"
     }
   ],
-  "other_count": 172,
+  "other_count": 173,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
