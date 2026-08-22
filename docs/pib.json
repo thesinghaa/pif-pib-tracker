@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-22T14:33:38Z",
-  "last_updated_ist": "22 Aug 2026, 08:03 PM IST",
-  "total": 183,
+  "last_updated": "2026-08-22T15:30:28Z",
+  "last_updated_ist": "22 Aug 2026, 09:00 PM IST",
+  "total": 185,
   "articles": [
     {
       "id": "b58c3193dd95d10e1d6fc0815bc8113a",
@@ -507,6 +507,44 @@
       "scraped_date": "2026-08-22",
       "relative_time": "Today",
       "region": "Thiruvananthapuram",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "a8f6640906ea996716b0302b3e87e39f",
+      "title": "CSIR-NIScPR Organises Platinum Jubilee Ceremony to Mark 75 years of its popular Hindi science magazine, ‘Vigyan Pragati’",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302401",
+      "date": "2026-08-22",
+      "scraped_date": "2026-08-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "2fd76ec7804a934dc1f7a25f5abbcdfd",
+      "title": "Union Home Minister Shri Amit Shah undertakes a review of the security of Siliguri corridor",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302397",
+      "date": "2026-08-22",
+      "scraped_date": "2026-08-22",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -3506,7 +3544,7 @@
       "section": "other"
     }
   ],
-  "other_count": 173,
+  "other_count": 175,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
