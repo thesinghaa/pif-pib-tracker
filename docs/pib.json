@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-22T07:49:23Z",
-  "last_updated_ist": "22 Aug 2026, 01:19 PM IST",
-  "total": 166,
+  "last_updated": "2026-08-22T08:51:24Z",
+  "last_updated_ist": "22 Aug 2026, 02:21 PM IST",
+  "total": 167,
   "articles": [
     {
       "id": "b58c3193dd95d10e1d6fc0815bc8113a",
@@ -182,6 +182,25 @@
       "scraped_date": "2026-08-22",
       "relative_time": "Today",
       "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "10a997cfb40d01b850398d4afec08e59",
+      "title": "DGGI Bengaluru unearths clandestine manufacture of pan masala and chewing tobacco on the outskirts of Bengaluru; nine pouch-packing machines seized and one person arrested",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302278",
+      "date": "2026-08-22",
+      "scraped_date": "2026-08-22",
+      "relative_time": "Today",
+      "region": "Bengaluru",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -3181,7 +3200,7 @@
       "section": "other"
     }
   ],
-  "other_count": 157,
+  "other_count": 158,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
