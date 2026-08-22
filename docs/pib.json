@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-22T05:52:22Z",
-  "last_updated_ist": "22 Aug 2026, 11:22 AM IST",
-  "total": 161,
+  "last_updated": "2026-08-22T07:00:19Z",
+  "last_updated_ist": "22 Aug 2026, 12:30 PM IST",
+  "total": 162,
   "articles": [
     {
       "id": "b58c3193dd95d10e1d6fc0815bc8113a",
@@ -96,6 +96,25 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "9c2a212d56a541faca3e201601aa3b9d",
+      "title": "EPFO urges establishments to utilize the Employees’ Enrolment Campaign, 2026 to ensure social security for employees outside EPF coverage",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302247",
+      "date": "2026-08-22",
+      "scraped_date": "2026-08-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -3086,7 +3105,7 @@
       "section": "other"
     }
   ],
-  "other_count": 152,
+  "other_count": 153,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
