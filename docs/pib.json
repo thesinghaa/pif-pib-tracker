@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-22T16:41:07Z",
-  "last_updated_ist": "22 Aug 2026, 10:11 PM IST",
-  "total": 186,
+  "last_updated": "2026-08-22T17:32:26Z",
+  "last_updated_ist": "22 Aug 2026, 11:02 PM IST",
+  "total": 187,
   "articles": [
     {
       "id": "b58c3193dd95d10e1d6fc0815bc8113a",
@@ -564,6 +564,25 @@
       "scraped_date": "2026-08-22",
       "relative_time": "Today",
       "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "20cc54f58c094161e1c2808919000144",
+      "title": "IIM Sambalpur Welcomes the Second Batch of B.S. Programmes",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302394",
+      "date": "2026-08-22",
+      "scraped_date": "2026-08-22",
+      "relative_time": "Today",
+      "region": "Bhubaneswar",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -3563,7 +3582,7 @@
       "section": "other"
     }
   ],
-  "other_count": 176,
+  "other_count": 177,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
