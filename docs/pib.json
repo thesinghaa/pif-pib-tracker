@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-23T06:40:51Z",
-  "last_updated_ist": "23 Aug 2026, 12:10 PM IST",
-  "total": 110,
+  "last_updated": "2026-08-23T07:46:08Z",
+  "last_updated_ist": "23 Aug 2026, 01:16 PM IST",
+  "total": 112,
   "articles": [
     {
       "id": "86eef4971112167c6521062e970d6b9f",
@@ -68,6 +68,44 @@
       "scraped_date": "2026-08-23",
       "relative_time": "Today",
       "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "98cb52a25e559fc64e19c9de428e8016",
+      "title": "Commerce and Industry Minister Shri Piyush Goyal Leads A 200-Member Business Delegation to Japan",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302445",
+      "date": "2026-08-23",
+      "scraped_date": "2026-08-23",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "62885d57688c24bee20f7d8544eeca93",
+      "title": "LOKAYAN 2026 – INS SUDARSHINI ARRIVES IN LISBON, PORTUGAL",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302441",
+      "date": "2026-08-23",
+      "scraped_date": "2026-08-23",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2106,7 +2144,7 @@
       "section": "other"
     }
   ],
-  "other_count": 105,
+  "other_count": 107,
   "vertical_counts": {
     "General": 1,
     "CoDED": 0,
