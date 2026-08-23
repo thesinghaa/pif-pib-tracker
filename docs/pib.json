@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-23T13:47:00Z",
-  "last_updated_ist": "23 Aug 2026, 07:17 PM IST",
-  "total": 130,
+  "last_updated": "2026-08-23T14:36:03Z",
+  "last_updated_ist": "23 Aug 2026, 08:06 PM IST",
+  "total": 131,
   "articles": [
     {
       "id": "86eef4971112167c6521062e970d6b9f",
@@ -412,6 +412,25 @@
       "scraped_date": "2026-08-23",
       "relative_time": "Today",
       "region": "Ahmedabad",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "0a8a8546c4484b7ae68b8ddb57943448",
+      "title": "NCSK Celebrates Its 33rd Foundation Day; Over 900 Safai Karamcharis, Other Stakeholders Participated In the Event",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302541",
+      "date": "2026-08-23",
+      "scraped_date": "2026-08-23",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2488,7 +2507,7 @@
       "section": "other"
     }
   ],
-  "other_count": 124,
+  "other_count": 125,
   "vertical_counts": {
     "General": 1,
     "CoDED": 0,
