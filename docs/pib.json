@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-23T14:36:03Z",
-  "last_updated_ist": "23 Aug 2026, 08:06 PM IST",
-  "total": 131,
+  "last_updated": "2026-08-23T15:30:23Z",
+  "last_updated_ist": "23 Aug 2026, 09:00 PM IST",
+  "total": 133,
   "articles": [
     {
       "id": "86eef4971112167c6521062e970d6b9f",
@@ -431,6 +431,44 @@
       "scraped_date": "2026-08-23",
       "relative_time": "Today",
       "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "732263545162a23da7f6df577ef1f7c8",
+      "title": "BIS Chennai Branch Office organizes Sensitisation Programme for Resident Welfare Association Members at The Metrozone Apartments, Anna Nagar, Chennai",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302557",
+      "date": "2026-08-23",
+      "scraped_date": "2026-08-23",
+      "relative_time": "Today",
+      "region": "Chennai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "757691c1b846b6c956e527659c97a4b9",
+      "title": "BRIC-IBSD, Imphal, organises “Science for Viksit Bharat” in collaboration with Vijnana Bharati",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302556",
+      "date": "2026-08-23",
+      "scraped_date": "2026-08-23",
+      "relative_time": "Today",
+      "region": "Imphal",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2507,7 +2545,7 @@
       "section": "other"
     }
   ],
-  "other_count": 125,
+  "other_count": 127,
   "vertical_counts": {
     "General": 1,
     "CoDED": 0,
