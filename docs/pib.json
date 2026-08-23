@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-23T15:30:23Z",
-  "last_updated_ist": "23 Aug 2026, 09:00 PM IST",
-  "total": 133,
+  "last_updated": "2026-08-23T16:44:48Z",
+  "last_updated_ist": "23 Aug 2026, 10:14 PM IST",
+  "total": 134,
   "articles": [
     {
       "id": "86eef4971112167c6521062e970d6b9f",
@@ -469,6 +469,25 @@
       "scraped_date": "2026-08-23",
       "relative_time": "Today",
       "region": "Imphal",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "32f708b66e31fe426212f0bbb309efcd",
+      "title": "Union Home Minister Shri Amit Shah met Divyang Men’s Cricket Team",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302564",
+      "date": "2026-08-23",
+      "scraped_date": "2026-08-23",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2545,7 +2564,7 @@
       "section": "other"
     }
   ],
-  "other_count": 127,
+  "other_count": 128,
   "vertical_counts": {
     "General": 1,
     "CoDED": 0,
