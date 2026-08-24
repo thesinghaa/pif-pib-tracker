@@ -1,12 +1,52 @@
 {
-  "last_updated": "2026-08-24T05:13:29Z",
-  "last_updated_ist": "24 Aug 2026, 10:43 AM IST",
-  "total": 62,
+  "last_updated": "2026-08-24T06:23:33Z",
+  "last_updated_ist": "24 Aug 2026, 11:53 AM IST",
+  "total": 64,
   "articles": [
     {
       "id": "3045354fdf687c6209fa9e693059ad91",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the values of compassion and contentment",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302573",
+      "date": "2026-08-24",
+      "scraped_date": "2026-08-24",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "cb213d73652f781a1862cc15f634dcaa",
+      "title": "Union Ministry of Health and Family Welfare Proposes Amendments to Medical Devices Rules, 2017 to Promote Ease of Doing Business",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302578",
+      "date": "2026-08-24",
+      "scraped_date": "2026-08-24",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Corporate_Advisory"
+      ],
+      "primary_vertical": "Corporate_Advisory",
+      "sub_verticals": [],
+      "tier": "primary",
+      "relevance_score": 10.5,
+      "snippet": "",
+      "full_content": "Proposed amendments seek to simplify regulatory requirements, standardize testing fees and facilitate faster market access for eligible medical devices\nThe Government has undertaken key regulatory reforms in the medical device sector to promote Ease of Doing Business (EoDB) by simplifying regulatory requirements, enhancing transparency and facilitating timely access to advanced and innovative medical technologies in the country.\nThe reforms include amendments to the Medical Devices Rules, 2017 in three key areas—simplification of provisions relating to outsourced sterilization of medical devices, introduction of uniform testing fees and inclusion of the European Union among recognized jurisdictions for waiver of clinical investigation requirements.\nUnder the amended provisions of Rule 44 of the Medical Devices Rules, 2017, manufacturers availing outsourced sterilization facilities will no longer be required to obtain a separate loan licence under Rule 25, provided that the sterilization facility holds a valid licence under the Medical Devices Rules, 2017.\nEarlier, manufacturers without an in-house sterilization facility were required to obtain a separate loan licence for sterilization activities. The amended provision is expected to reduce regulatory compliance requirements, documentation, approval timelines and associated costs, while enabling manufacturers to efficiently avail specialized sterilization facilities.\nFurther, a Ninth Schedule has been inserted in the Medical Devices Rules, 2017 prescribing uniform fees for the testing of medical devices by Medical Device Testing Laboratories. The measure will establish a standardized and transparent fee structure across laboratories, reducing ambiguity and variations in testing charges.\nThe standardized fee structure is expected to provide greater predictability to manufacturers and importers, minimize disputes, ensure equitable treatment of stakeholders and further strengthen transparency and efficiency in the medical device regulatory framework.\nIn another significant reform, Rule 63 of the Medical Devices Rules, 2017 has been amended to include the European Union (EU) among the recognized stringent regulatory jurisdictions for waiver of clinical investigation requirements for medical devices without predicate devices.\nThe provision presently recognizes the United States of America, United Kingdom, Australia, Canada and Japan. The inclusion of the European Union will facilitate faster access in India to eligible medical devices that have already been approved in the EU, while reducing regulatory burden and timelines for importers and manufacturers.\nThe reforms are expected to simplify regulatory processes, reduce compliance costs, enhance transparency and predictability, and facilitate the timely availability of advanced and innovative medical devices in the country.\nThe measures mark an important step towards strengthening the medical device regulatory ecosystem and promoting greater internatio",
+      "summary": "Proposed amendments seek to simplify regulatory requirements, standardize testing fees and facilitate faster market access for eligible medical devices The Government has undertaken key regulatory reforms in the medical device sector to promote Ease of Doing Business (EoDB) by simplifying regulatory requirements, enhancing transparency and facilitating timely access to advanced and innovative medical technologies in the country. The reforms include amendments to the Medical Devices Rules, 2017 in three key areas—simplification of provisions relating to outsourced sterilization of medical devices, introduction of uniform testing fees and inclusion of the European Union among recognized jurisdictions for waiver of clinical investigation requirements. Under the amended provisions of Rule 44 of the Medical Devices Rules, 2017, manufacturers availing outsourced sterilization facilities will no longer be required to obtain a separate loan licence under Rule 25, provided that the sterilization facility holds a valid licence under the Medical Devices Rules, 2017.",
+      "sentiment": "neutral",
+      "section": "vertical"
+    },
+    {
+      "id": "0e2ea2858f5fbfa51318c86b32f2d801",
+      "title": "CBN busts inter-state heroin syndicate in ‘Op Black Hawk’; seizes over 18.6 kg crude heroin",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302577",
       "date": "2026-08-24",
       "scraped_date": "2026-08-24",
       "relative_time": "Today",
@@ -1186,13 +1226,13 @@
       "section": "other"
     }
   ],
-  "other_count": 60,
+  "other_count": 61,
   "vertical_counts": {
     "General": 0,
     "CoDED": 0,
     "ELS": 2,
     "Environmental_Health": 0,
-    "Corporate_Advisory": 0,
+    "Corporate_Advisory": 1,
     "Government_Practice": 0
   },
   "regions_scraped": 16,
