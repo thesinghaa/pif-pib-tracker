@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-08-24T22:23:14Z",
-  "last_updated_ist": "25 Aug 2026, 03:53 AM IST",
-  "total": 92,
+  "last_updated": "2026-08-24T23:35:14Z",
+  "last_updated_ist": "25 Aug 2026, 05:05 AM IST",
+  "total": 94,
   "articles": [
+    {
+      "id": "8af170472ba13012c1baacf4934f9900",
+      "title": "Union Minister Shri Jyotiraditya M. Scindia virtually inaugurates Upgraded Kankurgachi Sub Post Office in City",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302968",
+      "date": "2026-08-25",
+      "scraped_date": "2026-08-25",
+      "relative_time": "Today",
+      "region": "Kolkata",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
     {
       "id": "3045354fdf687c6209fa9e693059ad91",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the values of compassion and contentment",
@@ -1246,6 +1265,25 @@
       "section": "other"
     },
     {
+      "id": "f6b3c62106a3f5d5384267a4a3730ece",
+      "title": "Union Minister for Communications and DoNER, Sh. Jyotiraditya M. Scindia and Union MoS for Communications and Rural Development, Dr. Chandra Sekhar Pemmasani virtually inaugurate the newly renovated Kandivali West Post Office as a Future-Ready Service Hub under 'Jan Sewa Connect'",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302934",
+      "date": "2026-08-24",
+      "scraped_date": "2026-08-25",
+      "relative_time": "Yesterday",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
       "id": "86eef4971112167c6521062e970d6b9f",
       "title": "Text of PM’s interaction with Space Startup CEOs",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302434",
@@ -1761,7 +1799,7 @@
       "section": "other"
     }
   ],
-  "other_count": 88,
+  "other_count": 90,
   "vertical_counts": {
     "General": 1,
     "CoDED": 0,
