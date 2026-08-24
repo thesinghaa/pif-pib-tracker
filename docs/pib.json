@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-24T06:52:43Z",
-  "last_updated_ist": "24 Aug 2026, 12:22 PM IST",
-  "total": 68,
+  "last_updated": "2026-08-24T08:40:53Z",
+  "last_updated_ist": "24 Aug 2026, 02:10 PM IST",
+  "total": 70,
   "articles": [
     {
       "id": "3045354fdf687c6209fa9e693059ad91",
@@ -136,6 +136,44 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "77261ca3f0a4057b033f9b465a6c77da",
+      "title": "India calls for Diversified, Adequate, Predictable and Sustained International Finance for Land Restoration and Drought Resilience at UNCCD CoP17, at Ulaanbaatar, Mongolia",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302615",
+      "date": "2026-08-24",
+      "scraped_date": "2026-08-24",
+      "relative_time": "Today",
+      "region": "Mumbai",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "89643318cfd0ca2bfdb07046bdf68539",
+      "title": "Prize Distribution Function of the 58th Youth Parliament Competition, 2025-26 for schools under the Directorate of Education, Government of NCT of Delhi, and the Department of Education, NDMC",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302631",
+      "date": "2026-08-24",
+      "scraped_date": "2026-08-24",
+      "relative_time": "Today",
+      "region": "Chandigarh",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -1302,7 +1340,7 @@
       "section": "other"
     }
   ],
-  "other_count": 65,
+  "other_count": 67,
   "vertical_counts": {
     "General": 0,
     "CoDED": 0,
