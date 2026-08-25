@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-25T16:00:41Z",
-  "last_updated_ist": "25 Aug 2026, 09:30 PM IST",
-  "total": 168,
+  "last_updated": "2026-08-25T17:08:21Z",
+  "last_updated_ist": "25 Aug 2026, 10:38 PM IST",
+  "total": 169,
   "articles": [
     {
       "id": "8af170472ba13012c1baacf4934f9900",
@@ -1383,6 +1383,25 @@
       "scraped_date": "2026-08-25",
       "relative_time": "Today",
       "region": "Raipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "6625514ee7298ab08718b5aaaaea5093",
+      "title": "CENTRAL ARMED POLICE FORCES (ASSISTANT COMMANDANTS) EXAMINATION, 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2303363",
+      "date": "2026-08-25",
+      "scraped_date": "2026-08-25",
+      "relative_time": "Today",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -3209,7 +3228,7 @@
       "section": "other"
     }
   ],
-  "other_count": 163,
+  "other_count": 164,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
