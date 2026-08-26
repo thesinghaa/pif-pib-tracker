@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-26T01:18:52Z",
-  "last_updated_ist": "26 Aug 2026, 06:48 AM IST",
-  "total": 142,
+  "last_updated": "2026-08-26T02:58:00Z",
+  "last_updated_ist": "26 Aug 2026, 08:28 AM IST",
+  "total": 144,
   "articles": [
     {
       "id": "8af170472ba13012c1baacf4934f9900",
@@ -1414,6 +1414,44 @@
       "section": "other"
     },
     {
+      "id": "5af7d692e67bdfcad417f578f37fef2f",
+      "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah addressed the valedictory session of the Intelligence Bureau's 'National Security Strategies Conference' in New Delhi today",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2303389",
+      "date": "2026-08-25",
+      "scraped_date": "2026-08-26",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "1882e6e0bbbc6305feef23d7fceb4df6",
+      "title": "Union Minister Shri Gajendra Singh Shekhawat: \"In Kalidasa's works, woman is not merely a subject of beauty\"",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2303359",
+      "date": "2026-08-25",
+      "scraped_date": "2026-08-26",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
       "id": "3045354fdf687c6209fa9e693059ad91",
       "title": "Prime Minister shares Sanskrit Subhashitam highlighting the values of compassion and contentment",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2302573",
@@ -2713,7 +2751,7 @@
       "section": "other"
     }
   ],
-  "other_count": 138,
+  "other_count": 140,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
