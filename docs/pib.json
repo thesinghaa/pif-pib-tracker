@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-26T15:11:06Z",
-  "last_updated_ist": "26 Aug 2026, 08:41 PM IST",
-  "total": 168,
+  "last_updated": "2026-08-26T16:27:31Z",
+  "last_updated_ist": "26 Aug 2026, 09:57 PM IST",
+  "total": 171,
   "articles": [
     {
       "id": "aba1e1b16e275ed7aac3ce9430e0801e",
@@ -441,6 +441,63 @@
       "summary": "CSIR-Structural Engineering Research Centre (CSIR-SERC), Chennai, in collaboration with Sri Venkateswara College of Engineering (SVCE), Sriperumbudur, organized a two-day workshop on \"Structural Engineering\" on August 24–25, 2026, under the national CSIR Integrated Skill Initiative aligned with Skill India and Atmanirbhar Bharat. Anandavalli, Director, CSIR-SERC, emphasized the necessity of bridging academic concepts with practical civil engineering solutions. Over the two days, senior CSIR-SERC scientists led sessions on diverse, cutting-edge topics: Dr.",
       "sentiment": "up",
       "section": "vertical"
+    },
+    {
+      "id": "002ea1540b60113f08955ea953e15db2",
+      "title": "Central Government in close watch on the situation arising out of the flash flood in Nepal",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2303589",
+      "date": "2026-08-26",
+      "scraped_date": "2026-08-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "468d18493b98d78e6f7cece5c7a0ded7",
+      "title": "Adequate Onion Availability; Government Undertakes Calibrated and Targeted Release of Buffer Stocks to Moderate Seasonal Price Pressures",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2303587",
+      "date": "2026-08-26",
+      "scraped_date": "2026-08-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "251a175590393ecd9befa547f4ca0726",
+      "title": "Tribute to Goa Liberation Satyagrahis: Raksha Mantri inaugurates re-developed Hutatma Smruti Smarak at Patradevi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2303583",
+      "date": "2026-08-26",
+      "scraped_date": "2026-08-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
     },
     {
       "id": "8af170472ba13012c1baacf4934f9900",
@@ -3209,7 +3266,7 @@
       "section": "other"
     }
   ],
-  "other_count": 163,
+  "other_count": 166,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
