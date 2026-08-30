@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-30T14:20:18Z",
-  "last_updated_ist": "30 Aug 2026, 07:50 PM IST",
-  "total": 111,
+  "last_updated": "2026-08-30T18:28:18Z",
+  "last_updated_ist": "30 Aug 2026, 11:58 PM IST",
+  "total": 114,
   "articles": [
     {
       "id": "2846748a47bac3cc03e23818c8e3bae2",
@@ -460,6 +460,47 @@
       "section": "other"
     },
     {
+      "id": "9adc915e4fe42587cc92e24c7e51540e",
+      "title": "Union Minister Shri Manohar Lal reviews Swachh Bharat Mission–Urban progress in Chandigarh; Directs Fast-track Project Implementation & Strengthening of Swachhata",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2304767",
+      "date": "2026-08-30",
+      "scraped_date": "2026-08-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [
+        "Environmental_Health",
+        "General"
+      ],
+      "primary_vertical": "Environmental_Health",
+      "sub_verticals": [],
+      "tier": "peripheral",
+      "relevance_score": 6.0,
+      "snippet": "",
+      "full_content": "The Union Minister of Housing and Urban Affairs (MoHUA) and Power, Shri Manohar Lal, chaired a review meeting on the progress of the Swachh Bharat Mission - Urban (SBM-U) in Chandigarh, held at the UT Guest House.\nThe meeting was also attended by Home Secretary-cum-Secretary, Local Government, UT Chandigarh, Sh. Mandip Singh Brar, IAS; Commissioner, Municipal Corporation Chandigarh, Sh. Amit Kumar, IAS; Deputy Commissioner, Chandigarh, Sh. Nishant Yadav, IAS; Special Commissioner, MCC, Sh. Harpreet Singh Sudan, IAS, besides senior officers of the Chandigarh Administration and Municipal Corporation, along with senior government officials from MoHUA, Director, SBM-U, Ms. Surabhi Malik and Advisor, CPHEEO, Ankit Jain, State government officials from Urban development department.\nDuring the review, the Hon’ble Minister underscored the need to fast‑track Aspirational Toilet construction while ensuring that all existing facilities (CT/PTs) are regularly monitored, maintained, and kept fully functional and accessible to the public at all times.\nHe also reviewed preparations for the upcoming 15-day Swachhata Hi Seva 2026, directing that the Swachhata Pakhwada must actively engage citizens in every initiative during the 15‑day campaign. He emphasized that citizens are the true custodians of Swachhata, and their feedback must not only be heard but acted upon with utmost seriousness.The Hon'ble Minister highlighted that all processing facilities, waste collection vehicles, and government offices must be cleaned — just as homes are readied before Diwali — so that every element associated with swachhata reflects renewed commitment.\nHe further advocated cross‑learning among Urban Local Bodies, pointing to best practices from Integrated Command and Control Centres where AI and digital tools are used to track vehicles, capture real‑time data and derive smart solutions.\nThe Union Minister directed that a structured city‑to‑city learning mechanism be institutionalized, enabling knowledge sharing of processes, facilities, and innovations. The cities showcasing these best practices should be made accessible to the others for streamlining processes in various cities.\nSatisfied with Chandigarh’s progress under SBM‑U 2.0, the Hon’ble Minister reiterated that beyond achieving swachhata, the greater responsibility lies in sustaining and continuously improving it.",
+      "summary": "The Union Minister of Housing and Urban Affairs (MoHUA) and Power, Shri Manohar Lal, chaired a review meeting on the progress of the Swachh Bharat Mission - Urban (SBM-U) in Chandigarh, held at the UT Guest House. The meeting was also attended by Home Secretary-cum-Secretary, Local Government, UT Chandigarh, Sh. Mandip Singh Brar, IAS; Commissioner, Municipal Corporation Chandigarh, Sh.",
+      "sentiment": "up",
+      "section": "vertical"
+    },
+    {
+      "id": "b4b9578485398082966bdd7d826cab9e",
+      "title": "National Biodiversity Authority disburses Rs. 5.68 Crore in Access and Benefit-Sharing Funds for Biodiversity Conservation",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2304759",
+      "date": "2026-08-30",
+      "scraped_date": "2026-08-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
       "id": "c048882bb157ad9df387408ba6cc0326",
       "title": "Union Sports Minister Dr Mansukh Mandaviya leads National Sports Day celebrations at Major Dhyan Chand National Stadium",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2304488",
@@ -885,6 +926,25 @@
       "scraped_date": "2026-08-29",
       "relative_time": "Yesterday",
       "region": "Bhubaneswar",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "f519ae68d4cc90c00f7cb26b2c03a608",
+      "title": "National Sports Day Celebration at Netaji Subhas National Institute of Sports, Patiala",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2304768",
+      "date": "2026-08-29",
+      "scraped_date": "2026-08-30",
+      "relative_time": "Yesterday",
+      "region": "Chandigarh",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2123,12 +2183,12 @@
       "section": "other"
     }
   ],
-  "other_count": 107,
+  "other_count": 109,
   "vertical_counts": {
-    "General": 1,
+    "General": 2,
     "CoDED": 1,
     "ELS": 2,
-    "Environmental_Health": 1,
+    "Environmental_Health": 2,
     "Corporate_Advisory": 1,
     "Government_Practice": 0
   },
