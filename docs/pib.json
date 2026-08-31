@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-08-31T00:14:21Z",
-  "last_updated_ist": "31 Aug 2026, 05:44 AM IST",
-  "total": 50,
+  "last_updated": "2026-08-31T06:37:11Z",
+  "last_updated_ist": "31 Aug 2026, 12:07 PM IST",
+  "total": 51,
   "articles": [
+    {
+      "id": "e0dfe2d99fc52af6d7686463e3e6ff1c",
+      "title": "Commerce Secretary Shri Rajesh Agrawal Co-Chairs India-Brazil 8th Trade Monitoring Mechanism Meeting",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2304804",
+      "date": "2026-08-31",
+      "scraped_date": "2026-08-31",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "2846748a47bac3cc03e23818c8e3bae2",
       "title": "NEET-PG 2026 Successfully Conducted Nationwide with Robust Security and Real-Time Monitoring",
@@ -957,7 +976,7 @@
       "section": "other"
     }
   ],
-  "other_count": 49,
+  "other_count": 50,
   "vertical_counts": {
     "General": 1,
     "CoDED": 0,
