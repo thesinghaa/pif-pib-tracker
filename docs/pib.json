@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-09-01T00:25:44Z",
-  "last_updated_ist": "01 Sep 2026, 05:55 AM IST",
-  "total": 90,
+  "last_updated": "2026-09-01T06:06:33Z",
+  "last_updated_ist": "01 Sep 2026, 11:36 AM IST",
+  "total": 92,
   "articles": [
+    {
+      "id": "6698f10a0d2bc2fb3159ae685cc36651",
+      "title": "Indian Railways Approves ₹170 Crore for Kavach 4.0 on Remaining 712 Rkm of Moradabad Division",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2305315",
+      "date": "2026-09-01",
+      "scraped_date": "2026-09-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "847236b94109bfc67deda71382139407",
+      "title": "Prime Minister shares a Sanskrit Subhashitam, highlighting the qualities of a truly wise person",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2305294",
+      "date": "2026-09-01",
+      "scraped_date": "2026-09-01",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "e0dfe2d99fc52af6d7686463e3e6ff1c",
       "title": "Commerce Secretary Shri Rajesh Agrawal Co-Chairs India-Brazil 8th Trade Monitoring Mechanism Meeting",
@@ -1728,7 +1766,7 @@
       "section": "other"
     }
   ],
-  "other_count": 84,
+  "other_count": 86,
   "vertical_counts": {
     "General": 2,
     "CoDED": 2,
