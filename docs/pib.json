@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-05T23:42:24Z",
-  "last_updated_ist": "06 Sep 2026, 05:12 AM IST",
-  "total": 86,
+  "last_updated": "2026-09-06T02:11:21Z",
+  "last_updated_ist": "06 Sep 2026, 07:41 AM IST",
+  "total": 87,
   "articles": [
     {
       "id": "00b30df5f080dd3c86736bb65a27bbbc",
@@ -724,6 +724,28 @@
       "summary": "",
       "sentiment": "up",
       "section": "other"
+    },
+    {
+      "id": "9193df8ae690abc7340260d02f4bdb0a",
+      "title": "MFL Organizes Kisan Sangoshthi under PM-PRANAM at M/s Sri Mounika Traders, Godkondla (Mall) Village",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2307077",
+      "date": "2026-09-05",
+      "scraped_date": "2026-09-06",
+      "relative_time": "Yesterday",
+      "region": "Hyderabad",
+      "verticals": [
+        "ELS",
+        "General"
+      ],
+      "primary_vertical": "ELS",
+      "sub_verticals": [],
+      "tier": "peripheral",
+      "relevance_score": 6.5,
+      "snippet": "",
+      "full_content": "Madras Fertilizers Limited (MFL), Regional Office, Hyderabad has organized Kisan Sangoshthi programme under PM-PRANAM Scheme on 05-09-2026 at M/s Sri Mounika Traders, Godkondla (Mall), Chinthapally Mandal, Nalgonda District. Venue is 18 KM away from Mall.\nThe programme was organized by Manager Marketing, Telangana State - Shri S. Karuppaiah.\nAbout 30 Leading and Progressive Farmers attended. Local Dealer Shri Sheshu - Venkateshwara Fertilizers & Seeds and Local Panchayat Leader Shri Mahesh participated.\nBanner was displayed and 2 Bags of Organic Manure were displayed for demonstration. Importance of Organic Manure and Balanced Fertilizers was explained in detail.\nRole of PM-PRANAM - Kisan Sangosthi was explained - objectives, reduction of chemical fertilizers, promotion of organic / bio / alternate fertilizers.\nLocal Eminent Person working in Mounika Traders explained in Telugu for better understanding of farmers.\nFarmers expressed and were much worried about their Cotton Crop due to insufficient rainfall.\nFarmers demanded our Vijay 17-17-17 Complex Fertilizers as they comparing with SPIC and found Vijay superior. Importance of Balanced Fertilizer was highlighted.\nVery good interactive session - farmers queries clarified.\nBiscuits, Water Bottle and Cool Drinks were distributed to all farmers.\nProgramme successfully completed.",
+      "summary": "Madras Fertilizers Limited (MFL), Regional Office, Hyderabad has organized Kisan Sangoshthi programme under PM-PRANAM Scheme on 05-09-2026 at M/s Sri Mounika Traders, Godkondla (Mall), Chinthapally Mandal, Nalgonda District. The programme was organized by Manager Marketing, Telangana State - Shri S. Local Dealer Shri Sheshu - Venkateshwara Fertilizers & Seeds and Local Panchayat Leader Shri Mahesh participated.",
+      "sentiment": "neutral",
+      "section": "vertical"
     },
     {
       "id": "9f7457c82fda07289a4cf41ae31a0186",
@@ -1642,14 +1664,14 @@
   ],
   "other_count": 85,
   "vertical_counts": {
-    "General": 0,
+    "General": 1,
     "CoDED": 1,
-    "ELS": 0,
+    "ELS": 1,
     "Environmental_Health": 0,
     "Corporate_Advisory": 0,
     "Government_Practice": 0
   },
-  "regions_scraped": 14,
+  "regions_scraped": 15,
   "verticals": {
     "General": {
       "label": "General (Cross-Cutting)",
