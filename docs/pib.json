@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-06T22:06:50Z",
-  "last_updated_ist": "07 Sep 2026, 03:36 AM IST",
-  "total": 71,
+  "last_updated": "2026-09-06T23:35:37Z",
+  "last_updated_ist": "07 Sep 2026, 05:05 AM IST",
+  "total": 72,
   "articles": [
     {
       "id": "49e71a59796690ebd83f15f70f68132d",
@@ -583,6 +583,25 @@
       "scraped_date": "2026-09-07",
       "relative_time": "Yesterday",
       "region": "Itanagar",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "de9db4cce25e2c04b9a2032374381c32",
+      "title": "BEE hosts Influencers’ Conclave 2026 in Patna to amplify energy efficiency conversations",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2307174",
+      "date": "2026-09-06",
+      "scraped_date": "2026-09-07",
+      "relative_time": "Yesterday",
+      "region": "Patna",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -1358,7 +1377,7 @@
       "section": "other"
     }
   ],
-  "other_count": 69,
+  "other_count": 70,
   "vertical_counts": {
     "General": 2,
     "CoDED": 0,
@@ -1367,7 +1386,7 @@
     "Corporate_Advisory": 0,
     "Government_Practice": 0
   },
-  "regions_scraped": 13,
+  "regions_scraped": 14,
   "verticals": {
     "General": {
       "label": "General (Cross-Cutting)",
