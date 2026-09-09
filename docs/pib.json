@@ -1,8 +1,67 @@
 {
-  "last_updated": "2026-09-09T01:08:06Z",
-  "last_updated_ist": "09 Sep 2026, 06:38 AM IST",
-  "total": 148,
+  "last_updated": "2026-09-09T05:51:23Z",
+  "last_updated_ist": "09 Sep 2026, 11:21 AM IST",
+  "total": 151,
   "articles": [
+    {
+      "id": "794fcc9190d9c4716f107254cd9d3355",
+      "title": "Prime Minister shares Sanskrit Subhashitam highlighting the value and transformative power of knowledge",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2308127",
+      "date": "2026-09-09",
+      "scraped_date": "2026-09-09",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "72992b8f280d9d1e6dde103d27cb21df",
+      "title": "ASSAM RIFLES PROMOTES WOMEN’S LITERACY AND EMPOWERMENT ON INTERNATIONAL LITERACY DAY",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2308128",
+      "date": "2026-09-09",
+      "scraped_date": "2026-09-09",
+      "relative_time": "Today",
+      "region": "Agartala",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "fa21d2ee63e22165ba1f2ec96677cde4",
+      "title": "Br. MSME-DFO, Itanagar Empowers PM Vishwakarma Artisans through Branding & Marketing Awareness Programme",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2308119",
+      "date": "2026-09-09",
+      "scraped_date": "2026-09-09",
+      "relative_time": "Today",
+      "region": "Itanagar",
+      "verticals": [
+        "ELS"
+      ],
+      "primary_vertical": "ELS",
+      "sub_verticals": [],
+      "tier": "primary",
+      "relevance_score": 10.5,
+      "snippet": "",
+      "full_content": "The Ministry of Micro, Small and Medium Enterprises, Government of India, through the Branch MSME Development and Facilitation Office, Itanagar, organised a one-day awareness programme under the PM Vishwakarma Scheme at DIC Yupia in Papumpare district, Arunachal Pradesh, on 8 September 2026. The workshop was graced by Shri Dasher Taba Aka, DDI (DIC), Shri Vijay Sehrawat, Assistant Director, Branch MSME-DFO, Shri Lindam Rana, President, APM & SIDA, Shri Pradip Das, LDM (SBI), Shri Parma Mahato, Postal Assistant, Smt. Techi Mana, Udyam Mitra, DIC, Yupia and Smt. Anushree Choudhury (SLPMU-PMV).\nThe programme was organised in association with the Department of Industries, Government of Arunachal Pradesh, and the APM&SIDA. It aimed to strengthen the entrepreneurial and marketing capabilities of PM Vishwakarma artisans by providing practical knowledge on product development, branding, market access and the use of emerging digital technologies. The awareness programme was attended by more than 80 participants.\nShri. D.T. Aka inaugurated the session with an overview of the workshop, followed by Shri Lindam Rana shared his local demographics and the entrepreneurial opportunity in Arunachal Pradesh.\nShri. Vijay Sehrawat emphasized on the implementation of PM Vishwakarma and its wide scope in terms of upskilling, entrepreneurial opportunities, trade fairs and exhibitions, technology and innovation, branding, loan and subsidies etc. The participants were further informed about relevant schemes of the Ministry of MSME and the Government of Arunachal Pradesh that may support enterprise growth and market expansion. The workshop also emphasized on inclusion and linkage of Vishwakarma beneficiaries with Social Security schemes. Awareness was also generated regarding export promotion opportunities for products made by PM Vishwakarma beneficiaries.\nSmt. Anushree Choudhury conducted sessions on entrepreneurship, pricing, market trends, sales, financial and digital literacy, packaging, labelling, branding, and e-commerce onboarding. Artisans were introduced to AI tools for product branding, content creation, marketing, and customer engagement. Through practical discussions, participants learned improved packaging, pricing, design, and digital marketing techniques, highlighting how technology and modern business practices can help artisans expand market access and build sustainable enterprises.\nThe programme by Shri. Pradip Das discussed on financial literacy and financial inclusion, covering access to formal banking services and social security measures such as loan application and disbursement process.\nThe workshop also had a brief session on export and DNK services by Shri. Parma Mahato, followed by Udyam Registration, the Udyam Assist Platform and QR-code generation, with the objective of improving the formalisation and digital market readiness of artisans by Smt. Techi Mana.\nThe programme concluded with an interactive question-and-answer session, during which the",
+      "summary": "The Ministry of Micro, Small and Medium Enterprises, Government of India, through the Branch MSME Development and Facilitation Office, Itanagar, organised a one-day awareness programme under the PM Vishwakarma Scheme at DIC Yupia in Papumpare district, Arunachal Pradesh, on 8 September 2026. The workshop was graced by Shri Dasher Taba Aka, DDI (DIC), Shri Vijay Sehrawat, Assistant Director, Branch MSME-DFO, Shri Lindam Rana, President, APM & SIDA, Shri Pradip Das, LDM (SBI), Shri Parma Mahato, Postal Assistant, Smt. The programme was organised in association with the Department of Industries, Government of Arunachal Pradesh, and the APM&SIDA.",
+      "sentiment": "neutral",
+      "section": "vertical"
+    },
     {
       "id": "c3002dcb57d77f7059972004c5c0263c",
       "title": "Prime Minister shares an article on Poshan initiatives and strengthening the Anganwadi system",
@@ -2844,11 +2903,11 @@
       "section": "other"
     }
   ],
-  "other_count": 137,
+  "other_count": 139,
   "vertical_counts": {
     "General": 3,
     "CoDED": 3,
-    "ELS": 2,
+    "ELS": 3,
     "Environmental_Health": 4,
     "Corporate_Advisory": 0,
     "Government_Practice": 3
