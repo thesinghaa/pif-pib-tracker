@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-09-19T01:03:55Z",
-  "last_updated_ist": "19 Sep 2026, 06:33 AM IST",
-  "total": 213,
+  "last_updated": "2026-09-19T05:36:10Z",
+  "last_updated_ist": "19 Sep 2026, 11:06 AM IST",
+  "total": 214,
   "articles": [
+    {
+      "id": "dbd9499102993bc0869f3d78b168df3b",
+      "title": "Ministry of Rural Development to Commence DDU-GKY 2.0 Training Batches Across Most States/UTs from October 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2312317",
+      "date": "2026-09-19",
+      "scraped_date": "2026-09-19",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "e11ef34b3e3b1963946eeea545c4c8b3",
       "title": "PM Vishwakarma completes three years with 30 lakh artisans registered under the scheme",
@@ -4078,7 +4097,7 @@
       "section": "other"
     }
   ],
-  "other_count": 203,
+  "other_count": 204,
   "vertical_counts": {
     "General": 4,
     "CoDED": 2,
