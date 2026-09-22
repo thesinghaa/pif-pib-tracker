@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-09-22T00:38:18Z",
-  "last_updated_ist": "22 Sep 2026, 06:08 AM IST",
-  "total": 104,
+  "last_updated": "2026-09-22T05:52:16Z",
+  "last_updated_ist": "22 Sep 2026, 11:22 AM IST",
+  "total": 105,
   "articles": [
+    {
+      "id": "22394d0519fac8689e4e6115d75eab1e",
+      "title": "Prime Minister shares a Sanskrit Subhashitam, highlighting the journey towards happiness, prosperity, and well-being through righteousness",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2313280",
+      "date": "2026-09-22",
+      "scraped_date": "2026-09-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "f47b31eeeaf1325f15c6cdf8eedb154e",
       "title": "INDIA- MONGOLIA JOINT MILITARY EXERCISE NOMADIC ELEPHANT COMMENCES AT PITHORAGARH",
@@ -1995,7 +2014,7 @@
       "section": "other"
     }
   ],
-  "other_count": 98,
+  "other_count": 99,
   "vertical_counts": {
     "General": 0,
     "CoDED": 2,
