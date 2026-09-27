@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-09-27T00:19:50Z",
-  "last_updated_ist": "27 Sep 2026, 05:49 AM IST",
-  "total": 148,
+  "last_updated": "2026-09-27T06:14:09Z",
+  "last_updated_ist": "27 Sep 2026, 11:44 AM IST",
+  "total": 150,
   "articles": [
+    {
+      "id": "1017168ea8fa57f464eb91e39ceb7eb9",
+      "title": "Two-Day National Conference on Rabi Campaign 2026 to Begin Tomorrow in New Delhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2315470",
+      "date": "2026-09-27",
+      "scraped_date": "2026-09-27",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "b9c45a26181ec46d8a9bf0aa6a7c8f23",
       "title": "Dr Jitendra Singh, Hon’ble Minister for Science & Technology, launched popular science magazines in five Indian languages published by CSIR-NIScPR",
@@ -688,6 +707,25 @@
       "full_content": "",
       "summary": "",
       "sentiment": "up",
+      "section": "other"
+    },
+    {
+      "id": "b454bd3b6e711021a5b126e5010dc649",
+      "title": "Prime Minister congratulates Sawan Barwal on winning historic Silver medal in Men’s Marathon at Asian Games",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2315463",
+      "date": "2026-09-26",
+      "scraped_date": "2026-09-27",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
       "section": "other"
     },
     {
@@ -2837,7 +2875,7 @@
       "section": "other"
     }
   ],
-  "other_count": 141,
+  "other_count": 143,
   "vertical_counts": {
     "General": 5,
     "CoDED": 0,
