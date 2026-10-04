@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-03T22:51:09Z",
-  "last_updated_ist": "04 Oct 2026, 04:21 AM IST",
-  "total": 117,
+  "last_updated": "2026-10-04T02:30:13Z",
+  "last_updated_ist": "04 Oct 2026, 08:00 AM IST",
+  "total": 118,
   "articles": [
     {
       "id": "e42fbe11d3e94a66839387e1dbc03193",
@@ -663,6 +663,25 @@
       "scraped_date": "2026-10-04",
       "relative_time": "Yesterday",
       "region": "Bhopal",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "b7424244591b1f1219c2767f737d4b4f",
+      "title": "Central Bureau of Narcotics (CBN) Rajasthan Unit observes National Anti-Drug Addiction Day with awareness programmes and cleanliness campaigns across opium cultivation areas on the birth anniversary of the Father of the Nation Shri Mohandas Karamchand Gandhi",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2318810",
+      "date": "2026-10-03",
+      "scraped_date": "2026-10-04",
+      "relative_time": "Yesterday",
+      "region": "Delhi",
       "verticals": [],
       "primary_vertical": "",
       "sub_verticals": [],
@@ -2243,7 +2262,7 @@
       "section": "other"
     }
   ],
-  "other_count": 112,
+  "other_count": 113,
   "vertical_counts": {
     "General": 4,
     "CoDED": 1,
