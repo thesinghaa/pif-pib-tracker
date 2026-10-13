@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-13T19:54:31Z",
-  "last_updated_ist": "14 Oct 2026, 01:24 AM IST",
-  "total": 159,
+  "last_updated": "2026-10-13T23:47:12Z",
+  "last_updated_ist": "14 Oct 2026, 05:17 AM IST",
+  "total": 160,
   "articles": [
     {
       "id": "ac80f1982796b94b9db2b7ee0fc310fa",
@@ -1473,6 +1473,25 @@
       "summary": "On the second day of 8-day exhibition on \"12 Years of Government\" organised at Katra by Central Bureau of Communication, Sh Kuldeep Raj Dubey, MLA Reasi said that the country under the leadership of Prime Minister Sh Narendra Modi has reached unprecedented heights of progress across sectors. He said that transformative changes taking place in the country and in the region provide new opportunities to the youth to further scale new heights in their career and contribute to the PM's vision of Viksit Bhart 2047. The 8 day multimedia exhibition organized by the Central Bureau of Communication (CBC), Jammu, Ministry of Information and Broadcasting, Government of India on its second day focussed on rural development, agricultural innovation, healthcare, tuberculosis awareness, and anti-drug initiatives.",
       "sentiment": "neutral",
       "section": "vertical"
+    },
+    {
+      "id": "9e05a1d7fe8c27c87edfbdec3c689007",
+      "title": "HNLU Plans ₹30-Crore International Arbitration and Mediation Institute",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2322908",
+      "date": "2026-10-13",
+      "scraped_date": "2026-10-14",
+      "relative_time": "Yesterday",
+      "region": "Raipur",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
     },
     {
       "id": "0b6dffcbe9ac3ff305cdc782e98967cd",
@@ -3039,7 +3058,7 @@
       "section": "other"
     }
   ],
-  "other_count": 154,
+  "other_count": 155,
   "vertical_counts": {
     "General": 3,
     "CoDED": 1,
