@@ -1,12 +1,50 @@
 {
-  "last_updated": "2026-10-12T23:37:16Z",
-  "last_updated_ist": "13 Oct 2026, 05:07 AM IST",
-  "total": 110,
+  "last_updated": "2026-10-13T04:46:26Z",
+  "last_updated_ist": "13 Oct 2026, 10:16 AM IST",
+  "total": 112,
   "articles": [
     {
       "id": "ac80f1982796b94b9db2b7ee0fc310fa",
       "title": "Union Minister Jyotiraditya M. Scindia Interacts with Students at Mizoram University",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2322586",
+      "date": "2026-10-13",
+      "scraped_date": "2026-10-13",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "d2dc9249fbc9510ac943999ed7351ba3",
+      "title": "Prime Minister offers prayers to Maa Chandraghanta during Navratri",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2322599",
+      "date": "2026-10-13",
+      "scraped_date": "2026-10-13",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "dcb8873e176c0314b4fb150be755cfc8",
+      "title": "Prime Minister shares Sanskrit Subhashitam highlighting the divine power and grace of the Goddess",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2322597",
       "date": "2026-10-13",
       "scraped_date": "2026-10-13",
       "relative_time": "Today",
@@ -2100,7 +2138,7 @@
       "section": "other"
     }
   ],
-  "other_count": 108,
+  "other_count": 110,
   "vertical_counts": {
     "General": 1,
     "CoDED": 1,
