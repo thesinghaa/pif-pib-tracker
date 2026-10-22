@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-10-22T00:34:31Z",
-  "last_updated_ist": "22 Oct 2026, 06:04 AM IST",
-  "total": 119,
+  "last_updated": "2026-10-22T05:52:06Z",
+  "last_updated_ist": "22 Oct 2026, 11:22 AM IST",
+  "total": 121,
   "articles": [
+    {
+      "id": "d2c1e3f7cf70b2b784d627c5a043b7ca",
+      "title": "Fisheries Investors & Exporters Conclave 2026 to Focus on Investment, Value Addition and Export Opportunities in Inland Fisheries",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2326360",
+      "date": "2026-10-22",
+      "scraped_date": "2026-10-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "61ddb1b1b34cc14e1e912a67bb8e5dba",
+      "title": "Prime Minister shares a Sanskrit Subhashitam, highlighting the importance of humility and continuous learning",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2326359",
+      "date": "2026-10-22",
+      "scraped_date": "2026-10-22",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "42bc5f15f60e0f76e4175cacfb6a40c8",
       "title": "Prime Minister shares an article by Union Ministers Shri Pralhad Joshi and Shri Shivraj Singh Chouhan highlighting the potential of agrivoltaics to boost farmers' incomes and advance rural prosperity",
@@ -2269,7 +2307,7 @@
       "section": "other"
     }
   ],
-  "other_count": 118,
+  "other_count": 120,
   "vertical_counts": {
     "General": 0,
     "CoDED": 0,
