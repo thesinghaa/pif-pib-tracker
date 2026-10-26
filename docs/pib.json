@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-10-26T01:07:28Z",
-  "last_updated_ist": "26 Oct 2026, 06:37 AM IST",
-  "total": 67,
+  "last_updated": "2026-10-26T05:51:19Z",
+  "last_updated_ist": "26 Oct 2026, 11:21 AM IST",
+  "total": 69,
   "articles": [
+    {
+      "id": "b7e5aec6afc99decd005e03d9b0990f3",
+      "title": "Prime Minister extends greetings on the occasion of Maharishi Valmiki Jayanti",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2328310",
+      "date": "2026-10-26",
+      "scraped_date": "2026-10-26",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "484a6e1ba1c5431ce8b75ba001421608",
+      "title": "Hindi Poetry Writing Competition - Winners Announced",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2328322",
+      "date": "2026-10-26",
+      "scraped_date": "2026-10-26",
+      "relative_time": "Today",
+      "region": "Thiruvananthapuram",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "8535495fb5e6f1b4bd986b99a33eed61",
       "title": "Ramsar Sites in India",
@@ -1279,7 +1317,7 @@
       "section": "other"
     }
   ],
-  "other_count": 66,
+  "other_count": 68,
   "vertical_counts": {
     "General": 0,
     "CoDED": 0,
