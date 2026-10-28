@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-10-27T23:37:32Z",
-  "last_updated_ist": "28 Oct 2026, 05:07 AM IST",
-  "total": 170,
+  "last_updated": "2026-10-28T03:18:33Z",
+  "last_updated_ist": "28 Oct 2026, 08:48 AM IST",
+  "total": 171,
   "articles": [
+    {
+      "id": "b5297fffe54bb338435ba97dbfcf8236",
+      "title": "Union Government deputes High-Level Central Team to Investigate Death of Cheetah due to Firearm Pellet Injuries in Madhya Pradesh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2329277",
+      "date": "2026-10-28",
+      "scraped_date": "2026-10-28",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "08374e2f6e5bbc4c658a9eb198ed2714",
       "title": "DPIIT Advances Trust-Based Governance Through Startup Support, Regulatory Reforms and Digital Single-Window Clearances",
@@ -3254,7 +3273,7 @@
       "section": "other"
     }
   ],
-  "other_count": 161,
+  "other_count": 162,
   "vertical_counts": {
     "General": 2,
     "CoDED": 1,
