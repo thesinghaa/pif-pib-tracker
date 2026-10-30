@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-10-29T23:58:42Z",
-  "last_updated_ist": "30 Oct 2026, 05:28 AM IST",
-  "total": 176,
+  "last_updated": "2026-10-30T03:44:46Z",
+  "last_updated_ist": "30 Oct 2026, 09:14 AM IST",
+  "total": 177,
   "articles": [
+    {
+      "id": "680d1fd41d75a5d5d189575521f314d0",
+      "title": "Fisheries Sector Looks Beyond Production: Fish Value Addition Enterprises and Mobile Marketing Set to Transform High-Value India’s Blue Economy",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2330291",
+      "date": "2026-10-30",
+      "scraped_date": "2026-10-30",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "68b9dc8faa00874142cec9afc5097448",
       "title": "India Leads Globally with Green Hydrogen Offtake Commitments Exceeding 5.5 Lakh MTPA Till October 2026",
@@ -3381,7 +3400,7 @@
       "section": "other"
     }
   ],
-  "other_count": 162,
+  "other_count": 163,
   "vertical_counts": {
     "General": 2,
     "CoDED": 2,
