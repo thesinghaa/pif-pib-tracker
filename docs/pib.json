@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-11-01T23:33:59Z",
-  "last_updated_ist": "02 Nov 2026, 05:03 AM IST",
-  "total": 122,
+  "last_updated": "2026-11-02T03:36:27Z",
+  "last_updated_ist": "02 Nov 2026, 09:06 AM IST",
+  "total": 123,
   "articles": [
+    {
+      "id": "904fd4b7d13e501c53b207784b9eb8e7",
+      "title": "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331374",
+      "date": "2026-11-02",
+      "scraped_date": "2026-11-02",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "86fd0d5407732b82a3183ff0abfaf9c0",
       "title": "Prime Minister extends greetings to the people of Tamil Nadu on Tamil Nadu Day",
@@ -2337,7 +2356,7 @@
       "section": "other"
     }
   ],
-  "other_count": 116,
+  "other_count": 117,
   "vertical_counts": {
     "General": 1,
     "CoDED": 0,
