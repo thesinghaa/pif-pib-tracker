@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-11-02T21:16:30Z",
-  "last_updated_ist": "03 Nov 2026, 02:46 AM IST",
-  "total": 138,
+  "last_updated": "2026-11-03T03:22:14Z",
+  "last_updated_ist": "03 Nov 2026, 08:52 AM IST",
+  "total": 139,
   "articles": [
+    {
+      "id": "b90877c8b8aa3a9526e043ecfe25ed5d",
+      "title": "Prime Minister shares a Sanskrit Subhashitam, highlighting the importance of a disciplined speech and mind, austerity, self-sacrifice, and truthfulness",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2331869",
+      "date": "2026-11-03",
+      "scraped_date": "2026-11-03",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "904fd4b7d13e501c53b207784b9eb8e7",
       "title": "Hon’ble Union Minister Shri Rajiv Ranjan Singh to Visit Gangtok and Mangan Districts of Sikkim on 2–3 November 2026",
@@ -2648,7 +2667,7 @@
       "section": "other"
     }
   ],
-  "other_count": 128,
+  "other_count": 129,
   "vertical_counts": {
     "General": 1,
     "CoDED": 1,
