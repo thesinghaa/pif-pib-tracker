@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-11-05T21:53:25Z",
-  "last_updated_ist": "06 Nov 2026, 03:23 AM IST",
-  "total": 164,
+  "last_updated": "2026-11-06T02:06:36Z",
+  "last_updated_ist": "06 Nov 2026, 07:36 AM IST",
+  "total": 165,
   "articles": [
+    {
+      "id": "dc723f21f900c61ed1556e9bda411ce7",
+      "title": "Hon’ble Union Minister Shri Rajiv Ranjan Singh Releases Publication Titled “Minimum Standard Protocol for Semen Production and Standard Operating Procedures for Artificial Insemination using Liquid Semen in Pigs” to Accelerate Genetic Improvement and Enhance Livelihoods, Especially in North-East India",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2333399",
+      "date": "2026-11-06",
+      "scraped_date": "2026-11-06",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "6716e8bb32e7cc0aebcc34e4ada22cee",
       "title": "NRAA, ICAR-NBSS&LUP and DoLR Organise National-Level Consultation to Strengthen Science-Based Watershed Management",
@@ -3149,7 +3168,7 @@
       "section": "other"
     }
   ],
-  "other_count": 153,
+  "other_count": 154,
   "vertical_counts": {
     "General": 4,
     "CoDED": 0,
