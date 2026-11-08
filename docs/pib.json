@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-11-07T23:27:40Z",
-  "last_updated_ist": "08 Nov 2026, 04:57 AM IST",
-  "total": 101,
+  "last_updated": "2026-11-08T03:34:09Z",
+  "last_updated_ist": "08 Nov 2026, 09:04 AM IST",
+  "total": 102,
   "articles": [
+    {
+      "id": "ec6ba53d36be5b8acbe2a57d0d3779ff",
+      "title": "Prime Minister conveys Diwali greetings to all citizens",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334060",
+      "date": "2026-11-08",
+      "scraped_date": "2026-11-08",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "7b22f47ea2316c2bdd78f723a9ec6637",
       "title": "Exposure visits Programme on “Cooperative Business Model including MSCS Act 2002 for the officials of CRCS, CEA and Cooperative Ombudsman” from 27th Oct. to 30th Oct. 2026 at VAMNICOM, Pune",
@@ -1946,7 +1965,7 @@
       "section": "other"
     }
   ],
-  "other_count": 94,
+  "other_count": 95,
   "vertical_counts": {
     "General": 5,
     "CoDED": 3,
