@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-11-12T00:04:11Z",
-  "last_updated_ist": "12 Nov 2026, 05:34 AM IST",
-  "total": 117,
+  "last_updated": "2026-11-12T05:08:00Z",
+  "last_updated_ist": "12 Nov 2026, 10:38 AM IST",
+  "total": 119,
   "articles": [
+    {
+      "id": "9f71d039766bc88a91702cb69be533ee",
+      "title": "Prime Minister shares a Sanskrit Subhashitam, highlighting the selfless devotion of noble people to the welfare of others",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335272",
+      "date": "2026-11-12",
+      "scraped_date": "2026-11-12",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "a607a02a117e91492158559e6ed03bad",
       "title": "Bureau of Energy Efficiency Organises Webinar and Undertakes Various Awareness Activities During BRICS Sustainable Lifestyle Week 2026",
@@ -1151,6 +1170,25 @@
       "section": "other"
     },
     {
+      "id": "d866c6a9c565162da878f609d79e2c07",
+      "title": "Governor Indra Sena Reddy Nallu, inaugurated the AIU East Zone Inter-University Basketball Tournament",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2335281",
+      "date": "2026-11-11",
+      "scraped_date": "2026-11-12",
+      "relative_time": "Yesterday",
+      "region": "Agartala",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "up",
+      "section": "other"
+    },
+    {
       "id": "b8182279cfb576d63eea6dfa3b92d3a0",
       "title": "NLMC Releases RFP for E-Auction of 11 Government Residential Flats Across Three Prime Locations in Prayagraj",
       "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2334601",
@@ -2239,7 +2277,7 @@
       "section": "other"
     }
   ],
-  "other_count": 113,
+  "other_count": 115,
   "vertical_counts": {
     "General": 0,
     "CoDED": 3,
@@ -2248,7 +2286,7 @@
     "Corporate_Advisory": 0,
     "Government_Practice": 1
   },
-  "regions_scraped": 18,
+  "regions_scraped": 19,
   "verticals": {
     "General": {
       "label": "General (Cross-Cutting)",
