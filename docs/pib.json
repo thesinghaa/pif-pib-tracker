@@ -1,8 +1,27 @@
 {
-  "last_updated": "2026-11-14T23:42:53Z",
-  "last_updated_ist": "15 Nov 2026, 05:12 AM IST",
-  "total": 119,
+  "last_updated": "2026-11-15T04:01:27Z",
+  "last_updated_ist": "15 Nov 2026, 09:31 AM IST",
+  "total": 120,
   "articles": [
+    {
+      "id": "1e8938b7f68347912e40d4f368f94e90",
+      "title": "Sacred Relics of Shakyamuni Buddha Arrive at Golden Pagoda, Namsai, Marking the Final Phase of Exposition in Arunachal Pradesh",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2336418",
+      "date": "2026-11-15",
+      "scraped_date": "2026-11-15",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "110bbbd1b734e345dd8ee9e8c780761a",
       "title": "DRI seizes 10.8 kg amphetamine concealed in postal parcel from Europe foiling a syndicate's attempt to misuse legitimate postal trade channels",
@@ -2274,7 +2293,7 @@
       "section": "other"
     }
   ],
-  "other_count": 115,
+  "other_count": 116,
   "vertical_counts": {
     "General": 1,
     "CoDED": 0,
