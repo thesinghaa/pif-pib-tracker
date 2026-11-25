@@ -1,8 +1,46 @@
 {
-  "last_updated": "2026-11-24T21:55:11Z",
-  "last_updated_ist": "25 Nov 2026, 03:25 AM IST",
-  "total": 107,
+  "last_updated": "2026-11-25T04:53:10Z",
+  "last_updated_ist": "25 Nov 2026, 10:23 AM IST",
+  "total": 109,
   "articles": [
+    {
+      "id": "8cdaaadf15eec2ec46be0ec1ae62d0b0",
+      "title": "Kashi Tamil Sangamam 5.0",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341040",
+      "date": "2026-11-25",
+      "scraped_date": "2026-11-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
+    {
+      "id": "ee496791eca521edfbab207c39a0c785",
+      "title": "PM shares a Sanskrit Subhashitam highlighting the path to supreme spiritual attainment",
+      "url": "https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2341039",
+      "date": "2026-11-25",
+      "scraped_date": "2026-11-25",
+      "relative_time": "Today",
+      "region": "Delhi",
+      "verticals": [],
+      "primary_vertical": "",
+      "sub_verticals": [],
+      "tier": "drop",
+      "relevance_score": 0,
+      "snippet": "",
+      "full_content": "",
+      "summary": "",
+      "sentiment": "neutral",
+      "section": "other"
+    },
     {
       "id": "1e9170ebca6c26c97db0ea6bee8db7a0",
       "title": "India’s Space Economy Set for a Massive Leap to USD 40–45 billion as Private Sector Rewrites Growth Story: Dr. Jitendra Singh",
@@ -2047,7 +2085,7 @@
       "section": "other"
     }
   ],
-  "other_count": 103,
+  "other_count": 105,
   "vertical_counts": {
     "General": 1,
     "CoDED": 1,
